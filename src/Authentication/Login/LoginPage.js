@@ -26,6 +26,7 @@ import { DialogActions } from '@mui/material';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+
 import './Login.css'
 
 
@@ -99,8 +100,11 @@ class LoginPage extends Component{
       <div className='career' >
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={0}>
-          <Grid item lg={3.5} md={2.5} sm={2.4}  > </Grid>
-          <Grid item lg={5.2} md={7.5} sm={7.6} >
+          <Grid item lg={3} md={2.5} sm={2.4}  > 
+          
+          </Grid>
+  
+          <Grid item lg={5} md={7.5} sm={7.6} >
             <Item id='card'>          
 
               
@@ -165,9 +169,10 @@ class LoginPage extends Component{
        <br/>
        <br/>
 
-                <p className='pop'>Don't have an account?&nbsp;&nbsp;&nbsp;<Link to="/userprofile" style={{color:'blue'}}>Sign Up </Link>   </p>
+                <p className='pop'>Don't have an account?&nbsp;&nbsp;&nbsp;<Link to="/userprofile" style={{color:'#23BDB8'}}>Sign Up </Link>   </p>
             
-          
+      
+         
               <Dialog
             open={this.state.open}
             onClose={this.handleClose}
@@ -186,21 +191,47 @@ class LoginPage extends Component{
               </Button>
             </DialogActions>
           </Dialog>
+  
+
+
 
             </Item>
+          
           </Grid>
+          
+
+          
         </Grid>
 
 </Box>
 
     </div>
 
+ 
 
 
 
 
 
-    <div className='career1' >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className='career1' >
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={0}>
       

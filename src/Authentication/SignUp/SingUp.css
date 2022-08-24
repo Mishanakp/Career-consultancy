@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    overflow-x: hidden;
+  }
+  
+
+  .singin{display: block;
+    text-align: left;
+    padding-top: 110px;
+   
+    padding-left: 120px;
+    padding-right: 120px;
+    
+  }
+
+  #cardpaddingsign {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    
+}
+#input-with-icon-textfield1{width: 350px;}
+
+
+.signupbtn{ background: #23BDB8 !important;
+    width: 410px;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+    }
+
+    .singinimg{
+       height: 600px;
+    }
+
+    .loginlink{font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        padding-top: 10px;
+        
+    }
+
+    .loginlink1{font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        padding-top: 10px;}
+
+        .required{color: red;}

@@ -1,223 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
   }
-  .career1{display: none;}
-.career{
-
-    padding-top: 100px;
-    background-image: url("C:\Users\ANU\websoullabs\src\Asset\abstract-shapes-minimalism-blue-background-wallpaper.jpg");
- 
-    min-height: 100vh;
-    background-size: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  
+  .logincard769{
+    display: none
+   }
+  
+  .login{display: block;
+    text-align: left;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 120px;
+    padding-right: 120px;
     
-    width: 100%;
-    height: 100%;}
+  }
+  .username{
+    text-align: left !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 1px;}
+   
+    /*text field width*/
+#input-with-icon-textfield{width: 350px;  }
+/*top padding*/
+.css-1rv3ei8-MuiFormControl-root-MuiTextField-root {
+  margin-top: 0px !important;
+  }
+
+  #login2{
+    background-color: #F5FFFA; 
     
   
+  }
 
-
-
-
-
-
-
+  #cardpadding {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
     
-
-    .css-10f0l67-MuiPaper-root-MuiAppBar-root {height: 65px;
- 
-    }
-      .weblogo{width: 100px;
-      height: 60px;
-      padding-left: 30px;
-      transform: translateY(1px);
-      }
-      
-      
-      /**********************************************************************************************/
-    
-.username{text-align: left !important;
-/*padding-left: 150px;*/
-font-weight: 500;
-font-size: 1.2rem;
-font-family: 'Poppins', sans-serif !important;}
+}
+#use{margin-top: 20px;}
 
 #button{background-color:#23BDB8 !important;
-width: 410px;
-height: 56px;
-font-family: 'Poppins', sans-serif;
-margin-top: 30px !important;
+  width: 410px !important;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px !important;
+  
+  background:  #23BDB8;
+  font-size: 1.2rem;
+  /*border-radius: 100px;*/
+  }
 
-background: #23BDB8;
-font-size: 1.2rem;
-/*border-radius: 100px;*/
-}
 
   .pop{font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     
 }
- 
-/*top padding*/
-.css-1rv3ei8-MuiFormControl-root-MuiTextField-root {
-margin-top: 0px !important;
-}
+.loginimg{height: 650px;}
 
-/*#use{padding-top: 80px!important;}*/
-/*text field width*/
-#input-with-icon-textfield{width: 350px;}
-#card{
-  text-align: left;
-  padding-top: 110px;
-  padding-bottom: 110px;
-  padding-left: 120px;
-  padding-right: 110px;
-
-}
-
-
-
-
-
-
-
-/*************************************1024***************************************************************/
-@media screen and (max-width:1025px) {
-  .username {
-    text-align: left !important;
-    padding-left: 10px;
-    font-weight: 500;
-    font-size: 1rem;
-    color: gray;
-}
-
-.career{
-
-  padding-top: 170px;
+.pop1{font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+padding-top: 15px;
   
 }
+.go{
+  padding-left: 100px;
+}
+.face{
+  padding-left: 100px;
+}
 
+/**********************************************************/
+@media screen and (max-width:1025px){
 
-
-#button{background-color:rgba(75, 165, 225, 0.81) !important;
-  width: 410px;
-  height: 56px;
-  margin-top: 30px !important;
-  }
-
-  #card{
+    
+  .login{
     text-align: left;
-    padding-top: 110px;
-    padding-bottom: 110px;
-    padding-left: 115px;
-    padding-right: 110px;
-  
-  }
-  
-}
-/************************************************769****************************************************/
-@media screen and (max-width:769px) {
-  .career{
-
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     
   }
 
-  #card{
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+  .loginimg{height: 500px;}
+  #login2{
+    background-color: #F5FFFA; 
+    height: 500px;
   
   }
+  .username{
+    text-align: left !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 1px;}
+  #input-with-icon-textfield{width: 300px;  }
 
-
-  #button{background-color:rgba(75, 165, 225, 0.81) !important;
-    width: 385px;
+  #button{background-color:#23BDB8 !important;
+    width: 350px !important;
     height: 56px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px !important;
+    
+    background:  #23BDB8;
+    font-size: 1.2rem;
+    /*border-radius: 100px;*/
     }
+
+
+    #cardpadding {
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      
+  }
+  
 }
 
 
-@media screen and (max-width:426px) {
- 
-  
-  #card{
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-  
-  }
-
-  /*button*/
-  #button{background-color:rgba(75, 165, 225, 0.81) !important;
-    width: 300px;
-    height: 56px;
-    margin-top: 30px !important;
-    }
-
-    /*text field width*/
-#input-with-icon-textfield{width: 240px;}
-
-
-#card{
-  text-align: left;
-  padding-top: 23px;
-  padding-bottom: 23px;
-  padding-left: 24px;
-  padding-right: 20px;
-transform: translateX(35px);
-
-}
-
-.career{display: none;}
-.career1{
-display: block;
-  padding-top: 100px;
-  background-image: url("C:\Users\ANU\websoullabs\src\Asset\abstract-shapes-minimalism-blue-background-wallpaper.jpg");
-
-  min-height: 84vh;
-  background-size: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  width: 100%;
-  height: 100%;}
-
+@media screen and (max-width:769px){
+  .login{display: none}
  
   
 
-}
-
-
-/****************************375*****************************/
-@media screen and (max-width:376px) {
-    /*button*/
-    #button{background-color:rgba(75, 165, 225, 0.81) !important;
-      width: 265px;
-      height: 56px;
-      margin-top: 30px !important;
-      }
-      /*text field width*/
-#input-with-icon-textfield{width: 200px;}
-}
-     
-@media screen and (max-width:321px) {
-    /*button*/
-    #button{background-color:rgba(75, 165, 225, 0.81) !important;
-      width: 215px;
-      height: 56px;
-      margin-top: 30px !important;
-      }
-      /*text field width*/
-#input-with-icon-textfield{width: 150px;}
+#logintab769{
+  padding-left: 100px;
+  padding-right: 100px;
   
 }
-     
+.logincard769{
+ display: block;
+}
+#loginbody769{
+  background-color: #F5FFFA;
+}
+.logimg76{
+  background-color: #F5FFFA;
+  
+}
+
+.username{
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 1px;
+  padding-left: 90px;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif !important;
+padding-bottom: 1px;}
+
+
+.pop{font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 100px;
+}
+}
