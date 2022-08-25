@@ -1,12 +1,13 @@
 import React from 'react'
-import LoginPage from './LoginPage'
-import Lo from './Lo'
+
+
+import Loginsection from './Loginsection'
 
 function Login() {
   return (
     <div>Login
    
-      <Lo/>
+      <Loginsection/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ import ed from '../../Assets/ed.png'
 
 
 
-class Lo extends Component{
+class Loginsection extends Component{
 
 
 
@@ -289,4 +289,4 @@ class Lo extends Component{
     );
 }
 }
- export default Lo;
+ export default Loginsection ;

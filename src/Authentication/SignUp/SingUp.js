@@ -4,9 +4,9 @@ import Singuppage from './Singuppage';
 function SingUp() {
   return (
     <div>
-      SignUp
       <Singuppage/>
-      <Link to="/userprofile" >userprofile</Link>
+     
+      
     </div>
   )
 }

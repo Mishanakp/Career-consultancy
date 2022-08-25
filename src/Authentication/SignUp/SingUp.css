@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     overflow-x: hidden;
+    background-color: white;
   }
   
-
+.singincard769{display: none;}
   .singin{display: block;
     text-align: left;
     padding-top: 110px;
@@ -18,6 +19,7 @@ body{
     padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 10px;
+    
     
 }
 #input-with-icon-textfield1{width: 350px;}
@@ -34,9 +36,9 @@ body{
     }
 
     .singinimg{
-       height: 600px;
+       height: 690px;
     }
-
+#singin22{background-color: #F5FFFA;}
     .loginlink{font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
         padding-top: 10px;
@@ -44,7 +46,173 @@ body{
     }
 
     .loginlink1{font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        padding-top: 10px;}
+        font-size: .9rem;
+        padding-top: 10px;
+      padding-bottom: 50px;}
 
-        .required{color: red;}
+        .required{color:gray;
+          font-size: .9rem;
+        
+      }
+
+/*******************************************1025******************************************************/
+
+@media screen and (min-width:768px) and (max-width:1025px){
+  #input-with-icon-textfield1{width: 300px;  }
+
+
+  .singin {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+
+.singinimg {
+  height: 720px;
+}
+#input-with-icon-textfield1{width: 300px;  }
+
+
+.signupbtn{ background: #23BDB8 !important;
+  width: 410px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  }
+
+
+
+  #cardpaddingsign {
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+}
+
+/*********************************************769******/
+@media screen and (min-width:425px)and (max-width:769px){
+  #input-with-icon-textfield1{width: 350px;  }
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  #signuptab769{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+
+  .signupimg769 {
+    height: 500px !important;
+    width: 668px;
+}
+  
+
+}
+
+
+/**********************426*****************************/
+@media screen and (min-width:375px)and (max-width:426px){
+  .singincard769{display: block;}
+  .singin{display: none;}
+  #input-with-icon-textfield1{width: 250px;  }
+  #signuptab769{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+
+  .signupimg769 {
+    height: 400px !important;
+    width: 668px;
+}
+
+
+.signupbtn {
+  background: #23BDB8 !important;
+  width: 300px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+}
+}
+
+
+ /**********************376*****************************/
+ @media screen and (min-width:320px)and (max-width:376px){
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  #signuptab769{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+
+  
+
+#input-with-icon-textfield1 {
+  width: 200px;
+}
+
+.signupbtn {
+  background: #23BDB8 !important;
+  width: 250px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+}
+ 
+  }
+
+
+
+  @media screen and  (max-width:321px){
+    #signuptab769{
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
+
+
+    #input-with-icon-textfield {
+      width: 180px;
+  }
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 230px;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+  }
+    }
+
+
+
+
+        

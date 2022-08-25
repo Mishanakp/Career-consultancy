@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import login from '../../Assets/login.png'
+import ed from '../../Assets/ed.png'
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -15,12 +16,9 @@ import InputAdornment from '@mui/material/InputAdornment';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import EmailIcon from '@mui/icons-material/Email';
 import LockIcon from '@mui/icons-material/Lock';
-import Divider from '@mui/material/Divider';
+
 import './SingUp.css'
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+
 import Checkbox from '@mui/material/Checkbox';
 
 
@@ -67,9 +65,9 @@ function Singuppage() {
         errors.email = "This is not a valid email format!";
       }
       if (!values.password) {
-        errors.password = "Password is required";
+        errors.password = "Password is required ";
     } else if ((values.password.length < 8) ){
-      errors.password = "Password must be 8 or more characters   ";
+      errors.password = "password must contain atleast 8 charater"
     }
     else if(  (!/\d/.test(values.password)))
     {errors.password =" password must contain atleast 1 number";
@@ -108,9 +106,9 @@ function Singuppage() {
       setOpen(false);
     };
   return (
-    <div className="container">
-      {Object.keys(formErrors).length === 0 && isSubmit ? (
-        <div >
+ <div className="container">
+        {Object.keys(formErrors).length === 0 && isSubmit ? (
+    <div>
        
         <Dialog
           open={open}
@@ -132,7 +130,7 @@ function Singuppage() {
              </Link>
           </DialogActions>
         </Dialog>
-      </div>
+    </div>
       ) : (
         <div></div>
       )}
@@ -141,9 +139,9 @@ function Singuppage() {
 
 
 
-      <div>
+     
          <div className='singin'>
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid=""  id='login2'>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid=""  id='singin22'>
                    <div class="uk-card-media-left uk-cover-container uk-first-column ">
                                        
 
@@ -155,7 +153,7 @@ function Singuppage() {
                             
                    <div class="uk-card-body" id='cardpaddingsign'>
 
-                   <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           {/*********************/}
           
           <TextField type="text"
@@ -193,7 +191,7 @@ function Singuppage() {
             variant="outlined" 
             />
                <p className='required'>{formErrors.email}</p>
-   {/*********password************/}
+                {/*********password************/}
   
                <TextField  type="password"
             name="password"
@@ -211,10 +209,10 @@ function Singuppage() {
             }}
             variant="outlined" 
             />
- <p className='required'>{formErrors.password}</p>
+            <p className='required'>{formErrors.password}</p>
  
           
-   {/*******confirmpassword**************/}
+                        {/*******confirmpassword**************/}
 
                <TextField  type="password"
             name="password2"
@@ -231,25 +229,23 @@ function Singuppage() {
             }}
             variant="outlined" 
             />
- <p className='required'>{formErrors.password2}</p>
-    {/**********Mobilenumber***********/}
+               <p className='required'>{formErrors.password2}</p>
+    
    
-        {/*********************/}
+                {/*********************/}
             <button className="signupbtn"  onClick={handleClickOpen}>Submit</button>
             <br/>
             <p className='loginlink'>Already have an account ? &nbsp;&nbsp;&nbsp;<Link to='/login' style={{color:'#23BDB8',fontSize:'1.2rem',fontWeight:600}}>Log In </Link>   </p> 
-            <p className='loginlink1'> <Checkbox {...label} defaultChecked />  By signing up, you agree to our<span style={{color:'#23BDB8'}}>Terms Of Service </span> and acknowledge that you have read our <span style={{color:'#23BDB8'}}>Privacy Policy </span></p>
+            <p className='loginlink1'> <Checkbox {...label} defaultChecked />  By signing up, you agree to our Terms Of Service and acknowledge that you have read our Privacy Policy </p>
           
 
                
 
-            </form>
+        </form>
 
-                    </div>
+         </div>
 
-                           
-           
-                           
+                       
                            
 
                 
@@ -260,11 +256,159 @@ function Singuppage() {
           </div>
           
 
-                
-        </div>
+        
                         
                        
-{/********container***/}
+    {/********container***/}
+
+  <div className="singincard769">
+
+    <div class="uk-child-width-1-1@m" uk-grid id="signuptab769">
+           <div class="uk-card uk-card-default" >
+                   <div class="uk-card-media-top" id="singuptop">
+                               <img src={ed}  alt=""  className="signupimg769"/>
+                    </div>
+              <div class="uk-card-body" id="loginbody769">
+              <form onSubmit={handleSubmit}>
+          {/*********************/}
+          
+          <TextField type="text"
+            name="username"
+            placeholder="Username"
+            id='input-with-icon-textfield1'
+            value={formValues.username}
+            onChange={handleChange} 
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <AccountCircle style={{color:' #23BDB8 '}}/>
+                </InputAdornment>
+              ),
+            }}
+            variant="outlined" />
+            
+            <p className='required'>{formErrors.username}</p>
+
+               {/*********************/}
+             
+               <TextField type="text"
+            name="email"
+            id='input-with-icon-textfield1'
+            placeholder="Email"
+            value={formValues.email}
+            onChange={handleChange}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <EmailIcon style={{color:' #23BDB8 '}}/>
+                </InputAdornment>
+              ),
+            }}
+            variant="outlined" 
+            />
+               <p className='required'>{formErrors.email}</p>
+                {/*********password************/}
+  
+               <TextField  type="password"
+            name="password"
+            placeholder="Password"
+            id='input-with-icon-textfield1'
+           
+            value={formValues.password}
+            onChange={handleChange}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <LockIcon style={{color:' #23BDB8 '}}/>
+                </InputAdornment>
+              ),
+            }}
+            variant="outlined" 
+            />
+            <p className='required'>{formErrors.password}</p>
+ 
+          
+                        {/*******confirmpassword**************/}
+
+               <TextField  type="password"
+            name="password2"
+            id='input-with-icon-textfield1'
+            placeholder="Confirm Password"
+            value={formValues.password2}
+            onChange={handleChange}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <LockIcon style={{color:' #23BDB8 '}}/>
+                </InputAdornment>
+              ),
+            }}
+            variant="outlined" 
+            />
+               <p className='required'>{formErrors.password2}</p>
+    
+   
+                {/*********************/}
+            <button className="signupbtn"  onClick={handleClickOpen}>Submit</button>
+            <br/>
+            <p className='loginlink'>Already have an account ? &nbsp;&nbsp;&nbsp;<Link to='/login' style={{color:'#23BDB8',fontSize:'1.2rem',fontWeight:600}}>Log In </Link>   </p> 
+            <p className='loginlink1'> <Checkbox {...label} defaultChecked />  By signing up, you agree to our Terms Of Service and acknowledge that you have read our Privacy Policy </p>
+          
+
+               
+
+        </form>
+      
+              </div>
+            </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+          
+         
+          
+
+                
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*********************** */}
+
+
+
+
+
   
     </div>
 

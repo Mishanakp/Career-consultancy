@@ -31,11 +31,12 @@ import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
 
 
 
+
 export default function Navigate() {
     return (
         <Router>
             <div>
-                <div><Header/></div>
+               
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
                     
@@ -70,6 +71,19 @@ export default function Navigate() {
 
                    
                     <Route path="/contact" element={<Contact />}></Route>
+
+
+              
+
+
+
+
+
+
+
+
+
+              
                 </Routes>
                 <div><Footer/></div>
             </div>
