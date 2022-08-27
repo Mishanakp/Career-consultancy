@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
     <div>Home</div>
-    <Link to="/signup" >SignUp</Link>
+    
     </>
   )
 }

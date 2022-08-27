@@ -289,7 +289,7 @@ function Singuppage() {
             
             <p className='required'>{formErrors.username}</p>
 
-               {/*********************/}
+               {/*********Email************/}
              
                <TextField type="text"
             name="email"

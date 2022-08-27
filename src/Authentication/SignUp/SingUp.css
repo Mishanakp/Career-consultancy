@@ -79,7 +79,7 @@ body{
 
 
 .signupbtn{ background: #23BDB8 !important;
-  width: 410px;
+  width: 360px;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
@@ -118,7 +118,15 @@ body{
     height: 500px !important;
     width: 668px;
 }
-  
+.signupbtn{ background: #23BDB8 !important;
+  width: 410px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  } 
 
 }
 
