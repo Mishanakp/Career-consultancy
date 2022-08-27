@@ -38,8 +38,7 @@ export default function Navigate() {
                 <div><Header/></div>
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
-                    
-
+                
                     <Route path="/Payment" element={<Payment/>}></Route>
                     <Route path="/login" element={<Login />}></Route>
                     <Route path="/changepassword" element={<ChangePassword />}></Route>

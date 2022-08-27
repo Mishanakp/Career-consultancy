@@ -1,0 +1,159 @@
+span.searchicon{
+    position: absolute;
+    margin-top: 8px; 
+}
+input[type="search"]{
+    border-color: #4a6f8a !important;
+    padding-right: 50px;
+}
+input[type="search"]::placeholder{
+    padding-left: 50px;
+    color: #4a6f8a; 
+} 
+ 
+.button2:hover span.loginIcon{
+    transform: translateX(10px);
+    transition: ease-in .3s;
+}
+.off__canvas{
+    color: white !important; 
+    margin-top:100px;
+    width: 40%; 
+    height: 550px;   
+ }
+ .off__canvasbody{
+    width: 100%;
+   background-color: white; 
+   padding-top: 80px;
+ }
+ button.open__button{
+    margin-left: -30px;
+    margin-top: -5px;
+    border: none;
+    width: 180px;
+     
+ } 
+ul.listNav{
+    list-style: none;
+    color: #4a6f8a !important;
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: right;   
+}
+span.whiteClr,.menuClr{
+   color:#4a6f8a !important;
+}
+li.listItemNav{
+    padding-bottom:0px; 
+    padding-top: 0px;
+    color: #4a6f8a !important;
+}
+.lineNav{
+    background-color:  #23BDB8;
+}
+span.iconNavHome{
+   padding-left: 120px;
+}
+span.iconNavWho{
+    padding-left: 70px;
+ }
+ span.iconNavBook{
+    padding-left: 7px;
+ }
+ span.iconNavCon{
+    padding-left: 30px;
+ }
+ span.iconNavUs{
+    padding-left:75px;
+ }
+
+ @media only screen and (max-width:974px){
+   .buttons1,.button2{
+        display: none;
+    }
+ }
+
+ @media only screen and (min-width:973px){
+    .res_nav{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:430px){
+    button.open__button{
+        margin-left: 200px;  
+        width: 95px;
+        margin-top: -2px;
+    }
+    .off__canvas{  
+        margin-top: 92px;
+        width: 70%;    
+     }
+     ul.listNav{ 
+        font-size: 14px; 
+    } 
+    .search{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:380px){
+    button.open__button{
+        margin-left: 160px;  
+        width: 95px;
+        margin-top: -2px;
+    }
+    .off__canvas{   
+        width: 80%;    
+     }
+     ul.listNav{ 
+        font-size: 12px; 
+    } 
+    span.iconNavHome{
+        padding-left: 130px;
+     }
+     span.iconNavWho{
+         padding-left: 90px;
+      }
+      span.iconNavBook{
+         padding-left: 37px;
+      }
+      span.iconNavCon{
+         padding-left: 50px;
+      }
+      span.iconNavUs{
+         padding-left:85px;
+      }
+ }
+ @media only screen and (max-width:320px){
+    button.open__button{
+        margin-left: 145px;  
+        width: 85px; 
+    }
+    .off__canvas{   
+        width: 100%;    
+     }
+     ul.listNav{ 
+        font-size: 12px; 
+    } 
+    span.iconNavHome{
+        padding-left: 150px;
+     }
+     span.iconNavWho{
+         padding-left: 110px;
+      }
+      span.iconNavBook{
+         padding-left: 57px;
+      }
+      span.iconNavCon{
+         padding-left: 70px;
+      }
+      span.iconNavUs{
+         padding-left:105px;
+      }
+ }
+
+ @media only screen and (min-width:430px){
+    .search2{
+        display: none;
+    }
+ }
+  
