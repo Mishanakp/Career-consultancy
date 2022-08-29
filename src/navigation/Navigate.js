@@ -6,7 +6,7 @@ import Home from '../pages/home/Home'
 import Contact from '../pages/contactus/Contact';
 import Payment from '../Authentication/Payment/Payment';
 import SignUp from "../Authentication/SignUp/SingUp";
-import ChangePassword from '../Authentication/Changepassword/Changepassword'
+import ChangePassword from "../pages/Userdetails/UserProfile/ChangePassword";
 import Login  from '../Authentication/Login/Login';
 import Whoweare from '../pages/Whoweare/Whoweare';
 import Ourconsultants from '../pages/Ourconsultans/OurConsultanssub/Ourconsultants';
@@ -19,6 +19,9 @@ import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
 import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
+import DeleteAccount from "../pages/Userdetails/UserProfile/DeleteAccount";
+
+
 
 
 
@@ -45,7 +48,7 @@ export default function Navigate() {
                     <Route path="/changepassword" element={<ChangePassword />}></Route>
                     <Route path="/signup" element={<SignUp />}></Route>
 
-
+                 
 
 
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
@@ -66,12 +69,12 @@ export default function Navigate() {
                     <Route path="/form" element={<Form/>}></Route>
                    
 
-                    
+                  <Route path="/deleteaccount" element={<DeleteAccount/>}></Route>
 
                    
                     <Route path="/contact" element={<Contact />}></Route>
                 </Routes>
-                <div><Footer/></div>
+             
             </div>
         </Router>
 
