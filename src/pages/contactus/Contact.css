@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@media screen and (max-width: 2000px){
+
+.main{
+  background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
+  height: 200px;
+
+}
+.contenthead{
+transform: translateY(40px);
+}
+.content{
+  transform: translateY(40px);
+}
+.content h3{
+  font-family: 'Poppins', sans-serif;
+
+}
+.content p2{
+  font-family: 'Poppins', sans-serif;
+
+}
+.icons{
+  margin-left: -30px;
+}
+.icons ul li{
+  display: inline-block;
+  padding: 8px;
+}
+
+.contenthead h1{
+  font-size: 35px;
+    font-weight: 650;
+    color:  white;
+    font-family: 'Poppins', sans-serif;
+}
+.message{
+  text-align: left;
+}
+.message h3{
+color: #23BDB8;
+font-size: 24px;
+font-family: 'Poppins', sans-serif;
+margin-left: 6px;
+
+
+}
+.questions{
+  text-align: left;
+}
+.questions h3{
+  color: #23BDB8;
+font-size: 24px;
+font-family: 'Poppins', sans-serif;
+margin-left: 6px;
+}
+.labels{
+  width: 290px;
+}
+.chips{
+  background-color:#23BDB8 ;
+}
+#outlined-textarea{
+
+  width: 570px;
+}
+
+.main p2{
+  color:  white;
+
+}
+.ui.grid{
+  transform: translateY(-50px);
+}
+
+.ui.fluid.card {
+      height: 300px;
+}
+.messagebox{
+  transform: translateX(0px);
+}
+.expand__icon{
+  border: none;
+  background: transparent;
+  color: white;
+  float: right;
+}
+
+.button1 {
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: 1em 2em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-left: 17px;
+}
+.button1 span {
+  position: relative;
+  pointer-events: none;
+}
+.button1::before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #43E794, transparent);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: width .2s ease, height .2s ease;
+}
+.button1:hover::before {
+  --size: 400px;
+}
+.button1:hover{transform: translate(1em,1em);}
+
+.second{
+  display: none;
+}}
+
+.expansion{
+  font-size: 30px;
+color: white;
+}
+
+
+@media screen and (max-width: 1440px){
+  .labels{
+    width: 277px;
+  }
+  #outlined-textarea{
+    width: 545px;
+  }
+}
+@media screen and (max-width: 1025px){
+.firstbox .ui.fluid.card{
+  height: 260px;
+}
+.labels{
+  width: 370px;
+}
+#outlined-textarea{
+  width: 345px;
+}
+.expansion{
+  font-size: 37px!important;
+color: white;
+}
+}
+@media screen and (max-width: 769px){
+  .labels{
+    width: 290px;
+  }
+  #outlined-textarea{
+    width: 260px;
+  }
+  .expansion{
+    font-size: 40px!important;
+  color: white;
+  }
+}
+@media screen and (max-width: 426px){
+  .firstbox{
+    display: none!important;
+  }
+  .second{
+    display: block;
+  }
+  .message3{
+    text-align: left;
+  }
+   .label{
+    width: 338px!important;
+  }
+  #outlined-textarea{
+    width: 310px;
+  }
+  .button1 {
+margin-left: 78px!important;
+  }
+  .expansion{
+    font-size: 30px!important;
+  color: white;
+  }
+  
+  }
+@media screen and (max-width: 376px){
+  .label{
+    width: 300px!important;
+  }
+  #outlined-textarea{
+    width: 273px;
+  }
+  .button1{
+    margin-left: 61px!important;
+  }
+
+}
+
+@media screen and (max-width: 321px){
+  .label{
+    width: 260px!important;
+  }
+  .second .ui.fluid.card{
+    width: 270px;
+  }
+  #outlined-textarea{
+    width: 233px;
+  }
+  .button1{
+    margin-left: 45px!important;
+  }
+}

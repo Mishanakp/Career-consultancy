@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
+// import Footer from "../components/footer/Footer";
+// import Header from "../components/header/Header";
 import Home from '../pages/home/Home'
 import Contact from '../pages/contactus/Contact';
 import Payment from '../Authentication/Payment/Payment';
@@ -35,7 +35,7 @@ export default function Navigate() {
     return (
         <Router>
             <div>
-                <div><Header/></div>
+                {/* <div><Header/></div> */}
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
                     
@@ -71,7 +71,7 @@ export default function Navigate() {
                    
                     <Route path="/contact" element={<Contact />}></Route>
                 </Routes>
-                <div><Footer/></div>
+                {/* <div><Footer/></div> */}
             </div>
         </Router>
 
