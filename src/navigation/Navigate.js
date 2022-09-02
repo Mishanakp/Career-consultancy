@@ -6,7 +6,7 @@ import Home from '../pages/home/Home'
 import Contact from '../pages/contactus/Contact';
 import Payment from '../Authentication/Payment/Payment';
 import SignUp from "../Authentication/SignUp/SingUp";
-import ChangePassword from '../Authentication/Changepassword/Changepassword'
+import ChangePassword from "../pages/Userdetails/UserProfile/ChangePassword";
 import Login  from '../Authentication/Login/Login';
 import Whoweare from '../pages/Whoweare/Whoweare';
 import Ourconsultants from '../pages/Ourconsultans/OurConsultanssub/Ourconsultants';
@@ -18,7 +18,14 @@ import Rescheduleappoinment from '../pages/Userdetails/Rescheduleappoinment/Resc
 import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
-import Booksession from "../pages/Ourconsultans/Booksession/Booksession"; 
+import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
+import DeleteAccount from "../pages/Userdetails/UserProfile/DeleteAccount";
+import Mysessions from "../pages/Userdetails/UserProfile/Mysessions";
+
+
+import Myprofile from "../pages/Userdetails/UserProfile/Profile";
+
+
 import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
 import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
 
@@ -46,8 +53,7 @@ export default function Navigate() {
                     <Route path="/consultantLogin" element={<ConsultantLogin />}></Route>
                     <Route path="/consultantsignup" element={<ConsultantSingUp />}></Route>
 
-
-
+                    
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
 
                     <Route path="/ourconsultans" element={<Ourconsultants/>}></Route>
@@ -65,15 +71,15 @@ export default function Navigate() {
 
                     <Route path="/form" element={<Form/>}></Route>
                    
-
-                    
-
+                    <Route path="/profile" element={<Myprofile/>}></Route>
+                  <Route path="/deleteaccount" element={<DeleteAccount/>}></Route>
+                  <Route path="/session" element={<Mysessions/>}></Route>
                    
                     <Route path="/contact" element={<Contact />}></Route>
 
               
                 </Routes>
-                <div><Footer/></div>
+               <div><Footer/></div>
             </div>
         </Router>
 
