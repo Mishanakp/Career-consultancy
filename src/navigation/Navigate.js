@@ -75,20 +75,9 @@ export default function Navigate() {
                    
                     <Route path="/contact" element={<Contact />}></Route>
 
-
-              
-
-
-
-
-
-
-
-
-
               
                 </Routes>
-                
+                <div><Footer/></div>
             </div>
         </Router>
 
