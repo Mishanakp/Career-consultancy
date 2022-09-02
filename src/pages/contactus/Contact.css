@@ -122,16 +122,15 @@ margin-left: 6px;
 .button1:hover::before {
   --size: 400px;
 }
-.button1:hover{transform: translate(1em,1em);}
 
 .second{
   display: none;
-}}
-
+}
 .expansion{
   font-size: 30px;
 color: white;
-}
+}}
+
 
 
 @media screen and (max-width: 1440px){

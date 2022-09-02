@@ -8,69 +8,16 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import {BiPlus} from 'react-icons/bi'
-import {BiMinus} from 'react-icons/bi'
+
 import {Typography} from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import { useState } from 'react';
 function Contact() {
   
-  const [navbarOpen1, setNavbarOpen1] = useState(false);
-  const closeMenu1 = () => {
-    setNavbarOpen1(false)
-  }
-  const handleToggle1 = () => {
-    setNavbarOpen1(!navbarOpen1)
-  }
-
-
-  const [navbarOpen2, setNavbarOpen2] = useState(false);
-  const closeMenu2 = () => {
-    setNavbarOpen2(false)
-  }
-  const handleToggle2 = () => {
-    setNavbarOpen2(!navbarOpen2)
-  }
-
-
-  const [navbarOpen3, setNavbarOpen3] = useState(false);
-  const closeMenu3 = () => {
-    setNavbarOpen3(false)
-  }
-  const handleToggle3 = () => {
-    setNavbarOpen3(!navbarOpen3)
-  }
-
-
-
-
-
   
-  const [navbarOpen4, setNavbarOpen4] = useState(false);
-  const closeMenu4 = () => {
-    setNavbarOpen4(false)
-  }
-  const handleToggle4 = () => {
-    setNavbarOpen4(!navbarOpen4)
-  }
-  const [navbarOpen5, setNavbarOpen5] = useState(false);
-  const closeMenu5 = () => {
-    setNavbarOpen5(false)
-  }
-  const handleToggle5 = () => {
-    setNavbarOpen5(!navbarOpen5)
-  }
-  const [navbarOpen6, setNavbarOpen6] = useState(false);
-  const closeMenu6 = () => {
-    setNavbarOpen6(false)
-  }
-  const handleToggle6 = () => {
-    setNavbarOpen6(!navbarOpen6)
-  }
    return (
     <div>
 <Box sx={{ flexGrow: 1 }} className="firstbox">
@@ -285,7 +232,7 @@ function Contact() {
 
 <Box sx={{ flexGrow: 1 }} className="second" >
       <Grid container spacing={2}>
-      <Grid item sm={12} xs={12}>
+      <Grid item  xs={12}>
     <div className="main">
       <div className="contenthead">
     <h1>Contact Us</h1>
