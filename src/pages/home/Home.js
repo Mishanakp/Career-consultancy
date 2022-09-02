@@ -1,11 +1,13 @@
 import React from 'react'
-import './Home.css'
+import './Home.css' 
+import HomeContent from './homecontent/HomeContent' 
+ 
 
 function Home() {
   return (
-    <>
-    <div>Home</div>
-    </>
+    <div className='homePage'>
+       <HomeContent />
+    </div>
   )
 }
 

@@ -18,9 +18,9 @@ import Rescheduleappoinment from '../pages/Userdetails/Rescheduleappoinment/Resc
 import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
-import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
-
-
+import Booksession from "../pages/Ourconsultans/Booksession/Booksession"; 
+import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
+import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
 
 
 
@@ -35,16 +35,20 @@ export default function Navigate() {
     return (
         <Router>
             <div>
+<<<<<<< HEAD
                 {/* <div><Header/></div> */}
+=======
+              <div><Header/></div>
+>>>>>>> 2a93fcf31e737620dd89d0fef3faa8b5fd056949
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
-                    
-
+                
                     <Route path="/Payment" element={<Payment/>}></Route>
                     <Route path="/login" element={<Login />}></Route>
                     <Route path="/changepassword" element={<ChangePassword />}></Route>
                     <Route path="/signup" element={<SignUp />}></Route>
-
+                    <Route path="/consultantLogin" element={<ConsultantLogin />}></Route>
+                    <Route path="/consultantsignup" element={<ConsultantSingUp />}></Route>
 
 
 
@@ -70,6 +74,8 @@ export default function Navigate() {
 
                    
                     <Route path="/contact" element={<Contact />}></Route>
+
+              
                 </Routes>
                 {/* <div><Footer/></div> */}
             </div>
