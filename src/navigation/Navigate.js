@@ -20,9 +20,10 @@ import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
 import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
 import DeleteAccount from "../pages/Userdetails/UserProfile/DeleteAccount";
+import Mysessions from "../pages/Userdetails/UserProfile/Mysessions";
 
 
-
+import Myprofile from "../pages/Userdetails/UserProfile/Profile";
 
 
 
@@ -50,7 +51,7 @@ export default function Navigate() {
 
                  
 
-
+                    
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
 
                     <Route path="/ourconsultans" element={<Ourconsultants/>}></Route>
@@ -68,13 +69,13 @@ export default function Navigate() {
 
                     <Route path="/form" element={<Form/>}></Route>
                    
-
+                    <Route path="/profile" element={<Myprofile/>}></Route>
                   <Route path="/deleteaccount" element={<DeleteAccount/>}></Route>
-
+                  <Route path="/session" element={<Mysessions/>}></Route>
                    
                     <Route path="/contact" element={<Contact />}></Route>
                 </Routes>
-             
+               <div><Footer/></div>
             </div>
         </Router>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
-
+import './Userprofile.css'
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -77,6 +77,7 @@ function ChangePassword() {
     const handleClose = () => {
       setOpen(false);
     };
+    
   return (
     <div className='pass'>
 
@@ -90,7 +91,7 @@ function ChangePassword() {
           keepMounted
           onClose={handleClose}
           aria-describedby="alert-dialog-slide-description"
-          id='diadlogbox'
+         
         >
           <DialogTitle>{"Sing in"}</DialogTitle>
           <DialogContent>
@@ -123,7 +124,7 @@ function ChangePassword() {
                 {/*********password************/}
                 <TextField  className='password' type="password"
             name="oldpassword"
-            id='input-with-icon-textfield1'
+           
             placeholder="Old Password"
             
             value={formValues.oldpassword}
@@ -140,7 +141,7 @@ function ChangePassword() {
                <TextField className='password'  type="password"
             name="password"
             placeholder=" New Password"
-            id='input-with-icon-textfield1'
+          
             value={formValues.password}
             onChange={handleChange}
             InputProps={{
@@ -156,7 +157,7 @@ function ChangePassword() {
                         {/*******confirmpassword**************/}
                <TextField className='password'  type="password"
             name="password2"
-            id='input-with-icon-textfield1'
+          
             placeholder="Confirm Password"
             value={formValues.password2}
             onChange={handleChange}
@@ -171,7 +172,7 @@ function ChangePassword() {
             />
                <p className='required'>{formErrors.password2}</p>
                 {/*********************/}
-            <button className="passbutton"  onClick={handleClickOpen}>Save</button>
+            <button className="passbutton"onClick={handleClickOpen} >Save</button>
           
         </form>
          </div>

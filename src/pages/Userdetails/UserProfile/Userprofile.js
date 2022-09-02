@@ -28,6 +28,7 @@ import { Link } from 'react-router-dom';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import DeleteAccount from './DeleteAccount';
+import Mysessions from './Mysessions';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -42,7 +43,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 10 }}>
+        <Box >
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -69,22 +70,23 @@ export default function VerticalTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-  const[openDrawer,setopenDrawer]=useState(false);
+  const[openDrawer,setopenDrawer]=useState(true);
   const [open,setOpen] = useState(false)
+  
   return (
     <div>
     <Box className='box'
       sx={{  display: 'flex', height: 720 }}
     >
        <Grid container>
-       <Grid lg={1.5}md={1.5}>
+       <Grid lg={2}md={1.3}>
       <Tabs
         orientation="vertical"
       className='alltabs'
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor:'divider' , bgcolor: 'background.paper',width:250 }}
+        sx={{ borderRight: 1, borderColor:'divider' , bgcolor: 'background.paper' }}
       >
        
         <Tab  className='tab1' icon={<EventIcon style={{color:'#23BDB8'}} />} iconPosition="start" label="My Sessions" {...a11yProps(0)} />
@@ -102,9 +104,9 @@ export default function VerticalTabs() {
 <Tab></Tab>
       </Tabs>
       </Grid>
-      <Grid lg={9} md={9}>
+      <Grid lg={10} md={10.7}>
       <TabPanel value={value} index={0}>
-   
+  <Mysessions/>
       </TabPanel>
       <TabPanel value={value} index={1}>
      <Viewprofile/>
@@ -115,33 +117,25 @@ export default function VerticalTabs() {
       <TabPanel value={value} index={3}>
        <DeleteAccount/>
       </TabPanel>
-      <TabPanel value={value} index={4}>
-        Item Five
-      </TabPanel>
-      <TabPanel value={value} index={5}>
-        Item Six
-      </TabPanel>
-      <TabPanel value={value} index={6}>
-        Item Seven
-      </TabPanel>
+    
       </Grid>
       </Grid>
     </Box>
     <div className='mobiletab'>
-    <Drawer open={open} onClose={()=>{setOpen(false)}}>
+    <Drawer open={open} onClose={()=>{setOpen(true)}}>
     
     
         <List >
         <ListItemButton>
         <ListItem>
-            <Link to="/changepassword" className='text1'><EventIcon className='icon' style={{color:'#23BDB8'}} />MY SESSION</Link>
+            <Link to="/session" className='text1'><EventIcon className='icon' style={{color:'#23BDB8'}} />MY SESSION</Link>
         </ListItem>
         </ListItemButton>
         </List>
         <List >
         <ListItemButton>
         <ListItem>
-            <Link to="/changepassword" className='text'>< PersonIcon className='icon' style={{color:'#23BDB8'}} />MY PROFILE</Link>
+            <Link to="/profile" className='text'>< PersonIcon className='icon' style={{color:'#23BDB8'}} />MY PROFILE</Link>
         </ListItem>
         </ListItemButton>
         </List>
@@ -174,7 +168,9 @@ export default function VerticalTabs() {
             <IconButton onClick={()=>setOpen(!open)}>
                 <MenuIcon id='menu' ></MenuIcon>
             </IconButton>
-            
+            <div className="view">
+              
+            </div>
        
        
     </div>

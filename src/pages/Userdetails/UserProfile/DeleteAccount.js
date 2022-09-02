@@ -1,6 +1,7 @@
 import React from 'react'
 import {Grid} from '@mui/material'
 import './Userprofile.css'
+
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -17,7 +18,15 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
 import DeleteIcon from '@mui/icons-material/Delete';
+import {Link} from 'react-router-dom'
+import DialogContentText from '@mui/material/DialogContentText';
+import Slide from '@mui/material/Slide';
+
 function DeleteAccount() {
+  const Transition = React.forwardRef(function Transition(props, ref) {
+    return <Slide direction="up" ref={ref} {...props} />;
+  });
+  
   const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     '& .MuiDialogContent-root': {
       padding: theme.spacing(2),
@@ -61,6 +70,14 @@ function DeleteAccount() {
   const handleChange = (event) => {
     setValue(event.target.value);
   };
+  const [open1, setOpen1] = React.useState(false);
+
+  const handleClickOpen1 = () => {
+    setOpen1(true);
+  };
+  const handleClose1 = () => {
+    setOpen1(false);
+  };
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -70,8 +87,29 @@ function DeleteAccount() {
     setOpen(false);
   };
   return (
+    
    
     <div>
+       <Dialog
+          open={open1}
+          TransitionComponent={Transition}
+          keepMounted
+          onClose={handleClose1}
+          aria-describedby="alert-dialog-slide-description"
+          id='diadlogbox'
+        >
+          <DialogTitle>{"Sing in"}</DialogTitle>
+          <DialogContent>
+            <DialogContentText id="alert-dialog-slide-description">
+          Password Updated Successfully
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+          <Link to="/userprofile" >
+            <Button onClick={handleClose1} style={{color:' #23BDB8 '}}>Ok</Button>
+             </Link>
+          </DialogActions>
+        </Dialog>
                 <div className='deletewrap'>
                 <Grid container className='delete'>
             
@@ -88,7 +126,7 @@ function DeleteAccount() {
         onChange={handleChange}
       >
         <FormControlLabel className='labelradio' value="cost" control={<Radio  style={{color:'#23BDB8'}} />} label="Its to costly" />
-        <FormControlLabel className='labelradio' value="another" control={<Radio  style={{color:'#23BDB8'}}/>} label="I found another product that fulfill my needs" />
+        <FormControlLabel className='labelradio' id="labelradio" value="another" control={<Radio  style={{color:'#23BDB8'}}/>} label="I found another product that fulfill my needs" />
         <FormControlLabel className='labelradio' value="enough" control={<Radio  style={{color:'#23BDB8'}}/>} label="I dont use it enough" />
         <FormControlLabel  className='labelradio' value="other" control={<Radio  style={{color:'#23BDB8'}}/>} label="Others" />
 
