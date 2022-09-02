@@ -1,35 +1,35 @@
-.homeCateg{ 
+.prihomeCateg{ 
     padding-bottom: 50px;
 }
-h1.categHead{
+h1.pricategHead{
     font-size: 35px;
     font-weight: 650px;
     color: #4a6f8a; 
 }
 
-.categs{
+.pricategs{
     margin-top: 50px;
     margin-left: 150px;
 }
-.categ1  {
+.pricateg1  {
     max-width: 300px;
     height: 420px;  
 }
  
  
-.categ1:hover {
+.pricateg1:hover {
     transform: translateY(-30px) translateX(10px);
 } 
-.categContent1 {
+.pricategContent1 {
     height: 270px;
     background-color: white;
     margin-top: -10px; 
 }
- h2.categHead1{
+ h2.pricategHead1{
     color: #4A6F8A; 
  }
 
-p.categPara1 {
+p.pricategPara1 {
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -43,37 +43,37 @@ p.categPara1 {
     -moz-hyphens: auto !important;
 }
  
-.categ1:hover p.categPara1 {
+.pricateg1:hover p.pricategPara1 {
     color: white;
     
 } 
-.categ1:hover h2.categHead1 {
+.pricateg1:hover h2.pricategHead1 {
     color: white;
     
 } 
-.categ1:hover .categContent1 {
+.pricateg1:hover .pricategContent1 {
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.categ2  {
+.pricateg2  {
     max-width: 300px;
     height: 420px;  
     margin-left: -20px;
 }
-h2.categHead2{
+h2.pricategHead2{
     color: #4A6F8A; 
  }
  
-.categ2:hover {
+.pricateg2:hover {
     transform: translateY(-30px) translateX(10px);
 } 
-.categContent2 {
+.pricategContent2 {
     height: 270px;
     background-color: white;
     margin-top: -10px; 
 }
  
 
-p.categPara2 {
+p.pricategPara2 {
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -87,37 +87,37 @@ p.categPara2 {
     -moz-hyphens: auto !important;
 }
  
-.categ2:hover p.categPara2 {
+.pricateg2:hover p.pricategPara2 {
     color: white;
     
 }
-.categ2:hover h2.categHead2 {
+.pricateg2:hover h2.pricategHead2 {
     color: white;
     
 } 
-.categ2:hover .categContent2 {
+.pricateg2:hover .pricategContent2 {
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.categ3  {
+.pricateg3  {
     max-width: 300px;
     height: 420px;  
     margin-left: -50px;
 }
  
-h2.categHead3{
+h2.pricategHead3{
     color: #4A6F8A; 
  }
-.categ3:hover {
+.pricateg3:hover {
     transform: translateY(-30px) translateX(10px);
 } 
-.categContent3 {
+.pricategContent3 {
     height: 270px;
     background-color: white;
     margin-top: -10px;
 }
  
 
-p.categPara3 {
+p.pricategPara3 {
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -131,37 +131,37 @@ p.categPara3 {
     -moz-hyphens: auto !important;
 }
  
-.categ3:hover p.categPara3 {
+.pricateg3:hover p.pricategPara3 {
     color: white;
     
 }
-.categ3:hover h2.categHead3 {
+.pricateg3:hover h2.pricategHead3 {
     color: white;
     
 } 
-.categ3:hover .categContent3 {
+.pricateg3:hover .pricategContent3 {
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.categ4  {
+.pricateg4  {
     max-width: 300px;
     height: 420px; 
     margin-top: 50px; 
 }
-h2.categHead4{
+h2.pricategHead4{
     color: #4A6F8A; 
  }
  
-.categ4:hover {
+.pricateg4:hover {
     transform: translateY(-30px) translateX(10px);
 } 
-.categContent4 {
+.pricategContent4 {
     height: 270px;
     background-color: white;
     margin-top: 10px;
 }
  
 
-p.categPara4 {
+p.pricategPara4 {
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -175,38 +175,38 @@ p.categPara4 {
     -moz-hyphens: auto !important;
 }
  
-.categ4:hover p.categPara4 {
+.pricateg4:hover p.pricategPara4 {
     color: white;
     
 }
-.categ4:hover .categContent4 {
+.pricateg4:hover .pricategContent4 {
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.categ4:hover h2.categHead4 {
+.pricateg4:hover h2.pricategHead4 {
     color: white;
     
 } 
-.categ5  {
+.pricateg5  {
     max-width: 300px;
     height: 420px; 
     margin-top: 50px;  
     margin-left: -20px; 
 }
-h2.categHead5{
+h2.pricategHead5{
     color: #4A6F8A; 
  }
  
-.categ5:hover {
+.pricateg5:hover {
     transform: translateY(-30px) translateX(10px);
 } 
-.categContent5 {
+.pricategContent5 {
     height: 270px;
     background-color: white;
     margin-top: -20px;
 }
  
 
-p.categPara5 {
+p.pricategPara5 {
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -220,38 +220,38 @@ p.categPara5 {
     -moz-hyphens: auto !important;
 }
  
-.categ5:hover p.categPara5 {
+.pricateg5:hover p.pricategPara5 {
     color: white;
     
 }
-.categ5:hover h2.categHead5 {
+.pricateg5:hover h2.pricategHead5 {
     color: white;
     
 } 
-.categ5:hover .categContent5 {
+.pricateg5:hover .pricategContent5 {
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.categ6  {
+.pricateg6  {
     max-width: 300px;
     height: 420px; 
     margin-top: 50px; 
     margin-left: -50px; 
 }
-h2.categHead6{
+h2.pricategHead6{
     color: #4A6F8A; 
  }
  
-.categ6:hover {
+.pricateg6:hover {
     transform: translateY(-30px) translateX(10px);
 } 
-.categContent6 {
+.pricategContent6 {
     height: 270px;
     background-color: white;
     margin-top: -10px;
 }
  
 
-p.categPara6 {
+p.pricategPara6 {
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -265,75 +265,75 @@ p.categPara6 {
     -moz-hyphens: auto !important;
 }
  
-.categ6:hover p.categPara6 {
+.pricateg6:hover p.pricategPara6 {
     color: white;
     
 }
-.categ6:hover .categContent6 {
+.pricateg6:hover .pricategContent6 {
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.categ6:hover h2.categHead6 {
+.pricateg6:hover h2.pricategHead6 {
     color: white;
     
 } 
 @media only screen and (max-width:1280px){
-    .categ2  { 
+    .pricateg2  { 
         margin-left: -35px;
     }  
-    .categ3  {  
+    .pricateg3  {  
         margin-left: -70px;
         margin-top: 0px;
     } 
-    .categ4  { 
+    .pricateg4  { 
         margin-top: 50px;
         margin-left: 0px; 
     } 
-    .categ5  { 
+    .pricateg5  { 
         margin-top: 50px;  
         margin-left: -35px; 
     } 
-    .categ6  {  
+    .pricateg6  {  
         margin-top: 50px; 
         margin-left: -70px; 
     } 
 }
 @media only screen and (max-width:1024px){  
-    .categ1  {
+    .pricateg1  {
         max-width: 340px;
         height: 430px;  
     }   
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 290px;
         margin-left: 7px;  
     } 
-    .categ2  {
+    .pricateg2  {
         max-width: 340px;
         height: 430px;  
         margin-left: -40px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 290px; 
     } 
-    .categ3  {
+    .pricateg3  {
         max-width: 340px;
         height: 430px;  
         margin-left: 0px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 290px; 
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 340px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -40px; 
     } 
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 290px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 340px;
         height: 430px; 
         margin-top: 50px;  
@@ -341,10 +341,10 @@ p.categPara6 {
     } 
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 290px; 
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 340px;
         height: 430px; 
         margin-top: 50px; 
@@ -352,322 +352,322 @@ p.categPara6 {
     } 
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 290px; 
     }
 }
 @media only screen and (max-width:912px){
-    .categContent1 {
+    .pricategContent1 {
         height: 280px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ1  {
+    .pricateg1  {
         max-width: 330px;
         height: 430px; 
         margin-left: -50px;  
     }  
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 285px;
         margin-left: 7px;  
     } 
-    .categContent2 {
+    .pricategContent2 {
         height: 280px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ2  {
+    .pricateg2  {
         max-width: 330px;
         height: 430px;  
         margin-left: -50px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 285px;
     } 
-    .categContent3 {
+    .pricategContent3 {
         height: 290px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ3  {
+    .pricateg3  {
         max-width: 330px;
         height: 430px;  
         margin-left: -50px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 285px;
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 330px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -50px; 
     } 
-    .categContent4 {
+    .pricategContent4 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 285px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 330px;
         height: 430px; 
         margin-top: 50px;  
         margin-left: -50px; 
     } 
-    .categContent5 {
+    .pricategContent5 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 285px;
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 330px;
         height: 430px; 
         margin-top: 50px; 
         margin-left: -50px; 
     } 
-    .categContent6 {
+    .pricategContent6 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 285px; 
     }
 }
 @media only screen and (max-width:820px){  
-    .categContent1 {
+    .pricategContent1 {
         height: 280px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ1  {
+    .pricateg1  {
         max-width: 270px;
         height: 430px; 
         margin-left: -40px;  
     }  
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 225px;
         margin-left: 7px;  
     } 
-    .categContent2 {
+    .pricategContent2 {
         height: 280px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ2  {
+    .pricateg2  {
         max-width: 270px;
         height: 430px;  
         margin-left: -50px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 225px; 
     } 
-    .categContent3 {
+    .pricategContent3 {
         height: 290px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ3  {
+    .pricateg3  {
         max-width: 270px;
         height: 430px;  
         margin-left: -40px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 225px; 
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 270px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -40px; 
     } 
-    .categContent4 {
+    .pricategContent4 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 225px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 270px;
         height: 430px; 
         margin-top: 50px;  
         margin-left: -40px; 
     } 
-    .categContent5 {
+    .pricategContent5 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 225px; 
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 270px;
         height: 430px; 
         margin-top: 50px; 
         margin-left: -40px; 
     } 
-    .categContent6 {
+    .pricategContent6 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 225px; 
     }
 }
 @media only screen and (max-width:768px){  
-    .categContent1 {
+    .pricategContent1 {
         height: 280px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ1  {
+    .pricateg1  {
         max-width: 250px;
         height: 430px; 
         margin-left: -40px;  
     }  
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 206px;
         margin-left: 7px;  
     } 
-    .categContent2 {
+    .pricategContent2 {
         height: 280px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ2  {
+    .pricateg2  {
         max-width: 250px;
         height: 430px;  
         margin-left: -40px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 206px; 
     } 
-    .categContent3 {
+    .pricategContent3 {
         height: 290px;
         background-color: white;
         margin-top: -10px; 
     }
-    .categ3  {
+    .pricateg3  {
         max-width: 250px;
         height: 430px;  
         margin-left: -40px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 206px; 
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 250px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -40px; 
     } 
-    .categContent4 {
+    .pricategContent4 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 206px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 250px;
         height: 430px; 
         margin-top: 50px;  
         margin-left: -40px; 
     } 
-    .categContent5 {
+    .pricategContent5 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 206px; 
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 250px;
         height: 430px; 
         margin-top: 50px; 
         margin-left: -40px; 
     } 
-    .categContent6 {
+    .pricategContent6 {
         height: 320px;
         background-color: white;
         margin-top: -10px; 
     }
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 206px; 
     }
 }
 @media only screen and (max-width:430px){  
-    h1.categHead{
+    h1.pricategHead{
         font-size: 30px; 
     }
-    .categ1  {
+    .pricateg1  {
         max-width: 350px;
         height: 430px; 
         margin-left: -110px;  
     }  
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 305px;
         margin-left: 7px;  
     } 
-    .categ2  {
+    .pricateg2  {
         max-width: 350px;
         height: 430px;  
         margin-left: -110px;
         margin-top: 50px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 305px;  
     } 
-    .categ3  {
+    .pricateg3  {
         max-width: 350px;
         height: 430px;  
         margin-left: -110px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 305px; 
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 350px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -110px; 
     } 
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 305px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 350px;
         height: 430px; 
         margin-top: 50px;  
@@ -675,10 +675,10 @@ p.categPara6 {
     } 
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 305px; 
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 350px;
         height: 430px; 
         margin-top: 50px; 
@@ -686,67 +686,67 @@ p.categPara6 {
     } 
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 305px; 
     }
 }
 @media only screen and (max-width:415px){
-    .categ1,.categ2,.categ3,.categ4,.categ5,.categ6  { 
+    .pricateg1,.pricateg2,.pricateg3,.pricateg4,.pricateg5,.pricateg6  { 
         margin-left: -120px;  
     }  
 }
 @media only screen and (max-width:395px){
-    .categ1,.categ2,.categ3,.categ4,.categ5,.categ6  { 
+    .pricateg1,.pricateg2,.pricateg3,.pricateg4,.pricateg5,.pricateg6  { 
         margin-left: -128px;  
     } 
 }
 @media only screen and (max-width:391px){
-    .categ1,.categ2,.categ3,.categ4,.categ5,.categ6  { 
+    .pricateg1,.pricateg2,.pricateg3,.pricateg4,.pricateg5,.pricateg6  { 
         margin-left: -130px;  
     } 
 }
 @media only screen and (max-width:380px){  
-    h1.categHead{
+    h1.pricategHead{
         font-size: 27px; 
     }
-    .categ1  {
+    .pricateg1  {
         max-width: 300px;
         height: 430px; 
         margin-left: -110px;  
     }  
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 253px;
         margin-left: 7px;  
     } 
-    .categ2  {
+    .pricateg2  {
         max-width: 300px;
         height: 430px;  
         margin-left: -110px;
         margin-top: 50px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 253px;  
     } 
-    .categ3  {
+    .pricateg3  {
         max-width: 300px;
         height: 430px;  
         margin-left: -110px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 253px; 
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 300px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -110px; 
     } 
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 253px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 300px;
         height: 430px; 
         margin-top: 50px;  
@@ -754,10 +754,10 @@ p.categPara6 {
     } 
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 253px; 
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 300px;
         height: 430px; 
         margin-top: 50px; 
@@ -765,60 +765,60 @@ p.categPara6 {
     } 
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 253px; 
     }
 }
 @media only screen and (max-width:365px){
-    h1.categHead{
+    h1.pricategHead{
         font-size: 25px; 
     }
-    .categ1,.categ2,.categ3,.categ4,.categ5,.categ6  { 
+    .pricateg1,.pricateg2,.pricateg3,.pricateg4,.pricateg5,.pricateg6  { 
         margin-left: -120px;  
     } 
 }
 @media only screen and (max-width:320px){  
-    h1.categHead{
+    h1.pricategHead{
         font-size: 23px; 
     }
-    .categ1  {
+    .pricateg1  {
         max-width: 240px;
         height: 430px; 
         margin-left: -110px;  
     }  
-    p.categPara1 { 
+    p.pricategPara1 { 
         width: 192px;
         margin-left: 7px;  
     } 
-    .categ2  {
+    .pricateg2  {
         max-width: 240px;
         height: 430px;  
         margin-left: -110px;
         margin-top: 50px;
     }  
-    p.categPara2 { 
+    p.pricategPara2 { 
         width: 192px;  
     } 
-    .categ3  {
+    .pricateg3  {
         max-width: 240px;
         height: 430px;  
         margin-left: -110px;
         margin-top: 50px;
     } 
-    p.categPara3 { 
+    p.pricategPara3 { 
         width: 192px; 
     } 
-    .categ4  {
+    .pricateg4  {
         max-width: 240px;
         height: 430px; 
         margin-top: 50px;
         margin-left: -110px; 
     } 
     
-    p.categPara4 { 
+    p.pricategPara4 { 
         width: 192px; 
     } 
-    .categ5  {
+    .pricateg5  {
         max-width: 240px;
         height: 430px; 
         margin-top: 50px;  
@@ -826,10 +826,10 @@ p.categPara6 {
     } 
      
     
-    p.categPara5 { 
+    p.pricategPara5 { 
         width: 192px; 
     } 
-    .categ6  {
+    .pricateg6  {
         max-width: 240px;
         height: 430px; 
         margin-top: 50px; 
@@ -837,7 +837,7 @@ p.categPara6 {
     } 
      
     
-    p.categPara6 { 
+    p.pricategPara6 { 
         width: 192px; 
     }
 }
