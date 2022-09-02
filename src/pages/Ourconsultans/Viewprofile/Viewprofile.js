@@ -16,10 +16,8 @@ function Viewprofile() {
   
   return (
     <div>
-<<<<<<< HEAD
      
      
-=======
       <Box sx={{ flexGrow: 1 }} >
       <Grid  container spacing={2}>
           <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
@@ -81,7 +79,6 @@ function Viewprofile() {
 
       </Grid>
       </Box>
->>>>>>> 2a93fcf31e737620dd89d0fef3faa8b5fd056949
     </div>
   )
 }

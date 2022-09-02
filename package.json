@@ -12,32 +12,19 @@
     "@mui/material": "^5.10.1",
     "@mui/styled-engine-sc": "^5.10.1",
     "@mui/x-date-pickers": "^5.0.0-beta.7",
-<<<<<<< HEAD
-=======
     "@react-icons/all-files": "^4.1.0",
->>>>>>> 2a93fcf31e737620dd89d0fef3faa8b5fd056949
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-<<<<<<< HEAD
-    "axios": "^0.27.2",
-    "date-fns": "^2.29.2",
-    "dayjs": "^1.11.5",
-    "moment": "^2.29.4",
-=======
     "dayjs": "^1.11.5",
     "moment": "^2.29.4",
     "moment-jalaali": "^0.9.6",
->>>>>>> 2a93fcf31e737620dd89d0fef3faa8b5fd056949
     "react": "^18.2.0",
     "react-calendar": "^3.7.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-<<<<<<< HEAD
-=======
     "react-owl-carousel": "^2.3.3",
->>>>>>> 2a93fcf31e737620dd89d0fef3faa8b5fd056949
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
