@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Firstsection from './Firstsection';
 
 function Category() {
   return (
     <div>
-      Category
       <Link to="/ourconsultans" >ourconsultans</Link>
+      <Firstsection/>
     </div>
   )
 }
