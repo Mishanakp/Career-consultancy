@@ -36,7 +36,7 @@ export default function  Ourconsultants()  {
 
 <Box sx={{ flexGrow: 1 }}>
 <Grid container spacing={0} columns={16}>
-      <Grid lg={12} sx={12} container spacing={0} className='filter'>
+      <Grid lg={16} md={16} sx={12} container spacing={10} className='filter'>
       <Autocomplete
        className='catfilter'
             id="filter-demo"
@@ -44,7 +44,7 @@ export default function  Ourconsultants()  {
             getOptionLabel={(option) => option.title}
             filterOptions={filterOptions}
             sx={{ width: 300 }}
-            renderInput={(params) => <TextField {...params} label="Search for a Consultant" />}
+            renderInput={(params) => <TextField {...params} label="Search for a onsultant" />}
           />
           <Autocomplete
           className='catfilter'
@@ -53,19 +53,19 @@ export default function  Ourconsultants()  {
             getOptionLabel={(option) => option.title}
             filterOptions={filterOptions}
             sx={{ width: 300 }}
-            renderInput={(params) => <TextField {...params} label="Search a category" />}
+            renderInput={(params) => <TextField {...params} label="Search for a category" />}
           />
       </Grid>
       <br/><br/><br/><br/>
 
-<Grid lg={3.5} sx={4} container spacing={0} className='card1'>
+<Grid lg={3.5} sx={4} container spacing={0} className='card1' id='firstcard'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg' id='imageitem'>
           <img  id='counselorimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={16} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12} md={12} >
+          <Grid xs={6} lg={12} md={12}sm={10} >
             <Item className='bg'id='liitem'>
               <Box
                 id="category-a"
@@ -441,10 +441,13 @@ const top100Films = [
 
 const category = [
   { title: 'Business'},
-  { title: 'Hotel management', year: 1972 },
-  { title: 'Digital marketing', year: 1974 },
-  { title: 'Engineering', year: 2008 },
-  { title: 'Science', year: 1957 },
-  { title: "MBBS", year: 1993 }
+  { title: 'Arts', year: 1972 },
+  { title: 'Service industries', year: 1974 },
+  { title: 'Technology', year: 2008 },
+  { title: 'Medical', year: 1957 },
+  { title: "Media", year: 1993 },
+  { title: "Low enforcement"},
+  { title:"Education"},
+  { title:"Aviation"}
 ];
 

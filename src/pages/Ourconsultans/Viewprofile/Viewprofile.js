@@ -26,7 +26,7 @@ function Viewprofile() {
           
             <br/>
             <ul className={classes.ulnamen}>
-          <p><b>PUJA ROY</b></p>
+          <p ><b>PUJA ROY</b></p>
                 <p className={classes.guide}>Career Guide</p></ul>
          
           </Grid>
@@ -54,8 +54,8 @@ function Viewprofile() {
 </Grid>
          
 
-          <Grid item lg={7.5} md={8.2} sm={10.7} xs={10.3} className={classes.aboutcounsellor}>
-          <h3 style={{color:'#4A6F8A'}}><b>About</b></h3>
+          <Grid item xl={4} lg={7.5} md={7.7} sm={10.7} xs={10.3} className={classes.aboutcounsellor}>
+          <h3 style={{color:'#0e314c'}}><b>About</b></h3>
                 <p >
               Have been conducting career guidance workshops in 30 schools in Mumbai, Pune, 
                 Panchgani, Nasik and Goa for the past 5 years Have engaged with approx. 3,000 students both 

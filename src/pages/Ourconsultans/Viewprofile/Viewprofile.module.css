@@ -66,13 +66,14 @@ li{list-style-type: none !important;}
 .email p2{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    color: #4A6F8A;
+    color: #0e314c !important;
 }
 .email{
 text-align: left;
 margin-left: 20px;
 margin-top: 10px
 }
+.ulnamen{color:  #0e314c !important;}
 
 
 /*------------------------responsive 1024------------------------------*/
@@ -163,4 +164,7 @@ margin-top: 10px
     }
     .email{margin-left: 30px !important ;}
 }
+
+
+
 
