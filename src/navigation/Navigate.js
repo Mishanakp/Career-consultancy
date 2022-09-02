@@ -73,7 +73,7 @@ export default function Navigate() {
 
               
                 </Routes>
-                {/* <div><Footer/></div> */}
+                <div><Footer/></div>
             </div>
         </Router>
 
