@@ -19,7 +19,8 @@ import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
 import Booksession from "../pages/Ourconsultans/Booksession/Booksession"; 
-
+import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
+import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
 
 
 
