@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import Section1 from './Section1';
 import Section2 from './Section2';
@@ -22,3 +23,5 @@ function Whoweare() {
 }
 
 export default Whoweare
+=======
+>>>>>>> 2a93fcf31e737620dd89d0fef3faa8b5fd056949

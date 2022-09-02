@@ -1,9 +1,13 @@
 import React from 'react'
+import Rescheduleappi from './Rescheduleappi'
+
 
 function Rescheduleappoinment() {
   return (
     <div>
-      Rescheduleappoinment
+
+      <Rescheduleappi/>
+      
     </div>
   )
 }
