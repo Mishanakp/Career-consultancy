@@ -16,6 +16,7 @@ const HomeCard = () => {
 },[]);
   return (
     <div className='homeCard'>
+      <img className='background' src="https://www.bostondynamics.com/themes/custom/isovera/images/fading-grid-background-top.png" alt="" />
          <h1 className='cardMainHead'>Sessions With Our Experts</h1>
          {/* ............................... */}
     <div className='cards1'>

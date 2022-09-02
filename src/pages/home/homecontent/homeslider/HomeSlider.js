@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import './HomeSlider.css'
 import homeImage1 from '../../../../Assets/homeImages/ques.png';
 import homeImage2 from '../../../../Assets/homeImages/final.png';
-import homeImage3 from '../../../../Assets/homeImages/career.jpg'; 
+import homeImage3 from '../../../../Assets/homeImages/slide.jpeg'; 
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;

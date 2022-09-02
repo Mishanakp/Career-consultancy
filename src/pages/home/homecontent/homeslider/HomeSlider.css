@@ -17,6 +17,12 @@ img.homeImage{
   .slick-next {
     right: 5%;
   }
+
+@media only screen and (max-width:1024px){
+  .slick-prev, .slick-next { 
+    top: 55%;
+  }
+}
   
   
   

@@ -1,6 +1,6 @@
 .sliderContent{
-    top: -380px; 
-    position: relative;
+    top: -420px; 
+    position: relative;  
    
 }
 h1.sliderHead{  
@@ -55,7 +55,21 @@ button.sliderButton {
   button.sliderButton:hover::before {
     --size: 400px;
   }
-
+  button.sliderButton:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    letter-spacing: 3px;
+    }
+   @media only screen and (max-width:1280px){
+    h1.sliderHead{
+      margin-left: -50px;
+    }
+    button.sliderButton{
+      margin-left: -330px;
+    }
+  }
  
 
   @media only screen and (max-width:1024px){
@@ -64,6 +78,26 @@ button.sliderButton {
     }
     button.sliderButton{
       margin-left: -180px;
+    }
+  }
+  @media only screen and (max-width:912px){
+    h1.sliderHead{
+      margin-left: 110px; 
+    } 
+    p.sliderPara{ 
+      color: white;
+        max-width: 420px;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 110px;
+    }
+  }
+  @media only screen and (max-width:820px){
+    h1.sliderHead{
+      margin-left: 20px;
+    }
+    button.sliderButton{
+      margin-left: -250px;
     }
   }
   @media only screen and (max-width:768px){
@@ -99,7 +133,7 @@ button.sliderButton{
   background-color:#F5FFFA ;
 } */
 .sliderContent{
-  top:-450px
+  top:-415px
 }
 h1.sliderHead{    
   font-size: 25px; 
@@ -114,6 +148,40 @@ button.sliderButton{
   margin-left: -175px;
   margin-top: 20px;  
 }
+  }
+  @media only screen and (max-width:395px){
+    .sliderContent{
+      top:-430px
+    }
+    h1.sliderHead{    
+      font-size: 25px; 
+    margin-left: 5px; 
+    }
+    p.sliderPara{    
+      margin-left: 50px;
+      max-width: 270px;   
+    }
+    button.sliderButton{
+      margin-left: -145px;
+      margin-top: 20px;  
+    }
+  }
+  @media only screen and (max-width:391px){
+    .sliderContent{
+      top:-430px
+    }
+    h1.sliderHead{    
+      font-size: 25px; 
+    margin-left: 5px; 
+    }
+    p.sliderPara{    
+      margin-left: 50px;
+      max-width: 270px;   
+    }
+    button.sliderButton{
+      margin-left: -145px;
+      margin-top: 20px;  
+    }
   }
   @media only screen and (max-width:380px){
     /* h1.sliderHead{    
@@ -142,12 +210,29 @@ margin-left: 0px;
 p.sliderPara{  
   font-size: 15px; 
   margin-left: 40px;
-  max-width: 290px;   
+  max-width: 280px;   
 }
 button.sliderButton{
   margin-left: -140px;
   margin-top: 20px;  
 }
+  }
+  @media only screen and (max-width:365px){
+    .sliderContent{
+      top:-480px
+    }
+    h1.sliderHead{    
+      font-size: 22px; 
+    margin-left: 0px; 
+    }
+    p.sliderPara{   
+      margin-left: 50px;
+      max-width: 250px;   
+    }
+    button.sliderButton{
+      margin-left: -110px;
+      margin-top: 20px;  
+    }
   }
   @media only screen and (max-width:320px){
     /* h1.sliderHead{    
@@ -176,13 +261,65 @@ margin-left: 0px;
 p.sliderPara{  
   font-size: 14px; 
   margin-left: 30px;
-  max-width: 290px;   
+  max-width: 250px;   
 }
 button.sliderButton{
   margin-left: -100px;
   margin-top: 20px;  
 }
   }
+img.netImage{ 
+  width: 1470px  ;
+  margin-top: -250px; 
+}
+@media only screen and (max-width:1280px){
+  img.netImage{
+    margin-top: -180px;
+    width: 1280px;
+  }
+}
+@media only screen and (max-width:1024px){
+  img.netImage{
+    margin-top: -180px;
+    width: 1030px;
+  }
+}
+@media only screen and (max-width:820px){
+  img.netImage{
+    margin-top: -130px;
+    width: 820px;
+  }
+}
+@media only screen and (max-width:768px){
+  img.netImage{
+    margin-top: -130px;
+    width: 770px;
+  }
+}
+@media only screen and (max-width:430px){
+  img.netImage{
+    margin-top: -60px;
+    width: 430px;
+  }
+}
+@media only screen and (max-width:391px){
+  img.netImage{
+    margin-top: -60px;
+    width: 390px;
+  }
+}
+@media only screen and (max-width:380px){
+  img.netImage{
+    margin-top: -50px;
+    width: 380px;
+  }
+}
+@media only screen and (max-width:320px){
+  img.netImage{
+    margin-top: -40px;
+    width: 320px;
+  }
+}
 
  
   

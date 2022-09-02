@@ -23,6 +23,9 @@ const Search = styled('div')(({ theme }) => ({
     [theme.breakpoints.down('lg')]:{
       paddingLeft:'10px',
      },
+    //  [theme.breakpoints.down('xl')]:{
+    //   paddingLeft:'-20px',
+    //  },
     marginLeft: '0',
     width: '100%',
     [theme.breakpoints.down('md')]:{
@@ -49,7 +52,7 @@ const Search = styled('div')(({ theme }) => ({
     color:' #4a6f8a',
     backgroundColor:' white', 
     border :'1px solid #4a6f8a',
-    borderRadius:'5px 0 0 5px',
+    borderRadius:'5px 0 0 5px', 
     [theme.breakpoints.down('sm')]:{
       paddingLeft:'10px',
       borderRadius:'0',
@@ -68,6 +71,12 @@ const Search = styled('div')(({ theme }) => ({
     color: '#4a6f8a',
     border :'1px solid #4a6f8a',
     borderLeft:'none',
+    // [theme.breakpoints.down('xl')]:{
+    //   paddingLeft:'0px',
+    //   width: '25ch',
+    //   marginLeft:'36px'
+      
+    //  },
     [theme.breakpoints.down('lg')]:{
      paddingLeft:'0px',
      width: '50ch',
@@ -75,7 +84,7 @@ const Search = styled('div')(({ theme }) => ({
      
     },
     [theme.breakpoints.down('md')]:{
-      marginLeft:'-40px',
+      marginLeft:'-25px',
       width: '40ch',
     },
     [theme.breakpoints.down('sm')]:{
@@ -121,6 +130,10 @@ const Button2 = styled(Button)(({ theme })=>({
     backgroundColor:'#2e9a96',
     color:'white'
     },
+    // [theme.breakpoints.down('xl')]:{
+    //   marginLeft:'20px',
+    //   marginTop:'0px'
+    // },
     [theme.breakpoints.down('lg')]:{
       marginLeft:'850px',
       marginTop:'-170px'
@@ -197,13 +210,13 @@ const Navbar = ({ placeholder, data }) => {
           
         
               <Search className='search' >
-            <SearchIconWrapper>
+            <SearchIconWrapper className='searchIcon'>
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
               placeholder="Search…"
               inputProps={{ 'aria-label': 'search' }}
-             
+             className='searchbar'
             />
              
           </Search>
@@ -211,7 +224,7 @@ const Navbar = ({ placeholder, data }) => {
           </Grid2>
           <Grid1 item lg={7} className="buttons1" >
             <item>
-            <Link to="/home"><Button1  >Home </Button1></Link> 
+            <Link to="/"><Button1  >Home </Button1></Link> 
             <Link to="/whoweare"> <Button1 >Who we are</Button1></Link>
             <Link to="/bookappoinments"><Button1 >Book appointemnts</Button1></Link>
             <Link to="/ourconsultans"><Button1 >Our consultants</Button1></Link>
@@ -220,8 +233,16 @@ const Navbar = ({ placeholder, data }) => {
             </Grid1>
           <Grid item lg={1}   className="button2">
           <item >
-          
-            <Button2  className='button2' variant='outlined' >Login </Button2>
+          <div class="uk-inline">
+          <Button2  className='button2' variant='outlined' >Login </Button2>
+          <div uk-dropdown="mode: click"> 
+          <ul className='loginList'>
+            <li className='loginListitem'>For Users</li>
+            <li className='loginListitem'>For Consultants</li>
+          </ul>
+          </div>
+          </div>
+           
            
           </item>
           </Grid>
@@ -242,18 +263,27 @@ const Navbar = ({ placeholder, data }) => {
            } </button>
            
 <div id="offcanvas-flip"  uk-offcanvas="flip: true; overlay: true" className='off__canvas'>
-    <div className="uk-offcanvas-bar off__canvasbody" >
-    <Button3  className='button2' variant='outlined' >Login</Button3>
+    <div className="uk-offcanvas-bar off__canvasbody" >  
+    <div class="uk-inline">
+    <Button3  className='button2 dropbtn' variant='outlined' >Login</Button3> 
+    <div uk-dropdown="mode: click"> 
+          <ul className='loginList'>
+            <li className='loginListitem'>For Users</li>
+            <li className='loginListitem'>For Consultants</li>
+          </ul>
+          </div>
+     </div>
+   
     <ul className='listNav'>
           <li className='listItemNav'> 
           <Search className='search2' >
-            <SearchIconWrapper>
+            <SearchIconWrapper className='searchIcon2'>
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
               placeholder="Search…"
               inputProps={{ 'aria-label': 'search' }}
-             
+             className="searchBar2"
             />
              
           </Search>

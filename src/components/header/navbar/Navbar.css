@@ -18,7 +18,7 @@ input[type="search"]::placeholder{
 .off__canvas{
     color: white !important; 
     margin-top:100px;
-    width: 40%; 
+    width: 50%; 
     height: 550px;   
  }
  .off__canvasbody{
@@ -66,6 +66,35 @@ span.iconNavWho{
  span.iconNavUs{
     padding-left:75px;
  }
+ul.loginList{
+   list-style: none;
+   color: #4a6f8a;
+   text-align: left;
+   min-width: 100px; 
+   margin-left: 20px;
+   height: 80px;
+}
+li.loginListitem{
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font-size: 17px; 
+   margin-left: -55px; 
+}
+li.loginListitem:hover{
+   color: #23BDB8;  
+    cursor: pointer;
+}
+ 
+ @media only screen and (max-width:1280px){
+    .searchbar{
+      width: 200px; 
+    }
+    .searchIcon{
+      margin-left: 0px;
+    } 
+      
+ }
 
  @media only screen and (max-width:974px){
    .buttons1,.button2{
@@ -78,6 +107,87 @@ span.iconNavWho{
         display: none;
     }
  }
+ @media only screen and (max-width:912px){
+   .searchbar{
+      width: 200px; 
+    }
+    .searchIcon{
+      margin-left: -30px; 
+    } 
+    span.iconNavHome{
+      padding-left: 280px;
+   }
+   span.iconNavWho{
+       padding-left: 225px;
+    }
+    span.iconNavBook{
+       padding-left: 160px;
+    }
+    span.iconNavCon{
+       padding-left: 180px;
+    }
+    span.iconNavUs{
+       padding-left:225px;
+    }
+ }
+
+ @media only screen and (max-width:820px){
+   .searchbar{
+      width: 210px; 
+    }
+    .searchIcon{
+      margin-left:   14px;
+    } 
+    span.iconNavHome{
+      padding-left: 230px;
+   }
+   span.iconNavWho{
+       padding-left: 175px;
+    }
+    span.iconNavBook{
+       padding-left: 110px;
+    }
+    span.iconNavCon{
+       padding-left: 130px;
+    }
+    span.iconNavUs{
+       padding-left:175px;
+    }
+ }
+ @media only screen and (max-width:768px){
+   span.iconNavHome{
+      padding-left: 200px;
+   }
+   span.iconNavWho{
+       padding-left: 145px;
+    }
+    span.iconNavBook{
+       padding-left: 80px;
+    }
+    span.iconNavCon{
+       padding-left: 100px;
+    }
+    span.iconNavUs{
+       padding-left:145px;
+    }
+ }
+ @media only screen and (max-width:540px){
+   button.open__button{
+      margin-left: 200px;  
+  }
+  .searchbar{
+   width: 200px; 
+ }
+ .searchIcon{
+   margin-left: 0px; 
+ } 
+ .off__canvas{   
+   width: 60%;    
+}
+  
+ 
+ 
+ }
  @media only screen and (max-width:430px){
     button.open__button{
         margin-left: 200px;  
@@ -86,13 +196,86 @@ span.iconNavWho{
     }
     .off__canvas{  
         margin-top: 92px;
-        width: 70%;    
+        width: 75%;    
      }
      ul.listNav{ 
         font-size: 14px; 
     } 
     .search{
         display: none;
+    } 
+    span.iconNavHome{
+      padding-left: 140px;
+   }
+   span.iconNavWho{
+       padding-left: 90px;
+    }
+    span.iconNavBook{
+       padding-left: 30px;
+    }
+    span.iconNavCon{
+       padding-left: 50px;
+    }
+    span.iconNavUs{
+       padding-left:90px;
+    }
+ }
+ @media only screen and (max-width:415px){
+   .searchBar2{
+     width: 170px !important;
+   }
+   .searchIcon2{
+      margin-left: 0px;
+   }
+ }
+ @media only screen and (max-width:395px){
+   button.open__button{
+      margin-left: 180px;  
+  }
+  .off__canvas{   
+   width: 80%;    
+}
+ }
+ @media only screen and (max-width:391px){
+   button.open__button{
+      margin-left: 180px;  
+  }
+  .off__canvas{   
+   width: 80%;    
+}
+ }
+ @media only screen and (max-width:365px){
+   .searchBar2{
+      width: 170px !important;
+    }
+    .searchIcon2{
+       margin-left: 10px;
+    }
+   button.open__button{
+      margin-left: 160px;  
+      width: 95px;
+      margin-top: -2px;
+  }
+  .off__canvas{   
+      min-width: 90%;    
+   }
+   ul.listNav{ 
+      font-size: 12px; 
+  } 
+  span.iconNavHome{
+      padding-left: 130px;
+   }
+   span.iconNavWho{
+       padding-left: 90px;
+    }
+    span.iconNavBook{
+       padding-left: 37px;
+    }
+    span.iconNavCon{
+       padding-left: 50px;
+    }
+    span.iconNavUs{
+       padding-left:85px;
     }
  }
  @media only screen and (max-width:380px){
