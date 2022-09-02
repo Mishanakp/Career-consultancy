@@ -12,7 +12,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Link } from 'react-router-dom';
 import login from '../../Assets/login.png'
-import Divider from '@mui/material/Divider';
+
 import './Login.css'
 
 import ed from '../../Assets/ed.png'
@@ -182,7 +182,7 @@ class Loginsection extends Component{
               </DialogContentText>
             </DialogContent>
             <DialogActions>
-              <Button onClick={this.handleClose} color="primary">
+              <Button onClick={this.handleClose} color="primary" id="consultantbutton">
                 Okay
               </Button>
             </DialogActions>

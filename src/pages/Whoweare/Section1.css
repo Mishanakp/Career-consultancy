@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2{
+    width: 50%;
+    }
+    .uk-card-media-left.uk-cover-container{
+      height: 50%;
+      width: 50%;
+      vertical-align: middle;
+      background-position: 50% 50%;
+      flex-direction: column;
+      transform: translate(100px,100px);
+      padding-right: 15px;
+     
+    }
+    .uk-card-body{
+      transform: translate(670px,-100px);
+      width: 90%;
+     
+    }
+    .uk-card-default .uk-card-title {
+        color: #0E314C;
+       
+    }
+    .uk-card-title{
+        padding-top: 50px;
+        font-size: 35px;
+        transform: translate(180px,-300px);
+        width: 50% !important ;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 650;
+    }
+    .para-one {
+        transform: translate(100px,-300px);
+      color: #4A6F8A;
+      font-family: 'Poppins', sans-serif;
+      width: 80%;
+      font-size: 14px;
+      text-align: justify !important;
+      line-height: 1.9;
+    }
+    
+    .uk-card-default {
+        box-shadow: none !important;
+    }
+
+
+
+/*--------  RESPONSIVE SECTION --------*/
+
+/*   Laptop view  */
+@media screen and (max-width:1025px) {
+    .uk-card-media-left.uk-cover-container{
+        height: 40% !important;
+        width: 45%; 
+        transform: translate(20px,150px) ;
+    }
+    .uk-card-title {
+       width: 70% !important;
+       transform: translate(-170px,-280px) !important;
+       font-size: 30px;
+    }
+    .para-one {
+        transform: translate(-200px,-280px);
+        width: 82%;
+        
+    }
+}
+
+
+/*  Tab view  */
+@media screen and (max-width:769px) {
+    .para-one {
+        width: 120% !important;
+        transform: translate(-300px,-200px) !important;
+        font-size: 13px;
+        line-height: 1.7;
+    }
+    .uk-card-media-left.uk-cover-container {
+        padding-top: 90px !important;
+        width: 50% !important;
+    }
+    .uk-card-title {
+        width: 100% !important;
+        transform: translate(-274px,-199px) !important
+    }
+    
+}
+
+
+/*  Mobile view  Large */
+@media screen and (max-width:426px) {
+    .uk-card-title {
+        transform: translate(-644px,-366px) !important;
+    }
+    .para-one {
+        transform: translate(-660px,-356px) !important;
+        width: 106% !important;
+        font-size: 14px;
+    }
+    .uk-card-media-left.uk-cover-container {
+        transform: translate(9px,289px) !important;
+        width: 96% !important;
+    }
+}
+
+
+
+/*  Mobile view  Medium  */
+@media screen and (max-width:376px) {
+    .para-one {
+        width: 118% !important;
+    }
+    .uk-card-title {
+        transform: translate(-632px,-366px) !important;
+    }
+    .uk-card-media-left.uk-cover-container {
+        width: 103% !important;
+    }
+}
+
+
+
+
+/*  Mobile view  Small  */
+@media screen and (max-width:321px) {
+    .uk-card-title {
+        transform: translate(-624px,-344px) !important;
+    }
+    .para-one {
+        width: 141% !important;
+        transform: translate(-669px,-339px) !important;
+    }
+    .uk-card-media-left.uk-cover-container {
+        width: 115% !important;
+    }
+}
+
+

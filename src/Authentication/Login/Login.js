@@ -5,7 +5,7 @@ import Loginsection from './Loginsection'
 
 function Login() {
   return (
-    <div>Login
+    <div>
    
       <Loginsection/>
     </div>
