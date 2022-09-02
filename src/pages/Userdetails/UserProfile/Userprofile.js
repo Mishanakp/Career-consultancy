@@ -5,6 +5,8 @@ function Userprofile() {
     <div>
       userprofile
       <Link to="/changepassword" >changepassword</Link>
+      <Link to="/faq" >FAQ</Link>
+    
       <Link to="/rescheduleappoinment" >rescheduleappoinment</Link>
     
     </div>

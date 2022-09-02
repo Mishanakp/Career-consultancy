@@ -34,7 +34,7 @@ export default function Navigate() {
     return (
         <Router>
             <div>
-                <div><Header/></div>
+              <div><Header/></div>
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
                 
@@ -42,7 +42,9 @@ export default function Navigate() {
                     <Route path="/login" element={<Login />}></Route>
                     <Route path="/changepassword" element={<ChangePassword />}></Route>
                     <Route path="/signup" element={<SignUp />}></Route>
- 
+                    <Route path="/consultantLogin" element={<ConsultantLogin />}></Route>
+                    <Route path="/consultantsignup" element={<ConsultantSingUp />}></Route>
+
 
 
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
@@ -67,6 +69,8 @@ export default function Navigate() {
 
                    
                     <Route path="/contact" element={<Contact />}></Route>
+
+              
                 </Routes>
                 <div><Footer/></div>
             </div>

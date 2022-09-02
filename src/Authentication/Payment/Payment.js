@@ -1,10 +1,13 @@
+
 import React from 'react'
-import { Link } from 'react-router-dom';
+
+ import Paymentpage from './Paymentpage'
+
 
 function Payment() {
   return (
-    <div>Payment
-       <Link to="/userprofile" >userprofile</Link>
+    <div>
+    <Paymentpage/>
     </div>
   )
 }
