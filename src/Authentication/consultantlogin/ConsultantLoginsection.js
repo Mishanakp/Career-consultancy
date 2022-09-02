@@ -11,20 +11,22 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Link } from 'react-router-dom';
-import login from '../../Assets/login.png'
-
-import './Login.css'
-
-import ed from '../../Assets/ed.png'
 
 
+import './Consultantlogin.css'
+import ed from '../../Assets/Consultlogin769.jpeg'
+import Consult from '../../Assets/Consultlogin.jpeg'
 
 
 
 
 
 
-class Loginsection extends Component{
+
+
+
+
+class ConsultantLoginsection extends Component{
 
 
 
@@ -79,12 +81,12 @@ class Loginsection extends Component{
   return (
    <div>
          <div className='login'>
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid=""  id='login2'>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid=""  id='login21'>
                    <div class="uk-card-media-left uk-cover-container uk-first-column ">
                          
                     
 
-                          <img src={login} alt="" className='loginimg'  />
+                          <img src={Consult} alt="" className='loginimg'  />
                                                   
                      </div>                    
                                                     
@@ -162,10 +164,7 @@ class Loginsection extends Component{
 
                 <p className='pop'>Don't have an account?&nbsp;&nbsp;&nbsp;<Link to="/signup"style={{color:'#23BDB8',fontWeight:'600'}}>Sign Up </Link>   </p>
 
-                {/*<Divider id='divider'><p className='pop1'>or Login with</p>  </Divider>
                 
-                <span><a href="https://myaccount.google.com/"> <img src='https://www.felicity.care/assets/images/google.png' className='go'/></a>
-                <a href="https://www.facebook.com/login.php"> <img src='https://www.felicity.care/assets/images/facebook.png' className='face'/>  </a>              </span>
 
 
            {/***************************************/}
@@ -175,7 +174,7 @@ class Loginsection extends Component{
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
            >
-            <DialogTitle id="alert-dialog-title">Sign In</DialogTitle>
+            <DialogTitle id="alert-dialog-titlealert-dialog-title">Sign In</DialogTitle>
             <DialogContent>
               <DialogContentText id="alert-dialog-description">
                 {this.state.message}
@@ -205,11 +204,11 @@ class Loginsection extends Component{
        
 
     <div class="uk-child-width-1-1@m" uk-grid id="logintab769">
-       <div class="uk-card uk-card-default" >
+       <div class="uk-card uk-card-default"  id="consultantlogin">
                            <div class="uk-card-media-top" id="logtop">
-                               <img src={ed}  alt=""  className="logimg769"/>
+                               <img src={ed}  alt=""  className="logimg769con"/>
                            </div>
-                           <div class="uk-card-body" id="loginbody769">
+                           <div class="uk-card-body" id="loginbody7691">
                            <p className="username" id="use">Username
                   </p>
                 
@@ -289,4 +288,4 @@ class Loginsection extends Component{
     );
 }
 }
- export default Loginsection ;
+ export default ConsultantLoginsection ;

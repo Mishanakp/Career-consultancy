@@ -12,6 +12,7 @@ import Netbanking from './Netbanking';
 import Paymentresponsive from './Paymentresponsive';
 
 
+
 import { Divider } from '@mui/material';
 
 import CreditandDebit from './CreditandDebit';
@@ -72,6 +73,7 @@ function a11yProps(index) {
     setValue(newValue);
   };
   return (<div>
+    <div className='paymentlapview'>
     <div id='paymerntgid'>
     <div className='paymentcard'>
     <Box sx={{ flexGrow: 1 }}>
@@ -142,8 +144,10 @@ function a11yProps(index) {
     </Box>
     </div>
     </div>
+    </div>
 <div className='payment769'>
 <Paymentresponsive/>
+
 </div>
 
 
