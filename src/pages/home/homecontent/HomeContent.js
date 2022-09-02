@@ -26,7 +26,7 @@ const HomeContent = () => {
       <Grid container>
         <Grid item md={7} sm={9} xs={12} className='sliderContent'>
             <h1 className='sliderHead'>Make Your Career With Us</h1>
-            <p className='sliderPara'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam modi volup sit amet consectetur adipisicing elit. Nam modi voluptatibus expedita qui? Quis aspernatur unde perspiciatis dolorem odit doloremque!</p>
+            <p className='sliderParaa'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam modi volup sit amet consectetur adipisicing elit. Nam modi voluptatibus expedita qui? Quis aspernatur unde perspiciatis dolorem odit doloremque!</p>
             <button className='sliderButton'> <span>Book Now</span> </button>
             {/* <Animations2 /> */}
             <Animations3 />

@@ -15,15 +15,15 @@ const HomeCard = () => {
     Aos.init({});
 },[]);
   return (
-    <div className='homeCard'>
+    <div className='prihomeCard'>
       <img className='background' src="https://www.bostondynamics.com/themes/custom/isovera/images/fading-grid-background-top.png" alt="" />
          <h1 className='cardMainHead'>Sessions With Our Experts</h1>
          {/* ............................... */}
-    <div className='cards1'>
+    <div className='cardss1'>
       <Grid container>
        <Grid item lg={3} md={6} >
        <div className='post1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="1000">
-        <Card className='card1'>
+        <Card className='cardd1'>
       <CardActionArea>
         <CardMedia
           component="img" 
@@ -118,7 +118,7 @@ const HomeCard = () => {
       <Grid container>
        <Grid item lg={3} sm={6} xs={12} >
        <div className='post1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
-        <Card className='card1'>
+        <Card className='cardd1'>
       <CardActionArea>
         <CardMedia
           component="img" 

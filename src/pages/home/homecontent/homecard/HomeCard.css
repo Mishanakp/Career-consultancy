@@ -1,4 +1,4 @@
-.homeCard{
+.prihomeCard{
     margin-top: -200px; 
     padding-bottom: 80px;
 }
@@ -13,16 +13,16 @@ img.background{
     width: 1500px;
     margin-bottom: -200px;
 }
-.cards1{
+.cardss1{
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 150px  ;
 }
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 250px;
     height: 400px;  
 }
 .card2{
-    margin-left: -25px; 
+    margin-left: -25px  ; 
 }
 .card3{
     margin-left: -55px;
@@ -31,7 +31,7 @@ img.background{
     margin-left: -80px;
 }
  
-.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+.cardd1:hover,.card2:hover,.card3:hover,.card4:hover{
     transform: translateY(-30px) translateX(10px);
 } 
 .cardContent1,.cardContent2,.cardContent3,.cardContent4{
@@ -54,11 +54,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     -moz-hyphens: auto !important;
 }
  
-.card1:hover p.cardPara1,.card2:hover p.cardPara2,.card3:hover p.cardPara3,.card4:hover p.cardPara4{
+.cardd1:hover p.cardPara1,.card2:hover p.cardPara2,.card3:hover p.cardPara3,.card4:hover p.cardPara4{
     color: white;
     
 }
-.card1:hover .cardContent1,.card2:hover .cardContent2,.card3:hover .cardContent3,.card4:hover .cardContent4{
+.cardd1:hover .cardContent1,.card2:hover .cardContent2,.card3:hover .cardContent3,.card4:hover .cardContent4{
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
 .cards2{
@@ -78,7 +78,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
   
     
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 230px;
     height: 410px;  
 } 
@@ -108,11 +108,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 1025px;
         margin-bottom: -200px;
     }
-  .cards1{
+  .cardss1{
     display: none;
   } 
     
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 340px;
     height: 410px;  
 } 
@@ -141,10 +141,10 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 921px;
         margin-bottom: -200px;
     }  
-    .card1{
+    .cardd1{
         margin-left:-50px;
     }
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 330px;
     height: 410px;  
 } 
@@ -173,10 +173,10 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 820px;
         margin-bottom: -200px;
     }  
-    .card1{
+    .cardd1{
         margin-left:-50px;
     }
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 280px;
     height: 410px;  
 } 
@@ -209,11 +209,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 770px;
         margin-bottom: -200px;
     }
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 250px;
     height: 410px;  
 } 
-.card1{
+.cardd1{
     margin-left: -40px; 
 }
 .card2{
@@ -240,11 +240,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-top: -190px;
     }
          
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 350px;
     height: 410px;  
 } 
-.card1{
+.cardd1{
     margin-left: -110px; 
 }
 .card2{
@@ -264,7 +264,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 }
 }
 @media only screen and (max-width:415px){
-    .card1{
+    .cardd1{
         margin-left: -120px; 
     }
     .card2{
@@ -286,7 +286,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-top: -620px;
         width: 395px; 
     }
-    .card1{
+    .cardd1{
         margin-left: -130px; 
     }
     .card2{
@@ -307,7 +307,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-top: -620px;
         width: 390px; 
     }
-    .card1{
+    .cardd1{
         margin-left: -130px; 
     }
     .card2{
@@ -334,11 +334,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-top: -260px;
     }
          
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 300px;
     height: 410px;  
 } 
-.card1{
+.cardd1{
     margin-left: -110px; 
 }
 .card2{
@@ -366,7 +366,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     h1.cardMainHead{ 
         font-size: 26px;  
     } 
-.card1{
+.cardd1{
     margin-left: -120px; 
 }
 .card2{
@@ -396,11 +396,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         font-size: 23px;  
     }
          
-.card1,.card2,.card3,.card4{
+.cardd1,.card2,.card3,.card4{
     max-width: 240px;
     height: 430px;  
 } 
-.card1{
+.cardd1{
     margin-left: -110px; 
 }
 .card2{
