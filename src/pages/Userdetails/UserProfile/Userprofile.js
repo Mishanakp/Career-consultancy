@@ -30,10 +30,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import DeleteAccount from './DeleteAccount';
 import Mysessions from './Mysessions';
 
-function TabPanel(props) {
+function TabPanels(props) {
   const { children, value, index, ...other } = props;
 
   return (
+   
+     
     
     <div 
       role="tabpanel"
@@ -51,7 +53,7 @@ function TabPanel(props) {
   );
 }
 
-TabPanel.propTypes = {
+TabPanels.propTypes = {
   children: PropTypes.node,
   index: PropTypes.number.isRequired,
   value: PropTypes.number.isRequired,
@@ -105,18 +107,18 @@ export default function VerticalTabs() {
       </Tabs>
       </Grid>
       <Grid lg={10} md={10.7}>
-      <TabPanel value={value} index={0}>
+      <TabPanels value={value} index={0}>
   <Mysessions/>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
+      </TabPanels>
+      <TabPanels value={value} index={1}>
      <Viewprofile/>
-      </TabPanel>
-      <TabPanel value={value} index={2}>
+      </TabPanels>
+      <TabPanels value={value} index={2}>
       <ChangePassword/>
-      </TabPanel>
-      <TabPanel value={value} index={3}>
+      </TabPanels>
+      <TabPanels value={value} index={3}>
        <DeleteAccount/>
-      </TabPanel>
+      </TabPanels>
     
       </Grid>
       </Grid>

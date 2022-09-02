@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+.backgrounddiv{padding: 80px 200px 80px 200px!important;
+    background-image: linear-gradient(to right, #23BDB8, #8ee7ba);
+  }
+.bgwhite{background-color: white;
+    border-radius: 20px;
+  }
+.contenthead1{padding: 20px;
+    color: #0e314c;
+    font-size: 35px;
+}
+.mngslot{color: black !important;
+    padding-left: 10px;
+}
+.dateitem{margin-left: 90px !important;}
+.selecttime{margin-left: -230px;}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{padding: 13px !important;}
+
+/*----------------------------button------------------------------*/
+.button {
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #23BDB8;
+    padding: em   ;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    height: 40px;
+    width: 130px;
+  }
+  .button span {
+    position: relative;
+    pointer-events: none;
+  }
+  .button::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #43E794, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .button:hover::before {
+    --size: 400px;
+  }
+  .button:hover{transform: translate(0.2em);}
+  
+
+
+/*------------------------responsive 1024------------------------------*/
+@media only screen and (max-width: 1024px)and (min-width:770px) {
+  .backgrounddiv{padding: 80px!important;}
+  .dateitem{margin-left: 50px !important;}
+  .button{margin-left: -5px !important;}
+}
+/*------------------------responsive 768------------------------------*/
+@media only screen and (max-width: 769px)and (min-width:427px) {
+  .backgrounddiv{padding: 100px!important;}
+  .dateitem{margin-left: 0px !important;}
+  li{display:contents;}
+  .selecttime{margin-left: -20px;}
+  .mngslot{margin-left: -200px; 
+}
+.uk-dotnav>.uk-active>* {margin-right: 20px !important;}
+a {margin-left: 20px !important;}
+}
+/*------------------------responsive 425------------------------------*/
+@media only screen and (max-width: 426px)and (min-width:377px) {
+  .backgrounddiv{padding: 30px!important;}
+  .dateitem{margin-left: 20px !important;}
+    li{display:contents;}
+  .selecttime{margin-left: -20px;}
+  .mngslot{margin-left: -200px;}
+
+    .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
+    a {margin-left: 20px !important;}
+    .contenthead1{margin-left: 25px !important;}
+}
+/*------------------------responsive 375------------------------------*/
+@media only screen and (max-width: 376px)and (min-width:322px) {
+  .backgrounddiv{padding: 30px!important;}
+  .dateitem{margin-left: 0px !important;}
+  li{display:contents;}
+  .selecttime{margin-left: -20px;}
+  .mngslot{margin-left: -180px;}
+    .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
+    a {margin-left: 20px !important;}
+}
+/*------------------------responsive 320------------------------------*/
+@media only screen and (max-width: 321px)and (min-width:30px) {
+  .backgrounddiv{padding: 15px!important;
+    padding-top: 30px !important;
+  }
+  .dateitem{margin-left: 0px !important;}
+  li{display:contents;}
+  .selecttime{margin-left: -20px;}
+  .mngslot{margin-left: -90px;
+}
+.uk-dotnav>.uk-active>* {margin-right: 10px !important;}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;}
+.contenthead1{padding-left: 45px;}
+.timeslider{margin-left: 15px;}
+a {margin-left: 20px !important;}
+.button {margin-left: 20px;}
+}
+
+
+

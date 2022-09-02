@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
+import Singuppage from './Singuppage';
 function SingUp() {
   return (
     <div>
-      SignUp
-      <Link to="/userprofile" >userprofile</Link>
+      <Singuppage/>
+     
+      
     </div>
   )
 }

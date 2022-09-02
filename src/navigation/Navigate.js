@@ -26,6 +26,9 @@ import Mysessions from "../pages/Userdetails/UserProfile/Mysessions";
 import Myprofile from "../pages/Userdetails/UserProfile/Profile";
 
 
+import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
+import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
+
 
 
 
@@ -39,17 +42,16 @@ export default function Navigate() {
     return (
         <Router>
             <div>
-                <div><Header/></div>
+              <div><Header/></div>
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
-                    
-
+                
                     <Route path="/Payment" element={<Payment/>}></Route>
                     <Route path="/login" element={<Login />}></Route>
                     <Route path="/changepassword" element={<ChangePassword />}></Route>
                     <Route path="/signup" element={<SignUp />}></Route>
-
-                 
+                    <Route path="/consultantLogin" element={<ConsultantLogin />}></Route>
+                    <Route path="/consultantsignup" element={<ConsultantSingUp />}></Route>
 
                     
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
@@ -74,6 +76,8 @@ export default function Navigate() {
                   <Route path="/session" element={<Mysessions/>}></Route>
                    
                     <Route path="/contact" element={<Contact />}></Route>
+
+              
                 </Routes>
                <div><Footer/></div>
             </div>

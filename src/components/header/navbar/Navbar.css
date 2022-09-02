@@ -1,0 +1,342 @@
+span.searchicon{
+    position: absolute;
+    margin-top: 8px; 
+}
+input[type="search"]{
+    border-color: #4a6f8a !important;
+    padding-right: 50px;
+}
+input[type="search"]::placeholder{
+    padding-left: 50px;
+    color: #4a6f8a; 
+} 
+ 
+.button2:hover span.loginIcon{
+    transform: translateX(10px);
+    transition: ease-in .3s;
+}
+.off__canvas{
+    color: white !important; 
+    margin-top:100px;
+    width: 50%; 
+    height: 550px;   
+ }
+ .off__canvasbody{
+    width: 100%;
+   background-color: white; 
+   padding-top: 80px;
+ }
+ button.open__button{
+    margin-left: -30px;
+    margin-top: -5px;
+    border: none;
+    width: 180px;
+     
+ } 
+ul.listNav{
+    list-style: none;
+    color: #4a6f8a !important;
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: right;   
+}
+span.whiteClr,.menuClr{
+   color:#4a6f8a !important;
+}
+li.listItemNav{
+    padding-bottom:0px; 
+    padding-top: 0px;
+    color: #4a6f8a !important;
+}
+.lineNav{
+    background-color:  #23BDB8;
+}
+span.iconNavHome{
+   padding-left: 120px;
+}
+span.iconNavWho{
+    padding-left: 70px;
+ }
+ span.iconNavBook{
+    padding-left: 7px;
+ }
+ span.iconNavCon{
+    padding-left: 30px;
+ }
+ span.iconNavUs{
+    padding-left:75px;
+ }
+ul.loginList{
+   list-style: none;
+   color: #4a6f8a;
+   text-align: left;
+   min-width: 100px; 
+   margin-left: 20px;
+   height: 80px;
+}
+li.loginListitem{
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font-size: 17px; 
+   margin-left: -55px; 
+}
+li.loginListitem:hover{
+   color: #23BDB8;  
+    cursor: pointer;
+}
+ 
+ @media only screen and (max-width:1280px){
+    .searchbar{
+      width: 200px; 
+    }
+    .searchIcon{
+      margin-left: 0px;
+    } 
+      
+ }
+
+ @media only screen and (max-width:974px){
+   .buttons1,.button2{
+        display: none;
+    }
+ }
+
+ @media only screen and (min-width:973px){
+    .res_nav{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:912px){
+   .searchbar{
+      width: 200px; 
+    }
+    .searchIcon{
+      margin-left: -30px; 
+    } 
+    span.iconNavHome{
+      padding-left: 280px;
+   }
+   span.iconNavWho{
+       padding-left: 225px;
+    }
+    span.iconNavBook{
+       padding-left: 160px;
+    }
+    span.iconNavCon{
+       padding-left: 180px;
+    }
+    span.iconNavUs{
+       padding-left:225px;
+    }
+ }
+
+ @media only screen and (max-width:820px){
+   .searchbar{
+      width: 210px; 
+    }
+    .searchIcon{
+      margin-left:   14px;
+    } 
+    span.iconNavHome{
+      padding-left: 230px;
+   }
+   span.iconNavWho{
+       padding-left: 175px;
+    }
+    span.iconNavBook{
+       padding-left: 110px;
+    }
+    span.iconNavCon{
+       padding-left: 130px;
+    }
+    span.iconNavUs{
+       padding-left:175px;
+    }
+ }
+ @media only screen and (max-width:768px){
+   span.iconNavHome{
+      padding-left: 200px;
+   }
+   span.iconNavWho{
+       padding-left: 145px;
+    }
+    span.iconNavBook{
+       padding-left: 80px;
+    }
+    span.iconNavCon{
+       padding-left: 100px;
+    }
+    span.iconNavUs{
+       padding-left:145px;
+    }
+ }
+ @media only screen and (max-width:540px){
+   button.open__button{
+      margin-left: 200px;  
+  }
+  .searchbar{
+   width: 200px; 
+ }
+ .searchIcon{
+   margin-left: 0px; 
+ } 
+ .off__canvas{   
+   width: 60%;    
+}
+  
+ 
+ 
+ }
+ @media only screen and (max-width:430px){
+    button.open__button{
+        margin-left: 200px;  
+        width: 95px;
+        margin-top: -2px;
+    }
+    .off__canvas{  
+        margin-top: 92px;
+        width: 75%;    
+     }
+     ul.listNav{ 
+        font-size: 14px; 
+    } 
+    .search{
+        display: none;
+    } 
+    span.iconNavHome{
+      padding-left: 140px;
+   }
+   span.iconNavWho{
+       padding-left: 90px;
+    }
+    span.iconNavBook{
+       padding-left: 30px;
+    }
+    span.iconNavCon{
+       padding-left: 50px;
+    }
+    span.iconNavUs{
+       padding-left:90px;
+    }
+ }
+ @media only screen and (max-width:415px){
+   .searchBar2{
+     width: 170px !important;
+   }
+   .searchIcon2{
+      margin-left: 0px;
+   }
+ }
+ @media only screen and (max-width:395px){
+   button.open__button{
+      margin-left: 180px;  
+  }
+  .off__canvas{   
+   width: 80%;    
+}
+ }
+ @media only screen and (max-width:391px){
+   button.open__button{
+      margin-left: 180px;  
+  }
+  .off__canvas{   
+   width: 80%;    
+}
+ }
+ @media only screen and (max-width:365px){
+   .searchBar2{
+      width: 170px !important;
+    }
+    .searchIcon2{
+       margin-left: 10px;
+    }
+   button.open__button{
+      margin-left: 160px;  
+      width: 95px;
+      margin-top: -2px;
+  }
+  .off__canvas{   
+      min-width: 90%;    
+   }
+   ul.listNav{ 
+      font-size: 12px; 
+  } 
+  span.iconNavHome{
+      padding-left: 130px;
+   }
+   span.iconNavWho{
+       padding-left: 90px;
+    }
+    span.iconNavBook{
+       padding-left: 37px;
+    }
+    span.iconNavCon{
+       padding-left: 50px;
+    }
+    span.iconNavUs{
+       padding-left:85px;
+    }
+ }
+ @media only screen and (max-width:380px){
+    button.open__button{
+        margin-left: 160px;  
+        width: 95px;
+        margin-top: -2px;
+    }
+    .off__canvas{   
+        width: 80%;    
+     }
+     ul.listNav{ 
+        font-size: 12px; 
+    } 
+    span.iconNavHome{
+        padding-left: 130px;
+     }
+     span.iconNavWho{
+         padding-left: 90px;
+      }
+      span.iconNavBook{
+         padding-left: 37px;
+      }
+      span.iconNavCon{
+         padding-left: 50px;
+      }
+      span.iconNavUs{
+         padding-left:85px;
+      }
+ }
+ @media only screen and (max-width:320px){
+    button.open__button{
+        margin-left: 145px;  
+        width: 85px; 
+    }
+    .off__canvas{   
+        width: 100%;    
+     }
+     ul.listNav{ 
+        font-size: 12px; 
+    } 
+    span.iconNavHome{
+        padding-left: 150px;
+     }
+     span.iconNavWho{
+         padding-left: 110px;
+      }
+      span.iconNavBook{
+         padding-left: 57px;
+      }
+      span.iconNavCon{
+         padding-left: 70px;
+      }
+      span.iconNavUs{
+         padding-left:105px;
+      }
+ }
+
+ @media only screen and (min-width:430px){
+    .search2{
+        display: none;
+    }
+ }
+  
