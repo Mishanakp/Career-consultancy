@@ -10,7 +10,7 @@ body{
 .bgwhite{background-color: white;
     border-radius: 20px;
   }
-.contenthead1{padding: 20px;
+.shatitle{padding: 20px;
     color: #0e314c;
     font-size: 35px;
 }
@@ -22,7 +22,7 @@ body{
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{padding: 13px !important;}
 
 /*----------------------------button------------------------------*/
-.button {
+.shabutton {
     position: relative;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -39,11 +39,11 @@ body{
     height: 40px;
     width: 130px;
   }
-  .button span {
+  .shabutton span {
     position: relative;
     pointer-events: none;
   }
-  .button::before {
+  .shabutton::before {
     --size: 0;
     content: '';
     position: absolute;
@@ -56,10 +56,16 @@ body{
             transform: translate(-50%, -50%);
     transition: width .2s ease, height .2s ease;
   }
-  .button:hover::before {
+  .shabutton:hover::before {
     --size: 400px;
   }
-  .button:hover{transform: translate(0.2em);}
+  .shabutton.prisliderButton:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    letter-spacing: 3px;
+    }
   
 
 
@@ -67,40 +73,40 @@ body{
 @media only screen and (max-width: 1024px)and (min-width:770px) {
   .backgrounddiv{padding: 80px!important;}
   .dateitem{margin-left: 50px !important;}
-  .button{margin-left: -5px !important;}
+  .shabutton{margin-left: -5px !important;}
 }
 /*------------------------responsive 768------------------------------*/
 @media only screen and (max-width: 769px)and (min-width:427px) {
   .backgrounddiv{padding: 100px!important;}
   .dateitem{margin-left: 0px !important;}
-  li{display:contents;}
+  .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -200px; 
 }
 .uk-dotnav>.uk-active>* {margin-right: 20px !important;}
-a {margin-left: 20px !important;}
+#asha {margin-left: 20px !important;}
 }
 /*------------------------responsive 425------------------------------*/
 @media only screen and (max-width: 426px)and (min-width:377px) {
   .backgrounddiv{padding: 30px!important;}
   .dateitem{margin-left: 20px !important;}
-    li{display:contents;}
+    .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -200px;}
 
     .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-    a {margin-left: 20px !important;}
-    .contenthead1{margin-left: 25px !important;}
+    #asha {margin-left: 20px !important;}
+    .shatitle{margin-left: 25px !important;}
 }
 /*------------------------responsive 375------------------------------*/
 @media only screen and (max-width: 376px)and (min-width:322px) {
   .backgrounddiv{padding: 30px!important;}
   .dateitem{margin-left: 0px !important;}
-  li{display:contents;}
+  .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -180px;}
     .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-    a {margin-left: 20px !important;}
+    #asha {margin-left: 20px !important;}
 }
 /*------------------------responsive 320------------------------------*/
 @media only screen and (max-width: 321px)and (min-width:30px) {
@@ -108,16 +114,16 @@ a {margin-left: 20px !important;}
     padding-top: 30px !important;
   }
   .dateitem{margin-left: 0px !important;}
-  li{display:contents;}
+  .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -90px;
 }
 .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-.css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;} 
-.contenthead1{padding-left: 45px;}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;}
+.shatitle{padding-left: 45px;}
 .timeslider{margin-left: 15px;}
-a {margin-left: 20px !important;}
-.button {margin-left: 20px;}
+#asha {margin-left: 20px !important;}
+.shabutton {margin-left: 20px;}
 }
 
 
