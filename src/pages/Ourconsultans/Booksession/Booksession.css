@@ -4,7 +4,7 @@ body{
 }
 
 
-.backgrounddiv{padding: 80px 200px 80px 200px!important;
+.backgrounddiv{padding: 200px 200px 80px 200px!important;
     background-image: linear-gradient(to right, #23BDB8, #8ee7ba);
   }
 .bgwhite{background-color: white;
@@ -71,13 +71,17 @@ body{
 
 /*------------------------responsive 1024------------------------------*/
 @media only screen and (max-width: 1024px)and (min-width:770px) {
-  .backgrounddiv{padding: 80px!important;}
+  .backgrounddiv{padding: 80px!important;
+    padding-top: 240px !important;
+  }
   .dateitem{margin-left: 50px !important;}
   .shabutton{margin-left: -5px !important;}
 }
 /*------------------------responsive 768------------------------------*/
 @media only screen and (max-width: 769px)and (min-width:427px) {
-  .backgrounddiv{padding: 100px!important;}
+  .backgrounddiv{padding: 100px!important;
+    padding-top: 200px !important;
+  }
   .dateitem{margin-left: 0px !important;}
   .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
@@ -88,7 +92,9 @@ body{
 }
 /*------------------------responsive 425------------------------------*/
 @media only screen and (max-width: 426px)and (min-width:377px) {
-  .backgrounddiv{padding: 30px!important;}
+  .backgrounddiv{padding: 30px!important;
+    padding-top: 140px !important;
+  }
   .dateitem{margin-left: 20px !important;}
     .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
@@ -100,7 +106,8 @@ body{
 }
 /*------------------------responsive 375------------------------------*/
 @media only screen and (max-width: 376px)and (min-width:322px) {
-  .backgrounddiv{padding: 30px!important;}
+  .backgrounddiv{padding: 30px!important;
+    padding-top: 135px !important;}
   .dateitem{margin-left: 0px !important;}
   .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
@@ -111,7 +118,7 @@ body{
 /*------------------------responsive 320------------------------------*/
 @media only screen and (max-width: 321px)and (min-width:30px) {
   .backgrounddiv{padding: 15px!important;
-    padding-top: 30px !important;
+    padding-top: 125px !important;
   }
   .dateitem{margin-left: 0px !important;}
   .slotslist{display:contents;}
@@ -119,7 +126,7 @@ body{
   .mngslot{margin-left: -90px;
 }
 .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-.css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;}
+.bgwhite .css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;}
 .shatitle{padding-left: 45px;}
 .timeslider{margin-left: 15px;}
 #asha {margin-left: 20px !important;}

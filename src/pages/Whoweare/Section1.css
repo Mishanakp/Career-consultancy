@@ -14,12 +14,12 @@
       background-position: 50% 50%!important;
       flex-direction: column!important;
       transform: translate(100px,100px)!important;
-      padding-right: 15px!important;
+      padding-right: 15px!important; 
      
     }
     #mishanasecondd.uk-card-body{
       transform: translate(670px,-100px)!important;
-      width: 90%!important;
+      width: 90%!important; 
      
     }
     .uk-card-default.uk-card-title {
@@ -32,7 +32,7 @@
         transform: translate(180px,-300px)!important;
         width: 50% !important ;
         font-family: 'Poppins', sans-serif!important;
-        font-weight: 650!important;
+        font-weight: 650!important; 
     }
     .para-one {
         transform: translate(100px,-300px);
