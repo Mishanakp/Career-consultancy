@@ -1,8 +1,8 @@
-.homeCard{
+.prihomeCard{
     margin-top: -200px; 
     padding-bottom: 80px;
 }
-h1.cardMainHead{
+h1.pricardMainHead{
     color: #4a6f8a;
     font-size: 35px;
     font-weight: 650px; 
@@ -13,34 +13,34 @@ img.background{
     width: 1500px;
     margin-bottom: -200px;
 }
-.cards1{
+.pricards1{
     margin-top: 50px;
     margin-left: 150px;
 }
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 250px;
     height: 400px;  
 }
-.card2{
+.pricard2{
     margin-left: -25px; 
 }
-.card3{
+.pricard3{
     margin-left: -55px;
 }
-.card4{
+.pricard4{
     margin-left: -80px;
 }
  
-.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+.pricard1:hover,.pricard2:hover,.pricard3:hover,.pricard4:hover{
     transform: translateY(-30px) translateX(10px);
 } 
-.cardContent1,.cardContent2,.cardContent3,.cardContent4{
+.pricardContent1,.pricardContent2,.pricardContent3,.pricardContent4{
     height: 250px;
     background-color: white;
 }
  
 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
     font-size: 14px;
     color: #4A6F8A; 
     text-align:  justify;
@@ -54,11 +54,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     -moz-hyphens: auto !important;
 }
  
-.card1:hover p.cardPara1,.card2:hover p.cardPara2,.card3:hover p.cardPara3,.card4:hover p.cardPara4{
+.pricard1:hover p.pricardPara1,.pricard2:hover p.pricardPara2,.pricard3:hover p.pricardPara3,.pricard4:hover p.pricardPara4{
     color: white;
     
 }
-.card1:hover .cardContent1,.card2:hover .cardContent2,.card3:hover .cardContent3,.card4:hover .cardContent4{
+.pricard1:hover .pricardContent1,.pricard2:hover .pricardContent2,.pricard3:hover .pricardContent3,.pricard4:hover .pricardContent4{
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
 .cards2{
@@ -78,25 +78,25 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
   
     
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 230px;
     height: 410px;  
 } 
-.card2{
+.pricard2{
     margin-left: -30px; 
 }
-.card3{
+.pricard3{
     margin-top: 0px;
     margin-left: -60px; 
 }
-.card4{
+.pricard4{
     margin-top: 0px;
     margin-left: -90px;
 }
  
  
 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 185px; 
 }
   
@@ -108,29 +108,29 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 1025px;
         margin-bottom: -200px;
     }
-  .cards1{
+  .pricards1{
     display: none;
   } 
     
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 340px;
     height: 410px;  
 } 
-.card2{
+.pricard2{
     margin-left: -50px; 
 }
-.card3{
+.pricard3{
     margin-top: 50px;
     margin-left: 0px; 
 }
-.card4{
+.pricard4{
     margin-top: 50px;
     margin-left: -50px;
 }
  
  
 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 292px; 
 }
   
@@ -141,28 +141,28 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 921px;
         margin-bottom: -200px;
     }  
-    .card1{
+    .pricard1{
         margin-left:-50px;
     }
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 330px;
     height: 410px;  
 } 
-.card2{
+.pricard2{
     margin-left: -50px; 
 }
-.card3{
+.pricard3{
     margin-top: 50px;
     margin-left: -50px; 
 }
-.card4{
+.pricard4{
     margin-top: 50px;
     margin-left: -50px;
 }
  
  
 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 285px; 
 }
   
@@ -173,35 +173,35 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 820px;
         margin-bottom: -200px;
     }  
-    .card1{
+    .pricard1{
         margin-left:-50px;
     }
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 280px;
     height: 410px;  
 } 
-.card2{
+.pricard2{
     margin-left: -50px; 
 }
-.card3{
+.pricard3{
     margin-top: 50px;
     margin-left: -50px; 
 }
-.card4{
+.pricard4{
     margin-top: 50px;
     margin-left: -50px;
 }
  
  
 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 235px; 
 }
   
 }
  
 @media only screen and (max-width:768px){
-    h1.cardMainHead{ 
+    h1.pricardMainHead{ 
         margin-top: -170px; 
     }
     img.background{
@@ -209,23 +209,23 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 770px;
         margin-bottom: -200px;
     }
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 250px;
     height: 410px;  
 } 
-.card1{
-    margin-left: -40px; 
+.pricard1{
+    margin-left: 0px  ; 
 }
-.card2{
-    margin-left: -50px;
+.pricard2{
+    margin-left: -10px;
 }
-.card3{ 
-    margin-left: -40px; 
+.pricard3{ 
+    margin-left: 0px; 
 }
-.card4{ 
-    margin-left: -50px;
+.pricard4{ 
+    margin-left: -10px;
 } 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 206px; 
 }
 }
@@ -235,47 +235,47 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 430px;
         margin-bottom: -200px;
     }
-    h1.cardMainHead{ 
+    h1.pricardMainHead{ 
         font-size: 30px; 
         margin-top: -190px;
     }
          
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 350px;
     height: 410px;  
 } 
-.card1{
-    margin-left: -110px; 
+.pricard1{
+    margin-left: -50px; 
 }
-.card2{
-    margin-left: -110px;
-    margin-top: 30px;
+.pricard2{
+    margin-left: -50px;
+    margin-top: 40px;
 }
-.card3{ 
-    margin-left: -110px; 
-    margin-top: 30px;
+.pricard3{ 
+    margin-left: -50px; 
+    margin-top: 40px;
 }
-.card4{ 
-    margin-left: -110px;
-    margin-top: 30px;
+.pricard4{ 
+    margin-left: -50px;
+    margin-top: 40px;
 } 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 305px; 
 }
 }
 @media only screen and (max-width:415px){
-    .card1{
+    .pricard1{
         margin-left: -120px; 
     }
-    .card2{
+    .pricard2{
         margin-left: -120px;
         margin-top: 30px;
     }
-    .card3{ 
+    .pricard3{ 
         margin-left: -120px; 
         margin-top: 30px;
     }
-    .card4{ 
+    .pricard4{ 
         margin-left: -120px;
         margin-top: 30px;
     } 
@@ -286,18 +286,18 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-top: -620px;
         width: 395px; 
     }
-    .card1{
+    .pricard1{
         margin-left: -130px; 
     }
-    .card2{
+    .pricard2{
         margin-left: -130px;
         margin-top: 30px;
     }
-    .card3{ 
+    .pricard3{ 
         margin-left: -130px; 
         margin-top: 30px;
     }
-    .card4{ 
+    .pricard4{ 
         margin-left: -130px;
         margin-top: 30px;
     }
@@ -307,18 +307,18 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-top: -620px;
         width: 390px; 
     }
-    .card1{
+    .pricard1{
         margin-left: -130px; 
     }
-    .card2{
+    .pricard2{
         margin-left: -130px;
         margin-top: 30px;
     }
-    .card3{ 
+    .pricard3{ 
         margin-left: -130px; 
         margin-top: 30px;
     }
-    .card4{ 
+    .pricard4{ 
         margin-left: -130px;
         margin-top: 30px;
     }
@@ -329,31 +329,31 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 380px;
         margin-bottom: -200px;
     }
-    h1.cardMainHead{ 
+    h1.pricardMainHead{ 
         font-size: 27px; 
         margin-top: -260px;
     }
          
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 300px;
     height: 410px;  
 } 
-.card1{
-    margin-left: -110px; 
+.pricard1{
+    margin-left: -50px; 
 }
-.card2{
-    margin-left:  -110px;
-    margin-top: 30px;
+.pricard2{
+    margin-left:  -50px;
+    margin-top: 40px;
 }
-.card3{ 
-    margin-left:  -110px; 
-    margin-top: 30px;
+.pricard3{ 
+    margin-left:  -50px; 
+    margin-top: 40px;
 }
-.card4{ 
-    margin-left:  -110px;
-    margin-top: 30px;
+.pricard4{ 
+    margin-left:  -50px;
+    margin-top: 40px;
 } 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 253px; 
 }
 }
@@ -363,25 +363,25 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 360px;
         margin-bottom: -200px;
     }
-    h1.cardMainHead{ 
+    h1.pricardMainHead{ 
         font-size: 26px;  
     } 
-.card1{
+.pricard1{
     margin-left: -120px; 
 }
-.card2{
+.pricard2{
     margin-left:  -120px;
     margin-top: 30px;
 }
-.card3{ 
+.pricard3{ 
     margin-left:  -120px; 
     margin-top: 30px;
 }
-.card4{ 
+.pricard4{ 
     margin-left:  -120px;
     margin-top: 30px;
 } 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 253px; 
 } 
 }
@@ -392,33 +392,33 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 320px;
         margin-bottom: -200px;
     }
-    h1.cardMainHead{ 
+    h1.pricardMainHead{ 
         font-size: 23px;  
     }
          
-.card1,.card2,.card3,.card4{
+.pricard1,.pricard2,.pricard3,.pricard4{
     max-width: 240px;
     height: 430px;  
 } 
-.card1{
-    margin-left: -110px; 
+.pricard1{
+    margin-left: -50px; 
 }
-.card2{
-    margin-left:  -110px;
-    margin-top: 30px;
+.pricard2{
+    margin-left:  -50px;
+    margin-top: 40px;
 }
-.card3{ 
-    margin-left:  -110px; 
-    margin-top: 30px;
+.pricard3{ 
+    margin-left:  -50px; 
+    margin-top: 40px;
 }
-.card4{ 
-    margin-left:  -110px;
-    margin-top: 30px;
+.pricard4{ 
+    margin-left:  -50px;
+    margin-top: 40px;
 } 
-p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{ 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 192px; 
 }
-.cardContent1,.cardContent2,.cardContent3,.cardContent4{
+.pricardContent1,.pricardContent2,.pricardContent3,.pricardContent4{
     height: 280px; 
 }
 }

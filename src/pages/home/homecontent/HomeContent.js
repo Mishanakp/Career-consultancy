@@ -20,14 +20,14 @@ const HomeContent = () => {
     Aos.init({});
 },[]);
   return (
-    <div className='homeContent'>
+    <div className='prihomeContent'>
       <HomeSlider />
       
       <Grid container>
-        <Grid item md={7} sm={9} xs={12} className='sliderContent'>
-            <h1 className='sliderHead'>Make Your Career With Us</h1>
-            <p className='sliderPara'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam modi volup sit amet consectetur adipisicing elit. Nam modi voluptatibus expedita qui? Quis aspernatur unde perspiciatis dolorem odit doloremque!</p>
-            <button className='sliderButton'> <span>Book Now</span> </button>
+        <Grid item md={7} sm={9} xs={12} className='prisliderContent'>
+            <h1 className='prisliderHead'>Make Your Career With Us</h1>
+            <p className='prisliderPara'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam modi volup sit amet consectetur adipisicing elit. Nam modi voluptatibus expedita qui? Quis aspernatur unde perspiciatis dolorem odit doloremque!</p>
+            <button className='prisliderButton'> <span>Book Now</span> </button>
             {/* <Animations2 /> */}
             <Animations3 />
         </Grid>

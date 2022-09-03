@@ -48,12 +48,12 @@ export default function CreditandDebit() {
 
 
 
-<Grid container spacing={2}>
-        <Grid item xs={4.5}>
+<Grid container spacing={2} >
+          <Grid item xs={4.5}>
           <Item id='paybg'>
           <p className='exprirdate'>Expire Date</p>
-          <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <Stack >
+          <LocalizationProvider dateAdapter={AdapterDayjs} >
+      <Stack  >
           <DesktopDatePicker
           views={['year', 'month']}
        id='anu'
