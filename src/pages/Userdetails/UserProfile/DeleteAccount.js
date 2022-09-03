@@ -89,7 +89,7 @@ function DeleteAccount() {
   return (
     
    
-    <div>
+    <div className='delete1'>
        <Dialog
           open={open1}
           TransitionComponent={Transition}

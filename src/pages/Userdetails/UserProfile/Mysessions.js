@@ -13,7 +13,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 function Mysessions() {
-  const [value, setValue] = useState('female');
+  const [value, setValue] = useState('sessiontrue');
 let [value1,setValue1]=useState(false)
 const handleChange = (event) => {
   setValue(event.target.value);
@@ -30,12 +30,12 @@ const handleChange = (event) => {
          value={value}
         onChange={handleChange}
       >
-        <FormControlLabel className='radiosession' value="female" control={<Radio  style={{color:'#0e314C'}}/>} label="Upcoming Session" />
-        <FormControlLabel  className='radiosession' value="male" control={<Radio  style={{color:'#0e314C'}}/>} label="Completed Session" />
+        <FormControlLabel className='radiosession' value="sessiontrue" control={<Radio  style={{color:'#0e314C'}}/>} label="Upcoming Session" />
+        <FormControlLabel  className='radiosession' value="sessionfalse" control={<Radio  style={{color:'#0e314C'}}/>} label="Completed Session" />
        
       </RadioGroup>
     </FormControl></div>{value1?   
-  (value === 'female')?  <div className='session1'>
+  (value === 'sessiontrue')?  <div className='session1'>
   <Grid container>
     <Grid lg={2.7}> </Grid>
     <Grid xl={7}> 
@@ -148,7 +148,7 @@ const handleChange = (event) => {
   
   
   : 
-  (value === 'female')?<div className='session' >
+  (value === 'sessiontrue')?<div className='session' >
   
   <div className='sessionwrap' id="sessionwrap">
    <Grid container>

@@ -133,6 +133,7 @@ export default function VerticalTabs() {
    
             <div className="view">
               <Grid container>
+                
                 <Grid lg={12}>
               
            
