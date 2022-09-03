@@ -63,7 +63,47 @@ button.prisliderButton:hover {
   transition: all 0.4s ease 0s;
   letter-spacing: 3px;
   }
- @media only screen and (max-width:1280px){
+  @media only screen and (max-width:1920px) and (min-width:1601px){
+    h1.prisliderHead{
+      margin-left: -425px;
+    }
+    button.prisliderButton{
+      margin-left: -705px;
+    }
+  }
+  @media only screen and (max-width:1600px) and (min-width:1537px){
+    h1.prisliderHead{
+      margin-left: -240px;
+    }
+    button.prisliderButton{
+      margin-left: -520px;
+    }
+  }
+  @media only screen and (max-width:1536px) and (min-width:1441px){
+    h1.prisliderHead{
+      margin-left: -160px;
+    }
+    button.prisliderButton{
+      margin-left: -440px;
+    }
+  }
+  @media only screen and (max-width:1440px) and (min-width:1368px){
+    h1.prisliderHead{
+      margin-left: -150px;
+    }
+    button.prisliderButton{
+      margin-left: -420px;
+    }
+  }
+  @media only screen and (max-width:1367px) and (min-width:1281px){
+    h1.prisliderHead{
+      margin-left: -100px;
+    }
+    button.prisliderButton{
+      margin-left: -370px;
+    }
+  }
+ @media only screen and (max-width:1280px) and (min-width:1024px){
   h1.prisliderHead{
     margin-left: -50px;
   }
@@ -138,7 +178,7 @@ top:-415px;
 }
 h1.prisliderHead{    
 font-size: 25px; 
-margin-left: -25px; 
+margin-left: -28px; 
 }
 p.prisliderPara{  
 font-size: 15px !important; 
@@ -272,6 +312,12 @@ margin-top: 20px;
 img.netImage{ 
 width: 1470px  ;
 margin-top: -250px; 
+}
+@media only screen and (max-width:1921px) and (min-width:1601px){
+  img.netImage{ 
+    width: 1920px   ;
+    margin-top: -250px; 
+    }
 }
 @media only screen and (max-width:1280px){
 img.netImage{

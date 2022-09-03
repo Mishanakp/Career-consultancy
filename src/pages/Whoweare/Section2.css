@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+.mishsectionportion .uk-card-default {
+      box-shadow: none !important;
+}
 .para-two {
       padding-left: 100px !important; 
       transform: translateY(-250px);

@@ -101,14 +101,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -161,14 +161,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -221,14 +221,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -279,14 +279,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -339,14 +339,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={10} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1" id='bookbutton'>
+              <button className="buttonshahi" id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -399,14 +399,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>

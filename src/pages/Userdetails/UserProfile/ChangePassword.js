@@ -93,7 +93,7 @@ function ChangePassword() {
           aria-describedby="alert-dialog-slide-description"
          
         >
-          <DialogTitle>{"Sing in"}</DialogTitle>
+         
           <DialogContent>
             <DialogContentText id="alert-dialog-slide-description">
           Password Updated Successfully
