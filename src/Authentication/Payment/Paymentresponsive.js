@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import './Payment.css'
-
+import Box from '@mui/material/Box';
 
 import InputLabel from '@mui/material/InputLabel';
 
@@ -81,7 +81,7 @@ export default function BasicGrid() {
   return (<div> 
     <div id='paymerntgid769'>
     <div className='paymentresponsivecard'>
-    
+    <Box sx={{ flexGrow: 1 ,background:'white'}} id='boxre' >
     <Grid container  id=''>
         <Grid item xs={5}>
           <Item id='paygrid769'>
@@ -145,7 +145,7 @@ export default function BasicGrid() {
 
 
 <Grid container spacing={2}>
-        <Grid item xs={4.5}>
+        <Grid item xs={5}>
           <Item id='paybg'>
           <p className='exprirdate'>Expire Date</p>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -174,7 +174,7 @@ export default function BasicGrid() {
           <Item id='paybg'>
           <p className='exprirdate'>CVV</p>
           <TextField
-           
+           id='cvvwidthpayment'
              variant="outlined"
               placeholder="***"
               margin="normal"
@@ -344,7 +344,7 @@ export default function BasicGrid() {
       </Grid>
 
 
-
+      </Box  >
 
 
 
