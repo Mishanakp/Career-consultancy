@@ -237,8 +237,8 @@ const Navbar = ({ placeholder, data }) => {
           <Button2  className='button2' variant='outlined' >Login </Button2>
           <div uk-dropdown="mode: click"> 
           <ul className='loginList'>
-            <li className='loginListitem'>For Users</li>
-            <li className='loginListitem'>For Consultants</li>
+            <Link to="login"><li className='loginListitem'>For Users</li></Link>
+            <Link to="consultantLogin"><li className='loginListitem'>For Consultants</li></Link>
           </ul>
           </div>
           </div>
@@ -268,8 +268,8 @@ const Navbar = ({ placeholder, data }) => {
     <Button3  className='button2 dropbtn' variant='outlined' >Login</Button3> 
     <div uk-dropdown="mode: click"> 
           <ul className='loginList'>
-            <li className='loginListitem'>For Users</li>
-            <li className='loginListitem'>For Consultants</li>
+          <Link to="login"><li className='loginListitem'>For Users</li></Link>
+          <Link to="consultantLogin"><li className='loginListitem'>For Consultants</li></Link>
           </ul>
           </div>
      </div>

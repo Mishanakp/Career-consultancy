@@ -11,6 +11,7 @@ import StepSection from './stepsection/StepSection'
 import Animations3 from './animations3/Animations3'
 import HomeCateg from './homeCateg/HomeCateg'
 import Testimonials from './testimonials/Testimonials'
+import {Link} from 'react-router-dom'
 // import Animations4 from './animations4/Animations4'
  
 // import Animation from './animations/Animation'
@@ -27,7 +28,7 @@ const HomeContent = () => {
         <Grid item md={7} sm={9} xs={12} className='prisliderContent'>
             <h1 className='prisliderHead'>Make Your Career With Us</h1>
             <p className='prisliderPara'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam modi volup sit amet consectetur adipisicing elit. Nam modi voluptatibus expedita qui? Quis aspernatur unde perspiciatis dolorem odit doloremque!</p>
-            <button className='prisliderButton'> <span>Book Now</span> </button>
+            <Link to="login"><button className='prisliderButton'> <span>Book Now</span> </button></Link>
             {/* <Animations2 /> */}
             <Animations3 />
         </Grid>
