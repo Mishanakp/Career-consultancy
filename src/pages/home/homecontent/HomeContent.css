@@ -313,9 +313,9 @@ img.netImage{
 width: 1470px  ;
 margin-top: -250px; 
 }
-@media only screen and (max-width:1921px) and (min-width:1601px){
+@media only screen and (max-width:1920px) and (min-width:1601px){
   img.netImage{ 
-    width: 1920px   ;
+    width: 1920px;
     margin-top: -250px; 
     }
 }
