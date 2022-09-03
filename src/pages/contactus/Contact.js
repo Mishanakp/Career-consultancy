@@ -20,7 +20,7 @@ function Contact() {
   
    return (
     <div>
-<Box sx={{ flexGrow: 1 }} className="firstbox">
+<Box sx={{ flexGrow: 1 }} className="salfirstbox">
       <Grid container spacing={2}>
    <Grid item xl={12} lg={12} md={12} sm={12}>
     <div className="main">
@@ -220,7 +220,7 @@ function Contact() {
 </Grid>
 
 
-<Grid item xl={1} lg={1} md={0} sm={1}>
+<Grid item xl={1} lg={1} md={1} sm={1}>
   
 </Grid>
 

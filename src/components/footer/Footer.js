@@ -25,7 +25,10 @@ function Footer() {
             <Grid item md={4} xs={6}>
               <ul className='footList2'>
                 <h1 className='footHead1'>For You</h1>
+                 
                 <li className='footLIstitem1'>Login</li> 
+                
+               
               </ul>
             </Grid>
             <Grid item md={4} xs={6}>
@@ -59,10 +62,10 @@ function Footer() {
                   <Grid item lg={4} sm={6} xs={12}>
                   <div className='icons__footer'>
                 <a href='https://www.youtube.com/'><span className='icon__span2' uk-icon="icon: youtube; ratio: 1.5"></span> &nbsp;</a>
-                <span className='icon__span2' uk-icon="icon:  linkedin; ratio: 1.5"></span> &nbsp;
-                <span className='icon__span2' uk-icon="icon:  instagram; ratio: 1.5"></span>  
-                <span className='icon__span2' uk-icon="icon: facebook; ratio: 1.5"></span>  
-                <span className='icon__span2' uk-icon="icon:  twitter; ratio: 1.5"></span>
+               <a href='https://www.linkedin.com/'><span className='icon__span2' uk-icon="icon:  linkedin; ratio: 1.5"></span> &nbsp;</a> 
+               <a href='https://www.instagram.com/'><span className='icon__span2' uk-icon="icon:  instagram; ratio: 1.5"></span> </a> 
+               <a href='https://www.facebook.com/'><span className='icon__span2' uk-icon="icon: facebook; ratio: 1.5"></span>  </a>
+               <a href='https://www.twitter.com/'><span className='icon__span2' uk-icon="icon:  twitter; ratio: 1.5"></span></a>
             </div>
                   </Grid>
                  
@@ -78,10 +81,10 @@ function Footer() {
       <div className='last__footer'>
         <Grid container>
           <Grid item lg={4} md={5} sm={6} xs={12}>
-          <p className='copyright'>© 2022 Career Consultancy. All rights reserved.</p> 
+          <p className='pricopyright'>© 2022 Career Consultancy. All rights reserved.</p> 
           </Grid> 
           <Grid item lg={8} md={7} sm={6} xs={12}>
-        <p className='privacy__terms'  > <span className='privacy'> Privacy Policy</span>  <span uk-icon="minus" className='minus'>  </span> <span className='terms'> Terms of Use</span></p>
+        <p className='priprivacy__terms'  > <span className='priprivacy'> Privacy Policy</span>  <span uk-icon="minus" className='minus'>  </span> <span className='terms'> Terms of Use</span></p>
         </Grid>
         </Grid>
       </div>

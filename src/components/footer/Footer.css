@@ -117,28 +117,28 @@ span.icon__span2:hover{
 .last__footer{
     background-color: white;
 }
-p.copyright{
+p.pricopyright{
     padding: 15px 0;
     text-align: left;
-    margin-left: 170px;
+    margin-left: 60px;
     font-size: 14px;
     transform: scale(1.1,1);
     max-width: 100%;
 }
- p.privacy__terms{
+ p.priprivacy__terms{
     padding: 15px 0;
     margin-left: 650px;
     font-size: 14px;
     transform: scale(1.1,1);
 }
-p.privacy:hover{
+p.priprivacy:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 span.minus{
     transform: rotate(90deg);
 }
-span.privacy:hover{
+span.priprivacy:hover{
    text-decoration: underline;
    cursor: pointer;
 }
@@ -151,10 +151,10 @@ span.terms:hover{
         padding-top: 40px;
         margin-left: 0px;
     }
-    p.copyright{ 
+    p.pricopyright{ 
         margin-left: 120px; 
     }
-    p.privacy__terms{ 
+    p.priprivacy__terms{ 
         margin-left: 550px; 
     }
  }
@@ -265,7 +265,7 @@ span.icon__span2:hover{
 .last__footer{
     background-color: white;  
 }
-p.copyright{
+p.pricopyright{
     padding: 15px 0;
     text-align: left;
     margin-left: 80px;
@@ -273,20 +273,20 @@ p.copyright{
     transform: scale(1.1,1);
     max-width: 100%;
 }
- p.privacy__terms{
+ p.priprivacy__terms{
     padding: 15px 0;
     margin-left: 280px;
     font-size: 14px;
     transform: scale(1.1,1);
 }
-p.privacy:hover{
+p.priprivacy:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 span.minus{
     transform: rotate(90deg);
 }
-span.privacy:hover{
+span.priprivacy:hover{
    text-decoration: underline;
    cursor: pointer;
 }
@@ -399,7 +399,7 @@ span.terms:hover{
         color: rgb(211, 208, 208);
         cursor: pointer;
     } 
-    p.copyright{
+    p.pricopyright{
         padding: 15px 0;
         text-align: left;
         margin-left: 40px;
@@ -407,13 +407,13 @@ span.terms:hover{
         transform: scale(1.1,1);
         max-width: 100%;
     }
-     p.privacy__terms{
+     p.priprivacy__terms{
         padding: 15px 0;
         margin-left: 120px;
         font-size: 14px;
         transform: scale(1.1,1);
     }
-    p.privacy:hover{
+    p.priprivacy:hover{
         text-decoration: underline;
         cursor: pointer;
     }
@@ -526,7 +526,7 @@ span.terms:hover{
         color: rgb(211, 208, 208);
         cursor: pointer;
     } 
-    p.copyright{
+    p.pricopyright{
         padding: 15px 0;
         text-align: left;
         margin-left: 40px;
@@ -534,13 +534,13 @@ span.terms:hover{
         transform: scale(1.1,1);
         max-width: 100%;
     }
-     p.privacy__terms{
+     p.priprivacy__terms{
         padding: 15px 0;
         margin-left: 120px;
         font-size: 14px;
         transform: scale(1.1,1);
     }
-    p.privacy:hover{
+    p.priprivacy:hover{
         text-decoration: underline;
         cursor: pointer;
     }
@@ -653,21 +653,21 @@ span.terms:hover{
             color: rgb(211, 208, 208);
             cursor: pointer;
         } 
-        p.copyright{
+        p.pricopyright{
             padding: 15px 0;
             text-align: left;
-            margin-left: 70px;
+            margin-left: 50px;
             font-size: 14px;
             transform: scale(1.1,1);
             max-width: 100%;
         }
-         p.privacy__terms{
+         p.priprivacy__terms{
             padding: 15px 0;
             margin-left: 0px;
             font-size: 14px;
             transform: scale(1.1,1);
         }
-        p.privacy:hover{
+        p.priprivacy:hover{
             text-decoration: underline;
             cursor: pointer;
         }
@@ -685,7 +685,7 @@ span.terms:hover{
                 padding-top: 50px;
                 margin-left: -105px;
             }
-            p.copyright{ 
+            p.pricopyright{ 
                 margin-left: 50px; 
             } 
          }
@@ -694,7 +694,7 @@ span.terms:hover{
                 padding-top: 50px;
                 margin-left: -105px;
             }
-            p.copyright{ 
+            p.pricopyright{ 
                 margin-left: 50px; 
             } 
          }
@@ -803,21 +803,21 @@ span.terms:hover{
                 color: rgb(211, 208, 208);
                 cursor: pointer;
             } 
-            p.copyright{
+            p.pricopyright{
                 padding: 15px 0;
                 text-align: left;
-                margin-left: 40px;
+                margin-left: 25px;
                 font-size: 14px;
                 transform: scale(1.1,1);
                 max-width: 100%;
             }
-             p.privacy__terms{
+             p.priprivacy__terms{
                 padding: 15px 0;
                 margin-left: 0px;
                 font-size: 14px;
                 transform: scale(1.1,1);
             }
-            p.privacy:hover{
+            p.priprivacy:hover{
                 text-decoration: underline;
                 cursor: pointer;
             }
@@ -932,21 +932,21 @@ span.terms:hover{
                     color: rgb(211, 208, 208);
                     cursor: pointer;
                 } 
-                p.copyright{
+                p.pricopyright{
                     padding: 15px 0;
                     text-align: left;
-                    margin-left: 25px;
-                    font-size: 13px;
+                    margin-left: 20px;
+                    font-size: 12px;
                     transform: scale(1.1,1);
                     max-width: 100%;
                 }
-                 p.privacy__terms{
+                 p.priprivacy__terms{
                     padding: 15px 0;
                     margin-left: 0px;
-                    font-size: 13px;
+                    font-size: 12px;
                     transform: scale(1.1,1);
                 }
-                p.privacy:hover{
+                p.priprivacy:hover{
                     text-decoration: underline;
                     cursor: pointer;
                 }
