@@ -46,8 +46,12 @@
 
    /*------- RESPONSIVE OF LAP  ------*/
    @media only screen and (max-width:1025px){
+           body{
+            overflow-x: hidden !important;
+           }
           .section5 {
             padding-right: 155px;
+            
           }
    }
 

@@ -4,7 +4,8 @@ import './Section2.css';
 
 function Section2() {
   return (
-    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div className='mishsectionportion'> 
+     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid id="mishanasecondsection">
     <div class="uk-card-body1">
            <h3 class="uk-card-title2">WHY CHOOSE US ?</h3>
             <p className='para-two'>We have passed our path from the headwind and have covered the entire nation. Acquainted well with the nitty-gritty of this field we provide solutions keeping in mind the requirement of both job seekers as well as recruiters.
@@ -17,7 +18,8 @@ function Section2() {
     <img className='1mage-2' src={cartoon} ></img>
         <canvas width="300" height="100"></canvas>
     </div>
-        
+    </div>
+  
     </div>
 </div>
   )
