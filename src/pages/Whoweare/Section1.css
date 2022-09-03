@@ -2,6 +2,10 @@
 
 #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2{
     width: 50% !important;
+    
+    }
+    #mishanafirstsection {
+        box-shadow: none !important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container{
       height: 50% !important;
@@ -50,6 +54,9 @@
 
  /*Laptop view  */
 @media screen and (max-width:1025px) {
+    #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2 {
+       margin-left: 100px !important;
+    }
     #mishanafirstt.uk-card-media-left.uk-cover-container{
         height: 40% !important;
         width: 45%!important; 
