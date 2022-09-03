@@ -3,6 +3,9 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+.userpro{
+  margin-top: 100px;
+}
 *{
   margin: 0;
   padding: 0;
@@ -39,8 +42,8 @@ Tabs Tab{
   font-family: 'Poppins', sans-serif !important;
 
 }
-.tab3{
-  margin-left: -30px !important;
+.tab3c{
+  margin-left: -65px !important;
 
   color:#4A6F8A !important;
   font-size: 14px !important;
@@ -49,8 +52,8 @@ Tabs Tab{
   font-family: 'Poppins', sans-serif !important;
 
 }
-.tab4{
-  margin-left: -15px !important;
+.tab4c{
+  margin-left: -75px !important;
  
   color:#4A6F8A !important;
   font-size: 14px !important;
@@ -67,7 +70,7 @@ Tabs Tab{
   font-weight: 650 !important;
   font-family: 'Poppins', sans-serif !important;
   margin-top: 20px;
-  margin-left: 25px;
+  margin-left: 37px;
 }
 .tab:hover{
 color:aliceblue
@@ -82,6 +85,8 @@ color:aliceblue
   margin-left: 30px;
   color:#23BDB8
 }
+
+
 
 
 
@@ -145,6 +150,13 @@ margin-left: 460px;
  border-radius: 5px;
  margin-bottom: 30px;
 }
+.sessionbutton:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  letter-spacing: 3px;
+  }
 .sessionbuttonlink{
   color:white !important;
 }
@@ -168,6 +180,10 @@ margin-left: -50px;
 .imgsession{
   margin-left: -100px; 
 }
+
+
+
+
 
 
 /***************session true*********************************/
@@ -281,6 +297,8 @@ padding-right: 10px;
   text-align: left;
 }
 
+
+
 /****** delete account style *************/
 
 .deletecontent{
@@ -363,6 +381,34 @@ margin-top: 60px ;
 
  
 }
+.deletebutton:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  letter-spacing: 3px;
+  }
+  .deletebutton1:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    letter-spacing: 3px;
+    }
+    .deletebutton2:hover {
+      text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.4s ease 0s;
+      letter-spacing: 3px;
+      }
+      .passbutton:hover {
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        letter-spacing: 3px;
+        }
 .deletebutton2 {
 
   position: relative;
@@ -402,7 +448,7 @@ margin-left: 10px;
   overflow: hidden;
   border-radius: 5px;
   margin-top: 20px;
-  margin-left: -220px;
+  margin-left: -180px !important;
 }
 .deletebutton{
   position: relative;
@@ -453,7 +499,7 @@ margin-top: 10px !important;
   background-color:white  ;
   box-shadow: 5px 10px 18px #888888;
   display: flex;
-  margin-left: 130px;
+  margin-left: 140px;
   width:1000px;
   margin-top: 80px;
 }
@@ -497,10 +543,10 @@ margin-top: 10px !important;
 
 
 
-@media screen and (max-width: 1440px)
+@media screen and (max-width: 1441px)
 {
  .passwrap{
-  margin-left: 70px;
+  margin-left: 90px;
   margin-right: 70px;
  }
  .deletecontent{
@@ -531,7 +577,19 @@ margin-top: 10px !important;
   margin-left: -100px;
 }
 .deletewrap{
-  margin-left: 100px ;
+  margin-left: 95px ;
+  }
+  .sessionwrap{
+    margin-left: 210px;
+  }
+  .radio{
+    margin-left: -80px;
+  }
+  .session1{
+    margin-left:-120px;
+  }
+  .session{
+    margin-left:-120px;
   }
 }
 
@@ -541,9 +599,11 @@ margin-top: 10px !important;
 
 
 
-@media screen and (max-width: 1025px)
+@media screen and (max-width: 1025px){
+.accord{
+  height:90px
+}
 
-{
   .tablesessionhead2{
    
    margin-left: 0px;
@@ -553,9 +613,17 @@ margin-top: 10px !important;
     margin-left: 5px
   }
   .session1{
+  
+    padding-bottom: 50px;
     margin-left: 190px;
     
 
+  }
+  .session{
+    padding-bottom: 50px;
+  }
+  .ramisession{
+    margin-top: 0px;
   }
   .sessiontable{
     margin-left: 150px;
@@ -566,6 +634,7 @@ margin-top: 10px !important;
   }
   .radio{
     padding-top: 30px !important;
+    margin-left: 70px;
   }
   .sessionhead3{
     margin-left: 440px !important;
@@ -583,10 +652,10 @@ margin-top: 10px !important;
     background-color:white  ;
     box-shadow: 5px 10px 18px #888888;
     display: flex;
-    margin-left: 13px;
+    margin-left: 115px;
     width:1000px;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 0px !important;
   }
   .box{
     background-color:#F5FFFA  ;
@@ -596,8 +665,10 @@ margin-top: 10px !important;
   }
   .mobiletab{
     display: block !important;
-    width:100px
+  
+    margin-top: 150px !important;
   }
+  
 .drawer{
   width:300px
 }
@@ -605,7 +676,7 @@ margin-top: 10px !important;
   display: flex;
 }
 #menu{
-margin-left: -40px;
+
 width:200px;
 height: 30px;
 }
@@ -631,13 +702,14 @@ height: 30px;
   height: 20px;
 }
 .passwrap{
-  margin-left: 10px !important;
+  margin-left:-5px !important;
   margin-right: 10px !important;
-  margin-top: 150px;
+  margin-top: 30px;
+ 
 }
 .deletewrap{
-  margin-left: 10px ;
-  margin-top: 80px;
+  margin-left: -5px ;
+  margin-top: 30px;
   }
 .deletebutton{
   margin-left: -170px;
@@ -672,9 +744,11 @@ height: 30px;
 
 
 @media screen and (max-width: 769px){
-  
+  .ramisession{
+    margin-top: 100px;
+  }
    .radio{
-     padding-top: 30px !important;
+     padding-bottom: 10px !important;
    }
    .sessionhead3{
     margin-left: 340px!important;
@@ -771,19 +845,16 @@ margin-left: 25px !important;
   .sessionbuttonlink{
     color:white !important;
   }
-  .MuiTabs-indicator{
-    color: #23BDB8;
-  } 
-  
+ 
   
   .sessionwrap{
     background-color:white  ;
     box-shadow: 5px 10px 18px #888888;
     display: flex;
-    margin-left: 60px;
+    margin-left: 180px;
     width:650px;
     border-radius: 5px;
-    margin-top: 30px;
+   
   }
   .sessioncontent{
   margin-left: -50px;
@@ -916,8 +987,8 @@ font-size: 30px;
   .sessionwrap{
     width:400px;
    
-    margin-left: 12px;
-    margin-top: 20px;
+    margin-left: 132px;
+  
   }
   .sessionhead1{
     width:400px;
@@ -927,7 +998,7 @@ font-size: 30px;
     margin-left: 90px;
   }
   .radio{
-    padding-top:50px;
+    padding-top:10px !important;
     margin-left: 140px;
   }
   .sessionhead4{
@@ -952,7 +1023,10 @@ font-size: 30px;
     
  
   }
-  
+  .radio{
+    padding-top:10px !important;
+    margin-left: 140px;
+  }
   .sessionhead3{
    margin-left: 0px !important;
   }
@@ -1047,8 +1121,8 @@ font-size: 30px;
       }
       .sessionwrap{
         width:350px;
-        margin-left: 12px;
-        margin-top: 20px;
+        margin-left: 130px;
+     
       }
       .sessionhead1{
         width:300px;
@@ -1232,7 +1306,7 @@ font-size: 30px;
       }
       .sessionwrap{
         width:300px;
-        margin-left: 10.5px;
+        margin-left: 10px;
         margin-top: 20px;
       }
       .sessionhead1{
@@ -1250,8 +1324,8 @@ font-size: 30px;
         margin-left: 40px;
       }
       .radio{
-        padding-top:50px;
-        margin-left: 90px;
+        padding-top:10px !important;
+   
       }
       .tdright{
         font-size:12px
@@ -1262,12 +1336,14 @@ font-size: 30px;
 
 
 /**************userprofile***********************/
-
+.boxprofile{
+  margin-top: 500px;
+}
   input{
       display: none;
   }
   .headerportion{
-      background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
+      background-color: #23BDB8 !important;
       height: 200px;
      
   }
@@ -1337,6 +1413,9 @@ font-size: 30px;
   }
   
   @media screen and (max-width:1025px){
+    .boxprofile{
+      margin-top: 460px;
+    }
       .profileimage img{
           transform: translate(30px,60px);
           width: 25%!important;
