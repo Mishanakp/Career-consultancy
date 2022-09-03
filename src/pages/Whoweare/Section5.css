@@ -4,7 +4,7 @@
     background-image: url('https://www.inmakes.com/assets/img/map.png') !important;
     max-width: 100%;
     width: 100% !important;
-    height: 100% !important;
+    height: 100% !important; 
 }
 .css-15y4xrm  {
     padding: 400px 400px 400px 477px !important;
@@ -46,8 +46,12 @@
 
    /*------- RESPONSIVE OF LAP  ------*/
    @media only screen and (max-width:1025px){
+           body{
+            overflow-x: hidden !important;
+           }
           .section5 {
             padding-right: 155px;
+            
           }
    }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import {Grid} from '@mui/material'
 import './Userprofile.css'
 
@@ -115,8 +115,8 @@ function DeleteAccount() {
             
                <h1 className='deletehead'>Sad to see you go.</h1>
           <Grid xl={7} sm={12} md={7} lg={7}>
-                   <div className='deletecontent'>
-                    <h6 id='radio-head'>What is the biggest reason to delete account?</h6>
+                    <div className='deletecontent'>
+                  <h6 id='radio-head'>What is the biggest reason to delete account?</h6>
                    <FormControl className='radiocontent'>
 
       <RadioGroup
