@@ -1,0 +1,1418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  background-color:#F5FFFA  ;
+  height:auto;
+ width: 1550px !important;
+}
+.alltabs{
+ 
+
+ text-align: left !important;
+ justify-content: left;
+}
+Tabs Tab{
+  justify-content: left;
+}
+.tab1{
+  margin-left: -85px !important;
+  margin-top: 150px !important;
+  color:#4A6F8A !important;
+  font-size: 14px !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.tab2{
+  margin-left: -95px !important;
+
+  color:#4A6F8A !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+.tab3{
+  margin-left: -30px !important;
+
+  color:#4A6F8A !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+.tab4{
+  margin-left: -15px !important;
+ 
+  color:#4A6F8A !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.tab5{
+ border: none;
+ background-color: white;
+  color:#4A6F8A !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.tab:hover{
+color:aliceblue
+}
+
+.MuiTabs-indicator{
+  color:#23BDB8 !important;
+}
+
+.logo{
+  margin-top: 50px !important;
+  margin-left: 30px;
+  color:#23BDB8
+}
+
+
+
+
+
+
+
+
+/****** session style *************/
+.sessionhead{
+font-size: 30px;
+font-weight: 650;
+font-family: 'Poppins', sans-serif  !important ;
+color:#0e314C;
+text-align: left;
+margin-left: 460px;
+}
+.radiosession{
+  font-size: 35px;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif  !important ;
+  color:#0e314C; 
+}
+.radio{
+  padding-top: 30px;
+  padding-bottom:30px;
+  margin-left: 0px;
+}
+.sessionhead1{
+  font-size: 32px;
+  font-weight: 650;
+  font-family: 'Poppins', sans-serif  !important ;
+  color:#0e314C;
+  margin-top: 130px !important;
+  width: 400px;
+  margin-left: 100px;
+  }
+  .sessionhead4{
+    font-size: 32px;
+    font-weight: 650;
+    font-family: 'Poppins', sans-serif  !important ;
+    color:#0e314C;
+    margin-top: 110px !important;
+    width: 400px;
+    margin-left: 100px;
+    }
+.sessionbutton {
+  margin-top: 10px;
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: 1em 2.7em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+ border-radius: 5px;
+ margin-bottom: 30px;
+}
+.sessionbuttonlink{
+  color:white !important;
+}
+.MuiTabs-indicator{
+  color: #23BDB8;
+} 
+
+
+.sessionwrap{
+  background-color:white  ;
+  box-shadow: 5px 10px 18px #888888;
+  display: flex;
+  margin-left: 130px;
+  width:1000px;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+.sessioncontent{
+margin-left: -50px;
+}
+.imgsession{
+  margin-left: -100px; 
+}
+
+
+/***************session true*********************************/
+.navsession{
+  background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
+ height: 50px;
+ margin-top: 30px;
+}
+
+.sessionhead3{
+  color:white;
+  font-size: 20px;
+padding-right: 10px;
+  padding-top: 8px !important;
+  margin-left: 590px !important;
+  
+ 
+}
+.sessiontable1{
+  padding: 20px;
+  margin-left: 40px;
+}
+.tdleft1{
+  font-size: 14px;
+  font-weight: 650;
+  color:#4A6F8A;
+  text-align: left;
+  align-items: left;
+ 
+}
+.tablesessionhead{
+  font-size: 20px;
+  font-weight: 650;
+  color:#0e314C;
+  text-align: left;
+  align-items: left;
+ 
+}
+.tablesessionhead2{
+  font-size: 20px;
+  font-weight: 650;
+  color:#0e314C;
+  text-align: left;
+  align-items: left;
+ margin-left: -60px;
+}
+.tdleft2{
+  font-size: 14px;
+  font-weight: 650;
+  color:#4A6F8A;
+  text-align: left;
+  align-items: left;
+  margin-left: -53px;
+}
+.hrsession{border-top: 1px solid gray;}
+.sessionwrap1{
+  background-color:white  ;
+  box-shadow: 5px 10px 18px #888888;
+
+
+}
+.session1{
+  margin-top: -40px;
+  margin-left: -100px;
+  
+}
+.resessionbutton{
+  margin-top: 10px;
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: 1em 1.2em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+ border-radius: 5px;
+ margin-bottom: 50px;
+}
+.tdright{
+  font-size: 14px;
+  font-weight: 650;
+  color:#0e314C;
+  text-align: left;
+  align-items: left;
+  margin-left: 100px;
+}
+.tdleft{
+  font-size: 14px;
+  font-weight: 650;
+  color: #4A6F8A;
+  text-align: left;
+}
+.svg_icons {
+  margin-top: 50px;
+  transform: scale(3.8);
+}
+.sessionhead2{
+  color: #0e314C;
+  margin-top: 40px;
+}
+.sessiontable{
+  margin-left: 230px;
+  margin-top: 30px;
+}
+.table{
+  text-align: left;
+}
+
+/****** delete account style *************/
+
+.deletecontent{
+  margin-top: -10px;
+  margin-left: -50px;
+}
+.labelradio{
+  font-family: 'Poppins', sans-serif;
+  color:#0E314C;
+  font-weight: 650;
+}
+#radio-head{
+  color:#0E314C;
+  font-size:16px;
+  font-weight: 650;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px !important;
+}
+.radiocontent{
+  margin-left: -25px !important;
+}
+.delete{
+margin-top: 60px ;
+}
+.deletimage{
+  margin-left: -50px;
+  height: 200px;
+  margin-top: -50px;
+}
+.deletehead{
+  font-weight: 650;
+  color:#0E314C;
+  font-size: 25px;
+  margin-left: 280px;
+  width:400px;
+  font-family: 'Poppins', sans-serif !important;
+}
+.delete2head{
+  font-weight: 650 !important;
+  color:#0E314C;
+  font-size: 20px !important;
+  margin-left: 280px;
+  width:400px;
+  font-family: 'Poppins', sans-serif !important;
+}
+.delete2text{
+  font-size: 14px!important;
+  color: #0e314c !important;
+}
+
+.deletewrap{
+  background-color:white  ;
+  box-shadow: 5px 10px 18px #888888;
+  display: flex;
+ margin-top: 80px;
+  height: 500px;
+  width:1000px;
+  margin-left: 130px;
+}
+.deletebuttons{
+  margin-left: 600px;
+  display: flex;
+}
+.deletebutton1 {
+
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: .7em 3em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 20px;
+
+ 
+}
+.deletebutton2 {
+
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: .7em 3em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 20px;
+margin-left: 10px;
+ 
+}
+.deletebutton1{
+  position: relative;
+  
+}
+.deletebutton {
+
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: .7em 3em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: -220px;
+}
+.deletebutton{
+  position: relative;
+  
+}
+
+
+
+
+
+
+/****** change password style *************/
+
+.password{
+  width:400px;
+margin-top: 10px !important;
+
+}
+
+.passbutton {
+  margin-top: 10px;
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: 1em 10.7em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+ border-radius: 5px;
+}
+.passbutton span {
+  position: relative;
+  pointer-events: none;
+}
+
+.passhead{
+  font-weight: 650;
+  color:#0E314C;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif !important;
+}
+.passwrap{
+  background-color:white  ;
+  box-shadow: 5px 10px 18px #888888;
+  display: flex;
+  margin-left: 130px;
+  width:1000px;
+  margin-top: 80px;
+}
+.passcontent{
+  padding-left: 60px !important;
+  padding: 80px;
+  padding-bottom: 100px;
+}
+.required{color:gray;
+  font-size: .9rem;}
+  .imgpass{
+    width:320 !important;
+    height: 280px !important;
+  margin-top: 120px !important;
+  margin-left: 25px !important;
+  
+  }
+  .imgpassword{
+    width:380 !important;
+    height: 280px !important;
+  }
+  .headerportion{
+    background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
+    height: 200px;
+}
+.inputs{
+    width: 400px;
+}
+.profileimage img{
+    transform: translate(60px,-130px);
+}
+.mobiletab{
+  display: none !important;
+}
+
+
+
+
+/************1440 laptop view****************************/
+
+
+
+
+@media screen and (max-width: 1440px)
+{
+ .passwrap{
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+ .deletecontent{
+  margin-top: -10px;
+  margin-left: 0px !important;
+}
+.deletimage{
+  margin-left: -150px;
+  height: 200px;
+  margin-top: -50px;
+}
+.deletebutton {
+
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #23BDB8;
+  padding: .7em 3em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: -100px;
+}
+.deletewrap{
+  margin-left: 100px ;
+  }
+}
+
+
+/************1024 laptop view****************************/
+
+
+
+
+@media screen and (max-width: 1025px)
+
+{
+  .tablesessionhead2{
+   
+   margin-left: 0px;
+  }
+  .tdleft2{
+  
+    margin-left: 5px
+  }
+  .session1{
+    margin-left: 190px;
+    
+
+  }
+  .sessiontable{
+    margin-left: 150px;
+    padding-right: 10px !important;
+  }
+  .table{
+    padding-left: 10px !important;
+  }
+  .radio{
+    padding-top: 30px !important;
+  }
+  .sessionhead3{
+    margin-left: 440px !important;
+  }
+  .sessionhead{
+    font-size: 35px;
+    font-weight: 650;
+    font-family: 'Poppins', sans-serif  !important ;
+    color:#0e314C;
+    text-align: left;
+    margin-left: 13px;
+    margin-top: 40px !important;
+    }
+  .sessionwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 13px;
+    width:1000px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  .box{
+    background-color:#F5FFFA  ;
+    height:100%;
+   width: 1550px !important;
+   display: none !important;
+  }
+  .mobiletab{
+    display: block !important;
+    width:100px
+  }
+.drawer{
+  width:300px
+}
+.lis{
+  display: flex;
+}
+#menu{
+margin-left: -40px;
+width:200px;
+height: 30px;
+}
+.text{
+
+ 
+  color:#4A6F8A !important;
+  font-size: 18px !important;
+  text-align: left !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.text1{
+  margin-top: 140px;
+  color:#4A6F8A !important;
+  font-size: 18px !important;
+  text-align: left !important;
+  font-weight: 650 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.icon{
+  margin-right: 20px;
+  height: 20px;
+}
+.passwrap{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 150px;
+}
+.deletewrap{
+  margin-left: 10px ;
+  margin-top: 80px;
+  }
+.deletebutton{
+  margin-left: -170px;
+}
+}
+
+@media screen and (max-width: 850px){
+  .passwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    width:600px;
+    height:880px !important;
+  }
+  .passcontent{
+    padding-left: 50px !important;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+ 
+  .imgpass{
+    width:320 !important;
+    height: 280px !important;
+  margin-top: 20px !important;
+  margin-left: 25px !important;
+  }
+}
+
+/************768 tab view****************************/
+
+
+@media screen and (max-width: 769px){
+  
+   .radio{
+     padding-top: 30px !important;
+   }
+   .sessionhead3{
+    margin-left: 340px!important;
+   }
+   .session1{
+    margin-left: 110px;
+   }
+   .sessiontable{
+    margin-left: 100px;
+   }
+  .passwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 80px !important;
+    margin-right: 80px !important;
+    width:600px;
+    height:780px !important;
+  }
+  .passcontent{
+  padding-left: 50px !important;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+.imgpass{
+  width:320 !important;
+  height: 280px !important;
+margin-top: 30px !important;
+margin-left: 25px !important;
+}
+.deletewrap{
+  height: 850px;
+  width: 600px;
+  margin-left: 80px;
+}
+.deletehead{
+  margin-left: 105px;
+  font-size: 30px!important;
+}
+.deletecontent{
+  margin-top: -170px;
+  margin-left: 0px !important;
+}
+.deletimage{
+  margin-left: 0px;
+  margin-top: -150px;
+}
+.deletebuttons{
+  margin-left: 100px;
+  display: flex;
+}
+.deletebutton{
+  margin-left: -170px;
+}
+.sessionhead{
+  font-size: 35px;
+  font-weight: 650;
+  font-family: 'Poppins', sans-serif  !important ;
+  color:#0e314C;
+  text-align: left;
+  margin-left: 60px;
+
+  }
+  .session{
+    margin-top: 30px;
+  }
+  .sessionhead1{
+    font-size: 35px;
+    font-weight: 650;
+    font-family: 'Poppins', sans-serif  !important ;
+    color:#0e314C;
+    margin-top: 30px !important;
+    width: 600px;
+    margin-left: 75px;
+    }
+    
+  .sessionbutton {
+    margin-top: 10px;
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #23BDB8;
+    padding: 1em 2.7em;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+   border-radius: 5px;
+   margin-bottom: 30px;
+  }
+  .sessionbuttonlink{
+    color:white !important;
+  }
+  .MuiTabs-indicator{
+    color: #23BDB8;
+  } 
+  
+  
+  .sessionwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 60px;
+    width:650px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  .sessioncontent{
+  margin-left: -50px;
+  }
+  .imgsession{
+    margin-left: 0px; 
+  }
+  
+  .sessionhead4{
+    width:650px;
+    margin-left: 55px;
+    font-size: 35px;
+    margin-top: 30px !important;
+  }
+  .sessionbutton{
+    margin-left: 40px;
+  }
+  .radio{
+    padding-top:50px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 426px){
+  .tablesessionhead2{
+   
+    margin-left: 0px;
+   }
+   .tdleft2{
+   
+     margin-left: 2px
+   }
+   .diolog1{
+    overflow: hidden;
+   }
+   .session1{
+     margin-left: 13px;
+     
+  
+   }
+   .sessionhead3{
+    margin-left: 10px !important;
+   }
+   .navsession{
+    width:400px;
+   }
+   .sessionwrap1{
+    width:400px;
+   }
+   .sessiontable{
+     margin-left: 35px;
+     padding-right: 10px !important;
+   }
+   .table{
+     padding-left: 10px !important;
+   }
+  .passwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 25px !important;
+    width:370px;
+    height:780px !important;
+    margin-top: 20px;
+  }
+  .passcontent{
+    padding-left: 35px !important;
+    padding: 60px;
+    padding-bottom: 100px;
+  }
+  .password{
+    width:300px;
+  margin-top: 10px !important;
+  
+  }
+ 
+  .passbutton{
+    padding: 1em 7.7em;
+  }
+  .passhead{
+    font-weight: 650;
+    color:#0E314C;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .imgpass{
+    width:320 !important;
+    height: 280px !important;
+  margin-top: 30px !important;
+  margin-left: 10px !important;
+  }
+  .deletewrap{
+    height: 800px;
+    width: 380px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  .delete{
+    margin-top: 40px;
+  }
+  .deletehead{
+    margin-left: 0px;
+    font-size: 28px!important;
+  }
+  .deletecontent{
+    margin-top: -170px;
+    margin-left: 40px !important;
+    font-size: 20px;
+  }
+  .deletimage{
+    margin-left: 0px;
+    margin-top: -150px;
+  }
+  .deletebuttons{
+    margin-left: 100px;
+    display: flex;
+  }
+  #radio-head{
+    margin-left: -20px !important;
+    width: 300px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .deletebutton{
+    margin-left: -140px;
+  }
+  .sessionhead{
+margin-left: 45px;
+font-size: 30px;
+  }
+  .sessionwrap{
+    width:400px;
+   
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  .sessionhead1{
+    width:400px;
+    margin-left: 50px;
+  }
+  .sessionbutton{
+    margin-left: 90px;
+  }
+  .radio{
+    padding-top:50px;
+    margin-left: 140px;
+  }
+  .sessionhead4{
+    width:350px ;
+    margin-left: 75px;
+    font-size: 30px;
+    margin-top: 30px!important;
+  }
+   .sessiontable1{
+    margin-left: 10px;
+  }
+  .deletebutton1{
+    padding: .7em 1em;
+  }
+  .deletebutton2{
+    padding: .7em 1em;
+  }
+}
+@media screen and (max-width: 376px){
+  .session1{
+    margin-left: 7.5px;
+    
+ 
+  }
+  
+  .sessionhead3{
+   margin-left: 0px !important;
+  }
+  .navsession{
+   width:360px;
+  }
+  .sessionwrap1{
+   width:360px;
+  }
+  .sessiontable{
+    margin-left: 30px;
+    padding-right: 10px !important;
+  }
+  .table{
+    padding-left: 10px !important;
+  }
+  .sessiontable1{
+    padding-left: 15px !important;
+  }
+  .passwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 20px !important;
+    width:335px;
+    height:780px !important;
+    margin-top: 20px;
+  }
+  .passcontent{
+    padding-left: 40px !important;
+    padding: 60px;
+    padding-bottom: 100px;
+  }
+  .password{
+    width:250px;
+  margin-top: 10px !important;
+  
+  }
+  .passbutton{
+    padding: 1em 6.3em;
+  }
+  .passhead{
+    font-weight: 650;
+    color:#0E314C;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .imgpass{
+    width:320 !important;
+    height: 280px !important;
+  margin-top: 30px !important;
+  margin-left: 10px !important;
+  }
+  .deletewrap{
+    height: 850px ;
+    width: 340px;
+    margin-left: 17px;
+    margin-top: 40px;
+  }
+  .delete{
+    margin-top: 40px;
+  }
+  .deletehead{
+    margin-left: 0px;
+    font-size: 25px!important;
+  }
+  .deletecontent{
+    margin-top: -150px;
+    margin-left: 40px !important;
+    font-size: 20px;
+  }
+  .deletimage{
+    margin-left: 0px;
+    margin-top: -120px;
+  }
+  .deletebuttons{
+    margin-left: 20px !important;
+    display: flex;
+  }
+  #radio-head{
+    margin-left: -20px !important;
+    width: 300px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .deletebutton{
+    margin-left: -130px;
+  }
+  .sessionhead{
+    margin-left: 48px;
+    font-size: 25px;
+      }
+      .sessionwrap{
+        width:350px;
+        margin-left: 12px;
+        margin-top: 20px;
+      }
+      .sessionhead1{
+        width:300px;
+        margin-left: 75px;
+        font-size: 30px;
+      }
+      .sessionhead4{
+        width:350px ;
+        margin-left: 50px;
+        font-size: 30px;
+        margin-top: 30px!important;
+      }
+      .sessionbutton{
+        margin-left: 65px;
+      }
+      .radio{
+        padding-top:50px;
+        margin-left: 120px;
+      }
+      .tablesessionhead2{
+        font-size: 16px;
+        
+      }
+      .tdleft2{
+        font-size: 13px;
+       
+      }
+      .tablesessionhead{
+        font-size: 18px;
+        
+      }
+      .tdleft1{
+        font-size: 13px;
+       
+      }
+      .deletebutton1{
+        padding: .7em 1em;
+      }
+      .deletebutton2{
+        padding: .7em 1em;
+      }
+      .tdright{
+        font-size:13px;
+        margin-left: 60px;
+      }
+      .sessiontable{
+        margin-left: 40px;
+      }
+}
+@media screen and (max-width: 321px){
+  .tablesessionhead2{
+    font-size: 14px;
+    
+  }
+  .tdleft2{
+    font-size: 12px;
+   
+  }
+  .tablesessionhead{
+    font-size: 14px;
+    
+  }
+  .tdleft1{
+    font-size: 11px;
+   
+  }
+  .session1{
+    margin-left: 10.5px;
+    
+ 
+  }
+  
+  .sessionhead3{
+   margin-left: 0px !important;
+  }
+  .navsession{
+   width:300px;
+  }
+  .sessionwrap1{
+   width:300px;
+  }
+  .sessiontable{
+    margin-left: 25px;
+   
+  }
+  .table{
+    padding-left: 10px !important;
+  }
+  .tdright{
+    margin-left: 30px;
+  }
+  .tdleft{
+    margin-left: 5px;
+  }
+  .sessiontable1{
+    padding-left: 0px !important;
+  }
+  .passwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 10px !important;
+    width:300px;
+    height:780px !important;
+    margin-top: 20px;
+  }
+  .deletebutton{
+    margin-left: -120px;
+  }
+  .passcontent{
+    padding-left: 25px !important;
+    padding: 60px;
+    padding-bottom: 100px;
+  }
+  .password{
+    width:250px;
+  margin-top: 10px !important;
+  
+  }
+  .passbutton{
+    padding: 1em 6.3em;
+  }
+  .passhead{
+    font-weight: 650;
+    color:#0E314C;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .imgpass{
+    width:320 !important;
+    height: 280px !important;
+  margin-top: 30px !important;
+  margin-left: 10px !important;
+  }
+  .deletewrap{
+    height: 800px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .delete{
+    margin-top: 40px;
+  }
+
+  .deletebutton1{
+    padding: .7em .5em;
+  }
+  .deletebutton2{
+    padding: .7em .5em;
+  }
+  .deletehead{
+    margin-left: -10px;
+    font-size: 23px!important;
+  }
+  .deletecontent{
+    margin-top: -130px;
+    margin-left: 40px !important;
+    font-size: 20px;
+  }
+  .deletimage{
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  .deletebuttons{
+    margin-left: 100px;
+    display: flex;
+  }
+  #radio-head{
+    margin-left: -20px !important;
+    width: 300px;
+    font-size: 17px;
+    text-align: left;
+  }
+  #labelradio{
+    width:300px;
+    text-align: left;
+  }
+  .sessionhead{
+    margin-left: 20px;
+    font-size: 25px;
+      }
+      .sessionwrap{
+        width:300px;
+        margin-left: 10.5px;
+        margin-top: 20px;
+      }
+      .sessionhead1{
+        width:200px;
+        margin-left: 100px;
+        font-size: 30px;
+      }
+      .sessionhead4{
+        width:250px;
+        margin-left: 75px;
+        font-size: 30px;
+        margin-top: 30px !important;
+      }
+      .sessionbutton{
+        margin-left: 40px;
+      }
+      .radio{
+        padding-top:50px;
+        margin-left: 90px;
+      }
+      .tdright{
+        font-size:12px
+      }
+}
+
+
+
+
+/**************userprofile***********************/
+
+  input{
+      display: none;
+  }
+  .headerportion{
+      background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
+      height: 200px;
+     
+  }
+ 
+  .inputs{
+      width: 400px;
+  }
+  .profileimage img{
+      transform: translate(55px,60px);
+  }
+  .userdetail{
+      margin-top: 60px;
+  }
+  .addition{
+      transform: translate(75px,-50px)!important;
+  }
+  .userdetail h2{
+      text-align: left;
+  }
+  .userdetail h3{
+      font-size: 26px;
+      font-weight: 650;
+      color: #4A6F8A;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin-left: -97px; 
+  }
+  .userdetail h2{
+      font-size: 35px;
+      font-weight: 650;
+      color: #4A6F8A;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin-left: -95px;
+  }
+  .email ul li{
+      display: inline-grid;
+      padding-right: 22px;
+  }
+  .email p2{
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      color: #4A6F8A;
+  }
+  .email{
+  text-align: left;
+  margin-left: -32px;
+  margin-top: 40px
+  }
+  .localphone{
+      margin-left: -27px;
+  }
+  .about h2{
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      color: #4A6F8A;
+  }
+  .about{
+      margin-top: 64px;
+      text-align: justify;
+  }
+  .about p3{
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      line-height: 34px;
+      color: #4A6F8A;
+  }
+  
+  @media screen and (max-width:1025px){
+      .profileimage img{
+          transform: translate(30px,60px);
+          width: 25%!important;
+      }
+      .addition{
+          transform: translate(65px,-105px)!important;
+      }
+      .userdetail h2{
+          font-size: 26px;
+          margin-left: -10px;
+      }
+      .userdetail h3{
+          font-size: 20px;
+          margin-left: -10px;
+      }
+      .userdetail{
+          margin-top: 70px;
+      }
+      .email ul li{
+          padding-right: 11px;
+      }
+      .email{
+          margin-left: -50px;
+      }
+  }
+  @media screen and (max-width:769px){
+      
+      .addition{
+          transform: translate(75px,-105px);
+      }
+      .email ul li{
+          display: block;
+          padding-bottom: 25px;
+      }
+      .userdetail{
+          margin-top: 3px;
+      }
+      .about{
+          margin-top: 2px;
+      }
+      .about p3{
+          word-break: break-all;
+      }
+  }
+  @media screen and (max-width:426px){
+      .profileimage img{
+          transform: translate(88px,60px);
+          width: 55%!important;
+      }
+      .userdetail{
+          margin-top: 30px;
+      }
+      .email{
+          margin-left: 10px;
+      }
+      .about{
+          margin: 40px;
+      }
+      .addition{
+          transform: translate(62px,-95px)!important;
+      }
+  }
+  @media screen and (max-width:376px){
+      .profileimage img{
+          transform: translate(80px,60px);
+      }
+      .addition{
+          transform: translate(42px,-105px)!important;
+      }
+  }
+  @media screen and (max-width:321px){
+      .profileimage img{
+          transform: translate(55px,60px);
+          width: 65%!important;
+      }
+      .addition{
+          transform: translate(47px,-105px)!important;
+      }
+  }

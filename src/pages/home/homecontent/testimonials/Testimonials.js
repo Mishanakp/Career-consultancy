@@ -17,8 +17,8 @@ const Testimonials = ( ) => {
       arrows:false, 
       };
   return (
-    <div className='testimonials'>
-      <h1 className='testHead'>Testimonials</h1>
+    <div className='pritestimonials'>
+      <h1 className='pritestHead'>testimonials</h1>
       <Slider {...settings} className='orig'>
            <Grid container>
             <Grid item xs={12}>
