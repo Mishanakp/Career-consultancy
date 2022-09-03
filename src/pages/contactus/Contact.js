@@ -230,7 +230,7 @@ function Contact() {
 
 {/* This is the next section  */}
 
-<Box sx={{ flexGrow: 1 }} className="second" >
+<Box sx={{ flexGrow: 1 }} className="salsecond" >
       <Grid container spacing={2}>
       <Grid item  xs={12}>
     <div className="main">
