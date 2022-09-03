@@ -42,7 +42,7 @@ export default function Navigate() {
     return (
         <Router>
             <div>
-              <div><Header/></div>
+           <div><Header/></div>
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
                 
