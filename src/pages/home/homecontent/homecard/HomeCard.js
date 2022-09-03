@@ -17,23 +17,23 @@ const HomeCard = () => {
   return (
     <div className='prihomeCard'>
       <img className='background' src="https://www.bostondynamics.com/themes/custom/isovera/images/fading-grid-background-top.png" alt="" />
-         <h1 className='cardMainHead'>Sessions With Our Experts</h1>
+         <h1 className='pricardMainHead'>Sessions With Our Experts</h1>
          {/* ............................... */}
-    <div className='cardss1'>
+    <div className='pricards1'>
       <Grid container>
        <Grid item lg={3} md={6} >
-       <div className='post1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="1000">
-        <Card className='cardd1'>
+       <div className='pripost1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="1000">
+        <Card className='pricard1'>
       <CardActionArea>
         <CardMedia
           component="img" 
           image="https://img.freepik.com/free-vector/pitch-meeting-concept-illustration_114360-6000.jpg?size=626&ext=jpg&ga=GA1.2.1405503288.1661585887"
           alt="person"
         />
-        <CardContent className='cardContent1'>
+        <CardContent className='pricardContent1'>
           
           <Typography variant="body2" > 
-          <p  className='cardPara1'>
+          <p  className='pricardPara1'>
           As Consultants, we add immense value.  businesses, governments, organizations, municipalities, groups and individuals - and ultimately provide them with resources to help them make better choices. And with everyone making better choices, the world is a better place.
           </p> 
           </Typography>
@@ -44,18 +44,18 @@ const HomeCard = () => {
    </div>
         </Grid>
         <Grid item lg={3} md={6} >
-        <div className='post1' data-aos="fade-up" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
-        <Card  className='card2'>
+        <div className='pripost1' data-aos="fade-up" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
+        <Card  className='pricard2'>
       <CardActionArea>
         <CardMedia
           component="img" 
           image="https://img.freepik.com/free-vector/employer-meeting-job-applicant-pre-employment-assessment-employee-evaluation-assessment-form-report-performance-review-concept-illustration_335657-2058.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
           alt="green iguana"
         />
-        <CardContent className='cardContent2'>
+        <CardContent className='pricardContent2'>
           
           <Typography variant="body2"  >
-          <p  className='cardPara2'>
+          <p  className='pricardPara2'>
           In the gig economy, increasingly  bespoke analytical research. Our career test evaluates fitment to specific roles across industries, providing the much needed decision support for enhancing role wise tenures, satisfaction and productivity.
           </p>
           </Typography>
@@ -66,18 +66,18 @@ const HomeCard = () => {
    </div>
         </Grid>
         <Grid item lg={3} md={6}>
-        <div className='post1' data-aos="fade-up" data-aos-duration="1000"  data-aos-mirror="true" data-aos-delay="500">
-      <Card   className='card3'>
+        <div className='pripost1' data-aos="fade-up" data-aos-duration="1000"  data-aos-mirror="true" data-aos-delay="500">
+      <Card   className='pricard3'>
     <CardActionArea>
       <CardMedia
         component="img" 
         image="https://img.freepik.com/premium-vector/resume-concept-man-makes-resume-vector-illustration-flat_186332-1030.jpg?w=996"
         alt="green iguana"
       />
-      <CardContent className='cardContent3'> 
+      <CardContent className='pricardContent3'> 
        
         <Typography variant="body2">
-        <p  className='cardPara3'>In the gig economy,   and bespoke analytical research. Our career test evaluates fitment to specific roles across industries, providing the much needed decision support for enhancing role wise tenures, satisfaction and productivity.
+        <p  className='pricardPara3'>In the gig economy,   and bespoke analytical research. Our career test evaluates fitment to specific roles across industries, providing the much needed decision support for enhancing role wise tenures, satisfaction and productivity.
         </p>
         </Typography>
       </CardContent>
@@ -87,8 +87,8 @@ const HomeCard = () => {
  </div>
       </Grid>
         <Grid item lg={3} md={6} >
-        <div className='post1' data-aos="fade-left" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="1000">
-      <Card   className='card4'>
+        <div className='pripost1' data-aos="fade-left" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="1000">
+      <Card   className='pricard4'>
     <CardActionArea>
       <CardMedia
         component="img"
@@ -96,10 +96,10 @@ const HomeCard = () => {
         image="https://img.freepik.com/free-vector/businessman-sets-goals-runs-up-graph-columns-success-time-self-management-self-regulation-learning-self-organization-course-concept-illustration_335657-2070.jpg?w=996&t=st=1661594736~exp=1661595336~hmac=3c4dc46786cefd933b4d3487e31ab5b7c1def97600ad8220e90a35af597afaa5"
         alt="green iguana"
       />
-      <CardContent className='cardContent4'> 
+      <CardContent className='pricardContent4'> 
        
         <Typography variant="body2">
-        <p  className='cardPara4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque velit iure ratione laborum culpa pariatur eaque voluptatum minima ullam.
+        <p  className='pricardPara4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque velit iure ratione laborum culpa pariatur eaque voluptatum minima ullam.
         </p>
         </Typography>
       </CardContent>
@@ -117,18 +117,18 @@ const HomeCard = () => {
     <div className='cards2'>
       <Grid container>
        <Grid item lg={3} sm={6} xs={12} >
-       <div className='post1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
-        <Card className='cardd1'>
+       <div className='pripost1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
+        <Card className='pricard1'>
       <CardActionArea>
         <CardMedia
           component="img" 
           image="https://img.freepik.com/free-vector/pitch-meeting-concept-illustration_114360-6000.jpg?size=626&ext=jpg&ga=GA1.2.1405503288.1661585887"
           alt="person"
         />
-        <CardContent className='cardContent1'>
+        <CardContent className='pricardContent1'>
           
           <Typography variant="body2" >
-          <p  className='cardPara1'>
+          <p  className='pricardPara1'>
           As Consultants, we add immense value.  businesses, governments, organizations, municipalities, groups and individuals - and ultimately provide them with resources to help them make better choices. And with everyone making better choices, the world is a better place.
           </p>
           </Typography>
@@ -139,18 +139,18 @@ const HomeCard = () => {
    </div>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} >
-        <div className='post1' data-aos="fade-left" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
-        <Card  className='card2'>
+        <div className='pripost1' data-aos="fade-left" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
+        <Card  className='pricard2'>
       <CardActionArea>
         <CardMedia
           component="img" 
           image="https://img.freepik.com/free-vector/employer-meeting-job-applicant-pre-employment-assessment-employee-evaluation-assessment-form-report-performance-review-concept-illustration_335657-2058.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207"
           alt="green iguana"
         />
-        <CardContent className='cardContent2'>
+        <CardContent className='pricardContent2'>
           
           <Typography variant="body2"  >
-          <p  className='cardPara2'>
+          <p  className='pricardPara2'>
           In the gig economy, increasingly  bespoke analytical research. Our career test evaluates fitment to specific roles across industries, providing the much needed decision support for enhancing role wise tenures, satisfaction and productivity.
           </p>
           </Typography>
@@ -161,18 +161,18 @@ const HomeCard = () => {
    </div>
         </Grid>
         <Grid item lg={3} sm={6} xs={12}>
-        <div className='post1' data-aos="fade-right" data-aos-duration="1000"  data-aos-mirror="true" data-aos-delay="500">
-      <Card   className='card3'>
+        <div className='pripost1' data-aos="fade-right" data-aos-duration="1000"  data-aos-mirror="true" data-aos-delay="500">
+      <Card   className='pricard3'>
     <CardActionArea>
       <CardMedia
         component="img" 
         image="https://img.freepik.com/premium-vector/resume-concept-man-makes-resume-vector-illustration-flat_186332-1030.jpg?w=996"
         alt="green iguana"
       />
-      <CardContent className='cardContent3'> 
+      <CardContent className='pricardContent3'> 
        
         <Typography variant="body2">
-        <p  className='cardPara3'>In the gig economy,   and bespoke analytical research. Our career test evaluates fitment to specific roles across industries, providing the much needed decision support for enhancing role wise tenures, satisfaction and productivity.
+        <p  className='pricardPara3'>In the gig economy,   and bespoke analytical research. Our career test evaluates fitment to specific roles across industries, providing the much needed decision support for enhancing role wise tenures, satisfaction and productivity.
         </p>
         </Typography>
       </CardContent>
@@ -182,8 +182,8 @@ const HomeCard = () => {
  </div>
       </Grid>
         <Grid item lg={3} sm={6} xs={12}>
-        <div className='post1' data-aos="fade-left" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
-      <Card   className='card4'>
+        <div className='pripost1' data-aos="fade-left" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">
+      <Card   className='pricard4'>
     <CardActionArea>
       <CardMedia
         component="img"
@@ -191,10 +191,10 @@ const HomeCard = () => {
         image="https://img.freepik.com/free-vector/businessman-sets-goals-runs-up-graph-columns-success-time-self-management-self-regulation-learning-self-organization-course-concept-illustration_335657-2070.jpg?w=996&t=st=1661594736~exp=1661595336~hmac=3c4dc46786cefd933b4d3487e31ab5b7c1def97600ad8220e90a35af597afaa5"
         alt="green iguana"
       />
-      <CardContent className='cardContent4'> 
+      <CardContent className='pricardContent4'> 
        
         <Typography variant="body2">
-        <p  className='cardPara4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque velit iure ratione laborum culpa pariatur eaque voluptatum minima ullam.
+        <p  className='pricardPara4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque velit iure ratione laborum culpa pariatur eaque voluptatum minima ullam.
         </p>
         </Typography>
       </CardContent>

@@ -316,3 +316,4 @@ const Navbar = ({ placeholder, data }) => {
 }
 
 export default Navbar
+
