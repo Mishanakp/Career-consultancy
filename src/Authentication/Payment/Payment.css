@@ -11,14 +11,13 @@ body{
   .paymentcard{
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 100px;
+    padding-top: 600px;
     padding-bottom: 100px;
     
   }
 
   
-  #paymerntgid{
-
+  #paymerntgid{ 
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 
   }

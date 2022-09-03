@@ -4,7 +4,7 @@ body{
 }
 
 
-.backgrounddiv{padding: 40px 200px 40px 200px!important;
+.backgrounddiv{padding: 80px 200px 80px 200px!important;
     background-image: linear-gradient(to right, #23BDB8, #8ee7ba);
   }
 .bgwhite{background-color: white;

@@ -44,7 +44,7 @@ export default function  Ourconsultants()  {
             getOptionLabel={(option) => option.title}
             filterOptions={filterOptions}
             sx={{ width: 300 }}
-            renderInput={(params) => <TextField {...params} label="Search for a onsultant" />}
+            renderInput={(params) => <TextField {...params} label="Search for a consultant" />}
           />
           <Autocomplete
           className='catfilter'

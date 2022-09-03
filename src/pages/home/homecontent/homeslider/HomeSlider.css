@@ -1,0 +1,28 @@
+img.homeImage{
+    width: 100% !important;
+    height: 520px; 
+}
+ 
+.slides {
+    position: relative;
+   
+  }
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+  }
+  .slick-prev {
+    left: 5%; 
+  }
+  .slick-next {
+    right: 5%;
+  }
+
+@media only screen and (max-width:1024px){
+  .slick-prev, .slick-next { 
+    top: 55%;
+  }
+}
+  
+  
+  
