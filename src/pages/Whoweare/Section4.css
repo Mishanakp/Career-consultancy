@@ -2,8 +2,9 @@
 .css-1sir9cm-MuiPaper-root {
     box-shadow: none !important;
 }
-.css-i9gxme {
+.gridsection {
     transform: translateY(-450px) !important;
+    box-shadow: none !important;
 }
 .gridhead1, .gridhead2, .gridhead3 {
     color: #0E314C !important;
@@ -40,7 +41,7 @@
    /*------- RESPONSIVE OF LAP  ------*/
    @media only screen and (max-width:1025px){
 
-    .css-i9gxme {
+    .gridsection {
         margin-left: -40px;
     }
     .gridpara1, .gridpara2, .gridpara3  {
@@ -69,8 +70,9 @@
     .css-1sir9cm-MuiPaper-root {
         transform: translateX(57px) !important;
     }
-    .css-i9gxme {
+    .gridsection {
         margin-left: 80px !important;
+        box-shadow: none !important;
     }
     .gridhead1 {
         transform: translateX(-180px);

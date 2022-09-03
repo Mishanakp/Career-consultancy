@@ -1,8 +1,8 @@
-.stepSection{
+.pristepSection{
     margin-top: 80px;
     padding-bottom: 80px;
 }
-.howIt{
+.prihowIt{
     font-size: 35px;
     font-weight: 650px;
     color: #4a6f8a; 
@@ -10,26 +10,26 @@
     width: 220px;  
     margin-left: 600px; */
 }
-span.icon1{
+span.priicon1{
     color: #23BDB8; 
 } 
-.how{
+.prihow{
     margin-top: 50px;
     color: #4a6f8a;
 }
-.step1{
+.pristep1{
     padding-left: 50px;
 }
-h1.firstHead{
+h1.prifirstHead{
     color: #4a6f8a;
     margin-top: -10px;
     font-size: 22px;
 }
-h5.firstSubhead{
+h5.prifirstSubhead{
     color: #4a6f8a;  
     
 }
-p.firstPara{
+p.prifirstPara{
     max-width: 280px;
     text-align: left;
     padding-left: 15px;
@@ -37,85 +37,85 @@ p.firstPara{
     word-break: break-all;
    
 }
-span.icon2{
+span.priicon2{
     color: #23BDB8;
     margin-top: 100px;
    
 }
-.step2{
+.pristep2{
     padding-left: 20px;
 }
-h1.firstHead2{
+h1.prifirstHead2{
     color: #4a6f8a;
     margin-top: -10px;
     width: 300px;
     margin-left: -15px;
     font-size: 22px;
 }
-h5.firstSubhead2{
+h5.prifirstSubhead2{
     color: #4a6f8a; 
 }
-p.firstPara2{
+p.prifirstPara2{
     max-width: 280px;
     text-align: left;
     padding-left: 0px; 
     text-align: justify;
     word-break: break-all;
 }
-span.icon2{
+span.priicon2{
     color: #23BDB8;
     margin-top: 100px;
    
 }
-.step3{
+.pristep3{
     padding-left: 20px;
 }
-h1.firstHead3{
+h1.prifirstHead3{
     color: #4a6f8a;
     margin-top: -10px;
     font-size: 22px;
 }
-h5.firstSubhead3{
+h5.prifirstSubhead3{
     color: #4a6f8a; 
 }
-p.firstPara3{
+p.prifirstPara3{
     max-width: 280px;
     text-align: left;
     padding-left: 30px; 
     text-align: justify;
     word-break: break-all;
 }
-span.icon3{
+span.priicon3{
     color: #23BDB8;
     margin-top: 100px;
     margin-left: 10px;
 }
-.step4{
+.pristep4{
     padding-left: 0px;
 }
-h1.firstHead4{
+h1.prifirstHead4{
     color: #4a6f8a;
     margin-top: -10px;
     font-size: 22px;
 }
-h5.firstSubhead4{
+h5.prifirstSubhead4{
     color: #4a6f8a; 
 }
-p.firstPara4{
+p.prifirstPara4{
     max-width: 280px;
     text-align: left;
     padding-left: 50px;
     text-align: justify;
     word-break: break-all;
 }
-span.icon4{
+span.priicon4{
     color: #23BDB8;
     margin-top: 100px;
    margin-left: 10px;
 }
 @media only screen and (max-width:1280px){
    
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 250px; 
     }
  
@@ -123,22 +123,22 @@ span.icon4{
 
 @media only screen and (max-width:1024px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 30px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 200px;
         text-align: left;
         padding-left: 15px;
@@ -146,104 +146,104 @@ span.icon4{
         word-break: break-all;
        
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 20px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 200px;
         margin-left:0px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 200px;
         text-align: left;
         padding-left: 0px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step3{
+    .pristep3{
         padding-left: 20px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 150px;
         margin-left: 25px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 200px;
         text-align: left;
         padding-left: 20px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon3{
+    span.priicon3{
         color: #23BDB8;
         margin-top: 100px;
         margin-left: 10px;
     }
-    .step4{
+    .pristep4{
         padding-left: 0px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 150px;
         margin-left: 30px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 200px;
         text-align: left;
         padding-left: 20px;
         text-align: justify;
         word-break: break-all; 
     }
-    span.icon4{
+    span.priicon4{
         color: #23BDB8;
         margin-top: 100px;
        margin-left: 10px;
     }
 }
 /* @media only screen and (min-width:820px){
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 30px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 120px;
         text-align: left;
         padding-left: 15px;
@@ -251,104 +251,104 @@ span.icon4{
         word-break: break-all;
        
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 0px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 200px;
         margin-left:-15px;
         font-size: 22px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 170px;
         text-align: left;
         padding-left:10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step3{
+    .pristep3{
         padding-left: 20px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
         width: 150px;
         margin-left:0px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 200px;
         text-align: left;
         padding-left: 10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon3{
+    span.priicon3{
         color: #23BDB8;
         margin-top: 100px;
         margin-left: 0px;
     }
-    .step4{
+    .pristep4{
         padding-left: 0px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 22px;
         width: 150px;
         margin-left: 10px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 150px;
         text-align: left;
         padding-left: 30px;
         text-align: justify;
         word-break: break-all; 
     }
-    span.icon4{
+    span.priicon4{
         color: #23BDB8;
         margin-top: 100px;
        margin-left: 0px;
     }
 } */
 @media only screen and (max-width:912px){
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 30px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 120px;
         text-align: left;
         padding-left: 25px;
@@ -356,82 +356,82 @@ span.icon4{
         word-break: break-all;
        
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 0px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 200px;
         margin-left:-15px;
         font-size: 22px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 170px;
         text-align: left;
         padding-left:10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step3{
+    .pristep3{
         padding-left: 20px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
         width: 150px;
         margin-left:0px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 200px;
         text-align: left;
         padding-left: 10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon3{
+    span.priicon3{
         color: #23BDB8;
         margin-top: 100px;
         margin-left: 0px;
     }
-    .step4{
+    .pristep4{
         padding-left: 0px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 22px;
         width: 150px;
         margin-left: 10px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 150px;
         text-align: left;
         padding-left: 30px;
         text-align: justify;
         word-break: break-all; 
     }
-    span.icon4{
+    span.priicon4{
         color: #23BDB8;
         margin-top: 100px;
        margin-left: 0px;
@@ -439,22 +439,22 @@ span.icon4{
 }
 @media only screen and (max-width:820px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 30px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 120px;
         text-align: left;
         padding-left: 15px;
@@ -462,82 +462,82 @@ span.icon4{
         word-break: break-all;
        
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 0px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 200px;
         margin-left:-15px;
         font-size: 22px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 170px;
         text-align: left;
         padding-left:10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step3{
+    .pristep3{
         padding-left: 20px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
         width: 150px;
         margin-left:0px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 200px;
         text-align: left;
         padding-left: 10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon3{
+    span.priicon3{
         color: #23BDB8;
         margin-top: 100px;
         margin-left: 0px;
     }
-    .step4{
+    .pristep4{
         padding-left: 0px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 22px;
         width: 150px;
         margin-left: 20px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 150px;
         text-align: left;
         padding-left: 30px;
         text-align: justify;
         word-break: break-all; 
     }
-    span.icon4{
+    span.priicon4{
         color: #23BDB8;
         margin-top: 100px;
        margin-left: 0px;
@@ -545,22 +545,22 @@ span.icon4{
 }
 @media only screen and (max-width:768px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 30px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 120px;
         text-align: left;
         padding-left: 15px;
@@ -568,82 +568,82 @@ span.icon4{
         word-break: break-all;
        
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 0px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 200px;
         margin-left:-15px;
         font-size: 22px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 170px;
         text-align: left;
         padding-left:10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon2{
+    span.priicon2{
         color: #23BDB8;
         margin-top: 100px;
        
     }
-    .step3{
+    .pristep3{
         padding-left: 20px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 22px;
         width: 150px;
         margin-left:0px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 200px;
         text-align: left;
         padding-left: 10px; 
         text-align: justify;
         word-break: break-all;
     }
-    span.icon3{
+    span.priicon3{
         color: #23BDB8;
         margin-top: 100px;
         margin-left: 0px;
     }
-    .step4{
+    .pristep4{
         padding-left: 0px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 22px;
-        width: 150px;
+        width: 120px;
         margin-left: 20px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 150px;
         text-align: left;
-        padding-left: 30px;
+        padding-left: 20px;
         text-align: justify;
         word-break: break-all; 
     }
-    span.icon4{
+    span.priicon4{
         color: #23BDB8;
         margin-top: 100px;
        margin-left: 0px;
@@ -651,36 +651,36 @@ span.icon4{
 }
  
 @media only screen and (max-width:430px){
-    .icon2,.icon3,.icon4{
+    .priicon2,.priicon3,.priicon4{
         display: none;
     }
 }
 @media only screen and (min-width:431px){
-    .icon2dup,.icon3dup,.icon4dup{
+    .priicon2dup,.priicon3dup,.priicon4dup{
         display: none;
     }
 }
-.icon2dup,.icon3dup,.icon4dup{
+.priicon2dup,.priicon3dup,.priicon4dup{
     color: #23BDB8;
 }
 @media only screen and (max-width:430px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 70px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 550px;
         text-align: left;
         padding-left: 15px;
@@ -688,27 +688,27 @@ span.icon4{
         word-break: break-all;
        font-size: 15px;
     }
-    span.icon2dup{
+    span.priicon2dup{
         color: #23BDB8;
         margin-top: 250px; 
-        margin-left: -280px;
+        margin-left: -280px ;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 70px;
         padding-top: 30px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 250px;
         margin-left:15px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 550px;
         text-align: left;
         padding-left:10px; 
@@ -716,26 +716,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon3dup{
+    span.priicon3dup{
         color: #23BDB8;
         margin-top: 310px;
         margin-left: -280px;
     }
-    .step3{
+    .pristep3{
         padding-left: 70px;
         padding-top: 30px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
         margin-left:50px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 280px;
         text-align: left;
         padding-left: 10px; 
@@ -743,26 +743,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon4dup{
+    span.priicon4dup{
         color: #23BDB8;
         margin-top: 280px;
         margin-left: -280px;
     }
-    .step4{
+    .pristep4{
         padding-left: 70px;
         padding-top: 30px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 26px;
         width: 200px;
         margin-left: 40px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 280px;
         text-align: left;
         padding-left: 5px;
@@ -773,22 +773,22 @@ span.icon4{
      
 }
 @media only screen and (max-width:395px){
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 50px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 270px;
         text-align: left;
         padding-left: 0px;
@@ -796,27 +796,27 @@ span.icon4{
         word-break: break-all;
        font-size: 15px;
     }
-    span.icon2dup{
+    span.priicon2dup{
         color: #23BDB8;
         margin-top: 250px; 
         margin-left: -280px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 250px;
         margin-left:15px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 550px;
         text-align: left;
         padding-left:0px; 
@@ -824,26 +824,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon3dup{
+    span.priicon3dup{
         color: #23BDB8;
         margin-top: 310px;
         margin-left: -280px;
     }
-    .step3{
+    .pristep3{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
         margin-left:50px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 280px;
         text-align: left;
         padding-left: 0px; 
@@ -851,26 +851,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon4dup{
+    span.priicon4dup{
         color: #23BDB8;
         margin-top: 280px;
         margin-left: -280px;
     }
-    .step4{
+    .pristep4{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 26px;
         width: 200px;
         margin-left: 40px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 280px;
         text-align: left;
         padding-left: 0px;
@@ -880,22 +880,22 @@ span.icon4{
     }
 }
 @media only screen and (max-width:391px){
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 50px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 270px;
         text-align: left;
         padding-left: 0px;
@@ -903,27 +903,27 @@ span.icon4{
         word-break: break-all;
        font-size: 15px;
     }
-    span.icon2dup{
+    span.priicon2dup{
         color: #23BDB8;
         margin-top: 250px; 
         margin-left: -280px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 250px;
         margin-left:15px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 550px;
         text-align: left;
         padding-left:0px; 
@@ -931,26 +931,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon3dup{
+    span.priicon3dup{
         color: #23BDB8;
         margin-top: 310px;
         margin-left: -280px;
     }
-    .step3{
+    .pristep3{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
         margin-left:50px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 280px;
         text-align: left;
         padding-left: 0px; 
@@ -958,26 +958,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon4dup{
+    span.priicon4dup{
         color: #23BDB8;
         margin-top: 280px;
         margin-left: -280px;
     }
-    .step4{
+    .pristep4{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 26px;
         width: 200px;
         margin-left: 40px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 280px;
         text-align: left;
         padding-left: 0px;
@@ -988,22 +988,22 @@ span.icon4{
 }
 @media only screen and (max-width:380px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 50px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 270px;
         text-align: left;
         padding-left: 0px;
@@ -1011,27 +1011,27 @@ span.icon4{
         word-break: break-all;
        font-size: 15px;
     }
-    span.icon2dup{
+    span.priicon2dup{
         color: #23BDB8;
         margin-top: 250px; 
-        margin-left: -280px;
+        margin-left: -270px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 250px;
         margin-left:15px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 550px;
         text-align: left;
         padding-left:0px; 
@@ -1039,26 +1039,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon3dup{
+    span.priicon3dup{
         color: #23BDB8;
         margin-top: 310px;
-        margin-left: -280px;
+        margin-left: -285px;
     }
-    .step3{
+    .pristep3{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
         margin-left:50px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 280px;
         text-align: left;
         padding-left: 0px; 
@@ -1066,26 +1066,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon4dup{
+    span.priicon4dup{
         color: #23BDB8;
         margin-top: 280px;
-        margin-left: -280px;
+        margin-left: -285px;
     }
-    .step4{
+    .pristep4{
         padding-left: 50px;
         padding-top: 30px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 26px;
         width: 200px;
         margin-left: 40px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 280px;
         text-align: left;
         padding-left: 0px;
@@ -1097,22 +1097,22 @@ span.icon4{
 }
 @media only screen and (max-width:365px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 45px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 270px;
         text-align: left;
         padding-left: 0px;
@@ -1120,27 +1120,27 @@ span.icon4{
         word-break: break-all;
        font-size: 15px;
     }
-    span.icon2dup{
+    span.priicon2dup{
         color: #23BDB8;
         margin-top: 250px; 
         margin-left: -280px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 45px;
         padding-top: 30px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 250px;
         margin-left:15px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 270px;
         text-align: left;
         padding-left:0px; 
@@ -1148,26 +1148,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon3dup{
+    span.priicon3dup{
         color: #23BDB8;
         margin-top: 310px;
         margin-left: -280px;
     }
-    .step3{
+    .pristep3{
         padding-left: 45px;
         padding-top: 30px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
         margin-left:50px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 270px;
         text-align: left;
         padding-left: 0px; 
@@ -1175,26 +1175,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon4dup{
+    span.priicon4dup{
         color: #23BDB8;
         margin-top: 280px;
         margin-left: -280px;
     }
-    .step4{
+    .pristep4{
         padding-left: 45px;
         padding-top: 30px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 26px;
         width: 200px;
         margin-left: 40px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 270px;
         text-align: left;
         padding-left: 0px;
@@ -1206,22 +1206,22 @@ span.icon4{
 }
 @media only screen and (max-width:320px){
    
-    .how{
+    .prihow{
         margin-top: 60px; 
     }
-    .step1{
+    .pristep1{
         padding-left: 25px;
     }
-    h1.firstHead{
+    h1.prifirstHead{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
     }
-    h5.firstSubhead{
+    h5.prifirstSubhead{
         color: #4a6f8a; 
         
     }
-    p.firstPara{
+    p.prifirstPara{
         width: 270px;
         text-align: left;
         padding-left: 0px;
@@ -1229,27 +1229,27 @@ span.icon4{
         word-break: break-all;
        font-size: 15px;
     }
-    span.icon2dup{
+    span.priicon2dup{
         color: #23BDB8;
         margin-top: 250px; 
         margin-left: -280px;
        
     }
-    .step2{
+    .pristep2{
         padding-left: 25px;
         padding-top: 30px;
     }
-    h1.firstHead2{
+    h1.prifirstHead2{
         color: #4a6f8a;
         margin-top: -10px;
         width: 250px;
         margin-left:15px;
         font-size: 26px;
     }
-    h5.firstSubhead2{
+    h5.prifirstSubhead2{
         color: #4a6f8a; 
     }
-    p.firstPara2{
+    p.prifirstPara2{
         width: 270px;
         text-align: left;
         padding-left:0px; 
@@ -1257,26 +1257,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon3dup{
+    span.priicon3dup{
         color: #23BDB8;
         margin-top: 310px;
         margin-left: -280px;
     }
-    .step3{
+    .pristep3{
         padding-left: 25px;
         padding-top: 30px;
     }
-    h1.firstHead3{
+    h1.prifirstHead3{
         color: #4a6f8a;
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
         margin-left:50px;
     }
-    h5.firstSubhead3{
+    h5.prifirstSubhead3{
         color: #4a6f8a; 
     }
-    p.firstPara3{
+    p.prifirstPara3{
         max-width: 270px;
         text-align: left;
         padding-left: 0px; 
@@ -1284,26 +1284,26 @@ span.icon4{
         word-break: break-all;
         font-size: 15px;
     }
-    span.icon4dup{
+    span.priicon4dup{
         color: #23BDB8;
         margin-top: 280px;
         margin-left: -280px;
     }
-    .step4{
+    .pristep4{
         padding-left: 25px;
         padding-top: 30px;
     }
-    h1.firstHead4{
+    h1.prifirstHead4{
         color: #4a6f8a;
         margin-top: 10px;
         font-size: 26px;
         width: 200px;
         margin-left: 40px;
     }
-    h5.firstSubhead4{
+    h5.prifirstSubhead4{
         color: #4a6f8a; 
     }
-    p.firstPara4{
+    p.prifirstPara4{
         max-width: 270px;
         text-align: left;
         padding-left: 0px;

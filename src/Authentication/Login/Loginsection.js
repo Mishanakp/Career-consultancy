@@ -70,8 +70,7 @@ class Loginsection extends Component{
     };
   
   
-  
-  
+
   
   
   
@@ -80,7 +79,7 @@ class Loginsection extends Component{
    <div>
          <div className='login'>
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid=""  id='login2'>
-                   <div class="uk-card-media-left uk-cover-container uk-first-column ">
+                   <div class="uk-card-media-left uk-cover-container uk-first-column " id="loginleft">
                          
                     
 
@@ -162,10 +161,7 @@ class Loginsection extends Component{
 
                 <p className='pop'>Don't have an account?&nbsp;&nbsp;&nbsp;<Link to="/signup"style={{color:'#23BDB8',fontWeight:'600'}}>Sign Up </Link>   </p>
 
-                {/*<Divider id='divider'><p className='pop1'>or Login with</p>  </Divider>
                 
-                <span><a href="https://myaccount.google.com/"> <img src='https://www.felicity.care/assets/images/google.png' className='go'/></a>
-                <a href="https://www.facebook.com/login.php"> <img src='https://www.felicity.care/assets/images/facebook.png' className='face'/>  </a>              </span>
 
 
            {/***************************************/}
@@ -198,18 +194,15 @@ class Loginsection extends Component{
                        
 </div>
   
-   
-
-
-    <div className="logincard769">
+<div className="logincard769">
        
 
-    <div class="uk-child-width-1-1@m" uk-grid id="logintab769">
-       <div class="uk-card uk-card-default" >
+    <div class="uk-child-width-1-2@m" uk-grid id="logintab769">
+       <div class="uk-card uk-card-default" id='anulogin'>
                            <div class="uk-card-media-top" id="logtop">
                                <img src={ed}  alt=""  className="logimg769"/>
                            </div>
-                           <div class="uk-card-body" id="loginbody769">
+                           <div class="uk-card-body" id="cardpadding ">
                            <p className="username" id="use">Username
                   </p>
                 
@@ -281,7 +274,10 @@ class Loginsection extends Component{
                            </div>
         </div>
 
-</div>
+</div> 
+
+
+    
 
 {/*********************/}
 </div>
