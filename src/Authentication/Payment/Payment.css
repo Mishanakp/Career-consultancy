@@ -11,7 +11,7 @@ body{
   .paymentcard{
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 600px;
+    padding-top: 200px;
     padding-bottom: 100px;
     
   }
@@ -27,7 +27,9 @@ body{
   }
 
   
-
+  .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #23BDB8 !important;
+}
 .css-1633um2-MuiPaper-root{padding-left: 10px !important;}
 
 .css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected {
@@ -213,7 +215,7 @@ body{
   .paymentcard{
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 700px;
+    padding-top: 200px;
     padding-bottom: 80px;
     
   }
