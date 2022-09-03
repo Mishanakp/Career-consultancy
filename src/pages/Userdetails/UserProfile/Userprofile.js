@@ -30,6 +30,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import DeleteAccount from './DeleteAccount';
 import Mysessions from './Mysessions';
 
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Myprofile from './Profile';
+
 function TabPanels(props) {
   const { children, value, index, ...other } = props;
 
@@ -76,7 +82,7 @@ export default function VerticalTabs() {
   const [open,setOpen] = useState(false)
   
   return (
-    <div>
+    <div className='userpro'>
     <Box className='box'
       sx={{  display: 'flex', height: 720 }}
     >
@@ -93,8 +99,8 @@ export default function VerticalTabs() {
        
         <Tab  className='tab1' icon={<EventIcon style={{color:'#23BDB8'}} />} iconPosition="start" label="My Sessions" {...a11yProps(0)} />
         <Tab  className='tab2' icon={< PersonIcon  style={{color:'#23BDB8'}} />} iconPosition="start" label="My Profile" {...a11yProps(1)} />
-        <Tab className='tab3'icon={<LockIcon style={{color:'#23BDB8'}}/>} iconPosition="start" label="Change Password" {...a11yProps(2)} />
-        <Tab className='tab4' icon={<DeleteForeverIcon  style={{color:'#23BDB8'}} />} iconPosition="start"label="Deactivate Account" {...a11yProps(3)} />
+        <Tab className='tab3c'icon={<LockIcon style={{color:'#23BDB8'}}/>} iconPosition="start" label="Change Password" {...a11yProps(2)} />
+        <Tab className='tab4c' icon={<DeleteForeverIcon  style={{color:'#23BDB8'}} />} iconPosition="start"label="Delete Account" {...a11yProps(3)} />
       <button className='tab5'>< LogoutIcon style={{color:'#23BDB8'}} /> Logout </button>
         <Tab></Tab>
         <Tab></Tab>
@@ -124,54 +130,69 @@ export default function VerticalTabs() {
       </Grid>
     </Box>
     <div className='mobiletab'>
-    <Drawer open={open} onClose={()=>{setOpen(true)}}>
-    
-    
-        <List >
-        <ListItemButton>
-        <ListItem>
-            <Link to="/session" className='text1'><EventIcon className='icon' style={{color:'#23BDB8'}} />MY SESSION</Link>
-        </ListItem>
-        </ListItemButton>
-        </List>
-        <List >
-        <ListItemButton>
-        <ListItem>
-            <Link to="/profile" className='text'>< PersonIcon className='icon' style={{color:'#23BDB8'}} />MY PROFILE</Link>
-        </ListItem>
-        </ListItemButton>
-        </List>
-        <List >
-        <ListItemButton>
-        <ListItem>
-            <Link to="/changepassword" className='text' ><LockIcon className='icon' style={{color:'#23BDB8'}}/>CHANGE PASSWORD</Link>
-        </ListItem>
-        </ListItemButton>
-        </List>
-        
-        <List >
-        <ListItemButton>
-        <ListItem>
-            <Link to="/deleteaccount" className='text'><DeleteForeverIcon className='icon'  style={{color:'#23BDB8'}} />DEACTIVATE ACCOUNT</Link>
-        </ListItem>
-        </ListItemButton>
-        </List>
-        <List >
-        <ListItemButton>
-        <ListItem>
-            <Link to="/changepassword" className='text'>< LogoutIcon style={{color:'#23BDB8'}} className='icon'/>LOGOUT</Link>
-        </ListItem>
-        </ListItemButton>
-        </List>
-        
-    </Drawer>
-       
-
-            <IconButton onClick={()=>setOpen(!open)}>
-                <MenuIcon id='menu' ></MenuIcon>
-            </IconButton>
+   
             <div className="view">
+              <Grid container>
+                
+                <Grid lg={12}>
               
+           
+      <Accordion >
+        <AccordionSummary
+        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+         
+          aria-controls="panel1a-content"
+          className='accord'
+        >
+          <Typography style={{fontSize:'18px',color:'white'}}><EventIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />MY SESSIONS </Typography>
+        </AccordionSummary  >
+        <AccordionDetails>
+       <Mysessions/>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion >
+        <AccordionSummary
+        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+          
+          aria-controls="panel1a-content"
+          className='accord'
+        >
+          <Typography style={{fontSize:'18px',color:'white'}}><PersonIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />MY PROFILE </Typography>
+        </AccordionSummary >
+        <AccordionDetails>
+       <Myprofile/>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion >
+        <AccordionSummary
+        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+        
+          aria-controls="panel1a-content"
+          className='accord'
+        >
+          <Typography style={{fontSize:'18px',color:'white'}}><LockIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />CHANGE PASSWORD </Typography>
+        </AccordionSummary >
+        <AccordionDetails>
+       <ChangePassword/>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion >
+        <AccordionSummary
+        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+      
+          aria-controls="panel1a-content"
+          className='accord'
+        >
+          <Typography style={{fontSize:'18px',color:'white'}}><DeleteForeverIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />DELETE ACCOUNT</Typography>
+        </AccordionSummary >
+        <AccordionDetails>
+       <DeleteAccount/>
+        </AccordionDetails>
+      </Accordion>
+      
+     
+      </Grid>
+      </Grid>
             </div>
        
        

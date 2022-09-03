@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from 'react'
+=======
+ import React from 'react'
+>>>>>>> d2c4b62c1079a54b1e4ca63c91dd008d2782657c
 import {Grid} from '@mui/material'
 import './Userprofile.css'
 
@@ -89,7 +93,7 @@ function DeleteAccount() {
   return (
     
    
-    <div>
+    <div className='delete1'>
        <Dialog
           open={open1}
           TransitionComponent={Transition}
@@ -115,8 +119,8 @@ function DeleteAccount() {
             
                <h1 className='deletehead'>Sad to see you go.</h1>
           <Grid xl={7} sm={12} md={7} lg={7}>
-                   <div className='deletecontent'>
-                    <h6 id='radio-head'>What is the biggest reason to delete account?</h6>
+                    <div className='deletecontent'>
+                  <h6 id='radio-head'>What is the biggest reason to delete account?</h6>
                    <FormControl className='radiocontent'>
 
       <RadioGroup

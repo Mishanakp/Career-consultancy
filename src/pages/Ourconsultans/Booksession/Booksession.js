@@ -40,21 +40,21 @@ function Booksession() {
   <Box sx={{ flexGrow: 1 }} className="first">
   <Grid container spacing={2}>
           
-          <Grid item xl={2} lg={3} md={1} sm={1}></Grid>
+          <Grid item xl={2} lg={3} md={1} sm={1} ></Grid>
 
    <Grid item xl={12} lg={6} md={12} sm={12} > 
-    <h1 className="contenthead1">Book a Session</h1> 
+    <h1 className="shatitle">Book a Session</h1> 
    </Grid>
    <Grid item xl={2} lg={3} md={0.1} ></Grid>
 
 
-    <Grid item lg={2.5}md={4.8} sm={12} className='dateitem'>
+    <Grid item lg={2.5}md={4.8} sm={12} className='dateitem' id='shagrid1'>
 
       <LocalizationProvider dateAdapter={AdapterDayjs}>
     
         <Grid item lg={9} md={4.5}>
           <h5> Select Date</h5>
-          <CalendarPicker date={date} 
+          <CalendarPicker date={date}  
           disablePast='true'
           onChange={(newDate) => setDate(newDate)} />
     
@@ -208,8 +208,8 @@ function Booksession() {
         </li>
     </ul>
 
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark " href="#" uk-slidenav-previous uk-slideshow-item="previous" id='prev'></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    <a id='asha' class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark " href="#" uk-slidenav-previous uk-slideshow-item="previous" ></a>
+    <a id='asha' class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
     </div>
 
@@ -217,7 +217,7 @@ function Booksession() {
 
 </div>
     <br/>
-    <button className="button" id='bookbutton'>   
+    <button className="shabutton" id='bookbutton'>   
         <Link to="/booksession" > <span style={{color:'white'}}>Book Now</span></Link>
     </button>
     <br/><br/><br/>  

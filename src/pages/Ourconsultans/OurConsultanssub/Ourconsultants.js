@@ -58,7 +58,7 @@ export default function  Ourconsultants()  {
       </Grid>
       <br/><br/><br/><br/>
 
-<Grid lg={3.5} sx={4} container spacing={0} className='card1' id='firstcard'>
+<Grid lg={3.5} sx={4} container spacing={0} className='cardsha' id='firstcard'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg' id='imageitem'>
           <img  id='counselorimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
@@ -101,14 +101,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -121,7 +121,7 @@ export default function  Ourconsultants()  {
 
 
 
-      <Grid lg={3.5}  container spacing={0} className='card1'>
+      <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
           <img  id='counselorimg' src='https://instantglamour.com/wp-content/uploads/photo-gallery/IMG_2002-pp-b.jpg' alt='counselor1'/>
@@ -161,14 +161,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -181,7 +181,7 @@ export default function  Ourconsultants()  {
 
 
       
-      <Grid lg={3.5}  container spacing={0} className='card1'>
+      <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
           <img  id='counselorimg' src='https://content.thriveglobal.com/wp-content/uploads/2019/09/Devi-Pic-Passport-Size.jpg' alt='counselor1'/>
@@ -221,14 +221,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -239,7 +239,7 @@ export default function  Ourconsultants()  {
       </Grid>
 
 
-      <Grid lg={3.5}  container spacing={0} className='card1'>
+      <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
           <img  id='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qdR75o88kuYWDiL8vNqR_pmo33eay6W2Tg&usqp=CAU' alt='counselor1'/>
@@ -279,14 +279,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -299,7 +299,7 @@ export default function  Ourconsultants()  {
 
 
 
-      <Grid lg={3.5}  container spacing={0} className='card1'>
+      <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
           <img  id='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d0DWK26lmj7VA0IxuwaoJR42XXMQ8JUcDg&usqp=CAU' alt='counselor1'/>
@@ -339,14 +339,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={10} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1" id='bookbutton'>
+              <button className="buttonshahi" id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>
@@ -359,7 +359,7 @@ export default function  Ourconsultants()  {
 
 
 
-      <Grid lg={3.5}  container spacing={0} className='card1'>
+      <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
           <img  id='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpriOvQqYcu8Qn1wMaYF4ckk96VMwl8DVQww&usqp=CAU' alt='counselor1'/>
@@ -399,14 +399,14 @@ export default function  Ourconsultants()  {
           <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
-              <button className="button1" >
+              <button className="buttonshahi" >
                 <span>View Profile</span>
                 </button>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="button1"id='bookbutton'>
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
                 </button>
               </Item>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif !important;
-    color: #4A6F8A !important;
+   
 }
 /*----------------------------button------------------------------*/
 .probutton {
@@ -28,7 +28,7 @@ li{list-style-type: none !important;}
 }
 
 .top{background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
-    height: 200px;
+    height: 280px;
 }
 .gridabout{margin-top: -60px !important;
     
@@ -47,9 +47,10 @@ li{list-style-type: none !important;}
     margin-top: -60px !important;
    color: #4A6F8A !important;
    font-family: 'Poppins', sans-serif !important;
+
 }
-.counsellorbutton{margin-top: -90px !important;margin-bottom: 50px !important;}
-.detailsnormal li{display:flex !important;}
+.counsellorbutton{margin-top: -90px !important;margin-bottom: 80px !important;}
+
 
 #sublist{padding: 20px 30px 0px 0px;
 }
@@ -60,16 +61,16 @@ li{list-style-type: none !important;}
 .iconimgn{min-height: 10px !important;min-width: 10px !important;}
 #iconimg{height: 40px !important;padding-right: 10px !important;}
 
-.email ul li{
-    display: inline-grid;
-    padding-right: 30px;
+.viewsha li{color: #4A6F8A;
+    display: inline-grid !important;
+    padding-right: 20px !important;
 }
-.email p2{
+.viewsha p2{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: #0e314c !important;
 }
-.email{
+.viewsha{
 text-align: left;
 margin-left: 20px;
 margin-top: 10px
@@ -79,7 +80,7 @@ margin-top: 10px
 
 /*------------------------responsive 1024------------------------------*/
 @media only screen and (max-width: 1025px)and (min-width:770px) {
-
+    .top{height: 320px !important;}
     .profileimgn{margin-left: 20px;}
     .ulnamen{
         margin-left: 0px;
@@ -114,9 +115,9 @@ margin-top: 10px
     margin-top: 20px !important;
     }
     .aboutcounsellor{margin-top: 30px !important;}
-    .email{margin-left: 10px !important ;}
+    .viewsha{margin-left: 10px !important ;}
   
-        .email ul li{padding: 5px !important;}
+    .viewsha li{padding: 5px !important;}
         
 }
 /*------------------------responsive 425------------------------------*/
@@ -147,23 +148,23 @@ margin-top: 10px
     .probutton{margin-top: 100px !important;
     margin-bottom: 20px;
     }
-    .email{margin-left: 0px !important ;}
+    .viewsha{margin-left: 0px !important ;}
 }
 
 /*------------------------responsive 320------------------------------*/
-@media only screen and (max-width: 321px)and (min-width:30px) {
-    .profileimgn{margin-left: 15px;}
+@media only screen and (max-width: 321px){
+   
     .ulnamen{
         margin-left: -20px;
     }
 
     .aboutcounsellor{margin-top: 0px !important;
-        margin-left: 32px !important;
+        margin-left: 23px !important;
     }
     .probutton{margin-top: 100px !important;
     margin-bottom: 20px;
     }
-    .email{margin-left: 30px !important ;}
+    .viewsha{margin-left: 30px !important ;}
 }
 
 
