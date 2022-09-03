@@ -36,7 +36,7 @@ function Viewprofile() {
 
 
           <Grid item xl={6} lg={8.5} md={9} sm={12} xs={12}>
-  <div className={classes.email}>
+  <div className={classes.viewsha}>
     <ul>
       <li>
     <p2 ><img src={education} alt="edu" id={classes.iconimg}  /> QUALIFICATION</p2>
