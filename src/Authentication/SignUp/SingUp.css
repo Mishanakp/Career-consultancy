@@ -7,7 +7,7 @@ body{
 .singincard769{display: none;}
   .singin{display: block;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 150px !important;
    padding-bottom: 100px;
     padding-left: 120px;
     padding-right: 120px;
@@ -73,7 +73,7 @@ body{
 
   .singin {
     text-align: left;
-    padding-top: 60px;
+    padding-top: 200px !important;
     padding-bottom: 60px;
     padding-left: 30px;
     padding-right: 30px;
@@ -174,9 +174,10 @@ body{
   .singin{display: none;}
 
   #signuptab769{
-    padding-top: 50px;
+    padding-top: 150px !important;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
     
   }
 

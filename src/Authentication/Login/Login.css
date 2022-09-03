@@ -1,20 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-    overflow-x: hidden;
-  }
-  
-  .logincard769{
-    display: none
-   }
-  
-  .login{display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.login{display: block;
     text-align: left;
-    padding-top: 110px;
+    padding-top: 150px !important;
     padding-bottom: 110px;
     padding-left: 120px;
     padding-right: 120px;
     
   }
+  .username{
+    text-align: left !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 1px;}
+
+  #loginpagebodypaddind {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    
+}
+
+.logincard769{
+    display: none
+   }
+  
+
   .username{
     text-align: left !important;
     font-weight: 500;
@@ -93,7 +110,7 @@ padding-top: 15px;
     
   .login{
     text-align: left;
-    padding-top: 60px;
+    padding-top: 200px !important;
     padding-bottom: 60px;
     padding-left: 50px;
     padding-right: 50px;
@@ -150,7 +167,7 @@ padding-top: 15px;
 }
 .login {
   text-align: left;
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
@@ -202,15 +219,16 @@ padding-top: 15px;
   .login{display: none}
  
   #input-with-icon-textfield{width: 350px;  }
+ 
 
-#logintab769{
-  padding-top: 50px;
+#logintab769{display: block !important;
+  padding-top: 150px !important;
   padding-left: 50px;
   padding-right: 50px;
   
 }
 .logincard769{
- display: block;
+ display: block !important;
  padding-bottom: 60px;
 }
 #loginbody769{

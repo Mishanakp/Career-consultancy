@@ -48,7 +48,7 @@
 
 /*--------  RESPONSIVE SECTION --------*/
 
-/*   Laptop view  */
+ /*Laptop view  */
 @media screen and (max-width:1025px) {
     #mishanafirstt.uk-card-media-left.uk-cover-container{
         height: 40% !important;
