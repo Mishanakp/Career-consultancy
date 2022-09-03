@@ -7,7 +7,7 @@ body{
  
 }
 .reschedulemain425{display: none;}
-.reschedulemain{padding-top: 100px;
+.reschedulemain{padding-top: 200px;
 padding-left: 250px;
 padding-right: 250px;
 padding-bottom: 100px;
@@ -77,6 +77,8 @@ text-align: left;
   /*border-radius: 100px;*/
   }
 
+
+
   #buttonresh1{background-color:#23BDB8 !important;
     width: 290px !important;
     height: 56px;
@@ -113,7 +115,7 @@ text-align: left;
   }
 
 @media screen and (max-width:1025px){
-  .reschedulemain{padding-top: 100px;
+  .reschedulemain{padding-top: 250px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
@@ -126,7 +128,7 @@ text-align: left;
    
 
 @media screen and (max-width:769px){
-  .reschedulemain{padding-top: 100px;
+  .reschedulemain{padding-top: 200px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
@@ -142,7 +144,7 @@ text-align: left;
 
 @media screen and (max-width:426px){
   .reschedulemain425{display: block;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 100px;}
@@ -217,7 +219,7 @@ text-align: left;
 /*********************************376px*******************************************************************/
 @media screen and (max-width:376px){
   .reschedulemain425{display: block;
-    padding-top: 100px;
+    padding-top: 180px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 100px;}

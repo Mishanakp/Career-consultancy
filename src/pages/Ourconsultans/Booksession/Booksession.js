@@ -40,7 +40,7 @@ function Booksession() {
   <Box sx={{ flexGrow: 1 }} className="first">
   <Grid container spacing={2}>
           
-          <Grid item xl={2} lg={3} md={1} sm={1}></Grid>
+          <Grid item xl={2} lg={3} md={1} sm={1} ></Grid>
 
    <Grid item xl={12} lg={6} md={12} sm={12} > 
     <h1 className="contenthead1">Book a Session</h1> 
@@ -48,13 +48,13 @@ function Booksession() {
    <Grid item xl={2} lg={3} md={0.1} ></Grid>
 
 
-    <Grid item lg={2.5}md={4.8} sm={12} className='dateitem'>
+    <Grid item lg={2.5}md={4.8} sm={12} className='dateitem' id='shagrid1'>
 
       <LocalizationProvider dateAdapter={AdapterDayjs}>
     
         <Grid item lg={9} md={4.5}>
           <h5> Select Date</h5>
-          <CalendarPicker date={date} 
+          <CalendarPicker date={date}  
           disablePast='true'
           onChange={(newDate) => setDate(newDate)} />
     
