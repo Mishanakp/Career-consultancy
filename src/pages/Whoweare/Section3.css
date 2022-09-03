@@ -2,6 +2,7 @@
         transform: translateY(-550px) !important;
         margin-top: -10px;
         padding-bottom: 80px;
+        box-shadow: none !important;
     }
     h1.cardMainHead{
         font-family: 'Poppins', sans-serif;
