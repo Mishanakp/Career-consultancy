@@ -114,7 +114,7 @@ const HomeCard = () => {
 
     {/* .................................... */}
 
-    <div className='cards2'>
+    <div className='pricards2'>
       <Grid container>
        <Grid item lg={3} sm={6} xs={12} >
        <div className='pripost1' data-aos="fade-right" data-aos-duration="800"  data-aos-mirror="true" data-aos-delay="500">

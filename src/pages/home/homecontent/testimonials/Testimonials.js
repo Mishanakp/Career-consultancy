@@ -18,7 +18,7 @@ const Testimonials = ( ) => {
       };
   return (
     <div className='pritestimonials'>
-      <h1 className='pritestHead'>testimonials</h1>
+      <h1 className='pritestHead'>Testimonials</h1>
       <Slider {...settings} className='priorig'>
            <Grid container>
             <Grid item xs={12}>
