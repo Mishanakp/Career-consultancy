@@ -35,6 +35,8 @@ app.use((req, res, next) => {
 });
 
 // start express server on port 5000
-app.listen(3000, () => {
-  console.log("server started on port 5000");
-});
+// app.listen(3000, () => {
+//   console.log("server started on port 5000");
+
+// });
+app.listen(process.env.PORT || 5000);
