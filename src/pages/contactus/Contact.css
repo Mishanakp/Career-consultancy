@@ -73,14 +73,14 @@ margin-left: 6px;
   color:  white;
 
 }
-.ui.grid{
+.salfirstbox .ui.grid{
   transform: translateY(-50px);
 }
 
-.ui.fluid.card {
+ .salfirstbox .ui.fluid.card {
       height: 300px;
 }
-.messagebox{
+.salfirstbox .messagebox{
   transform: translateX(0px);
 }
 
@@ -141,6 +141,17 @@ color: white;
     width: 545px;
   }
 }
+@media screen and (max-width:1367px) and (min-width:1366px) {
+  
+  #outlined-textarea{
+    width: 250px!important;
+  }
+}
+@media screen and (max-width:1281px) and (min-width:1280px) {
+  #outlined-textarea{
+    width: 250px!important;
+  }
+}
 @media screen and (max-width: 1025px){
   .salfirstbox{
     margin-top: 150px;
@@ -159,6 +170,15 @@ color: white;
 color: white;
 }
 }
+@media screen and (max-width:821px) and (min-width:820px) {
+  .labels{
+    width: 300px;
+  }
+  #outlined-textarea{
+    width: 270px;
+  }
+  }
+
 @media screen and (max-width: 769px){
   .salfirstbox{
     margin-top: 100px;
@@ -174,9 +194,32 @@ color: white;
   color: white;
   }
 }
+@media screen and (min-width: 540px) and (max-width: 540px){
+  .salfirstbox .ui.fluid.card{
+    width: 150px !important;
+    margin-left: -15px;
+    height: 250px;
+  }
+  .salfirstbox .content  h3{
+    font-size: 14px;
+  }
+.salfirstbox .content  p2{
+  font-size: 10px;
+}
+.labels{
+  width: 200px;
+}
+#outlined-textarea{
+  width: 170px;
+}
+}
+
 @media screen and (max-width: 426px){
   .salfirstbox{
     display: none!important;
+  }
+  .salsecond .ui.fluid.card{
+    height: 300px;
   }
   .salsecond{
     display: block;
@@ -218,7 +261,7 @@ margin-left: 78px!important;
   .label{
     width: 260px!important;
   }
-  .second .ui.fluid.card{
+  .salsecond .ui.fluid.card{
     width: 270px;
   }
   #outlined-textarea{
@@ -226,5 +269,25 @@ margin-left: 78px!important;
   }
   .button1{
     margin-left: 45px!important;
+  }
+}
+@media screen and  (max-width: 281px){
+  .salsecond .ui.fluid.card   {
+width: 230px;
+  }
+   .label{
+    width: 200px!important;
+  }
+  #outlined-textarea{
+    width: 173px;
+  }
+  .salsecond .message{
+    margin-left: -19px;
+  }
+  .salsecond .button1{
+    margin-left: -10px!important;
+  }
+  .salsecond .questions{
+    margin-left: -27px;
   }
 }
