@@ -1,15 +1,15 @@
 import * as React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import './Ourconsultants.css';
 //import { ThemeProvider, createTheme } from '@mui/material/styles';
-//import Viewprofile from '../Viewprofile/Viewprofile';
-//import Profile2 from '../Viewprofile/Profile2';
 import TextField from '@mui/material/TextField';
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
+import Viewprofile from '../Viewprofile/Viewprofile';
+import Booksession from '../Booksession/Booksession';
 
 const filterOptions = createFilterOptions({
   matchFrom: 'start',
@@ -98,19 +98,22 @@ export default function  Ourconsultants()  {
             <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
           </Grid>
           
-          <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
+              <Link to="/Viewprofile">
               <button className="buttonshahi" >
+                
                 <span>View Profile</span>
-                </button>
+                </button></Link>                                                                   
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
+              <Link to="/Booksession">
               <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
            
@@ -121,13 +124,13 @@ export default function  Ourconsultants()  {
 
 
 
-      <Grid lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5}>
+      <Grid xl={12} lg={3.5}  container spacing={0} className='cardsha'>
+        <Grid xs={12} md={5} lg={3.5} xl={4}>
           <Item className='bg'>
           <img  id='counselorimg' src='https://instantglamour.com/wp-content/uploads/photo-gallery/IMG_2002-pp-b.jpg' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={12} md={7} lg={8} spacing={4}>
+        <Grid container xs={12} md={7} lg={8} xl={8} spacing={4}>
           <Grid xs={6} lg={12}>
             <Item className='bg' id='liitem'>
               <Box
@@ -158,19 +161,21 @@ export default function  Ourconsultants()  {
             <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
           </Grid>
           
-          <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
+              <Link to="/Viewprofile">
               <button className="buttonshahi" >
                 <span>View Profile</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
+              <Link to="/Booksession">
               <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
            
@@ -218,19 +223,21 @@ export default function  Ourconsultants()  {
             <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
           </Grid> 
           
-          <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
+              <Link to="/Viewprofile">
               <button className="buttonshahi" >
                 <span>View Profile</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
+              <Link to="/Booksession">
               <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
            
@@ -276,19 +283,21 @@ export default function  Ourconsultants()  {
             <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
           </Grid>
           
-          <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
+              <Link to="/Viewprofile">
               <button className="buttonshahi" >
                 <span>View Profile</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
+              <Link to="/Booksession">
               <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
            
@@ -336,19 +345,21 @@ export default function  Ourconsultants()  {
             <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
           </Grid>
           
-          <Grid container columnSpacing={10} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
+              <Link to="/Viewprofile">
               <button className="buttonshahi" >
                 <span>View Profile</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
-              <button className="buttonshahi" id='bookbutton'>
+              <Link to="/Booksession">
+              <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
            
@@ -396,19 +407,21 @@ export default function  Ourconsultants()  {
             <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
           </Grid>
           
-          <Grid container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
             <Grid>
               <Item className='bg'>
+              <Link to="/Viewprofile">
               <button className="buttonshahi" >
                 <span>View Profile</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
+              <Link to="/Booksession">
               <button className="buttonshahi"id='bookbutton'>
                 <span>Book Session</span>
-                </button>
+                </button></Link>
               </Item>
             </Grid>
            

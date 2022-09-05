@@ -43,17 +43,16 @@
 
 
 /*--------------- RESPONSIVE SECTION----------------*/
- 
-   /* ------- RESPONSIVE OF LAP  ------*/
-   @media only screen and (max-width:1025px){
-           body{
-            overflow-x: hidden !important;
-           }
-          .section5 {
-            padding-right: 155px;
-            
-          }
-   }
+
+   /*------- RESPONSIVE OF LAP  ------*/
+   @media screen and (max-width:1024px) and (min-width:767px){
+    body{
+        overflow-x: hidden !important;
+       }
+      .section5 {
+        padding-right: 50px;
+      }
+}
 
 
    /*-------- RESPONSIVE OF TAB --------*/

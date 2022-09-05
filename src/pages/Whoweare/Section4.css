@@ -39,13 +39,12 @@
 /*--------------- RESPONSIVE SECTION----------------*/
  
    /*------- RESPONSIVE OF LAP  ------*/
-   @media only screen and (max-width:1025px){
-
+   @media screen and (max-width:1024px) and (min-width:767px){
     .gridsection {
-        margin-left: -40px;
+        margin-left: 80px;
     }
     .gridpara1, .gridpara2, .gridpara3  {
-        width: 80% !important;
+        width: 75% !important;
         word-break: break-all;
     }
     .gridhead2 {
@@ -60,7 +59,7 @@
     .gridpara3 {
         margin-left: -120px !important;
     }
-   }
+}
 
 
 
