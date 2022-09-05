@@ -22,7 +22,7 @@ function Contact() {
     <div>
 <Box sx={{ flexGrow: 1 }} className="salfirstbox">
       <Grid container spacing={2}>
-   <Grid item xl={12} lg={12} md={12} sm={12}>
+   <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
     <div className="main">
       <div className="contenthead">
     <h1>Contact Us</h1>
@@ -30,10 +30,10 @@ function Contact() {
     </div>
     </div>
    </Grid>
-   <Grid item xl={2} lg={2} md={1} sm={1}>
+   <Grid item xl={2} lg={2} md={1} sm={1} xs={1}>
 
    </Grid>
-<Grid item xl={8} lg={8} md={10} sm={10}>
+<Grid item xl={8} lg={8} md={10} sm={10} xs={10}>
 <div class="ui three column grid">
   <div class="column">
     <div class="ui fluid card">
@@ -86,11 +86,11 @@ function Contact() {
 </div>
 
 </Grid>
-<Grid item xl={2} lg={2} md={1} sm={1}></Grid>
-<Grid item xl={1} lg={1} md={1} sm={1}>
+<Grid item xl={2} lg={2} md={1} sm={1} xs={1}></Grid>
+<Grid item xl={1} lg={1} md={1} sm={1} xs={1}>
 
 </Grid>
-<Grid item xl={5} lg={5} md={5} sm={5}>
+<Grid item xl={5} lg={5} md={5} sm={5} xs={5}>
 <div className="message">
   <h3>Send us a message</h3>
   <Box
@@ -123,7 +123,7 @@ function Contact() {
 </div>
 </Grid>
 
-<Grid item xl={5} lg={5} md={5} sm={5}>
+<Grid item xl={5} lg={5} md={5} sm={5} xs={5}>
   <div className="questions">
   <h3>General FAQ</h3>
 
@@ -220,7 +220,7 @@ function Contact() {
 </Grid>
 
 
-<Grid item xl={1} lg={1} md={1} sm={1}>
+<Grid item xl={1} lg={1} md={1} sm={1} xs={1}>
   
 </Grid>
 
@@ -230,7 +230,7 @@ function Contact() {
 
 {/* This is the next section  */}
 
-<Box sx={{ flexGrow: 1 }} className="second" >
+<Box sx={{ flexGrow: 1 }} className="salsecond" >
       <Grid container spacing={2}>
       <Grid item  xs={12}>
     <div className="main">

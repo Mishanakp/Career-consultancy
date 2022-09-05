@@ -120,7 +120,7 @@ function ChangePassword() {
           {/*********************/}
          
             
-               <p className='required'>{formErrors.email}</p>
+               <p className='required1'>{formErrors.email}</p>
                 {/*********password************/}
                 <TextField  className='password' type="password"
             name="oldpassword"
@@ -137,7 +137,7 @@ function ChangePassword() {
                 </InputAdornment>
               ),
             }}></TextField>
-             <p className='required'>{formErrors.oldpassword}</p>
+             <p className='required1'>{formErrors.oldpassword}</p>
                <TextField className='password'  type="password"
             name="password"
             placeholder=" New Password"
@@ -153,7 +153,7 @@ function ChangePassword() {
             }}
             variant="outlined"
             />
-            <p className='required'>{formErrors.password}</p>
+            <p className='required1'>{formErrors.password}</p>
                         {/*******confirmpassword**************/}
                <TextField className='password'  type="password"
             name="password2"
@@ -170,7 +170,7 @@ function ChangePassword() {
             }}
             variant="outlined"
             />
-               <p className='required'>{formErrors.password2}</p>
+               <p className='required1'>{formErrors.password2}</p>
                 {/*********************/}
             <button className="passbutton"onClick={handleClickOpen} >Save</button>
           

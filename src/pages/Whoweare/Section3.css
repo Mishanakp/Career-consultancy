@@ -84,21 +84,20 @@
 /*--------------- RESPONSIVE SECTION----------------*/
 
    /*------- RESPONSIVE OF LAP  ------*/
-    @media only screen and (max-width:1024px){
-
-     .cards1 {
+   @media screen and (max-width:1024px) and (min-width:767px){
+    .cards1 {
         padding-right: 70px;
-        margin-left: 80px;
+        margin-left: 120px;
      }
      h1.cardMainHead {
         padding-right: 120px !important;
-     }    
+     }
     .card1,.card2,.card3,.card4{
         max-width: 340px;
         height: 410px;
     }
     .card2{
-        margin-left: -50px;
+        margin-left: 20px;
     }
     .card3{
         margin-top: 50px;
@@ -106,7 +105,7 @@
     }
     .card4{
         margin-top: 50px;
-        margin-left: -50px;
+        margin-left: 20px;
     }
     p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 270px;

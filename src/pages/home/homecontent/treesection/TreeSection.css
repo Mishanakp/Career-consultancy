@@ -111,8 +111,374 @@
     color: #4a6f8a;
   
    } 
-
-@media only screen and (max-width:1440px){
+@media only screen and (max-width:1920px) and (min-width:1601px){
+    .pritreeSection{
+        padding-top: 20px;
+       }
+       h1.pritreeHead{
+        font-size: 35px;
+        font-weight: 650px;
+        color: #4a6f8a;
+       }
+       img.pritreeImage{
+        /* width: 450px; */
+        margin-top: 50px;
+       }
+       .priline1{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 577px;
+        margin-top: 352px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline11{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 704px;
+        margin-top: 410px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+        
+       .priline2{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 578px;
+        margin-top: 200px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline21{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 705px;
+        margin-top: 259px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+       .priline3{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 648px;
+        margin-top: 100px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline31{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 775px;
+        margin-top: 159px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+       .priline4{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1232px;
+        margin-top: 286px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline41{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 1195px;
+        margin-top: 345px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline5{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1186px;
+        margin-top: 136px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline51{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 1150px;
+        margin-top: 195px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline6{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1086px;
+        margin-top: 42px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline61{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 1050px;
+        margin-top: 100px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+}
+@media only screen and (max-width:1600px) and (min-width:1537px){
+    .pritreeSection{
+        padding-top: 20px;
+       }
+       h1.pritreeHead{
+        font-size: 35px;
+        font-weight: 650px;
+        color: #4a6f8a;
+       }
+       img.pritreeImage{
+        /* width: 450px; */
+        margin-top: 50px;
+       }
+       .priline1{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 427px;
+        margin-top: 352px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline11{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 554px;
+        margin-top: 410px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+        
+       .priline2{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 428px;
+        margin-top: 200px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline21{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 555px;
+        margin-top: 259px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+       .priline3{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 528px;
+        margin-top: 100px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline31{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 655px;
+        margin-top: 159px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+       .priline4{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1081px;
+        margin-top: 286px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline41{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 1045px;
+        margin-top: 345px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline5{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1056px;
+        margin-top: 136px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline51{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 1020px;
+        margin-top: 195px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline6{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 986px;
+        margin-top: 42px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline61{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 950px;
+        margin-top: 100px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+}
+@media only screen and (max-width:1536px)  and (min-width:1535px){
+    .priline4{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1051px;
+        margin-top: 286px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline41{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 1015px;
+        margin-top: 345px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline5{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 996px;
+        margin-top: 136px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline51{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 960px;
+        margin-top: 195px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+}
+@media only screen and (max-width:1534px)  and (min-width:1441px){
+    .pritreeSection{
+        padding-top: 20px;
+       }
+       h1.pritreeHead{
+        font-size: 35px;
+        font-weight: 650px;
+        color: #4a6f8a;
+       }
+       img.pritreeImage{
+        /* width: 450px; */
+        margin-top: 50px;
+       }
+       .priline1{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 367px;
+        margin-top: 352px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline11{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 494px;
+        margin-top: 410px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+        
+       .priline2{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 368px;
+        margin-top: 200px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline21{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 495px;
+        margin-top: 259px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+       .priline3{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 478px;
+        margin-top: 100px;
+        position: absolute; 
+        text-align: left;
+       } 
+       .priline31{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 605px;
+        margin-top: 159px;
+        position: absolute; 
+        transform: rotate(-120deg);
+       } 
+       .priline4{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 1021px;
+        margin-top: 286px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline41{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 985px;
+        margin-top: 345px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline5{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 966px;
+        margin-top: 136px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline51{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 930px;
+        margin-top: 195px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+       .priline6{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 140px;
+        margin-left: 916px;
+        margin-top: 42px;
+        position: absolute; 
+        text-align: right;
+       } 
+       .priline61{   
+        border-bottom: 3px solid #4a6f8a;
+        width: 50px;
+        margin-left: 880px;
+        margin-top: 100px;
+        position: absolute; 
+        transform: rotate(120deg);
+       } 
+}
+@media only screen and (max-width:1440px) and (min-width:1368px){
     .pritreeSection{
         padding-top: 20px;
        }  
@@ -173,7 +539,69 @@
         margin-left: 830px; 
        }  
 }
-@media only screen and (max-width:1280px){
+@media only screen and (max-width:1367px) and (min-width:1281px){
+    .pritreeSection{
+        padding-top: 20px;
+       }  
+       .priline1{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 273px; 
+        width: 180px;
+       } 
+       .priline11{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 440px; 
+       } 
+        
+       .priline2{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 283px;
+        margin-top: 206px; 
+        width: 180px;
+       } 
+       .priline21{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 450px;
+        margin-top: 265px; 
+       } 
+       .priline3{   
+        border-bottom: 2px solid #4a6f8a; 
+        width: 180px;
+        margin-left: 358px;
+       } 
+       .priline31{   
+        border-bottom: 2px solid #4a6f8a;
+        margin-left: 525px; 
+       } 
+       .priline4{   
+        border-bottom: 2px solid #4a6f8a;
+        width: 180px;
+        margin-left: 962px;  
+       } 
+       .priline41{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 925px; 
+       } 
+       .priline5{   
+        border-bottom: 2px solid #4a6f8a;
+        width: 180px;
+        margin-left: 951px; 
+       } 
+       .priline51{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 915px; 
+       } 
+       .priline6{   
+        border-bottom: 2px solid #4a6f8a;
+        width: 180px;
+        margin-left: 866px; 
+       } 
+       .priline61{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 830px; 
+       }  
+}
+@media only screen and (max-width:1280px) and (min-width:1025px){
    
        .priline1{    
         margin-left: 250px; 
@@ -1164,5 +1592,105 @@
        }
        .pritreeSection{
         padding-top: 0px;
+       }
+}
+@media only screen and (max-width:280px){
+    img.pritreeImage{
+        width: 220px; 
+        margin-top: 40px;  
+       }
+       
+       .priline1{    
+        margin-left: 75px; 
+        width: 50px;
+        margin-top: 122px;
+        border: none;
+       } 
+       .priline11{    
+        margin-left: 100px; 
+        width: 15px; 
+        margin-top: 105px;
+        border: none;
+       } 
+        
+       .priline2{    
+        margin-left: 68px;
+        margin-top: 75px; 
+        width: 50px; 
+        border: none;
+       } 
+       .priline21{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 93px;
+        margin-top: 65px;
+        width: 15px; 
+        border: none;
+       } 
+       .priline3{   
+        border-bottom: 2px solid #4a6f8a; 
+        width: 50px;
+        margin-left: 120px;
+        margin-top: 37px;
+        border: none;
+       } 
+       .priline31{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-top: 30px;
+        margin-left: 116px;
+        width: 15px;
+        border: none;
+       } 
+       .priline4{   
+        border-bottom: 2px solid #4a6f8a;
+        width: 50px;
+        margin-left: 210px;  
+        margin-top: 132px;
+        border: none;
+       } 
+       .priline41{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 200px; 
+        margin-top: 105px;
+        width: 15px; 
+        border: none;
+       } 
+       .priline5{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 228px; 
+        width: 50px;
+        margin-top: 89px;
+        border: none;
+       } 
+       .priline51{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 198px; 
+        width: 15px;
+        margin-top: 52px;
+        border: none;
+       } 
+       .priline6{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 210px; 
+        width: 50px;
+        margin-top: 42px;
+        border: none;
+       } 
+       .priline61{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 162px; 
+        width: 15px;
+        margin-top: 25px;
+        border: none;
+       }  
+       h1.prilineHead{
+        font-size: 13px;
+       }
+       h1.pritreeHead{
+        font-size: 20px; 
+        margin-left:5px;
+       }
+       .pritreeSection{
+        padding-top: 0px;
+        margin-left: -40px;
        }
 }

@@ -7,7 +7,7 @@ body{
  
 }
 .reschedulemain425{display: none;}
-.reschedulemain{padding-top: 100px;
+.reschedulemain{padding-top: 200px;
 padding-left: 250px;
 padding-right: 250px;
 padding-bottom: 100px;
@@ -77,6 +77,8 @@ text-align: left;
   /*border-radius: 100px;*/
   }
 
+
+
   #buttonresh1{background-color:#23BDB8 !important;
     width: 290px !important;
     height: 56px;
@@ -111,9 +113,44 @@ text-align: left;
   .reshedulepadding{
     padding-bottom: 150px;
   }
+  /**************************1920********************************/
+  @media screen and (max-width:1920px) and (min-width:1601px){
 
+    .reschedulemain {
+      padding-top: 200px;
+      padding-left: 350px;
+      padding-right: 350px;
+      padding-bottom: 100px;
+  }
+  .date1 {
+    color: #0E314C;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 150px;
+}
+    
+  }
+  /**************************1600********************************/
+@media screen and (max-width:1600px) and (min-width:1537px){
+  .date1 {
+    color: #0E314C;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 122px;
+}
+  
+}
+/**************************1440********************************/
+@media screen and (max-width:1440px) and (min-width:1368px){
+  #slideshowtime{
+    height: 250px !important;
+  }
+}
+/**************************1366********************************/
+@media screen and (max-width:1366px) and (min-width:1281px){}
+/**************************1025**************************************/
 @media screen and (max-width:1025px){
-  .reschedulemain{padding-top: 100px;
+  .reschedulemain{padding-top: 250px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
@@ -123,10 +160,10 @@ text-align: left;
     }
   
 }
-   
+   /**************************768**************************************/
 
 @media screen and (max-width:769px){
-  .reschedulemain{padding-top: 100px;
+  .reschedulemain{padding-top: 200px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
@@ -138,11 +175,86 @@ text-align: left;
       padding-bottom: 100px;
   }
 }
-   
+  
+/**************************480**************************************/
+@media screen and (max-width:481px){
+  .reschedulemain425{display: block;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;}
+  .reschedulemain{display: none}
 
+  #select {
+    min-width: 110px;
+}
+  .contenthead1{
+    color: #0E314C;
+    font-size: 25px !important;
+    padding-top: 25PX;
+    text-align: center;
+    padding-bottom: 25px;
+    }
+
+    .appoiment {
+      color: #0E314C;
+      font-size: 1.1rem;
+      text-align: left;
+      font-weight: 700;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .date1{color: #0E314C;
+    font-size: 1rem;
+   text-align: left;
+   padding-left: 0px;
+   
+    }
+    .date{color: #0E314C;
+      font-size: 1rem;
+      padding-left: 0px;
+      text-align: left;
+      
+      }
+      .date2 {
+        color: #0E314C;
+        font-size: 1rem;
+        padding-left: 0px;
+        text-align: left;
+        transform: translateY(0px);
+    }
+    #buttonresh{background-color:#23BDB8 !important;
+      width: 240px !important;
+      height: 56px;
+      font-family: 'Poppins', sans-serif;
+      
+      text-transform: none !important;
+      transform: translateX(0px);
+      background:  #23BDB8;
+      font-size: 1rem;
+      /*border-radius: 100px;*/
+      }
+    
+      #buttonresh1{background-color:#23BDB8 !important;
+        width: 240px !important;
+        height: 56px;
+        font-family: 'Poppins', sans-serif;
+    
+        transform: translateX(0px);
+        background:  #23BDB8;
+        font-size: 1rem;
+        text-transform: none !important;
+        /*border-radius: 100px;*/
+        }
+    
+       
+        
+      
+}
+  /**************************425**************************************/
 @media screen and (max-width:426px){
   .reschedulemain425{display: block;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 100px;}
@@ -217,7 +329,7 @@ text-align: left;
 /*********************************376px*******************************************************************/
 @media screen and (max-width:376px){
   .reschedulemain425{display: block;
-    padding-top: 100px;
+    padding-top: 180px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 100px;}
