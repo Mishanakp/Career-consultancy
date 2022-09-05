@@ -195,6 +195,19 @@ li.loginListitem:hover{
    } 
      
 }
+@media only screen and (max-width:1279px) and (min-width:1200px){
+   .searchbar{
+     width: 200px;  
+   }
+   .searchIcon{
+     margin-left: 0px;
+   }
+   .pribut1{ 
+      font-size: 13px !important;
+   }
+    
+     
+}
 
 @media only screen and (max-width:974px){
   .buttons1,.button2{
@@ -271,20 +284,24 @@ li.loginListitem:hover{
       padding-left:125px;
    }
 }
-@media only screen and (max-width:541px) and (min-width:431px){
+@media only screen and (max-width:541px) and (min-width:482px){
   button.open__button{
      margin-left: 200px;  
  }
    
 .searchIcon{
-  margin-left: 100px; 
+  margin-left: 80px; 
   width: 50px;
   border: 1px solid #4a6f8a !important; 
+  border-radius: 5px 0px 0px 5px !important;
+  border-right: 0px !important;
 }  
 .searchbar{
-   width: 180px !important; 
-   margin-left: 150px !important;
+   width: 200px !important; 
+   margin-left: 120px !important;
    border: 1px solid #4a6f8a !important; 
+   border-radius: 0px 5px 5px 0px !important;
+   border-left: 0px !important;
  }
  span.iconNavHome{
    padding-left: 130px  ;
@@ -313,6 +330,52 @@ button.open__button{
 
 
 }
+@media only screen and (max-width:481px) and (min-width:431px){
+   button.open__button{
+      margin-left: 210px !important;  
+  }
+    
+ .searchIcon{
+   margin-left: 80px; 
+   width: 50px;
+   border: 1px solid #4a6f8a !important; 
+   border-radius: 5px 0px 0px 5px !important;
+   border-right: 0px !important;
+ }  
+ .searchbar{
+    width: 200px !important; 
+    margin-left: 120px !important;
+    border: 1px solid #4a6f8a !important; 
+    border-radius: 0px 5px 5px 0px !important;
+    border-left: 0px !important;
+  }
+  span.iconNavHome{
+    padding-left: 110px  ;
+ }
+ span.iconNavWho{
+     padding-left: 60px;
+  }
+  span.iconNavBook{
+     padding-left: 0px;
+  }
+  span.iconNavCon{
+     padding-left: 15px;
+  }
+  span.iconNavUs{
+     padding-left:60px;
+  }
+  .off__canvas{  
+    margin-top: 92px;
+    width: 60%;    
+ }
+ button.open__button{
+    margin-left: 230px;  
+ }
+  
+  
+ 
+ 
+ }
 @media only screen and (min-width:430px){
    .search2{
        display: none;

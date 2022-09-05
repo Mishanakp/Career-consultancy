@@ -163,7 +163,7 @@ button.prisliderButton:hover {
     margin-left: -215px;
   }
 }
-@media only screen and (max-width:540px) and (min-width:431px){
+@media only screen and (max-width:540px) and (min-width:482px){
    
   h1.prisliderHead{   
       font-size: 30px; 
@@ -176,6 +176,21 @@ button.prisliderButton:hover {
   }
   button.prisliderButton{
     margin-left: -245px;
+  }
+}
+@media only screen and (max-width:481px) and (min-width:431px){
+   
+  h1.prisliderHead{   
+      font-size: 30px; 
+    margin-left: -20px;
+  }
+  p.prisliderPara{  
+      font-size: 16px; 
+      margin-left: 50px;
+      max-width: 330px;
+  }
+  button.prisliderButton{
+    margin-left: -230px;
   }
 }
 
@@ -415,6 +430,12 @@ img.netImage{
   width: 770px;
 }
 }
+@media only screen and (max-width:480px){
+  img.netImage{
+    margin-top: -80px;
+    width: 480px;
+  }
+  }
 @media only screen and (max-width:430px){
 img.netImage{
   margin-top: -60px;

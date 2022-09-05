@@ -224,11 +224,11 @@ const Navbar = ({ placeholder, data }) => {
           </Grid2>
           <Grid1 item lg={7} className="buttons1" >
             <item>
-            <Link to="/"><Button1  >Home </Button1></Link> 
-            <Link to="/whoweare"> <Button1 >Who we are</Button1></Link>
-            <Link to="/bookappoinments"><Button1 >Book appointemnts</Button1></Link>
-            <Link to="/ourconsultans"><Button1 >Our consultants</Button1></Link>
-            <Link to="/contact"><Button1 >Contact us</Button1></Link>
+            <Link to="/"><Button1 className='pribut1' >Home </Button1></Link> 
+            <Link to="/whoweare"> <Button1 className='pribut1'>Who we are</Button1></Link>
+            <Link to="/bookappoinments"><Button1 className='pribut1'>Book appointemnts</Button1></Link>
+            <Link to="/ourconsultans"><Button1 className='pribut1'>Our consultants</Button1></Link>
+            <Link to="/contact"><Button1 className='pribut1'>Contact us</Button1></Link>
             </item>
             </Grid1>
           <Grid item lg={1}   className="button2">

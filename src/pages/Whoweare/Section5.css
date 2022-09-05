@@ -43,8 +43,8 @@
 
 
 /*--------------- RESPONSIVE SECTION----------------*/
-
-   /*------- RESPONSIVE OF LAP  ------*/
+ 
+   /* ------- RESPONSIVE OF LAP  ------*/
    @media only screen and (max-width:1025px){
            body{
             overflow-x: hidden !important;

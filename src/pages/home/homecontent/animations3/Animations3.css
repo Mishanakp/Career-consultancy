@@ -184,6 +184,19 @@
     margin-top: 80px;
   }
 }
+@media only screen and (max-width:481px)  and (min-width:431px){
+  .priloop-wrapper {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    width: 768px;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    margin-top: 56px;
+  }
+}
 @media only screen and (max-width:430px){
   .priloop-wrapper {
     margin: 0 auto;
