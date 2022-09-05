@@ -7,7 +7,7 @@ body{
 .singincard769{display: none;}
   .singin{display: block;
     text-align: left;
-    padding-top: 150px !important;
+    padding-top: 200px !important;
    padding-bottom: 100px;
     padding-left: 120px;
     padding-right: 120px;
@@ -55,14 +55,99 @@ body{
         
       }
 
+
+
+/**************************1920********************************/
+@media screen and (max-width:1920px) and (min-width:1601px){
+
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#singin22 {
+  background-color: #F5FFFA;
+  box-shadow: 5px 10px 18px #888888;
+}
+  
+}
+
+/**************************1600********************************/
+@media screen and (max-width:1600px) and (min-width:1537px){
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+  
+}
+/**************************1440********************************/
+@media screen and (max-width:1440px) and (min-width:1368px){
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.signupbtn {
+  background: #23BDB8 !important;
+  width: 400px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+}
+  
+}
+
+/**************************1366********************************/
+@media screen and (max-width:1367px) and (min-width:1281px){
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 380px !important;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+  
+}
       /*******************************************1280******************************************************/
 
-@media screen  and (max-width:1281px){
+/**************************1280********************************/
+@media only screen and (max-width:1280px) and (min-width:1023px){
   #cardpaddingsign {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 10px;
+}
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 360px !important;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+#input-with-icon-textfield1 {
+  width: 320px;
 }
 }
 /*******************************************1025******************************************************/
@@ -224,19 +309,38 @@ body{
 }
 }
 
-/**********************426*****************************/
-@media screen and (max-width:413px){
-  .signupbtn {
-    background: #23BDB8 !important;
-    width: 280px;
-    height: 56px;
-    font-size: 1.1rem;
-    color: #F5FFFA;
-    border: none;
-    font-family: 'Poppins', sans-serif !important;
-    margin-top: 5px !important;
+
+/**********************480*****************************/
+@media screen and (max-width:481px){
+  .singincard769{display: block;}
+  .singin{display: none;}
+  #input-with-icon-textfield1{width: 290px;  }
+  #signuptab769{
+    text-align: left;
+    padding-top: 50px;
+    padding-left:30px;
+    padding-right: 30px;
+    
+  }
+
+  .signupimg769 {
+    height: 400px !important;
+    width: 668px;
+}
+
+
+.signupbtn {
+  background: #23BDB8 !important;
+  width: 350px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
 }
 }
+
 /**********************426*****************************/
 @media screen and (max-width:426px){
   .singincard769{display: block;}
@@ -268,6 +372,19 @@ body{
 }
 }
 
+/**********************426*****************************/
+@media screen and (max-width:413px){
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 280px;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+}
 
  /**********************376*****************************/
  @media screen and (max-width:376px){
@@ -280,7 +397,10 @@ body{
     padding-right: 30px;
     
   }
-
+  .signupimg769 {
+    height: 300px !important;
+    width: 668px;
+}
   
 
 #input-with-icon-textfield1 {
