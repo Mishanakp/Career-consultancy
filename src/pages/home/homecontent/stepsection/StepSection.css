@@ -113,6 +113,274 @@ span.priicon4{
     margin-top: 100px;
    margin-left: 10px;
 }
+@media only screen and (max-width:1920px) and (min-width:1601px){
+    .pristepSection{
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+    .prihowIt{
+        font-size: 35px;
+        font-weight: 650px;
+        color: #4a6f8a; 
+        /* border-bottom: 2px solid #23BDB8;
+        width: 220px;  
+        margin-left: 600px; */
+    }
+    span.priicon1{
+        color: #23BDB8; 
+        margin-left: 0px;
+    } 
+    .prihow{
+        margin-top: 50px;
+        color: #4a6f8a;
+    }
+    .pristep1{
+        padding-left:120px;
+    }
+    h1.prifirstHead{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead{
+        color: #4a6f8a;  
+        
+    }
+    p.prifirstPara{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 15px;
+        text-align: justify;
+        word-break: break-all;
+       
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+        margin-left: 0px;
+       
+    }
+    .pristep2{
+        padding-left: 80px;
+    }
+    h1.prifirstHead2{
+        color: #4a6f8a;
+        margin-top: -10px;
+        width: 300px;
+        margin-left: -15px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead2{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara2{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 0px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+       
+    }
+    .pristep3{
+        padding-left: 80px;
+    }
+    h1.prifirstHead3{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead3{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara3{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 30px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon3{
+        color: #23BDB8;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    .pristep4{
+        padding-left: 60px;
+    }
+    h1.prifirstHead4{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead4{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara4{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 50px;
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon4{
+        color: #23BDB8;
+        margin-top: 100px;
+       margin-left: 40px;
+    }
+}
+@media only screen and (max-width:1600px) and (min-width:1537px){
+    .pristepSection{
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+    .prihowIt{
+        font-size: 35px;
+        font-weight: 650px;
+        color: #4a6f8a; 
+        /* border-bottom: 2px solid #23BDB8;
+        width: 220px;  
+        margin-left: 600px; */
+    }
+    span.priicon1{
+        color: #23BDB8; 
+        margin-left: 0px;
+    } 
+    .prihow{
+        margin-top: 50px;
+        color: #4a6f8a;
+    }
+    .pristep1{
+        padding-left:70px;
+    }
+    h1.prifirstHead{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead{
+        color: #4a6f8a;  
+        
+    }
+    p.prifirstPara{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 15px;
+        text-align: justify;
+        word-break: break-all;
+       
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+        margin-left: 0px;
+       
+    }
+    .pristep2{
+        padding-left: 80px;
+    }
+    h1.prifirstHead2{
+        color: #4a6f8a;
+        margin-top: -10px;
+        width: 300px;
+        margin-left: -15px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead2{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara2{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 0px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+       
+    }
+    .pristep3{
+        padding-left: 80px;
+    }
+    h1.prifirstHead3{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead3{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara3{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 30px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon3{
+        color: #23BDB8;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .pristep4{
+        padding-left: 20px;
+    }
+    h1.prifirstHead4{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead4{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara4{
+        max-width: 280px;
+        text-align: left;
+        padding-left: 50px;
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon4{
+        color: #23BDB8;
+        margin-top: 100px;
+       margin-left: 20px;
+    }
+}
+@media only screen and (max-width:1336px) and (min-width:1281px){
+    .pristep2{
+        padding-left: 20px;
+    }
+    h1.prifirstHead2{
+        color: #4a6f8a;
+        margin-top: -10px;
+        width: 300px;
+        margin-left: -20px;
+        font-size: 22px;
+    }
+    .pristep3{
+        padding-left: 20px;
+    }
+    h1.prifirstHead3{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .pristep4{
+        padding-left: 0px;
+    }
+    h1.prifirstHead4{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+}
 @media only screen and (max-width:1280px){
    
     p.prifirstPara4{
@@ -332,12 +600,12 @@ span.priicon4{
        margin-left: 0px;
     }
 } */
-@media only screen and (max-width:912px){
+@media only screen and (max-width:912px) and (min-width:821px){
     .prihow{
         margin-top: 60px; 
     }
     .pristep1{
-        padding-left: 30px;
+        padding-left: 50px;
     }
     h1.prifirstHead{
         color: #4a6f8a;
@@ -387,7 +655,7 @@ span.priicon4{
        
     }
     .pristep3{
-        padding-left: 20px;
+        padding-left: 30px;
     }
     h1.prifirstHead3{
         color: #4a6f8a;
@@ -419,7 +687,7 @@ span.priicon4{
         margin-top: 10px;
         font-size: 22px;
         width: 150px;
-        margin-left: 10px;
+        margin-left: 15px;
     }
     h5.prifirstSubhead4{
         color: #4a6f8a; 
@@ -649,7 +917,112 @@ span.priicon4{
        margin-left: 0px;
     }
 }
- 
+@media only screen and (max-width:540px) and (min-width:431px){
+   
+    .prihow{
+        margin-top: 60px; 
+    }
+    .pristep1{
+        padding-left: 40px;
+    }
+    h1.prifirstHead{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead{
+        color: #4a6f8a; 
+        
+    }
+    p.prifirstPara{
+        width: 180px;
+        text-align: left;
+        padding-left: 5px;
+        text-align: justify;
+        word-break: break-all;
+       
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+       
+    }
+    .pristep2{
+        padding-left: 10px;
+    }
+    h1.prifirstHead2{
+        color: #4a6f8a;
+        margin-top: -10px;
+        width: 200px;
+        margin-left:-5px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead2{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara2{
+        width: 180px;
+        text-align: left;
+        padding-left:10px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+       
+    }
+    .pristep3{
+        padding-left: 35px; 
+    }
+    h1.prifirstHead3{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+        width: 160px;
+        margin-left:20px;
+    }
+    h5.prifirstSubhead3{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara3{
+        max-width: 200px;
+        text-align: left;
+        padding-left: 10px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon3{
+        color: #23BDB8;
+        margin-top: 100px;
+        margin-left: -15px;
+    }
+    .pristep4{
+        padding-left: 20px;
+    }
+    h1.prifirstHead4{
+        color: #4a6f8a;
+        margin-top: 10px;
+        font-size: 22px;
+        width: 140px;
+        margin-left: 20px;
+    }
+    h5.prifirstSubhead4{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara4{
+        max-width: 170px;
+        text-align: left;
+        padding-left: 20px;
+        text-align: justify;
+        word-break: break-all; 
+    }
+    span.priicon4{
+        color: #23BDB8;
+        margin-top: 100px;
+       margin-left: 0px;
+    }
+}
 @media only screen and (max-width:430px){
     .priicon2,.priicon3,.priicon4{
         display: none;
@@ -1271,7 +1644,7 @@ span.priicon4{
         margin-top: -10px;
         font-size: 26px;
         width: 200px;
-        margin-left:50px;
+        margin-left:35px;
     }
     h5.prifirstSubhead3{
         color: #4a6f8a; 
@@ -1310,6 +1683,119 @@ span.priicon4{
         text-align: justify;
         word-break: break-all; 
         font-size: 15px;
+    }
+     
+}
+@media only screen and (max-width:280px){
+    .prihowIt{
+        font-size: 20px;  
+        margin-left: -20px; 
+    }
+   
+    .prihow{
+        margin-top: 60px; 
+    }
+    .pristep1{
+        padding-left: 15px;
+    }
+    h1.prifirstHead{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    h5.prifirstSubhead{
+        color: #4a6f8a; 
+        
+    }
+    p.prifirstPara{
+        width: 240px;
+        text-align: left;
+        padding-left: 10px;
+        text-align: justify;
+        word-break: break-all;
+       font-size: 13px;
+    }
+    span.priicon2dup{
+        color: #23BDB8;
+        margin-top: 250px; 
+        margin-left: -250px;
+       
+    }
+    .pristep2{
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+    h1.prifirstHead2{
+        color: #4a6f8a;
+        margin-top: -10px;
+        width: 250px;
+        margin-left:15px;
+        font-size: 20px;
+    }
+    h5.prifirstSubhead2{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara2{
+        width: 250px;
+        text-align: left;
+        padding-left:20px; 
+        text-align: justify;
+        word-break: break-all;
+        font-size: 14px;
+    }
+    span.priicon3dup{
+        color: #23BDB8;
+        margin-top: 310px;
+        margin-left: -280px;
+    }
+    .pristep3{
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+    h1.prifirstHead3{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 20px;
+        width: 200px;
+        margin-left:35px;
+    }
+    h5.prifirstSubhead3{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara3{
+        max-width: 250px;
+        text-align: left;
+        padding-left: 20px; 
+        text-align: justify;
+        word-break: break-all;
+        font-size: 14px;
+    }
+    span.priicon4dup{
+        color: #23BDB8;
+        margin-top: 280px;
+        margin-left: -240px;
+    }
+    .pristep4{
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+    h1.prifirstHead4{
+        color: #4a6f8a;
+        margin-top: 10px;
+        font-size: 20px;
+        width: 200px;
+        margin-left: 40px;
+    }
+    h5.prifirstSubhead4{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara4{
+        max-width: 250px;
+        text-align: left;
+        padding-left: 20px;
+        text-align: justify;
+        word-break: break-all; 
+        font-size: 14px;
     }
      
 }

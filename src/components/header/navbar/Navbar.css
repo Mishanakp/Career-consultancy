@@ -68,7 +68,7 @@ span.iconNavUs{
 }
 ul.loginList{
   list-style: none;
-  color: #4a6f8a;
+  color: #4a6f8a !important;
   text-align: left;
   min-width: 100px; 
   margin-left: 20px;
@@ -80,6 +80,7 @@ li.loginListitem{
   display: block;
   font-size: 15px !important; 
   margin-left: -55px; 
+  color: #4a6f8a !important;
 }
 li.loginListitem:hover{
   color: #23BDB8;  
@@ -270,22 +271,52 @@ li.loginListitem:hover{
       padding-left:125px;
    }
 }
-@media only screen and (max-width:540px){
+@media only screen and (max-width:541px) and (min-width:431px){
   button.open__button{
      margin-left: 200px;  
  }
- .searchbar{
-  width: 200px; 
-}
+   
 .searchIcon{
-  margin-left: 0px; 
-} 
-.off__canvas{   
-  width: 60%;    
+  margin-left: 100px; 
+  width: 50px;
+  border: 1px solid #4a6f8a !important; 
+}  
+.searchbar{
+   width: 180px !important; 
+   margin-left: 150px !important;
+   border: 1px solid #4a6f8a !important; 
+ }
+ span.iconNavHome{
+   padding-left: 130px  ;
 }
+span.iconNavWho{
+    padding-left: 75px;
+ }
+ span.iconNavBook{
+    padding-left: 18px;
+ }
+ span.iconNavCon{
+    padding-left: 32px;
+ }
+ span.iconNavUs{
+    padding-left:75px;
+ }
+ .off__canvas{  
+   margin-top: 92px;
+   width: 60%;    
+}
+button.open__button{
+   margin-left: 230px;  
+}
+ 
  
 
 
+}
+@media only screen and (min-width:430px){
+   .search2{
+       display: none;
+   }
 }
 @media only screen and (max-width:430px){
    button.open__button{
@@ -433,9 +464,38 @@ li.loginListitem:hover{
      }
 }
 
-@media only screen and (min-width:430px){
-   .search2{
-       display: none;
+
+@media only screen and (max-width:280px){
+   .searchBar2{
+      width: 160px !important;
+    }
+    .searchIcon2{
+       margin-left: 0px;
+    }
+   button.open__button{
+       margin-left: 110px;  
+       width: 85px; 
    }
+   .off__canvas{   
+       width: 100%;    
+    }
+    ul.listNav{ 
+       font-size: 12px; 
+   } 
+   span.iconNavHome{
+       padding-left: 100px;
+    }
+    span.iconNavWho{
+        padding-left: 60px;
+     }
+     span.iconNavBook{
+        padding-left: 12px;
+     }
+     span.iconNavCon{
+        padding-left: 25px;
+     }
+     span.iconNavUs{
+        padding-left:60px;
+     }
 }
   
