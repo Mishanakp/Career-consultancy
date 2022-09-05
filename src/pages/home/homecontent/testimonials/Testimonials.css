@@ -60,6 +60,43 @@ p.prifeed1Subpara{
     height: 300px;
     border-radius: 10px;
 }
+@media only screen and (max-width:1920px) and (min-width:1601px){
+    .pricard1Container{  
+        margin-left: 380px;
+    }
+}
+@media only screen and (max-width:1600px) and (min-width:1537px){
+    .pricard1Container{  
+        margin-left: 215px;
+    }
+}
+@media only screen and (max-width:1536px) and (min-width:1441px){
+    .pricard1Container{  
+        margin-left: 170px;
+    }
+}
+@media only screen and (max-width:1367px) and (min-width:1281px){
+    .pricard1Container{  
+        margin-left: 150px;
+        max-width: 1070px  ;
+    }
+    .pricard1Feed{
+        margin-left: 70px; 
+        width: 400px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .pricard2Feed{
+        margin-left: 70px; 
+        width: 400px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        height: 300px;
+        border-radius: 10px;
+    }
+}
 @media only screen and (max-width:1280px){
     .pricard1Container{
         max-width: 980px  ;
@@ -113,7 +150,7 @@ p.prifeed1Subpara{
         border-radius: 10px;
         display: flex;
         flex-direction: column;
-        margin-left: 150px;
+        margin-left: 140px;
     }
     .priFeed1Cont{
      margin-top: -50px;
@@ -146,18 +183,18 @@ p.prifeed1Subpara{
         border-radius: 10px;
     }
  } 
- @media only screen and (max-width:912px){
+ @media only screen and (max-width:912px) and (min-width:821px){
     .pricard1Container{
         max-width: 710px  ;
-        margin-left: 100px;
-        height: 460px;
+        margin-left: 105px;
+        height: 520px;
     }
     .pricard1Feed{
         margin-left: 55px; 
         width: 240px;
         margin-bottom: 50px;
         margin-top: 60px;
-        height: 340px;
+        height: 400px;
         border-radius: 10px;
     }
     .pricard2Feed{
@@ -165,7 +202,7 @@ p.prifeed1Subpara{
         width: 240px;
         margin-bottom: 50px;
         margin-top: 60px;
-        height: 340px;
+        height: 400px;
         border-radius: 10px;
     }
     img.priquote{
@@ -192,13 +229,13 @@ p.prifeed1Subpara{
         width: 240px;
         margin-bottom: 50px;
         margin-top: 60px;
-        height: 340px;
+        height: 380px;
         border-radius: 10px;
     }
     .pricard1Container{ 
         border-top: 1px solid #F5FFFA;
         max-width: 590px  ;
-        height: 460px;
+        height: 500px;
         background-color: #F5FFFA; 
         box-shadow: 0px 10px 20px 2px rgb(110, 163, 133);
         margin-bottom: 50px;
@@ -234,7 +271,7 @@ p.prifeed1Subpara{
         width: 240px;
         margin-bottom: 50px;
         margin-top: 60px;
-        height: 340px;
+        height: 380px;
         border-radius: 10px;
     }
  }
@@ -269,7 +306,7 @@ p.prifeed1Subpara{
         border-radius: 10px;
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 55px;
     }
     .priFeed1Cont{
      margin-top: -50px;
@@ -302,10 +339,79 @@ p.prifeed1Subpara{
         border-radius: 10px;
     }
  }
- @media only screen and (min-width:431px){
+ @media only screen and (min-width:541px){
     .dup{
         display: none;
     }
+ }
+ @media only screen and (max-width:540px) and (min-width:431px){
+    .priorig{
+        display: none;
+    }
+    .card2Container{ 
+        border-top: 1px solid #F5FFFA;
+        max-width: 450px  ;
+        height: 460px;
+        background-color: #F5FFFA; 
+        box-shadow: 0px 10px 20px 2px rgb(110, 163, 133);
+        margin-bottom: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px;
+    }
+    .pricard1Feed{
+        margin-left: 40px; 
+        width: 370px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        height: 340px;
+        border-radius: 10px;
+    }
+ }
+ @media only screen and (max-width:415px){
+    .card2Container{
+        margin-left: 30px;
+    }
+ }
+ @media only screen and (max-width:395px){
+    .card2Container{
+        margin-left: 20px;
+    }
+ }
+ @media only screen and (max-width:391px){
+    .card2Container{
+        margin-left: 20px;
+    }
+ }
+ 
+ @media only screen and (max-width:380px){
+     
+    .card2Container{ 
+        border-top: 1px solid #F5FFFA;
+        max-width: 300px  ;
+        height: 550px;
+        background-color: #F5FFFA; 
+        box-shadow: 0px 10px 20px 2px rgb(110, 163, 133);
+        margin-bottom: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .pricard1Feed{
+        margin-left: 40px; 
+        width: 220px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        height: 430px;
+        border-radius: 10px;
+    }
+    .priFeed1Cont{ 
+        margin-left: 60px;
+        text-align: left;
+        color: #4a6f8a; 
+       }
  }
  @media only screen and (max-width:430px){
     .priorig{
@@ -414,6 +520,30 @@ p.prifeed1Subpara{
         position: absolute;
         margin-left: 15px;
      }
+ }
+ @media only screen and (max-width:280px){
+    h1.pritestHead{
+        color: #4a6f8a;
+        font-size: 25px;
+        font-weight: 650px;
+        margin-bottom: 50px;
+        margin-left: -30px;
+    
+    }
+     
+    .card2Container{ 
+        border-top: 1px solid #F5FFFA;
+        max-width: 240px  ;
+        height: 570px;
+        background-color: #F5FFFA; 
+        box-shadow: 0px 10px 20px 2px rgb(110, 163, 133);
+        margin-bottom: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
  }
 
 

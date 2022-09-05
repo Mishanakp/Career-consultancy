@@ -109,11 +109,11 @@ body{
   .backgrounddiv{padding: 30px!important;
     padding-top: 135px !important;}
   .dateitem{margin-left: 0px !important;}
-  li{display:contents;}
+  .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -180px;}
     .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-    a {margin-left: 20px !important;}
+    #asha {margin-left: 20px !important;}
 }
 /*------------------------responsive 320------------------------------*/
 @media only screen and (max-width: 321px)and (min-width:30px) {

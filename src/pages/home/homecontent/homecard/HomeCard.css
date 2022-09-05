@@ -61,16 +61,62 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
 .pricard1:hover .pricardContent1,.pricard2:hover .pricardContent2,.pricard3:hover .pricardContent3,.pricard4:hover .pricardContent4{
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 }
-.cards2{
+.pricards2{
     margin-top: 50px;
     margin-left: 150px;
 }
-
+@media only screen and (max-width:1920px) and (min-width:1601px){
+    img.background{ 
+        width: 1920px; 
+    }
+     
+    .pricards1{
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+          
+}
+@media only screen and (max-width:1600px) and (min-width:1537px){
+    img.background{ 
+        width: 1600px; 
+    }
+     
+    .pricards1{
+        margin-top: 50px;
+        margin-left: 180px;
+    }
+          
+}
+@media only screen and (max-width:1536px) and (min-width:1441px){
+    img.background{ 
+        width: 1536px; 
+    }      
+}
+@media only screen and (max-width:1440px) and (min-width:1367px){
+    img.background{ 
+        width: 1440px; 
+    }      
+}
+@media only screen and (max-width:1367px) and (min-width:1281px){
+    img.background{ 
+        width: 1366px; 
+        margin-top: -300px;
+    }   
+    .pricards1{ 
+        margin-left: 150px;
+    }   
+}
+@media only screen and (max-width:1280px) and (min-width:1025px){
+    img.background{ 
+        width: 1280px; 
+    }      
+}
 @media only screen and (min-width:1025px){
-    .cards2{
+    .pricards2{
         display: none;
     }
 }
+ 
 @media only screen and (max-width:1280px){
     img.background{
         margin-top: -365px;
@@ -202,6 +248,7 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
 }
  
 @media only screen and (max-width:768px){
+   
     h1.pricardMainHead{ 
         margin-top: -170px; 
     }
@@ -215,19 +262,52 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
     height: 410px;  
 } 
 .pricard1{
-    margin-left: 0px  ; 
+    margin-left: -50px !important ; 
 }
 .pricard2{
-    margin-left: -10px;
+    margin-left: -50px !important;
 }
 .pricard3{ 
-    margin-left: 0px; 
+    margin-left: -50px !important; 
 }
 .pricard4{ 
-    margin-left: -10px;
+    margin-left: -50px !important;
 } 
 p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 206px; 
+}
+}
+@media only screen and (max-width:540px) and (min-width:431px){
+   
+    h1.pricardMainHead{ 
+        margin-top: -170px; 
+    }
+    img.background{
+        margin-top: -560px;
+        width: 540px;
+        margin-bottom: -200px;
+    }
+.pricard1,.pricard2,.pricard3,.pricard4{
+    max-width: 380px;
+    height: 410px;  
+} 
+.pricard1{
+    margin-left: -70px !important ; 
+}
+.pricard2{
+    margin-left: -70px !important;
+    margin-top: 40px;
+}
+.pricard3{ 
+    margin-left: -70px !important; 
+    margin-top: 40px;
+}
+.pricard4{ 
+    margin-left: -70px !important;
+    margin-top: 40px;
+} 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
+    width: 335px; 
 }
 }
 @media only screen and (max-width:430px){
@@ -246,39 +326,39 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
     height: 410px;  
 } 
 .pricard1{
-    margin-left: -50px; 
+    margin-left: -110px !important; 
 }
 .pricard2{
-    margin-left: -50px;
+    margin-left: -110px !important;
     margin-top: 40px;
 }
 .pricard3{ 
-    margin-left: -50px; 
+    margin-left: -110px !important; 
     margin-top: 40px;
 }
 .pricard4{ 
-    margin-left: -50px;
+    margin-left: -110px !important;
     margin-top: 40px;
 } 
 p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 305px; 
 }
 }
-@media only screen and (max-width:415px){
+@media only screen and (max-width:415px) {
     .pricard1{
-        margin-left: -120px; 
+        margin-left: -120px !important; 
     }
     .pricard2{
-        margin-left: -120px;
-        margin-top: 30px;
+        margin-left: -120px !important;
+        margin-top: 40px;
     }
     .pricard3{ 
-        margin-left: -120px; 
-        margin-top: 30px;
+        margin-left: -120px !important; 
+        margin-top: 40px;
     }
     .pricard4{ 
-        margin-left: -120px;
-        margin-top: 30px;
+        margin-left: -120px !important;
+        margin-top: 40px;
     } 
 }
 
@@ -288,19 +368,19 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
         width: 395px; 
     }
     .pricard1{
-        margin-left: -130px; 
+        margin-left: -130px !important; 
     }
     .pricard2{
-        margin-left: -130px;
-        margin-top: 30px;
+        margin-left: -130px !important;
+        margin-top: 40px;
     }
     .pricard3{ 
-        margin-left: -130px; 
-        margin-top: 30px;
+        margin-left: -130px !important; 
+        margin-top: 40px;
     }
     .pricard4{ 
-        margin-left: -130px;
-        margin-top: 30px;
+        margin-left: -130px !important;
+        margin-top: 40px;
     }
 }
 @media only screen and (max-width:391px){
@@ -309,22 +389,22 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
         width: 390px; 
     }
     .pricard1{
-        margin-left: -130px; 
+        margin-left: -130px !important; 
     }
     .pricard2{
-        margin-left: -130px;
-        margin-top: 30px;
+        margin-left: -130px !important;
+        margin-top: 40px;
     }
     .pricard3{ 
-        margin-left: -130px; 
-        margin-top: 30px;
+        margin-left: -130px !important; 
+        margin-top: 40px;
     }
     .pricard4{ 
-        margin-left: -130px;
-        margin-top: 30px;
+        margin-left: -130px !important;
+        margin-top: 40px;
     }
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:380px)  and (min-width:366px){
     img.background{
         margin-top: -715px;
         width: 380px;
@@ -340,50 +420,55 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
     height: 410px;  
 } 
 .pricard1{
-    margin-left: -50px; 
+    margin-left: -110px !important; 
 }
 .pricard2{
-    margin-left:  -50px;
+    margin-left:  -110px !important;
     margin-top: 40px;
 }
 .pricard3{ 
-    margin-left:  -50px; 
+    margin-left:  -110px !important; 
     margin-top: 40px;
 }
 .pricard4{ 
-    margin-left:  -50px;
+    margin-left: -110px !important;
     margin-top: 40px;
 } 
 p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
     width: 253px; 
 }
 }
-@media only screen and (max-width:365px){
+ 
+@media only screen and (max-width:360px) and (min-width:321px)  {
     img.background{
         margin-top: -715px;
-        width: 360px;
+        width: 360px  ;
         margin-bottom: -200px;
     }
     h1.pricardMainHead{ 
         font-size: 26px;  
     } 
 .pricard1{
-    margin-left: -120px; 
+    margin-left: -120px !important; 
+    max-width: 300px;
 }
 .pricard2{
-    margin-left:  -120px;
-    margin-top: 30px;
+    margin-left:  -120px !important;
+    margin-top: 40px;
+    max-width: 300px;
 }
 .pricard3{ 
-    margin-left:  -120px; 
-    margin-top: 30px;
+    margin-left:  -120px !important; 
+    margin-top: 40px;
+    max-width: 300px;
 }
 .pricard4{ 
-    margin-left:  -120px;
-    margin-top: 30px;
+    margin-left:  -120px !important;
+    margin-top: 40px;
+    max-width: 300px;
 } 
 p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
-    width: 253px; 
+    width: 255px; 
 } 
 }
 
@@ -402,18 +487,55 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
     height: 430px;  
 } 
 .pricard1{
-    margin-left: -50px; 
+    margin-left: -110px !important; 
 }
 .pricard2{
-    margin-left:  -50px;
+    margin-left:  -110px !important;
     margin-top: 40px;
 }
 .pricard3{ 
-    margin-left:  -50px; 
+    margin-left:  -110px !important; 
     margin-top: 40px;
 }
 .pricard4{ 
-    margin-left:  -50px;
+    margin-left:  -110px !important;
+    margin-top: 40px;
+} 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
+    width: 192px; 
+}
+.pricardContent1,.pricardContent2,.pricardContent3,.pricardContent4{
+    height: 280px; 
+}
+}
+@media only screen and (max-width:280px){
+    img.background{
+        margin-top: -725px;
+        width: 320px;
+        margin-bottom: -200px;
+    }
+    h1.pricardMainHead{ 
+        font-size: 20px;  
+        margin-left: -45px !important;
+    }
+         
+.pricard1,.pricard2,.pricard3,.pricard4{
+    max-width: 240px;
+    height: 430px;  
+} 
+.pricard1{
+    margin-left: -130px !important; 
+}
+.pricard2{
+    margin-left:  -130px !important;
+    margin-top: 40px;
+}
+.pricard3{ 
+    margin-left:  -130px !important; 
+    margin-top: 40px;
+}
+.pricard4{ 
+    margin-left:  -130px !important;
     margin-top: 40px;
 } 
 p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 

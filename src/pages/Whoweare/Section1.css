@@ -53,13 +53,13 @@
 /*--------  RESPONSIVE SECTION --------*/
 
  /*Laptop view  */
-@media screen and (max-width:1025px) {
+ @media screen and (max-width:1024px) and (min-width:767px){
     #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2 {
        margin-left: 100px !important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container{
         height: 40% !important;
-        width: 45%!important; 
+        width: 45%!important;
         transform: translate(20px,150px)!important ;
     }
     #mishanathirdd.uk-card-title {
@@ -68,12 +68,10 @@
        font-size: 30px!important;
     }
     .para-one {
-        transform: translate(-200px,-280px)!important;
+        transform: translate(-100px,-280px)!important;
         width: 82%!important;
-        
     }
 }
-
 
 /*  Tab view  */
 @media screen and (max-width:769px) {

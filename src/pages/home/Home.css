@@ -6,6 +6,11 @@ body{
     margin-top: 100px; 
     overflow-x : hidden;
 }
+@media only screen and (max-width:540px) and (min-width:431px){
+    .homePage{
+        margin-top: 90px;
+    }
+}
 @media only screen and (max-width:430px){
     .homePage{
         margin-top: 90px;
