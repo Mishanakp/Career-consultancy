@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
-=======
  import React from 'react'
->>>>>>> d2c4b62c1079a54b1e4ca63c91dd008d2782657c
 import {Grid} from '@mui/material'
 import './Userprofile.css'
 
