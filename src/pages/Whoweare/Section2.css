@@ -34,7 +34,7 @@
 /*--------  RESPONSIVE SECTION --------*/
 
 /*------   Laptop view  ------*/
-@media screen and (max-width:1025px) {
+@media screen and (max-width:1024px) and (min-width:767px){
       .uk-card-title2 {
             margin-left: -130px !important;
             font-size: 30px;
@@ -45,8 +45,7 @@
             transform: translate(-55px,-250px);
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(460px,-550px);
-
+            transform: translate(560px,-550px);
       }
 }
 
