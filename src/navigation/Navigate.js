@@ -28,6 +28,7 @@ import Myprofile from "../pages/Userdetails/UserProfile/Profile";
 
 import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
 import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
+import ConsultantVerticalTabs from "../pages/consultantDetails/ConsultantTab";
 
 
 
@@ -77,6 +78,7 @@ export default function Navigate() {
                    
                     <Route path="/contact" element={<Contact />}></Route>
 
+                    <Route path="/consultantdetails" element={<ConsultantVerticalTabs/>}></Route>
               
                 </Routes>
                <div><Footer/></div>
