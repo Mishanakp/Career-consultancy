@@ -277,7 +277,7 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
     width: 206px; 
 }
 }
-@media only screen and (max-width:540px) and (min-width:431px){
+@media only screen and (max-width:540px) and (min-width:482px){
    
     h1.pricardMainHead{ 
         margin-top: -170px; 
@@ -304,6 +304,39 @@ p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{
 }
 .pricard4{ 
     margin-left: -70px !important;
+    margin-top: 40px;
+} 
+p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 
+    width: 335px; 
+}
+}
+@media only screen and (max-width:481px) and (min-width:431px){
+   
+    h1.pricardMainHead{ 
+        margin-top: -170px; 
+    }
+    img.background{
+        margin-top: -560px;
+        width: 540px;
+        margin-bottom: -200px;
+    }
+.pricard1,.pricard2,.pricard3,.pricard4{
+    max-width: 380px;
+    height: 410px;  
+} 
+.pricard1{
+    margin-left: -100px !important ; 
+}
+.pricard2{
+    margin-left: -100px !important;
+    margin-top: 40px;
+}
+.pricard3{ 
+    margin-left: -100px !important; 
+    margin-top: 40px;
+}
+.pricard4{ 
+    margin-left: -100px !important;
     margin-top: 40px;
 } 
 p.pricardPara1,p.pricardPara2,p.pricardPara3,p.pricardPara4{ 

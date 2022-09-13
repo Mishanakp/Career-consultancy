@@ -79,23 +79,24 @@ function a11yProps(index) {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={0}>
         
-        <Grid xs={12}>
+        <Grid xs={12} id='paymentpagegridcalculator'>
           <Item >
          
           <Box id='boxpayment'
       sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex' }}
     >
  
- <Tabs
+        <Tabs 
         orientation="vertical"
         variant="scrollable"
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: 'divider' }}
-        className='verticaltabspayment'
+        id='verticaltabspayment'
       >
- <Tab icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id='creditanddebitimg'><path  fill="#23BDB8" d="M0 8v-3c0-1.105.895-2 2-2h20c1.104 0 2 .895 2 2v3h-24zm24 3v8c0 1.104-.896 2-2 2h-20c-1.105 0-2-.896-2-2v-8h24zm-15 6h-6v1h6v-1zm3-2h-9v1h9v-1zm9 0h-3v1h3v-1z"></path></svg>} iconPosition="start"  label="QR Code"{...a11yProps(0)} id='icon' />
+        
+        <Tab icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path  fill="#23BDB8" d="M0 8v-3c0-1.105.895-2 2-2h20c1.104 0 2 .895 2 2v3h-24zm24 3v8c0 1.104-.896 2-2 2h-20c-1.105 0-2-.896-2-2v-8h24zm-15 6h-6v1h6v-1zm3-2h-9v1h9v-1zm9 0h-3v1h3v-1z"></path></svg>} iconPosition="start"  label="Credit/Debit card"{...a11yProps(0)} id='icon' />
      <Divider/>
         <Tab icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id='creditanddebitimg'><path  fill="#23BDB8" d="M0 8v-3c0-1.105.895-2 2-2h20c1.104 0 2 .895 2 2v3h-24zm24 3v8c0 1.104-.896 2-2 2h-20c-1.105 0-2-.896-2-2v-8h24zm-15 6h-6v1h6v-1zm3-2h-9v1h9v-1zm9 0h-3v1h3v-1z"></path></svg>} iconPosition="start"  label="Credit/Debit card"{...a11yProps(2)} id='icon' />
      <Divider/>

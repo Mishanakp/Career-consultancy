@@ -18,7 +18,7 @@ import Consult from '../../Assets/Consultlogin.jpeg'
 import ed from '../../Assets/Consultlogin769.jpeg'
 
 
-import './ConsultantSingUp.css'
+// import './ConsultantSingUp.css'
 
 import Checkbox from '@mui/material/Checkbox';
 

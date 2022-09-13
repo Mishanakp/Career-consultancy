@@ -4,21 +4,56 @@ body{
    
 }
 /*----------------------------button------------------------------*/
-.probutton {
-   z-index: 10 !important;
-    background: #23BDB8;
 
-    border: none;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
-    outline: none;
-    overflow: hidden;
-    border-radius: 100px;
-    height: 30px;
-    width: 130px;
+  button.probutton::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #43E794, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
   }
-
+  
+  .probutton {
+      position: relative;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      background: #23BDB8;
+      padding: em   ;
+      border: none;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      outline: none;
+      overflow: hidden;
+      border-radius: 100px;
+      height: 30px;
+      width: 130px;
+    }
+    .probutton span {
+      position: relative;
+      pointer-events: none;
+    }
+  
+    .probutton:hover::before {
+      --size: 400px;
+    }
+    button.probutton:hover {
+      text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.4s ease 0s;
+      letter-spacing: 3px;
+      }
+  
+  
+  
 
 /*-------------------------------------------------------------------------*/
 li{list-style-type: none !important;}
@@ -43,7 +78,7 @@ li{list-style-type: none !important;}
     margin-top: 30px;
 }
 .aboutcounsellor{text-align: justify !important;
-    margin-left: 415px !important;
+   /* margin-left: 415px !important;*/
     margin-top: -60px !important;
    color: #4A6F8A !important;
    font-family: 'Poppins', sans-serif !important;
@@ -87,7 +122,7 @@ margin-top: 10px
     }
 
     .aboutcounsellor{text-align: justify !important;
-        margin-left: 310px !important;
+        /*margin-left: 310px !important;*/
         margin-top: 0px !important;
     }
    
@@ -104,10 +139,10 @@ margin-top: 10px
     .ulnamen{
         margin-left: -20px;
     }
-  
+  /*
     .aboutcounsellor{
         margin-left: 45px !important;
-    }
+    }*/
     .probutton{margin-top: 100px !important;
     margin-bottom: 20px;
     }
@@ -128,12 +163,11 @@ margin-top: 10px
     }
  
     .aboutcounsellor{margin-top: 30px !important;
-        margin-left: 32px !important;
+     /*   margin-left: 32px !important;*/
     }
     .probutton{margin-top: 100px !important;
     margin-bottom: 20px;
     }
-    .degree{margin-left: 100px !important;}
 }
 /*------------------------responsive 375------------------------------*/
 @media only screen and (max-width: 376px)and (min-width:322px) {
@@ -143,7 +177,7 @@ margin-top: 10px
     }
 
     .aboutcounsellor{margin-top: 0px !important;
-        margin-left: 29px !important;
+      /*  margin-left: 29px !important;*/
     }
     .probutton{margin-top: 100px !important;
     margin-bottom: 20px;
@@ -159,14 +193,35 @@ margin-top: 10px
     }
 
     .aboutcounsellor{margin-top: 0px !important;
-        margin-left: 23px !important;
+        /*margin-left: 23px !important;*/
     }
     .probutton{margin-top: 100px !important;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
     }
     .viewsha{margin-left: 30px !important ;}
 }
 
+/*------------------------responsive 1920------------------------------*/
+@media only screen and (max-width: 1921px)and (min-width:1602px){
+  
+    .aboutcounsellor{
+      font-size: 1.4em ;
+    
+    }  
+    .viewsha{font-size: 1.3em ;
+    }
+    .ulnamen{font-size: 2em !important;}
+    .viewsha p2{font-size: 1em !important;}
+    .top{
+        height: 350px !important;
+    }
+    .probutton{
+        margin-bottom: 60px !important;
+        }
+}
 
+/*------------------------responsive 1600------------------------------*/
+@media only screen and (max-width: 1601px)and (min-width:1442px){
+  
 
-
+}

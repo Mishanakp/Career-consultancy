@@ -173,6 +173,9 @@ span.terms:hover{
     p.priprivacy__terms{ 
         margin-left: 550px; 
     }
+    span.icon__span{  
+        margin-left: 50px; 
+    }
  }
  @media only screen and (max-width:1024px){
   
@@ -596,7 +599,7 @@ span.terms:hover{
         transform: rotate(90deg);
     }
      }
-     @media only screen and (max-width:540px) and (min-width:431px){
+     @media only screen and (max-width:540px) and (min-width:482px){
   
         .foot1{ 
             height: 200px; 
@@ -723,6 +726,133 @@ span.terms:hover{
             transform: rotate(90deg);
         }
          }
+         @media only screen and (max-width:480px) and (min-width:431px){
+  
+            .foot1{ 
+                height: 200px; 
+            }
+            .foot2{ 
+                height: 650px; 
+            }
+            h1.footerLogo{ 
+                padding-top: 80px;
+                padding-left: 0px;
+                font-size: 35px;
+            }
+            ul.footList1{
+                list-style: none;
+                margin-left: 20px;
+                margin-top: 50px;
+            }
+            h1.footHead1{
+                font-size: 20px;
+                color: white;
+                text-align: left;
+            }
+             li.footLIstitem1{
+                font-size: 15px;
+                color: white;
+                text-align: left;
+                margin-top: 10px;
+             }
+             ul.footList2{
+                list-style: none;
+                margin-left: -10px;
+                margin-top: 50px;
+            }
+            ul.footList3{
+                list-style: none;
+                margin-left: 20px;
+                margin-top: 30px;
+            }
+            h4.footSub{ 
+                padding-top: 50px;
+                margin-left: -200px;
+            }
+            span.email_span{
+                color: white;  
+               margin-left: 100px;
+               font-size: 16px;
+               text-align: left;  
+               font-style: italic; 
+               animation-name: email; 
+               text-decoration: underline;
+               animation-duration: 5s; 
+               margin-top: -15px;
+            } 
+            .footerForm{
+                border-bottom: 1px solid white;
+                width: 200px; 
+                margin-left: 50px;
+            }
+            
+            @keyframes email{
+                from{opacity: 0;}
+                to{opacity: 1;}
+            }
+            input[type="email"]{
+                background-color: #23BDB8  ;
+                border: none  ;
+                border-color: transparent  ;
+            }  
+            input[type="email"]::placeholder{
+                color: white;
+            }
+            span.icon__span{
+                color:white;
+                animation: email;  
+                animation-duration: 5s; 
+                margin-top: -35px; 
+                margin-left: -20px;
+                position: absolute;
+            }
+            span.icon__span:hover{
+                transform: translateX(15px);
+                transition: 1s;
+                cursor: pointer;
+            }
+            .icons__footer{
+                margin-left: 55px; 
+                animation: icons;
+                animation-duration: 1s; 
+                position: absolute;
+                margin-top: 35px;
+             }
+            
+             @keyframes icons{
+                from{opacity: 0;}
+                to{opacity: 1;}
+            }
+             span.icon__span2{
+                color:white; 
+                 
+            }
+            span.icon__span2:hover{
+                color: rgb(211, 208, 208);
+                cursor: pointer;
+            } 
+            p.pricopyright{
+                padding: 15px 0;
+                text-align: left;
+                margin-left: 80px;
+                font-size: 14px;
+                transform: scale(1.1,1);
+                max-width: 100%;
+            }
+             p.priprivacy__terms{
+                padding: 15px 0;
+                margin-left: 0px;
+                font-size: 14px;
+                transform: scale(1.1,1);
+            }
+            p.priprivacy:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            span.minus{
+                transform: rotate(90deg);
+            }
+             }
      @media only screen and (max-width:430px){
   
         .foot1{ 

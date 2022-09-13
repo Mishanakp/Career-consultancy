@@ -3,7 +3,9 @@ import './Footer.css'
 import {Grid} from '@mui/material'
 import {Link} from 'react-router-dom'
 
+ 
 function Footer() {
+  
   return (
     <div className='footer'>
     <Grid container>
@@ -53,9 +55,8 @@ function Footer() {
                 <Grid item lg={4} sm={6} xs={12}>
                 <span className='email_span'>
             <form className='footerForm'>
-          <input  className="uk-input uk-form-blank uk-form-width-medium" type="email" placeholder="Enter Email" />
+          <input  className="uk-input uk-form-blank uk-form-width-medium" type="email" placeholder="Enter Email" name='email'/>
             </form>
-            
             </span>
             <span className='icon__span' uk-icon="icon: arrow-right; ratio: 1.8"></span>
                   </Grid>

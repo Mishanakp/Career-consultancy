@@ -9,7 +9,7 @@ body{
   
   .login{display: block;
     text-align: left;
-    padding-top: 110px;
+    padding-top: 200px !important;
     padding-bottom: 110px;
     padding-left: 120px;
     padding-right: 120px;
@@ -83,6 +83,73 @@ color: #F5FFFA;}
   color:  #0E314C;;
 }
 #alert-dialog-title{color: #23BDB8;}
+
+
+/**************************1920********************************/
+@media screen and (max-width:1920px) and (min-width:1601px){
+  .login{display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 110px;
+    padding-left: 250px !important;
+    padding-right: 250px !important;
+  }
+}
+
+/**************************1600********************************/
+@media screen and (max-width:1600px) and (min-width:1537px){
+  .login{display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 110px;
+    padding-left: 180px !important;
+    padding-right: 180px !important;
+  }
+}
+/**************************1440********************************/
+@media screen and (max-width:1440px) and (min-width:1368px){
+  .login{display: block;
+    text-align: left;
+    padding-top: 250px !important;
+    padding-bottom: 110px;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+  }
+  #input-with-icon-textfield {
+    width: 345px;
+}
+}
+
+/**************************1366********************************/
+@media screen and (max-width:1366px) and (min-width:1281px){
+  #button {
+    background-color: #23BDB8 !important;
+    width: 390px !important;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px !important;
+    background: #23BDB8;
+    font-size: 1.2rem;
+    /* border-radius: 100px; */
+}
+}
+/**************************1280********************************/
+@media only screen and (max-width:1280px) and (min-width:1023px){
+  #button {
+    background-color: #23BDB8 !important;
+    max-width: 320px !important;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px !important;
+    background: #23BDB8;
+    font-size: 1.2rem;
+    /* border-radius: 100px; */
+}
+
+#input-with-icon-textfield {
+  max-width: 260px;
+}
+}
 /**********************************************************/
 @media screen  and (max-width:1025px){
 
@@ -133,7 +200,7 @@ color: #F5FFFA;}
   }
   
 }
-
+/*********************************769******************************/
 
 @media screen and (max-width:769px){
   .login{display: none}
@@ -196,10 +263,10 @@ padding-bottom: 1px;}
   .logincard769{
     display: block;
    }
-  #logintab769{
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+   #logintab769{
+    padding-top: 150px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     
   }
   #consultantsignup{box-shadow: 5px 10px 18px #888888;}
@@ -256,7 +323,7 @@ padding-bottom: 1px;}
   #loginbody769{
     background-color: #F5FFFA;
   }
-  #input-with-icon-textfield{width: 200px;  }
+  #input-with-icon-textfield{width: 200px !important;  }
 
   #button{background-color:#23BDB8 !important;
     width: 250px !important;
@@ -292,10 +359,10 @@ padding-bottom: 1px;}
   #loginbody769{
     background-color: #F5FFFA;
   }
-  #input-with-icon-textfield{width: 180px;  }
+  #input-with-icon-textfield{width: 160px !important;  }
 
   #button{background-color:#23BDB8 !important;
-    width: 220px !important;
+    width: 190px !important;
     height: 56px;
     font-family: 'Poppins', sans-serif;
     margin-top: 30px !important;

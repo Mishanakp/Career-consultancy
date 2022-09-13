@@ -647,7 +647,7 @@ p.pricategPara6 {
         width: 206px; 
     }
 }
-@media only screen and (max-width:540px) and (min-width:431px){  
+@media only screen and (max-width:540px) and (min-width:482px){  
     .pricategContent1 {
         height: 280px;
         background-color: white;
@@ -726,6 +726,97 @@ p.pricategPara6 {
         height: 430px; 
         margin-top: 50px; 
         margin-left: -70px; 
+    } 
+    .pricategContent6 {
+        height: 320px;
+        background-color: white;
+        margin-top: -10px; 
+    }
+     
+    
+    p.pricategPara6 { 
+        width: 335px; 
+    }
+}
+@media only screen and (max-width:481px) and (min-width:431px){  
+    .pricategContent1 {
+        height: 280px;
+        background-color: white;
+        margin-top: -10px; 
+    }
+    .pricateg1  {
+        max-width: 380px;
+        height: 430px; 
+        margin-left: -100px;  
+    }  
+    p.pricategPara1 { 
+        width: 335px;
+        margin-left: 7px;  
+    } 
+    .pricategContent2 {
+        height: 280px;
+        background-color: white;
+        margin-top: -10px; 
+    }
+    .pricateg2  {
+        max-width: 380px;
+        height: 430px;  
+        margin-left: -100px;
+        margin-top: 50px;
+    }  
+    p.pricategPara2 { 
+        width: 335px; 
+    } 
+    .pricategContent3 {
+        height: 290px;
+        background-color: white;
+        margin-top: -10px; 
+    }
+    .pricateg3  {
+        max-width: 380px;
+        height: 430px;  
+        margin-left: -100px;
+        margin-top: 50px;
+    } 
+    p.pricategPara3 { 
+        width: 335px; 
+    } 
+    .pricateg4  {
+        max-width: 380px;
+        height: 430px; 
+        margin-top: 50px;
+        margin-left: -100px; 
+    } 
+    .pricategContent4 {
+        height: 320px;
+        background-color: white;
+        margin-top: -10px; 
+    }
+    
+    p.pricategPara4 { 
+        width: 335px; 
+    } 
+    .pricateg5  {
+        max-width: 380px;
+        height: 430px; 
+        margin-top: 50px;  
+        margin-left: -100px; 
+    } 
+    .pricategContent5 {
+        height: 320px;
+        background-color: white;
+        margin-top: -10px; 
+    }
+     
+    
+    p.pricategPara5 { 
+        width: 335px; 
+    } 
+    .pricateg6  {
+        max-width: 380px;
+        height: 430px; 
+        margin-top: 50px; 
+        margin-left: -100px; 
     } 
     .pricategContent6 {
         height: 320px;

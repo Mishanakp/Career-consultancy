@@ -917,7 +917,7 @@ span.priicon4{
        margin-left: 0px;
     }
 }
-@media only screen and (max-width:540px) and (min-width:431px){
+@media only screen and (max-width:540px) and (min-width:482px){
    
     .prihow{
         margin-top: 60px; 
@@ -974,6 +974,112 @@ span.priicon4{
     }
     .pristep3{
         padding-left: 35px; 
+    }
+    h1.prifirstHead3{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+        width: 160px;
+        margin-left:20px;
+    }
+    h5.prifirstSubhead3{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara3{
+        max-width: 200px;
+        text-align: left;
+        padding-left: 10px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon3{
+        color: #23BDB8;
+        margin-top: 100px;
+        margin-left: -15px;
+    }
+    .pristep4{
+        padding-left: 20px;
+    }
+    h1.prifirstHead4{
+        color: #4a6f8a;
+        margin-top: 10px;
+        font-size: 22px;
+        width: 140px;
+        margin-left: 20px;
+    }
+    h5.prifirstSubhead4{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara4{
+        max-width: 170px;
+        text-align: left;
+        padding-left: 20px;
+        text-align: justify;
+        word-break: break-all; 
+    }
+    span.priicon4{
+        color: #23BDB8;
+        margin-top: 100px;
+       margin-left: 0px;
+    }
+}
+@media only screen and (max-width:481px) and (min-width:431px){
+   
+    .prihow{
+        margin-top: 60px; 
+    }
+    .pristep1{
+        padding-left: 20px;
+    }
+    h1.prifirstHead{
+        color: #4a6f8a;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead{
+        color: #4a6f8a; 
+        
+    }
+    p.prifirstPara{
+        width: 180px;
+        text-align: left;
+        padding-left: 5px;
+        text-align: justify;
+        word-break: break-all;
+       
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+       
+    }
+    .pristep2{
+        padding-left: 10px;
+    }
+    h1.prifirstHead2{
+        color: #4a6f8a;
+        margin-top: -10px;
+        width: 200px;
+        margin-left:-5px;
+        font-size: 22px;
+    }
+    h5.prifirstSubhead2{
+        color: #4a6f8a; 
+    }
+    p.prifirstPara2{
+        width: 180px;
+        text-align: left;
+        padding-left:10px; 
+        text-align: justify;
+        word-break: break-all;
+    }
+    span.priicon2{
+        color: #23BDB8;
+        margin-top: 100px;
+       
+    }
+    .pristep3{
+        padding-left: 15px; 
     }
     h1.prifirstHead3{
         color: #4a6f8a;

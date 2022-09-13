@@ -1069,6 +1069,84 @@
         font-size: 20px;
        }
 }
+@media only screen and (max-width:481px)  and (min-width:431px){
+    img.pritreeImage{
+        width: 600px; 
+       }
+       .priline1{    
+        margin-left: 40px; 
+        width: 80px;
+        margin-top: 195px;
+       } 
+       .priline11{    
+        margin-left: 110px; 
+        width: 30px; 
+        margin-top: 235px;
+       } 
+        
+       .priline2{    
+        margin-left: 53px;
+        margin-top: 125px; 
+        width: 80px;
+       } 
+       .priline21{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 125px;
+        margin-top: 165px;
+        width: 30px; 
+       } 
+       .priline3{   
+        border-bottom: 2px solid #4a6f8a; 
+        width: 80px;
+        margin-left: 93px;
+        margin-top: 70px;
+       } 
+       .priline31{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-top: 110px;
+        margin-left: 165px;
+        width: 30px;
+       } 
+       .priline4{   
+        border-bottom: 2px solid #4a6f8a;
+        width: 80px;
+        margin-left: 375px;  
+        margin-top: 130px;
+       } 
+       .priline41{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 355px; 
+        margin-top: 168px;
+        width: 30px;
+       } 
+       .priline5{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 336px; 
+        width: 80px;
+        margin-top: 66px;
+       } 
+       .priline51{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 315px; 
+        width: 30px;
+        margin-top: 105px;
+       } 
+       .priline6{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 290px; 
+        width: 80px;
+        margin-top: 21px;
+       } 
+       .priline61{   
+        border-bottom: 2px solid #4a6f8a; 
+        margin-left: 268px; 
+        width: 30px;
+        margin-top: 60px;
+       }  
+       h1.prilineHead{
+        font-size: 20px;
+       }
+}
 @media only screen and (max-width:430px){
     img.pritreeImage{
         width: 600px; 
