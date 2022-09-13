@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @media screen and (max-width: 2000px){
 .salfirstbox{
-  margin-top: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .main{
@@ -72,14 +73,14 @@ margin-left: 6px;
   color:  white;
 
 }
-.ui.grid{
+.salfirstbox .ui.grid{
   transform: translateY(-50px);
 }
 
-.ui.fluid.card {
+ .salfirstbox .ui.fluid.card {
       height: 300px;
 }
-.messagebox{
+.salfirstbox .messagebox{
   transform: translateX(0px);
 }
 
@@ -121,7 +122,7 @@ margin-left: 6px;
   --size: 400px;
 }
 
-.second{
+.salsecond{
   display: none;
 }
 .expansion{
@@ -132,9 +133,7 @@ color: white;
 
 
 @media screen and (max-width: 1440px){
-  .salfirstbox{
-    margin-top: 550px;
-  }
+
   .labels{
     width: 277px;
   }
@@ -142,9 +141,20 @@ color: white;
     width: 545px;
   }
 }
+@media screen and (max-width:1367px) and (min-width:1366px) {
+  
+  #outlined-textarea{
+    width: 250px!important;
+  }
+}
+@media screen and (max-width:1281px) and (min-width:1280px) {
+  #outlined-textarea{
+    width: 250px!important;
+  }
+}
 @media screen and (max-width: 1025px){
   .salfirstbox{
-    margin-top: 600px;
+    margin-top: 150px;
   }
 .firstbox .ui.fluid.card{
   height: 260px;
@@ -160,27 +170,61 @@ color: white;
 color: white;
 }
 }
+@media screen and (max-width:821px) and (min-width:820px) {
+  .labels{
+    width: 300px;
+  }
+  #outlined-textarea{
+    width: 270px;
+  }
+  }
+
 @media screen and (max-width: 769px){
   .salfirstbox{
-    margin-top: 550px;
+    margin-top: 100px;
   }
   .labels{
     width: 250px;
   }
   #outlined-textarea{
-    width: 260px;
+    width: 225px;
   }
   .expansion{
     font-size: 40px!important;
   color: white;
   }
 }
+@media screen and (min-width: 540px) and (max-width: 540px){
+  .salfirstbox .ui.fluid.card{
+    width: 150px !important;
+    margin-left: -15px;
+    height: 250px;
+  }
+  .salfirstbox .content  h3{
+    font-size: 14px;
+  }
+.salfirstbox .content  p2{
+  font-size: 10px;
+}
+.labels{
+  width: 200px;
+}
+#outlined-textarea{
+  width: 170px;
+}
+}
+
 @media screen and (max-width: 426px){
   .salfirstbox{
     display: none!important;
   }
-  .second{
+  .salsecond .ui.fluid.card{
+    height: 300px;
+  }
+  .salsecond{
     display: block;
+    margin-top: 90px;
+    margin-bottom: 100px;
   }
   .message3{
     text-align: left;
@@ -217,13 +261,35 @@ margin-left: 78px!important;
   .label{
     width: 260px!important;
   }
-  .second .ui.fluid.card{
+  .salsecond .ui.fluid.card{
     width: 270px;
   }
   #outlined-textarea{
     width: 233px;
   }
-  .button1{
-    margin-left: 45px!important;
+  .salsecond .button1{
+    width: 200px;
+    margin-left: 0px!important;
+  }
+}
+@media screen and  (max-width: 281px){
+  .salsecond .ui.fluid.card   {
+    width: 230px;
+  }
+   .label{
+    width: 200px!important;
+  }
+  #outlined-textarea{
+    width: 173px;
+  }
+  .salsecond .message{
+    margin-left: -19px;
+  }
+  .salsecond .button1{
+    margin-left: 0px!important;
+    width: 170px;
+  }
+  .salsecond .questions{
+    margin-left: -27px;
   }
 }

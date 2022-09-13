@@ -22,50 +22,57 @@ body{
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{padding: 13px !important;}
 
 /*----------------------------button------------------------------*/
-.shabutton {
-    position: relative;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-    background: #23BDB8;
-    padding: em   ;
-    border: none;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
-    outline: none;
-    overflow: hidden;
-    border-radius: 100px;
-    height: 40px;
-    width: 130px;
-  }
-  .shabutton span {
-    position: relative;
-    pointer-events: none;
-  }
-  .shabutton::before {
-    --size: 0;
-    content: '';
-    position: absolute;
-    left: var(--x);
-    top: var(--y);
-    width: var(--size);
-    height: var(--size);
-    background: radial-gradient(circle closest-side, #43E794, transparent);
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    transition: width .2s ease, height .2s ease;
-  }
-  .shabutton:hover::before {
-    --size: 400px;
-  }
-  .shabutton.prisliderButton:hover {
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
-    letter-spacing: 3px;
+
+
+    button.shabutton::before {
+      --size: 0;
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(circle closest-side, #43E794, transparent);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      transition: width .2s ease, height .2s ease;
     }
+    
+    .shabutton {
+        position: relative;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background: #23BDB8;
+        padding: em   ;
+        border: none;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+        outline: none;
+        overflow: hidden;
+        border-radius: 100px;
+        height: 40px;
+        width: 130px;
+      }
+      .shabutton span {
+        position: relative;
+        pointer-events: none;
+      }
+    
+      .shabutton:hover::before {
+        --size: 400px;
+      }
+      button.shabutton:hover {
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        letter-spacing: 3px;
+        }
+    
+    
+    
   
 
 
@@ -109,11 +116,11 @@ body{
   .backgrounddiv{padding: 30px!important;
     padding-top: 135px !important;}
   .dateitem{margin-left: 0px !important;}
-  li{display:contents;}
+  .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -180px;}
     .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-    a {margin-left: 20px !important;}
+    #asha {margin-left: 20px !important;}
 }
 /*------------------------responsive 320------------------------------*/
 @media only screen and (max-width: 321px)and (min-width:30px) {
@@ -132,6 +139,46 @@ body{
 #asha {margin-left: 20px !important;}
 .shabutton {margin-left: 20px;}
 }
+/*------------------------responsive 1536------------------------------*/
+@media only screen and (max-width: 1536px)and (min-width:1442px) {
 
+  .timeslider{
+      width: 400px !important;
+  }
+  .selecttime{margin-left: -100px !important;}
+  .dateitem{margin-left: 0px !important;}
+  .shabutton {margin-left: 100px !important;}
+  .dateselection{margin-left: -80px !important;}
+}
 
+/*------------------------responsive 1440------------------------------*/
+@media only screen and (max-width: 1441px)and (min-width:1366px) {
+  .timeslider{
+    width: 400px !important;
+}
+.dateitem{margin-left: 120px !important;}
 
+}
+/*------------------------responsive 1600------------------------------*/
+@media only screen and (max-width: 1601px)and (min-width:1534px) {
+  .timeslider{
+    width: 400px !important;
+}
+.dateitem{margin-right: 30px !important;
+  margin-left: 40px !important;
+}
+.dateselection{margin-left: -90px !important;}
+.selecttime{margin-left: -120px !important;}
+}
+
+/*------------------------responsive 480------------------------------*/
+@media only screen and (max-width: 481px)and (min-width:427px) {
+  .backgrounddiv{padding: 40px!important;
+  padding-top: 140px !important;
+  }
+  .dateitem{margin-right: 30px !important;
+    margin-left: 40px !important;
+  }
+  .shatitle{padding-left: 65px !important;}
+
+}

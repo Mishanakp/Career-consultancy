@@ -39,6 +39,20 @@ margin-top:100px !important;
 .catfilter{margin-left: 10px;}
 
 /*----------------------------button------------------------------*/
+button.buttonshahi::before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #43E794, transparent);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: width .2s ease, height .2s ease;
+}
+
 .buttonshahi {
     position: relative;
     -webkit-appearance: none;
@@ -60,23 +74,18 @@ margin-top:100px !important;
     position: relative;
     pointer-events: none;
   }
-  .buttonshahi::before {
-    --size: 0;
-    content: '';
-    position: absolute;
-    left: var(--x);
-    top: var(--y);
-    width: var(--size);
-    height: var(--size);
-    background: radial-gradient(circle closest-side, #43E794, transparent);
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    transition: width .2s ease, height .2s ease;
-  }
+
   .buttonshahi:hover::before {
     --size: 400px;
   }
-  .buttonshahi:hover{transform: translate(0.2em,0.2em);}
+  button.buttonshahi:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    letter-spacing: 3px;
+    }
+
 
 
 
@@ -146,7 +155,7 @@ margin-top:100px !important;
   .nameand{text-align: center !important;
     width: 300px !important;
   }
- 
+  .filter{margin-left: 10px !important;}
 }
 /*------------------------responsive 320------------------------------*/
 @media only screen and (max-width: 321px){
@@ -163,7 +172,7 @@ margin-top:100px !important;
   #name{font-size: 1.5em;}
   .catfilter{margin-top: 10px;margin-left: 30px !important;}
   .nameand{text-align: center !important;width: 200px !important;}
-
+  .filter{margin-left: 5px !important;}
 }
 /*------------------------responsive ------------------------------*/
 @media only screen and (max-width: 393px) and (min-width:380px){
@@ -178,4 +187,89 @@ margin-top:100px !important;
   .nameand{text-align: center !important;}
   #available{margin-left: 65px !important;}
 }*/
+@media only screen and (max-width: 1920px) and (min-width:1602px){
+  .title{margin-left: 25px !important;
 
+  }
+  .buttonshahi{margin-left: 70px !important;}
+  .nameand{width: 400px !important;}
+  #counselorimg{height: 150px !important;
+    width: 150px !important;}
+  
+  .cardsha{margin-left: 60px !important;}
+  .filter{margin-left: 50px !important;}
+}
+
+/*------------------------responsive 1536------------------------------*/
+@media only screen and (max-width: 1537px) and (min-width:1440px){
+
+  .buttonshahi{margin-left: 30px !important;}
+  .cardsha{margin-left: 47px !important;}
+  #available{padding-left: 20px !important;
+    padding-top: 6px !important;
+  }
+  .filter{margin-left: 35px !important;}
+  .title{margin-left: 6px !important;}
+}
+
+/*------------------------responsive 1600------------------------------*/
+@media only screen and (max-width: 1601px) and (min-width:1538px){
+  .title{margin-left: 6px !important;}
+  .cardsha{margin-left: 49px !important;}
+  .buttonshahi{margin-left: 40px !important;}
+  #available{padding-left: 20px !important;
+    padding-top: 6px !important;
+  }
+  .filter{margin-left: 37px !important;}
+}
+
+/*------------------------responsive 480------------------------------*/
+@media only screen and (max-width: 481px) and (min-width:427px){
+  .cardsha{margin-left: 25px !important;}
+  .catfilter{margin-top: 10px !important;
+  }
+  .filter{margin-left: 55px !important;}
+}
+/*------------------------responsive 1440------------------------------*/
+@media only screen and (max-width: 1440px) and (min-width:1368px){
+
+  .buttonshahi{margin-left: 22px !important;}
+
+
+}
+
+/*------------------------responsive 393------------------------------*/
+@media only screen and (max-width: 394px) and (min-width:377px){
+  .buttonshahi{margin-left: 90px !important;}
+}
+/*------------------------responsive 820------------------------------*/
+@media only screen and (max-width: 821px) and (min-width:769px){
+  #liitem{margin-left: -10px !important;
+  }
+  .nameand{ text-align: center !important;}
+  #available{padding-left: 30px !important;}
+  .cardsha{width: 350px !important;}
+  .buttonshahi{margin-left: 95px !important;
+      margin-bottom: 10px !important;
+  }
+  #counselorimg{height: 180px;width: 180px;
+    margin-left: -10px !important;
+}
+}
+
+/*------------------------responsive 912------------------------------*/
+@media only screen and (max-width: 913px) and (min-width:822px){
+  .cardsha{width: 400px !important;
+      margin-left: 37px !important;
+  }
+
+  #liitem, .nameand{ width: 250px !important;}
+  .buttonshahi{margin-left: 15px !important;}
+}
+/*------------------------responsive 280------------------------------*/
+@media only screen and (max-width: 281px){
+  .cardsha{width: 240px !important;
+    margin-left: 20px !important;
+}
+.filter{width:240px !important;}
+}

@@ -7,14 +7,14 @@ body{
 .singincard769{display: none;}
   .singin{display: block;
     text-align: left;
-    padding-top: 150px !important;
+    padding-top: 200px !important;
    padding-bottom: 100px;
     padding-left: 120px;
     padding-right: 120px;
     
   }
 
-  #cardpaddingsign {
+  .cardpaddingsign {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
@@ -22,11 +22,11 @@ body{
     
     
 }
-#input-with-icon-textfield1{width: 350px;}
+.textfieldusersingup{width: 400px !important;}
 
 
 .signupbtn{ background: #23BDB8 !important;
-    width: 410px;
+    width: 400px;
     height: 56px;
     font-size: 1.1rem;
     color: #F5FFFA;
@@ -38,7 +38,9 @@ body{
     .singinimg{
        height: 690px;
     }
-#singin22{background-color: #F5FFFA;}
+.singin22{background-color: #F5FFFA;
+  box-shadow: 5px 10px 18px #888888 !important;
+}
     .loginlink{font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
         padding-top: 10px;
@@ -55,28 +57,155 @@ body{
         
       }
 
+
+
+/**************************1920********************************/
+@media screen and (max-width:1920px) and (min-width:1601px){
+
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 250px !important;
+    padding-right: 250px !important;
+}
+
+
+  
+}
+
+/**************************1600********************************/
+@media screen and (max-width:1600px) and (min-width:1537px){
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 150px !important;
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+}
+
+  
+}
+
+/**************************1600********************************/
+@media screen and (max-width:1536px) and (min-width:1441px){}
+/**************************1440********************************/
+@media screen and (max-width:1440px) and (min-width:1368px){
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+  
+}
+
+/**************************1366********************************/
+@media screen and (max-width:1367px) and (min-width:1281px){
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 380px !important;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+.textfieldusersingup{width: 380px !important;}
+
+.singin {
+  display: block;
+  text-align: left;
+  padding-top: 200px !important;
+  padding-bottom: 100px;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+}
       /*******************************************1280******************************************************/
 
-@media screen  and (max-width:1281px){
-  #cardpaddingsign {
-    padding-left: 50px;
-    padding-right: 50px;
+/**************************1280********************************/
+@media only screen and (max-width:1280px) and (min-width:1201px){
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .cardpaddingsign {
+    padding-left: 80px;
+    padding-right: 100px;
     padding-top: 100px;
     padding-bottom: 10px;
+}
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 360px !important;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+
+.textfieldusersingup
+{
+  width: 360px !important;
+}
+}
+/**************************1280********************************/
+@media only screen and (max-width:1200px) and (min-width:1026px){
+  .singin {
+    display: block;
+    text-align: left;
+    padding-top: 200px !important;
+    padding-bottom: 100px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .cardpaddingsign {
+    padding-left: 50px !important;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+  .signupbtn {
+    background: #23BDB8 !important;
+    width: 360px !important;
+    height: 56px;
+    font-size: 1.1rem;
+    color: #F5FFFA;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+    margin-top: 5px !important;
+}
+
+.textfieldusersingup
+{
+  width: 360px !important;
 }
 }
 /*******************************************1025******************************************************/
 
-@media screen  and (max-width:1025px){
-  #input-with-icon-textfield1{width: 300px;  }
+@media screen  and (max-width:1025px) and (min-width:962px){
+  .textfieldusersingup{width: 300px !important;  }
 
 
   .singin {
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 210px !important;
+    padding-bottom: 60px !important;
+    padding-left:  80px !important;
+    padding-right: 80px !important;
     
 }
 
@@ -85,11 +214,11 @@ body{
 .singinimg {
   height: 720px;
 }
-#input-with-icon-textfield1{width: 300px;  }
+
 
 
 .signupbtn{ background: #23BDB8 !important;
-  width: 360px;
+  width: 300px;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
@@ -100,7 +229,51 @@ body{
 
 
 
-  #cardpaddingsign {
+  .cardpaddingsign {
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+}
+/**********************************************960***********************************************/
+@media screen  and (max-width:961px) and (min-width:914px){
+  .textfieldusersingup{width: 280px !important;  }
+
+
+  .singin {
+    text-align: left;
+    padding-top: 180px !important;
+    padding-bottom: 60px !important;
+    padding-left:  70px !important;
+    padding-right: 70px !important;
+    
+}
+
+
+
+.singinimg {
+  height: 720px;
+}
+
+
+
+.signupbtn{ background: #23BDB8 !important;
+  width: 280px;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  }
+
+
+
+  .cardpaddingsign {
     padding-left: 60px;
     padding-right: 50px;
     padding-top: 100px;
@@ -111,21 +284,21 @@ body{
 
 }
 /********************************912**********************************************/
-@media screen and (max-width:913px){
-  #input-with-icon-textfield1 {
-    width: 250px;
+@media screen and (max-width:913px) and (min-width:900px){
+  .textfieldusersingup{
+    width: 250px !important;
 }
-#cardpaddingsign {
+.cardpaddingsign {
   
 
-  padding-left: 50px;
+  padding-left: 60px;
    padding-right: 30px; 
-  padding-top: 100px;
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 .signupbtn {
   background: #23BDB8 !important;
-  width: 310px;
+  width: 250px !important;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
@@ -135,25 +308,50 @@ body{
 }
 
 .singinimg {
-  height: 742px;
+  height: 670px !important;
 }
+.loginlink {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding-top: 10px;
 }
+.singin {
+  text-align: left;
+  padding-top: 180px !important;
+  padding-bottom: 60px !important;
+  padding-left:  70px !important;
+  padding-right: 70px !important;
+  
+}
+
+}
+
+/********************************912**********************************************/
+@media screen and (max-width:889px) and (min-width:822px){}
 /********************************820**********************************************/
-@media screen and (max-width:821px){
-  #input-with-icon-textfield1 {
-    width: 250px;
+@media screen and (max-width:821px) and (min-width:770px){
+  .textfieldusersingup{
+    width: 250px !important;
 }
-#cardpaddingsign {
-  
 
-  padding-left: 50px;
+.singin {
+  text-align: left;
+  padding-top: 180px !important;
+  padding-bottom: 60px !important;
+  padding-left:  50px !important;
+  padding-right: 50px !important;
+  
+}
+
+.cardpaddingsign {
+  padding-left:  50px;
    padding-right: 30px; 
   padding-top: 100px;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 .signupbtn {
   background: #23BDB8 !important;
-  width: 300px;
+  width: 250px !important;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
@@ -163,17 +361,25 @@ body{
 }
 
 .singinimg {
-  height: 742px;
+  height: 690px;
+}
+.loginlink {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding-top: 10px;
 }
 }
 
-/*********************************************769******/
-@media screen and (max-width:769px){
-  #input-with-icon-textfield1{width: 350px;  }
+/*********************************************769**************************************/
+@media screen and (max-width:769px) and (min-width:674px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+  .textfieldusersingup{width: 410px !important;  }
   .singincard769{display: block;}
   .singin{display: none;}
 
-  #signuptab769{
+  .signuptab769{
     padding-top: 150px !important;
     padding-left: 50px;
     padding-right: 50px;
@@ -186,10 +392,10 @@ body{
     width: 668px;
 }
 .signupbtn{ background: #23BDB8 !important;
-  width: 410px;
+  width: 410px !important;
   height: 56px;
   font-size: 1.1rem;
-  color: #F5FFFA;
+  color: #F5FFFA; 
   border: none;
   font-family: 'Poppins', sans-serif !important;
   margin-top: 5px !important;
@@ -199,55 +405,218 @@ body{
     color: gray;
     font-size: .9rem;
     text-align: left;
-    padding-left: 100px;
+    padding-left: 100px !important;
 }
 
 }
-
-/**********************540*****************************/
-@media screen and (max-width:541px){
-  .signupbtn {
-    background: #23BDB8 !important;
-    width: 385px;
-    height: 56px;
-    font-size: 1.1rem;
-    color: #F5FFFA;
-    border: none;
-    font-family: 'Poppins', sans-serif !important;
-    margin-top: 5px !important;
-}
-.required {
-  color: gray;
-  font-size: .9rem;
-  text-align: left;
-  padding-left: 0px;
-}
-}
-
-/**********************426*****************************/
-@media screen and (max-width:413px){
-  .signupbtn {
-    background: #23BDB8 !important;
-    width: 280px;
-    height: 56px;
-    font-size: 1.1rem;
-    color: #F5FFFA;
-    border: none;
-    font-family: 'Poppins', sans-serif !important;
-    margin-top: 5px !important;
-}
-}
-/**********************426*****************************/
-@media screen and (max-width:426px){
+/******************************************672*****************************************************/
+@media screen and (max-width:673px) and (min-width:642px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+  .textfieldusersingup{width: 410px !important;  }
   .singincard769{display: block;}
   .singin{display: none;}
-  #input-with-icon-textfield1{width: 250px;  }
-  #signuptab769{
-    text-align: left;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+
+  .signuptab769{
+    padding-top: 150px !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     
+  }
+
+  .signupimg769 {
+    height: 500px !important;
+    width: 668px;
+}
+.signupbtn{ background: #23BDB8 !important;
+  width: 410px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA; 
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  } 
+
+  .required {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 50px !important;
+}
+}
+/******************************************640*****************************************************/
+@media screen and (max-width:641px) and (min-width:602px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+  .textfieldusersingup{width: 390px !important;  }
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  .signuptab769{
+    padding-top: 150px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 50px !important;
+    
+  }
+
+  .signupimg769 {
+    height: 500px !important;
+    width: 668px;
+}
+.signupbtn{ background: #23BDB8 !important;
+  width: 390px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA; 
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  } 
+
+  .required {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 50px !important;
+}
+}
+
+/******************************************600*****************************************************/
+@media screen and (max-width:601px) and (min-width:596px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+  .textfieldusersingup{width: 390px !important;  }
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  .signuptab769{
+    padding-top: 150px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 50px !important;
+    
+  }
+
+  .signupimg769 {
+    height: 500px !important;
+    width: 668px;
+}
+.signupbtn{ background: #23BDB8 !important;
+  width: 390px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA; 
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  } 
+
+  .required {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 30px !important;
+}
+}
+/******************************************595****************************************************/
+@media screen and (max-width:596px) and (min-width:542px){}
+/******************************************540****************************************************/
+@media screen and (max-width:541px) and (min-width:482px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+  .textfieldusersingup{width: 350px !important;  }
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  .signuptab769{
+    padding-top: 150px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 50px !important;
+    
+  }
+
+  .signupimg769 {
+    height: 400px !important;
+    width: 668px;
+}
+.signupbtn{ background: #23BDB8 !important;
+  width: 350px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA; 
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  } 
+
+  .required {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 20px !important;
+}
+}
+/******************************************480****************************************************/
+@media screen and (max-width:481px) and (min-width:427px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+  .textfieldusersingup{width: 320px !important;  }
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  .signuptab769{
+    padding-top: 150px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 50px !important;
+    
+  }
+
+  .signupimg769 {
+    height: 400px !important;
+    width: 668px;
+}
+.signupbtn{ background: #23BDB8 !important;
+  width: 320px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA; 
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+  } 
+
+  .required {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 20px !important;
+}
+}
+/**********************426*****************************/
+@media screen and (max-width:426px) and (min-width:414px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+
+  .singincard769{display: block;}
+  .singin{display: none;}
+  .textfieldusersingup{width: 300px !important;  }
+  .signuptab769{
+    text-align: left;
+    padding-top: 150px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 50px !important;
   }
 
   .signupimg769 {
@@ -258,7 +627,75 @@ body{
 
 .signupbtn {
   background: #23BDB8 !important;
-  width: 300px;
+  width:  300px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+}
+}
+/**********************412*****************************/
+@media screen and (max-width:413px) and (min-width:395px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+
+  .singincard769{display: block;}
+  .singin{display: none;}
+  .textfieldusersingup{width: 290px !important;  }
+  .signuptab769{
+    text-align: left;
+    padding-top: 150px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .signupimg769 {
+    height: 400px !important;
+    width: 668px;
+}
+
+
+.signupbtn {
+  background: #23BDB8 !important;
+  width:  290px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+}
+}
+/**********************393*****************************/
+@media screen and (max-width:394px) and (min-width:376px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+
+  .singincard769{display: block;}
+  .singin{display: none;}
+  .textfieldusersingup{width: 275px !important;  }
+  .signuptab769{
+    text-align: left;
+    padding-top: 150px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .signupimg769 {
+    height: 400px !important;
+    width: 668px;
+}
+
+
+.signupbtn {
+  background: #23BDB8 !important;
+  width:  275px !important;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
@@ -270,26 +707,38 @@ body{
 
 
  /**********************376*****************************/
- @media screen and (max-width:376px){
+ @media screen and (max-width:376px) and (min-width:363px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+
   .singincard769{display: block;}
   .singin{display: none;}
 
-  #signuptab769{
-    padding-top: 50px;
+  .signuptab769{
+    padding-top: 150px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 50px !important;
     
   }
-
+  .signupimg769 {
+    height: 300px !important;
+    width: 668px;
+}
   
-
-#input-with-icon-textfield1 {
-  width: 200px;
+.loginlink {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem !important;
+  padding-top: 10px;
+}
+.textfieldusersingup {
+  width: 255px !important;
 }
 
 .signupbtn {
   background: #23BDB8 !important;
-  width: 250px;
+  width: 255px !important;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
@@ -297,26 +746,92 @@ body{
   font-family: 'Poppins', sans-serif !important;
   margin-top: 5px !important;
 }
+
+.required {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
  
   }
 
+  
+ /*********************360*****************************/
+ @media screen and (max-width:361px) and (min-width:322px){
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+  }
+
+  .singincard769{display: block;}
+  .singin{display: none;}
+
+  .signuptab769{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px !important;
+    
+  }
+  .signupimg769 {
+    height: 300px !important;
+    width: 668px;
+}
+  
+.loginlink {
+  font-family: 'Poppins', sans-serif;
+  font-size: .9rem !important;
+  padding-top: 10px;
+}
+.textfieldusersingup {
+  width: 230px !important;
+}
+
+.signupbtn {
+  background: #23BDB8 !important;
+  width: 230px !important;
+  height: 56px;
+  font-size: 1.1rem;
+  color: #F5FFFA;
+  border: none;
+  font-family: 'Poppins', sans-serif !important;
+  margin-top: 5px !important;
+}
+
+.required {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
+ 
+  }
 /***************************321********************************/
 
-  @media screen and (max-width:321px){
-    #signuptab769{
-      padding-top: 40px;
-      padding-left: 20px;
-      padding-right: 20px;
+  @media screen and (max-width:321px) and (min-width:282px){
+    .singupuser769body{background-color: #F5FFFA;
+      box-shadow: 5px 10px 18px #888888 !important;
+      padding-left:  10px !important;
+      padding-right: 10px !important;
+    }
+  
+    .singincard769{display: block;}
+    .singin{display: none;}
+    .signuptab769{
+      padding-top: 130px !important;
+      padding-left:  20px !important;
+      padding-right: 20px !important;
+      padding-bottom:30px !important ;
       
     }
 
 
-    #input-with-icon-textfield1 {
-      width: 180px;
+    .textfieldusersingup {
+      width: 200px  !important;
   }
   .signupbtn {
     background: #23BDB8 !important;
-    width: 220px;
+    width: 200px !important;
     height: 56px;
     font-size: 1.1rem;
     color: #F5FFFA;
@@ -324,29 +839,60 @@ body{
     font-family: 'Poppins', sans-serif !important;
     margin-top: 5px !important;
   }
+
+  .required {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 30px !important;
+  }
     }
 
 
 
-/********************************281**********************************************/
-@media screen  and (max-width:281px){
-  
-  .signupimg769 {
-    height: 300px !important;
-    width: 668px;
-}
-#input-with-icon-textfield1 {
-  width: 180px;
+/********************************280**********************************************/
+@media screen  and (max-width:281px) {
+  .singupuser769body{background-color: #F5FFFA;
+    box-shadow: 5px 10px 18px #888888 !important;
+    padding-left:  0px !important;
+    padding-right: 0px !important;
+  }
+
+  .singincard769{display: block;}
+  .singin{display: none;}
+  .signuptab769{
+    padding-top: 130px !important;
+    padding-left:  20px !important;
+    padding-right:20px !important;
+    padding-bottom:30px !important ;
+    
+  }
+
+
+  .textfieldusersingup {
+    width: 180px  !important;
 }
 .signupbtn {
   background: #23BDB8 !important;
-  width: 220px;
+  width: 180px !important;
   height: 56px;
   font-size: 1.1rem;
   color: #F5FFFA;
   border: none;
   font-family: 'Poppins', sans-serif !important;
   margin-top: 5px !important;
+}
+
+.required {
+  color: gray;
+  font-size: .9rem !important;
+  text-align: left;
+  padding-left: 50px !important;
+}
+.loginlink {
+  font-family: 'Poppins', sans-serif;
+  font-size: .9rem !important;
+  padding-top: 10px;
 }
   
 }

@@ -2362,10 +2362,12 @@ font-size: 30px;
 
 /**************userprofile***********************/
 
-  input{
+  /* input{
       display: none;
   }
   .headerportion1{
+  } */
+  .headerportion{
       background-color: #23BDB8 !important;
       height: 200px;
      
