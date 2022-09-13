@@ -1,8 +1,8 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
+
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
+
 import Box from '@mui/material/Box';
 import './Userprofile.css'
 import EventIcon from '@mui/icons-material/Event';
@@ -12,8 +12,31 @@ import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import LogoutIcon from '@mui/icons-material/Logout';
 import ChangePassword from './ChangePassword';
 import {Grid} from '@mui/material'
-import AccountSettings from'./AccountSettings'
-import Drawe from './Notification'
+
+
+import './Userprofile.css';
+
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import PropTypes from 'prop-types';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogActions from '@mui/material/DialogActions';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Typography from '@mui/material/Typography';
+import DeleteIcon from '@mui/icons-material/Delete';
+import {Link} from 'react-router-dom'
+import DialogContentText from '@mui/material/DialogContentText';
+import Slide from '@mui/material/Slide';
+import del from '../../../Assets/userprofile/delete.jpg'
+
 import Viewprofile from './Profile';
 import { Drawer } from '@mui/material';
 import List from '@mui/material/List';
@@ -21,10 +44,10 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import {  ListItemIcon} from '@mui/material'
 import { useState } from 'react';
-import { IconButton } from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
 
-import { Link } from 'react-router-dom';
+
+
+
 
 import MenuIcon from '@mui/icons-material/Menu';
 import DeleteAccount from './DeleteAccount';
@@ -79,7 +102,7 @@ export default function VerticalTabs() {
     setValue(newValue);
   };
   const[openDrawer,setopenDrawer]=useState(true);
-  const [open,setOpen] = useState(false)
+  const [open,setOpen] = useState(true)
   
   return (
     <div className='userpro'>
@@ -89,27 +112,22 @@ export default function VerticalTabs() {
        <Grid container>
        <Grid lg={2}md={1.3}>
       <Tabs
-        orientation="vertical"
-      className='alltabs'
+        TabIndicatorProps={{ style: { background: "#23BDB8 "  } }}
+         orientation="vertical"
+         className='alltabs'
+         id="tabs"
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor:'divider' , bgcolor: 'background.paper' }}
       >
        
-        <Tab  className='tab1' icon={<EventIcon style={{color:'#23BDB8'}} />} iconPosition="start" label="My Sessions" {...a11yProps(0)} />
-        <Tab  className='tab2' icon={< PersonIcon  style={{color:'#23BDB8'}} />} iconPosition="start" label="My Profile" {...a11yProps(1)} />
-        <Tab className='tab3c'icon={<LockIcon style={{color:'#23BDB8'}}/>} iconPosition="start" label="Change Password" {...a11yProps(2)} />
-        <Tab className='tab4c' icon={<DeleteForeverIcon  style={{color:'#23BDB8'}} />} iconPosition="start"label="Delete Account" {...a11yProps(3)} />
-      <button className='tab5'>< LogoutIcon style={{color:'#23BDB8'}} /> Logout </button>
-        <Tab></Tab>
-        <Tab></Tab>
-        
-
-<Tab></Tab>
-<Tab></Tab>
-
-<Tab></Tab>
+        <Tab  className='tab1' icon={<EventIcon style={{color:'#23BDB8'}} />} iconPosition="start" label="MY SESSIONS" {...a11yProps(0)} />
+        <Tab  className='tab2' icon={< PersonIcon  style={{color:'#23BDB8'}} />} iconPosition="start" label="MY PROFILE" {...a11yProps(1)} />
+        <Tab className='tab3c'icon={<LockIcon style={{color:'#23BDB8'}}/>} iconPosition="start" label="CHANGE PASSWORD" {...a11yProps(2)} />
+        <Tab className='tab4c' icon={<DeleteForeverIcon  style={{color:'#23BDB8'}} />} iconPosition="start"label="DELETE ACCOUNT" {...a11yProps(3)} />
+      <button className='tab5'>< LogoutIcon style={{color:'#23BDB8'}} /> LOGOUT </button>
+       
       </Tabs>
       </Grid>
       <Grid lg={10} md={10.7}>
@@ -139,25 +157,25 @@ export default function VerticalTabs() {
            
       <Accordion >
         <AccordionSummary
-        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+        style={{bgcolor:'white'}}
          
           aria-controls="panel1a-content"
           className='accord'
         >
-          <Typography style={{fontSize:'18px',color:'white'}}><EventIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />MY SESSIONS </Typography>
+          <Typography style={{fontSize:'18px',color:'#23BDB8'}}><EventIcon className='icon' style={{color:'#23BDB8',fontSize:'25px'}} />MY SESSIONS</Typography>
         </AccordionSummary  >
-        <AccordionDetails>
+        <AccordionDetails style={{bgcolor:'green'}}>
        <Mysessions/>
-        </AccordionDetails>
+        </AccordionDetails >
       </Accordion>
       <Accordion >
         <AccordionSummary
-        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+      style={{bgcolor:'white'}}
           
           aria-controls="panel1a-content"
           className='accord'
         >
-          <Typography style={{fontSize:'18px',color:'white'}}><PersonIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />MY PROFILE </Typography>
+          <Typography style={{fontSize:'18px',color:'#23BDB8'}}><PersonIcon className='icon' style={{color:'#23BDB8',fontSize:'25px'}} />MY PROFILE</Typography>
         </AccordionSummary >
         <AccordionDetails>
        <Myprofile/>
@@ -165,29 +183,40 @@ export default function VerticalTabs() {
       </Accordion>
       <Accordion >
         <AccordionSummary
-        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+        style={{bgcolor:'white'}}
         
           aria-controls="panel1a-content"
           className='accord'
         >
-          <Typography style={{fontSize:'18px',color:'white'}}><LockIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />CHANGE PASSWORD </Typography>
-        </AccordionSummary >
+          <Typography style={{fontSize:'18px',color:'#23BDB8'}}><LockIcon className='icon' style={{color:'#23BDB8',fontSize:'25px'}} />CHANGE PASSWORD</Typography>
+        </AccordionSummary > 
         <AccordionDetails>
        <ChangePassword/>
         </AccordionDetails>
       </Accordion>
       <Accordion >
         <AccordionSummary
-        style={{background:'linear-gradient(135deg, #23BDB8 0%, #43E794 100%)',}}
+  style={{bgcolor:'white'}}
       
           aria-controls="panel1a-content"
           className='accord'
         >
-          <Typography style={{fontSize:'18px',color:'white'}}><DeleteForeverIcon className='icon' style={{color:'WHITE',fontSize:'25px'}} />DELETE ACCOUNT</Typography>
+          <Typography style={{fontSize:'18px',color:'#23BDB8'}}><DeleteForeverIcon className='icon' style={{color:'#23BDB8',fontSize:'25px'}} />DELETE ACCOUNT</Typography>
         </AccordionSummary >
         <AccordionDetails>
        <DeleteAccount/>
         </AccordionDetails>
+      </Accordion>
+      <Accordion >
+        <AccordionSummary
+  style={{bgcolor:'white'}}
+      
+          aria-controls="panel1a-content"
+          className='accord'
+        >
+          <Typography style={{fontSize:'18px',color:'#23BDB8'}}><LogoutIcon className='icon' style={{color:'#23BDB8',fontSize:'25px'}} />LOGOUT</Typography>
+        </AccordionSummary >
+       
       </Accordion>
       
      

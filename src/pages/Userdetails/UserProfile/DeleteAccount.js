@@ -1,6 +1,6 @@
  import React from 'react'
 import {Grid} from '@mui/material'
-import './Userprofile.css'
+import './Userprofile.css';
 
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
@@ -21,7 +21,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import {Link} from 'react-router-dom'
 import DialogContentText from '@mui/material/DialogContentText';
 import Slide from '@mui/material/Slide';
-
+import del from '../../../Assets/userprofile/delete.jpg'
 function DeleteAccount() {
   const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
@@ -167,7 +167,7 @@ function DeleteAccount() {
                     </Grid>
                     <Grid xl={5} sm={12} md={5} lg={5}>
             <div className='deletimage'>
-            <img src="https://img.freepik.com/free-vector/oh-no-concept-illustration_114360-8813.jpg?size=338&ext=jpg&ga=GA1.2.274469041.1659110674" alt="" />
+            <img src={del} alt="" />
             </div> 
             
             </Grid>

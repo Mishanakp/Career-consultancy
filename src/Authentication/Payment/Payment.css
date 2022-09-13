@@ -27,39 +27,12 @@ body{
   }
 
   
-  .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
-    color: #23BDB8 !important;
-}
-.css-1633um2-MuiPaper-root{padding-left: 10px !important;}
+  
 
-.css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected {
-    color: #23BDB8;
-    background-color: #eaeced;;
-}
+
 
 /*left side widt*/
-.css-lfwcke-MuiTabs-flexContainer {
-  width: 360px;
-  }
-  
-  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{  color: #23BDB8;
-      background-color: #eaeced;
-  height: 60px;}
-  
-  .css-10d9dml-MuiTabs-indicator{background-color: #eaeced !important} 
-  
-  
-  .css-1633um2-MuiPaper-root{padding: 0 !important;}
-  
-  
-  
-  .css-h0q0iv-MuiButtonBase-root-MuiTab-root{
-    font-size: 1.2rem !important;
-    font-weight: 500 !important;
-    text-transform: none !important;
-    color: #0E314C !important;
-  }
-  
+
   
   
   
