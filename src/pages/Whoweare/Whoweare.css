@@ -1,5 +1,1121 @@
-@media screen and (max-width:1025px) {
-    #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2 {
-      overflow-x: hidden !important;
+/*****************SECTION ONE***************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2{
+    width: 50% !important;
+    
+    }
+    #mishanafirstsection {
+        box-shadow: none !important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container{
+      height: 50% !important;
+      width: 50%!important;
+      vertical-align: middle!important;
+      background-position: 50% 50%!important;
+      flex-direction: column!important;
+      transform: translate(100px,100px)!important;
+      padding-right: 15px!important; 
+     
+    }
+    #mishanasecondd.uk-card-body{
+      transform: translate(670px,-100px)!important;
+      width: 90%!important; 
+     
+    }
+    .uk-card-default.uk-card-title {
+        color: #0E314C!important;
+       
+    }
+    #mishanathirdd.uk-card-title{
+        padding-top: 50px!important;
+        font-size: 35px!important;
+        transform: translate(180px,-300px)!important;
+        width: 50% !important ;
+        font-family: 'Poppins', sans-serif!important;
+        font-weight: 650!important; 
+    }
+    .para-one {
+        transform: translate(100px,-300px);
+      color: #4A6F8A;
+      font-family: 'Poppins', sans-serif;
+      width: 80%;
+      font-size: 14px;
+      text-align: justify !important;
+      line-height: 1.9;
+    }
+    
+    #mishanafirstsection .uk-card-default {
+        box-shadow: none !important;
+    }
+    #mishanathirdd.uk-card-title {
+        color: #0E314C!important;
+    }
+
+
+
+
+/*----------------------------BREAK POINTS-----------------------------*/
+
+@media only screen and (max-width:1921px) and (min-width:1601px) {
+    .para-one {
+        transform: translate(357px,-198px);
+        width: 83%;
+        font-size: 15px;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 41%!important;
+        transform: translate(145px,148px)!important;
+    }
+    #mishanathirdd.uk-card-title {
+        transform: translate(485px,-240px)!important;
     }
 }
+
+@media only screen and (max-width:1600px) and (min-width:1537px) {
+    .para-one {
+        transform: translate(213px,-202px);
+    }
+    #mishanathirdd.uk-card-title {
+        transform: translate(300px,-217px)!important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 42%!important;
+        transform: translate(136px,149px)!important;
+    }
+}
+
+@media only screen and (max-width:1536px) and (min-width:1441px) {
+    .para-one {
+        transform: translate(181px,-253px);
+    }
+    #mishanathirdd.uk-card-title {
+        transform: translate(276px,-259px)!important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 46%!important;
+        transform: translate(100px,111px)!important;
+    }
+}
+
+@media only screen and (max-width:1440px) and (min-width:1367px) {
+    #mishanathirdd.uk-card-title {
+
+    }
+    .para-one {
+        transform: translate(100px,-256px);
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width:1366px) and (min-width:1281px) {
+    .para-one {
+        transform: translate(58px,-239px);
+      }
+      #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 43%!important;
+        transform: translate(110px,148px)!important;
+      }
+      #mishanathirdd.uk-card-title {
+        transform: translate(156px,-242px)!important;
+      }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1026px) {
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        transform: translate(64px,181px)!important;
+    }
+    .para-one {
+        transform: translate(58px,-223px);
+    }
+    #mishanathirdd.uk-card-title {
+        transform: translate(134px,-225px)!important;
+    }
+}
+
+
+
+
+
+/*--------  RESPONSIVE SECTION --------*/
+
+ /*Laptop view  */
+ @media screen and (max-width:1024px) and (min-width:767px){
+    #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2 {
+       margin-left: 100px !important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container{
+        height: 40% !important;
+        width: 45%!important;
+        transform: translate(34px,217px)!important ;
+    }
+    #mishanathirdd.uk-card-title {
+       width: 70% !important;
+       transform: translate(-78px,-166px) !important;
+       font-size: 30px!important;
+       color: #0E314C!important;
+    }
+    .para-one {
+        transform: translate(-149px,-131px)!important;
+        width: 107%!important;
+    }
+    
+}
+
+/*  Tab view  */
+@media screen and (max-width:769px) {
+    .para-one {
+        width: 120% !important;
+        transform: translate(-300px,-200px) !important;
+        font-size: 13px!important;
+        line-height: 1.7!important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        padding-top: 90px !important;
+        width: 50% !important;
+        transform: translate(21px,158px)!important;
+    }
+    #mishanathirdd.uk-card-title {
+        width: 100% !important;
+        transform: translate(-274px,-199px) !important;
+    }
+    
+}
+
+
+/*  Mobile view  Large */
+@media screen and (max-width:426px) {
+    #mishanathirdd.uk-card-title {
+        transform: translate(-644px,-295px) !important;
+    }
+    .para-one {
+        transform: translate(-660px,-304px) !important;
+        width: 106% !important;
+        font-size: 14px!important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        transform: translate(9px,314px) !important;
+        width: 96% !important;
+    }
+}
+
+
+
+/*  Mobile view  Medium  */
+@media screen and (max-width:376px) {
+    .para-one {
+        width: 118% !important;
+        transform: translate(-675px,-268px) !important;
+    }
+    #mishanathirdd.uk-card-title {
+        transform: translate(-651px,-271px) !important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        transform: translate(2px,346px) !important;
+        width: 103% !important;
+    }
+}
+
+
+
+
+/*  Mobile view  Small  */
+@media screen and (max-width:321px) {
+    #mishanathirdd.uk-card-title {
+        transform: translate(-663px,-237px) !important;
+        width: 109% !important;
+    }
+    .para-one {
+        width: 123% !important;
+        transform: translate(-679px,-239px) !important;
+    }
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 101% !important;
+        transform: translate(2px,381px) !important;
+    }
+}
+
+
+
+
+
+/********************SECTION SECOND*********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.mishsectionportion .uk-card-default {
+      box-shadow: none !important;
+      
+}
+.para-two {
+      padding-left: 100px !important; 
+      transform: translateY(-250px);
+      color: #4A6F8A;
+      font-family: 'Poppins', sans-serif;
+      width: 94%;
+      font-size: 14px;
+      text-align: justify !important;
+      line-height: 1.9;
+}
+
+.uk-card-title2{
+      color: #0E314C;
+      padding-top: 50px;
+      font-size: 35px;
+      transform: translate(180px,-260px);
+      width: 50% !important ;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 650;
+  }
+
+.uk-card-media-left.uk-cover-container2 {
+     transform: translate(700px,-600px);
+     width: 80%;
+}
+
+
+
+/*----------------------------BREAK POINTS-----------------------------*/
+
+@media only screen and (max-width:1921px) and (min-width:1601px) {
+      .para-two {
+            transform: translate(101px,-117px);
+            width: 85%;
+            font-size: 15px;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(1004px,-600px);
+            width: 77%;
+        }
+        .uk-card-title2 {
+            transform: translate(311px,-129px);
+        }
+}
+@media only screen and (max-width:1600px) and (min-width:1537px) {
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(876px,-523px);
+            width: 77%;
+        }
+        .para-two {
+            margin-left: 84px;
+            width: 83%;
+            transform: translateY(-125px);
+        }
+        .uk-card-title2 {
+            transform: translate(257px,-132px);
+        }
+}
+
+@media only screen and (max-width:1536px) and (min-width:1441px) {
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(829px,-588px);
+        }
+      .para-two {
+            width: 83%;
+            margin-left: 74px;
+            transform: translateY(-193px);
+        }
+        
+}
+
+@media only screen and (max-width:1440px) and (min-width:1367px) {
+      .para-two {
+            margin-left: 19px;
+            width: 91%;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(720px,-647px);
+            width: 88%;
+      }
+      #mishanafirstt.uk-card-media-left.uk-cover-container {
+            width: 43%!important;
+            transform: translate(84px,100px)!important;
+      }
+}
+
+@media only screen and (max-width:1366px) and (min-width:1281px) {
+      .para-two {
+            margin-left: 62px;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(717px,-600px);
+        }
+        .uk-card-title2 {
+            transform: translate(266px,-260px);
+        }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1026px) {
+      .para-two {
+            margin-left: 21px;
+            transform: translateY(-257px);
+      }
+      .uk-card-title2 {
+            margin-left: 29px;
+      }
+}
+
+
+
+
+
+/*--------  RESPONSIVE SECTION --------*/
+
+/*------   Laptop view  ------*/
+@media screen and (max-width:1024px) and (min-width:767px){
+      .uk-card-title2 {
+            margin-left: -130px !important;
+            font-size: 30px;
+            width: 80% !important;
+            
+      }
+      .para-two {
+            width: 110%;
+            transform: translate(-55px,-250px);
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(560px,-550px);
+            width: 91% !important;
+      }
+}
+
+
+
+/*------  Tab view  ------*/
+@media screen and (max-width:769px) {
+      .uk-card-title2 {
+            width: 100% !important;
+            margin-left: -155px !important;
+      }
+      .para-two {
+            line-height: 1.7 !important;
+            width: 120% !important;
+            margin-left: -10px;
+            font-size: 13px;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(415px,-474px) !important;
+            width: 90% !important;
+      }
+}
+
+
+/*------  Mobile view  Large ------*/
+@media screen and (max-width:426px) {
+      .para-two {
+          width: 106% !important;
+          font-size: 14px;
+          transform: translate(-53px, -199px) !important;
+      }
+      .uk-card-title2 {
+            margin-left: -180px !important;
+            transform: translate(180px,-199px) !important;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            transform: translate(9px,-200px) !important;
+      }
+}
+
+
+/*-------  Mobile view  Medium  ------*/
+@media screen and (max-width:376px) {
+      .para-two {
+            width: 117% !important;
+            transform: translate(-72px, -199px) !important;
+      }
+      .uk-card-title2 {
+            margin-left: -177px !important;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            width: 111% !important;
+            transform: translate(-12px,-200px) !important;
+      }
+}
+
+
+/*-------  Mobile view  Small  -------*/
+@media screen and (max-width:321px) {
+      .para-two {
+            width: 120% !important;
+      }
+      .uk-card-title2 {
+            width: 88% !important;
+            margin-left: -158px !important;
+      }
+      .uk-card-media-left.uk-cover-container2 {
+            width: 115% !important;
+            transform: translate(-21px,-190px) !important;
+      }
+}
+
+
+
+
+/*******************SECTION THIRD*********************/
+.homeCard{
+    transform: translateY(-550px) !important;
+    margin-top: -10px;
+    padding-bottom: 80px;
+    box-shadow: none !important;
+}
+h1.cardMainHead{
+    font-family: 'Poppins', sans-serif;
+    color: #0E314C !important;
+    font-size: 35px;
+    font-weight: 650px;
+}
+.cards1{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.card1,.card2,.card3,.card4{
+    max-width: 250px;
+    height: 360px !important;
+    
+}
+.card2{
+    margin-left: -15px;
+}
+.card3{
+    margin-left: -30px;
+}
+.card4{
+    margin-left: -40px;
+}
+.cardPara1 {
+    padding-top: -8px !important;
+}
+.card1head {
+    padding-top: 25px !important;
+}
+.card2head {
+    padding-right: 70px !important;
+    padding-top: 30px;
+    width: 140% !important;
+}
+.cardPara2 {
+    padding-top: -10px !important;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    transform: translateY(-30px) translateX(10px);
+}
+.cardContent1,.cardContent2,.cardContent3,.cardContent4{
+    height: 265px;
+    background-color: white !important;
+    word-break: break-all;
+}
+p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #4A6F8A;
+    text-align:  justify !important ;
+    justify-content: center;
+    width: 190px;
+    margin-left: 17.5px;
+}
+.card1:hover p.cardPara1,.card2:hover p.cardPara2,.card3:hover p.cardPara3,.card4:hover p.cardPara4{
+    color: white;
+}
+.card1:hover .cardContent1,.card2:hover .cardContent2,.card3:hover .cardContent3,.card4:hover .cardContent4{
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
+}
+.cards2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.card1head,.card2head,.card3head,.card4head{
+    color: #0E314C !important;
+    font-family: 'Poppins', sans-serif !important;
+    
+}
+.card1:hover .card1head,.card2:hover .card2head,.card3:hover .card3head,.card4:hover .card4head {
+    color:white !important;
+}
+
+
+
+
+/*----------------------------BREAK POINTS-----------------------------*/
+
+@media only screen and (max-width:1921px) and (min-width:1601px) {
+.cards1 {
+    margin-left: 217px !important;
+    margin-top: 83px;
+}
+h1.cardMainHead {
+    margin-left: 11px;
+}
+}
+@media only screen and (max-width:1600px) and (min-width:1537px) {
+.cards1 {
+    margin-left: 147px;
+}
+}
+@media only screen and (max-width:1536px) and (min-width:1441px) {
+.cards1 {
+    margin-left: 138px;
+}
+h1.cardMainHead {
+    margin-left: 10px;
+}
+}
+@media only screen and (max-width:1440px) and (min-width:1367px) {
+.cards1 {
+    margin-left: 112px;
+}
+h1.cardMainHead {
+    margin-left: 10px;
+}
+}
+
+@media only screen and (max-width:1366px) and (min-width:1281px) {
+h1.cardMainHead {
+    margin-left: 11px;
+}
+.cards1 {
+    margin-left: 107px;
+}
+}
+@media only screen and (max-width:1280px) and (min-width:1026px) {
+.cards1 {
+    margin-left: 84px;
+}
+h1.cardMainHead {
+    margin-left: 10px;
+}
+}
+
+
+
+
+/*--------------- RESPONSIVE SECTION----------------*/
+
+/*------- RESPONSIVE OF LAP  ------*/
+@media screen and (max-width:1024px) and (min-width:767px){
+.cards1 {
+    padding-right: 70px;
+    margin-left: 120px;
+ }
+ h1.cardMainHead {
+    padding-right: 7px !important;
+ }
+.card1,.card2,.card3,.card4{
+    max-width: 340px;
+    height: 410px;
+}
+.card2{
+    margin-left: 20px;
+}
+.card3{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.card4{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
+    width: 270px;
+}
+}
+
+
+/*-------- RESPONSIVE OF TAB --------*/
+@media only screen and (max-width:768px){
+h1.cardMainHead {
+    padding-right: 10px !important;
+}  
+.cards1 {
+    padding-right: 1px;
+    margin-left: 90px;
+}  
+.card1,.card2,.card3,.card4{
+    max-width: 270px;
+    height: 410px;
+}
+.cards2{
+    margin-left: 90px;
+}
+.card2{
+    margin-left: -20px;
+}
+.card3 {
+    margin-top: 55px;
+    margin-left: 0px !important;
+}
+.card4{
+    margin-left: -20px;
+    margin-top: 55px;
+}
+p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
+    width: 220px;
+}
+}
+
+
+/*---------RESPONSIVE OF MOBILE LARGE----------*/
+@media only screen and (max-width:426px){
+
+    h1.cardMainHead{
+        font-size: 30px;
+        padding-top: 350px !important;
+        margin-left: 10px;
+    }
+    .cards1 {
+        padding-top: 20px !important;
+        margin-left: 77px;
+    }
+    .card2 {
+       margin-top: 50px;
+       margin-left: 0px;
+    }
+    .card4 {
+        margin-left: 0px;
+    } 
+}
+
+
+/*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
+@media only screen and (max-width:376px){
+    
+    h1.cardMainHead {
+        font-size: 30px;
+        margin-left: -7px;
+        width: 400px;
+    }
+    .cards1 {
+        padding-right: 60px !important;
+        margin-left: 61px;
+    }
+    p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4 {
+        padding-right: 30px;
+    }
+}
+
+
+/*--------RESPONSIVE OF MOBILE SMALL---------*/ 
+@media only screen and (max-width:321px){
+    .cards1 {
+        width: 100%;
+        margin-left: 30px;
+    }
+    h1.cardMainHead {
+        width: 351px;
+        margin-left: -9px !important;
+    }
+}
+
+
+
+
+
+/******************SECTION FOUR*****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.css-1sir9cm-MuiPaper-root {
+    box-shadow: none !important;
+}
+.gridsection {
+    transform: translateY(-450px) !important;
+    box-shadow: none !important;
+}
+.gridhead1, .gridhead2, .gridhead3 {
+    color: #0E314C !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.gridpara1, .gridpara2, .gridpara3 {
+    color: #4A6F8A;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify !important;
+    margin-left: 18px;
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.9;
+}
+.gridhead1 {
+    margin-left: 50px !important;
+}
+.gridpara1 {
+    margin-left: 55px !important;
+}
+.gridhead3 {
+    margin-left: -80px !important;
+}
+.gridpara3 {
+    margin-left: -20px !important;
+}
+
+
+
+/*----------------------------BREAK POINTS-----------------------------*/
+
+@media only screen and (max-width:1921px) and (min-width:1601px) {
+    .gridsection {
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (max-width:1600px) and (min-width:1537px) {
+    .gridsection {
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (max-width:1536px) and (min-width:1441px) {
+    .gridsection {
+        width: 93%;
+        margin-left: 64px;
+    }
+}
+@media only screen and (max-width:1440px) and (min-width:1367px) {
+    .gridsection {
+        width: 95%;
+        margin-left: 38px;
+    }
+}
+
+@media only screen and (max-width:1366px) and (min-width:1281px) {
+    .gridsection {
+        width: 95%;
+        margin-left: 38px;
+        word-break: break-all;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:1026px) {
+    .gridsection {
+        width: 97%;
+        margin-left: 18px;
+    }
+}
+
+
+
+
+
+
+/*--------------- RESPONSIVE SECTION----------------*/
+
+   /*------- RESPONSIVE OF LAP  ------*/
+   @media screen and (max-width:1024px) and (min-width:767px){
+    .gridsection {
+        width: 125% !important;
+        margin-left: -46px !important;
+    }
+    .gridpara1, .gridpara2, .gridpara3  {
+        width: 75% !important;
+        word-break: break-all;
+    }
+    .gridhead2 {
+        margin-left: -120px !important;
+    }
+    .gridpara2 {
+        margin-left: -30px !important;
+    }
+    .gridhead3 {
+        margin-left: -300px !important;
+    }
+    .gridpara3 {
+        margin-left: -120px !important;
+    }
+}
+
+
+
+/*-------- RESPONSIVE OF TAB --------*/
+@media only screen and (max-width:769px){
+
+    .css-1sir9cm-MuiPaper-root {
+        transform: translateX(57px) !important;
+    }
+    .gridsection {
+        margin-left: 52px !important;
+        box-shadow: none !important;
+        width: 98% !important;
+    }
+    .gridhead1 {
+        transform: translateX(-180px);
+        width: 200% !important;
+    }
+    .gridhead2 {
+        transform: translateX(45px);
+        width: 200% !important;
+    }
+    .gridhead3 {
+        margin-left: 0px !important;
+        transform: translateX(-20px);
+        width: 200% !important;
+    }
+    .gridpara1 {
+        width: 150% !important;
+        transform: translateX(-150px);
+     
+    }
+    .gridpara2 {
+        margin-left: 10px !important;
+        width: 150% !important;
+        transform: translateX(-50px);
+    }
+    .gridpara3 {
+        margin-left: -130px !important;
+        transform: translateX(140px);
+        width: 150% !important;
+    }
+}
+
+
+ /*---------RESPONSIVE OF MOBILE LARGE----------*/
+ @media only screen and (max-width:426px){
+    .gridsection {
+        margin-left: 53px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 296px !important;
+    }
+    .gridpara1 {
+        width: 100% !important;
+    }
+    .gridhead2 {
+        padding-right: 300px;
+        margin-left: -172px; 
+    }
+    .gridpara2 {
+        width: 100% !important;
+        transform: translateX(-110px);
+    }
+    .gridhead3 {
+        padding-right: 517px !important; 
+    }
+    .gridpara3 {
+        width: 100% !important;
+        transform: translateX(30px);
+    }
+ }
+
+ /*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
+ @media only screen and (max-width:376px){
+    .gridsection {
+        width: 84% !important;
+
+    }
+    .gridhead1 {
+        transform: translateX(-123px);
+    }
+    .gridpara1 {
+        width: 120% !important;
+        padding-right: 20px;
+    }
+    .gridhead2 {
+        transform: translateX(101px);
+        width: 203% !important;
+    }
+    .gridpara2 {
+        width: 115% !important;
+    }
+    .gridhead3 {
+        width: 254% !important;
+        transform: translateX(-34px);
+    }
+    .gridpara3 {
+        width: 115% !important;
+    }
+ }
+
+
+/*--------RESPONSIVE OF MOBILE SMALL---------*/ 
+@media only screen and (max-width:321px){
+    .gridsection {
+        width: 72% !important;
+        word-break: break-all;
+        margin-top: -75px;
+    }
+    .gridhead1 {
+        width: 259% !important; 
+        transform: translateX(-125px);
+    }
+    .gridpara1 {
+        width: 146% !important;
+        transform: translateX(-155px);
+    }
+    .gridhead2 {
+        width: 256% !important;
+        transform: translateX(102px);
+    }
+    .gridpara2 {
+        width: 135% !important;
+    }
+    .gridhead3 {
+        width: 346% !important;
+        transform: translateX(-49px);
+    }
+    .gridpara3 {
+        width: 136% !important;
+    }
+}
+
+
+
+
+
+/****************SECTION FIVE*************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.section5 {
+    transform: translate(10px, -353px);
+    background-image: url('https://www.inmakes.com/assets/img/map.png') !important;
+    max-width: 100%;
+    width: 100% !important;
+    height: 100% !important; 
+}
+.css-15y4xrm  {
+    padding: 400px 400px 400px 477px !important;
+    margin-left: -50px !important;
+}
+.section5head {
+    color: #0E314C !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.section5para {
+    color: #4A6F8A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.button1 {
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #23BDB8;
+    padding: 1em 2em;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+  .button1 span {
+    position: relative;
+    pointer-events: none;
+  }
+ 
+  
+
+/*----------------------------BREAK POINTS-----------------------------*/
+
+@media only screen and (max-width:1921px) and (min-width:1601px) {
+  .section5 {
+    transform: translate(10px, -238px);
+  }
+}
+
+@media only screen and (max-width:1600px) and (min-width:1537px) {
+  .section5 {
+    transform: translate(6px, -273px);
+  }
+}
+
+@media only screen and (max-width:1536px) and (min-width:1441px) {
+  .section5 {
+    transform: translate(10px, -233px);
+  }
+}
+
+@media only screen and (max-width:1440px) and (min-width:1367px) {
+  .section5 {
+    transform: translate(10px, -262px);
+  }
+}
+
+@media only screen and (max-width:1366px) and (min-width:1281px) {
+  .section5 {
+    transform: translate(10px, -237px);
+  }
+}
+@media only screen and (max-width:1280px) and (min-width:1026px) {
+  .section5 {
+    transform: translate(10px, -266px);
+  }
+}
+
+
+/*--------------- RESPONSIVE SECTION----------------*/
+
+   /*------- RESPONSIVE OF LAP  ------*/
+   @media screen and (max-width:1024px) and (min-width:767px){
+    body{
+        overflow-x: hidden !important;
+       }
+      .section5 {
+        padding-right: 50px;
+      }
+}
+
+
+   /*-------- RESPONSIVE OF TAB --------*/
+@media only screen and (max-width:769px){
+          .section5 {
+            margin-left: 22px !important;
+          }
+          .section5para {
+            margin-left: -14px !important;
+          }
+          .button1 {
+            margin-left: -9px!important;
+          }
+}
+
+
+/*---------RESPONSIVE OF MOBILE LARGE----------*/
+@media only screen and (max-width:426px){
+         .section5head {
+            width: 85%;
+            transform: translateX(2px);
+         }
+         .section5para {
+            width: 102%;
+            transform: translateX(-19px);
+         }
+         .button1 {
+            margin-left: -57px!important;
+         }
+}
+
+
+ /*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
+ @media only screen and (max-width:376px){
+        .section5head {
+            width: 99%;
+            margin-left: -31px;
+        }
+        .section5para {
+            width: 125%;
+            transform: translateX(-62px);
+        }
+        .button1 {
+            margin-left: 10px;
+        }
+ }
+
+
+/*--------RESPONSIVE OF MOBILE SMALL---------*/ 
+@media only screen and (max-width:321px){
+    .section5head {
+      width: 109%;
+      margin-left: -46px;
+    }
+    .section5para {
+        width: 166%;
+        transform: translateX(-120px);
+    }
+    .button1 {
+      width: 73%;
+        margin-left: -63px!important;
+    }
+}
+
+

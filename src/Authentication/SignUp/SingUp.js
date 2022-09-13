@@ -5,8 +5,7 @@ function SingUp() {
   return (
     <div>
       <Singuppage/>
-     
-      
+           
     </div>
   )
 }

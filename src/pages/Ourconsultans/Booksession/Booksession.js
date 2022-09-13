@@ -8,6 +8,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import './Booksession.css';
 import { CalendarPicker } from '@mui/x-date-pickers/CalendarPicker';
+import SignUp from '../../../Authentication/SignUp/SingUp';
 
 
 
@@ -30,11 +31,6 @@ function Booksession() {
       autoComplete="off"
     >
     <div >
-      {/*Booksession-
-      
-      <Link to="/login" >login</Link>
-      already loagin 
-  <Link to="/payment" >payment</Link>*/}
   
 
   <Box sx={{ flexGrow: 1 }} className="first">
@@ -45,16 +41,16 @@ function Booksession() {
    <Grid item xl={12} lg={6} md={12} sm={12} > 
     <h1 className="shatitle">Book a Session</h1> 
    </Grid>
-   <Grid item xl={2} lg={3} md={0.1} ></Grid>
+   <Grid item xl={2.2} lg={3} md={0.1} ></Grid>
 
 
-    <Grid item lg={2.5}md={4.8} sm={12} className='dateitem' id='shagrid1'>
+    <Grid item xl={3} lg={2.5}md={4.8} sm={12} className='dateitem'>
 
       <LocalizationProvider dateAdapter={AdapterDayjs}>
     
         <Grid item lg={9} md={4.5}>
-          <h5> Select Date</h5>
-          <CalendarPicker date={date}  
+          <h5 className='dateselection'> Select Date</h5>
+          <CalendarPicker date={date} 
           disablePast='true'
           onChange={(newDate) => setDate(newDate)} />
     
@@ -63,8 +59,8 @@ function Booksession() {
 
     </Grid>
     
-    <Grid item xl={2} lg={2.2} md={0.1} sm={2}></Grid>
-  <Grid item xl={2} lg={5.4} md={5.5} sm={8.4} >
+    <Grid item xl={0.2} lg={2.2} md={0.1} sm={2}></Grid>
+  <Grid item xl={3.3} lg={5.4} md={5.5} sm={8.4} >
       <h5 className='selecttime'>Selct Time </h5>
       <br></br>
       <div uk-slideshow="animation: none" className='timeslider'>
@@ -217,9 +213,10 @@ function Booksession() {
 
 </div>
     <br/>
+    <Link to="/SignUp" >
     <button className="shabutton" id='bookbutton'>   
-        <Link to="/booksession" > <span style={{color:'white'}}>Book Now</span></Link>
-    </button>
+        <span style={{color:'white'}}>Book Now</span>
+    </button></Link>
     <br/><br/><br/>  
 </Grid>
 

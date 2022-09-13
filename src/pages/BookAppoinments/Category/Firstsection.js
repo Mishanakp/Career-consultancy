@@ -11,7 +11,7 @@ const Firstsection = () => {
     <div className='homeCateg'>
       {/* <h1 className='categHead'>Career Guidance Services</h1> */}
       <div className='categs'>
-      <Grid container spacing={{ xs: 2, sm: 2, md:2}}>
+      <Grid container spacing={{ xs: 5, sm: 2, md:2}}>
         <Grid item lg={4} md={4} sm={4} xs={12}>
         <Card className='categ1'>
       <CardActionArea>
@@ -44,7 +44,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead2'>Business</h2>
           <p  className='categPara2'>
-          Business refers to an enterprising entity or organization that carries out professional activities. They can be commercial, industrial, or others.
+          Business refers to an enterprising entity or organization that carries out professional activities. They can be commercial, industrial, or others.**************
           </p>
           <button class="button-2">BOOK NOW </button>
           </Typography>
@@ -64,7 +64,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead3'>Medical</h2>
           <p  className='categPara3'>
-          The medical industry is an integral part of the delivery of medical care. They provide us with diagnostic tools, treatments and intervention tools.
+          The medical industry is an integral part of the delivery of medical care. They provide us with diagnostic tools, treatments and intervention tools.********
           </p>
           <button class="button-3">BOOK NOW </button>
           </Typography>
@@ -84,7 +84,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead4'>Media</h2>
           <p  className='categPara4'>
-          Media refers to the communication channels through which we disseminate news, music, movies, education, promotional messages and other data.
+          Media refers to the communication channels through which we disseminate news, music, movies, education, promotional messages and other data.********
 
           </p>
           <button class="button-4">BOOK NOW </button>
@@ -105,7 +105,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead5'>Service Industries</h2>
           <p  className='categPara5'>
-          service industry, an industry in that part of the economy that creates services rather than tangible objects. Economists divide all economic 
+          service industry, an industry in that part of the economy that creates services rather than tangible objects. Economists divide all economic.*********
           </p>
           <button class="button-5">BOOK NOW </button>
           </Typography>
@@ -125,7 +125,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead6'>Low enforcement</h2>
           <p  className='categPara6'>
-          Law enforcement describes the agencies and employees responsible for enforcing laws, maintaining public order, and managing public safety. 
+          Law enforcement describes the agencies and employees responsible for enforcing laws, maintaining public order, and managing public safety.*********** 
           </p>
           <button class="button-6">BOOK NOW </button>
           </Typography>
@@ -145,7 +145,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead7'>Aviation</h2>
           <p  className='categPara7'>
-          Aviation comes from the Latin avis meaning "bird," an appropriate translation given that aviation deals with travel by air, specifically in a plane.
+          Aviation comes from the Latin avis meaning "bird," an appropriate translation given that aviation deals with travel by air, specifically in a plane.***********
           </p>
           <button class="button-7">BOOK NOW </button>
           </Typography>
@@ -165,7 +165,7 @@ const Firstsection = () => {
           <Typography variant="body2" >
           <h2 className='categHead8'>Education</h2>
           <p  className='categPara8'>
-          Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or fostering skills and character traits.
+          Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or fostering skills and character traits.****************
           </p>
           <button class="button-8">BOOK NOW </button>
           </Typography>
