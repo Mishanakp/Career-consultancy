@@ -207,6 +207,11 @@ body{
     width: 370px;
   }
   #walletselection{width: 400px !important;}
+
+/*************  payment  ***********/
+
+
+
   
   /******************************Responsive*1025*****************************/
   @media screen and (min-width:768px) and (max-width:1025px){
