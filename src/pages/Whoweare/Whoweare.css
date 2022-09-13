@@ -52,7 +52,7 @@
     #mishanathirdd.uk-card-title {
         color: #0E314C!important;
     }
-
+    
 
 
 
@@ -133,6 +133,19 @@
         transform: translate(134px,-225px)!important;
     }
 }
+
+@media only screen and (max-width:1292px) and (min-width:1201) {
+    #mishanafirstt.uk-card-media-left.uk-cover-container {
+        transform: translateX(-50px) !important;
+    }
+    #mishanathirdd.uk-card-title {
+        margin-top: -40px !important;
+    }
+}
+@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:672px) {}
+@media only screen and (max-width:640px) and (min-width:600px) {}
 
 
 
@@ -354,7 +367,11 @@
             margin-left: 29px;
       }
 }
-
+@media only screen and (max-width:1292px) and (min-width:1201) {}
+@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:672px) {}
+@media only screen and (max-width:640px) and (min-width:600px) {}
 
 
 
@@ -585,6 +602,11 @@ h1.cardMainHead {
     margin-left: 10px;
 }
 }
+@media only screen and (max-width:1292px) and (min-width:1201) {}
+@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:672px) {}
+@media only screen and (max-width:640px) and (min-width:600px) {}
 
 
 
@@ -789,7 +811,15 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-left: 18px;
     }
 }
-
+@media only screen and (max-width:1292px) and (min-width:1201) {
+    .gridsection {
+        margin-left: 25px !important;
+    }
+}
+@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:672px) {}
+@media only screen and (max-width:640px) and (min-width:600px) {}
 
 
 
@@ -1041,7 +1071,11 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     transform: translate(10px, -266px);
   }
 }
-
+@media only screen and (max-width:1292px) and (min-width:1201) {}
+@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:672px) {}
+@media only screen and (max-width:640px) and (min-width:600px) {}
 
 /*--------------- RESPONSIVE SECTION----------------*/
 
