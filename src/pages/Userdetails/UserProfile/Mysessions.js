@@ -1,5 +1,5 @@
 import {React,useState} from 'react'
-
+import session from '../../../Assets/userprofile/session.jpg'
 import {Grid} from '@mui/material'
 import './Userprofile.css'
 import Booksession from '../../Ourconsultans/Booksession/Booksession'
@@ -14,7 +14,7 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 function Mysessions() {
   const [value, setValue] = useState('sessiontrue');
-let [value1,setValue1]=useState(false)
+let [value1,setValue1]=useState(true)
 const handleChange = (event) => {
   setValue(event.target.value);
 };
@@ -159,7 +159,7 @@ const handleChange = (event) => {
   </div>
   </Grid>
     <Grid xl={5} lg={5} md={5} sm={12}>
-    <div className='imgsession'> <img className='imgpassword' src="https://img.freepik.com/free-vector/job-interview-conversation_74855-7566.jpg?size=626&ext=jpg&ga=GA1.2.274469041.1659110674" alt="" /></div>
+    <div className='imgsession'> <img className='imgpassword' src={session} alt="" /></div>
     </Grid> 
     <Grid xl={12} lg={12} md={12} sm={12}>
     <button className='sessionbutton' onClick={<Booksession/>}>  <Link to="/booksession"  className='sessionbuttonlink'>BOOK SESSION</Link></button>
@@ -179,7 +179,7 @@ const handleChange = (event) => {
   </div>
   </Grid>
     <Grid xl={5} lg={5} md={5} sm={12}>
-    <div className='imgsession'> <img className='imgpassword' src="https://img.freepik.com/free-vector/job-interview-conversation_74855-7566.jpg?size=626&ext=jpg&ga=GA1.2.274469041.1659110674" alt="" /></div>
+    <div className='imgsession'> <img className='imgpassword' src={session} alt="" /></div>
     </Grid> 
     
    </Grid>

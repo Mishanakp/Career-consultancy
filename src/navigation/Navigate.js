@@ -43,7 +43,7 @@ export default function Navigate() {
     return (
         <Router>
             <div>
-           <div><Header/></div>
+            <div><Header/></div>
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
                 
@@ -81,7 +81,7 @@ export default function Navigate() {
                     <Route path="/consultantdetails" element={<ConsultantVerticalTabs/>}></Route>
               
                 </Routes>
-               <div><Footer/></div>
+                <div><Footer/></div>
             </div>
         </Router>
 

@@ -1,7 +1,7 @@
 import Navigate from './navigation/Navigate';
 
 
-import "./App.css"
+ import "./App.css"
 
 
 
