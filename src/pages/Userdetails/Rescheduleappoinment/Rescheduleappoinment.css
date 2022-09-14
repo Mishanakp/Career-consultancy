@@ -6,7 +6,7 @@ body{
   background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
  
 }
-.reschedulemain425{display: none;}
+.reschedulemain425,.reschedulemain280{display: none;}
 .reschedulemain{padding-top: 200px;
 padding-left: 250px;
 padding-right: 250px;
@@ -924,36 +924,73 @@ text-align: left;
 }
 
 @media screen and (max-width:281px){
-  .textarea {
-    border-color: #23BDB8;
-    width: 105px !important; }
+  .reschedulemain280{display: block;
+    padding-top: 180px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 100px;}
+  .reschedulemain,.reschedulemain425{display: none !important}
 
-    .select {
-      min-width: 105px !important;
-  }
 
-
-  .buttonresh{background-color:#23BDB8 !important;
-    width: 220px !important;
-    height: 56px;
-    font-family: 'Poppins', sans-serif;
-    
-    text-transform: none !important;
-    transform: translateX(0px);
-    background:  #23BDB8;
-    font-size: 1rem !important;
-    /*border-radius: 100px;*/
+  .contenthead1{
+    color: #0E314C;
+    font-size: 25px !important;
+    padding-top: 25PX;
+    text-align: center;
+    padding-bottom: 25px;
     }
 
-    .buttonresh1{background-color:#23BDB8 !important;
-      width: 220px !important;
+    .appoiment {
+      color: #0E314C;
+      font-size: 1.1rem;
+      text-align: left;
+      font-weight: 700;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .date1{color: #0E314C;
+    font-size: 1rem;
+   text-align: left;
+   padding-left: 0px;
+   
+    }
+    .date{color: #0E314C;
+      font-size: 1rem;
+      padding-left: 0px;
+      text-align: left;
+      
+      }
+      .date2 {
+        color: #0E314C;
+        font-size: 1rem;
+        padding-left: 0px;
+        text-align: left;
+        transform: translateY(0px);
+    }
+    .buttonresh{background-color:#23BDB8 !important;
+      width: 240px !important;
       height: 56px;
       font-family: 'Poppins', sans-serif;
-  
+      
+      text-transform: none !important;
       transform: translateX(0px);
       background:  #23BDB8;
-      font-size: 1rem !important;
-      text-transform: none !important;
+      font-size: 1rem;
       /*border-radius: 100px;*/
       }
+    
+      .buttonresh1{background-color:#23BDB8 !important;
+        width: 240px !important;
+        height: 56px;
+        font-family: 'Poppins', sans-serif;
+    
+        transform: translateX(0px);
+        background:  #23BDB8;
+        font-size: 1rem;
+        text-transform: none !important;
+        /*border-radius: 100px;*/
+        }
+    
+        
+      
 }

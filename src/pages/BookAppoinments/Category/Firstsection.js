@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import {Link} from 'react-router-dom';
 const Firstsection = () => {
   return (
     <div className='homeCateg'>
@@ -26,7 +27,7 @@ const Firstsection = () => {
           <p  className='categPara1'>
           art, also called (distinguish from other art forms) visual art, a visual object or experience consciously created through an expression of skill or imagination.
           </p>
-          <button class="button-1">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-1">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -46,7 +47,7 @@ const Firstsection = () => {
           <p  className='categPara2'>
           Business refers to an enterprising entity or organization that carries out professional activities. They can be commercial, industrial, or others.**************
           </p>
-          <button class="button-2">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-2">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -66,7 +67,7 @@ const Firstsection = () => {
           <p  className='categPara3'>
           The medical industry is an integral part of the delivery of medical care. They provide us with diagnostic tools, treatments and intervention tools.********
           </p>
-          <button class="button-3">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-3">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -87,7 +88,7 @@ const Firstsection = () => {
           Media refers to the communication channels through which we disseminate news, music, movies, education, promotional messages and other data.********
 
           </p>
-          <button class="button-4">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-4">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -107,7 +108,7 @@ const Firstsection = () => {
           <p  className='categPara5'>
           service industry, an industry in that part of the economy that creates services rather than tangible objects. Economists divide all economic.*********
           </p>
-          <button class="button-5">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-5">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -127,7 +128,7 @@ const Firstsection = () => {
           <p  className='categPara6'>
           Law enforcement describes the agencies and employees responsible for enforcing laws, maintaining public order, and managing public safety.*********** 
           </p>
-          <button class="button-6">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-6">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -147,7 +148,7 @@ const Firstsection = () => {
           <p  className='categPara7'>
           Aviation comes from the Latin avis meaning "bird," an appropriate translation given that aviation deals with travel by air, specifically in a plane.***********
           </p>
-          <button class="button-7">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-7">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -167,7 +168,7 @@ const Firstsection = () => {
           <p  className='categPara8'>
           Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or fostering skills and character traits.****************
           </p>
-          <button class="button-8">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-8">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -187,7 +188,7 @@ const Firstsection = () => {
           <p  className='categPara9'>
           Technology is the result of accumulated knowledge and application of skills, methods, and processes used in industrial production and scientific research.
           </p>
-          <button class="button-9">BOOK NOW </button>
+          <Link to="/ourconsultans"><button class="button-9">BOOK NOW </button></Link>
           </Typography>
         </CardContent>
       </CardActionArea>

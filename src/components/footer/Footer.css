@@ -13,11 +13,10 @@
     background:#23BDB8;
     height: 400px; 
 }
-h1.footerLogo{
-    color: white;
-    padding-top: 180px;
-    padding-left: 150px;
-    font-size: 35px;
+img.footerLogo2{ 
+    width: 100px; 
+    padding-top: 150px; 
+    margin-left: 150px;
 }
 ul.footList1{
     list-style: none;

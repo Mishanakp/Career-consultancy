@@ -2558,26 +2558,27 @@ font-size: 30px;
 
 
 /**************userprofile***********************/
+@media screen and (max-width:2000px){
 
-  /* input{
-      display: none;
-  }
+ 
+#imgs{
+  display: none;
+}
+
   .headerportion1{
-  } */
-  .headerportion{
       background-color: #23BDB8 !important;
       height: 200px;
      
   }
  
-  .inputs{
+  /* .inputs{
       width: 400px;
-  }
+  } */
   .profileimage img{
       transform: translate(55px,60px);
   }
   .userdetail{
-      margin-top: 60px;
+      margin-top: 30px;
   }
   .addition{
       transform: translate(75px,-50px)!important;
@@ -2603,7 +2604,7 @@ font-size: 30px;
   }
   .email ul li{
       display: inline-grid;
-      padding-right: 22px;
+      margin-right: 30px!important;
   }
   .email p2{
       font-size: 20px;
@@ -2633,6 +2634,7 @@ font-size: 30px;
       line-height: 34px;
       color: #4A6F8A;
   }
+}
   
   @media screen and (max-width:1025px){
     
@@ -2640,7 +2642,7 @@ font-size: 30px;
           transform: translate(30px,60px);
           width: 25%!important;
       }
-      .addition{
+      .additioncamera{
           transform: translate(65px,-105px)!important;
       }
       .userdetail h2{
@@ -2663,7 +2665,7 @@ font-size: 30px;
   }
   @media screen and (max-width:769px){
       
-      .addition{
+      .additioncamera{
           transform: translate(75px,-105px);
       }
       .email ul li{
@@ -2695,7 +2697,7 @@ font-size: 30px;
       .about{
           margin: 40px;
       }
-      .addition{
+      .additioncamera{
           transform: translate(62px,-95px)!important;
       }
   }
@@ -2703,7 +2705,7 @@ font-size: 30px;
       .profileimage img{
           transform: translate(80px,60px);
       }
-      .addition{
+      .additioncamera{
           transform: translate(42px,-105px)!important;
       }
   }
@@ -2712,7 +2714,7 @@ font-size: 30px;
           transform: translate(55px,60px);
           width: 65%!important;
       }
-      .addition{
+      .additioncamera{
           transform: translate(47px,-105px)!important;
       }
   }

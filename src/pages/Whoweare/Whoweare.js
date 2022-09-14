@@ -12,6 +12,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { experimentalStyled as styled } from '@mui/material/styles';
+import {Link} from 'react-router-dom';
 
 import './Whoweare.css';
 
@@ -210,7 +211,7 @@ function Whoweare() {
    
    <span> <h3 className='section5head'>Have any question about us?</h3>
        <p className='section5para'>Don't hesitate to contact us</p>
-       <button class="button1">CONTACT US </button>
+       <Link to="/contact"><button class="button1">CONTACT US </button></Link>
    </span>
   
    </div>

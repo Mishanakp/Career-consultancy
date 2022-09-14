@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
-.MuiAutocomplete-hasPopupIcon.css-viou3o-MuiAutocomplete-root .MuiOutlinedInput-root{background-color:#f5fffa;} 
+
 .nameand{text-align: left !important;width: 300px !important;
   margin-top: -8px !important;
 }
@@ -14,13 +14,11 @@ body{
  padding: 10px !important;
 
  }
-.bg{background-color: #f5fffa !important;}
-.css-1633um2-MuiPaper-root{box-shadow: none !important;}
-#counselorimg{border-radius: 8%;height: 100px;width: 90px;
+.bg{background-color: #f5fffa !important;
+    box-shadow: none !important;}
+.counselorimg{border-radius: 8%;height: 100px;width: 90px;
              }
 
-/*#list{width: 200px !important;}*/
-#imgitem{margin-bottom: -20px;}
 .title{font-size: 35px;
 font-weight: 650;
 text-align: left;
@@ -29,17 +27,20 @@ color: #0e314c;
 padding-bottom: 20px;
 margin-top:100px !important;
 }
-#name{font-size: 1.3em;}
-/*#profilebutton{background-color: transparent;
-  border:1px solid #278683;color: gray !important;}*/
+.name{font-size: 1.3em;}
 .filter{margin: 30px !important;
   margin-bottom: 40px !important;
+
 }
 
-.catfilter{margin-left: 10px;}
+.catfilter{margin-left: 10px;
+  background-color:#f5fffa !important;
+}
+
+.css-ibpfkq {padding: 0px !important;}
 
 /*----------------------------button------------------------------*/
-button.buttonshahi::before {
+button.counselorcardbutton::before {
   --size: 0;
   content: '';
   position: absolute;
@@ -53,7 +54,7 @@ button.buttonshahi::before {
   transition: width .2s ease, height .2s ease;
 }
 
-.buttonshahi {
+.counselorcardbutton {
     position: relative;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -70,15 +71,16 @@ button.buttonshahi::before {
     height: 30px;
     width: 130px;
   }
-  .buttonshahi span {
+
+  .counselorcardbutton span {
     position: relative;
     pointer-events: none;
   }
 
-  .buttonshahi:hover::before {
+  .counselorcardbutton:hover::before {
     --size: 400px;
   }
-  button.buttonshahi:hover {
+  button.counselorcardbutton:hover {
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -89,32 +91,39 @@ button.buttonshahi::before {
 
 
 
-
-
 /*------------------------responsive 1024------------------------------*/
-@media only screen and (max-width: 1024px)and (min-width:770px) {
+@media only screen and (max-width: 1025px)and (min-width:770px) {
   .cardsha{width: 453px !important ;}
-  #counselorimg{height: 130px;width: 110px;margin-left: -40px !important;
+  .counselorimg{height: 130px;width: 110px;margin-left: -40px !important;
   }
-  #liitem{margin-left: -45px !important;font-size: 1.2em;width: 300px !important;}
+ .nameand{margin-left: -45px !important;font-size: 1.2em;width: 300px !important;}
 
  .title{ margin-top:150px !important;}
-  #available{font-size: 1.3em;padding-left: 18px;
-    margin-top: 20px;
-    padding-bottom: 20px !important;}
-  .buttonshahi{margin-left: 10px;}
-  #bookbutton{margin-left: 60px;}
+  .available{font-size: 1.3em !important;padding-left: 18px !important;
+}
+  .counselorcardbutton{margin-left: 10px;     }
+  .bookbutton{margin-left: 60px !important;}
+}
+
+/*------------------------responsive 1008------------------------------*/
+@media only screen and (max-width: 1009px)and (min-width:770px) {
+  .cardsha{margin-left: 35px !important;}
+}
+
+/*------------------------responsive 1008------------------------------*/
+@media only screen and (max-width: 961px)and (min-width:899px) {
+  .cardsha{margin-left: 40px !important;}
 }
 /*------------------------responsive 768------------------------------*/
 @media only screen and (max-width: 769px)and (min-width:430px) {
   .cardsha{width: 203px ;}
-  #counselorimg{height: 130px !important;width: 130px !important; }
+  .counselorimg{height: 130px !important;width: 130px !important; }
   .counsellorli{width: 160px !important;text-align: center !important;
     
   }
   .nameand{text-align: center !important;width: 150px !important;}
-  #available{padding-left: 5px !important;}
-  .buttonshahi{margin-left: 27px !important;margin-top: 10px !important;}
+  .available{padding-left: 5px !important;}
+  .counselorcardbutton{margin-left: 27px !important;margin-top: 10px !important;}
   .title{text-align: center !important;
     margin-bottom: -20px !important;
   }
@@ -124,11 +133,11 @@ button.buttonshahi::before {
 /*------------------------responsive 425------------------------------*/
 @media only screen and (max-width: 426px) and (min-width:378px){
   .cardsha{margin-left: 30px !important;margin-right: 30px !important;}
-  #counselorimg{height: 180px;width: 180px;
+  .counselorimg{height: 180px;width: 180px;
       margin-top: 10px;
   }
-.buttonshahi{margin: 0px 0px 20px 0px;}
-  #available{padding-bottom: 15px;}
+  .counselorcardbutton{margin-bottom:15px !important;
+  } 
   .title{text-align: center;
     margin-top:70px !important;
     margin-bottom: -30px !important;
@@ -138,64 +147,75 @@ button.buttonshahi::before {
    width: 300px !important;
   }
     #firstcard{margin-top: -50px !important;}
+    .filter{margin-left:30px !important;}
 }
 /*------------------------responsive 375------------------------------*/
-@media only screen and (max-width: 376px) and (min-width:322px) {
+@media only screen and (max-width: 376px) and (min-width:362px) {
  .title{text-align: center;
   margin-top:60px !important;
   margin-bottom: -30px !important;
 }
-  #counselorimg{height: 200px;width: 220px;margin-top: 20px !important;}
+  .counselorimg{height: 200px;width: 220px;margin-top: 20px !important;}
   .cardsha{margin-left: 30px !important;
    margin-right: 30px !important;
   }
-  .buttonshahi{margin: 0px 0px 10px 60px;width: 200px;}
-  #name{font-size: 1.5em;}
+  .counselorcardbutton{margin: 0px 0px 10px 80px !important;}
+  .name{font-size: 1.5em;}
   .catfilter{margin-top: 10px;margin-left: 30px !important;}
   .nameand{text-align: center !important;
     width: 300px !important;
+    margin-left: -15px !important;
   }
   .filter{margin-left: 10px !important;}
 }
 /*------------------------responsive 320------------------------------*/
-@media only screen and (max-width: 321px){
+@media only screen and (max-width: 321px)and (min-width:282px){
   .title{text-align: center;margin-top: 70px !important;
     margin-bottom: -30px !important;
   }
-  #counselorimg{height: 200px;width: 200px;}
+  .counselorimg{height: 200px !important;width: 200px !important;}
   .cardsha{margin-left: 30px !important;
     margin-right: 30px !important;
   }
-  .buttonshahi{margin: 0px 0px 10px 60px;
-    
+  .counselorcardbutton{margin: 0px 0px 10px 20px !important;
+    margin-left: 40px !important;
   }
-  #name{font-size: 1.5em;}
+  .name{font-size: 1.5em;}
   .catfilter{margin-top: 10px;margin-left: 30px !important;}
-  .nameand{text-align: center !important;width: 200px !important;}
+  .nameand{text-align: center !important;
+margin-left: -45px !important;
+  }
   .filter{margin-left: 5px !important;}
+  .counselorcardbutton{width: 160px !important;}
 }
 /*------------------------responsive ------------------------------*/
 @media only screen and (max-width: 393px) and (min-width:380px){
 
-  .buttonshahi{margin-left: 100px !important;}
+  .counselorcardbutton{margin-left: 100px !important;}
 }
-/*
-@media only screen and (max-width: 820px)and (min-width:790){
 
-  #liitem{margin-left: 40px !important;
+@media only screen and (max-width: 820px)and (min-width:790px){
+
+  .nameand{
+    margin-left: 10px !important;
   }
-  .nameand{text-align: center !important;}
-  #available{margin-left: 65px !important;}
-}*/
-@media only screen and (max-width: 1920px) and (min-width:1602px){
+
+}
+
+/*------------------------1920------------------------------*/
+@media only screen and (max-width: 1921px) and (min-width:1602px){
   .title{margin-left: 25px !important;
 
   }
-  .buttonshahi{margin-left: 70px !important;}
-  .nameand{width: 400px !important;}
-  #counselorimg{height: 150px !important;
+  .counselorcardbutton{margin-left: 70px !important;}
+  .nameand{width: 400px !important;
+    margin-top: 15px !important;
+    font-size: 1.2em !important;
+  }
+  .counselorimg{height: 150px !important;
     width: 150px !important;}
-  
+    .available{font-size: 1.2em !important;
+    }
   .cardsha{margin-left: 60px !important;}
   .filter{margin-left: 50px !important;}
 }
@@ -203,9 +223,9 @@ button.buttonshahi::before {
 /*------------------------responsive 1536------------------------------*/
 @media only screen and (max-width: 1537px) and (min-width:1440px){
 
-  .buttonshahi{margin-left: 30px !important;}
+  .counselorcardbutton{margin-left: 30px !important;}
   .cardsha{margin-left: 47px !important;}
-  #available{padding-left: 20px !important;
+  .available{padding-left: 20px !important;
     padding-top: 6px !important;
   }
   .filter{margin-left: 35px !important;}
@@ -216,8 +236,8 @@ button.buttonshahi::before {
 @media only screen and (max-width: 1601px) and (min-width:1538px){
   .title{margin-left: 6px !important;}
   .cardsha{margin-left: 49px !important;}
-  .buttonshahi{margin-left: 40px !important;}
-  #available{padding-left: 20px !important;
+  .counselorcardbutton{margin-left: 40px !important;}
+  .available{padding-left: 20px !important;
     padding-top: 6px !important;
   }
   .filter{margin-left: 37px !important;}
@@ -233,26 +253,27 @@ button.buttonshahi::before {
 /*------------------------responsive 1440------------------------------*/
 @media only screen and (max-width: 1440px) and (min-width:1368px){
 
-  .buttonshahi{margin-left: 22px !important;}
+  .counselorcardbutton{margin-left: 22px !important;}
 
 
 }
 
 /*------------------------responsive 393------------------------------*/
 @media only screen and (max-width: 394px) and (min-width:377px){
-  .buttonshahi{margin-left: 90px !important;}
+  .counselorcardbutton{margin-left: 90px !important;}
 }
 /*------------------------responsive 820------------------------------*/
 @media only screen and (max-width: 821px) and (min-width:769px){
-  #liitem{margin-left: -10px !important;
+
+  .nameand{ text-align: center !important;
+    margin-left: -10px !important;
   }
-  .nameand{ text-align: center !important;}
-  #available{padding-left: 30px !important;}
+  .available{padding-left: 30px !important;}
   .cardsha{width: 350px !important;}
-  .buttonshahi{margin-left: 95px !important;
+  .counselorcardbutton{margin-left: 95px !important;
       margin-bottom: 10px !important;
   }
-  #counselorimg{height: 180px;width: 180px;
+  .counselorimg{height: 180px;width: 180px;
     margin-left: -10px !important;
 }
 }
@@ -263,8 +284,8 @@ button.buttonshahi::before {
       margin-left: 37px !important;
   }
 
-  #liitem, .nameand{ width: 250px !important;}
-  .buttonshahi{margin-left: 15px !important;}
+.nameand{ width: 250px !important;}
+  .counselorcardbutton{margin-left: 15px !important;}
 }
 /*------------------------responsive 280------------------------------*/
 @media only screen and (max-width: 281px){
@@ -272,4 +293,123 @@ button.buttonshahi::before {
     margin-left: 20px !important;
 }
 .filter{width:240px !important;}
+}
+
+/*------------------------responsive 1200------------------------------*/
+@media only screen and (max-width: 1201px) and (min-width:1025px){
+
+  .counselorcardbutton{ width: 120px !important;}
+
+}
+
+/*------------------------responsive 960------------------------------*/
+@media only screen and (max-width: 961px) and (min-width:902px){
+  .cardsha{width: 420px !important;}
+  .counselorcardbutton{ width: 113px !important;}
+}
+/*------------------------responsive 900------------------------------*/
+@media only screen and (max-width: 901px) and (min-width:891px){
+  .cardsha{width: 395px !important;}
+  .counselorcardbutton{ width: 100px !important;
+  margin-left: 10px !important;
+  }
+}
+
+/*------------------------responsive 889------------------------------*/
+@media only screen and (max-width: 890px) and (min-width:770px){
+  .counselorcardbutton{ width: 105px !important;
+        margin-left: 9px !important;
+    }
+    .nameand{ margin-left: 24px !important;
+        text-align: center !important;
+    }
+    .available{margin-left: 30px !important;}
+    .cardsha{width: 392px !important;
+      margin-left: 35px !important;
+    }
+  }
+
+
+/*------------------------responsive 672------------------------------*/
+@media only screen and (max-width: 673px) and (min-width:642px){
+  .cardsha{width: 277px !important;}
+  .counselorcardbutton{ 
+    margin-left: 65px !important;
+}
+.nameand{ margin-left: 30px !important;
+
+}
+.available{margin-left: 15px !important;}
+.catfilter{margin-top: 10px !important;}
+.filter{margin-left: 150px !important;}
+}
+/*------------------------responsive 640------------------------------*/
+@media only screen and (max-width: 641px) and (min-width:602px){
+  .cardsha{width: 260px !important;}
+  .counselorcardbutton{ 
+    margin-left: 65px !important;
+}
+.nameand{ margin-left: 30px !important;
+
+}
+.available{margin-left: 15px !important;}
+.catfilter{margin-top: 10px !important;}
+.filter{margin-left: 150px !important;}
+}
+/*------------------------responsive 600------------------------------*/
+@media only screen and (max-width: 601px) and (min-width:595px){
+  .cardsha{width: 240px !important;}
+  .counselorcardbutton{ 
+    margin-left: 45px !important;
+}
+.nameand{ margin-left: 20px !important;
+
+}
+
+.catfilter{margin-top: 10px !important;}
+.filter{margin-left: 120px !important;}
+}
+
+/*------------------------responsive 540------------------------------*/
+@media only screen and (max-width: 541px) and (min-width:499px){
+  .catfilter{margin-top: 10px !important;}
+  .filter{margin-left: 90px !important;}
+  .cardsha{margin-left: 45px !important;}
+
+}
+
+
+/*------------------------responsive 415------------------------------*/
+@media only screen and (max-width: 415px) and (min-width:412px){
+  .counselorcardbutton{ 
+    margin-left: 100px !important;
+}
+
+
+}
+/*------------------------responsive 390------------------------------*/
+@media only screen and (max-width: 391px) and (min-width:378px){
+  .counselorcardbutton{ 
+    margin-left: 90px !important;
+}
+.filter{margin-left: 10px !important;}
+
+}
+
+/*------------------------responsive 360------------------------------*/
+@media only screen and (max-width: 361px) and (min-width:322px){
+  .counselorcardbutton{ 
+    margin-left: 40px !important;
+}
+.nameand{ margin-left: -22px !important;
+
+}
+}
+/*------------------------responsive 2800------------------------------*/
+@media only screen and (max-width: 281px) {
+  .counselorcardbutton{ 
+    margin-left: 45px !important;
+}
+
+
 }
