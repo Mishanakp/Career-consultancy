@@ -14,7 +14,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import EmailIcon from '@mui/icons-material/Email';
 import LockIcon from '@mui/icons-material/Lock';
-
+import pass from '../../../Assets/userprofile/pass.jpg'
 import {Grid} from '@mui/material'
 import Checkbox from '@mui/material/Checkbox';
 
@@ -112,7 +112,7 @@ function ChangePassword() {
         <div className='passwrap'>
          <Grid container>
           <Grid xl={5} lg={5} md={5} sm={12}>
-          <div className='imgpass'> <img className='imgpassword' src="https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37375.jpg?size=626&ext=jpg&ga=GA1.2.274469041.1659110674" alt="" /></div>
+          <div className='imgpass'> <img className='imgpassword' src={pass} alt="" /></div>
           </Grid> <Grid xl={7} lg={7} md={7} sm={12}><div className='passcontent'>
 
         <h1 className='passhead'>Change Password</h1>
