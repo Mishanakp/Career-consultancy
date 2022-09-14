@@ -25,6 +25,8 @@ function Myprofile() {
   <br/>
   <br/>
   <div className="userdetail">
+  <input id="imgs" type="file"  onChange={(e)=>setData(e.target.files)}/>
+
   <label htmlFor="imgs"><CameraAltIcon className="addition" sx={{ color:'#23BDB8',fontSize:'55px' }}/></label>
 <h2>POOJA ROY</h2>
 <h3>Fresher</h3>
@@ -51,7 +53,6 @@ function Myprofile() {
 </div>
 </Grid>
 <Grid item xl={2} lg={2} md={1} sm={1}>
-<input id="imgs" type="file"  onChange={(e)=>setData(e.target.files)}/>
 </Grid>
         </Grid>
         </Box>
