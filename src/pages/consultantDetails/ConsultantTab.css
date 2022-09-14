@@ -866,7 +866,7 @@
         }
 
         
-    /* @media only screen and (max-width:1487px) and (min-width:1441px){
+    @media only screen and (max-width:1487px) and (min-width:1441px){
    
         .ConsultantdetBox{
             height: 1305px !important;
@@ -1078,7 +1078,7 @@
             color: #4a6f8a;
             font-size: 20px !important;
          }
-        } */
+        }
         /* @media only screen and (max-width:1440px) and (min-width:1368px){
    
             .ConsultantdetBox{
