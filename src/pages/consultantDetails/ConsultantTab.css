@@ -1292,7 +1292,224 @@
                 font-size: 20px !important;
              }
             }
-           
+            @media only screen and (max-width:1367px) and (min-width:1281px){
+   
+                .ConsultantdetBox{
+                    height: 1305px !important;
+                    font-family: 'Poppins', sans-serif;
+                    margin-top: 100px; 
+                 }
+                 .consultantTab{
+                    width: 320px;
+                    padding-top: 170px !important;
+                    margin-left: -120px;  
+                 }
+                 .consultantDash{ 
+                    align-self:flex-start  !important;
+                    text-transform: capitalize !important;
+                    padding-left: 70px !important;  
+                    padding-right: 180px !important; 
+                    font-size: 22px !important;
+                    font-weight: 650 !important;
+                    margin-left:    0px !important; 
+                 }
+                 .consultantAppt{
+                    margin-top: 30px !important;
+                    align-self:flex-start !important;
+                    text-transform: capitalize !important;
+                    padding-left: 70px !important;  
+                    padding-right: 180px !important; 
+                    font-size: 22px !important;
+                    font-weight: 650 !important;
+                    margin-left:15px !important; 
+                 }
+                 .consultantHis{
+                    margin-top: 30px !important;
+                    align-self:flex-start !important;
+                    text-transform: capitalize !important;
+                    padding-left: 80px !important;  
+                    padding-right: 200px !important; 
+                    font-size: 22px !important;
+                    font-weight: 650 !important;
+                    margin-left: -15px !important; 
+                 }
+                 .consultantProf{
+                    margin-top: 30px !important;
+                    align-self:flex-start !important;
+                    text-transform: capitalize !important;
+                    padding-left: 80px !important;  
+                    padding-right: 200px !important; 
+                    font-size: 22px !important;
+                    font-weight: 650 !important;
+                    margin-left: -15px !important; 
+                 }
+                 button.consultantOut{
+                    align-self:flex-start !important;
+                    text-transform: capitalize !important;  
+                    font-size: 22px !important;
+                    font-weight: 650 !important;
+                    margin-left: 15px !important; 
+                    border: none !important;
+                    background-color: white !important;
+                    margin-top: 50px;
+                    cursor: pointer;
+                 }
+                 button.consultantOut:focus{
+                    background-color: white !important; 
+                 }
+                 button.consultantOut:active{
+                    background-color: white !important; 
+                 }
+                 button.consultantOut:hover{ 
+                    color: #23BDB8 !important;
+                 }
+                 img.ConsultantTabImage{ 
+                    border-radius: 50%;
+                    height: 70px;
+                    width: 70px;
+                    margin-left: 50px;
+                    margin-top: 50px;
+                 }
+                 .ConsultantTabPanel1{
+                    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
+                   background-repeat: no-repeat; 
+                   background-size: cover;
+                     width:1050px ;
+                    height: 1305px;
+                     }
+                 .ConsultantTabPanel2{
+                    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
+                    background-repeat: no-repeat; 
+                    background-size: cover; 
+                    width:1050px ;
+                    height: 1305px;
+                 }
+                 .ConsultantTabPanel3{
+                    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
+                    background-repeat: no-repeat; 
+                    background-size: cover; 
+                    width:1050px ;
+                    height: 1305px;
+                 }
+                 .ConsultantTabPanel4{
+                    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
+                   background-repeat: no-repeat; 
+                   background-size: cover;
+                   width:1050px ;
+                   height: 1305px;
+                 }
+                 .ConsultantTabPanel5{
+                    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
+                   background-repeat: no-repeat; 
+                   background-size: cover;
+                   width:1050px ;
+                   height: 1305px;  
+                 }
+                 .consultantIcon1{   
+                    color: #23BDB8 !important; 
+                    margin-top: -5px;
+                    font-size: 30px !important;
+                    
+                 }
+                 .consultantIcon2{   
+                    color: #23BDB8 !important; 
+                    margin-top: -5px;
+                    font-size: 30px !important;
+                 }
+                 .consultantIcon3{   
+                    color: #23BDB8 !important; 
+                    margin-top: -5px;
+                    font-size: 30px !important;
+                 }
+                 .consultantIcon4{   
+                    color: #23BDB8 !important; 
+                    margin-top: -5px;
+                    font-size: 30px !important;
+                 }
+                 .consultantIcon5{   
+                    color: #23BDB8 !important;  
+                    position: absolute;
+                    margin-left: -30px;
+                    margin-top: -5px;
+                    font-size: 30px !important;
+                 }
+                 button.ConsultantCancel{
+                    background-color: red;
+                 }
+                 .consultantCard1{
+                    width: 330px; 
+                    height: 350px;
+                    margin-left: -10px; 
+                    margin-top: 50px;
+                 }
+                 .consultantCard2{
+                    width: 330px;
+                    height: 350px;
+                    margin-left: 0px; 
+                    margin-top: 50px;
+                 }
+                 .consultantCard3{
+                    width: 330px;
+                    height: 350px;
+                    margin-left: 10px; 
+                    margin-top: 50px;
+                 }
+                 .consultantCard4{
+                    width: 680px;
+                    margin-top: 100px;
+                    margin-left: -10px;
+                    height: 560px; 
+                 }
+                 .consultantCard5{
+                    width: 330px;
+                    margin-top: 100px;
+                    margin-left: 180px;
+                    height: 560px;  
+                 }
+                 .consultantGraph1{
+                    height: 330px;
+                 }
+                 .consultantGraph2{
+                    height: 310px;
+                 }
+                 .consultantGraph3{
+                    height: 300px;
+                 }
+                 .consultantGraph4{
+                    width:650px !important;
+                    height: 400px  ;
+                    margin-left: 15px;
+                    margin-top: 90px;
+                 }
+                 .consultantGraph5{ 
+                    width:360px !important;
+                    height: 400px  ; 
+                    margin-top: 80px;  
+                    margin-left: 0px;
+                 }
+                 .consultantHeadGraph1{
+                    margin-top: -30px !important;
+                    text-align: left;
+                    margin-left: 5px !important;
+                    color: #4a6f8a;
+                    font-size: 20px !important;
+                 }
+                 
+                 .consultantHeadGraph2{
+                    margin-top: -10px !important;
+                    text-align: left;
+                    margin-left: 5px !important;
+                    color: #4a6f8a;
+                    font-size: 20px !important;
+                 }
+                 .consultantHeadGraph3{
+                    margin-top: 0px !important;
+                    text-align: left;
+                    margin-left: 5px !important;
+                    color: #4a6f8a;
+                    font-size: 20px !important;
+                 }
+                }
 /* **************************** */
 .tableconsult{
     background-color: white;
