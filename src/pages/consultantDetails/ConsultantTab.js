@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+import React from 'react'
+
+function ConsultantTab() {
+  return (
+    <div>ConsultantTab</div>
+  )
+}
+
+export default ConsultantTab
+=======
 import React from 'react' 
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
@@ -600,3 +611,4 @@ export default function ConsultantVerticalTabs() {
      </div>
   );
 }
+>>>>>>> c90f1c8dba350759159d25cae10afd1694da2f5c

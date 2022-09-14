@@ -36,7 +36,7 @@ function  ConsultantSingUp() {
   
     const handleChange = (e) => {
       const { name, value } = e.target;
-      setFormValues({ ...formValues, [name]: value });
+      setFormValues({ ...formValues, [name]: value }) ;
     };
   
     const handleSubmit = (e) => {
@@ -44,7 +44,19 @@ function  ConsultantSingUp() {
       setFormErrors(validate(formValues));
       setIsSubmit(true);
     };
-  
+  {/**************************** */}
+
+
+{/************************ */}
+
+
+
+
+
+
+
+
+
     useEffect(() => {
       console.log(formErrors);
       if (Object.keys(formErrors).length === 0 && isSubmit) {

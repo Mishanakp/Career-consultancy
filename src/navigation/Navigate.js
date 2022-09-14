@@ -24,6 +24,7 @@ import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
 
 
 import Myprofile from "../pages/Userdetails/UserProfile/Profile";
+import ConsultantVerticalTabs from "../pages/consultantDetails/ConsultantTab";
 
 
 import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
@@ -56,7 +57,7 @@ export default function Navigate() {
 
                     
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
-
+                    <Route path="/consultantdetails" element={<ConsultantVerticalTabs/>}></Route>
                     <Route path="/ourconsultans" element={<Ourconsultants/>}></Route>
 
                     <Route path="/bookappoinments" element={<BookAppoinments/>}></Route>
