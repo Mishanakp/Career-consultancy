@@ -1019,9 +1019,12 @@ p.categPara9 {
             width: 95%;
         }
     }
-    @media only screen and (max-width:595px) and (min-width:427px) {
-        .categ1, .categ2, .categ3 {
-            height: 100% !important; 
+
+    @media only screen and (max-width:595px) and (min-width:541px) {
+        .categ1, .categ4, .categ7 {
+            width: 140% !important;
+            height: 95% !important;
+            margin-left: -182px;
         }
         .categ2, .categ5, .categ8 {
             width: 140%;
@@ -1034,7 +1037,43 @@ p.categPara9 {
             width: 140%;
         }
     }
-    /*---------RESPONSIVE OF MOBILE LARGE----------*/
+    @media only screen and (max-width:540px) and (min-width:481px) {
+        .categ1, .categ4, .categ7 {
+            max-width: 130% !important;
+           
+            height: 95% !important;
+            margin-left: -152px;
+        }
+        .categ2, .categ5, .categ8 {
+            max-width: 130% !important;
+            height: 95% !important;
+            margin-left: -152px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -152px !important;
+            height: 95% !important;
+            max-width: 130% !important;
+        }
+    }
+@media only screen and (max-width:480px) and (min-width:427px) {
+    .categ1, .categ4, .categ7 {
+        max-width: 130% !important;
+       
+        height: 95% !important;
+        margin-left: -143px;
+    }
+    .categ2, .categ5, .categ8 {
+        max-width: 130% !important;
+        height: 95% !important;
+        margin-left: -143px;
+    }
+    .categ3, .categ6, .categ9 {
+        margin-left: -143px !important;
+        height: 95% !important;
+        max-width: 130% !important;
+    }
+}
+
 @media only screen and (max-width:426px){
         .categ1, .categ4, .categ7 {
             margin-left: -138px;
@@ -1049,9 +1088,63 @@ p.categPara9 {
             width: 200% !important;
     }
 }
-
-
-/*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
+@media only screen and (max-width:414px) and (min-width:413px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -143px;
+            width: 200% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -143px;
+            width: 200% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -143px !important;
+            width: 200% !important;
+    }
+}
+@media only screen and (max-width:412px) and (min-width:394px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -144px;
+            width: 200% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -144px;
+            width: 200% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -144px !important;
+            width: 200% !important;
+    }
+}
+@media only screen and (max-width:393px) and (min-width:391px) {
+    .categ1, .categ4, .categ7 {
+        margin-left: -153px;
+        width: 200% !important;
+}
+    .categ2, .categ5, .categ8 {
+        margin-left: -153px;
+        width: 200% !important;
+}
+    .categ3, .categ6, .categ9 {
+        margin-left: -153px !important;
+        width: 200% !important;
+}
+}
+@media only screen and (max-width:390px) and (min-width:377px) {
+    .categ1, .categ4, .categ7 {
+        margin-left: -155px;
+        width: 200% !important;
+}
+    .categ2, .categ5, .categ8 {
+        margin-left: -155px;
+        width: 200% !important;
+}
+    .categ3, .categ6, .categ9 {
+        margin-left: -155px !important;
+        width: 200% !important;
+}
+}
+  
 @media only screen and (max-width:376px){
         .categs {
             margin-left: 175px;
