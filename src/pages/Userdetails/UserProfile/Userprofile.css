@@ -563,6 +563,9 @@ margin-top: 10px !important;
 .deletewrap{
   margin-left: 165px;
 }
+.sessiontable{
+  margin-left: 220px;
+}
 }
 
 
@@ -1112,7 +1115,21 @@ height: 30px;
 
 
 @media screen and (max-width: 825px){
- 
+ .passwrap{
+  margin-left: 90px !important;
+ }
+ .deletewrap{
+  margin-left: 90px !important;
+ }
+ .deletecontent{
+  margin-left: -100px !important;
+ }
+ .deletebutton{
+  margin-left: -260px !important;
+ }
+ .sessionwrap{
+  margin-left: 20px;
+ }
 }
 
 
@@ -1594,7 +1611,7 @@ margin-left: 25px !important;
 
 
 
-@media screen and (max-width:481px){
+@media screen and (max-width:481px) and (min-width:426px){
   .delete2text{
     font-size: 12px !important;
   }
@@ -1757,7 +1774,7 @@ font-size: 30px;
 
 
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 426px) {
   .delete2text{
     font-size: 10px !important;
   }
@@ -1805,13 +1822,13 @@ font-size: 30px;
     background-color:white  ;
     box-shadow: 5px 10px 18px #888888;
     display: flex;
-    margin-left: 13px !important;
+    margin-left: 10px !important;
     width:370px;
-    height:790px !important;
+    height:760px !important;
    
   }
   .passcontent{
-    padding-left: 35px !important;
+ margin-left: 0px;
   margin-top: -80px;
    
   }
@@ -1837,7 +1854,7 @@ font-size: 30px;
   margin-left: 10px !important;
   }
   .deletewrap{
-    height: 800px;
+    height: 740px !important;
     width: 380px;
     margin-left: 9px !important ;
 
@@ -1846,17 +1863,17 @@ font-size: 30px;
     margin-top: 40px;
   }
   .deletehead{
-    margin-left: 0px;
+    margin-left: 20px !important;
     font-size: 24px!important;
   }
   .deletecontent{
-    margin-top: -170px;
+    margin-top: -160px;
     margin-left: 40px !important;
     font-size: 20px;
   }
   .deletimage{
-    margin-left: 0px;
-    margin-top: -150px;
+    margin-left: 20px;
+    margin-top: -160px;
   }
   .deletebuttons{
     margin-left: 100px;
@@ -1990,7 +2007,7 @@ font-size: 30px;
     font-size: 20px!important;
   }
   .deletecontent{
-    margin-top: -200px !important;
+    margin-top: -160px !important;
     margin-left: 40px !important;
     font-size: 20px;
   }
@@ -2090,6 +2107,9 @@ font-size: 30px;
   .sessionwrap{
     margin-left: 5px;
   }
+  .passcontent{
+    margin-left: 0px !important;
+  }
 }
 
 
@@ -2173,11 +2193,11 @@ font-size: 30px;
     margin-top: 40px;
   }
   .deletehead{
-    margin-left: 0px;
+    margin-left: 15px !important;
     font-size: 20px!important;
   }
   .deletecontent{
-    margin-top: -200px !important;
+    margin-top: -150px !important;
     margin-left: 40px !important;
     font-size: 20px;
   }
@@ -2282,6 +2302,9 @@ font-size: 30px;
   .passwrap{
     margin-left: -3px !important;
   }
+  .passcontent{
+    margin-left: 2px;
+  }
   .deletewrap{
     margin-left: -5px !important;
   }
@@ -2290,6 +2313,9 @@ font-size: 30px;
   }
   .delete2head{
     font-size: 18px !important;
+  }
+  .deletehead{
+    margin-left: 0px!important;
   }
 }
 
@@ -2410,7 +2436,7 @@ font-size: 30px;
     font-size: 22px!important;
   }
   .deletecontent{
-    margin-top: -190px !important;
+    margin-top: -120px !important;
     margin-left: 40px !important;
     font-size: 20px;
   }
@@ -2517,7 +2543,7 @@ font-size: 30px;
 
   }
   .passcontent{
-    margin-left: -15px;
+    margin-left: -15px !important;
   }
 }
 

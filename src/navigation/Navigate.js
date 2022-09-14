@@ -6,7 +6,7 @@ import Home from '../pages/home/Home'
 import Contact from '../pages/contactus/Contact';
 import Payment from '../Authentication/Payment/Payment';
 import SignUp from "../Authentication/SignUp/SingUp";
-import ChangePassword from "../pages/Userdetails/UserProfile/ChangePassword";
+
 import Login  from '../Authentication/Login/Login';
 import Whoweare from '../pages/Whoweare/Whoweare';
 import Ourconsultants from '../pages/Ourconsultans/OurConsultanssub/Ourconsultants';
@@ -19,8 +19,8 @@ import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
 import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
-import DeleteAccount from "../pages/Userdetails/UserProfile/DeleteAccount";
-import Mysessions from "../pages/Userdetails/UserProfile/Mysessions";
+
+
 
 
 import Myprofile from "../pages/Userdetails/UserProfile/Profile";
@@ -49,7 +49,7 @@ export default function Navigate() {
                 
                     <Route path="/Payment" element={<Payment/>}></Route>
                     <Route path="/login" element={<Login />}></Route>
-                    <Route path="/changepassword" element={<ChangePassword />}></Route>
+                    
                     <Route path="/signup" element={<SignUp />}></Route>
                     <Route path="/consultantLogin" element={<ConsultantLogin />}></Route>
                     <Route path="/consultantsignup" element={<ConsultantSingUp />}></Route>
@@ -73,8 +73,8 @@ export default function Navigate() {
                     <Route path="/form" element={<Form/>}></Route>
                    
                     <Route path="/profile" element={<Myprofile/>}></Route>
-                  <Route path="/deleteaccount" element={<DeleteAccount/>}></Route>
-                  <Route path="/session" element={<Mysessions/>}></Route>
+                  
+                
                    
                     <Route path="/contact" element={<Contact />}></Route>
 
