@@ -3208,13 +3208,16 @@ margin-top: 30px;
 }
 }
 
-/***********************************************************************************/
+/********************************************QRCodeportion***************************************/
+
+
 .paymentqr{
   padding-bottom: 50px;
   padding-top: 50px;
   
 }
 .qrimage1{
+  transform: translateY(50px);
 }
 img.qrimag2{
   min-width: 350px !important;
@@ -3222,29 +3225,22 @@ img.qrimag2{
 }
 
 .qrbutton{  
-  width: 160px !important;
-  height: 40px !important;
+  width: 130px !important;
+  height: 35px !important;
   font-family: 'Poppins', sans-serif;
   margin-top: 5px !important;
   font-weight: 600;
-  margin-left: 10px  !important;
+  text-transform: none !important;
+  margin-left: 0px  !important;
   background-color:   #23BDB8 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   
 }
 .qrpadding{padding-left: 50px;}
 .rqscan{color:#0E314C;
-font-size: 1.2rem;
+font-size: 1.3rem;
 font-weight: 600;
+transform: translateY(50px);
 }
-
-
-.inputfile:focus + label {
-  /* keyboard navigation */
-  outline: 1px dotted #000;
-  outline: -webkit-focus-ring-color auto 5px;
-}
-.inputfile + label * {
-  pointer-events: none;
-}
+.qralign{margin-left: 50px;}
 
