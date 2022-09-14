@@ -563,6 +563,9 @@ margin-top: 10px !important;
 .deletewrap{
   margin-left: 165px;
 }
+.sessiontable{
+  margin-left: 220px;
+}
 }
 
 
@@ -875,13 +878,13 @@ height: 30px;
   padding-top: 30px;
 }
 .passwrap{
-  margin-left:-5px !important;
+  margin-left:20px !important;
   margin-right: 10px !important;
   margin-top: 0px;
  
 }
 .deletewrap{
-  margin-left: -5px ;
+  margin-left: 20px ;
   margin-top: 0px;
   }
 .deletebutton{
@@ -1076,19 +1079,22 @@ height: 30px;
   .sessionwrap{
     margin-left:30px;
   }
+  .session1{
+    margin-left: 80px;
+  }
   .passwrap{
     background-color:white  ;
     box-shadow: 5px 10px 18px #888888;
     display: flex;
-    margin-left: 100px !important;
+    margin-left: 110px !important;
     margin-right: 100px !important;
     width:600px;
-    height:880px !important;
+    height:780px !important;
   }
   .passcontent{
-    padding-left: 50px !important;
+    padding-left: 20px !important;
     padding: 0px;
-    margin-top: -80px;
+    margin-top: -40px;
   }
  
   .imgpass{
@@ -1109,7 +1115,21 @@ height: 30px;
 
 
 @media screen and (max-width: 825px){
- 
+ .passwrap{
+  margin-left: 90px !important;
+ }
+ .deletewrap{
+  margin-left: 90px !important;
+ }
+ .deletecontent{
+  margin-left: -100px !important;
+ }
+ .deletebutton{
+  margin-left: -260px !important;
+ }
+ .sessionwrap{
+  margin-left: 20px;
+ }
 }
 
 
@@ -1271,9 +1291,25 @@ margin-left: 25px !important;
 
 
 
-/*******************************************540px**************************/
-@media screen and (max-width:596px){
+/************672 tab view****************************/
+
+@media screen and (max-width:674px) {
   
+  .sessionhead3{
+    margin-left: 300px!important;
+   }.session1{
+    margin-left: 70px;
+}
+.sessionhead1{
+  margin-left: 25px;
+}
+.sessionhead4{
+  margin-left: -5px;
+}
+.sessionwrap{
+  margin-left: 45px;
+  width:550px
+}
   .tablesessionhead2{
    
     margin-left: 0px;
@@ -1285,34 +1321,156 @@ margin-left: 25px !important;
    .diolog1{
     overflow: hidden;
    }
-   .session1{
-     margin-left: 50px;
-     
-  
-   }
-   .sessionhead3{
-    margin-left: 10px !important;
-   }
-   .navsession{
-    width:400px;
-   }
-   .sessionwrap1{
-    width:400px;
-   }
-   .sessiontable{
-     margin-left: 35px;
-     padding-right: 10px !important;
-   }
-   .table{
-     padding-left: 10px !important;
-   }
+   
   .passwrap{
     background-color:white  ;
     box-shadow: 5px 10px 18px #888888;
     display: flex;
-    margin-left: 67px !important;
-    width:370px;
-    height:720px !important;
+    margin-left: 45px !important;
+    width:550px;
+    height:760px !important;
+   
+  }
+
+  
+  .passcontent{
+    padding-left: 35px !important;
+  margin-top: -80px;
+   
+  }
+
+ 
+  
+  .passhead{
+    font-weight: 650;
+    color:#0E314C;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .imgpass{
+    width:320 !important;
+    height: 280px !important;
+  margin-top: 30px !important;
+  margin-left: 10px !important;
+  }
+  .deletewrap{
+    height: 800px;
+    width: 550px;
+    margin-left: 45px !important;
+
+  }
+  .delete{
+    margin-top: 40px;
+  }
+  .deletehead{
+    margin-left: 0px;
+    font-size: 24px!important;
+  }
+  .deletecontent{
+    margin-top: -220px;
+    margin-left: -20px !important;
+    font-size: 20px;
+  }
+  .deletimage{
+    margin-left: 0px;
+    margin-top: -150px;
+  }
+  .deletebuttons{
+    margin-left: 100px;
+    display: flex;
+  }
+ 
+  .deletebutton{
+    margin-left: -190px !important;
+  }
+
+  
+  .radio{
+    padding-top:10px !important;
+    margin-left: -25px;
+  }
+ 
+
+  .deletebutton1{
+    padding: .7em 1em;
+  }
+  .deletebutton2{
+    padding: .7em 1em;
+  }
+  .delete2text{
+    font-size: 12px !important;
+  }
+  .delete2head{
+    font-size: 20px !important;
+  }
+}
+
+
+/*******************************************640px**************************/
+@media screen and (max-width:641px){
+  .session1{
+    margin-left: 50px;
+  }
+  .passwrap{
+    margin-left: 30px !important;
+  }
+  .deletewrap{
+    margin-left: 30px !important; 
+  }
+  .sessiontable{
+    margin-left: 80px;
+  }
+  .sessionwrap{
+    margin-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*******************************************600px**************************/
+@media screen and (max-width:601px){
+  
+  .sessionhead3{
+    margin-left: 300px!important;
+   }.session1{
+    margin-left: 30px;
+}
+.sessionhead1{
+  margin-left: 25px;
+}
+.sessionhead4{
+  margin-left: -5px;
+}
+.sessionwrap{
+  margin-left: 10px;
+  width:550px
+}
+  .tablesessionhead2{
+   
+    margin-left: 0px;
+   }
+   .tdleft2{
+   
+     margin-left: 2px
+   }
+   .diolog1{
+    overflow: hidden;
+   }
+   
+  .passwrap{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    display: flex;
+    margin-left: 58px !important;
+    width:450px;
+    height:760px !important;
    
   }
   .passcontent{
@@ -1343,8 +1501,8 @@ margin-left: 25px !important;
   }
   .deletewrap{
     height: 800px;
-    width: 380px;
-    margin-left: 60px !important;
+    width: 450px;
+    margin-left: 58px !important;
 
   }
   .delete{
@@ -1356,7 +1514,7 @@ margin-left: 25px !important;
   }
   .deletecontent{
     margin-top: -220px;
-    margin-left: 40px !important;
+    margin-left: -20px !important;
     font-size: 20px;
   }
   .deletimage{
@@ -1367,45 +1525,18 @@ margin-left: 25px !important;
     margin-left: 100px;
     display: flex;
   }
-  #radio-head{
-    margin-left: -20px !important;
-    width: 300px;
-    font-size: 17px;
-    text-align: left;
-  }
+ 
   .deletebutton{
-    margin-left: -140px !important;
+    margin-left: -190px !important;
   }
-  .sessionhead{
-margin-left: 45px;
-font-size: 30px;
-  }
-  .sessionwrap{
-    width:400px;
-   
-    margin-left: 52px;
+
   
-  }
-  .sessionhead1{
-    width:400px;
-    margin-left: 50px;
-  }
-  .sessionbutton{
-    margin-left: 90px;
-  }
   .radio{
     padding-top:10px !important;
     margin-left: -25px;
   }
-  .sessionhead4{
-    width:350px ;
-    margin-left: 75px;
-    font-size: 30px;
-    margin-top: 30px!important;
-  }
-   .sessiontable1{
-    margin-left: 10px;
-  }
+ 
+
   .deletebutton1{
     padding: .7em 1em;
   }
@@ -1424,11 +1555,54 @@ font-size: 30px;
 
 
 
+/*******************************************595px**************************/
 
+@media screen and (max-width:596px)  {
+  .passcontent{
+    margin-left: 38px;
+  }
+  .imgpass{
+    margin-left: 40px !important;
+  }
+  .deletecontent{
+    margin-left: 20px !important ;
+  }
+  .deletebutton{
+    margin-left: -145px !important;
+  }
+  .deletimage{
+    margin-left:40px;
+  }
+  .deletehead{
+    margin-left: -50px !important;
+  }
+}
+/*******************************************541px**************************/
 
-
-
-
+@media screen and (max-width:541px){
+.deletewrap{
+  margin-left: 28px !important;
+}
+.passwrap{
+  margin-left: 28px !important;
+}
+.session1{
+  margin-left: 2px;
+}
+.sessionwrap{
+  margin-left:-5px;
+  width:520px
+}
+.sessionhead1{
+  margin-left: 10px;
+}
+.sessionhead4{
+  margin-left: 10px;
+}
+.sessionbutton{
+  margin-left: 130px;
+}
+} 
 
 
 /*******************************************480px**************************/
@@ -1437,7 +1611,7 @@ font-size: 30px;
 
 
 
-@media screen and (max-width:481px){
+@media screen and (max-width:481px) and (min-width:426px){
   .delete2text{
     font-size: 12px !important;
   }
@@ -1491,7 +1665,7 @@ font-size: 30px;
    
   }
   .passcontent{
-    padding-left: 35px !important;
+    padding-left: 0px !important;
   margin-top: -80px;
    
   }
@@ -1530,8 +1704,8 @@ font-size: 30px;
     font-size: 24px!important;
   }
   .deletecontent{
-    margin-top: -170px;
-    margin-left: 40px !important;
+    margin-top: -200px;
+    margin-left: 50px !important;
     font-size: 20px;
   }
   .deletimage{
@@ -1587,6 +1761,12 @@ font-size: 30px;
   .deletebutton2{
     padding: .7em 1em;
   }
+  .deletehead{
+    margin-left: -65px !important;
+  }
+  .deletimage{
+    margin-left: 10px;
+  }
 }
 
 
@@ -1594,7 +1774,7 @@ font-size: 30px;
 
 
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 426px) {
   .delete2text{
     font-size: 10px !important;
   }
@@ -1642,13 +1822,13 @@ font-size: 30px;
     background-color:white  ;
     box-shadow: 5px 10px 18px #888888;
     display: flex;
-    margin-left: 13px !important;
+    margin-left: 10px !important;
     width:370px;
-    height:790px !important;
+    height:760px !important;
    
   }
   .passcontent{
-    padding-left: 35px !important;
+ margin-left: 0px;
   margin-top: -80px;
    
   }
@@ -1674,7 +1854,7 @@ font-size: 30px;
   margin-left: 10px !important;
   }
   .deletewrap{
-    height: 800px;
+    height: 740px !important;
     width: 380px;
     margin-left: 9px !important ;
 
@@ -1683,17 +1863,17 @@ font-size: 30px;
     margin-top: 40px;
   }
   .deletehead{
-    margin-left: 0px;
+    margin-left: 20px !important;
     font-size: 24px!important;
   }
   .deletecontent{
-    margin-top: -170px;
+    margin-top: -160px;
     margin-left: 40px !important;
     font-size: 20px;
   }
   .deletimage{
-    margin-left: 0px;
-    margin-top: -150px;
+    margin-left: 20px;
+    margin-top: -160px;
   }
   .deletebuttons{
     margin-left: 100px;
@@ -1827,7 +2007,7 @@ font-size: 30px;
     font-size: 20px!important;
   }
   .deletecontent{
-    margin-top: -200px !important;
+    margin-top: -160px !important;
     margin-left: 40px !important;
     font-size: 20px;
   }
@@ -1927,6 +2107,9 @@ font-size: 30px;
   .sessionwrap{
     margin-left: 5px;
   }
+  .passcontent{
+    margin-left: 0px !important;
+  }
 }
 
 
@@ -1971,12 +2154,12 @@ font-size: 30px;
     display: flex;
     margin-left: 5px !important;
     width:335px;
-    height:740px !important;
+    height:760px !important;
    
   }
   .passcontent{
     padding-left: 40px !important;
-   margin-top: -150px;
+   margin-top: -120px;
    padding-bottom: 10px !important;
    
   }
@@ -2010,11 +2193,11 @@ font-size: 30px;
     margin-top: 40px;
   }
   .deletehead{
-    margin-left: 0px;
+    margin-left: 15px !important;
     font-size: 20px!important;
   }
   .deletecontent{
-    margin-top: -200px !important;
+    margin-top: -150px !important;
     margin-left: 40px !important;
     font-size: 20px;
   }
@@ -2119,6 +2302,9 @@ font-size: 30px;
   .passwrap{
     margin-left: -3px !important;
   }
+  .passcontent{
+    margin-left: 2px;
+  }
   .deletewrap{
     margin-left: -5px !important;
   }
@@ -2127,6 +2313,9 @@ font-size: 30px;
   }
   .delete2head{
     font-size: 18px !important;
+  }
+  .deletehead{
+    margin-left: 0px!important;
   }
 }
 
@@ -2195,7 +2384,7 @@ font-size: 30px;
     display: flex;
     margin-left: -5px !important;
     width:300px;
-    height:700px !important;
+    height:740px !important;
     
   }
   .deletebutton{
@@ -2247,7 +2436,7 @@ font-size: 30px;
     font-size: 22px!important;
   }
   .deletecontent{
-    margin-top: -190px !important;
+    margin-top: -120px !important;
     margin-left: 40px !important;
     font-size: 20px;
   }
@@ -2354,33 +2543,34 @@ font-size: 30px;
 
   }
   .passcontent{
-    margin-left: -15px;
+    margin-left: -15px !important;
   }
 }
 
 
 
 /**************userprofile***********************/
+@media screen and (max-width:2000px){
 
-  /* input{
-      display: none;
-  }
+ 
+#imgs{
+  display: none;
+}
+
   .headerportion1{
-  } */
-  .headerportion{
       background-color: #23BDB8 !important;
       height: 200px;
      
   }
  
-  .inputs{
+  /* .inputs{
       width: 400px;
-  }
+  } */
   .profileimage img{
       transform: translate(55px,60px);
   }
   .userdetail{
-      margin-top: 60px;
+      margin-top: 30px;
   }
   .addition{
       transform: translate(75px,-50px)!important;
@@ -2406,7 +2596,7 @@ font-size: 30px;
   }
   .email ul li{
       display: inline-grid;
-      padding-right: 22px;
+      margin-right: 30px!important;
   }
   .email p2{
       font-size: 20px;
@@ -2436,6 +2626,7 @@ font-size: 30px;
       line-height: 34px;
       color: #4A6F8A;
   }
+}
   
   @media screen and (max-width:1025px){
     
@@ -2443,7 +2634,7 @@ font-size: 30px;
           transform: translate(30px,60px);
           width: 25%!important;
       }
-      .addition{
+      .additioncamera{
           transform: translate(65px,-105px)!important;
       }
       .userdetail h2{
@@ -2466,7 +2657,7 @@ font-size: 30px;
   }
   @media screen and (max-width:769px){
       
-      .addition{
+      .additioncamera{
           transform: translate(75px,-105px);
       }
       .email ul li{
@@ -2498,7 +2689,7 @@ font-size: 30px;
       .about{
           margin: 40px;
       }
-      .addition{
+      .additioncamera{
           transform: translate(62px,-95px)!important;
       }
   }
@@ -2506,7 +2697,7 @@ font-size: 30px;
       .profileimage img{
           transform: translate(80px,60px);
       }
-      .addition{
+      .additioncamera{
           transform: translate(42px,-105px)!important;
       }
   }
@@ -2515,7 +2706,7 @@ font-size: 30px;
           transform: translate(55px,60px);
           width: 65%!important;
       }
-      .addition{
+      .additioncamera{
           transform: translate(47px,-105px)!important;
       }
   }

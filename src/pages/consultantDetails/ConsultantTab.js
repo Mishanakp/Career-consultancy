@@ -19,7 +19,14 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails'; 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-
+import { styled } from '@mui/material/styles';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
  
 
 
@@ -61,7 +68,25 @@ function Consultanta11yProps(index) {
     'aria-controls': `vertical-tabpanel-${index}`,
   };
 }
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+  [`&.${tableCellClasses.head}`]: {
+    backgroundColor: '#23BDB8',
+    color: theme.palette.common.white,
+  },
+  [`&.${tableCellClasses.body}`]: {
+    fontSize: 14,
+  },
+}));
 
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  '&:nth-of-type(odd)': {
+    backgroundColor: "#F5FFFA",
+  },
+  // hide last border
+  '&:last-child td, &:last-child th': {
+    border: 0,
+  },
+}));
 export default function ConsultantVerticalTabs() {
   const [Consultantvalue, ConsultantsetValue] = React.useState(0);
 
@@ -85,6 +110,7 @@ export default function ConsultantVerticalTabs() {
  
 
   return (
+    
   <div>
     <div className='origConsultant'>
     <Box 
@@ -113,7 +139,7 @@ export default function ConsultantVerticalTabs() {
             <Tab className="consultantAppt" icon={ <EventNoteIcon className='consultantIcon2' />} iconPosition="start" label="Appointments" {...Consultanta11yProps(1)} />
             <Tab className="consultantHis" icon={<HistoryIcon className='consultantIcon3' />} iconPosition="start" label="History" {...Consultanta11yProps(2)} />
             <Tab className="consultantProf" icon={<AccountCircleIcon className='consultantIcon4' />} iconPosition="start" label="Profile" {...Consultanta11yProps(3)} />
-            <button  className="consultantOut"><ExitToAppIcon className='consultantIcon5' />Signout
+            <button style={{backgroundColor:'white'}}  className="consultantOut"><ExitToAppIcon className='consultantIcon5' />Signout
             
             </button>
        </Tabs>
@@ -220,8 +246,95 @@ export default function ConsultantVerticalTabs() {
     
       </ConsultantTabPanel>
       <ConsultantTabPanel  className="ConsultantTabPanel2"  value={Consultantvalue} index={1}>
+      <div className='consaltant_table'> 
+    <Grid container>
+    <Grid xl={2}></Grid>
+    <Grid xl={8}>
+  <TableContainer component={Paper} className="table">
+      <Table sx={{ minWidth: 700 }} aria-label="customized table">
+        <TableHead>
+          <TableRow>
+            <StyledTableCell  align="left" className='textappoinhead'>NAME</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>DATE</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>TIME</StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'></StyledTableCell>
+ 
+          </TableRow>
+        </TableHead>
+        <TableBody>
          
-      dd
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row" className='textappoin'>
+            Saljith 
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+             Shahida jubil
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Princy 
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Anu Prins
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Mishana kp
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell  className='textappoin' align="left">11 00
+               </StyledTableCell>
+            <StyledTableCell align="right"><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+        Nandana Roy
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+         
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+              Robert D. Buckland
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            
+
+
+        </TableBody>
+      </Table>
+    </TableContainer>
+    </Grid> </Grid></div> 
+     
 
 
       </ConsultantTabPanel>
@@ -353,8 +466,94 @@ export default function ConsultantVerticalTabs() {
         </AccordionSummary>
         <AccordionDetails className='consultantAccordDet2'>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <div className='consaltant_table'> 
+    <Grid container>
+    <Grid xl={2}></Grid>
+    <Grid xl={8}>
+  <TableContainer component={Paper} className="tableconsultant">
+      <Table sx={{ minWidth: 700 }} aria-label="customized table">
+        <TableHead>
+          <TableRow>
+            <StyledTableCell  align="left" className='textappoinhead'>NAME</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>DATE</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>TIME</StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'></StyledTableCell>
+ 
+          </TableRow>
+        </TableHead>
+        <TableBody>
+         
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row" className='textappoin'>
+            Saljith 
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+             Shahida jubil
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Princy 
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Anu Prins
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Mishana kp
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell  className='textappoin' align="left">11 00
+               </StyledTableCell>
+            <StyledTableCell align="right"><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+        Nandana Roy
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+         
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+              Robert D. Buckland
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+              
+            </StyledTableRow>
+            
+
+
+        </TableBody>
+      </Table>
+    </TableContainer>
+    </Grid> </Grid></div> 
           </Typography>
         </AccordionDetails>
       </Accordion>

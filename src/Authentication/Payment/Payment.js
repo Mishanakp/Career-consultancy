@@ -43,6 +43,12 @@ import PhotoCamera from '@mui/icons-material/PhotoCamera';
 
 import { green, pink } from '@mui/material/colors';
 
+
+
+
+
+
+
   
 
 function PaymentTabPanel(props) {
@@ -81,6 +87,8 @@ function a11yPropspaymentvalue(index) {
 
 
 function Payment() {
+
+ 
   const [paymentvalue, paymentsetValue] = React.useState(0);
   const [value, setValue] = React.useState(dayjs());
 
@@ -104,6 +112,9 @@ function Payment() {
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
+{/*************************************************/}
+
+
   return (<div>
     <div className='paymentlapview'>
     <div className='paymerntgid'>
@@ -147,26 +158,31 @@ function Payment() {
     
       </Tabs>
       <PaymentTabPanel  value={paymentvalue} index={0} className='verticalpayright'>
+        {/************************QRCODE******************************/}
         <div className='paymentqr'>
 <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item xs={6} >
+        <Grid item xs={5} >
         <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
         <p className='rqscan'> Scan</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={7}>
         <img className='qrimag2' src="https://img.freepik.com/free-vector/flat-man-with-mobile-phone-scanning-qr-code-online-payment-internet-shopping-characters-standing-near-big-smartphone-with-qr-symbol-device-screen-using-scanner-id-app-pay_88138-815.jpg?size=626&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
         </Grid>
         <Grid item xs={6} ></Grid>
         <Grid item xs={6} >
-       
-        <form action="" enctype="multipart/form-data" method="POST" className='qrpadding'>
-                                <input type="file" class="form-control" name="images" id="formFile" className='inputfile' / > 
+       <div className='qralign'>
 
-     
+                                <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+                
+                                <div class="col-8">
+                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
+                      </div>
+                                    <br/>
+                                    <br/>
 
                                 <Button         
-             variant="contained"
+             variant="contained" 
          className='qrbutton'
      
          >
@@ -175,15 +191,18 @@ function Payment() {
                     </form> 
 
 
+                    
 
+
+       
      
 
 
- 
+ </div>
 
 
 
-    
+            {/************************QRCODE******************************/}
         </Grid>
 </Grid>
       
@@ -491,7 +510,9 @@ function Payment() {
         </AccordionSummary>
         <AccordionDetails id='accordiondetails769'>
           <Typography>
-            {/*********************orcode */}
+                 {/************************QRCODE******************************/}
+                 
+                         {/************************QRCODE******************************/}
 
 
 

@@ -61,7 +61,7 @@ export default function  Ourconsultants()  {
 <Grid lg={3.5} sx={4} container spacing={0} className='cardsha' id='firstcard'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg' id='imageitem'>
-          <img  id='counselorimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+          <img  className='counselorimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={16} md={7} lg={8} spacing={4}>
@@ -74,7 +74,7 @@ export default function  Ourconsultants()  {
                 
               </Box>
               <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }} className='counsellorli'>
-                <p id='name'className='nameand'><b>Puja Roy</b></p>
+                <p className='nameand'><b><span className='name'>Puja Roy</span> </b></p>
               
                 <p id='list'className='nameand'>Masters in Business Administration</p>
                 <p className='nameand'>Exp:3 years</p>
@@ -84,7 +84,6 @@ export default function  Ourconsultants()  {
          
         </Grid>
         <Grid
-        
           xs={12}
           container
           justifyContent="space-between"
@@ -93,27 +92,28 @@ export default function  Ourconsultants()  {
           sx={{ fontSize: '12px' }}
 
         >
-          
-          <Grid  sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
+          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
+            <Item className='bg' ><span className='available'> Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
           </Grid>
           
-          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
             <Grid>
               <Item className='bg'>
               <Link to="/Viewprofile">
-              <button className="buttonshahi" >
-                
+              <button className="counselorcardbutton" >
                 <span>View Profile</span>
-                </button></Link>                                                                   
+                </button></Link>
               </Item>
             </Grid>
             <Grid>
               <Item className='bg'>
               <Link to="/Booksession">
-              <button className="buttonshahi"id='bookbutton'>
-                <span>Book Session</span>
-                </button></Link>
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+             Book Session
+                </button>
+              </span>
+                </Link>
               </Item>
             </Grid>
            
@@ -127,7 +127,7 @@ export default function  Ourconsultants()  {
       <Grid xl={12} lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5} xl={4}>
           <Item className='bg'>
-          <img  id='counselorimg' src='https://instantglamour.com/wp-content/uploads/photo-gallery/IMG_2002-pp-b.jpg' alt='counselor1'/>
+          <img  className='counselorimg' src='https://instantglamour.com/wp-content/uploads/photo-gallery/IMG_2002-pp-b.jpg' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={12} md={7} lg={8} xl={8} spacing={4}>
@@ -140,7 +140,7 @@ export default function  Ourconsultants()  {
                 
               </Box>
               <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' id='name'><b>Pranav Bhatia</b></p>
+                <p className='nameand' ><b><span className='name'>Pranav Bhatia</span></b></p>
                 <p className='nameand' id='list'>PGD in Hotel Management</p>
                 <p className='nameand'>Exp:2 years</p>
               </Box>
@@ -158,14 +158,14 @@ export default function  Ourconsultants()  {
 
         >
           <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
+            <Item className='bg'><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
           </Grid>
           
-          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
             <Grid>
               <Item className='bg'>
               <Link to="/Viewprofile">
-              <button className="buttonshahi" >
+              <button className="counselorcardbutton" >
                 <span>View Profile</span>
                 </button></Link>
               </Item>
@@ -173,9 +173,12 @@ export default function  Ourconsultants()  {
             <Grid>
               <Item className='bg'>
               <Link to="/Booksession">
-              <button className="buttonshahi"id='bookbutton'>
-                <span>Book Session</span>
-                </button></Link>
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+                Book Session
+                </button>
+                </span>
+                </Link>
               </Item>
             </Grid>
            
@@ -189,7 +192,7 @@ export default function  Ourconsultants()  {
       <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
-          <img  id='counselorimg' src='https://content.thriveglobal.com/wp-content/uploads/2019/09/Devi-Pic-Passport-Size.jpg' alt='counselor1'/>
+          <img  className='counselorimg' src='https://content.thriveglobal.com/wp-content/uploads/2019/09/Devi-Pic-Passport-Size.jpg' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={12} md={7} lg={8} spacing={4}>
@@ -202,7 +205,7 @@ export default function  Ourconsultants()  {
                 
               </Box>
               <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' id='name'><b>Jeena Albert</b></p>
+                <p className='nameand' ><b><span className='name'>Jeena Albert</span></b></p>
                 <p className='nameand' id='list'>PG Diploma in Management</p>
                 <p className='nameand'>Exp:5 years</p>
               </Box>
@@ -219,15 +222,15 @@ export default function  Ourconsultants()  {
           sx={{ fontSize: '12px' }}
 
         >
-         <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
-          </Grid> 
+          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
+            <Item className='bg' ><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
+          </Grid>
           
-          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
             <Grid>
               <Item className='bg'>
               <Link to="/Viewprofile">
-              <button className="buttonshahi" >
+              <button className="counselorcardbutton" >
                 <span>View Profile</span>
                 </button></Link>
               </Item>
@@ -235,9 +238,12 @@ export default function  Ourconsultants()  {
             <Grid>
               <Item className='bg'>
               <Link to="/Booksession">
-              <button className="buttonshahi"id='bookbutton'>
-                <span>Book Session</span>
-                </button></Link>
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+               Book Session
+                </button>
+                </span>
+                </Link>
               </Item>
             </Grid>
            
@@ -247,13 +253,13 @@ export default function  Ourconsultants()  {
 
 
       <Grid lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5}>
+        <Grid xs={12} md={5} lg={3.5} >
           <Item className='bg'>
-          <img  id='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qdR75o88kuYWDiL8vNqR_pmo33eay6W2Tg&usqp=CAU' alt='counselor1'/>
+          <img  className='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qdR75o88kuYWDiL8vNqR_pmo33eay6W2Tg&usqp=CAU' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={12} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12}>
+          <Grid xs={6} lg={12}   id='paddingchange'>
             <Item className='bg'id='liitem'>
               <Box
                 id="category-a"
@@ -262,7 +268,7 @@ export default function  Ourconsultants()  {
                 
               </Box>
               <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' id='name'> <b>Leena Joseph</b></p>
+                <p className='nameand' > <b><span className='name'>Leena Joseph</span></b></p>
                 <p className='nameand' id='list'>PG Diploma in Digital Marketing</p>
                 <p className='nameand' >Exp:6 years</p>
               </Box>
@@ -280,14 +286,14 @@ export default function  Ourconsultants()  {
 
         >
           <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
+            <Item className='bg'><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
           </Grid>
           
-          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
             <Grid>
               <Item className='bg'>
               <Link to="/Viewprofile">
-              <button className="buttonshahi" >
+              <button className="counselorcardbutton" >
                 <span>View Profile</span>
                 </button></Link>
               </Item>
@@ -295,9 +301,12 @@ export default function  Ourconsultants()  {
             <Grid>
               <Item className='bg'>
               <Link to="/Booksession">
-              <button className="buttonshahi"id='bookbutton'>
-                <span>Book Session</span>
-                </button></Link>
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+                Book Session
+                </button>
+                </span>
+                </Link>
               </Item>
             </Grid>
            
@@ -311,7 +320,7 @@ export default function  Ourconsultants()  {
       <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
-          <img  id='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d0DWK26lmj7VA0IxuwaoJR42XXMQ8JUcDg&usqp=CAU' alt='counselor1'/>
+          <img  className='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d0DWK26lmj7VA0IxuwaoJR42XXMQ8JUcDg&usqp=CAU' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={12} md={7} lg={8} spacing={4}>
@@ -324,7 +333,7 @@ export default function  Ourconsultants()  {
                 
               </Box>
               <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' id='name'><b>Adam Joan</b></p>
+                <p className='nameand' ><b><span className='name'>Adam Joan</span></b></p>
                 <p className='nameand' id='list'>MTech in Mechanical Engineering</p>
                 <p className='nameand'>Exp: 4 years</p>
               </Box>
@@ -342,14 +351,14 @@ export default function  Ourconsultants()  {
 
         >
           <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
+            <Item className='bg' ><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
           </Grid>
           
-          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
             <Grid>
               <Item className='bg'>
               <Link to="/Viewprofile">
-              <button className="buttonshahi" >
+              <button className="counselorcardbutton" >
                 <span>View Profile</span>
                 </button></Link>
               </Item>
@@ -357,9 +366,12 @@ export default function  Ourconsultants()  {
             <Grid>
               <Item className='bg'>
               <Link to="/Booksession">
-              <button className="buttonshahi"id='bookbutton'>
-                <span>Book Session</span>
-                </button></Link>
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+                Book Session
+                </button>
+                </span>
+                </Link>
               </Item>
             </Grid>
            
@@ -373,7 +385,7 @@ export default function  Ourconsultants()  {
       <Grid lg={3.5}  container spacing={0} className='cardsha'>
         <Grid xs={12} md={5} lg={3.5}>
           <Item className='bg'>
-          <img  id='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpriOvQqYcu8Qn1wMaYF4ckk96VMwl8DVQww&usqp=CAU' alt='counselor1'/>
+          <img  className='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpriOvQqYcu8Qn1wMaYF4ckk96VMwl8DVQww&usqp=CAU' alt='counselor1'/>
           </Item>
         </Grid>
         <Grid container xs={12} md={7} lg={8} spacing={4}>
@@ -386,7 +398,7 @@ export default function  Ourconsultants()  {
                 
               </Box>
               <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' id='name'><b>Oscar Rafy</b></p>
+                <p className='nameand'><b><span className='name'>Oscar Rafy</span></b></p>
                 <p className='nameand' id='list'>M.ED in Mathematics</p>
                 <p className='nameand'>Exp:8 years</p>
               </Box>
@@ -404,14 +416,14 @@ export default function  Ourconsultants()  {
 
         >
           <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' id='available'>Next availabe at: 12/5/2022 1:00 PM</Item><br/>
+            <Item className='bg'><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
           </Grid>
           
-          <Grid xl={12} container columnSpacing={9} sx={{ order: { xs: 1, sm: 2 } }} >
+          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
             <Grid>
               <Item className='bg'>
               <Link to="/Viewprofile">
-              <button className="buttonshahi" >
+              <button className="counselorcardbutton" >
                 <span>View Profile</span>
                 </button></Link>
               </Item>
@@ -419,9 +431,12 @@ export default function  Ourconsultants()  {
             <Grid>
               <Item className='bg'>
               <Link to="/Booksession">
-              <button className="buttonshahi"id='bookbutton'>
-                <span>Book Session</span>
-                </button></Link>
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+                Book Session
+                </button>
+                </span>
+                </Link>
               </Item>
             </Grid>
            
