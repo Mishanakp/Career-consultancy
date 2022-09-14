@@ -29,7 +29,6 @@ import ConsultantVerticalTabs from "../pages/consultantDetails/ConsultantTab";
 
 import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
 import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
-import ConsultantVerticalTabs from "../pages/consultantDetails/ConsultantTab";
 
 
 
