@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-const path = require("path");
-const express = require("express");
-const app = express(); // create express app
-// add middlewares
-app.use(express.static(path.join(__dirname,  "build")));
-app.use(express.static("public"));
-app.use((req, res, next) => {
-  res.sendFile(path.join(__dirname,  "build", "index.html"));
-});
-// start express server on port 5000
-// app.listen(3000, () => {
-//   console.log("server started on port 5000");
-=======
 
 // const express = require('express');
 // const path = require('path');
@@ -52,6 +38,5 @@ app.use((req, res, next) => {
 // app.listen(3000, () => {
 //   console.log("server started on port 5000");
 
->>>>>>> 3d60f6fceee5b4eee940853883db80eef38b5d1d
 // });
 app.listen(process.env.PORT || 5000);
