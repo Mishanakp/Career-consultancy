@@ -113,7 +113,7 @@ export default function ConsultantVerticalTabs() {
             <Tab className="consultantAppt" icon={ <EventNoteIcon className='consultantIcon2' />} iconPosition="start" label="Appointments" {...Consultanta11yProps(1)} />
             <Tab className="consultantHis" icon={<HistoryIcon className='consultantIcon3' />} iconPosition="start" label="History" {...Consultanta11yProps(2)} />
             <Tab className="consultantProf" icon={<AccountCircleIcon className='consultantIcon4' />} iconPosition="start" label="Profile" {...Consultanta11yProps(3)} />
-            <button  className="consultantOut"><ExitToAppIcon className='consultantIcon5' />Signout
+            <button style={{backgroundColor:'white'}}  className="consultantOut"><ExitToAppIcon className='consultantIcon5' />Signout
             
             </button>
        </Tabs>

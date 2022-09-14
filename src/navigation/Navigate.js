@@ -78,11 +78,13 @@ export default function Navigate() {
                    
                     <Route path="/contact" element={<Contact />}></Route>
 
-                    <Route path="/consultantdetails" element={<ConsultantVerticalTabs/>}></Route>
-              
+                   
+                    <Route path="/consultantdetails" element={<ConsultantVerticalTabs/>}></Route>   
                 </Routes>
                 <div><Footer/></div>
+                
             </div>
+            
         </Router>
 
     );
