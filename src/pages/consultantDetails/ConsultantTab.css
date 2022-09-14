@@ -1292,10 +1292,10 @@
                 font-size: 20px !important;
              }
             }
-            /* @media only screen and (max-width:1367px) and (min-width:1281px){
+            @media only screen and (max-width:1367px) and (min-width:1281px){
    
                 .ConsultantdetBox{
-                    height: 1305px !important;
+                    height: 1200px !important;
                     font-family: 'Poppins', sans-serif;
                     margin-top: 100px; 
                  }
@@ -1509,7 +1509,7 @@
                     color: #4a6f8a;
                     font-size: 20px !important;
                  }
-                } */
+                }
 
                 @media only screen and (max-width:1280px) and (min-width:1201px){
    
