@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Footer.css'
 import {Grid} from '@mui/material'
 import {Link} from 'react-router-dom'
-
+import careerLogo from '../../Assets/homeImages/logocareer.jpg'
 
 function Footer() {
  
@@ -12,7 +12,7 @@ function Footer() {
     <Grid container>
       <Grid item sm={4} xs={12}>
         <div className='foot1'>
-          <h1 className='footerLogo'>Logo</h1>
+          <img src={careerLogo} alt='' className='footerLogo2'/>
         </div>
       </Grid>
       <Grid item sm={8} xs={12}>

@@ -15,7 +15,7 @@ function Myprofile() {
      <Box sx={{ flexGrow: 1 }} >
       <Grid container spacing={4}>
 <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-  <div className="headerportion">
+  <div className="headerportion1">
   <div className="profileimage">
   <img class="ui medium circular image" src="https://felicity-uploads.s3.ap-south-1.amazonaws.com/profile/c0c51ace157998d466f0e07fb3fcd935-rs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220827%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20220827T073114Z&X-Amz-Expires=18000&X-Amz-Signature=a788e20d9e1590f5cd87cb84acff0c65f6acd667d65c77d8c13a8b5413f72cf9&X-Amz-SignedHeaders=host" alt=""/>
   </div>
@@ -25,6 +25,8 @@ function Myprofile() {
   <br/>
   <br/>
   <div className="userdetail">
+  <input id="imgs" type="file"  onChange={(e)=>setData(e.target.files)}/>
+
   <label htmlFor="imgs"><CameraAltIcon className="addition" sx={{ color:'#23BDB8',fontSize:'55px' }}/></label>
 <h2>POOJA ROY</h2>
 <h3>Fresher</h3>
@@ -51,7 +53,6 @@ function Myprofile() {
 </div>
 </Grid>
 <Grid item xl={2} lg={2} md={1} sm={1}>
-<input id="imgs" type="file"  onChange={(e)=>setData(e.target.files)}/>
 </Grid>
         </Grid>
         </Box>
