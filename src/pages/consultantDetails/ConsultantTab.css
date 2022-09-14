@@ -224,7 +224,7 @@
     font-size: 20px !important;
  }
 
- /* @media only screen and (max-width:1920px) and (min-width:1601px){
+ @media only screen and (max-width:1920px) and (min-width:1601px){
     .ConsultantdetBox{
         height: 1400px !important;
         font-family: 'Poppins', sans-serif;
@@ -435,7 +435,7 @@
         color: #4a6f8a;
         font-size: 20px !important;
      }
- } */
+ }
 
  /* @media only screen and (max-width:1600px) and (min-width:1537px){
    
@@ -1163,7 +1163,7 @@
                background-size: cover;
                  width:1120px ;
                 height: 1305px;
-              }
+                 }
              .ConsultantTabPanel2{
                 background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
                 background-repeat: no-repeat; 
