@@ -17,214 +17,232 @@ body{
   }
 
   
-  #paymerntgid{ 
+  .paymerntgid{ 
     background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
 
   }
-  .paymenttxt1{
-    text-align: left;
-    font-size: 1.2rem;
-  }
 
+ 
   
-  .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
-    color: #23BDB8 !important;
-}
-.css-1633um2-MuiPaper-root{padding-left: 10px !important;}
 
-.css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected {
-    color: #23BDB8;
-    background-color: #eaeced;;
-}
 
-/*left side widt*/
-.css-lfwcke-MuiTabs-flexContainer {
-  width: 360px !important;
-  }
+
+           .paymentverticaltab1{
+       
+            justify-content: left !important;
+            color: #0E314C !important;
+          
+            font-size: 1.2rem !important;
+            text-transform: capitalize !important;
+            font-weight: 650 !important;
+            font-family: 'Poppins', sans-serif !important;
+width: 300px !important;
+
+      
+
+         }
+      
+        
+
+         .paymentverticaltab2{
+            color: #0E314C !important;
+            font-size: 1.2rem !important;
+            text-transform: capitalize !important;
+            font-weight: 650 !important;
+            font-family: 'Poppins', sans-serif !important;
+            width: 300px !important;
+            
+         }
+         .paymentverticaltab3{
+          color:#0E314C !important;
+         
+          font-size: 1.2rem !important;
+          text-transform: capitalize !important;
+          font-weight: 650 !important;
+          font-family: 'Poppins', sans-serif !important;
+          width: 300px !important;
+         }
+         .paymentverticaltab4{
+          color:#0E314C !important;
+            align-self: flex-start !important;
+            font-size: 1.2rem !important;
+            text-transform: capitalize !important;
+            font-weight: 650 !important;
+            font-family: 'Poppins', sans-serif !important;
+            width: 300px !important;
+        
+         }
+         
+
+         .paymentverticaltab5{
+          text-align: left !important;
+          color:#0E314C !important;
+          align-self: flex-start !important;
+          font-size: 1.2rem !important;
+          text-transform: capitalize !important;
+          font-weight: 650 !important;
+          font-family: 'Poppins', sans-serif !important;
+          width: 300px !important;
+         
+       }
+         
+         
+
+
+         /*************************form************************************/
+         .verticalpayright{
+          width: 496px !important;align-items: flex-start !important;
+        }
+
+        .creditaccordian600{display: none!;}
+ .creditaccordian{display:block !important;}
+        
+        .amounttx1{text-align: left !important;}
   
-  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{  color: #23BDB8;
-      background-color: #eaeced;
-  height: 60px;}
+        .amountheading{
+          padding-left: 70px;
+          text-align: left;
+          padding-top: 70px;
+          padding-bottom: 70px;
+         
+        }
+        .amount {
+          font-weight: 600;
+          color: #000;
+          font-size: 20px;
+          line-height: 25px;
+          margin-top: 5px;
+          text-decoration: underline;
+          text-underline-offset: 10px; 
+          text-decoration-thickness: 5px;
+          text-decoration-color: #23BDB8;
+          text-align: left;
+        }
+
+        .exprirdate,.CVV{padding-top: 25px;}
+        
+        .cvvwidthpayment{ margin-top: 0px !important;
+padding-top: 2px !important;
+padding-bottom: 2px !important;
+         }
   
-  .css-10d9dml-MuiTabs-indicator{background-color: #eaeced !important} 
-  
-  
-  .css-1633um2-MuiPaper-root{padding: 0 !important;}
-  
-  
-  
-  .css-h0q0iv-MuiButtonBase-root-MuiTab-root{
-    font-size: 1.2rem !important;
-    font-weight: 500 !important;
-    text-transform: none !important;
-    color: #0E314C !important;
-  }
-  
-  
-  
-  
-  /*****************form*************************/
-  
-  
-  .amount {
-    font-weight: 600;
-    color: #000;
-    font-size: 20px;
-    line-height: 25px;
-    margin-top: 5px;
-    text-decoration: underline;
-    text-underline-offset: 10px; 
-    text-decoration-thickness: 5px;
-    text-decoration-color: #23BDB8;
-    text-align: left;
-  }
-  
-  #amounttx1{text-align: left !important;}
-  
-  .amountheading{
-    padding-left: 50px;
-    text-align: left;
-    padding-top: 40px;
-    padding-bottom: 30px;
-   
-  }
-  #cvvwidthpayment{height: 24px !important; }
-  #icon{text-align: left;}
-  .header {
-    position: relative;
-    padding-top: 50px;
-    
-    font-size: 16px;
-    color:#0E314C;
-    font-weight: 600;
-  }
-  .cardnumber{
-    text-align: left;
-    color:black;
-    
-  }
-  #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-    height: 25px !important;
-   padding-left: 10px;
-   padding-top: 0px;
-   padding-bottom: 0px;
-  width: 380px;
-  }
-  
-  #datepicker{
-   width: 150px !important;
-   height: 40px !important; 
-  }
-  #paybg{background-color: transparent !important;
-  box-shadow: none !important;
+        .header {
+          position: relative;
+          padding-top: 50px;
+          
+          font-size: 16px;
+          color:#0E314C;
+          font-weight: 600;
+        }
+        .cardnumber{
+          text-align: left;
+          color:black;
+          
+        }
+        .textfieldpayment{
+          height: 25px !important;
+         padding-left: 10px;
+         padding-top: 0px;
+         padding-bottom: 0px;
+        width: 410px;
+        }
+        
+        #datepicker{
+         width: 150px !important;
+         height: 40px !important; 
+        }
+
+        .cardholder{padding-top: 16px;}
+        .paynow{
+          
+  width: 410px !important;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px !important;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+        }
+      
+        /**************************************netbanking************************************************/
+     
+        .choosebank{
+          padding-left: 70px;
+          text-align: left;
+          padding-top: 50px;
+          padding-bottom: 70px;
+          padding-right: 50px;
+         
+        }
+        .netselection{width: 395px !important;}
+        
+        .paynow1{
+          background-color: #23BDB8 !important;
+          color: white;
+        margin-top: 30px;
+          width: 400px;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;
+        }
+        /****************************wallet*******************************************************/
+        
+        .wallet{padding-left: 70px;
+          text-align: left;
+          padding-top: 70px;
+          padding-bottom: 70px;
+          padding-right: 70px;}
+
+          .paynow2{
+            color: white;
+            margin-top: 30px;
+              width: 400px;
+              height: 56px;
+              font-weight: 600;
+            
+              background-color:   #23BDB8 !important;
+              font-size: 1.2rem !important;}
+
+/****************************upi*******************************************************/
+.upi{
+  padding-left: 70px;
   text-align: left;
-  font-size: 1rem;
-  color: #000;}
-  .exprirdate{
-    padding-top: 16px;
-  }
-  #cardholder{padding-top: 16px;}
-  #paynow{
-    background-color: #23BDB8;
-    color: white;
-  
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 50px;
+ 
+}
+.textupi{
+  width: 410px !important;
+}
+.paynow3{
+  color: white;
+  margin-top: 30px;
     width: 410px;
-    
-  height: 53.1px;
-  }
+    height: 56px;
+    font-weight: 600;
   
-  #icon.css-h0q0iv-MuiButtonBase-root-MuiTab-root{justify-content: left !important;}
-  
-  
-  /*****************netbanking***********************/
-  #netselection{width: 395px !important;}
-  
-  .choosebank{
-    padding-left: 70px;
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-   
-  }
-  #paynow1{
-    background-color: #23BDB8;
-    color: white;
-  margin-top: 30px;
-    width: 400px;
-    
-  height: 53.1px;
-  }
-  
-  #vertical-tabpanel-2{
-    width: 496px !important;
-  }
-  /***************************wallet**********************************/
-  
-  #vertical-tabpanel-4{
-    width: 496px;
-  }
-  .wallet{padding-left: 50px;
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;}
-  .walletimg{
-    width: 24px;
-  }
-  
-  #paynow2{
-    background-color: #23BDB8;
-    color: white;
-  margin-top: 30px;
-    width: 400px;
-    
-  height: 53.1px;
-  }
-  
-  
-  #paynow3{
-    background-color: #23BDB8;
-    color: white;
-  margin-top: 30px;
-    width: 400px;
-    
-  height: 53.1px;
-  }
-  /****************************upi************************/
-  .upi{
-    padding-left: 70px;
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-   
-  }
-  #vertical-tabpanel-6{
-    width: 496px;
-  }
-  #textupi{
-    width: 370px;
-  }
-  #walletselection{width: 400px !important;}
+    background-color:   #23BDB8 !important;
+    font-size: 1.2rem !important;
+}
 
-  /**************************1920********************************/
-@media screen and (max-width:1920px) and (min-width:1601px){
-  #paymentpagegridcalculator.css-16fnxy3-MuiGrid2-root{
-    width: calc(100% * 9 / var(--Grid-columns)) !important;
-
-  }
-
+ /**************************1920********************************/
+ @media screen and (max-width:1920px) and (min-width:1601px){
+  .boxpayment{ width: calc(100% * 9 / var(--Grid-columns)) !important;}
   .paymentcard {
     padding-left: 400px;
     padding-right: 300px;
     padding-top: 200px;
     padding-bottom: 100px;
 }
-}
-/**************************1600********************************/
+ }
+
+ /**************************1600********************************/
 @media screen and (max-width:1600px) and (min-width:1537px){
-  #paymentpagegridcalculator.css-16fnxy3-MuiGrid2-root{
+  .boxpayment{
     width: calc(100% * 11.25/ var(--Grid-columns)) !important;
 
   }
@@ -236,278 +254,402 @@ body{
 }
   
 }
+
+/**************************1536********************************/
+@media screen and (max-width:1536px) and (min-width:1441px){
+  
+  
+}
 /**************************1440********************************/
 @media screen and (max-width:1440px) and (min-width:1368px){
-  #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-    height: 25px !important;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 320px;
-}
-#paynow {
-  background-color: #23BDB8;
-  color: white;
-  width: 350px;
-  height: 53.1px;
-}
-#netselection {
-  width: 350px !important;
-}
-#paynow1 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 350px;
-  height: 53.1px;
-}
-.choosebank {
-  padding-left: 50px;
-  text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 50px;
-}
-#paynow2 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 360px;
-  height: 53.1px;
-}
-.upi {
-  padding-left: 50px;
-  text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 50px;
-}
-#textupi {
-  width: 320px;
-}
-#paynow3 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 350px;
-  height: 53.1px;
-}
-  
+  .paymentcard{
+    padding-left: 250px !important;
+    padding-right: 250px !important;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    
+  }
+
+  /************form**********/
+  .amountheading{
+    padding-left: 90px !important;
+        text-align: left;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;}
+
+    /*********netbanking***************/
+    .choosebank {
+      padding-left: 90px !important;
+      text-align: left;
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+      padding-right: 50px;
+  }
+      /*********wallet***************/
+  .wallet{padding-left: 90px !important;
+    text-align: left;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important; 
+    padding-right: 90px;}
+/********************upi********************/
+    .upi{
+      padding-left: 90px !important;
+      text-align: left;
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+      padding-right: 50px;
+     
+    }
+
 }
 
 /**************************1366********************************/
-@media screen and (max-width:1366px) and (min-width:1281px){
-  #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-    height: 25px !important;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    max-width: 270px !important;
-}
-#paynow {
-  background-color: #23BDB8;
-  color: white;
-  width: 305px;
-  height: 53.1px;
-}
-
-.choosebank {
-  padding-left: 50px;
-  text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 50px;
-}
-#netselection {
-  width: 350px !important;
-}
-#paynow1 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 350px;
-  height: 53.1px;
-}
-#paynow2 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 350px;
-  height: 53.1px;
-}
-
-.upi {
-  padding-left: 50px;
-  text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 50px;
-}
-
-#textupi {
-  width: 320px;
-}
-
-#paynow3 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 350px;
-  height: 53.1px;
-}
-}
-  
-  /******************************Responsive*1025*****************************/
-  @media screen and (min-width:768px) and (max-width:1025px){
-    
-    #cvvwidthpayment{height: 24px !important; }
+@media screen and (max-width:1367px) and (min-width:1282px){
   .paymentcard{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
     padding-top: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     
   }
-  
-  /*left side widt*/
-  .css-lfwcke-MuiTabs-flexContainer {
-    width: 300px;
-    }
-    .amountheading {
-      padding-left: 60px;
-      text-align: left;
-      padding-top: 60px;
-      padding-bottom: 60px;
-  }
-  
-    #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-      height: 25px !important;
-      padding-left: 10px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      width: 350px;
-    }
-  
-  
+
+   /************form**********/
+   .amountheading{
+    padding-left: 90px !important;
+        text-align: left;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;}
+
+    /*********netbanking***************/
     .choosebank {
-      padding-left: 50px;
+      padding-left: 90px !important;
       text-align: left;
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
       padding-right: 50px;
   }
-  #paynow {
-    background-color: #23BDB8;
-    color: white;
-    width: 380px;
-    height: 53.1px;
-  }
-  .wallet{padding-left: 62px;
+      /*********wallet***************/
+  .wallet{padding-left: 90px !important;
     text-align: left;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 60px;}
-  #netselection{width: 380px !important;}
-  
-  #paynow1 {
-    background-color: #23BDB8;
-    color: white;
-    width: 380px;
-    height: 53.1px;
-  }
-  .upi {
-    padding-left: 50px;
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-  }
-  #paynow2 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 380px;
-    height: 53.1px;
-  }
-  
-  #walletselection{width: 380px !important;}
-  #textupi {
-    width: 320px !important;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important; 
+    padding-right: 90px;}
+/********************upi********************/
+    .upi{
+      padding-left: 90px !important;
+      text-align: left;
+      padding-top: 90px !important;
+      padding-bottom: 90px !important;
+      padding-right: 50px;
+     
+    }
+
 }
-#paynow3 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 350px;
-  height: 53.1px;
-}
-  }
-  
-  /*****************************************************************************************************/
-  @media screen and (min-width:425px) and (max-width:769px){
+/**************************1280**************************/
+@media screen and (max-width:1281px) and (min-width:1202px){
+  .paymentcard{
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+    padding-top: 200px;
+    padding-bottom: 100px;
     
-    #paymerntgid{display: none;}
+  }
+
+  /************form**********/
+  .amountheading{
+    padding-left: 50px !important;
+        text-align: left;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;}
+
+    /*********netbanking***************/
+    .choosebank {
+      padding-left: 50px !important;
+      text-align: left;
+      padding-top: 50px !important;
+      padding-bottom: 50px !important;
+      padding-right: 50px;
+  }
+      /*********wallet***************/
+  .wallet{padding-left: 50px !important;
+    text-align: left;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important; 
+    padding-right: 50px;}
+/********************upi********************/
+    .upi{
+      padding-left: 50px !important;
+      text-align: left;
+      padding-top: 50px !important;
+      padding-bottom: 50px !important;
+      padding-right: 50px;
+     
+    }
+}
+
+/**************************1200**************************/
+@media screen and (max-width:1201px) and (min-width:1026px){
+  .paymentcard{
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    padding-top: 250px !important;
+    padding-bottom: 150px !important;
+    
+  }
+
+}
+
+/**************************1024**************************/
+@media screen and (max-width:1025px) and (min-width:1010px){
+  .paymentcard{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top: 250px !important;
+    padding-bottom: 100px !important;
+    
+  }
+
+  /************form**********/
+  .amountheading{
+    padding-left: 30px !important;
+        text-align: left;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;}
+
+    /*********netbanking***************/
+    .choosebank {
+      padding-left: 30px !important;
+      text-align: left;
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+      padding-right: 30px;
+  }
+      /*********wallet***************/
+  .wallet{padding-left: 30px !important;
+    text-align: left;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; 
+    padding-right: 30px;}
+/********************upi********************/
+    .upi{
+      padding-left: 30px !important;
+      text-align: left;
+      padding-top:30px !important;
+      padding-bottom: 30px !important;
+      padding-right: 30px;
+     
+    }
+
+
+  }
+
+  /**************************1008**************************/
+@media screen and (max-width:1009px) and (min-width:962px){
+  .paymentcard{
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 250px !important;
+    padding-bottom: 100px !important;
+    
+  }
+
+  /************form**********/
+  .amountheading{
+    padding-left: 35px !important;
+        text-align: left;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;}
+
+    /*********netbanking***************/
+    .choosebank {
+      padding-left: 35px !important;
+      text-align: left;
+      padding-top: 35px !important;
+      padding-bottom: 35px !important;
+      padding-right: 35px;
+  }
+      /*********wallet***************/
+  .wallet{padding-left: 35px !important;
+    text-align: left;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important; 
+    padding-right: 35px;}
+/********************upi********************/
+    .upi{
+      padding-left: 35px !important;
+      text-align: left;
+      padding-top:35px !important;
+      padding-bottom: 35px !important;
+      padding-right: 35px;
+     
+    }
+
+}
+
+  /**************************960**************************/
+  @media screen and (max-width:961px) and (min-width:914px){
+    .paymentcard{
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+      padding-top: 150px !important;
+      padding-bottom: 100px !important;
+      
+    }
+  
+    /************form**********/
+    .amountheading{
+      padding-left: 40px !important;
+          text-align: left;
+      padding-top: 40px !important;
+      padding-bottom: 40px !important;}
+  
+      /*********netbanking***************/
+      .choosebank {
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top: 40px !important;
+        padding-bottom:40px !important;
+        padding-right: 40px;
+    }
+        /*********wallet***************/
+    .wallet{padding-left: 40px !important;
+      text-align: left;
+      padding-top: 40px !important;
+      padding-bottom:40px !important; 
+      padding-right: 40px;}
+  /********************upi********************/
+      .upi{
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top:40px !important;
+        padding-bottom: 40px !important;
+        padding-right: 40px;
+       
+      }
+  
+  }
+
+  /**************************912**************************/
+  @media screen and (max-width:913px) and (min-width:902px){
+
+
+    
+    .paymentverticaltab1{
+       
+      justify-content: left !important;
+      color: #0E314C !important;
+    
+      font-size: 1.2rem !important;
+      text-transform: capitalize !important;
+      font-weight: 650 !important;
+      font-family: 'Poppins', sans-serif !important;
+width: 250px !important;
+
+
+
+   }
+
+  
+
+   .paymentverticaltab2{
+      color: #0E314C !important;
+      font-size: 1.2rem !important;
+      text-transform: capitalize !important;
+      font-weight: 650 !important;
+      font-family: 'Poppins', sans-serif !important;
+      width: 250px !important;
+      
+   }
+   .paymentverticaltab3{
+    color:#0E314C !important;
+   
+    font-size: 1.2rem !important;
+    text-transform: capitalize !important;
+    font-weight: 650 !important;
+    font-family: 'Poppins', sans-serif !important;
+    width: 250px !important;
+   }
+   .paymentverticaltab4{
+    color:#0E314C !important;
+      align-self: flex-start !important;
+      font-size: 1.2rem !important;
+      text-transform: capitalize !important;
+      font-weight: 650 !important;
+      font-family: 'Poppins', sans-serif !important;
+      width: 250px !important;
+  
+   }
+   
+
+   .paymentverticaltab5{
+    text-align: left !important;
+    color:#0E314C !important;
+    align-self: flex-start !important;
+    font-size: 1.2rem !important;
+    text-transform: capitalize !important;
+    font-weight: 650 !important;
+    font-family: 'Poppins', sans-serif !important;
+    width: 250px !important;
+   
+ }
+    .paymentcard{
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+      padding-top: 150px !important;
+      padding-bottom: 100px !important;
+      
+    }
+ /************form**********/
+ .amountheading{
+  padding-left: 40px !important;
+      text-align: left;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;}
+
+  /*********netbanking***************/
+  .choosebank {
+    padding-left: 40px !important;
+    text-align: left;
+    padding-top: 40px !important;
+    padding-bottom:40px !important;
+    padding-right: 40px;
+}
+    /*********wallet***************/
+.wallet{padding-left: 40px !important;
+  text-align: left;
+  padding-top: 40px !important;
+  padding-bottom:40px !important; 
+  padding-right: 40px;}
+/********************upi********************/
+  .upi{
+    padding-left: 40px !important;
+    text-align: left;
+    padding-top:40px !important;
+    padding-bottom: 40px !important;
+    padding-right: 40px;
+   
+  }
+    
+   
+  }
+
+    /**************************900**************************/
+    @media screen and (max-width:900px) and (min-width:822px){
+      .paymerntgid{display: none;}
     .payment769{
       display: block;
     }
-    .paymentcard{
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      
-    }
+
+    .paymerntgid769{ 
+      background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+      .paymentresponsivecard{padding-left: 100px;
+      padding-top: 200px;
+    padding-right:100px;
+    padding-bottom: 100px;
     
-    /*left side widt*/
-    .css-lfwcke-MuiTabs-flexContainer {
-      width: 300px;
-      }
-    
-    
-      #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{}
-    
-    
-      .choosebank {
-        padding-left: 50px;
-        text-align: left;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-right: 50px;
-    }
-    
-    
-    .upi {
-      padding-left: 55px;
-      text-align: left;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      padding-right: 50px;
-    }
-    }
-  
-    /****************************769************************************************************/
-    @media screen and (min-width:425px) and (max-width:769px){
-      #paymerntgid769{ 
-        background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
-        .paymentresponsivecard{padding-left: 50px;
-        padding-top: 200px;
-      padding-right:50px;
-      padding-bottom: 100px;
-   }
-  
-  
-    
-  
-  
-  #paygrid769{
-    border: none !important;
-    border-radius: 0px !important;
-  box-shadow: none !important;
-    text-align: left;
-    background-color:white;
-    
-  }
-  .payment769tx1{padding-top: 50px;
+ }
+ .payment769tx1{padding-top: 50px;
   padding-left: 50px;
   
   font-size: 1.2rem;}
@@ -519,7 +661,7 @@ body{
     font-size: 1.2rem;}
   .underline{ height: 3px;
     flex: 1;
-    margin-left: 50px;
+    margin-left:120px !important;
     width: 2%;
     padding-left: 50px;
     background-color: #23BDB8;
@@ -537,11 +679,12 @@ body{
      background-color:#23BDB8;
   }
   
-  #paygrid7691{
+  .paygrid7691{
     padding-top: 30px;
   }
-  
-  .header1 {
+
+
+  .header1 {text-align: left;
     position: relative;
     padding-top: 20px;
     padding-left: 50px;
@@ -550,391 +693,94 @@ body{
     font-weight: 600;
     padding-bottom: 20px;
   }
-  #accordiancolor{
-    background-color:white;
-  }
-  #accordianpay769{
+
+  .accordianpay769{
     padding-left: 30px;
   }
-  .credit769{
-    padding-left: 10px;
-    font-size: 1rem;
+
+  .payment769tx2{padding-top: 50px;
+    padding-left: 50px;
     color:#0E314C;
-    font-weight: 800;
-  }
-  
-  #accordiondetails769{
-  padding-left: 100px;
-  padding-bottom: 100px;
-  padding-top: 20px;
-  }
-  
-  #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-    height: 25px !important;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 400px;
-  }
-  
-  #paynow {
-    background-color: #23BDB8;
-    color: white;
-    width: 420px;
-    height: 53.1px;
-  }
-  
-  #netselection {
-    width: 410px !important;
-  }
-  
-  #paynow1 {
-    background-color: #23BDB8;
-    color: white;
-    width: 410px;
-    height: 53.1px;
-  }
-  #accordiondetails7692{
+    font-weight: 600;}
+
+    .credit769{
+      padding-left: 10px;
+      font-size: 1.3rem;
+      color:#0E314C;
+      font-weight: 800;
+    }
+  /********form*********************/
+  .amountheading672 , .amountheading480{display: none !important;}
+  .amountheading {
     padding-left: 120px;
+    text-align: left;
+    padding-top: 10px;
     padding-bottom: 100px;
-    padding-top: 20px;
-    }
-    #walletselection {
-      width: 410px !important;
-  }#paynow2 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 410px;
-    height: 53.1px;
-  }
-
-  #cvvwidthpayment{height: 24px !important; }
-
-   
-    }
-  /*********************************************480************************************************/
-  @media screen and (min-width:427px) and (max-width:480px){
-    .paymentresponsivecard {
-      padding-left: 20px;
-      padding-top: 180px;
-      padding-right: 20px;
-  }
-  .payment769tx1 {
-    padding-top: 50px;
-    padding-left: 20px;
-    font-size: 1.2rem;
 }
-.underline {
-  height: 3px;
-  flex: 1 1;
-  margin-left: 20px;
-  width: 2%;
-  padding-left: 50px;
-  background-color: #23BDB8;
-}
-#accordianpay769 {
-  padding-left: 10px;
-}
-.header1 {
-  position: relative;
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 16px;
-  color: #0E314C;
-  font-weight: 600;
-  padding-bottom: 20px;
-}
-#accordiondetails769 {
-  padding-left: 80px;
+  /********netbanking*********************/
+.choosebank {
+  padding-left: 120px !important;
+  text-align: left;
+  padding-top: 10px;
   padding-bottom: 100px;
-  padding-top: 25px;
+  padding-right: 50px;
+}
+/********wallet*********************/
+.wallet {
+  padding-left: 120px;
+  text-align: left;
+  padding-top: 10px !important;
+  padding-bottom: 100px !important;
+  padding-right: 70px;
 }
 
-#textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-  height: 25px !important;
-  padding-left: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 250px;
+/********************upi********************/
+.upi{
+  padding-left: 120px !important;
+  text-align: left;
+  padding-top:10px !important;
+  padding-bottom: 100px !important;
+  padding-right: 40px;
+ 
 }
-#paynow {
-  background-color: #23BDB8;
-  color: white;
-  width: 275px;
-  height: 53.1px;
-}
+  
 
-#accordiondetails7692 {
-  padding-left: 80px;
-  padding-bottom: 100px;
-  padding-top: 20px;
-}
-
-#netselection {
-  width: 270px !important;
-}
-#paynow1 {
-  background-color: #23BDB8;
-  color: white;
-  width: 270px;
-  height: 53.1px;
-}
-#walletselection {
-  width: 265px !important;
-}
-#paynow2 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 270px;
-  height: 53.1px;
-}
-#textupi{
-  width: 250px;
-}
-#paynow3 {
-  background-color: #23BDB8;
-  color: white;
-  margin-top: 30px;
-  width: 270px;
-  height: 53.1px;
-}
-  }
-
-    /*********************************************425************************************************/
-    @media screen and (min-width:374px) and (max-width:426px){
-      .paymentresponsivecard {
-        padding-left: 20px;
-        padding-top: 180px;
-        padding-right: 20px;
     }
-    .payment769tx1 {
-      padding-top: 50px;
-      padding-left: 20px;
-      font-size: 1.2rem;
-  }
-  .underline {
-    height: 3px;
-    flex: 1 1;
-    margin-left: 20px;
-    width: 2%;
+
+    /**************************820**************************/
+    @media screen and (max-width:821px) and (min-width:770px){
+      .paymerntgid{display: none;}
+      .payment769{
+        display: block;
+      }
+  
+      .paymerntgid769{ 
+        background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+  
+        .paymentresponsivecard{padding-left: 100px;
+        padding-top: 200px;
+      padding-right:100px;
+      padding-bottom: 100px;
+      
+   }
+   .payment769tx1{padding-top: 50px;
     padding-left: 50px;
-    background-color: #23BDB8;
-  }
-  #accordianpay769 {
-    padding-left: 10px;
-  }
-  .header1 {
-    position: relative;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 16px;
-    color: #0E314C;
-    font-weight: 600;
-    padding-bottom: 20px;
-  }
-  #accordiondetails769 {
-    padding-left: 50px;
-    padding-bottom: 100px;
-    padding-top: 25px;
-  }
-  
-  #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-    height: 25px !important;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 250px;
-  }
-  #paynow {
-    background-color: #23BDB8;
-    color: white;
-    width: 275px;
-    height: 53.1px;
-  }
-  
-  #accordiondetails7692 {
-    padding-left: 55px;
-    padding-bottom: 100px;
-    padding-top: 20px;
-  }
-  
-  #netselection {
-    width: 270px !important;
-  }
-  #paynow1 {
-    background-color: #23BDB8;
-    color: white;
-    width: 270px;
-    height: 53.1px;
-  }
-  #walletselection {
-    width: 265px !important;
-  }
-  #paynow2 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 270px;
-    height: 53.1px;
-  }
-  #textupi{
-    width: 250px;
-  }
-  #paynow3 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 270px;
-    height: 53.1px;
-  }
-    }
-  
-      /*********************************************375************************************************/
-      @media screen and (min-width:320px) and (max-width:376px){
-        .paymentlapview{display: none;}
-        .payment769{display: block !important;}
-  
-  
-        #paymerntgid769{ 
-          background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
-          .paymentresponsivecard{padding-left: 50px;
-          padding-top: 150px !important;
-        padding-right:50px;
-        padding-bottom: 75px;
-        
-     }
-     .underline {
-      height: 3px;
-      flex: 1 1;
-      margin-left: 12px;
+    
+    font-size: 1.2rem;}
+    
+    
+    .payment769tx2{padding-top: 50px;
+      padding-left: 50px;
+      
+      font-size: 1.2rem;}
+    .underline{ height: 3px;
+      flex: 1;
+      margin-left:70px !important;
       width: 2%;
       padding-left: 50px;
       background-color: #23BDB8;
-  }
-  
-     .paymentresponsivecard {
-      padding-left: 20px;
-      padding-top: 100px;
-      padding-right: 20px;
-  }
-  
-  .payment769tx1 {
-    padding-top: 50px;
-    padding-left: 10px;
-    font-size: 1rem;
-  }.payment769tx2{padding-top: 50px;
-    padding-left: 50px;
-    
-    font-size: 1rem;}
-  
-  
-  #paygrid769{
-    border: none !important;
-    border-radius: 0px !important;
-  box-shadow: none !important;
-    text-align: left;
-    background-color:white;
-    
-  }
-  
-  .underline1{height: 3px;
-    flex: 1;
-    margin-left: 50px;
-    width: 8%;
-    padding-left: 50px;
-    background-color:transparent;
-  }
-  .underline3{height: 3px;
-    flex: 1;
-     background-color:#23BDB8;
-  
-  }
-  #paygrid7691{
-    padding-top: 30px;
-  }
-  
-  #accordiondetails769 {
-    padding-left: 32px;
-    padding-bottom: 100px;
-    padding-top: 25px;
-  }
-  
-  #accordiondetails7692 {
-    padding-left: 33px;
-    padding-bottom: 100px;
-    padding-top: 20px;
-  }
-  #textupi {
-    width: 240px;
-  }
-  
-  .credit769{
-    padding-left: 10px;
-    font-size: 1rem;
-    color:#0E314C;
-    font-weight: 800;
-  }
-  
-      }
-  
-  
-  
-  
-        /*********************************************320************************************************/
-        @media screen  and (max-width:321px){
-          .paymentlapview{display: none;}
-          .payment769{display: block !important;}
-    
-    
-          #paymerntgid769{ 
-         
-            background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
-            .paymentresponsivecard{padding-left: 50px;
-            padding-top: 100px;
-          padding-right:50px;
-          
-       }
-       .underline {
-        height: 3px;
-        flex: 1 1;
-        margin-left: 12px;
-        width: 2%;
-        padding-left: 50px;
-        background-color: #23BDB8;
-    }
-    
-       .paymentresponsivecard {
-        padding-left: 15px;
-        padding-top: 100px;
-        padding-right: 15px;
-    }
-    
-    .payment769tx1 {
-      padding-top: 50px;
-      padding-left: 5px;
-      font-size: 1rem;
-    }
-    #paygrid769{
-      border: none !important;
-      border-radius: 0px !important;
-    box-shadow: none !important;
-      text-align: left;
-      background-color:white;
       
     }
-  
-    .header1 {
-      position: relative;
-      padding-top: 20px;
-      padding-left: 5px;
-      font-size: 16px;
-      color:#0E314C;
-      font-weight: 600;
-      padding-bottom: 20px;
-    }
-    
     .underline1{height: 3px;
       flex: 1;
       margin-left: 50px;
@@ -945,93 +791,2452 @@ body{
     .underline3{height: 3px;
       flex: 1;
        background-color:#23BDB8;
-    
     }
-    #paygrid7691{
+    
+    .paygrid7691{
       padding-top: 30px;
     }
-    
-    #accordiondetails769 {
-      padding-left: 15px;
-      padding-bottom: 100px;
-      padding-top: 25px;
-    }
-    #textfieldpayment.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-      height: 25px !important;
-      padding-left: 10px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      width: 230px;
-  }
-    
-    #accordiondetails7692 {
-      padding-left: 20px;
-      padding-bottom: 100px;
+  
+  
+    .header1 {text-align: left;
+      position: relative;
       padding-top: 20px;
+      padding-left: 50px;
+      font-size: 16px;
+      color:#0E314C;
+      font-weight: 600;
+      padding-bottom: 20px;
     }
-    #textupi {
-      width: 240px;
+  
+    .accordianpay769{
+      padding-left: 30px;
     }
+  
+    .payment769tx2{padding-top: 50px;
+      padding-left: 50px;
+      color:#0E314C;
+      font-weight: 600;}
+  
+      .credit769{
+        padding-left: 10px;
+        font-size: 1.3rem;
+        color:#0E314C;
+        font-weight: 800;
+      }
+    /********form*********************/
+    .amountheading672{display: none !important;}
+
+    .amountheading {
+      padding-left: 80px;
+      text-align: left;
+      padding-top: 10px;
+      padding-bottom: 80px;
+  }
+    /********netbanking*********************/
+  .choosebank {
+    padding-left: 80px !important;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 80px !important;
+    padding-right: 50px;
+  }
+  /********wallet*********************/
+  .wallet {
+    padding-left: 80px;
+    text-align: left;
+    padding-top: 10px !important;
+    padding-bottom: 80px !important;
+    padding-right: 70px;
+  }
+  
+  /********************upi********************/
+  .upi{
+    padding-left: 80px !important;
+    text-align: left;
+    padding-top:10px !important;
+    padding-bottom: 80px !important;
+    padding-right: 40px;
+   
+  }
+    }
+
+   /**************************768**************************/
+   @media screen and (max-width:769px) and (min-width:674px){
+    .paymerntgid{display: none;}
+    .payment769{
+      display: block;
+    }
+
+    .paymerntgid769{ 
+      background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+      .paymentresponsivecard{padding-left: 100px;
+      padding-top: 200px;
+    padding-right:100px;
+    padding-bottom: 100px;
     
+ }
+ .payment769tx1{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.2rem;}
+  
+  
+  .payment769tx2{padding-top: 50px;
+    padding-left: 50px;
+    
+    font-size: 1.2rem;}
+  .underline{ height: 3px;
+    flex: 1;
+    margin-left:90px !important;
+    width: 2%;
+    padding-left: 50px;
+    background-color: #23BDB8;
+    
+  }
+  .underline1{height: 3px;
+    flex: 1;
+    margin-left: 50px;
+    width: 8%;
+    padding-left: 50px;
+    background-color:transparent;
+  }
+  .underline3{height: 3px;
+    flex: 1;
+     background-color:#23BDB8;
+  }
+  
+  .paygrid7691{
+    padding-top: 30px;
+  }
+
+
+  .header1 {text-align: left;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    color:#0E314C;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+
+  .accordianpay769{
+    padding-left: 30px;
+  }
+
+  .payment769tx2{padding-top: 50px;
+    padding-left: 50px;
+    color:#0E314C;
+    font-weight: 600;}
+
     .credit769{
       padding-left: 10px;
-      font-size: 1rem;
+      font-size: 1.3rem;
       color:#0E314C;
       font-weight: 800;
     }
+  /********form*********************/
+  .amountheading672,.amountheading480{display: none !important;}
+
+  .amountheading {
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+  /********netbanking*********************/
+.choosebank {
+  padding-left: 50px !important;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 50px !important;
+  padding-right: 50px;
+}
+/********wallet*********************/
+.wallet {
+  padding-left: 50px;
+  text-align: left;
+  padding-top: 0px !important;
+  padding-bottom: 50px !important;
+  padding-right: 70px;
+}
+
+/********************upi********************/
+.upi{
+  padding-left: 50px !important;
+  text-align: left;
+  padding-top:0px !important;
+  padding-bottom: 50px !important;
+  padding-right: 40px;
+ 
+}
+  }
+
+     /*************************672**************************/
+     @media screen and (max-width:673px) and (min-width:642px){
+      .paymerntgid{display: none;}
+      .payment769{
+        display: block;
+      }
   
-    #paynow {
+      .paymerntgid769{ 
+        background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+  
+        .paymentresponsivecard{padding-left: 100px;
+        padding-top: 200px;
+      padding-right:100px;
+      padding-bottom: 100px;
+      
+   }
+   .payment769tx1{padding-top: 50px;
+    padding-left: 50px;
+    
+    font-size: 1.1rem;}
+    
+    
+    .payment769tx2{padding-top: 50px;
+      padding-left: 50px;
+      
+      font-size: 1.1rem !important;}
+    .underline{ height: 3px;
+      flex: 1;
+      margin-left:90px !important;
+      width: 2%;
+      padding-left: 50px;
       background-color: #23BDB8;
-      color: white;
-      width: 260px;
-      height: 53.1px;
-  }
-  #netselection {
-    width: 250px !important;
-  }
+      
+    }
+    .underline1{height: 3px;
+      flex: 1;
+      margin-left: 50px;
+      width: 8%;
+      padding-left: 50px;
+      background-color:transparent;
+    }
+    .underline3{height: 3px;
+      flex: 1;
+       background-color:#23BDB8;
+    }
     
-  #paynow1 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 250px;
-    height: 53.1px;
+    .paygrid7691{
+      padding-top: 30px;
+    }
+  
+  
+    .header1 {text-align: left;
+      position: relative;
+      padding-top: 20px;
+      padding-left: 50px;
+      font-size: 16px;
+      color:#0E314C;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+  
+    .accordianpay769{
+      padding-left: 30px;
+    }
+  
+    .payment769tx2{padding-top: 50px;
+      padding-left: 50px;
+      color:#0E314C;
+      font-weight: 600;}
+  
+      .credit769{
+        padding-left: 10px;
+        font-size: 1.2rem;
+        color:#0E314C;
+        font-weight: 800;
+      }
+    /********form*********************/
+    .amountheading672{display: block !important;
+      padding-left: 50px;
+      text-align: left;
+      padding-top: 0px;
+      padding-bottom: 50px;}
+
+    .amountheading ,.amountheading480{display: none !important;
+      
   }
-  
-  #walletselection {
-    width: 250px !important;
+  .textfieldpayment{
+    height: 25px !important;
+   padding-left: 10px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+  width: 310px;
   }
+  .paynow{
+          
+    width: 310px !important;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px !important;
+    font-weight: 600;
   
-  #paynow2 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 250px;
-    height: 53.1px;
-  }
-  
-  #paynow3 {
-    background-color: #23BDB8;
-    color: white;
-    margin-top: 30px;
-    width: 250px;
-    height: 53.1px;
-  }
-  
-  
-  #textupi {
-    width: 220px;
+    background-color:   #23BDB8 !important;
+    font-size: 1.2rem !important;
+          }
+        
+    /********netbanking*********************/
+  .choosebank {
+    padding-left: 50px !important;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 50px !important;
+    padding-right: 50px;
   }
 
-
-  .exprirdate{
+  .netselection{width: 310px !important;}
+        
+        .paynow1{
+          background-color: #23BDB8 !important;
+          color: white;
+        margin-top: 30px;
+          width: 310px;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;
+        }
+  /********wallet*********************/
+  .wallet {
+    padding-left: 50px !important;
+    text-align: left;
+    padding-top: 0px !important;
+    padding-bottom: 50px !important;
+    padding-right: 70px;
+  }
+  .paynow2{
+    color: white;
+    margin-top: 30px;
+      width: 310px !important;
+      height: 56px;
+      font-weight: 600;
     
-    padding-left: 16px;
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;}
+  
+  /********************upi********************/
+
+  .upi{
+    padding-left: 50px !important;
+    text-align: left;
+    padding-top:0px !important;
+    padding-bottom: 50px !important;
+    padding-right: 40px;
+   
   }
 
+  .textupi{
+    width: 310px !important;
+  }
+  .paynow3{
+    color: white;
+    margin-top: 30px;
+      width: 310px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+  }
+    }
+
+   /*************************640**************************/
+   @media screen and (max-width:641px) and (min-width:602px){
+    .paymerntgid{display: none;}
+    .payment769{
+      display: block;
+    }
+
+    .paymerntgid769{ 
+      background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+      .paymentresponsivecard{padding-left: 100px;
+      padding-top: 200px;
+    padding-right:100px;
+    padding-bottom: 100px;
+    
+ }
+ .payment769tx1{padding-top: 50px;
+  padding-left: 50px;
   
+  font-size: 1.1rem;}
+  
+  
+  .payment769tx2{padding-top: 50px;
+    padding-left: 50px;
+    
+    font-size: 1.1rem !important;}
+  .underline{ height: 3px;
+    flex: 1;
+    margin-left:70px !important;
+    width: 2%;
+    padding-left: 50px;
+    background-color: #23BDB8;
+    
+  }
+  .underline1{height: 3px;
+    flex: 1;
+    margin-left: 50px;
+    width: 8%;
+    padding-left: 50px;
+    background-color:transparent;
+  }
+  .underline3{height: 3px;
+    flex: 1;
+     background-color:#23BDB8;
+  }
+  
+  .paygrid7691{
+    padding-top: 30px;
+  }
+
+
+  .header1 {text-align: left;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    color:#0E314C;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+
+  .accordianpay769{
+    padding-left: 30px;
+  }
+
+  .payment769tx2{padding-top: 50px;
+    padding-left: 50px;
+    color:#0E314C;
+    font-weight: 600;}
+
+    .credit769{
+      padding-left: 10px;
+      font-size: 1.2rem;
+      color:#0E314C;
+      font-weight: 800;
+    }
+  /********form*********************/
+  .amountheading672{display: block !important;
+    padding-left: 40px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 40px;}
+
+  .amountheading ,.amountheading480{display: none !important;
+    
+}
+.textfieldpayment{
+  height: 25px !important;
+ padding-left: 10px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+width: 310px;
+}
+.paynow{
+        
+  width: 310px !important;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px !important;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+        }
+      
+  /********netbanking*********************/
+.choosebank {
+  padding-left: 40px !important;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px !important;
+  padding-right: 50px;
+}
+
+.netselection{width: 310px !important;}
+      
+      .paynow1{
+        background-color: #23BDB8 !important;
+        color: white;
+      margin-top: 30px;
+        width: 310px;
+        height: 56px;
+        font-weight: 600;
+      
+        background-color:   #23BDB8 !important;
+        font-size: 1.2rem !important;
+      }
+/********wallet*********************/
+.wallet {
+  padding-left: 40px !important;
+  text-align: left;
+  padding-top: 0px !important;
+  padding-bottom: 40px !important;
+  padding-right: 70px;
+}
+.paynow2{
+  color: white;
+  margin-top: 30px;
+    width: 310px !important;
+    height: 56px;
+    font-weight: 600;
+  
+    background-color:   #23BDB8 !important;
+    font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+  padding-left: 40px !important;
+  text-align: left;
+  padding-top:0px !important;
+  padding-bottom: 40px !important;
+  padding-right: 40px;
+ 
+}
+
+.textupi{
+  width: 310px !important;
+}
+.paynow3{
+  color: white;
+  margin-top: 30px;
+    width: 310px !important;
+    height: 56px;
+    font-weight: 600;
+  
+    background-color:   #23BDB8 !important;
+    font-size: 1.2rem !important;
+}
+  }
+
+
+     /*************************600**************************/
+     @media screen and (max-width:641px) and (min-width:597px){
+      .paymerntgid{display: none;}
+      .payment769{
+        display: block;
+      }
+  
+      .paymerntgid769{ 
+        background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+  
+        .paymentresponsivecard{padding-left: 80px;
+        padding-top: 180px;
+      padding-right:80px;
+      padding-bottom: 80px;
+      
+   }
+   .payment769tx1{padding-top: 50px;
+    padding-left: 50px;
+    
+    font-size: 1.1rem;}
+    
+    
+    .payment769tx2{padding-top: 50px;
+      padding-left: 50px;
+      
+      font-size: 1.1rem !important;}
+    .underline{ height: 3px;
+      flex: 1;
+      margin-left:70px !important;
+      width: 2%;
+      padding-left: 50px;
+      background-color: #23BDB8;
+      
+    }
+    .underline1{height: 3px;
+      flex: 1;
+      margin-left: 50px;
+      width: 8%;
+      padding-left: 50px;
+      background-color:transparent;
+    }
+    .underline3{height: 3px;
+      flex: 1;
+       background-color:#23BDB8;
+    }
+    
+    .paygrid7691{
+      padding-top: 30px;
+    }
+  
+  
+    .header1 {text-align: left;
+      position: relative;
+      padding-top: 20px;
+      padding-left: 50px;
+      font-size: 16px;
+      color:#0E314C;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+  
+    .accordianpay769{
+      padding-left: 30px;
+    }
+  
+    .payment769tx2{padding-top: 50px;
+      padding-left: 50px;
+      color:#0E314C;
+      font-weight: 600;}
+  
+      .credit769{
+        padding-left: 10px;
+        font-size: 1.2rem;
+        color:#0E314C;
+        font-weight: 800;
+      }
+    /********form*********************/
+    .amountheading672{display: block !important;
+      padding-left: 40px;
+      text-align: left;
+      padding-top: 0px;
+      padding-bottom: 40px;}
+  
+    .amountheading {display: none !important;
+      
+  }
+  .textfieldpayment{
+    height: 25px !important;
+   padding-left: 10px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+  width: 310px;
+  }
+  .paynow{
+          
+    width: 310px !important;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px !important;
+    font-weight: 600;
+  
+    background-color:   #23BDB8 !important;
+    font-size: 1.2rem !important;
+          }
+        
+    /********netbanking*********************/
+  .choosebank {
+    padding-left: 40px !important;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 40px !important;
+    padding-right: 50px;
+  }
+  
+  .netselection{width: 310px !important;}
+        
+        .paynow1{
+          background-color: #23BDB8 !important;
+          color: white;
+        margin-top: 30px;
+          width: 310px;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;
+        }
+  /********wallet*********************/
+  .wallet {
+    padding-left: 40px !important;
+    text-align: left;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+    padding-right: 70px;
+  }
+  .paynow2{
+    color: white;
+    margin-top: 30px;
+      width: 310px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;}
+  
+  /********************upi********************/
+  
+  .upi{
+    padding-left: 40px !important;
+    text-align: left;
+    padding-top:0px !important;
+    padding-bottom: 40px !important;
+    padding-right: 40px;
+   
+  }
+  
+  .textupi{
+    width: 310px !important;
+  }
+  .paynow3{
+    color: white;
+    margin-top: 30px;
+      width: 310px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+  }
+    }
+  
+        /*************************595**************************/
+        @media screen and (max-width:596px) and (min-width:542px){
+          .paymerntgid{display: none;}
+          .payment769{
+            display: block;
+          }
+      
+          .paymerntgid769{ 
+            background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+      
+            .paymentresponsivecard{padding-left: 80px;
+            padding-top: 180px;
+          padding-right:80px;
+          padding-bottom: 80px;
+          
+       }
+       .payment769tx1{padding-top: 50px;
+        padding-left: 50px;
+        
+        font-size: 1.1rem;}
+        
+        
+        .payment769tx2{padding-top: 50px;
+          padding-left: 50px;
+          
+          font-size: 1.1rem !important;}
+        .underline{ height: 3px;
+          flex: 1;
+          margin-left:70px !important;
+          width: 2%;
+          padding-left: 50px;
+          background-color: #23BDB8;
+          
+        }
+        .underline1{height: 3px;
+          flex: 1;
+          margin-left: 50px;
+          width: 8%;
+          padding-left: 50px;
+          background-color:transparent;
+        }
+        .underline3{height: 3px;
+          flex: 1;
+           background-color:#23BDB8;
         }
         
+        .paygrid7691{
+          padding-top: 30px;
+        }
+      
+      
+        .header1 {text-align: left;
+          position: relative;
+          padding-top: 20px;
+          padding-left: 50px;
+          font-size: 16px;
+          color:#0E314C;
+          font-weight: 600;
+          padding-bottom: 20px;
+        }
+      
+        .accordianpay769{
+          padding-left: 30px;
+        }
+      
+        .payment769tx2{padding-top: 50px;
+          padding-left: 50px;
+          color:#0E314C;
+          font-weight: 600;}
+      
+          .credit769{
+            padding-left: 10px;
+            font-size: 1.2rem;
+            color:#0E314C;
+            font-weight: 800;
+          }
+        /********form*********************/
+        .amountheading672{display: block !important;
+          padding-left: 40px;
+          text-align: left;
+          padding-top: 0px;
+          padding-bottom: 40px;}
+      
+        .amountheading ,.amountheading480 {display: none !important;
+          
+      }
+      .textfieldpayment{
+        height: 25px !important;
+       padding-left: 10px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+      width: 310px;
+      }
+      .paynow{
+              
+        width: 310px !important;
+        height: 56px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px !important;
+        font-weight: 600;
+      
+        background-color:   #23BDB8 !important;
+        font-size: 1.2rem !important;
+              }
+            
+        /********netbanking*********************/
+      .choosebank {
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 40px !important;
+        padding-right: 50px;
+      }
+      
+      .netselection{width: 310px !important;}
+            
+            .paynow1{
+              background-color: #23BDB8 !important;
+              color: white;
+            margin-top: 30px;
+              width: 310px;
+              height: 56px;
+              font-weight: 600;
+            
+              background-color:   #23BDB8 !important;
+              font-size: 1.2rem !important;
+            }
+      /********wallet*********************/
+      .wallet {
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top: 0px !important;
+        padding-bottom: 40px !important;
+        padding-right: 70px;
+      }
+      .paynow2{
+        color: white;
+        margin-top: 30px;
+          width: 310px !important;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;}
+      
+      /********************upi********************/
+      
+      .upi{
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top:0px !important;
+        padding-bottom: 40px !important;
+        padding-right: 40px;
+       
+      }
+      
+      .textupi{
+        width: 310px !important;
+      }
+      .paynow3{
+        color: white;
+        margin-top: 30px;
+          width: 310px !important;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;
+      }
+        }
+      
+         /*************************540**************************/
+         @media screen and (max-width:541px) and (min-width:482px){
+          .paymerntgid{display: none;}
+          .payment769{
+            display: block;
+          }
+      
+          .paymerntgid769{ 
+            background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+      
+            .paymentresponsivecard{padding-left: 60px;
+            padding-top: 180px;
+          padding-right:60px;
+          padding-bottom: 80px;
+          
+       }
+       .payment769tx1{padding-top: 30px;
+        padding-left: 50px;
+        
+        font-size: 1rem;}
+        
+        
+        .payment769tx2{padding-top: 50px;
+          padding-left: 50px;
+          
+          font-size: 1.1rem !important;}
+        .underline{ height: 3px;
+          flex: 1;
+          margin-left:70px !important;
+          width: 2%;
+          padding-left: 50px;
+          background-color: #23BDB8;
+          
+        }
+        .underline1{height: 3px;
+          flex: 1;
+          margin-left: 50px;
+          width: 8%;
+          padding-left: 50px;
+          background-color:transparent;
+        }
+        .underline3{height: 3px;
+          flex: 1;
+           background-color:#23BDB8;
+        }
+        
+        .paygrid7691{
+          padding-top: 30px;
+        }
+      
+      
+        .header1 {text-align: left;
+          position: relative;
+          padding-top: 20px;
+          padding-left: 50px;
+          font-size: 16px;
+          color:#0E314C;
+          font-weight: 600;
+          padding-bottom: 20px;
+        }
+      
+        .accordianpay769{
+          padding-left: 30px;
+        }
+      
+        .payment769tx2{padding-top: 50px;
+          padding-left: 50px;
+          color:#0E314C;
+          font-weight: 600;}
+      
+          .credit769{
+            padding-left: 10px;
+            font-size: 1.2rem;
+            color:#0E314C;
+            font-weight: 800;
+          }
+        /********form*********************/
+        .amountheading672{display: block !important;
+          padding-left: 40px;
+          text-align: left;
+          padding-top: 0px;
+          padding-bottom: 40px;}
+      
+        .amountheading , .amountheading480{display: none !important;
+          
+      }
+      .textfieldpayment{
+        height: 25px !important;
+       padding-left: 10px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+      width: 285px !important;
+      }
+      .paynow{
+              
+        width: 285px !important;
+        height: 56px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px !important;
+        font-weight: 600;
+      
+        background-color:   #23BDB8 !important;
+        font-size: 1.2rem !important;
+              }
+            
+        /********netbanking*********************/
+      .choosebank {
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 40px !important;
+        padding-right: 50px;
+      }
+      
+      .netselection{width: 285px !important;}
+            
+            .paynow1{
+              background-color: #23BDB8 !important;
+              color: white;
+            margin-top: 30px;
+              width: 285px !important;
+              height: 56px;
+              font-weight: 600;
+            
+              background-color:   #23BDB8 !important;
+              font-size: 1.2rem !important;
+            }
+      /********wallet*********************/
+      .wallet {
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top: 0px !important;
+        padding-bottom: 40px !important;
+        padding-right: 70px;
+      }
+      .paynow2{
+        color: white;
+        margin-top: 30px;
+          width: 285px !important;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;}
+      
+      /********************upi********************/
+      
+      .upi{
+        padding-left: 40px !important;
+        text-align: left;
+        padding-top:0px !important;
+        padding-bottom: 40px !important;
+        padding-right: 40px;
+       
+      }
+      
+      .textupi{
+        width: 285px !important;
+      }
+      .paynow3{
+        color: white;
+        margin-top: 30px;
+          width: 285px !important;
+          height: 56px;
+          font-weight: 600;
+        
+          background-color:   #23BDB8 !important;
+          font-size: 1.2rem !important;
+      }
+        }
+      
+ /*************************480**************************/
+ @media screen and (max-width:481px) and (min-width:427px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 60px;
+    padding-top: 180px;
+  padding-right:60px;
+  padding-bottom: 80px;
   
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
   
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 285px !important;
+}
+
+.cvvwidthpayment{width: 285px;}
+.paynow{
+      
+width: 285px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
     
+/********netbanking*********************/
+.choosebank {
+padding-left: 40px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 285px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 285px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 40px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 285px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 40px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 285px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 285px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+ /*************************425**************************/
+ @media screen and (max-width:426px) and (min-width:414px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 40px;
+    padding-top: 150px;
+  padding-right:40px;
+  padding-bottom: 40px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 25px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 250px !important;
+}
+.cvvwidthpayment{width: 250px;}
+.paynow{
+      
+width: 250px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 25px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 250px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 250px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 25px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 25px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 250px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+
+/*************************412**************************/
+@media screen and (max-width:413px) and (min-width:395px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 40px;
+    padding-top: 150px;
+  padding-right:40px;
+  padding-bottom: 40px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 250px !important;
+}
+.cvvwidthpayment{width: 250px;}
+.paynow{
+      
+width: 250px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 25px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 250px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 250px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 25px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 25px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 250px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+/*************************393**************************/
+@media screen and (max-width:394px) and (min-width:376px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 40px;
+    padding-top: 150px;
+  padding-right:40px;
+  padding-bottom: 40px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 250px !important;
+}
+.cvvwidthpayment{width: 250px;}
+.paynow{
+      
+width: 250px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 250px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 250px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 10px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 250px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+/*************************376**************************/
+@media screen and (max-width:376px) and (min-width:362px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 30px;
+    padding-top: 150px;
+  padding-right:30px;
+  padding-bottom: 30px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 250px !important;
+}
+.cvvwidthpayment{width: 250px;}
+.paynow{
+      
+width: 250px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 250px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 250px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 10px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 250px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 250px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+
+/*************************376**************************/
+@media screen and (max-width:361px) and (min-width:322px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 30px;
+    padding-top: 150px;
+  padding-right:30px;
+  padding-bottom: 30px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 230px !important;
+}
+.cvvwidthpayment{width: 230px;}
+.paynow{
+      
+width: 230px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 230px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 230px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 230px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 10px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 230px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 230px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+
+/*************************320**************************/
+@media screen and (max-width:321px) and (min-width:282px){
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 15px;
+    padding-top: 130px;
+  padding-right:15px;
+  padding-bottom: 30px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 220px !important;
+}
+.cvvwidthpayment{width: 220px;}
+.paynow{
+      
+width: 220px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 220px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 220px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 220px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 10px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 220px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 220px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+
+
+/*************************280**************************************************************/
+@media screen and (max-width:281px) {
+  .paymerntgid{display: none;}
+  .payment769{
+    display: block;
+  }
+
+  .paymerntgid769{ 
+    background-image: linear-gradient(to right, #23BDB8, #8EE7BA);}
+
+    .paymentresponsivecard{padding-left: 10px;
+    padding-top: 130px;
+  padding-right:50px;
+  padding-bottom: 30px;
+  
+}
+.payment769tx1{padding-top: 30px;
+padding-left: 0px;
+
+font-size: 1rem;}
+
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  
+  font-size: 1.1rem !important;}
+.underline{ height: 3px;
+  flex: 1;
+  margin-left:20px !important;
+  width: 2%;
+  padding-left: 50px;
+  background-color: #23BDB8;
+  
+}
+.underline1{height: 3px;
+  flex: 1;
+  margin-left: 50px;
+  width: 8%;
+  padding-left: 50px;
+  background-color:transparent;
+}
+.underline3{height: 3px;
+  flex: 1;
+   background-color:#23BDB8;
+}
+
+.paygrid7691{
+  padding-top: 30px;
+}
+
+
+.header1 {text-align: left;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  color:#0E314C;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.accordianpay769{
+  padding-left: 30px;
+}
+
+.payment769tx2{padding-top: 50px;
+  padding-left: 50px;
+  color:#0E314C;
+  font-weight: 600;}
+
+  .credit769{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color:#0E314C;
+    font-weight: 800;
+  }
+/********form*********************/
+.amountheading480{display: block !important;
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 40px;}
+
+.amountheading ,.amountheading672{display: none !important;
+  
+}
+.textfieldpayment{
+height: 25px !important;
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+width: 190px !important;
+}
+.cvvwidthpayment{width: 190px;}
+.paynow{
+      
+width: 190px !important;
+height: 56px;
+font-family: 'Poppins', sans-serif;
+margin-top: 30px !important;
+font-weight: 600;
+
+background-color:   #23BDB8 !important;
+font-size: 1.2rem !important;
+      }
+    
+/********netbanking*********************/
+.choosebank {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px;
+padding-bottom: 40px !important;
+padding-right: 50px;
+}
+
+.netselection{width: 190px !important;}
+    
+    .paynow1{
+      background-color: #23BDB8 !important;
+      color: white;
+    margin-top: 30px;
+      width: 190px !important;
+      height: 56px;
+      font-weight: 600;
+    
+      background-color:   #23BDB8 !important;
+      font-size: 1.2rem !important;
+    }
+/********wallet*********************/
+.wallet {
+padding-left: 10px !important;
+text-align: left;
+padding-top: 0px !important;
+padding-bottom: 40px !important;
+padding-right: 70px;
+}
+.paynow2{
+color: white;
+margin-top: 30px;
+  width: 190px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;}
+
+/********************upi********************/
+
+.upi{
+padding-left: 10px !important;
+text-align: left;
+padding-top:0px !important;
+padding-bottom: 40px !important;
+padding-right: 40px;
+
+}
+
+.textupi{
+width: 190px !important;
+}
+.paynow3{
+color: white;
+margin-top: 30px;
+  width: 190px !important;
+  height: 56px;
+  font-weight: 600;
+
+  background-color:   #23BDB8 !important;
+  font-size: 1.2rem !important;
+}
+}
+
+/********************************************QRCodeportion***************************************/
+
+
+.paymentqr{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
+}
+.qrimage1{
+  transform: translateY(50px);
+}
+img.qrimag2{
+  min-width: 350px !important;
+  transform: translateY(-20px);
+}
+
+.qrbutton{  
+  width: 130px !important;
+  height: 35px !important;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px !important;
+  font-weight: 600;
+  text-transform: none !important;
+  margin-left: 0px  !important;
+  background-color:   #23BDB8 !important;
+  font-size: 1.1rem !important;
+  
+}
+.qrpadding{padding-left: 50px;}
+.rqscan{color:#0E314C;
+font-size: 1.3rem;
+font-weight: 600;
+transform: translateY(50px);
+}
+.qralign{margin-left: 50px;}
+
