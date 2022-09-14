@@ -10,21 +10,21 @@ body{
 .bgwhite{background-color: white;
     border-radius: 20px;
   }
-.shatitle{padding: 20px;
+.titlebooksession{padding: 20px;
     color: #0e314c;
     font-size: 35px;
 }
 .mngslot{color: black !important;
-    padding-left: 10px;
+    padding-left: 10px;margin: -1px !important;
 }
 .dateitem{margin-left: 90px !important;}
 .selecttime{margin-left: -230px;}
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{padding: 13px !important;}
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{padding: 13px !important;} */
 
 /*----------------------------button------------------------------*/
 
 
-    button.shabutton::before {
+    button.booksessionpagebutton::before {
       --size: 0;
       content: '';
       position: absolute;
@@ -38,7 +38,7 @@ body{
       transition: width .2s ease, height .2s ease;
     }
     
-    .shabutton {
+    .booksessionpagebutton {
         position: relative;
         -webkit-appearance: none;
            -moz-appearance: none;
@@ -55,15 +55,15 @@ body{
         height: 40px;
         width: 130px;
       }
-      .shabutton span {
+      .booksessionpagebutton span {
         position: relative;
         pointer-events: none;
       }
     
-      .shabutton:hover::before {
+      .booksessionpagebutton:hover::before {
         --size: 400px;
       }
-      button.shabutton:hover {
+      button.booksessionpagebutton:hover {
         text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
         -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -77,12 +77,15 @@ body{
 
 
 /*------------------------responsive 1024------------------------------*/
-@media only screen and (max-width: 1024px)and (min-width:770px) {
+@media only screen and (max-width: 1025px)and (min-width:770px) {
   .backgrounddiv{padding: 80px!important;
     padding-top: 240px !important;
   }
   .dateitem{margin-left: 50px !important;}
-  .shabutton{margin-left: -5px !important;}
+  .booksessionpagebutton{margin-left: -5px !important;
+
+  }
+  
 }
 /*------------------------responsive 768------------------------------*/
 @media only screen and (max-width: 769px)and (min-width:427px) {
@@ -94,8 +97,8 @@ body{
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -200px; 
 }
-.uk-dotnav>.uk-active>* {margin-right: 20px !important;}
-#asha {margin-left: 20px !important;}
+
+
 }
 /*------------------------responsive 425------------------------------*/
 @media only screen and (max-width: 426px)and (min-width:377px) {
@@ -107,37 +110,54 @@ body{
   .selecttime{margin-left: -20px;}
   .mngslot{margin-left: -200px;}
 
-    .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-    #asha {margin-left: 20px !important;}
-    .shatitle{margin-left: 25px !important;}
+    .titlebooksession{margin-left: 25px !important;}
 }
 /*------------------------responsive 375------------------------------*/
-@media only screen and (max-width: 376px)and (min-width:322px) {
-  .backgrounddiv{padding: 30px!important;
+@media only screen and (max-width: 376px)and (min-width:362px) {
+  .backgrounddiv{padding: 25px!important;
     padding-top: 135px !important;}
   .dateitem{margin-left: 0px !important;}
   .slotslist{display:contents;}
   .selecttime{margin-left: -20px;}
-  .mngslot{margin-left: -180px;}
-    .uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-    #asha {margin-left: 20px !important;}
+.textboxtime{height: 10px !important;}
+    .textboxtime{margin-bottom: 50px !important;}
 }
 /*------------------------responsive 320------------------------------*/
-@media only screen and (max-width: 321px)and (min-width:30px) {
-  .backgrounddiv{padding: 15px!important;
-    padding-top: 125px !important;
+@media only screen and (max-width: 321px)and (min-width:282px){
+  .backgrounddiv{padding: 0px!important;
+    padding-top: 90px !important;
   }
-  .dateitem{margin-left: 0px !important;}
+  .dateitem{margin-left: -5px !important;}
   .slotslist{display:contents;}
-  .selecttime{margin-left: -20px;}
+  .selecttime{margin-left: -10px;}
   .mngslot{margin-left: -90px;
 }
-.uk-dotnav>.uk-active>* {margin-right: 10px !important;}
-.bgwhite .css-mhc70k-MuiGrid-root>.MuiGrid-item {padding-left: 0px !important;}
-.shatitle{padding-left: 45px;}
+.titlebooksession{padding-left: 30px !important;}
 .timeslider{margin-left: 15px;}
-#asha {margin-left: 20px !important;}
-.shabutton {margin-left: 20px;}
+.booksessionpagebutton {margin-left: 20px;}
+.bgwhite{
+  border-radius: 0px !important;
+}
+}
+
+/*------------------------responsive 280------------------------------*/
+@media only screen and (max-width: 281px){
+  .backgrounddiv{padding: 0px!important;
+    padding-top: 90px !important;
+  }
+
+  .dateitem{margin-left: -20px !important;}
+  .slotslist{display:contents;}
+  .selecttime{margin-left: -40px;}
+.titlebooksession{padding-left: 10px !important;}
+.timeslider{margin-left: 9px !important;
+    margin-right: 50px !important;
+}
+.booksessionpagebutton {margin-left: -30px !important;}
+.bgwhite{
+  border-radius: 0px !important;
+}
+
 }
 /*------------------------responsive 1536------------------------------*/
 @media only screen and (max-width: 1536px)and (min-width:1442px) {
@@ -147,16 +167,29 @@ body{
   }
   .selecttime{margin-left: -100px !important;}
   .dateitem{margin-left: 0px !important;}
-  .shabutton {margin-left: 100px !important;}
+  .booksessionpagebutton {margin-left: 100px !important;}
   .dateselection{margin-left: -80px !important;}
 }
 
 /*------------------------responsive 1440------------------------------*/
-@media only screen and (max-width: 1441px)and (min-width:1366px) {
+@media only screen and (max-width: 1441px)and (min-width:1365px) {
   .timeslider{
     width: 400px !important;
 }
 .dateitem{margin-left: 120px !important;}
+.booksessionpagebutton {margin-left: -60px !important;}
+.selecttime{margin-left: -280px !important;}
+.dateselection{margin-left: -30px !important;}
+.textboxtime{border:1px solid #c5c1c1 !important;
+}
+}
+
+/*------------------------responsive 1440------------------------------*/
+@media only screen and (max-width: 1367px)and (min-width:1298px) {
+  .booksessionpagebutton {margin-left: -30px !important;}
+  .selecttime{margin-left: -250px !important;}
+  .dateselection{margin-left: -20px !important;}
+
 
 }
 /*------------------------responsive 1600------------------------------*/
@@ -169,6 +202,7 @@ body{
 }
 .dateselection{margin-left: -90px !important;}
 .selecttime{margin-left: -120px !important;}
+.booksessionpagebutton {margin-left: 80px !important;}
 }
 
 /*------------------------responsive 480------------------------------*/
@@ -179,6 +213,83 @@ body{
   .dateitem{margin-right: 30px !important;
     margin-left: 40px !important;
   }
-  .shatitle{padding-left: 65px !important;}
+  .titlebooksession{padding-left: 65px !important;}
 
+}
+/*------------------------responsive 1920------------------------------*/
+@media only screen and (max-width: 1920px)and (min-width:1602px) {
+
+  .dateitem{height: 500px !important;
+  }
+
+  .dateselection{margin-left: -150px !important;}
+}
+/*------------------------responsive 1200------------------------------*/
+@media only screen and (max-width: 1201px) and (min-width:1026px){
+  .timeslider{margin-left: -10px !important;
+    width: 400px !important;
+}
+.dateselection{margin-left: 10px !important;}
+.selecttime{margin-left: -180px !important;}
+.booksessionpagebutton {margin-left: 30px !important;}
+}
+
+/*------------------------responsive 1536------------------------------*/
+@media only screen and (max-width: 1537px) and (min-width:1442px){
+  .timeslider{
+    width: 380px !important;
+}
+.textboxtime{border:2px solid #c5c1c1 !important;
+    width: 11ch !important;
+}
+}
+
+/*------------------------responsive 960------------------------------*/
+@media only screen and (max-width: 961px)and (min-width:900px) {
+  .timeslider{
+    width: 380px !important;
+    margin-left: -25px !important;
+}
+}
+/*------------------------responsive 889------------------------------*/
+@media only screen and (max-width: 890px)and (min-width:770px) {
+  .timeslider{
+    width: 380px !important;
+    margin-left: 60px !important;
+}
+}
+/*------------------------responsive 568------------------------------*/
+@media only screen and (max-width: 596px)and (min-width:542px) {
+  .dateitem{margin-right: 30px !important;
+    margin-left: 40px !important;
+  }
+  .titlebooksession{padding-left: 65px !important;}
+}
+/*------------------------responsive 540------------------------------*/
+@media only screen and (max-width: 541px)and (min-width:482px) {
+  .dateitem{margin-right: 30px !important;
+    margin-left: 40px !important;
+  }
+  .titlebooksession{padding-left: 65px !important;}
+  .backgrounddiv{padding: 70px !important;
+      padding-top: 170px !important;
+  }
+}
+/*------------------------responsive 393------------------------------*/
+@media only screen and (max-width: 394px)and (min-width:390px) {
+  .dateitem{
+    margin-left: 10px !important;
+  }
+  .titlebooksession{padding-left: 10px !important;}
+}
+/*------------------------responsive 360------------------------------*/
+@media only screen and (max-width: 361px)and (min-width:323px) {
+
+  .backgrounddiv{padding: 17px!important;
+    padding-top: 135px !important;}
+  .dateitem{margin-left: 5px !important;}
+  .slotslist{display:contents;}
+  .selecttime{margin-left: -20px;}
+.textboxtime{height: 10px !important;}
+    .textboxtime{margin-bottom: 50px !important;}
 }
