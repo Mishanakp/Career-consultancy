@@ -656,7 +656,7 @@
         font-size: 20px !important;
      }
     }
-
+/* 
     @media only screen and (max-width:1536px) and (min-width:1489px){
    
         .ConsultantdetBox{
@@ -739,12 +739,9 @@
             background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
            background-repeat: no-repeat; 
            background-size: cover;
-            /* background-color: #F5FFFA; */
-            /* background-image:   linear-gradient( to right,#F5FFFA 1%,#a2e4c3,#7de6b1,#85ebe8, #80e7e4 , #45c9c5    ); */
-            width:1220px ;
+             width:1220px ;
             height: 1305px;
-            /* background:linear-gradient(to right, #23BDB8, #8EE7BA) */
-         }
+          }
          .ConsultantTabPanel2{
             background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
             background-repeat: no-repeat; 
@@ -872,10 +869,10 @@
             color: #4a6f8a;
             font-size: 20px !important;
          }
-        }
+        } */
 
         
-    @media only screen and (max-width:1487px) and (min-width:1441px){
+    /* @media only screen and (max-width:1487px) and (min-width:1441px){
    
         .ConsultantdetBox{
             height: 1305px !important;
@@ -957,12 +954,9 @@
             background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
            background-repeat: no-repeat; 
            background-size: cover;
-            /* background-color: #F5FFFA; */
-            /* background-image:   linear-gradient( to right,#F5FFFA 1%,#a2e4c3,#7de6b1,#85ebe8, #80e7e4 , #45c9c5    ); */
-            width:1220px ;
+             width:1220px ;
             height: 1305px;
-            /* background:linear-gradient(to right, #23BDB8, #8EE7BA) */
-         }
+          }
          .ConsultantTabPanel2{
             background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
             background-repeat: no-repeat; 
@@ -1090,7 +1084,7 @@
             color: #4a6f8a;
             font-size: 20px !important;
          }
-        }
+        } */
         @media only screen and (max-width:1440px) and (min-width:1368px){
    
             .ConsultantdetBox{
