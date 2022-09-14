@@ -926,6 +926,7 @@ p.categPara9 {
             width: 95%;
         }
     }
+    
     @media only screen and (max-width:600px) and (min-width:427px){
         .categHead5 {
             width: 106% !important;
