@@ -3,6 +3,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+img.logoCareer{
+   width: 70px;
+   margin-top: -15px;
+}
+
 /* Navbar */
 .pribut1:focus{
     color: #23BDB8 !important; 

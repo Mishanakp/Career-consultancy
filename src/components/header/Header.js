@@ -13,6 +13,7 @@ import Grid from '@mui/material/Grid';
 import { MdClose } from "react-icons/md"
 import { FiMenu } from "react-icons/fi" 
 import {Link} from 'react-router-dom'  
+import careerLogo from '../../Assets/homeImages/logocareer.jpg'
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -203,9 +204,7 @@ function Header() {
                       cursor:'pointer'
                     }}  >
                         <item>
-                        <Typography>
-                             Logo
-                        </Typography>
+                         <img src={careerLogo} alt="" className='logoCareer'/>
                         </item>
                     </Grid>
                  
