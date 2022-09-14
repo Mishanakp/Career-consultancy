@@ -927,7 +927,7 @@ p.categPara9 {
         }
     }
     
-    @media only screen and (max-width:600px) and (min-width:427px){
+    @media only screen and (max-width:600px) and (min-width:596px){
         .categHead5 {
             width: 106% !important;
             padding-top: 7px;
@@ -1017,6 +1017,21 @@ p.categPara9 {
         }
         p.categPara9 {
             width: 95%;
+        }
+    }
+    @media only screen and (max-width:595px) and (min-width:427px) {
+        .categ1, .categ2, .categ3 {
+            height: 100% !important; 
+        }
+        .categ2, .categ5, .categ8 {
+            width: 140%;
+            height: 100% !important;
+            margin-left: -100px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -70px !important;
+            height: 100% !important;
+            width: 140%;
         }
     }
     /*---------RESPONSIVE OF MOBILE LARGE----------*/
