@@ -1577,7 +1577,18 @@
    
   }
   @media screen and (max-width:1025px){
-    .table{
-      margin-left: 0px;
+
+    .consaltant_table{
+        margin-top: 50px;
+        overflow-x: scroll !important;
+    }
+  }
+  @media screen and (max-width:426px){
+    .consaltant_table{
+        overflow-x: scroll !important;
+    }
+    .consaltant_table{
+        margin-top: 30px;
+        overflow-x: scroll !important;
     }
   }

@@ -15,7 +15,8 @@ import session from '../../../Assets/userprofile/session.jpg'
 
 import './Userprofile.css'
 import Booksession from '../../Ourconsultans/Booksession/Booksession'
-
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
 import CelebrationIcon from '@mui/icons-material/Celebration';
 
@@ -189,13 +190,22 @@ export default function VerticalTabs() {
   const handleClosedelete = () => {
     setOpendelete(false);
   };
-   
+    const handleClickShowPassword = () => {
+    setFormValues({
+      ...formValues,
+      showPassword: !formValues.showPassword,
+    });
+  };
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
   const Transitionpass = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
   });
   const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
   
-      const initialValues = { oldpassword:"", password: "",password2: ""};
+      const initialValues = { oldpassword:"", password: "",password2: "", showPassword: false,};
       const [formValues, setFormValues] = useState(initialValues);
       const [formErrors, setFormErrors] = useState({});
       const [isSubmit, setIsSubmit] = useState(false);
@@ -267,7 +277,13 @@ export default function VerticalTabs() {
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor:'divider' , bgcolor: 'background.paper' }}
+        sx={{ borderRight: 1, borderColor:'divider' , bgcolor: 'background.paper' ,
+        "& button":{color:"#4a6f8a !important"},
+        "& button:focus":{color:"#23BDB8 !important",backgroundColor:'#F5FFFA !important'},
+        "& button:active":{color:"#23BDB8 !important",backgroundColor:'#F5FFFA !important'}, 
+        "& button.Mui-selected":{color:"#23BDB8 !important",backgroundColor:'#F5FFFA !important'},}}
+        
+
       >
        
         <Tab  className='tab1' icon={<EventIcon style={{color:'#23BDB8'}} />} iconPosition="start" label="MY SESSIONS" {...a11yProps(0)} />
@@ -537,8 +553,10 @@ export default function VerticalTabs() {
         <InputAdornment position="start">
           <LockIcon style={{color:' #23BDB8 '}}/>
         </InputAdornment>
+        
       ),
     }}
+   
     variant="outlined"
     />
        <p className='required1'>{formErrors.password2}</p>
