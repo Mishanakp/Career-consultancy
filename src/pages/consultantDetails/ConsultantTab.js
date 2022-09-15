@@ -248,8 +248,8 @@ export default function ConsultantVerticalTabs() {
       <ConsultantTabPanel  className="ConsultantTabPanel2"  value={Consultantvalue} index={1}>
       <div className='consaltant_table'> 
     <Grid container>
-    <Grid xl={2}></Grid>
-    <Grid xl={8}>
+    <Grid xl={2} lg={1} md={2}></Grid>
+    <Grid xl={8} lg={10} md={8}>
   <TableContainer component={Paper} className="table">
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
@@ -333,7 +333,7 @@ export default function ConsultantVerticalTabs() {
         </TableBody>
       </Table>
     </TableContainer>
-    </Grid> </Grid></div> 
+    </Grid><Grid xl={2} lg={1} md={2}></Grid> </Grid></div> 
      
 
 
@@ -489,7 +489,7 @@ export default function ConsultantVerticalTabs() {
       
     </Card>
         </Grid>
-        <Grid item  sm={4} xs={12}>
+        <Grid item  sm={4} xs={12} >
         <Card   className="consultantCard2">
       <CardMedia
         component="img"
@@ -581,8 +581,8 @@ export default function ConsultantVerticalTabs() {
           <Typography>
           <div className='consaltant_table'> 
     <Grid container>
-    <Grid xl={2}></Grid>
-    <Grid xl={8}>
+    <Grid xl={2} md={1} sm={12}></Grid>
+    <Grid xl={8} md={10} sm={12}>
   <TableContainer component={Paper} className="tableconsultant">
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
@@ -602,7 +602,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -611,7 +611,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -620,7 +620,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -629,7 +629,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -639,7 +639,7 @@ export default function ConsultantVerticalTabs() {
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell  className='textappoin' align="left">11 00
                </StyledTableCell>
-            <StyledTableCell align="right"><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"><button className='buttonconsult'>Invitation</button></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -648,7 +648,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
          
             </StyledTableRow>
             <StyledTableRow >
@@ -657,7 +657,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
               
             </StyledTableRow>
             
@@ -666,7 +666,8 @@ export default function ConsultantVerticalTabs() {
         </TableBody>
       </Table>
     </TableContainer>
-    </Grid> </Grid></div> 
+    </Grid> 
+    <Grid xl={2} md={1} sm={.2}></Grid></Grid></div> 
           </Typography>
         </AccordionDetails>
       </Accordion>

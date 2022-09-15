@@ -7,16 +7,16 @@ import TextField from '@mui/material/TextField';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import './Booksession.css';
-import { CalendarPicker } from '@mui/x-date-pickers/CalendarPicker';
+//import { CalendarPicker } from '@mui/x-date-pickers/CalendarPicker';
 import SignUp from '../../../Authentication/SignUp/SingUp';
 
-
+import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 
 
 function Booksession() {
     
-    
-  const [date, setDate] = React.useState(dayjs());
+  const [value, setValue] = React.useState(dayjs());
+  // const [date, setDate] = React.useState(dayjs());
 
   return (
     <div className='backgrounddiv'>
@@ -24,7 +24,7 @@ function Booksession() {
     <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '10ch',height:'5ch' },
+        '& .MuiTextField-root': { m: 1, width: '10ch',height:'6ch' },
       }}
       
       noValidate
@@ -39,29 +39,38 @@ function Booksession() {
           <Grid item xl={2} lg={3} md={1} sm={1} ></Grid>
 
    <Grid item xl={12} lg={6} md={12} sm={12} > 
-    <h1 className="shatitle">Book a Session</h1> 
+    <h1 className="titlebooksession">Book a Session</h1> 
    </Grid>
    <Grid item xl={2.2} lg={3} md={0.1} ></Grid>
 
 
     <Grid item xl={3} lg={2.5}md={4.8} sm={12} className='dateitem'>
 
-      <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <LocalizationProvider dateAdapter={AdapterDayjs} >
     
-        <Grid item lg={9} md={4.5}>
+        <Grid item lg={9} md={4.5} >
           <h5 className='dateselection'> Select Date</h5>
-          <CalendarPicker date={date} 
-          disablePast='true'
-          onChange={(newDate) => setDate(newDate)} />
+          <StaticDatePicker
+          className='bookingcalender'
+        displayStaticWrapperAs="desktop"
+        disablePast='true'
+        minDate={dayjs('2022-08-01')}
+        value={value}
+        onChange={(newValue) => {
+          setValue(newValue);
+        }}
+             />
     
         </Grid>
       </LocalizationProvider>
+      
+      
 
     </Grid>
     
     <Grid item xl={0.2} lg={2.2} md={0.1} sm={2}></Grid>
   <Grid item xl={3.3} lg={5.4} md={5.5} sm={8.4} >
-      <h5 className='selecttime'>Selct Time </h5>
+      <h5 className='selecttime'>Select Time </h5>
       <br></br>
       <div uk-slideshow="animation: none" className='timeslider'>
       <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1">
@@ -71,7 +80,7 @@ function Booksession() {
             <h6 className='mngslot'>Morning Sessions:</h6>
               <TextField
                 id="outlined-read-only-input"
-              
+              className='textboxtime'
                 defaultValue="09.00 AM"
                 InputProps={{
                   readOnly: true,
@@ -79,7 +88,7 @@ function Booksession() {
               />
               <TextField
                 id="outlined-read-only-input"
-              
+                className='textboxtime'
                 defaultValue="09.30 AM"
                 InputProps={{
                   readOnly: true,
@@ -87,7 +96,7 @@ function Booksession() {
               />
             <TextField
               id="outlined-read-only-input"
-            
+              className='textboxtime'
               defaultValue="10.00 AM"
               InputProps={{
                 readOnly: true,
@@ -97,11 +106,12 @@ function Booksession() {
               disabled
               id="outlined-disabled"
               defaultValue="10.30 AM"
+              className='textboxtime'
             />
 
             <TextField
               id="outlined-read-only-input"
-            
+              className='textboxtime'
               defaultValue="11.00 AM"
               InputProps={{
                 readOnly: true,
@@ -109,7 +119,7 @@ function Booksession() {
             />
             <TextField
               id="outlined-read-only-input"
-            
+              className='textboxtime'
               defaultValue="11.30 AM"
               InputProps={{
                 readOnly: true,
@@ -118,7 +128,7 @@ function Booksession() {
         
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="12.00 PM"
           InputProps={{
             readOnly: true,
@@ -127,7 +137,7 @@ function Booksession() {
         <TextField
           disabled
           id="outlined-disabled"
-         
+          className='textboxtime'
           defaultValue="12.30 PM"
           
         />
@@ -138,7 +148,7 @@ function Booksession() {
 
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="01.30 PM"
           InputProps={{
             readOnly: true,
@@ -146,7 +156,7 @@ function Booksession() {
         />
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="02.00 PM"
           InputProps={{
             readOnly: true,
@@ -155,22 +165,24 @@ function Booksession() {
         
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="02.30 PM"
           InputProps={{
             readOnly: true,
           }}
         />
-        <TextField
-          id="outlined-disabled"
-         
+         <TextField
+          id="outlined-read-only-input"
+          className='textboxtime'
           defaultValue="03.00 PM"
-          
+          InputProps={{
+            readOnly: true,
+          }}
         />
         <TextField
           disabled
           id="outlined-disabled"
-         
+          className='textboxtime'
           defaultValue="03.30 PM"
           InputProps={{
             readOnly: true,
@@ -179,7 +191,7 @@ function Booksession() {
         
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="04.00 PM"
           InputProps={{
             readOnly: true,
@@ -187,7 +199,7 @@ function Booksession() {
         />
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="04.30 PM"
           InputProps={{
             readOnly: true,
@@ -195,7 +207,7 @@ function Booksession() {
         />
         <TextField
           id="outlined-read-only-input"
-         
+          className='textboxtime'
           defaultValue="05.00 PM"
           InputProps={{
             readOnly: true,
@@ -204,8 +216,8 @@ function Booksession() {
         </li>
     </ul>
 
-    <a id='asha' class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark " href="#" uk-slidenav-previous uk-slideshow-item="previous" ></a>
-    <a id='asha' class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    <a  class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark " href="#" uk-slidenav-previous uk-slideshow-item="previous" ></a>
+    <a  class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
     </div>
 
@@ -214,7 +226,7 @@ function Booksession() {
 </div>
     <br/>
     <Link to="/SignUp" >
-    <button className="shabutton" id='bookbutton'>   
+    <button className="booksessionpagebutton">   
         <span style={{color:'white'}}>Book Now</span>
     </button></Link>
     <br/><br/><br/>  
