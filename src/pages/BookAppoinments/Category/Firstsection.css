@@ -596,22 +596,28 @@ p.categPara9 {
         padding-left: 10px !important;
     }
 }
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1297px) {
     .homeCateg {
         margin-right: 14px !important;
     }   
 }
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1296px) and (min-width:1281px) {
+    .homeCateg {
+        margin-left: -22px !important;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:1201px) {
     .homeCateg {
         margin-left: -17px !important;
         margin-right: 31px !important;
     }
 }
-
-
-/*---------------- RESPONSIVE SECTION OF PAGE ----------------*/
-
-/*------- RESPONSIVE OF LAP  ------*/
+@media only screen and (max-width:1200px) and (min-width:1026px){
+    .homeCateg {
+        margin-left: -30px !important;
+        margin-right: 31px !important;
+    }
+}
 @media only screen and (max-width:1025px){
     .homeCateg {
         padding-top: 128px !important;
@@ -624,8 +630,40 @@ p.categPara9 {
     }
     
 }
+@media only screen and (max-width:960px) and (min-width:913px){
 
-   /*-------- RESPONSIVE OF TAB --------*/
+    .homeCateg {
+        padding-top: 128px !important;
+        margin-left: -16px;
+    }
+        .categ1, .categ4, .categ7 {
+        margin-left: -120px;
+    }
+        .categ2, .categ5, .categ8 {
+        margin-left: -85px;
+    }
+    
+}
+@media only screen and (max-width:912px) and (min-width:770px){
+
+    .homeCateg {
+        padding-top: 128px !important;
+        margin-left: -16px;
+       
+    }
+        .categ1, .categ4, .categ7 {
+        margin-left: -120px;
+        width: 115% !important;
+    }
+        .categ2, .categ5, .categ8 {
+        margin-left: -85px;
+        width: 115% !important;
+    }
+    .categ3, .categ6, .categ9 {
+        margin-left: -50px;
+        width: 115% !important;
+    }   
+}
    @media only screen and (max-width:769px){
         .categHead5 {
             width: 106% !important;
@@ -710,8 +748,332 @@ p.categPara9 {
             width: 95%;
         }
     }
+    @media only screen and (max-width:672px) and (min-width:641px){
+        .categHead5 {
+            width: 106% !important;
+            padding-top: 7px;
+        }
+        .categHead6 {
+            width: 106% !important;
+            padding-top: 7px;
+        }
+        .homeCateg {
+            
+            margin-top: -56px !important;
+            margin-left: -10px !important;
+        }
+        .categs {
+            
+            margin-left: 200px;
+        }
+        .categContent1 {
+            height: 320px !important;
+        }
+        .categContent2 {
+            height: 320px !important;
+        }
+        .categContent3 {
+            height: 320px !important;
+        }
+        .categContent4 {
+            height: 380px !important;
+        }
+        .categContent5 {
+            height: 380px !important;
+        }
+        .categContent6 {
+            height: 320px !important;
+        }
+        .categContent7 {
+            height: 320px !important;
+        }
+        .categContent8 {
+            height: 320px !important;
+        }
+        .categContent {
+            height: 320px !important;
+        }
+        .categ1, .categ4, .categ7 {
+            width: 140%;
+            height: 95% !important;
+            margin-left: -182px;
+        }
+        .categ2, .categ5, .categ8 {
+            width: 140%;
+            height: 95% !important;
+            margin-left: -125px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -70px !important;
+            height: 95% !important;
+            width: 140%;
+        }
+        /*paragraph*/
+        p.categPara1 {
+            width: 95%;
+        }
+        p.categPara2 {
+            width: 95%;
+        }
+        p.categPara3 {
+            width: 95%;
+        }
+        p.categPara4 {
+            width: 95%;
+        }
+        p.categPara5 {
+            width: 95%;
+        }
+        p.categPara6 {
+            width: 95%;
+        }
+        p.categPara7 {
+            width: 95%;
+        }
+        p.categPara8 {
+            width: 95%;
+        }
+        p.categPara9 {
+            width: 95%;
+        }
+    }
+    @media only screen and (max-width:640px) and (min-width:601px){
+        .categHead5 {
+            width: 106% !important;
+            padding-top: 7px;
+        }
+        .categHead6 {
+            width: 106% !important;
+            padding-top: 7px;
+        }
+        .homeCateg {
+            
+            margin-top: -56px !important;
+            margin-left: -5px !important;
+        }
+        .categs {
+            
+            margin-left: 200px;
+        }
+        .categContent1 {
+            height: 320px !important;
+        }
+        .categContent2 {
+            height: 320px !important;
+        }
+        .categContent3 {
+            height: 320px !important;
+        }
+        .categContent4 {
+            height: 380px !important;
+        }
+        .categContent5 {
+            height: 380px !important;
+        }
+        .categContent6 {
+            height: 320px !important;
+        }
+        .categContent7 {
+            height: 320px !important;
+        }
+        .categContent8 {
+            height: 320px !important;
+        }
+        .categContent {
+            height: 320px !important;
+        }
+        .categ1, .categ4, .categ7 {
+            width: 140%;
+            height: 95% !important;
+            margin-left: -182px;
+        }
+        .categ2, .categ5, .categ8 {
+            width: 140%;
+            height: 95% !important;
+            margin-left: -125px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -70px !important;
+            height: 95% !important;
+            width: 140%;
+        }
+        /*paragraph*/
+        p.categPara1 {
+            width: 95%;
+        }
+        p.categPara2 {
+            width: 95%;
+        }
+        p.categPara3 {
+            width: 95%;
+        }
+        p.categPara4 {
+            width: 95%;
+        }
+        p.categPara5 {
+            width: 95%;
+        }
+        p.categPara6 {
+            width: 95%;
+        }
+        p.categPara7 {
+            width: 95%;
+        }
+        p.categPara8 {
+            width: 95%;
+        }
+        p.categPara9 {
+            width: 95%;
+        }
+    }
+    
+    @media only screen and (max-width:600px) and (min-width:596px){
+        .categHead5 {
+            width: 106% !important;
+            padding-top: 7px;
+        }
+        .categHead6 {
+            width: 106% !important;
+            padding-top: 7px;
+        }
+        .homeCateg {
+            
+            margin-top: -56px !important;
+            margin-left: 0px !important;
+        }
+        .categs {
+            
+            margin-left: 200px;
+        }
+        .categContent1 {
+            height: 320px !important;
+        }
+        .categContent2 {
+            height: 320px !important;
+        }
+        .categContent3 {
+            height: 320px !important;
+        }
+        .categContent4 {
+            height: 380px !important;
+        }
+        .categContent5 {
+            height: 380px !important;
+        }
+        .categContent6 {
+            height: 320px !important;
+        }
+        .categContent7 {
+            height: 320px !important;
+        }
+        .categContent8 {
+            height: 320px !important;
+        }
+        .categContent {
+            height: 320px !important;
+        }
+        .categ1, .categ2, .categ3 {
+            height: 110% !important; 
+        }
+        .categ1, .categ4, .categ7 {
+            width: 140%;
+            height: 95% !important;
+            margin-left: -182px;
+        }
+        .categ2, .categ5, .categ8 {
+            width: 140%;
+            height: 95% !important;
+            margin-left: -125px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -70px !important;
+            height: 95% !important;
+            width: 140%;
+        }
+        /*paragraph*/
+        p.categPara1 {
+            width: 95%;
+        }
+        p.categPara2 {
+            width: 95%;
+        }
+        p.categPara3 {
+            width: 95%;
+        }
+        p.categPara4 {
+            width: 95%;
+        }
+        p.categPara5 {
+            width: 95%;
+        }
+        p.categPara6 {
+            width: 95%;
+        }
+        p.categPara7 {
+            width: 95%;
+        }
+        p.categPara8 {
+            width: 95%;
+        }
+        p.categPara9 {
+            width: 95%;
+        }
+    }
 
-    /*---------RESPONSIVE OF MOBILE LARGE----------*/
+    @media only screen and (max-width:595px) and (min-width:541px) {
+        .categ1, .categ4, .categ7 {
+            width: 140% !important;
+            height: 95% !important;
+            margin-left: -182px;
+        }
+        .categ2, .categ5, .categ8 {
+            width: 140%;
+            height: 100% !important;
+            margin-left: -100px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -70px !important;
+            height: 100% !important;
+            width: 140%;
+        }
+    }
+    @media only screen and (max-width:540px) and (min-width:481px) {
+        .categ1, .categ4, .categ7 {
+            max-width: 130% !important;
+           
+            height: 95% !important;
+            margin-left: -152px;
+        }
+        .categ2, .categ5, .categ8 {
+            max-width: 130% !important;
+            height: 95% !important;
+            margin-left: -152px;
+        }
+        .categ3, .categ6, .categ9 {
+            margin-left: -152px !important;
+            height: 95% !important;
+            max-width: 130% !important;
+        }
+    }
+@media only screen and (max-width:480px) and (min-width:427px) {
+    .categ1, .categ4, .categ7 {
+        max-width: 130% !important;
+       
+        height: 95% !important;
+        margin-left: -143px;
+    }
+    .categ2, .categ5, .categ8 {
+        max-width: 130% !important;
+        height: 95% !important;
+        margin-left: -143px;
+    }
+    .categ3, .categ6, .categ9 {
+        margin-left: -143px !important;
+        height: 95% !important;
+        max-width: 130% !important;
+    }
+}
+
 @media only screen and (max-width:426px){
         .categ1, .categ4, .categ7 {
             margin-left: -138px;
@@ -726,16 +1088,74 @@ p.categPara9 {
             width: 200% !important;
     }
 }
-
-
-/*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
+@media only screen and (max-width:414px) and (min-width:413px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -143px;
+            width: 200% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -143px;
+            width: 200% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -143px !important;
+            width: 200% !important;
+    }
+}
+@media only screen and (max-width:412px) and (min-width:394px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -144px;
+            width: 200% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -144px;
+            width: 200% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -144px !important;
+            width: 200% !important;
+    }
+}
+@media only screen and (max-width:393px) and (min-width:391px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -153px;
+            width: 200% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -153px;
+            width: 200% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -153px !important;
+            width: 200% !important;
+    }
+}
+@media only screen and (max-width:390px) and (min-width:377px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -155px;
+            width: 200% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -155px;
+            width: 200% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -155px !important;
+            width: 200% !important;
+    }
+}
+  
 @media only screen and (max-width:376px){
         .categs {
             margin-left: 175px;
     }
 }
-
-/*--------RESPONSIVE OF MOBILE SMALL---------*/ 
+@media only screen and (max-width:360px) and (min-width:322px) {
+    .categs {
+        margin-left: 168px;
+}
+}
+ 
 @media only screen and (max-width:321px){
    
         .categs {
@@ -743,4 +1163,17 @@ p.categPara9 {
             margin-left: 148px;
     }
 }
-
+@media only screen and (max-width:280px) {
+        .categ1, .categ4, .categ7 {
+            margin-left: -128px;
+            width: 75% !important;
+    }
+        .categ2, .categ5, .categ8 {
+            margin-left: -128px;
+            width: 75% !important;
+    }
+        .categ3, .categ6, .categ9 {
+            margin-left: -128px !important;
+            width: 75% !important;
+    }   
+}

@@ -6,9 +6,31 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
+import EditIcon from '@mui/icons-material/Edit';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+import penicon from '../../../Assets/userprofile/penicon.png'
 function Myprofile() {
   const [data,setData]=useState();
   console.log(data)
+
+  const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+
   return (
     <div className='boxprofile'>
      
@@ -27,22 +49,50 @@ function Myprofile() {
   <div className="userdetail">
   <input id="imgs" type="file"  onChange={(e)=>setData(e.target.files)}/>
 
-  <label htmlFor="imgs"><CameraAltIcon className="addition" sx={{ color:'#23BDB8',fontSize:'55px' }}/></label>
+  <label htmlFor="imgs"><CameraAltIcon className="additioncamera" sx={{ color:'#23BDB8',fontSize:'55px' }}/></label>
 <h2>POOJA ROY</h2>
 <h3>Fresher</h3>
   </div>
 </Grid>
-<Grid item xl={6} lg={6} md={7} sm={7} xs={12}>
+<Grid item xl={7} lg={6} md={7} sm={7} xs={12}>
   <div className="email">
     <ul>
       <li>
-    <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/> poojaroy@gmail.com</p2>
+    <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/> poojaroy@gmail.com  </p2>
+      
 </li>
 <li>
-  <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/> +7673 89994</p2>
+  <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/> +7673 89994 </p2>
+ 
   </li>
   <li>
-    <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/> Kochi, Kerala</p2>
+    <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/> Kochi, Kerala </p2>
+  </li>
+  <li>
+    <div className="editprofile">
+<img src={penicon} className="editicon" alt=""   onClick={handleOpen} />
+    <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description3"
+      >
+        <Box sx={style}>
+          <Typography id="modal-modal-title" variant="h6" component="h2">
+          <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/>: poojaroy@gmail.com  </p2>
+          <br/>
+          <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/>: +7673 89994 </p2>
+          <br/>
+          <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/>: Kochi, Kerala </p2>
+
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <p3> 5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p3>
+
+          </Typography>
+        </Box>
+      </Modal>
+    </div>
   </li>
   </ul>
 </div>
@@ -52,7 +102,7 @@ function Myprofile() {
 <p3> 5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p3>
 </div>
 </Grid>
-<Grid item xl={2} lg={2} md={1} sm={1}>
+<Grid item xl={1} lg={2} md={1} sm={1}>
 </Grid>
         </Grid>
         </Box>

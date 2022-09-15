@@ -62,7 +62,7 @@ li{list-style-type: none !important;}
     margin-top: -150px;
 }
 
-.top{background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
+.top{background:   linear-gradient(to right, #23BDB8, #8ee7ba);
     height: 280px;
 }
 .gridabout{margin-top: -60px !important;
@@ -130,7 +130,7 @@ margin-top: 10px
         margin-left: 15px !important;
     }
     .probutton{margin-left: 10px !important;
-    margin-top: -20px !important;}
+    margin-top: -80px !important;}
     #nxt{margin-top: 20px !important;}
 }
 /*------------------------responsive 768------------------------------*/
@@ -162,7 +162,7 @@ margin-top: 10px
         margin-left: -20px;
     }
  
-    .aboutcounsellor{margin-top: 30px !important;
+    .aboutcounsellor{margin-top: 5px !important;
      /*   margin-left: 32px !important;*/
     }
     .probutton{margin-top: 100px !important;
@@ -186,7 +186,7 @@ margin-top: 10px
 }
 
 /*------------------------responsive 320------------------------------*/
-@media only screen and (max-width: 321px){
+@media only screen and (max-width: 321px)and(min-width:282){
    
     .ulnamen{
         margin-left: -20px;
@@ -223,5 +223,12 @@ margin-top: 10px
 /*------------------------responsive 1600------------------------------*/
 @media only screen and (max-width: 1601px)and (min-width:1442px){
   
+
+}
+/*------------------------responsive 889------------------------------*/
+@media only screen and (max-width: 890px)and (min-width:673px){
+    .probutton{
+        margin-top: 100px !important;
+        } 
 
 }
