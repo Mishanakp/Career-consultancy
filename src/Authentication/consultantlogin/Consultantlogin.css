@@ -51,6 +51,8 @@ padding-bottom: 1px;}
   font-family: 'Poppins', sans-serif;
   margin-top: 30px !important;
   font-weight: 600;
+  border: none !important;
+  color: #F5FFFA !important;
   background:  #23BDB8;
   font-size: 1.2rem !important;
   
@@ -63,8 +65,12 @@ padding-bottom: 1px;}
 }
 .loginimgconsultant{height: 650px;
 }
+/*******************************box***************************************/
+.loginbox{color:#23BDB8 !important;}
+.requiredco{color:gray;
+  font-size: .9rem;
 
-
+}
 
 /**************************1920********************************/
 @media screen and (max-width:1920px) and (min-width:1601px){
@@ -302,7 +308,7 @@ width: 668px;
   text-align: left !important;
   font-weight: 500;
   font-size: 1.2rem;
-  padding-left: 90px !important;
+  padding-left: 75px !important;
   padding-top: 1px;
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
@@ -315,7 +321,12 @@ padding-bottom: 1px;}
   
 }
 
- 
+.requiredco{
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 80px !important;
+}
 
 }
 /*******************************672**********************************************/
@@ -359,7 +370,7 @@ width: 668px;
   text-align: left !important;
   font-weight: 500;
   font-size: 1.2rem;
-  padding-left: 50px !important;
+  padding-left: 40px !important;
   padding-top: 1px;
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
@@ -370,6 +381,12 @@ padding-bottom: 1px;}
   background-color: #23BDB8 !important;
   width: 380px !important;
   
+}
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 40px !important;
 }
   
 }
@@ -414,7 +431,7 @@ width: 668px;
   text-align: left !important;
   font-weight: 500;
   font-size: 1.2rem;
-  padding-left: 50px !important;
+  padding-left: 30px !important;
   padding-top: 1px;
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
@@ -425,6 +442,13 @@ padding-bottom: 1px;}
   background-color: #23BDB8 !important;
   width: 360px !important;
   
+}
+
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 30px !important;
 }
   
 
@@ -482,6 +506,13 @@ padding-bottom: 1px;}
   width: 350px !important;
   
 }
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 30px !important;
+}
+  
   
 }
 /*******************************540**********************************************/
@@ -515,6 +546,13 @@ padding-bottom: 1px;}
     box-shadow: 5px 10px 18px #888888 !important;
   }
 
+  .requiredco {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 10px !important;
+  }
+
 }
 /******************************480**********************************************/
 @media screen and (max-width:480px) and (min-width:427px){
@@ -546,7 +584,12 @@ padding-bottom: 1px;}
    
     box-shadow: 5px 10px 18px #888888 !important;
   }
-
+  .requiredco {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 0px !important;
+  }
 }
 /******************************425**********************************************/
 @media screen and (max-width:426px) and (min-width:416px){
@@ -582,6 +625,12 @@ padding-bottom: 1px;}
   .popconsultant {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
+}
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 0px !important;
 }
 
 }
@@ -622,6 +671,23 @@ padding-bottom: 1px;}
     font-size: 1rem !important;
 }
 
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
+
+.usernameconsultant{
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 10px !important;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif !important;
+padding-bottom: 1px;}
+
 }
 /******************************393**********************************************/
 @media screen and (max-width:394px) and (min-width:377px){
@@ -657,8 +723,22 @@ padding-bottom: 1px;}
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
 }
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
 
-
+.usernameconsultant{
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 15px !important;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif !important;
+padding-bottom: 1px;}
 }
 /******************************375**********************************************/
 @media screen and (max-width:376px) and (min-width:362px){
@@ -696,6 +776,13 @@ padding-bottom: 1px;}
     font-size: 1rem !important;
 }
 
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
+
 }
 /******************************360**********************************************/
 @media screen and (max-width:361px) and (min-width:322px){
@@ -731,6 +818,13 @@ padding-bottom: 1px;}
   .popconsultant{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
+}
+
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
 }
 
 }
@@ -780,7 +874,12 @@ padding-bottom: 1px;}
     font-family: 'Poppins', sans-serif !important;
   padding-bottom: 1px;}
   
-
+  .requiredco {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 20px !important;
+  }
 
 }
 
@@ -829,5 +928,12 @@ padding-bottom: 1px;}
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
 padding-bottom: 1px;}
+
+.requiredco {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 50px !important;
+}
 
 }

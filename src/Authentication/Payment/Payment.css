@@ -3210,10 +3210,10 @@ margin-top: 30px;
 .paymentqr{
   padding-bottom: 50px;
   padding-top: 50px;
-  
+  padding-left: 100px !important;
 }
 .qrimage1{
-  transform: translateY(50px);
+width: 200px;
 }
 img.qrimag2{
   min-width: 350px !important;
@@ -3222,21 +3222,53 @@ img.qrimag2{
 
 .qrbutton{  
   width: 130px !important;
-  height: 35px !important;
+  height: 40px !important;
   font-family: 'Poppins', sans-serif;
-  margin-top: 5px !important;
+ 
   font-weight: 600;
+  border: none;
   text-transform: none !important;
   margin-left: 0px  !important;
   background-color:   #23BDB8 !important;
   font-size: 1.1rem !important;
+  transform: translate(20px,-2px) !important;
   
 }
 .qrpadding{padding-left: 50px;}
 .rqscan{color:#0E314C;
 font-size: 1.3rem;
 font-weight: 600;
-transform: translateY(50px);
+
 }
 .qralign{margin-left: 50px;}
 
+.inputfile:focus + label {
+  /* keyboard navigation */
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label * {
+  pointer-events: none;
+}
+.inputfile {
+  /* visibility: hidden etc. wont work */
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.consLabel{
+color: white;
+font-size: 1.1rem;
+font-weight: 600;
+border-radius: 4px;
+  background-color: #23BDB8;
+  border: 1px solid transparent;
+  padding:10px 5px;
+  margin-left: -85px !important;
+}
+.colleft{text-align: left;}
+.colright{text-align: right;}
+.qricon{margin-right: 20px;}

@@ -270,22 +270,7 @@ function Rescheduleappoinment() {
         /></span> 
 
 <br/>
-<TextField
-          id="outlined-read-only-input"
-         
-          defaultValue="01.30 PM"
-          InputProps={{
-            readOnly: true,
-          }}
-        /><span className='timeslote'>
-           <TextField
-          id="outlined-read-only-input"
-         
-          defaultValue="01.30 PM"
-          InputProps={{
-            readOnly: true,
-          }}
-        /></span> 
+
 
 <br/>
         </li>

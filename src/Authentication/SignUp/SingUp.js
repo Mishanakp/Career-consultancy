@@ -17,6 +17,9 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import EmailIcon from '@mui/icons-material/Email';
 import LockIcon from '@mui/icons-material/Lock';
 
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import IconButton from '@mui/material/IconButton';
 import './SingUp.css'
 
 import Checkbox from '@mui/material/Checkbox';
@@ -29,64 +32,98 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 function  SingUp() {
-    const initialValues = { username: "", email: "", password: "",password2: ""};
-    const [formValues, setFormValues] = useState(initialValues);
-    const [formErrors, setFormErrors] = useState({});
-    const [isSubmit, setIsSubmit] = useState(false);
+  const initialValues = { username: "", email: "", password: "",password2: "",showPassword: false};
+  const [formValues, setFormValues] = useState(initialValues);
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
+
   
-    const handleChange = (e) => {
-      const { name, value } = e.target;
-      setFormValues({ ...formValues, [name]: value });
-    };
-  
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      setFormErrors(validate(formValues));
-      setIsSubmit(true);
-    };
-  
-    useEffect(() => {
-      console.log(formErrors);
-      if (Object.keys(formErrors).length === 0 && isSubmit) {
-        console.log(formValues);
-      }
-    }, [formErrors]);
-    const validate = (values) => {
-      const errors = {};
-      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-     
-  
-      if (!values.username) {
-        errors.username = "Username is required!";
-      }
-      if (!values.email) {
-        errors.email = "Email is required!";
-      } else if (!regex.test(values.email)) {
-        errors.email = "This is not a valid email format!";
-      }
-      if (!values.password) {
-        errors.password = "Password is required ";
-    } else if ((values.password.length < 8) ){
-      errors.password = "password must contain atleast 8 charater"
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value }) ;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormErrors(validate(formValues));
+    setIsSubmit(true);
+  };
+{/**************eye************** */}
+const handleClickShowPassword = () => {
+  setFormValues({
+    ...formValues,
+    showPassword: !formValues.showPassword,
+  });
+};
+
+const handleMouseDownPassword = (event) => {
+  event.preventDefault();
+};
+
+{/*************************** */}
+const handleClickShowPassword2 = () => {
+  setFormValues({
+    ...formValues,
+    showPassword: !formValues.showPassword,
+  });
+};
+
+const handleMouseDownPassword2 = (event) => {
+  event.preventDefault();
+};
+{/************************ */}
+
+
+
+
+
+
+
+
+
+  useEffect(() => {
+    console.log(formErrors);
+    if (Object.keys(formErrors).length === 0 && isSubmit) {
+      console.log(formValues);
     }
-    else if(  (!/\d/.test(values.password)))
-    {errors.password =" password must contain atleast 1 number";
+  }, [formErrors]);
+  const validate = (values) => {
+    const errors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+   
+
+    if (!values.username) {
+      errors.username = "Username is required!";
     }
-  
-    else if (!/[!@#$%&?]/g.test(values.password))
-    {errors.password ="Password must contain atleast 1 special character";
-  
+    if (!values.email) {
+      errors.email = "Email is required!";
+    } else if (!regex.test(values.email)) {
+      errors.email = "This is not a valid email format!";
     }
-    else if (!/[A-Z]/g.test(values.password))
-    {
-      errors.password ="Password must contain atleast 1 capital letter";
+    if (!values.password) {
+      errors.password = "Password is required ";
+  } else if ((values.password.length < 8) ){
+    errors.password = "password must contain atleast 8 charater"
+  }
+  else if(  (!/\d/.test(values.password)))
+  {errors.password =" password must contain atleast 1 number";
+  }
+
+  else if (!/[!@#$%&?]/g.test(values.password))
+  {errors.password ="Password must contain atleast 1 special character";
+
+  }
+  else if (!/[A-Z]/g.test(values.password))
+  {
+    errors.password ="Password must contain atleast 1 capital letter";
+  }
+
+    if (!values.password2) {
+      errors.password2 = 'Password is required';
+    } else if (values.password2 !== values.password) {
+      errors.password2 = 'Passwords do not match';
     }
-  
-      if (!values.password2) {
-        errors.password2 = 'Password is required';
-      } else if (values.password2 !== values.password) {
-        errors.password2 = 'Passwords do not match';
-      }
   
   
     
@@ -118,7 +155,7 @@ function  SingUp() {
           aria-describedby="alert-dialog-slide-description"
           id='diadlogbox'
         >
-          <DialogTitle>{"Sing in"}</DialogTitle>
+          <DialogTitle style={{color:'#23BDB8'}}>{"Sing in"}</DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-slide-description">
             successfully signed in 
@@ -126,7 +163,7 @@ function  SingUp() {
           </DialogContent>
           <DialogActions>
           <Link to="/userprofile" >
-            <Button onClick={handleClose} style={{color:' #23BDB8 '}}>Ok</Button>
+            <Button onClick={handleClose} style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Ok</Button>
              </Link>
           </DialogActions>
         </Dialog>
@@ -194,42 +231,91 @@ function  SingUp() {
                <p className='required'>{formErrors.email}</p>
                 {/*********password************/}
   
-               <TextField  type="password"
+                <TextField 
+                //  type="password"
             name="password"
             placeholder="Password"
-            className='textfieldusersingup'
-
+            className='textfieldconsultsingup'
            
             value={formValues.password}
             onChange={handleChange}
-            InputProps={{
-              startAdornment: (
-                <InputAdornment position="start">
-                  <LockIcon style={{color:' #23BDB8 '}}/>
-                </InputAdornment>
-              ),
-            }}
+          //   InputProps={{
+          //     startAdornment: (
+          //       <InputAdornment position="start">
+          //         <LockIcon style={{color:' #23BDB8 '}}/>
+          //       </InputAdornment>
+          //     ),
+          //   }
+                     
+          // }
+
+          type={formValues.showPassword ? 'text' : 'password'}
+          InputProps={{
+          startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+        endAdornment:(<InputAdornment position="end">
+          <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  edge="end"
+                  style={{color:' #23BDB8 '}}
+                >
+                  {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+        </InputAdornment>),
+            
+               
+      }}
+           
             variant="outlined" 
             />
             <p className='required'>{formErrors.password}</p>
- 
+  
           
                         {/*******confirmpassword**************/}
 
-               <TextField  type="password"
+               <TextField  
+              //  type="password"
             name="password2"
             className='textfieldusersingup'
 
             placeholder="Confirm Password"
             value={formValues.password2}
             onChange={handleChange}
+            // InputProps={{
+            //   startAdornment: (
+            //     <InputAdornment position="start">
+            //       <LockIcon style={{color:' #23BDB8 '}}/>
+            //     </InputAdornment>
+            //   ),
+            // }}
+
+            type={formValues.showPassword ? 'text' : 'password'}
             InputProps={{
-              startAdornment: (
-                <InputAdornment position="start">
-                  <LockIcon style={{color:' #23BDB8 '}}/>
-                </InputAdornment>
-              ),
-            }}
+            startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+          endAdornment:(<InputAdornment position="end">
+            <IconButton
+                    aria-label="toggle password visibility"
+                    onClick={handleClickShowPassword2}
+                    onMouseDown={handleMouseDownPassword2}
+                    edge="end"
+                    style={{color:' #23BDB8 '}}
+                  > 
+                    {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                  </IconButton>
+          </InputAdornment>),
+              
+                 
+        }}
+
+
+
+
+
+
+
+
+            
             variant="outlined" 
             />
                <p className='required'>{formErrors.password2}</p>
@@ -325,15 +411,17 @@ function  SingUp() {
                   <LockIcon style={{color:' #23BDB8 '}}/>
                 </InputAdornment>
               ),
+       
+
             }}
             variant="outlined" 
             />
-            <p className='required'>{formErrors.password}</p>
+            <p className='required'>{formErrors.password}</p> 
  
           
                         {/*******confirmpassword**************/}
 
-               <TextField  type="password"
+                <TextField  type="password"
             name="password2"
             className='textfieldusersingup'
             placeholder="Confirm Password"
@@ -348,7 +436,7 @@ function  SingUp() {
             }}
             variant="outlined" 
             />
-               <p className='required'>{formErrors.password2}</p>
+               <p className='required'>{formErrors.password2}</p> 
     
    
                 {/*********************/}
