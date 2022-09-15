@@ -34,7 +34,7 @@ body{
   color:  #4a6f8a;
     font-size: 35px;
     font-weight: 650px;
-  margin-left: -160px; 
+  margin-left: -190px  ; 
   }
   p.prisliderPara{ 
   color: white;
@@ -61,7 +61,7 @@ body{
     outline: none;
     overflow: hidden;
     border-radius: 100px;
-    margin-left: -435px;
+    margin-left: -425px;
   }
   button.prisliderButton span{
     position: relative;
@@ -92,10 +92,18 @@ body{
     }
     @media only screen and (max-width:1920px) and (min-width:1601px){
       h1.prisliderHead{
-        margin-left: -425px;
+        margin-left: -325px;
       }
+      p.prisliderPara{ 
+        color: white;
+          max-width: 420px;
+          font-size: 16px !important;
+          text-align: left;
+          margin-left: 190px; 
+          font-weight: 400;
+        }
       button.prisliderButton{
-        margin-left: -705px;
+        margin-left: -605px;
       }
     }
     @media only screen and (max-width:1600px) and (min-width:1537px){
