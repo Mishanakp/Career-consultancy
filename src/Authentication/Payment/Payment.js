@@ -173,32 +173,27 @@ function Payment() {
         <Grid item xs={6} >
        <div className='qralign'>
 
-                                <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
-                
-                                <div class="col-8">
+       <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+                   
+                        <div class="col-6">
+                        <label for="formFile" className='consLabel'>Upload screenshot</label>
                             <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
-                      </div>
-                                    <br/>
-                                    <br/>
-
+                        </div>
+                        <br/>
+                        <br/>
+                        <div class="col-6">
+                                
                                 <Button         
              variant="contained" 
          className='qrbutton'
      
          >
            Upload</Button>    
-
+</div>
                     </form> 
 
 
-                    
-
-
-       
-     
-
-
- </div>
+          </div>
 
 
 

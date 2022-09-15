@@ -729,13 +729,13 @@
       margin-left: 5px; 
    }
    .consultantCard2{ 
-      margin-left: 10px; 
+      margin-left: 7px; 
    }
    .consultantCard3{ 
       margin-left: 10px; 
    }
    .consultantCard4{
-      width: 725px; 
+      width: 722px; 
       margin-left: 5px; 
    }
    .consultantCard5{  
@@ -975,7 +975,7 @@ button.consultantAccordHead5{
    cursor: pointer;
 }
 .consultantAccordIcon1{
-   margin-top:-3px; 
+   margin-top:0px  ; 
    position: absolute;
    margin-left: -30px;
 }
@@ -995,7 +995,7 @@ button.consultantAccordHead5{
    margin-left: -30px;
 }
 .consultantAccordIcon5{
-   margin-top:-3px; 
+   margin-top:-2px !important; 
    position: absolute;
    margin-left: -30px;
 }
@@ -1003,24 +1003,40 @@ button.consultantAccordHead5{
    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
    background-repeat: no-repeat; 
    background-size: cover;
+   max-width: 100%;
+   max-height: 100%;
+   width: 1050px;
+   height: 760px;
    
 }
 .consultantAccordDet2{
    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
    background-repeat: no-repeat; 
    background-size: cover;
+   max-width: 100%;
+   max-height: 100%;
+   width: 1050px;
+   height: 760px;
    
 }
 .consultantAccordDet3{
    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
    background-repeat: no-repeat; 
    background-size: cover;
+   max-width: 100%;
+   max-height: 100%;
+   width: 1050px;
+   height: 760px;
    
 }
 .consultantAccordDet4{
    background-image: url("https://img.freepik.com/premium-photo/water-color-abstract-background-painting_23-2148117961.jpg?size=626&ext=jpg&ga=GA1.2.1642244458.1661524207");
    background-repeat: no-repeat; 
    background-size: cover;
+   max-width: 100%;
+   max-height: 100%;
+   width: 1050px;
+   height: 760px;
    
 } 
 @media only screen and (max-width:1024px){
@@ -1247,18 +1263,38 @@ button.consultantAccordHead5{
    }
   .consultantAccordDet1{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 960px;
+   height: 760px;
   }
   .consultantAccordDet2{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 960px;
+   height: 760px;
   }
   .consultantAccordDet3{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 960px;
+   height: 760px;
   }
   .consultantAccordDet4{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 960px;
+   height: 760px;
   }
   .consultantAccordDet5{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 960px;
+   height: 760px;
   }
    .consultantCard1{
        width: 300px; 
@@ -1336,7 +1372,7 @@ button.consultantAccordHead5{
        font-size: 20px !important;
    }
 }
-@media only screen and (max-width:912px) and (min-width:769px){
+@media only screen and (max-width:912px) and (min-width:901px){
    .dupConsultant{
        margin-top: 100px;
    }
@@ -1405,15 +1441,31 @@ button.consultantAccordHead5{
    }
   .consultantAccordDet1{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 920px;
+   height: 760px;
   }
   .consultantAccordDet2{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 920px;
+   height: 760px;
   }
   .consultantAccordDet3{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 920px;
+   height: 760px;
   }
   .consultantAccordDet4{
    padding-bottom: 50px !important;
+   max-width: 100%;
+   max-height: 100%;
+   width: 920px;
+   height: 760px;
   }
   .consultantAccordDet5{
    padding-bottom: 50px !important;
@@ -1444,9 +1496,9 @@ button.consultantAccordHead5{
        margin-top: 30px;
    }
    .consultantCard5{
-       width: 270px;
+       width: 280px;
        margin-top: 40px;
-       margin-left: 160px;
+       margin-left: 155px;
        height: 410px; 
        margin-top: 30px;
    }
@@ -1469,7 +1521,7 @@ button.consultantAccordHead5{
        width:360px !important;
        height: 200px  ; 
        margin-top: 100px;  
-       margin-left: -35px;
+       margin-left: 0px;
    }
    .consultantHeadGraph1{
        margin-top: -30px !important;
@@ -1494,6 +1546,354 @@ button.consultantAccordHead5{
        font-size: 20px !important;
    }
 }
+@media only screen and (max-width:900px) and (min-width:891px){
+    .dupConsultant{
+        margin-top: 100px;
+    }
+    .consultantAccordHead1{
+        color: #23BDB8;
+        font-size: 18px !important;
+        font-weight: 650  !important;
+       margin-left: 50px !important;
+       padding: 10px 0;
+    }
+    .consultantAccordHead2{
+        color: #23BDB8;
+        font-size: 18px !important;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+    }
+    .consultantAccordHead3{
+        color: #23BDB8;
+        font-size: 18px !important ;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+    }
+    .consultantAccordHead4{
+        color: #23BDB8;
+        font-size: 18px !important ;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+    }
+    button.consultantAccordHead5{
+        color: #23BDB8;
+        font-size: 18px !important ;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .consultantAccordIcon1{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon2{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon3{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon4{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon5{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+   .consultantAccordDet1{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 760px;
+   }
+   .consultantAccordDet2{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 760px;
+   }
+   .consultantAccordDet3{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 760px;
+   }
+   .consultantAccordDet4{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 760px;
+   }
+   .consultantAccordDet5{
+    padding-bottom: 50px !important;
+   }
+    .consultantCard1{
+        width: 280px; 
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .consultantCard2{
+        width: 280px;
+        height: 250px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    .consultantCard3{
+        width: 280px;
+        height: 250px;
+        margin-left: 8px;
+        margin-top: 30px;
+    }
+    .consultantCard4{
+        width: 575px;
+        margin-top: 40px;
+        margin-left: 0px;
+        height: 410px;
+        margin-top: 30px;
+    }
+    .consultantCard5{
+        width: 280px;
+        margin-top: 40px;
+        margin-left: 155px;
+        height: 410px; 
+        margin-top: 30px;
+    }
+    .consultantGraph1{
+        height: 230px;
+    }
+    .consultantGraph2{
+        height: 210px;
+    }
+    .consultantGraph3{
+        height: 200px;
+    }
+    .consultantGraph4{
+        width:500px !important;
+        height: 300px  ;
+        margin-left: 35px;
+        margin-top: 55px;
+    }
+    .consultantGraph5{ 
+        width:360px !important;
+        height: 200px  ; 
+        margin-top: 100px;  
+        margin-left: 0px;
+    }
+    .consultantHeadGraph1{
+        margin-top: -30px !important;
+        text-align: left;
+        margin-left: 5px !important;
+        color: #4a6f8a;
+        font-size: 20px !important;
+    }
+    
+    .consultantHeadGraph2{
+        margin-top: -10px !important;
+        text-align: left;
+        margin-left: 5px !important;
+        color: #4a6f8a;
+        font-size: 20px !important;
+    }
+    .consultantHeadGraph3{
+        margin-top: 0px !important;
+        text-align: left;
+        margin-left: 5px !important;
+        color: #4a6f8a;
+        font-size: 20px !important;
+    }
+ }
+ @media only screen and (max-width:890px) and (min-width:769px){
+    .dupConsultant{
+        margin-top: 100px;
+    }
+    .consultantAccordHead1{
+        color: #23BDB8;
+        font-size: 18px !important;
+        font-weight: 650  !important;
+       margin-left: 50px !important;
+       padding: 10px 0;
+    }
+    .consultantAccordHead2{
+        color: #23BDB8;
+        font-size: 18px !important;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+    }
+    .consultantAccordHead3{
+        color: #23BDB8;
+        font-size: 18px !important ;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+    }
+    .consultantAccordHead4{
+        color: #23BDB8;
+        font-size: 18px !important ;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+    }
+    button.consultantAccordHead5{
+        color: #23BDB8;
+        font-size: 18px !important ;
+        font-weight: 650  !important;
+        margin-left: 50px !important;
+        padding: 10px 0;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .consultantAccordIcon1{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon2{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon3{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon4{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+    .consultantAccordIcon5{
+        margin-top:0px; 
+        position: absolute;
+        margin-left: -30px;
+    }
+   .consultantAccordDet1{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 890px;
+    height: 760px;
+   }
+   .consultantAccordDet2{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 890px;
+    height: 760px;
+   }
+   .consultantAccordDet3{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 890px;
+    height: 760px;
+   }
+   .consultantAccordDet4{
+    padding-bottom: 50px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 890px;
+    height: 760px;
+   }
+   .consultantAccordDet5{
+    padding-bottom: 50px !important;
+   }
+    .consultantCard1{
+        width: 280px; 
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .consultantCard2{
+        width: 280px;
+        height: 250px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    .consultantCard3{
+        width: 280px;
+        height: 250px;
+        margin-left: 8px;
+        margin-top: 30px;
+    }
+    .consultantCard4{
+        width: 572px;
+        margin-top: 40px;
+        margin-left: 0px;
+        height: 410px;
+        margin-top: 30px;
+    }
+    .consultantCard5{
+        width: 280px;
+        margin-top: 40px;
+        margin-left: 153px;
+        height: 410px; 
+        margin-top: 30px;
+    }
+    .consultantGraph1{
+        height: 230px;
+    }
+    .consultantGraph2{
+        height: 210px;
+    }
+    .consultantGraph3{
+        height: 200px;
+    }
+    .consultantGraph4{
+        width:500px !important;
+        height: 300px  ;
+        margin-left: 35px;
+        margin-top: 55px;
+    }
+    .consultantGraph5{ 
+        width:360px !important;
+        height: 200px  ; 
+        margin-top: 100px;  
+        margin-left: 0px;
+    }
+    .consultantHeadGraph1{
+        margin-top: -30px !important;
+        text-align: left;
+        margin-left: 5px !important;
+        color: #4a6f8a;
+        font-size: 20px !important;
+    }
+    
+    .consultantHeadGraph2{
+        margin-top: -10px !important;
+        text-align: left;
+        margin-left: 5px !important;
+        color: #4a6f8a;
+        font-size: 20px !important;
+    }
+    .consultantHeadGraph3{
+        margin-top: 0px !important;
+        text-align: left;
+        margin-left: 5px !important;
+        color: #4a6f8a;
+        font-size: 20px !important;
+    }
+ }
 @media only screen and (max-width:768px) and (min-width:673px){
    .dupConsultant{
        margin-top: 100px;
@@ -1519,9 +1919,15 @@ button.consultantAccordHead5{
        margin-left: -30px;
    }
    .consultantAccordIcon5{
-       margin-top:-3px; 
+       margin-top:-3px !important; 
        position: absolute;
        margin-left: -30px;
+   }
+   .consultantAccordDet1,.consultantAccordDet2,.consultantAccordDet3,.consultantAccordDet4{ 
+    max-width: 100%;
+    max-height: 100%;
+    width: 770px;
+    height: 680px;
    }
    .consultantAccordHead1{
        color: #23BDB8;
@@ -1565,32 +1971,32 @@ button.consultantAccordHead5{
        .consultantCard1{
             width: 200px; 
            height: 250px;
-           margin-left: 10px;
+           margin-left: 20px;
            margin-top: 30px;
        }
        .consultantCard2{
             width: 200px;
            height: 250px;
-           margin-left: 15px;
+           margin-left: 20px;
            margin-top: 30px;
        }
        .consultantCard3{
           width: 200px  ;
            height: 250px;
-           margin-left: 15px;
+           margin-left: 20px;
            margin-top: 30px;
        }
        .consultantCard4{
-           width: 470px;
+           width: 448px;
            margin-top: 40px;
-           margin-left: 10px;
+           margin-left: 20px;
            height: 320px;
            margin-top: 30px;
        }
        .consultantCard5{
-           width: 220px;
+           width: 200px;
            margin-top: 40px;
-           margin-left: 140px;
+           margin-left: 145px;
            height: 320px; 
            margin-top: 30px;
        }
@@ -1606,14 +2012,14 @@ button.consultantAccordHead5{
        .consultantGraph4{
            width:400px !important;
            height: 250px  ;
-           margin-left: 40px;
+           margin-left: 25px;
            margin-top: 35px;
        }
        .consultantGraph5{ 
            width:300px !important;
            height: 200px  ; 
            margin-top: 70px;  
-           margin-left: -30px;
+           margin-left: 0px;
        }
        .consultantHeadGraph1{
            margin-top: -20px !important;
@@ -1679,6 +2085,12 @@ button.consultantAccordHead5{
        background-color: white;
        border: none;
        cursor: pointer;
+   }
+   .consultantAccordDet1,.consultantAccordDet2,.consultantAccordDet3,.consultantAccordDet4{ 
+    max-width: 100%;
+    max-height: 100%;
+    width: 680px;
+    height: 680px;
    }
 
        .consultantCard1{
@@ -1811,6 +2223,12 @@ button.consultantAccordHead5{
        position: absolute;
        margin-left: -30px;
    }
+   .consultantAccordDet1,.consultantAccordDet2,.consultantAccordDet3,.consultantAccordDet4{ 
+    max-width: 100%;
+    max-height: 100%;
+    width: 640px;
+    height: 680px;
+   }    
    .consultantAccordHead1{
        color: #23BDB8;
        font-size: 14px !important;
@@ -1955,6 +2373,12 @@ button.consultantAccordHead5{
        position: absolute;
        margin-left: -30px;
    }
+   .consultantAccordDet1,.consultantAccordDet2,.consultantAccordDet3,.consultantAccordDet4{ 
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 650px;
+   }
    .consultantAccordHead1{
        color: #23BDB8;
        font-size: 14px !important;
@@ -2074,25 +2498,28 @@ button.consultantAccordHead5{
    .dupConsultant{
        margin-top: 90px;
    }
+   
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       height: 1750px;
+       max-height: 100%;
    }
    .consultantAccordDet2{
        background-color: #F5FFFA ; 
-       background-image: none;
+       background-image: none; 
+       max-height: 100%;
        
    }
    .consultantAccordDet3{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       max-height: 100%;
    }
    .consultantAccordDet4{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       max-height: 100%;
    }
    .ConsultantTabPanel1{ 
         width:100% ; 
@@ -2115,31 +2542,31 @@ button.consultantAccordHead5{
        .consultantCard1{
            width: 450px; 
            height: 300px;
-           margin-left: 60px;
+           margin-left: 55px;
            margin-top: 40px;
        }
        .consultantCard2{
            width: 450px;
            height: 300px;
-           margin-left: 60px;
+           margin-left: 55px;
            margin-top: 40px;
        }
        .consultantCard3{
            width: 450px;
            height: 300px;
-           margin-left: 60px;
+           margin-left: 55px;
            margin-top: 40px;
        }
        .consultantCard4{
            width: 450px;
            margin-top: 40px;
-           margin-left: 60px;
+           margin-left:55px;
            height: 300px;
            margin-top: 40px;
        }
        .consultantCard5{
            width: 450px; 
-           margin-left: 60px;
+           margin-left: 55px;
            height: 300px; 
            margin-top: 40px;
        }
@@ -2194,21 +2621,25 @@ button.consultantAccordHead5{
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       max-height: 100%;
+       height: 1750px;
    }
    .consultantAccordDet2{
        background-color: #F5FFFA ; 
        background-image: none;
+       max-height: 100%;
        
    }
    .consultantAccordDet3{
        background-color: #F5FFFA ; 
        background-image: none;
+       max-height: 100%;
        
    }
    .consultantAccordDet4{
        background-color: #F5FFFA ; 
        background-image: none;
+       max-height: 100%;
        
    }
    .consultantAccordDet1{
@@ -2229,31 +2660,31 @@ button.consultantAccordHead5{
        .consultantCard1{
            width: 400px; 
            height: 300px;
-           margin-left: 60px;
+           margin-left: 55px;
            margin-top: 40px;
        }
        .consultantCard2{
            width: 400px;
            height: 300px;
-           margin-left: 60px;
+           margin-left:55px;
            margin-top: 40px;
        }
        .consultantCard3{
            width: 400px;
            height: 300px;
-           margin-left: 60px;
+           margin-left: 55px;
            margin-top: 40px;
        }
        .consultantCard4{
            width: 400px;
            margin-top: 40px;
-           margin-left: 60px;
+           margin-left: 55px;
            height: 300px;
            margin-top: 40px;
        }
        .consultantCard5{
            width: 400px; 
-           margin-left: 60px;
+           margin-left: 55px;
            height: 300px; 
            margin-top: 40px;
        }
@@ -2333,6 +2764,7 @@ button.consultantAccordHead5{
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
+       height: 1750px;
        
    }
    .consultantAccordDet2{
@@ -2447,22 +2879,25 @@ button.consultantAccordHead5{
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       max-height: 100%;
+       height: 1600px;
    }
    .consultantAccordDet2{
        background-color: #F5FFFA ; 
        background-image: none;
+       max-height: 100%;
        
    }
    .consultantAccordDet3{
        background-color: #F5FFFA ; 
        background-image: none;
+       max-height: 100%;
        
    }
    .consultantAccordDet4{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       max-height: 100%;
    }
    .consultantAccordDet1{
        padding-bottom: 50px !important;
@@ -2482,34 +2917,34 @@ button.consultantAccordHead5{
        .consultantCard1{
            width: 373px; 
            height: 250px;
-           margin-left: 10px;
+           margin-left: 40px;
            margin-top: 30px;
        }
        .consultantCard2{
            width: 373px;
            height: 250px;
-           margin-left: 10px;
+           margin-left: 40px;
            margin-top: 40px;
        }
        .consultantCard3{
            width: 373px;
            height: 250px;
-           margin-left: 10px;
+           margin-left: 40px;
            margin-top: 40px;
        }
        .consultantCard4{
            width: 373px;
            margin-top: 40px;
-           margin-left: 10px;
+           margin-left: 40px;
            height: 320px;
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantCard5{
            width: 373px;
            margin-top: 150px;
-           margin-left: 10px;
+           margin-left: 40px;
            height: 320px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -2578,6 +3013,7 @@ button.consultantAccordHead5{
    }
    .consultantAccordDet1{
        padding-bottom: 50px !important;
+       height: 1630px;
       }
       .consultantAccordDet2{
        padding-bottom: 50px !important;
@@ -2614,14 +3050,14 @@ button.consultantAccordHead5{
            margin-top: 40px;
            margin-left: 5px;
            height: 320px;
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantCard5{
            width: 373px;
            margin-top: 150px;
            margin-left: 5px;
            height: 320px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -2690,6 +3126,7 @@ button.consultantAccordHead5{
    }
    .consultantAccordDet1{
        padding-bottom: 50px !important;
+       height: 1630px;
       }
       .consultantAccordDet2{
        padding-bottom: 50px !important;
@@ -2726,14 +3163,14 @@ button.consultantAccordHead5{
            margin-top: 40px;
            margin-left: 5px;
            height: 320px;
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantCard5{
            width: 350px;
            margin-top: 150px;
            margin-left: 5px;
            height: 320px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -2783,7 +3220,7 @@ button.consultantAccordHead5{
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       height: 1630px;
    }
    .consultantAccordDet2{
        background-color: #F5FFFA ; 
@@ -2838,14 +3275,14 @@ button.consultantAccordHead5{
            margin-top: 40px;
            margin-left: 10px;
            height: 320px;
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantCard5{
            width: 325px;
            margin-top: 150px;
            margin-left: 10px;
            height: 320px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -2895,7 +3332,7 @@ button.consultantAccordHead5{
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       height: 1620px;
    }
    .consultantAccordDet2{
        background-color: #F5FFFA ; 
@@ -2956,7 +3393,7 @@ button.consultantAccordHead5{
            margin-top: 150px;
            margin-left: 3px;
            height: 320px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -3061,14 +3498,14 @@ button.consultantAccordHead5{
            margin-top: 40px;
            margin-left: 10px;
            height: 320px;
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantCard5{
            width: 270px;
            margin-top: 150px;
            margin-left: 10px;
            height: 320px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -3118,7 +3555,7 @@ button.consultantAccordHead5{
    .consultantAccordDet1{
        background-color: #F5FFFA ; 
        background-image: none;
-       
+       height: 1500px;
    }
    .consultantAccordDet2{
        background-color: #F5FFFA ; 
@@ -3173,14 +3610,14 @@ button.consultantAccordHead5{
            margin-top: 40px;
            margin-left: 0px;
            height: 250px;
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantCard5{
            width: 250px;
            margin-top: 150px;
            margin-left: 0px;
            height: 250px; 
-           margin-top: 30px;
+           margin-top: 40px;
        }
        .consultantGraph1{
            height: 220px;
@@ -3294,3 +3731,240 @@ button.consultantAccordHead5{
         overflow-x: scroll !important;
     }
   }
+
+
+  /* History page css */
+
+
+@media screen and (max-width: 2000px){
+
+.historyheader{
+    background: linear-gradient(to right, #23BDB8, #8EE7BA);
+  height: 200px; 
+}
+.historypage{
+  overflow-x: hidden!important;
+}
+.historyheader h1{
+  font-size: 35px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+.historyheading{
+  transform: translate(260px,100px);
+
+}
+}
+@media screen and (max-width: 1440px){
+  historyheading{
+        transform: translate(243px,100px);
+
+  }
+}
+@media screen and (max-width: 1025px){
+  .historyheading{
+    transform: translate(85px,100px);
+
+    }
+}
+@media screen and (max-width: 769px){
+  .historyheading{
+    transform: translate(65px,100px);
+
+  }
+}
+@media screen and (max-width: 426px){
+  .historyheader h1{
+    font-size: 25px;
+
+  }
+  .historyheading {
+    transform: translate(40px,100px);
+
+  }
+}
+@media screen and (max-width: 376px){
+  .historyheading{
+    transform: translate(30px,100px);
+
+  }
+}
+@media screen and (max-width: 321px){
+  .historyheading{
+    transform: translate(30px,100px);
+
+  }
+}
+
+
+/* appoinment section */
+
+
+@media screen and (max-width: 2000px){
+    .appoinmentheader{
+        
+      background: linear-gradient(to right, #23BDB8, #8EE7BA);
+      height: 200px;
+    }
+    .imagearea{
+      text-align: center;
+    }
+    .textarea{
+      text-align: center!important;
+      margin-top: -5px;
+    }
+    .textarea h3{
+      font-size: 26px;
+      color:#0E314C;
+      font-family: 'Poppins', sans-serif;
+    }
+    .appoinmentdetails ul li{
+      display: inline-block;
+      margin-right: 52px;
+    }
+    .textarea p2{
+      font-size: 14px;
+      color: #0E314C;
+      font-family: 'Poppins', sans-serif;
+    }
+    .paraaintro p1{
+      font-size: 14px;
+      color: #0E314C;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+     .paraaintro{
+      width: 600px;
+      text-align: justify;
+      margin-left: 170px;
+      line-height: 25px;
+    }
+    .circleimage{
+      height: 200px!important;
+    }
+    .payement{
+      transform: translateY(-100px);
+    }
+    .payementverification{
+      text-align: center;
+    }
+    .schedule {
+      text-align: center!important;
+    }
+    .button1 {
+      position: relative;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      background: #23BDB8;
+      padding: 1em 2em;
+      border: none;
+      color: white;
+      font-size: 1.2em;
+      cursor: pointer;
+      outline: none;
+      overflow: hidden;
+      border-radius: 100px;
+    }
+    .button1 span {
+      position: relative;
+      pointer-events: none;
+    }
+    .button1::before {
+      --size: 0;
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(circle closest-side, #43E794, transparent);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      transition: width .2s ease, height .2s ease;
+    }
+    .button1:hover::before {
+      --size: 400px;
+    }
+    .button1:hover{transform: translate(1em,1em);}
+    }
+    @media screen and (max-width: 1440px){
+      .paraaintro{
+        margin-left: 140px;
+      }
+    }
+    @media screen and (max-width: 1025px){
+      .paraaintro{
+        margin-left: 100px;
+      }
+    }
+    @media screen and (max-width: 769px){
+      .payement{
+        box-shadow: none;
+      }
+      .paraaintro{
+        margin-left: 65px;
+      }
+    }
+    @media screen and (max-width: 426px){
+      .paraaintro{
+        text-align: left;
+        margin-left: 0px;
+        width: 390px;
+      }
+      .appoinmentdetails ul{
+        text-align: left!important;
+        margin-left: 25px;
+      }
+      .appoinmentdetails ul li{
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        list-style: none;
+      }
+      .textarea{
+        text-align: center!important;
+      }
+      .textarea p2{
+        font-size: 12px;
+      }
+      .paraaintro p1{
+        font-size: 12px;
+      }
+      .payementverification{
+        text-align: center;
+      }
+      .schedule{
+        text-align: center!important;
+      }
+      .textarea{
+        margin-top: 0px;
+      }
+    }
+    @media screen and (max-width: 376px){
+      .paraaintro{
+        width: 340px;
+      }
+    }
+    @media screen and (max-width: 321px){
+      .paraaintro{
+        width: 270px;
+      }
+      .appoinmentdetails ul{
+        margin-left: -18px;
+      }
+    
+      }
+    
+
+
+
+
+
+
+
+
+
+
+

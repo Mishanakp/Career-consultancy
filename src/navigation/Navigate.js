@@ -7,6 +7,7 @@ import Contact from '../pages/contactus/Contact';
 import Payment from '../Authentication/Payment/Payment';
 import SignUp from "../Authentication/SignUp/SingUp";
 
+
 import Login  from '../Authentication/Login/Login';
 import Whoweare from '../pages/Whoweare/Whoweare';
 import Ourconsultants from '../pages/Ourconsultans/OurConsultanssub/Ourconsultants';
@@ -19,16 +20,17 @@ import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
 import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
-
+import ConsultantVerticalTabs from '../pages/consultantDetails/ConsultantVerticalTabs'
 
 
 
 import Myprofile from "../pages/Userdetails/UserProfile/Profile";
-import ConsultantVerticalTabs from "../pages/consultantDetails/ConsultantTab";
+
 
 
 import ConsultantLogin from "../Authentication/consultantlogin/ConsultantLogin";
 import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingUp";
+
 
 
 
@@ -48,15 +50,16 @@ export default function Navigate() {
                     <Route exact path="/" element={<Home />}></Route>
                 
                     <Route path="/Payment" element={<Payment/>}></Route>
-                    <Route path="/login" element={<Login />}></Route>
-                    
+                     <Route path="/login" element={<Login/>}></Route>   
+                  
                     <Route path="/signup" element={<SignUp />}></Route>
-                    <Route path="/consultantLogin" element={<ConsultantLogin />}></Route>
+                    <Route path="/consultantLogin" element={<ConsultantLogin />}></Route> 
+                    
                     <Route path="/consultantsignup" element={<ConsultantSingUp />}></Route>
 
                     
                     <Route path="/whoweare" element={<Whoweare/>}></Route>
-                    <Route path="/consultantdetails" element={<ConsultantVerticalTabs/>}></Route>
+                  
                     <Route path="/ourconsultans" element={<Ourconsultants/>}></Route>
 
                     <Route path="/bookappoinments" element={<BookAppoinments/>}></Route>
