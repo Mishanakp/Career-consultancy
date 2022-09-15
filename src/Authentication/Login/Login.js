@@ -183,7 +183,7 @@ const handleMouseDownPassword2 = (event) => {
       
                             
             />
-<p className='required'>{formErrors.email}</p>
+<p className='requiredlo'>{formErrors.email}</p>
 
 <p className="username" id="use">Password
                </p> 
@@ -217,7 +217,7 @@ const handleMouseDownPassword2 = (event) => {
             
               />
               <br/>
-              <p className='required'>{formErrors.password}</p>
+              <p className='requiredlo'>{formErrors.password}</p>
       
     
    
@@ -285,7 +285,7 @@ const handleMouseDownPassword2 = (event) => {
       
                             
             />
-<p className='required'>{formErrors.email}</p>
+<p className='requiredlo'>{formErrors.email}</p>
                
                 {/*********password************/}
   
@@ -321,7 +321,7 @@ const handleMouseDownPassword2 = (event) => {
             
               />
               <br/>
-              <p className='required'>{formErrors.password}</p>
+              <p className='requiredlo'>{formErrors.password}</p>
                         
    
                 {/*********************/}
