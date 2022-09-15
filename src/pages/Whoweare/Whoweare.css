@@ -400,13 +400,13 @@
 @media screen and (max-width:769px) {
       .uk-card-title2 {
             width: 100% !important;
-            margin-left: 20px !important;
+            margin-left: 16px !important;
             transform: translateY(-350px) !important;
       }
       .para-two {
             line-height: 1.7 !important;
             width: 120% !important;
-            margin-left: -67px;
+            margin-left: -73px;
             font-size: 13px;
             transform: translateY(-350px) !important;
       }
@@ -618,8 +618,8 @@ h1.cardMainHead {
 /*------- RESPONSIVE OF LAP  ------*/
 @media screen and (max-width:1024px) and (min-width:767px){
 .cards1 {
-    padding-right: 70px;
-    margin-left: 133px;
+    padding-right: 80px;
+    margin-left: 127px !important;
  }
  h1.cardMainHead {
     padding-right: 7px !important;
@@ -652,7 +652,7 @@ h1.cardMainHead {
 }  
 .cards1 {
     padding-right: 1px;
-    margin-left: 90px;
+    margin-left: 60px;
 }  
 .card1,.card2,.card3,.card4{
     max-width: 270px;
@@ -839,20 +839,23 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-left: -46px !important;
     }
     .gridpara1, .gridpara2, .gridpara3  {
-        width: 75% !important;
+        width: 72% !important;
         word-break: break-all;
     }
+    .gridpara1 {
+        margin-left: 80px !important;
+    }
     .gridhead2 {
-        margin-left: -120px !important;
+        margin-left: -167px !important;
     }
     .gridpara2 {
-        margin-left: -30px !important;
+        margin-left: -22px !important;
     }
     .gridhead3 {
-        margin-left: -300px !important;
+        margin-left: -350px !important;
     }
     .gridpara3 {
-        margin-left: -120px !important;
+        margin-left: -125px !important;
     }
 }
 
@@ -1090,7 +1093,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         overflow-x: hidden !important;
        }
       .section5 {
-        padding-right: 50px;
+        padding-right: 35px !important;
       }
 }
 
