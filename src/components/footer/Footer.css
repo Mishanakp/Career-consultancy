@@ -152,6 +152,19 @@ span.terms:hover{
     span.icon__span{  
         margin-left: -10px; 
     }
+    p.priprivacy__terms{ 
+        margin-left: 1000px; 
+    }
+ }
+ @media only screen and (max-width:1600px) and (min-width:1441px){
+    p.priprivacy__terms{ 
+        margin-left: 750px; 
+    }
+ }
+ @media only screen and (max-width:1440px) and (min-width:1368px){
+    p.priprivacy__terms{ 
+        margin-left: 650px; 
+    }
  }
  @media only screen and (max-width:1367px) and (min-width:1297px){
     h4.footSub{ 
@@ -159,6 +172,9 @@ span.terms:hover{
     }
     span.icon__span{  
         margin-left: 40px; 
+    }
+    p.priprivacy__terms{ 
+        margin-left: 600px; 
     }
  }
  @media only screen and (max-width:1296px) and (min-width:1281px){
@@ -181,7 +197,7 @@ span.terms:hover{
         margin-left: 0px;
     }
     p.pricopyright{ 
-        margin-left: 100px; 
+        margin-left: 50px; 
     }
     p.priprivacy__terms{ 
         margin-left: 550px; 
@@ -204,6 +220,22 @@ span.terms:hover{
     span.icon__span{  
         margin-left: 60px; 
     }
+    ul.footList1{
+        list-style: none;
+        margin-left: 20px;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    ul.footList2{
+        list-style: none;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+    ul.footList3{
+        list-style: none;
+        margin-left: -100px;
+        margin-top: 50px;
+    }
  }
  @media only screen and (max-width:1024px){
   
@@ -213,10 +245,8 @@ span.terms:hover{
 .foot2{ 
     height: 500px; 
 }
-h1.footerLogo{ 
-    padding-top: 220px;
-    padding-left: 150px;
-    font-size: 35px;
+img.footerLogo2{
+    margin-top: 45px;
 }
 ul.footList1{
     list-style: none;
@@ -315,14 +345,14 @@ span.icon__span2:hover{
 p.pricopyright{
     padding: 15px 0;
     text-align: left;
-    margin-left: 80px;
+    margin-left: 5  0px;
     font-size: 14px;
     transform: scale(1.1,1);
     max-width: 100%;
 }
  p.priprivacy__terms{
     padding: 15px 0;
-    margin-left: 280px;
+    margin-left: 230px;
     font-size: 14px;
     transform: scale(1.1,1);
 }
@@ -394,6 +424,9 @@ span.terms:hover{
     }
     .foot2{ 
         height: 600px; 
+    }
+    img.footerLogo2{
+        margin-top: 80px;
     }
     h4.footSub{ 
         padding-top: 50px;
@@ -553,10 +586,9 @@ span.terms:hover{
     .foot2{ 
         height: 600px; 
     }
-    h1.footerLogo{ 
-        padding-top: 260px;
-        padding-left: 150px;
-        font-size: 35px;
+    img.footerLogo2{
+        margin-top: 90px;
+        margin-left: 60px;
     }
     ul.footList1{
         list-style: none;
@@ -758,6 +790,13 @@ span.terms:hover{
             font-size: 12px;
             transform: scale(1.1,1);
         }
+        .icons__footer{
+            margin-left: 40px; 
+            animation: icons;
+            animation-duration: 1s; 
+            position: absolute;
+            margin-top: 35px;
+         }
      }
      @media only screen and (max-width:600px) and (min-width:597px){
         h1.footerLogo{ 
@@ -824,10 +863,9 @@ span.terms:hover{
         .foot2{ 
             height: 650px; 
         }
-        h1.footerLogo{ 
-            padding-top: 80px;
-            padding-left: 0px;
-            font-size: 35px;
+        img.footerLogo2{
+            margin-top: -100px;
+            margin-left: 0px;
         }
         ul.footList1{
             list-style: none;
@@ -951,10 +989,9 @@ span.terms:hover{
         .foot2{ 
             height: 650px; 
         }
-        h1.footerLogo{ 
-            padding-top: 80px;
-            padding-left: 0px;
-            font-size: 35px;
+        img.footerLogo2{
+            margin-top: -100px;
+            margin-left: 0px;
         }
         ul.footList1{
             list-style: none;
@@ -1078,10 +1115,9 @@ span.terms:hover{
             .foot2{ 
                 height: 650px; 
             }
-            h1.footerLogo{ 
-                padding-top: 80px;
-                padding-left: 0px;
-                font-size: 35px;
+            img.footerLogo2{
+                margin-top: -100px;
+                margin-left: 0px;
             }
             ul.footList1{
                 list-style: none;
@@ -1205,10 +1241,9 @@ span.terms:hover{
         .foot2{ 
             height: 700px; 
         }
-        h1.footerLogo{ 
-            padding-top: 60px;
-            padding-left: 0px;
-            font-size: 35px;
+        img.footerLogo2{
+            margin-top: -100px;
+            margin-left: 0px;
         }
         ul.footList1{
             list-style: none;
@@ -1327,6 +1362,10 @@ span.terms:hover{
          @media only screen and (max-width:415px){
             h4.footSub{  
                 margin-left: -120px;
+            }
+            img.footerLogo2{
+                margin-top: -110px;
+                margin-left: 0px;
             }
          }
          @media only screen and (max-width:395px){
@@ -1501,6 +1540,10 @@ span.terms:hover{
                     padding-top: 50px;
                     margin-left: -70px;
                 }
+                img.footerLogo2{
+                    margin-top: -125px;
+                    margin-left: 0px;
+                }
              }
              @media only screen and (max-width:320px){
   
@@ -1510,10 +1553,9 @@ span.terms:hover{
                 .foot2{ 
                     height: 700px; 
                 }
-                h1.footerLogo{ 
-                    padding-top: 50px;
-                    padding-left: 0px;
-                    font-size: 35px;
+                img.footerLogo2{
+                    margin-top: -125px;
+                    margin-left: 0px;
                 }
                 ul.footList1{
                     list-style: none;
@@ -1639,10 +1681,9 @@ span.terms:hover{
                     .foot2{ 
                         height: 700px; 
                     }
-                    h1.footerLogo{ 
-                        padding-top: 50px;
-                        padding-left: 0px;
-                        font-size: 20px;
+                    img.footerLogo2{
+                        margin-top: -125px;
+                        margin-left: -40px;
                     }
                     ul.footList1{
                         list-style: none;

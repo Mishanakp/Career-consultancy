@@ -5,7 +5,7 @@ body{
 
 img.logoCareer{
    width: 70px;
-   margin-top: -15px;
+   margin-top: -10px;
 }
 
 /* Navbar */
@@ -21,8 +21,15 @@ img.logoCareer{
 .active:active{
     color: #23BDB8 !important; 
 }
- 
- 
+.search{
+   margin-top: 10px !important;
+}
+.pribut1{
+   margin-top: 10px !important;
+}
+ .button2{
+   margin-top:5px !important;
+ }
 span.searchicon{
     position: absolute;
     margin-top: 8px; 
@@ -210,7 +217,11 @@ span.searchicon{
     } 
       
  }
-  
+ @media only screen and (max-width:1240px){
+.button2{
+   margin-top: -20px !important;
+}
+ }
  @media only screen and (max-width:1280px){
     .searchbar{
       width: 200px; 
@@ -233,7 +244,19 @@ span.searchicon{
      
       
  }
- 
+ @media only screen and (max-width:1200px) and (min-width:1025px){
+   .button2{
+      margin-top: 3px !important;
+   }
+   img.logoCareer{
+      width: 60px; 
+   }
+ }
+ @media only screen and (max-width:1024px) and (min-width:961px){
+   .button2{
+      margin-top: -20px !important;
+   }
+ }
  @media only screen and (max-width:974px){
    .buttons1,.button2{
         display: none;
@@ -246,6 +269,15 @@ span.searchicon{
     }
  }
  @media only screen and (max-width:960px) and (min-width:913px){
+   img.logoCareer{
+      width: 70px;
+      margin-top: -10px;
+      margin-left: -100px; 
+   }
+   button.open__button{
+      margin-left: 0px; 
+      margin-top: 8px; 
+  }
     .searchbar{
        width: 170px;  
      }
@@ -269,6 +301,15 @@ span.searchicon{
      }
  }
  @media only screen and (max-width:912px){
+   img.logoCareer{
+      width: 60px;
+      margin-top: -10px;
+      margin-left: -100px; 
+   }
+   button.open__button{
+      margin-left: 0px; 
+      margin-top: 8px; 
+  }
    .searchbar{
       width: 200px; 
     }
@@ -355,6 +396,15 @@ span.searchicon{
     }
  }
  @media only screen and (max-width:768px){
+   img.logoCareer{
+      width: 60px;
+      margin-top: -10px;
+      margin-left: -100px; 
+   }
+   button.open__button{
+      margin-left: -20px; 
+      margin-top: 8px; 
+  }
    span.iconNavHome{
       padding-left: 180px  ;
    }
@@ -372,7 +422,15 @@ span.searchicon{
     }
  }
  @media only screen and (max-width:672px) and (min-width:641px){
-     
+   img.logoCareer{
+      width: 60px;
+      margin-top: -10px;
+      margin-left: -80px; 
+   }
+   button.open__button{
+      margin-left: -20px; 
+      margin-top: 8px; 
+  }
      .searchIcon{
        margin-left:   -15px;
      } 
@@ -394,6 +452,15 @@ span.searchicon{
  }
   
  @media only screen and (max-width:640px) and (min-width:601px){
+   img.logoCareer{
+      width: 60px;
+      margin-top: -10px;
+      margin-left: -80px; 
+   }
+   button.open__button{
+      margin-left: -30px; 
+      margin-top: 8px; 
+  }
     .searchIcon{
        margin-left:  30px;
      } 
@@ -417,6 +484,15 @@ span.searchicon{
      }
  }
  @media only screen and (max-width:600px) and (min-width:597px){
+   img.logoCareer{
+      width: 60px;
+      margin-top: -10px;
+      margin-left: -80px; 
+   }
+   button.open__button{
+      margin-left: -30px; 
+      margin-top: 8px; 
+  }
     .searchIcon{
        margin-left:10px;
      } 
@@ -440,12 +516,19 @@ span.searchicon{
      }
  }
  @media only screen and (max-width:596px) and (min-width:542px){
+   img.logoCareer{
+      width: 60px;
+      margin-top: 0px;
+      margin-left: 20px; 
+   }
+   button.open__button{
+      margin-left: 280px;  
+      margin-top: 8px;
+  }
    .off__canvas{ 
       margin-top:91px;   
    }
-    button.open__button{
-       margin-left: 280px;  
-   }
+   
      
   .searchIcon{
     margin-left: 80px; 
@@ -481,8 +564,14 @@ span.searchicon{
   
  }
  @media only screen and (max-width:541px) and (min-width:482px){
+   img.logoCareer{
+      width: 60px;
+      margin-top: 0px;
+      margin-left: 20px; 
+   }
    button.open__button{
-      margin-left: 200px;  
+      margin-left: 280px;  
+      margin-top: 8px;
   }
     
  .searchIcon{
@@ -527,20 +616,26 @@ span.searchicon{
  
  }
  @media only screen and (max-width:481px) and (min-width:431px){
-    button.open__button{
-       margin-left: 210px !important;  
+    img.logoCareer{
+      width: 60px;
+      margin-top: 5px;
+      margin-left: 20px; 
    }
+   button.open__button{
+      margin-left: 200px !important;  
+      margin-top: 8px;
+  }
      
-  .searchIcon{
-    margin-left: 80px; 
+  .searchIcon{  
+    margin-left: 50px; 
     width: 50px;
     border: 1px solid #4a6f8a !important; 
     border-radius: 5px 0px 0px 5px !important;
     border-right: 0px !important;
   }  
-  .searchbar{
+  .searchbar{ 
      width: 200px !important; 
-     margin-left: 120px !important;
+     margin-left: 100px !important;
      border: 1px solid #4a6f8a !important; 
      border-radius: 0px 5px 5px 0px !important;
      border-left: 0px !important;
@@ -578,6 +673,10 @@ span.searchicon{
     }
  }
  @media only screen and (max-width:430px){
+   img.logoCareer{ 
+      margin-top: 5px;
+      margin-left: 20px; 
+   }
     button.open__button{
         margin-left: 200px;  
         width: 95px;
@@ -610,6 +709,15 @@ span.searchicon{
     }
  }
  @media only screen and (max-width:415px){
+   img.logoCareer{
+      min-width: 40px;
+      margin-top:-10px;
+      margin-left: 20px; 
+   }
+   button.open__button{
+      margin-left: 200px !important;  
+      margin-top:-5px; 
+  }
    .searchBar2{
      width: 170px !important;
    }
@@ -618,8 +726,14 @@ span.searchicon{
    }
  }
  @media only screen and (max-width:395px){
+   img.logoCareer{
+      min-width: 40px;
+      margin-top:-10px;
+      margin-left: 20px; 
+   }
    button.open__button{
-      margin-left: 180px;  
+      margin-left: 180px !important;  
+      margin-top:-5px; 
   }
   .off__canvas{   
    width: 80%;    
@@ -640,11 +754,16 @@ span.searchicon{
     .searchIcon2{
        margin-left: 10px;
     }
+    img.logoCareer{
+      min-width: 40px;
+      margin-top:-5px;
+      margin-left: 20px; 
+   }
    button.open__button{
-      margin-left: 160px;  
-      width: 95px;
-      margin-top: -2px;
+      margin-left: 160px !important;  
+      margin-top:-5px; 
   }
+   
   .off__canvas{   
       min-width: 90%;    
    }
@@ -669,10 +788,15 @@ span.searchicon{
  }
  @media only screen and (max-width:380px){
     button.open__button{
-        margin-left: 160px;  
-        width: 95px;
+        margin-left: 100px;  
+        min-width: 90px;
         margin-top: -2px;
     }
+    img.logoCareer{
+      min-width: 40px;
+      margin-top:-5px;
+      margin-left: 20px; 
+   }
     .off__canvas{   
         width: 80%;    
      }
@@ -696,10 +820,16 @@ span.searchicon{
       }
  }
  @media only screen and (max-width:320px){
-    button.open__button{
-        margin-left: 145px;  
-        width: 85px; 
-    }
+   button.open__button{
+      margin-left:130px !important;  
+      min-width: 90px;
+      margin-top: -2px;
+  }
+  img.logoCareer{
+    min-width: 40px;
+    margin-top:-5px;
+    margin-left: 20px; 
+ }
     .off__canvas{   
         width: 100%;    
      }
@@ -731,10 +861,16 @@ span.searchicon{
      .searchIcon2{
         margin-left: 0px;
      }
-    button.open__button{
-        margin-left: 110px;  
-        width: 85px; 
-    }
+     button.open__button{
+      margin-left:100px !important;  
+      min-width: 90px;
+      margin-top: -2px;
+  }
+  img.logoCareer{
+    min-width: 40px;
+    margin-top:-5px;
+    margin-left: 20px; 
+ }
     .off__canvas{   
         width: 100%;    
      }
