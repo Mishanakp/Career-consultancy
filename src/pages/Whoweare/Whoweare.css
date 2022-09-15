@@ -1,4 +1,5 @@
-/*****************SECTION ONE***************/
+/************************************SECTION ONE***********************************/
+/**********************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -165,7 +166,7 @@
     }
     #mishanathirdd.uk-card-title {
        width: 70% !important;
-       transform: translate(-78px,-166px) !important;
+       transform: translate(-78px,-140px) !important;
        font-size: 30px!important;
        color: #0E314C!important;
     }
@@ -180,18 +181,18 @@
 @media screen and (max-width:769px) {
     .para-one {
         width: 120% !important;
-        transform: translate(-300px,-200px) !important;
+        transform: translate(-300px,-300px) !important;
         font-size: 13px!important;
         line-height: 1.7!important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
         padding-top: 90px !important;
         width: 50% !important;
-        transform: translate(21px,158px)!important;
+        transform: translate(21px,50px)!important;
     }
     #mishanathirdd.uk-card-title {
         width: 100% !important;
-        transform: translate(-274px,-199px) !important;
+        transform: translate(-274px,-310px) !important;
     }
     
 }
@@ -253,7 +254,8 @@
 
 
 
-/********************SECTION SECOND*********************/
+/****************************************SECTION SECOND****************************************/
+/**********************************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .mishsectionportion .uk-card-default {
@@ -275,7 +277,7 @@
       color: #0E314C;
       padding-top: 50px;
       font-size: 35px;
-      transform: translate(180px,-260px);
+      transform: translate(180px,-150px);
       width: 50% !important ;
       font-family: 'Poppins', sans-serif;
       font-weight: 650;
@@ -374,24 +376,20 @@
 @media only screen and (max-width:640px) and (min-width:600px) {}
 
 
-
-
-/*--------  RESPONSIVE SECTION --------*/
-
 /*------   Laptop view  ------*/
 @media screen and (max-width:1024px) and (min-width:767px){
       .uk-card-title2 {
-            margin-left: -130px !important;
+            margin-left: 65px !important;
             font-size: 30px;
             width: 80% !important;
-            
+            transform: translateY(-200px);
       }
       .para-two {
             width: 110%;
-            transform: translate(-55px,-250px);
+            transform: translate(-55px,-200px);
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(560px,-550px);
+            transform: translate(560px,-500px);
             width: 91% !important;
       }
 }
@@ -402,16 +400,18 @@
 @media screen and (max-width:769px) {
       .uk-card-title2 {
             width: 100% !important;
-            margin-left: -155px !important;
+            margin-left: 20px !important;
+            transform: translateY(-350px) !important;
       }
       .para-two {
             line-height: 1.7 !important;
             width: 120% !important;
-            margin-left: -10px;
+            margin-left: -67px;
             font-size: 13px;
+            transform: translateY(-350px) !important;
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(415px,-474px) !important;
+            transform: translate(415px,-600px) !important;
             width: 90% !important;
       }
 }
@@ -468,7 +468,9 @@
 
 
 
-/*******************SECTION THIRD*********************/
+/******************************************SECTION THIRD***************************************/
+/**********************************************************************************************/
+
 .homeCard{
     transform: translateY(-550px) !important;
     margin-top: -10px;
@@ -617,7 +619,7 @@ h1.cardMainHead {
 @media screen and (max-width:1024px) and (min-width:767px){
 .cards1 {
     padding-right: 70px;
-    margin-left: 120px;
+    margin-left: 133px;
  }
  h1.cardMainHead {
     padding-right: 7px !important;
@@ -732,7 +734,8 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 
 
 
-/******************SECTION FOUR*****************/
+/********************************************SECTION FOUR***************************************/
+/***********************************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .css-1sir9cm-MuiPaper-root {
@@ -867,32 +870,32 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 98% !important;
     }
     .gridhead1 {
-        transform: translateX(-180px);
+        transform: translateX(-140px);
         width: 200% !important;
     }
     .gridhead2 {
-        transform: translateX(45px);
+        transform: translateX(85px);
         width: 200% !important;
     }
     .gridhead3 {
         margin-left: 0px !important;
-        transform: translateX(-20px);
+        transform: translateX(15px);
         width: 200% !important;
     }
     .gridpara1 {
-        width: 150% !important;
-        transform: translateX(-150px);
+        width: 130% !important;
+        transform: translateX(-85px);
      
     }
     .gridpara2 {
         margin-left: 10px !important;
-        width: 150% !important;
-        transform: translateX(-50px);
+        width: 130% !important;
+        transform: translateX(15px);
     }
     .gridpara3 {
-        margin-left: -130px !important;
+        margin-left: -60px !important;
         transform: translateX(140px);
-        width: 150% !important;
+        width: 130% !important;
     }
 }
 
