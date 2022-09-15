@@ -2608,6 +2608,12 @@ font-size: 30px;
   margin-left: -32px;
   margin-top: 40px
   }
+  .editprofile{
+    transform: translateY(-50px);
+  }
+  .editicon{
+    font-size: 20px;
+  }
   .localphone{
       margin-left: -27px;
   }
