@@ -10,6 +10,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import penicon from '../../../Assets/userprofile/penicon.png'
 function Myprofile() {
   const [data,setData]=useState();
   console.log(data)
@@ -57,41 +58,19 @@ function Myprofile() {
   <div className="email">
     <ul>
       <li>
-    <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/> poojaroy@gmail.com <EditIcon onClick={handleOpen}/> </p2>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title1"
-        aria-describedby="modal-modal-description1"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title1" >
-          poojaroy@gmail.com
-                    </Typography>
-          <Typography id="modal-modal-description1" sx={{ mt: 2 }}>
-          </Typography>
-        </Box>
-      </Modal>
+    <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/> poojaroy@gmail.com  </p2>
+      
 </li>
 <li>
-  <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/> +7673 89994 <EditIcon onClick={handleOpen}/></p2>
-  <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-          +7673 89994        
-            </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-          </Typography>
-        </Box>
-      </Modal>
+  <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/> +7673 89994 </p2>
+ 
   </li>
   <li>
-    <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/> Kochi, Kerala <EditIcon onClick={handleOpen}/></p2>
+    <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/> Kochi, Kerala </p2>
+  </li>
+  <li>
+    <div className="editprofile">
+<img src={penicon} className="editicon" alt=""   onClick={handleOpen} />
     <Modal
         open={open}
         onClose={handleClose}
@@ -100,11 +79,20 @@ function Myprofile() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
+          <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/>: poojaroy@gmail.com  </p2>
+          <br/>
+          <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/>: +7673 89994 </p2>
+          <br/>
+          <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/>: Kochi, Kerala </p2>
+
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <p3> 5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p3>
+
           </Typography>
         </Box>
       </Modal>
+    </div>
   </li>
   </ul>
 </div>

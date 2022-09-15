@@ -339,7 +339,120 @@ export default function ConsultantVerticalTabs() {
 
       </ConsultantTabPanel>
       <ConsultantTabPanel className="ConsultantTabPanel3"  value={Consultantvalue} index={2}>
-       r
+      <div className="historypage" >
+<Box sx={{ flexGrow: 1 }} >
+      <Grid container spacing={2}> 
+      <Grid xl={12} lg={12} md={12} sm={12} xs={12}>
+        <div className="historyheader">
+          <div className="historyheading">
+<h1>APPOINTMENT HISTORY</h1>
+</div>
+        </div>
+      </Grid>
+
+
+        <Grid xl={2} lg={2} md={1} sm={1} xs={1}  ></Grid>
+    <Grid xl={8} lg={8} md={10} sm={10} xs={10}>
+      <br/>
+  <TableContainer component={Paper}>
+      <Table  aria-label="customized table">
+        <TableHead>
+          <TableRow>
+            <StyledTableCell  align="left" className='textappoinhead'>NAME</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>DATE</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>EMAIL</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>AMOUNT</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>STATUS</StyledTableCell>
+
+          </TableRow>
+        </TableHead>
+        <TableBody>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row" className='textappoin'>
+            Saljith
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>saljith@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 5000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Pending</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+             Shahida jubil
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>shahidha@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 7000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Princy
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>princy@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 9000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Failed</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Anu Prins
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>anu@gmail.com </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 7500</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+               </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Mishana kp
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell  className='textappoin' align="left">mishana@gmail.com
+               </StyledTableCell>
+               <StyledTableCell align="left" className='textappoin'>Rs 8000</StyledTableCell>
+               <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+        Nandana Roy
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>nandan@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 10000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Failed</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+              Robert D. Buckland
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>robert@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 4000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+            </StyledTableRow>
+        </TableBody>
+      </Table>
+    </TableContainer>
+    </Grid>
+
+    <Grid item xl={2} lg={2} md={1} sm={1} xs={1}> 
+    </Grid>
+    <br/>
+    </Grid>
+    </Box>
+     </div>
+
+
+
+       
       </ConsultantTabPanel>
       <ConsultantTabPanel  className="ConsultantTabPanel4" value={Consultantvalue} index={3}>
       rh 
@@ -567,8 +680,116 @@ export default function ConsultantVerticalTabs() {
         </AccordionSummary>
         <AccordionDetails className='consultantAccordDet3'>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <div className="historypage" >
+<Box sx={{ flexGrow: 1 }} >
+      <Grid container spacing={2}> 
+      <Grid xl={12} lg={12} md={12} sm={12} xs={12}>
+        <div className="historyheader">
+          <div className="historyheading">
+<h1>APPOINTMENT HISTORY</h1>
+</div>
+        </div>
+      </Grid>
+
+
+        <Grid xl={2} lg={2} md={1} sm={1} xs={1}  ></Grid>
+    <Grid xl={8} lg={8} md={10} sm={10} xs={10}>
+      <br/>
+  <TableContainer component={Paper}>
+      <Table  aria-label="customized table">
+        <TableHead>
+          <TableRow>
+            <StyledTableCell  align="left" className='textappoinhead'>NAME</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>DATE</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>EMAIL</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>AMOUNT</StyledTableCell>
+            <StyledTableCell align="left" className='textappoinhead'>STATUS</StyledTableCell>
+
+          </TableRow>
+        </TableHead>
+        <TableBody>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row" className='textappoin'>
+            Saljith
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>saljith@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 5000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Pending</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+             Shahida jubil
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>shahidha@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 7000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Princy
+              </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>princy@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 9000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Failed</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Anu Prins
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>anu@gmail.com </StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 7500</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+               </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+            Mishana kp
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell  className='textappoin' align="left">mishana@gmail.com
+               </StyledTableCell>
+               <StyledTableCell align="left" className='textappoin'>Rs 8000</StyledTableCell>
+               <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+        Nandana Roy
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>nandan@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 10000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Failed</StyledTableCell>
+
+            </StyledTableRow>
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row"  className='textappoin'>
+              Robert D. Buckland
+              </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
+              <StyledTableCell align="left"  className='textappoin'>robert@gmail.com</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Rs 4000</StyledTableCell>
+              <StyledTableCell align="left" className='textappoin'>Successful</StyledTableCell>
+
+            </StyledTableRow>
+        </TableBody>
+      </Table>
+    </TableContainer>
+    </Grid>
+
+    <Grid item xl={2} lg={2} md={1} sm={1} xs={1}> 
+    </Grid>
+    <br/>
+    </Grid>
+    </Box>
+     </div>
           </Typography>
         </AccordionDetails>
       </Accordion>
