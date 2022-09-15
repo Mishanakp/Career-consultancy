@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import "./Userprofile.css"
+import TextField from '@mui/material/TextField';
+
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
@@ -54,7 +56,7 @@ function Myprofile() {
 <h3>Fresher</h3>
   </div>
 </Grid>
-<Grid item xl={7} lg={6} md={7} sm={7} xs={12}>
+<Grid item xl={7} lg={7} md={7} sm={7} xs={12}>
   <div className="email">
     <ul>
       <li>
@@ -68,32 +70,7 @@ function Myprofile() {
   <li>
     <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/> Kochi, Kerala </p2>
   </li>
-  <li>
-    <div className="editprofile">
-<img src={penicon} className="editicon" alt=""   onClick={handleOpen} />
-    <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description3"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-          <p2 ><EmailIcon sx={{ color:'#23BDB8'}}/>: poojaroy@gmail.com  </p2>
-          <br/>
-          <p2 ><LocalPhoneIcon sx={{ color:'#23BDB8' }}/>: +7673 89994 </p2>
-          <br/>
-          <p2><AddLocationIcon sx={{ color:'#23BDB8' }}/>: Kochi, Kerala </p2>
-
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-          <p3> 5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p3>
-
-          </Typography>
-        </Box>
-      </Modal>
-    </div>
-  </li>
+  
   </ul>
 </div>
 <br/>
@@ -102,7 +79,62 @@ function Myprofile() {
 <p3> 5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p3>
 </div>
 </Grid>
-<Grid item xl={1} lg={2} md={1} sm={1}>
+<Grid item xl={1} lg={1} md={1} sm={1}>
+<div className="editprofile">
+<img src={penicon} className="editicon" alt=""   onClick={handleOpen} />
+    <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description3"
+      >
+        <Box sx={style}>
+          <Typography id="modal-modal-title" variant="h6" component="h2" style={{textAlign:'left'}}>
+         <div className="userdetailsedit">
+         <ul>  
+         <li>
+          <p2>Email</p2><br/>
+          <TextField className="editbox" type="text" name="Email" placeholder="Email "  variant="outlined" />
+          </li>
+          <br/>
+          <li>
+          <p2>Contact Number</p2><br/>
+
+          <TextField className="editbox" type="text" name="Contact Number" placeholder="Contact Number"  variant="outlined" />
+ 
+ </li>
+          <br/>
+          <li>
+          <p2>Location</p2><br/>
+
+  <TextField className="editbox" type="text" name="Location" placeholder="Location"  variant="outlined" />        </li>
+       <br/>
+         <li>
+       <p2>About</p2>
+          <Box className="messagebox" component="form" sx={{
+        '& .MuiTextField-root': { m: 0, width:'300px',},}}noValidate autoComplete="off">
+ <TextField
+          id="editabout"
+          label="About"
+          placeholder="About"
+          multiline
+          rows={4}
+         />
+        </Box>
+        </li>
+                <br/>
+                <div className='editbutton'>
+        <button class="buttonedit"><span>Save Changes</span> </button>
+        </div>
+        </ul>
+
+        </div>
+
+          </Typography>
+          
+        </Box>
+      </Modal>
+      </div>
 </Grid>
         </Grid>
         </Box>
