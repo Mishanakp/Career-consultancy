@@ -20,6 +20,7 @@ import Guide from '../pages/BookAppoinments/Guide/Guide';
 import Category from '../pages/BookAppoinments/Category/Category';
 import Form from "../pages/Userdetails/Form/Form";
 import Booksession from "../pages/Ourconsultans/Booksession/Booksession";
+
 import ConsultantVerticalTabs from '../pages/consultantDetails/ConsultantVerticalTabs'
 
 
