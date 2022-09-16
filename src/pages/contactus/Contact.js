@@ -120,7 +120,7 @@ function Contact() {
         />
         </Box>
         <br/>
-        <button class="button1"><span>Send Message</span> </button>
+        <button class="buttoncontact"><span>Send Message</span> </button>
 </div>
 </Grid>
 
@@ -342,7 +342,7 @@ function Contact() {
         />
         </Box>
         <br/>
-        <button class="button1"><span>Send Message</span> </button>
+        <button class="buttoncontact"><span>Send Message</span> </button>
 </div>
 
 </Grid>

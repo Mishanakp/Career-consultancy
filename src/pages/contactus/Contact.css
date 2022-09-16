@@ -85,7 +85,7 @@ margin-left: 6px;
 }
    
 
-.button1 {
+.buttoncontact {
   position: relative;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -101,11 +101,11 @@ margin-left: 6px;
   border-radius: 100px;
   margin-left: 17px;
 }
-.button1 span {
+.buttoncontact span {
   position: relative;
   pointer-events: none;
 }
-.button1::before {
+.buttoncontact::before {
   --size: 0;
   content: '';
   position: absolute;
@@ -118,7 +118,7 @@ margin-left: 6px;
           transform: translate(-50%, -50%);
   transition: width .2s ease, height .2s ease;
 }
-.button1:hover::before {
+.buttoncontact:hover::before {
   --size: 400px;
 }
 
@@ -235,7 +235,7 @@ color: white;
   #outlined-textarea{
     width: 310px;
   }
-  .button1 {
+  .buttoncontact {
 margin-left: 78px!important;
   }
   .expansion{
@@ -251,7 +251,7 @@ margin-left: 78px!important;
   #outlined-textarea{
     width: 273px;
   }
-  .button1{
+  .buttoncontact{
     margin-left: 61px!important;
   }
 
@@ -267,7 +267,7 @@ margin-left: 78px!important;
   #outlined-textarea{
     width: 233px;
   }
-  .salsecond .button1{
+  .salsecond .buttoncontact{
     width: 200px;
     margin-left: 0px!important;
   }
@@ -285,7 +285,7 @@ margin-left: 78px!important;
   .salsecond .message{
     margin-left: -19px;
   }
-  .salsecond .button1{
+  .salsecond .buttoncontact{
     margin-left: 0px!important;
     width: 170px;
   }

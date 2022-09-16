@@ -201,15 +201,15 @@
 /*  Mobile view  Large */
 @media screen and (max-width:426px) {
     #mishanathirdd.uk-card-title {
-        transform: translate(-644px,-295px) !important;
+        transform: translate(-644px,-355px) !important;
     }
     .para-one {
-        transform: translate(-660px,-304px) !important;
+        transform: translate(-659px,-353px) !important;
         width: 106% !important;
         font-size: 14px!important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translate(9px,314px) !important;
+        transform: translate(18px,380px) !important;
         width: 96% !important;
     }
 }
@@ -400,13 +400,13 @@
 @media screen and (max-width:769px) {
       .uk-card-title2 {
             width: 100% !important;
-            margin-left: 20px !important;
+            margin-left: 16px !important;
             transform: translateY(-350px) !important;
       }
       .para-two {
             line-height: 1.7 !important;
             width: 120% !important;
-            margin-left: -67px;
+            margin-left: -73px;
             font-size: 13px;
             transform: translateY(-350px) !important;
       }
@@ -422,14 +422,14 @@
       .para-two {
           width: 106% !important;
           font-size: 14px;
-          transform: translate(-53px, -199px) !important;
+          transform: translate(10px, -199px) !important;
       }
       .uk-card-title2 {
             margin-left: -180px !important;
             transform: translate(180px,-199px) !important;
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(9px,-200px) !important;
+            transform: translate(21px,-200px) !important;
       }
 }
 
@@ -618,8 +618,8 @@ h1.cardMainHead {
 /*------- RESPONSIVE OF LAP  ------*/
 @media screen and (max-width:1024px) and (min-width:767px){
 .cards1 {
-    padding-right: 70px;
-    margin-left: 133px;
+    padding-right: 80px;
+    margin-left: 127px !important;
  }
  h1.cardMainHead {
     padding-right: 7px !important;
@@ -652,7 +652,7 @@ h1.cardMainHead {
 }  
 .cards1 {
     padding-right: 1px;
-    margin-left: 90px;
+    margin-left: 88px !important;
 }  
 .card1,.card2,.card3,.card4{
     max-width: 270px;
@@ -688,7 +688,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
     .cards1 {
         padding-top: 20px !important;
-        margin-left: 77px;
+        margin-left: 77px !important;
     }
     .card2 {
        margin-top: 50px;
@@ -839,20 +839,23 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-left: -46px !important;
     }
     .gridpara1, .gridpara2, .gridpara3  {
-        width: 75% !important;
+        width: 72% !important;
         word-break: break-all;
     }
+    .gridpara1 {
+        margin-left: 80px !important;
+    }
     .gridhead2 {
-        margin-left: -120px !important;
+        margin-left: -167px !important;
     }
     .gridpara2 {
-        margin-left: -30px !important;
+        margin-left: -22px !important;
     }
     .gridhead3 {
-        margin-left: -300px !important;
+        margin-left: -350px !important;
     }
     .gridpara3 {
-        margin-left: -120px !important;
+        margin-left: -125px !important;
     }
 }
 
@@ -874,7 +877,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 200% !important;
     }
     .gridhead2 {
-        transform: translateX(85px);
+        transform: translateX(129px);
         width: 200% !important;
     }
     .gridhead3 {
@@ -884,7 +887,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
     .gridpara1 {
         width: 130% !important;
-        transform: translateX(-85px);
+        transform: translateX(-109px);
      
     }
     .gridpara2 {
@@ -910,22 +913,24 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         padding-right: 296px !important;
     }
     .gridpara1 {
-        width: 100% !important;
+        width: 92% !important;
+        transform: translateX(-78px);
     }
     .gridhead2 {
+        margin-top: 10px !important;
         padding-right: 300px;
-        margin-left: -172px; 
+        margin-left: -217px; 
     }
     .gridpara2 {
-        width: 100% !important;
-        transform: translateX(-110px);
+        width: 92% !important;
+        transform: translateX(-33px);
     }
     .gridhead3 {
-        padding-right: 517px !important; 
+        padding-right: 505px !important; 
     }
     .gridpara3 {
-        width: 100% !important;
-        transform: translateX(30px);
+        width: 92% !important;
+        transform: translateX(38px);
     }
  }
 
@@ -1090,7 +1095,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         overflow-x: hidden !important;
        }
       .section5 {
-        padding-right: 50px;
+        padding-right: 35px !important;
       }
 }
 
@@ -1098,7 +1103,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
    /*-------- RESPONSIVE OF TAB --------*/
 @media only screen and (max-width:769px){
           .section5 {
-            margin-left: 22px !important;
+            margin-left: 10px !important;
           }
           .section5para {
             margin-left: -14px !important;
@@ -1111,6 +1116,10 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 
 /*---------RESPONSIVE OF MOBILE LARGE----------*/
 @media only screen and (max-width:426px){
+         .section5 {
+            margin-left: 20px !important;
+            margin-bottom: -190px !important;
+         }
          .section5head {
             width: 85%;
             transform: translateX(2px);
