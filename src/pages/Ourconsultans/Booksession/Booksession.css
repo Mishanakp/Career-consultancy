@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif !important;
-}
-
-
+} 
 .backgrounddiv{padding: 200px 200px 80px 200px!important;
     background-image: linear-gradient(to right, #23BDB8, #8ee7ba);
   }

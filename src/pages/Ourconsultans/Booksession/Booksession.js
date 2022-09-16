@@ -34,8 +34,7 @@ function Booksession() {
   
 
   <Box sx={{ flexGrow: 1 }} className="first">
-  <Grid container spacing={2}>
-          
+  <Grid container spacing={2}> 
           <Grid item xl={2} lg={3} md={1} sm={1} ></Grid>
 
    <Grid item xl={12} lg={6} md={12} sm={12} > 
