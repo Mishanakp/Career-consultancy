@@ -108,8 +108,6 @@ const handleMouseDownPassword2 = (event) => {
     
   
   
-  
-  
       return errors;
     };
     const [open, setOpen] = React.useState(false);

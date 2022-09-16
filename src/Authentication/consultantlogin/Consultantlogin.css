@@ -12,7 +12,7 @@ body{
 
 .loginconsultant{display: block;
   text-align: left;
-  padding-top: 150px !important;
+  padding-top: 200px !important;
   padding-bottom: 110px;
   padding-left: 120px;
   padding-right: 120px;
@@ -76,8 +76,8 @@ padding-bottom: 1px;}
 @media screen and (max-width:1920px) and (min-width:1601px){
   .loginconsultant{display: block;
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 110px;
+    padding-top: 300px !important;
+    padding-bottom: 250px;
     padding-left: 250px !important;
     padding-right: 250px !important;
   }
@@ -87,8 +87,8 @@ padding-bottom: 1px;}
 @media screen and (max-width:1600px) and (min-width:1537px){
   .loginconsultant{display: block;
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 110px;
+    padding-top: 300px !important;
+    padding-bottom: 180px;
     padding-left: 180px !important;
     padding-right: 180px !important;
   }
@@ -162,8 +162,8 @@ padding-bottom: 1px;}
   .cardpaddingconsultant{padding-left: 70px;}
   .loginconsultant{
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 60px !important;
+    padding-top: 230px !important;
+    padding-bottom: 50px !important;
     padding-left: 50px !important;
     padding-right:50px !important;
     
@@ -186,7 +186,7 @@ padding-bottom: 1px;}
   .cardpaddingconsultant{padding-left :70px !important;}
   .loginconsultant{
     text-align: left;
-    padding-top: 200px !important;
+    padding-top: 170px !important;
     padding-bottom: 60px !important;
     padding-left: 50px !important;
     padding-right:50px !important;

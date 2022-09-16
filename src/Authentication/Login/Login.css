@@ -86,8 +86,8 @@ padding-top: 15px;
 @media screen and (max-width:1920px) and (min-width:1601px){
   .login{display: block;
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 110px;
+    padding-top: 350px !important;
+    padding-bottom: 250px;
     padding-left: 250px !important;
     padding-right: 250px !important;
   }
@@ -97,8 +97,8 @@ padding-top: 15px;
 @media screen and (max-width:1600px) and (min-width:1537px){
   .login{display: block;
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 110px;
+    padding-top: 250px !important;
+    padding-bottom: 180px;
     padding-left: 180px !important;
     padding-right: 180px !important;
   }
@@ -167,12 +167,12 @@ padding-top: 15px;
 }
 
 /**************************1024********************************/
-@media only screen and (max-width:1024px) and (min-width:961px){
+@media only screen and (max-width:1024px) and (min-width:1010px){
 
   .cardpadding{padding-left: 70px;}
   .login{
     text-align: left;
-    padding-top: 200px !important;
+    padding-top: 250px !important;
     padding-bottom: 60px !important;
     padding-left: 50px !important;
     padding-right:50px !important;
@@ -191,12 +191,33 @@ padding-top: 15px;
 }
 /**************************1008********************************/
 
+@media only screen and (max-width:1009px) and (min-width:961px){
+  .cardpadding{padding-left :70px !important;}
+  .login{
+    text-align: left;
+    padding-top: 230px !important;
+    padding-bottom: 60px !important;
+    padding-left: 50px !important;
+    padding-right:50px !important;
+    
+  }
+  .buttonloginuser {
+    background-color: #23BDB8 !important;
+    width: 280px !important;
+    
+}
+  /*text field width*/
+  .textfieldloginuser{width: 280px !important;  }
+  .loginimg {
+    height: 600px !important;
+}
+}
 /**************************960********************************/
 @media only screen and (max-width:960px) and (min-width:914px){  
   .cardpadding{padding-left :70px !important;}
   .login{
     text-align: left;
-    padding-top: 200px !important;
+    padding-top: 170px !important;
     padding-bottom: 60px !important;
     padding-left: 50px !important;
     padding-right:50px !important;
