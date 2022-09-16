@@ -2571,17 +2571,15 @@ font-size: 30px;
      
   }
  
-  /* .inputs{
-      width: 400px;
-  } */
+
   .profileimage img{
       transform: translate(55px,60px);
   }
   .userdetail{
       margin-top: 30px;
   }
-  .addition{
-      transform: translate(75px,-50px)!important;
+  .additioncamera{
+      transform: translate(80px,-20px)!important;
   }
   .userdetail h2{
       text-align: left;
@@ -2592,7 +2590,6 @@ font-size: 30px;
       color: #4A6F8A;
       font-family: 'Poppins', sans-serif;
       text-align: center;
-      margin-left: -97px; 
   }
   .userdetail h2{
       font-size: 35px;
@@ -2600,11 +2597,10 @@ font-size: 30px;
       color: #4A6F8A;
       font-family: 'Poppins', sans-serif;
       text-align: center;
-      margin-left: -95px;
   }
   .email ul li{
       display: inline-grid;
-      margin-right: 30px!important;
+      margin-right: 34px!important;
   }
   .email p2{
       font-size: 20px;
@@ -2616,15 +2612,30 @@ font-size: 30px;
   margin-left: -32px;
   margin-top: 40px
   }
-  .editprofile{
-    transform: translateY(-50px);
-  }
+  
   .editicon{
-    font-size: 20px;
+    width: 100%;
+
   }
-  .localphone{
-      margin-left: -27px;
+  .editabout{
+    width: 300px;
   }
+  .editbox{
+    width: 300px!important;
+  }
+  .userdetailsedit{
+    text-align: left!important;
+  }
+.userdetailsedit p2{
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #4A6F8A;
+}
+  .editprofile{
+    transform: translateX(-90px);
+  }
+  
+  
   .about h2{
       font-size: 20px;
       font-family: 'Poppins', sans-serif;
@@ -2640,6 +2651,54 @@ font-size: 30px;
       line-height: 34px;
       color: #4A6F8A;
   }
+  .buttonedit {
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #23BDB8;
+    padding: 1em ;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 17px;
+  }
+  .buttonedit span {
+    position: relative;
+    pointer-events: none;
+  }
+  .buttonedit::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #43E794, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .buttonedit:hover::before {
+    --size: 400px;
+  }
+  .editbutton{
+    text-align: center;
+  }
+}
+@media screen and (max-width:1440px){
+  .email ul li{
+margin-right: 40px!important;
+  }
+  .editprofile{
+    transform: translateX(-30px);
+  }
+
 }
   
   @media screen and (max-width:1025px){
@@ -2663,11 +2722,11 @@ font-size: 30px;
           margin-top: 70px;
       }
       .email ul li{
-          padding-right: 11px;
+          margin-right: 10px!important;
+          margin-bottom: 7px;
       }
-      .email{
-          margin-left: -50px;
-      }
+
+    
   }
   @media screen and (max-width:769px){
       
@@ -2676,7 +2735,7 @@ font-size: 30px;
       }
       .email ul li{
           display: block;
-          padding-bottom: 25px;
+          margin-bottom: 25px;
       }
       .userdetail{
           margin-top: 3px;
