@@ -10,7 +10,8 @@ import AddLocationIcon from '@mui/icons-material/AddLocation';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import penicon from '../../../Assets/userprofile/penicon.png'
+import penicon from '../../../Assets/userprofile/penicon.png' 
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 function Myprofile() {
   const [data,setData]=useState();
   console.log(data)
@@ -30,6 +31,10 @@ function Myprofile() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+  const [open2, setOpen2] = React.useState(false);
+  const handleOpen2 = () => setOpen2(true);
+  const handleClose2 = () => setOpen2(false);
+
 
   return (
     <div className='boxprofile'>
@@ -47,6 +52,7 @@ function Myprofile() {
   <br/>
   <br/>
   <div className="userdetail">
+    <img className='profileImageuser' src="https://img.freepik.com/premium-vector/male-avatar-flat-icon-design-vector-illustration_549488-103.jpg?size=338&ext=jpg&ga=GA1.2.531248554.1663503756" alt="" />
   <input id="imgs" type="file"  onChange={(e)=>setData(e.target.files)}/>
 
   <label htmlFor="imgs"><CameraAltIcon className="additioncamera" sx={{ color:'#23BDB8',fontSize:'55px' }}/></label>
@@ -84,9 +90,9 @@ function Myprofile() {
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description3"
+        aria-describedby="modal-modal-description3" 
       >
-        <Box sx={style}>
+        <Box sx={style} className="userModalEdit">
           <Typography id="modal-modal-title" variant="h6" component="h2" style={{textAlign:'left'}}>
          <div className="userdetailsedit">
          <ul>  
@@ -112,7 +118,7 @@ function Myprofile() {
           <Box className="messagebox" component="form" sx={{
         '& .MuiTextField-root': { m: 0, width:'300px',},}}noValidate autoComplete="off">
  <TextField
-          id="editabout"
+         className="editabout"
           label="About"
           placeholder="About"
           multiline
@@ -122,7 +128,21 @@ function Myprofile() {
         </li>
                 <br/>
                 <div className='editbutton'>
-        <button class="buttonedit"><span>Save Changes</span> </button>
+        <button class="buttonedit" onClick={handleOpen2}><span>Save Changes</span> </button>
+        <Modal
+  open={open2}
+  onClose={handleClose2}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+     Updated successfully!!!
+    </Typography>
+    <CheckCircleOutlineIcon  className='checkIconUser'/>
+  </Box>
+</Modal>
+  
         </div>
         </ul>
 

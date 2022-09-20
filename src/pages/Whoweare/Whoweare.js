@@ -17,6 +17,9 @@ import './Whoweare.css';
 
 
 function Whoweare() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid id="mishanafirstsection">

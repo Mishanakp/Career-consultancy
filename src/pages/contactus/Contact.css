@@ -4,6 +4,9 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+img.contactFaceIcon{
+  width: 18px;
+}
 
 .main{
   background:  linear-gradient(135deg, #23BDB8 0%, #43E794 100%);
