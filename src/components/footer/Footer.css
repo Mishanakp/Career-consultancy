@@ -1,120 +1,73 @@
- 
- 
-.footer{
-    overflow-x: hidden; 
+.foooterCons{
+    background-color: #f8f8f8;
+    max-width: 100%;
 }
- 
-
-.foot1{
-    background:#175b8b;
-    height: 400px; 
-}
-.foot2{
-    background:#23BDB8;
-    height: 400px; 
+.footerContainer{
+    padding-top: 50px; 
+    padding-left: 100px
 }
 img.footerLogo2{ 
-    width: 100px; 
-    padding-top: 150px; 
-    margin-left: 150px;
+    width: 80px;    
+}
+p.footerParaCons{
+    max-width: 280px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: justify; 
+    color: #4a6f8a;
 }
 ul.footList1{
-    list-style: none;
-    margin-left: 20px;
-    margin-top: 50px;
+    list-style: none; 
     text-transform: uppercase;
+    margin-left: 35px;
 }
 h1.footHead1{
     font-size: 20px;
-    color: white;
+    color: #1d9d99;
     text-align: left;
     text-transform: uppercase;
+    width: 300px;
 }
  li.footLIstitem1{
-    font-size: 15px;
-    color: white;
+    font-size: 15px; 
     text-align: left;
     margin-top: 10px;
     text-transform: uppercase;
+    color: #4a6f8a;
  }
  ul.footList2{
-    list-style: none;
-    margin-left: -80px;
-    margin-top: 50px;
+    list-style: none; 
+    margin-left: 70px;
 }
 ul.footList3{
-    list-style: none;
-    margin-left: -220px;
-    margin-top: 50px;
+    list-style: none; 
+    margin-left: 35px;
 }
-h4.footSub{
-    color: white;
-    padding-top: 50px;
-    margin-left: -40px;
-}
-span.email_span{
-    color: white;  
-   margin-left: 30px;
-   font-size: 16px;
-   text-align: left;  
-   font-style: italic; 
-   animation-name: email; 
-   text-decoration: underline;
-   animation-duration: 5s; 
-   margin-top: -15px;
-} 
-.footerForm{
-    border-bottom: 1px solid white;
-    width: 200px; 
-}
-
-@keyframes email{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
-input[type="email"]{
-    background-color: #23BDB8  ;
-    border: none  ;
-    border-color: transparent  ;
-}  
-input[type="email"]::placeholder{
-    color: white;
-}
-span.icon__span{
-    color:white;
-    animation: email;  
-    animation-duration: 5s; 
-    margin-top: -35px; 
-    margin-left: 30px;
-    position: absolute;
-}
-span.icon__span:hover{
-    transform: translateX(15px);
-    transition: 1s;
-    cursor: pointer;
-}
-.icons__footer{
-    margin-left: 0px; 
+.icons__footer{  
+    background-color: #f8f8f8;
     animation: icons;
     animation-duration: 1s; 
-    position: absolute;
-    margin-top: 25px;
+   text-align: right; 
+   padding-right: 50px;
+padding-bottom: 20px;
  }
-
- @keyframes icons{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
- span.icon__span2{
-    color:white; 
-     
-}
-span.icon__span2:hover{
-    color: rgb(211, 208, 208);
-    cursor: pointer;
-}
-.last__footer{
+ .last__footer{
     background-color: white;
+}
+img.footericonimage{
+    width: 25px !important;
+}
+img.footericonimage2{
+    width: 20px !important;
+}
+img.footericonimage3{
+    width: 22px !important;
+}
+img.footericonimage4{
+    width:20px !important;
+}
+img.footericonimage5{
+    width: 23px !important;
 }
 p.pricopyright{
     padding: 15px 0;
@@ -146,1617 +99,701 @@ span.terms:hover{
     cursor: pointer;
  }
  @media only screen and (max-width:1920px) and (min-width:1601px){
-    h4.footSub{ 
-        margin-left: -120px;
-    }
-    span.icon__span{  
-        margin-left: -10px; 
-    }
- }
- @media only screen and (max-width:1367px) and (min-width:1297px){
-    h4.footSub{ 
-        margin-left: -10px;
-    }
-    span.icon__span{  
-        margin-left: 40px; 
-    }
- }
- @media only screen and (max-width:1296px) and (min-width:1281px){
-    h4.footSub{ 
-        margin-left: -10px;
-    }
-    span.icon__span{  
-        margin-left: 55px; 
-    }
     p.priprivacy__terms{
         padding: 15px 0;
-        margin-left: 600px;
-        font-size: 14px;
-        transform: scale(1.1,1);
+        margin-left: 950px; 
     }
  }
- @media only screen and (max-width:1280px){
-    h4.footSub{ 
-        padding-top: 40px;
-        margin-left: 0px;
+ @media only screen and (max-width:1600px) and (min-width:1537px){
+    p.priprivacy__terms{
+        padding: 15px 0;
+        margin-left: 800px; 
     }
-    p.pricopyright{ 
-        margin-left: 100px; 
+ }
+ @media only screen and (max-width:1536px) and (min-width:1441px){
+    p.priprivacy__terms{
+        padding: 15px 0;
+        margin-left: 700px; 
     }
-    p.priprivacy__terms{ 
-        margin-left: 550px; 
+ }
+ @media only screen and (max-width:1440px) and (min-width:1281px){
+    p.priprivacy__terms{
+        padding: 15px 0;
+        margin-left: 620px; 
     }
-    span.icon__span{  
-        margin-left: 50px; 
+    h1.footHead1{ 
+        width: 300px;
+    }
+ }
+ @media only screen and (max-width:1280px) and (min-width:1201px){
+    p.priprivacy__terms{
+        padding: 15px 0;
+        margin-left: 500px; 
     }
  }
  @media only screen and (max-width:1200px) and (min-width:1025px){
-    h4.footSub{ 
-        padding-top: 40px;
-        margin-left: 0px;
-    }
-    p.pricopyright{ 
-        margin-left: 50px; 
-    }
-    p.priprivacy__terms{ 
-        margin-left: 500px; 
-    }
-    span.icon__span{  
-        margin-left: 60px; 
-    }
- }
- @media only screen and (max-width:1024px){
-  
-.foot1{ 
-    height: 500px; 
+ 
+.footerContainer{ 
+    padding-left: 50px
 }
-.foot2{ 
-    height: 500px; 
-}
-h1.footerLogo{ 
-    padding-top: 220px;
-    padding-left: 150px;
-    font-size: 35px;
-}
-ul.footList1{
-    list-style: none;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-h1.footHead1{
-    font-size: 20px;
-    color: white;
-    text-align: left;
+img.footerLogo2{ 
+    width: 80px; 
+    margin-left: 30px;   
+} 
+h1.footHead1{ 
+    width: 300px;
+    font-size: 18px;
 }
  li.footLIstitem1{
-    font-size: 15px;
-    color: white;
-    text-align: left;
-    margin-top: 10px;
+    font-size: 14px;  
  }
- ul.footList2{
-    list-style: none;
-    margin-left: -10px;
-    margin-top: 50px;
+ 
+p.priprivacy__terms{
+    padding: 15px 0;
+    margin-left: 480px; 
+}    
+ 
+ }
+@media only screen and (max-width:1024px) and (min-width:961px){
+
+.footerContainer{ 
+    padding-left: 50px
+}
+img.footerLogo2{ 
+    width: 80px; 
+    margin-left: 30px;   
+} 
+h1.footHead1{ 
+    width: 300px;
+    font-size: 18px;
+}
+    li.footLIstitem1{
+    font-size: 14px;  
+    width: 150px;
+    }
+    
+p.priprivacy__terms{
+    padding: 15px 0;
+    margin-left: 300px; 
+}    
+    
+    }
+    @media only screen and (max-width:960px) and (min-width:913px){
+
+    .footerContainer{ 
+        padding-left: 50px
+    }
+    img.footerLogo2{ 
+        width: 80px; 
+        margin-left: 30px;   
+    } 
+    h1.footHead1{ 
+        width: 300px;
+        font-size: 18px;
+    }
+        li.footLIstitem1{
+        font-size: 14px;  
+        width: 150px;
+        }
+        
+    p.priprivacy__terms{
+        padding: 15px 0;
+        margin-left: 250px; 
+    }    
+        
+        }
+        @media only screen and (max-width:912px) and (min-width:769px){
+        p.footerParaCons{
+            width: 180px;
+            margin-left: 50px;
+            margin-top: 20px;
+            text-align: justify; 
+            color: #4a6f8a;
+            font-size: 14px;
+        }
+        .footerContainer{ 
+            padding-left: 50px
+        }
+        img.footerLogo2{ 
+            width: 70px; 
+            margin-left: 30px;   
+        } 
+        h1.footHead1{ 
+            width: 300px;
+            font-size: 17px;
+        }
+            li.footLIstitem1{
+            font-size: 13px;  
+            width: 150px;
+            }
+            
+        p.priprivacy__terms{
+            padding: 15px 0;
+            margin-left: 250px; 
+            font-size: 13px; 
+        }    
+        p.pricopyright{ 
+            margin-left: 40px;
+            font-size: 13px; 
+        }
+            
+            }
+            @media only screen and (max-width:768px) and (min-width:674px){
+                p.footerParaCons{
+                    width: 180px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    text-align: justify; 
+                    color: #4a6f8a;
+                    font-size: 14px;
+                }
+                .footerContainer{ 
+                    padding-left: 50px
+                }
+                img.footerLogo2{ 
+                    width: 70px; 
+                    margin-left: 30px;   
+                } 
+                h1.footHead1{ 
+                    width: 300px;
+                    font-size: 15px;
+                }
+                    li.footLIstitem1{
+                    font-size: 12px;  
+                    width: 150px;
+                    }
+                    
+                p.priprivacy__terms{
+                    padding: 15px 0;
+                    margin-left: 100px; 
+                    font-size: 13px; 
+                }    
+                p.pricopyright{ 
+                    margin-left: 40px;
+                    font-size: 13px; 
+                }
+                    
+                    }
+            @media only screen and (max-width:673px) and (min-width:601px){
+            
+            p.footerParaCons{
+                width: 180px;
+                margin-left: 0px;
+                margin-top: 20px;
+                text-align: justify; 
+                color: #4a6f8a;
+                font-size: 13px;
+            }
+            .footerContainer{ 
+                padding-left: 50px
+            }
+            img.footerLogo2{ 
+                width: 70px; 
+                margin-left: 0px;   
+            } 
+            h1.footHead1{ 
+                width: 300px;
+                font-size: 14px;
+            }
+                li.footLIstitem1{
+                font-size: 12px;  
+                width: 150px;
+                }
+                
+            p.priprivacy__terms{
+                padding: 15px 0;
+                margin-left: 80px; 
+                font-size: 12px; 
+            }    
+            p.pricopyright{ 
+                margin-left: 30px;
+                font-size: 12px; 
+            }
+            ul.footList1{ 
+                margin-left: 20px;
+            }
+            ul.footList2{
+                margin-left: 50px;
+            }
+            ul.footList3{
+                margin-left: 40px;
+            }
+                }
+@media only screen and (max-width:600px) and (min-width:597px){
+
+p.footerParaCons{
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: justify; 
+    color: #4a6f8a;
+    font-size: 12px;
+}
+.footerContainer{ 
+    padding-left: 50px
+}
+img.footerLogo2{ 
+    width: 70px; 
+    margin-left: 0px;   
+} 
+img.footericonimage{
+    width: 20px !important;
+}
+img.footericonimage2{
+    width: 15px !important;
+}
+img.footericonimage3{
+    width: 17px !important;
+}
+img.footericonimage4{
+    width:15px !important;
+}
+img.footericonimage5{
+    width:18px !important;
+}
+h1.footHead1{ 
+    width: 300px;
+    font-size: 13px;
+}
+    li.footLIstitem1{
+    font-size: 11px;  
+    width: 150px;
+    }
+    
+p.priprivacy__terms{
+    padding: 15px 0;
+    margin-left: 80px; 
+    font-size: 11px; 
+}    
+p.pricopyright{ 
+    margin-left: 20px;
+    font-size: 11px; 
+}
+ul.footList1{ 
+    margin-left: 20px;
+}
+ul.footList2{
+    margin-left: 50px;
 }
 ul.footList3{
-    list-style: none;
-    margin-left: -100px;
-    margin-top: 50px;
+    margin-left: 40px;
 }
-h4.footSub{ 
-    padding-top: 50px;
-    margin-left: -50px;
+    }
+ @media only screen and (max-width:596px) and (min-width:541px){ 
+    .footerContainer{
+        padding-top: 50px;  
+    }
+    img.footerLogo2{ 
+        width: 100px; 
+        margin-left: -100px;   
+    }
+    p.footerParaCons{
+        min-width: 480px;
+        margin-left: -40px;
+        margin-top: 20px; 
+        font-size: 15px;
+    }
+    ul.footList1{ 
+        margin-left: -70px;
+        margin-top: 40px;
+    }
+    h1.footHead1{
+        font-size: 20px; 
+        width: 300px;
+    }
+     li.footLIstitem1{
+        font-size: 15px;  
+        margin-top: 10px; 
+     }
+     ul.footList2{
+        margin-left: -70px;
+        margin-top: 40px;
+    }
+    ul.footList3{
+        margin-left: -70px;
+        margin-top: 40px;
+    }
+    .icons__footer{     
+       padding-right: 50px;
+    padding-bottom: 20px;
+     }  
+    p.pricopyright{
+        padding: 15px 0;
+        text-align: left;
+        margin-left:140px;
+        font-size: 14px; 
+    }
+     p.priprivacy__terms{
+        padding:  0;
+        margin-left: 0px;
+        font-size: 14px; 
+    }
+    p.priprivacy:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    span.minus{
+        transform: rotate(90deg);
+    }
+    span.priprivacy:hover{
+       text-decoration: underline;
+       cursor: pointer;
+    }
+    span.terms:hover{
+        text-decoration: underline;
+        cursor: pointer;
+     }
+                     }
+@media only screen and (max-width:540px) and (min-width:481px){ 
+.footerContainer{
+    padding-top: 50px;  
 }
-span.email_span{
-    color: white;  
-   margin-left: 30px;
-   font-size: 16px;
-   text-align: left;  
-   font-style: italic; 
-   animation-name: email; 
-   text-decoration: underline;
-   animation-duration: 5s; 
-   margin-top: -15px;
-} 
-.footerForm{
-    border-bottom: 1px solid white;
-    width: 200px; 
+img.footerLogo2{ 
+    width: 80px; 
+    margin-left: -110px;   
 }
-
-@keyframes email{
-    from{opacity: 0;}
-    to{opacity: 1;}
+p.footerParaCons{
+    min-width: 420px;
+    margin-left: -40px;
+    margin-top: 20px; 
+    font-size: 14px;
 }
-input[type="email"]{
-    background-color: #23BDB8  ;
-    border: none  ;
-    border-color: transparent  ;
-}  
-input[type="email"]::placeholder{
-    color: white;
+ul.footList1{ 
+    margin-left: -70px;
+    margin-top: 40px;
 }
-span.icon__span{
-    color:white;
-    animation: email;  
-    animation-duration: 5s; 
-    margin-top: -35px; 
-    margin-left: 30px;
-    position: absolute;
+h1.footHead1{
+    font-size: 20px; 
+    width: 300px;
 }
-span.icon__span:hover{
-    transform: translateX(15px);
-    transition: 1s;
-    cursor: pointer;
+    li.footLIstitem1{
+    font-size: 15px;  
+    margin-top: 10px; 
+    }
+    ul.footList2{
+    margin-left: -70px;
+    margin-top: 40px;
 }
-.icons__footer{
-    margin-left: 55px; 
-    animation: icons;
-    animation-duration: 1s; 
-    position: absolute;
-    margin-top: 35px;
- }
-
- @keyframes icons{
-    from{opacity: 0;}
-    to{opacity: 1;}
+ul.footList3{
+    margin-left: -70px;
+    margin-top: 40px;
 }
- span.icon__span2{
-    color:white; 
-     
-}
-span.icon__span2:hover{
-    color: rgb(211, 208, 208);
-    cursor: pointer;
-}
-.last__footer{
-    background-color: white;  
-}
+.icons__footer{     
+    padding-right: 50px;
+padding-bottom: 20px;
+    }  
 p.pricopyright{
     padding: 15px 0;
     text-align: left;
-    margin-left: 80px;
-    font-size: 14px;
-    transform: scale(1.1,1);
-    max-width: 100%;
+    margin-left:110px;
+    font-size: 14px; 
 }
- p.priprivacy__terms{
-    padding: 15px 0;
-    margin-left: 280px;
-    font-size: 14px;
-    transform: scale(1.1,1);
+    p.priprivacy__terms{
+    padding:  0;
+    margin-left: -10px;
+    font-size: 14px; 
 }
-p.priprivacy:hover{
-    text-decoration: underline;
-    cursor: pointer;
+ 
 }
-span.minus{
-    transform: rotate(90deg);
-}
-span.priprivacy:hover{
-   text-decoration: underline;
-   cursor: pointer;
-}
-span.terms:hover{
-    text-decoration: underline;
-    cursor: pointer;
- }
- }
- @media only screen and (max-width:960px) and (min-width:913px){
-    p.pricopyright{
-        padding: 15px 0;
-        text-align: left;
-        margin-left: 50px;
+@media only screen and (max-width:480px) and (min-width:427px){ 
+    .footerContainer{
+        padding-top: 50px;  
+    }
+    img.footerLogo2{ 
+        width: 70px; 
+        margin-left: -110px;   
+    }
+    p.footerParaCons{
+        min-width: 360px;
+        margin-left: -40px;
+        margin-top: 20px; 
         font-size: 14px;
-        transform: scale(1.1,1);
-        max-width: 100%;
     }
-    h4.footSub{ 
-        padding-top: 50px;
-        margin-left: -30px;
+    ul.footList1{ 
+        margin-left: -70px;
+        margin-top: 40px;
     }
- }
- @media only screen and (max-width:912px) and (min-width:891px){
-    h4.footSub{ 
-        padding-top: 50px;
-        margin-left: -10px;
+    h1.footHead1{
+        font-size: 18px; 
+        width: 300px;
     }
-    ul.footList2{
-        list-style: none;
-        margin-left: 20px;
-        margin-top: 50px;
+        li.footLIstitem1{
+        font-size: 13px;  
+        margin-top: 10px; 
+        }
+        ul.footList2{
+        margin-left: -70px;
+        margin-top: 40px;
     }
     ul.footList3{
-        list-style: none;
-        margin-left: -30px; 
+        margin-left: -70px;
+        margin-top: 40px;
     }
+    .icons__footer{     
+        padding-right: 50px;
+    padding-bottom: 20px;
+        }  
     p.pricopyright{
         padding: 15px 0;
         text-align: left;
-        margin-left: 40px;
-        font-size: 14px;
-        transform: scale(1.1,1);
-        max-width: 100%;
+        margin-left:90px;
+        font-size: 13px; 
     }
-    span.icon__span{
-        color:white;
-        animation: email;  
-        animation-duration: 5s; 
-        margin-top: -35px; 
-        margin-left: 50px;
-        position: absolute;
+        p.priprivacy__terms{
+        padding:  0;
+        margin-left: -10px;
+        font-size: 13px; 
     }
      
- }
- @media only screen and (max-width:890px) and (min-width:821px){
-    .foot1{ 
-        height: 600px; 
     }
-    .foot2{ 
-        height: 600px; 
-    }
-    h4.footSub{ 
-        padding-top: 50px;
-        margin-left: -10px;
-    }
-    ul.footList3{
-        list-style: none;
-        margin-left: 20px; 
-    }
-    span.icon__span{
-        color:white;
-        animation: email;  
-        animation-duration: 5s; 
-        margin-top: -35px; 
-        margin-left: 50px;
-        position: absolute;
-    }
-    p.priprivacy__terms{
-        padding: 15px 0;
-        margin-left: 150px;
-        font-size: 14px;
-        transform: scale(1.1,1);
-    }
- }
- @media only screen and (max-width:820px){
-  
-    .foot1{ 
-        height: 600px; 
-    }
-    .foot2{ 
-        height: 600px; 
-    }
-    h1.footerLogo{ 
-        padding-top: 260px;
-        padding-left: 150px;
-        font-size: 35px;
-    }
-    ul.footList1{
-        list-style: none;
-        margin-left: 20px;
-        margin-top: 50px;
-    }
-    h1.footHead1{
-        font-size: 20px;
-        color: white;
-        text-align: left;
-    }
-     li.footLIstitem1{
-        font-size: 15px;
-        color: white;
-        text-align: left;
-        margin-top: 10px;
-     }
-     ul.footList2{
-        list-style: none;
-        margin-left: -10px;
-        margin-top: 50px;
-    }
-    ul.footList3{
-        list-style: none;
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    h4.footSub{ 
-        padding-top: 50px;
-        margin-left: 20px;
-    }
-    span.email_span{
-        color: white;  
-       margin-left: 30px;
-       font-size: 16px;
-       text-align: left;  
-       font-style: italic; 
-       animation-name: email; 
-       text-decoration: underline;
-       animation-duration: 5s; 
-       margin-top: -15px;
-    } 
-    .footerForm{
-        border-bottom: 1px solid white;
-        width: 200px; 
-    }
-    
-    @keyframes email{
-        from{opacity: 0;}
-        to{opacity: 1;}
-    }
-    input[type="email"]{
-        background-color: #23BDB8  ;
-        border: none  ;
-        border-color: transparent  ;
-    }  
-    input[type="email"]::placeholder{
-        color: white;
-    }
-    span.icon__span{
-        color:white;
-        animation: email;  
-        animation-duration: 5s; 
-        margin-top: -35px; 
-        margin-left: 60px;
-        position: absolute;
-    }
-    span.icon__span:hover{
-        transform: translateX(15px);
-        transition: 1s;
-        cursor: pointer;
-    }
-    .icons__footer{
-        margin-left: 55px; 
-        animation: icons;
-        animation-duration: 1s; 
-        position: absolute;
-        margin-top: 35px;
-     }
-    
-     @keyframes icons{
-        from{opacity: 0;}
-        to{opacity: 1;}
-    }
-     span.icon__span2{
-        color:white; 
-         
-    }
-    span.icon__span2:hover{
-        color: rgb(211, 208, 208);
-        cursor: pointer;
-    } 
-    p.pricopyright{
-        padding: 15px 0;
-        text-align: left;
-        margin-left: 40px;
-        font-size: 14px;
-        transform: scale(1.1,1);
-        max-width: 100%;
-    }
-     p.priprivacy__terms{
-        padding: 15px 0;
-        margin-left: 120px;
-        font-size: 14px;
-        transform: scale(1.1,1);
-    }
-    p.priprivacy:hover{
-        text-decoration: underline;
-        cursor: pointer;
-    }
-    span.minus{
-        transform: rotate(90deg);
-    }
-     }
-
- @media only screen and (max-width:768px){
-  
-    .foot1{ 
-        height: 600px; 
-    }
-    .foot2{ 
-        height: 600px; 
-    }
-    h1.footerLogo{ 
-        padding-top: 260px;
-        padding-left: 150px;
-        font-size: 35px;
-    }
-    ul.footList1{
-        list-style: none;
-        margin-left: 20px;
-        margin-top: 50px;
-    }
-    h1.footHead1{
-        font-size: 20px;
-        color: white;
-        text-align: left;
-    }
-     li.footLIstitem1{
-        font-size: 15px;
-        color: white;
-        text-align: left;
-        margin-top: 10px;
-     }
-     ul.footList2{
-        list-style: none;
-        margin-left: -10px;
-        margin-top: 50px;
-    }
-    ul.footList3{
-        list-style: none;
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    h4.footSub{ 
-        padding-top: 50px;
-        margin-left: 30px;
-    }
-    span.email_span{
-        color: white;  
-       margin-left: 30px;
-       font-size: 16px;
-       text-align: left;  
-       font-style: italic; 
-       animation-name: email; 
-       text-decoration: underline;
-       animation-duration: 5s; 
-       margin-top: -15px;
-    } 
-    .footerForm{
-        border-bottom: 1px solid white;
-        width: 200px; 
-    }
-    
-    @keyframes email{
-        from{opacity: 0;}
-        to{opacity: 1;}
-    }
-    input[type="email"]{
-        background-color: #23BDB8  ;
-        border: none  ;
-        border-color: transparent  ;
-    }  
-    input[type="email"]::placeholder{
-        color: white;
-    }
-    span.icon__span{
-        color:white;
-        animation: email;  
-        animation-duration: 5s; 
-        margin-top: -35px; 
-        margin-left: 70px;
-        position: absolute;
-    }
-    span.icon__span:hover{
-        transform: translateX(15px);
-        transition: 1s;
-        cursor: pointer;
-    }
-    .icons__footer{
-        margin-left: 55px; 
-        animation: icons;
-        animation-duration: 1s; 
-        position: absolute;
-        margin-top: 35px;
-     }
-    
-     @keyframes icons{
-        from{opacity: 0;}
-        to{opacity: 1;}
-    }
-     span.icon__span2{
-        color:white; 
-         
-    }
-    span.icon__span2:hover{
-        color: rgb(211, 208, 208);
-        cursor: pointer;
-    } 
-    p.pricopyright{
-        padding: 15px 0;
-        text-align: left;
-        margin-left: 40px;
-        font-size: 14px;
-        transform: scale(1.1,1);
-        max-width: 100%;
-    }
-     p.priprivacy__terms{
-        padding: 15px 0;
-        margin-left: 120px;
-        font-size: 14px;
-        transform: scale(1.1,1);
-    }
-    p.priprivacy:hover{
-        text-decoration: underline;
-        cursor: pointer;
-    }
-    span.minus{
-        transform: rotate(90deg);
-    }
-     }
-     @media only screen and (max-width:672px) and (min-width:641px){
-        h1.footHead1{
-            font-size: 17px;
-            color: white;
-            text-align: left;
+    @media only screen and (max-width:426px) and (min-width:395px){ 
+        
+        img.footerLogo2{ 
+            width: 60px; 
+            margin-left: -110px;   
         }
-         li.footLIstitem1{
-            font-size: 13px;
-            color: white;
-            text-align: left;
-            margin-top: 10px;
-         } 
-         h4.footSub{ 
-            padding-top: 50px;
-            margin-left: 30px;
-            font-size: 13px;
+        p.footerParaCons{
+            min-width: 360px;
+            margin-left: -65px;
+            margin-top: 20px; 
+            font-size: 14px;
         }
-        .footerForm{
-            border-bottom: 1px solid white;
-            width: 160px; 
-        }
-        span.icon__span{
-            color:white;
-            animation: email;  
-            animation-duration: 5s; 
-            margin-top: -35px; 
-            margin-left: 40px;
-            position: absolute;
-        }
-        p.pricopyright{
-            padding: 15px 0;
-            text-align: left;
-            margin-left: 20px;
-            font-size: 12px;
-            transform: scale(1.1,1);
-            max-width: 100%;
-        }
-         p.priprivacy__terms{
-            padding: 15px 0;
-            margin-left: 120px;
-            font-size: 12px;
-            transform: scale(1.1,1);
-        }
-     }
-     @media only screen and (max-width:640px) and (min-width:601px){
-        h1.footHead1{
-            font-size: 17px;
-            color: white;
-            text-align: left;
-        }
-         li.footLIstitem1{
-            font-size: 13px;
-            color: white;
-            text-align: left;
-            margin-top: 10px;
-         } 
-         h4.footSub{ 
-            padding-top: 50px;
-            margin-left: 30px;
-            font-size: 13px;
-        }
-        .footerForm{
-            border-bottom: 1px solid white;
-            width: 160px; 
-        }
-        span.icon__span{
-            color:white;
-            animation: email;  
-            animation-duration: 5s; 
-            margin-top: -35px; 
-            margin-left: 50px;
-            position: absolute;
-        }
-        p.pricopyright{
-            padding: 15px 0;
-            text-align: left;
-            margin-left: 20px;
-            font-size: 12px;
-            transform: scale(1.1,1);
-            max-width: 100%;
-        }
-         p.priprivacy__terms{
-            padding: 15px 0;
-            margin-left: 100px;
-            font-size: 12px;
-            transform: scale(1.1,1);
-        }
-     }
-     @media only screen and (max-width:600px) and (min-width:597px){
-        h1.footerLogo{ 
-            padding-top: 260px;
-            padding-left: 0px;
-            font-size: 35px;
-        }
-        h1.footHead1{
-            font-size: 17px;
-            color: white;
-            text-align: left;
-        }
-         li.footLIstitem1{
-            font-size: 13px;
-            color: white;
-            text-align: left;
-            margin-top: 10px;
-         } 
-         h4.footSub{ 
-            padding-top: 50px;
-            margin-left: 40px;
-            font-size: 13px;
-            width: 180px;
-        }
-        .footerForm{
-            border-bottom: 1px solid white;
-            width: 140px; 
-            margin-left: 20px;
-        }
-        span.icon__span{
-            color:white;
-            animation: email;  
-            animation-duration: 5s; 
-            margin-top: -35px; 
-            margin-left: 50px;
-            position: absolute;
-        }
-        .icons__footer{
-            margin-left: 50px; 
-            animation: icons;
-            animation-duration: 1s; 
-            position: absolute;
-            margin-top: 35px;
-         }
-        p.pricopyright{
-            padding: 15px 0;
-            text-align: left;
-            margin-left: 20px;
-            font-size: 12px;
-            transform: scale(1.1,1);
-            max-width: 100%;
-        }
-         p.priprivacy__terms{
-            padding: 15px 0;
-            margin-left: 80px;
-            font-size: 12px;
-            transform: scale(1.1,1);
-        }
-     }
-     @media only screen and (max-width:596px) and (min-width:541px){
-        .foot1{ 
-            height: 200px; 
-        }
-        .foot2{ 
-            height: 650px; 
-        }
-        h1.footerLogo{ 
-            padding-top: 80px;
-            padding-left: 0px;
-            font-size: 35px;
-        }
-        ul.footList1{
-            list-style: none;
-            margin-left: 20px;
-            margin-top: 50px;
-        }
-        h1.footHead1{
-            font-size: 20px;
-            color: white;
-            text-align: left;
-        }
-         li.footLIstitem1{
-            font-size: 15px;
-            color: white;
-            text-align: left;
-            margin-top: 10px;
-         }
-         ul.footList2{
-            list-style: none;
-            margin-left: -10px;
-            margin-top: 50px;
-        }
-        ul.footList3{
-            list-style: none;
-            margin-left: 20px;
+        ul.footList1{ 
+            margin-left: -95px;
             margin-top: 30px;
         }
-        h4.footSub{ 
-            padding-top: 50px;
-            margin-left: -310px;
-        }
-        span.email_span{
-            color: white;  
-           margin-left: 100px;
-           font-size: 16px;
-           text-align: left;  
-           font-style: italic; 
-           animation-name: email; 
-           text-decoration: underline;
-           animation-duration: 5s; 
-           margin-top: -15px;
-        } 
-        .footerForm{
-            border-bottom: 1px solid white;
-            width: 200px; 
-            margin-left: 50px;
-        }
-        
-        @keyframes email{
-            from{opacity: 0;}
-            to{opacity: 1;}
-        }
-        input[type="email"]{
-            background-color: #23BDB8  ;
-            border: none  ;
-            border-color: transparent  ;
-        }  
-        input[type="email"]::placeholder{
-            color: white;
-        }
-        span.icon__span{
-            color:white;
-            animation: email;  
-            animation-duration: 5s; 
-            margin-top: -35px; 
-            margin-left: -50px;
-            position: absolute;
-        }
-        span.icon__span:hover{
-            transform: translateX(15px);
-            transition: 1s;
-            cursor: pointer;
-        }
-        .icons__footer{
-            margin-left: 55px; 
-            animation: icons;
-            animation-duration: 1s; 
-            position: absolute;
-            margin-top: 35px;
-         }
-        
-         @keyframes icons{
-            from{opacity: 0;}
-            to{opacity: 1;}
-        }
-         span.icon__span2{
-            color:white; 
-             
-        }
-        span.icon__span2:hover{
-            color: rgb(211, 208, 208);
-            cursor: pointer;
-        } 
-        p.pricopyright{
-            padding: 15px 0;
-            text-align: left;
-            margin-left: 150px;
-            font-size: 14px;
-            transform: scale(1.1,1);
-            max-width: 100%;
-        }
-         p.priprivacy__terms{
-            padding: 15px 0;
-            margin-left: 0px;
-            font-size: 14px;
-            transform: scale(1.1,1);
-        }
-        p.priprivacy:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-        span.minus{
-            transform: rotate(90deg);
-        }
-     }
-     @media only screen and (max-width:540px) and (min-width:482px){
-  
-        .foot1{ 
-            height: 200px; 
-        }
-        .foot2{ 
-            height: 650px; 
-        }
-        h1.footerLogo{ 
-            padding-top: 80px;
-            padding-left: 0px;
-            font-size: 35px;
-        }
-        ul.footList1{
-            list-style: none;
-            margin-left: 20px;
-            margin-top: 50px;
-        }
         h1.footHead1{
-            font-size: 20px;
-            color: white;
-            text-align: left;
+            font-size: 16px; 
+            width: 300px;
         }
-         li.footLIstitem1{
-            font-size: 15px;
-            color: white;
-            text-align: left;
+            li.footLIstitem1{
+            font-size: 13px;  
+            margin-top: 10px; 
+            }
+            ul.footList2{
+            margin-left: -95px;
             margin-top: 10px;
-         }
-         ul.footList2{
-            list-style: none;
-            margin-left: -10px;
-            margin-top: 50px;
         }
         ul.footList3{
-            list-style: none;
-            margin-left: 20px;
-            margin-top: 30px;
+            margin-left: -95px;
+            margin-top: 10px;
         }
-        h4.footSub{ 
-            padding-top: 50px;
-            margin-left: -250px;
-        }
-        span.email_span{
-            color: white;  
-           margin-left: 100px;
-           font-size: 16px;
-           text-align: left;  
-           font-style: italic; 
-           animation-name: email; 
-           text-decoration: underline;
-           animation-duration: 5s; 
-           margin-top: -15px;
-        } 
-        .footerForm{
-            border-bottom: 1px solid white;
-            width: 200px; 
-            margin-left: 50px;
-        }
-        
-        @keyframes email{
-            from{opacity: 0;}
-            to{opacity: 1;}
-        }
-        input[type="email"]{
-            background-color: #23BDB8  ;
-            border: none  ;
-            border-color: transparent  ;
-        }  
-        input[type="email"]::placeholder{
-            color: white;
-        }
-        span.icon__span{
-            color:white;
-            animation: email;  
-            animation-duration: 5s; 
-            margin-top: -35px; 
-            margin-left: -20px;
-            position: absolute;
-        }
-        span.icon__span:hover{
-            transform: translateX(15px);
-            transition: 1s;
-            cursor: pointer;
-        }
-        .icons__footer{
-            margin-left: 55px; 
-            animation: icons;
-            animation-duration: 1s; 
-            position: absolute;
-            margin-top: 35px;
-         }
-        
-         @keyframes icons{
-            from{opacity: 0;}
-            to{opacity: 1;}
-        }
-         span.icon__span2{
-            color:white; 
-             
-        }
-        span.icon__span2:hover{
-            color: rgb(211, 208, 208);
-            cursor: pointer;
-        } 
+        .icons__footer{     
+            padding-right: 50px;
+        padding-bottom: 20px;
+            }  
         p.pricopyright{
             padding: 15px 0;
             text-align: left;
-            margin-left: 110px;
-            font-size: 14px;
-            transform: scale(1.1,1);
-            max-width: 100%;
+            margin-left:60px;
+            font-size: 13px; 
         }
-         p.priprivacy__terms{
-            padding: 15px 0;
-            margin-left: 0px;
-            font-size: 14px;
-            transform: scale(1.1,1);
+            p.priprivacy__terms{
+            padding:  0;
+            margin-left: -10px;
+            font-size: 13px; 
         }
-        p.priprivacy:hover{
-            text-decoration: underline;
-            cursor: pointer;
+         
         }
-        span.minus{
-            transform: rotate(90deg);
-        }
-         }
-         @media only screen and (max-width:480px) and (min-width:431px){
-  
-            .foot1{ 
-                height: 200px; 
+        @media only screen and (max-width:394px) and (min-width:362px){ 
+        
+            img.footerLogo2{ 
+                width: 60px; 
+                margin-left: -110px;   
             }
-            .foot2{ 
-                height: 650px; 
+            p.footerParaCons{
+                min-width: 325px;
+                margin-left: -65px;
+                margin-top: 20px; 
+                font-size: 14px;
             }
-            h1.footerLogo{ 
-                padding-top: 80px;
-                padding-left: 0px;
-                font-size: 35px;
-            }
-            ul.footList1{
-                list-style: none;
-                margin-left: 20px;
-                margin-top: 50px;
-            }
-            h1.footHead1{
-                font-size: 20px;
-                color: white;
-                text-align: left;
-            }
-             li.footLIstitem1{
-                font-size: 15px;
-                color: white;
-                text-align: left;
-                margin-top: 10px;
-             }
-             ul.footList2{
-                list-style: none;
-                margin-left: -10px;
-                margin-top: 50px;
-            }
-            ul.footList3{
-                list-style: none;
-                margin-left: 20px;
+            ul.footList1{ 
+                margin-left: -95px;
                 margin-top: 30px;
             }
-            h4.footSub{ 
-                padding-top: 50px;
-                margin-left: -200px;
-            }
-            span.email_span{
-                color: white;  
-               margin-left: 100px;
-               font-size: 16px;
-               text-align: left;  
-               font-style: italic; 
-               animation-name: email; 
-               text-decoration: underline;
-               animation-duration: 5s; 
-               margin-top: -15px;
-            } 
-            .footerForm{
-                border-bottom: 1px solid white;
-                width: 200px; 
-                margin-left: 50px;
-            }
-            
-            @keyframes email{
-                from{opacity: 0;}
-                to{opacity: 1;}
-            }
-            input[type="email"]{
-                background-color: #23BDB8  ;
-                border: none  ;
-                border-color: transparent  ;
-            }  
-            input[type="email"]::placeholder{
-                color: white;
-            }
-            span.icon__span{
-                color:white;
-                animation: email;  
-                animation-duration: 5s; 
-                margin-top: -35px; 
-                margin-left: 10px;
-                position: absolute;
-            }
-            span.icon__span:hover{
-                transform: translateX(15px);
-                transition: 1s;
-                cursor: pointer;
-            }
-            .icons__footer{
-                margin-left: 55px; 
-                animation: icons;
-                animation-duration: 1s; 
-                position: absolute;
-                margin-top: 35px;
-             }
-            
-             @keyframes icons{
-                from{opacity: 0;}
-                to{opacity: 1;}
-            }
-             span.icon__span2{
-                color:white; 
-                 
-            }
-            span.icon__span2:hover{
-                color: rgb(211, 208, 208);
-                cursor: pointer;
-            } 
-            p.pricopyright{
-                padding: 15px 0;
-                text-align: left;
-                margin-left: 80px;
-                font-size: 14px;
-                transform: scale(1.1,1);
-                max-width: 100%;
-            }
-             p.priprivacy__terms{
-                padding: 15px 0;
-                margin-left: 0px;
-                font-size: 14px;
-                transform: scale(1.1,1);
-            }
-            p.priprivacy:hover{
-                text-decoration: underline;
-                cursor: pointer;
-            }
-            span.minus{
-                transform: rotate(90deg);
-            }
-             }
-     @media only screen and (max-width:430px){
-  
-        .foot1{ 
-            height: 180px; 
-        }
-        .foot2{ 
-            height: 700px; 
-        }
-        h1.footerLogo{ 
-            padding-top: 60px;
-            padding-left: 0px;
-            font-size: 35px;
-        }
-        ul.footList1{
-            list-style: none;
-            margin-left: 20px;
-            margin-top: 50px;
-        }
-        h1.footHead1{
-            font-size: 20px;
-            color: white;
-            text-align: left; 
-        }
-         li.footLIstitem1{
-            font-size: 15px;
-            color: white;
-            text-align: left;
-            margin-top: 10px;
-         }
-         ul.footList2{
-            list-style: none;
-            margin-left: 50px;
-            margin-top: 50px;
-        }
-        ul.footList3{
-            list-style: none;
-            margin-left: 20px;
-            margin-top: 30px;
-        }
-        h4.footSub{ 
-            padding-top: 50px;
-            margin-left: -140px;
-        }
-        span.email_span{
-            color: white;  
-           margin-left: 30px;
-           font-size: 16px;
-           text-align: left;  
-           font-style: italic; 
-           animation-name: email; 
-           text-decoration: underline;
-           animation-duration: 5s;  
-        } 
-        .footerForm{
-            border-bottom: 1px solid white;
-            width: 200px;
-            margin-top: 0px; 
-            margin-left: 55px;
-        }
-        
-        @keyframes email{
-            from{opacity: 0;}
-            to{opacity: 1;}
-        }
-        input[type="email"]{
-            background-color: #23BDB8  ;
-            border: none  ;
-            border-color: transparent  ;
-        }  
-        input[type="email"]::placeholder{
-            color: white;
-        }
-        span.icon__span{
-            color:white;
-            animation: email;  
-            animation-duration: 5s; 
-            margin-top: -35px; 
-            margin-left: 40px;
-            position: absolute;
-        }
-        span.icon__span:hover{
-            transform: translateX(15px);
-            transition: 1s;
-            cursor: pointer;
-        }
-        .icons__footer{
-            margin-left: 55px; 
-            animation: icons;
-            animation-duration: 1s; 
-            position: absolute;
-            margin-top: 35px;
-         }
-        
-         @keyframes icons{
-            from{opacity: 0;}
-            to{opacity: 1;}
-        }
-         span.icon__span2{
-            color:white; 
-             
-        }
-        span.icon__span2:hover{
-            color: rgb(211, 208, 208);
-            cursor: pointer;
-        } 
-        p.pricopyright{
-            padding: 15px 0;
-            text-align: left;
-            margin-left: 50px;
-            font-size: 14px;
-            transform: scale(1.1,1);
-            max-width: 100%;
-        }
-         p.priprivacy__terms{
-            padding: 15px 0;
-            margin-left: 0px;
-            font-size: 14px;
-            transform: scale(1.1,1);
-        }
-        p.priprivacy:hover{
-            text-decoration: underline;
-            cursor: pointer;
-        }
-        span.minus{
-            transform: rotate(90deg);
-        }
-         }
-         @media only screen and (max-width:415px){
-            h4.footSub{  
-                margin-left: -120px;
-            }
-         }
-         @media only screen and (max-width:395px){
-            h4.footSub{ 
-                padding-top: 50px;
-                margin-left: -105px;
-            }
-            p.pricopyright{ 
-                margin-left: 35px; 
-            } 
-            span.icon__span{
-                color:white;
-                animation: email;  
-                animation-duration: 5s; 
-                margin-top: -35px; 
-                margin-left: 50px;
-                position: absolute;
-            }
-         }
-         @media only screen and (max-width:391px){
-            h4.footSub{ 
-                padding-top: 50px;
-                margin-left: -105px;
-            }
-            p.pricopyright{ 
-                margin-left: 35px; 
-            } 
-         }
-         @media only screen and (max-width:380px){
-  
-            .foot1{ 
-                height: 150px; 
-            }
-            .foot2{ 
-                height: 700px; 
-            }
-            h1.footerLogo{ 
-                padding-top: 50px;
-                padding-left: 0px;
-                font-size: 35px;
-            }
-            ul.footList1{
-                list-style: none;
-                margin-left: 20px;
-                margin-top: 50px;
-            }
             h1.footHead1{
-                font-size: 20px;
-                color: white;
-                text-align: left; 
+                font-size: 16px; 
+                width: 300px;
             }
-             li.footLIstitem1{
-                font-size: 15px;
-                color: white;
-                text-align: left;
-                margin-top: 10px;
-             }
-             ul.footList2{
-                list-style: none;
-                margin-left: 30px;
-                margin-top: 50px;
-            }
-            ul.footList3{
-                list-style: none;
-                margin-left: 20px;
-                margin-top: 30px;
-            }
-            h4.footSub{ 
-                padding-top: 50px;
-                margin-left: -85px;
-            }
-            span.email_span{
-                color: white;  
-               margin-left: 30px;
-               font-size: 16px;
-               text-align: left;  
-               font-style: italic; 
-               animation-name: email; 
-               text-decoration: underline;
-               animation-duration: 5s;  
-            } 
-            .footerForm{
-                border-bottom: 1px solid white;
-                width: 200px;
-                margin-top: 0px; 
-                margin-left: 55px;
-            }
-            
-            @keyframes email{
-                from{opacity: 0;}
-                to{opacity: 1;}
-            }
-            input[type="email"]{
-                background-color: #23BDB8  ;
-                border: none  ;
-                border-color: transparent  ;
-            }  
-            input[type="email"]::placeholder{
-                color: white;
-            }
-            span.icon__span{
-                color:white;
-                animation: email;  
-                animation-duration: 5s; 
-                margin-top: -35px; 
-                margin-left: 70px;
-                position: absolute;
-            }
-            span.icon__span:hover{
-                transform: translateX(15px);
-                transition: 1s;
-                cursor: pointer;
-            }
-            .icons__footer{
-                margin-left: 55px; 
-                animation: icons;
-                animation-duration: 1s; 
-                position: absolute;
-                margin-top: 35px;
-             }
-            
-             @keyframes icons{
-                from{opacity: 0;}
-                to{opacity: 1;}
-            }
-             span.icon__span2{
-                color:white; 
-                 
-            }
-            span.icon__span2:hover{
-                color: rgb(211, 208, 208);
-                cursor: pointer;
-            } 
-            p.pricopyright{
-                padding: 15px 0;
-                text-align: left;
-                margin-left: 25px;
-                font-size: 14px;
-                transform: scale(1.1,1);
-                max-width: 100%;
-            }
-             p.priprivacy__terms{
-                padding: 15px 0;
-                margin-left: 0px;
-                font-size: 14px;
-                transform: scale(1.1,1);
-            }
-            p.priprivacy:hover{
-                text-decoration: underline;
-                cursor: pointer;
-            }
-            span.minus{
-                transform: rotate(90deg);
-            }
-             }
-             @media only screen and (max-width:360px) and (min-width:321px){
-                p.pricopyright{
-                    padding: 15px 0;
-                    text-align: left;
-                    margin-left: 40px;
-                    font-size: 12px;
-                    transform: scale(1.1,1);
-                    max-width: 100%;
+                li.footLIstitem1{
+                font-size: 13px;  
+                margin-top: 10px; 
                 }
+                ul.footList2{
+                margin-left: -95px;
+                margin-top: 10px;
+            }
+            ul.footList3{
+                margin-left: -95px;
+                margin-top: 10px;
+            }
+            .icons__footer{     
+                padding-right: 30px;
+            padding-bottom: 20px;
+                }  
+            p.pricopyright{
+                padding: 15px 0;
+                text-align: left;
+                margin-left:45px;
+                font-size: 13px; 
+            }
                 p.priprivacy__terms{
-                    padding: 15px 0;
-                    margin-left: 0px;
-                    font-size: 12px;
-                    transform: scale(1.1,1);
+                padding:  0;
+                margin-left: -10px;
+                font-size: 13px; 
+            }
+             
+            }
+            @media only screen and (max-width:361px) and (min-width:322px){ 
+        
+                img.footerLogo2{ 
+                    width: 60px; 
+                    margin-left: -110px;   
                 }
-                h4.footSub{ 
-                    padding-top: 50px;
-                    margin-left: -70px;
+                p.footerParaCons{
+                    min-width: 300px;
+                    margin-left: -65px;
+                    margin-top: 20px; 
+                    font-size: 14px;
                 }
-             }
-             @media only screen and (max-width:320px){
-  
-                .foot1{ 
-                    height: 150px; 
-                }
-                .foot2{ 
-                    height: 700px; 
-                }
-                h1.footerLogo{ 
-                    padding-top: 50px;
-                    padding-left: 0px;
-                    font-size: 35px;
-                }
-                ul.footList1{
-                    list-style: none;
-                    margin-left: 10px;
-                    margin-top: 50px;
-                    
-                }
-                h1.footHead1{
-                    font-size: 20px;
-                    color: white;
-                    text-align: left;  
-                }
-                 li.footLIstitem1{
-                    font-size: 15px;
-                    color: white;
-                    text-align: left;
-                    margin-top: 10px; 
-                    width: 200px;
-                 }
-                 ul.footList2{
-                    list-style: none;
-                    margin-left: 10px;
-                    margin-top: 50px;
-                }
-                ul.footList3{
-                    list-style: none;
-                    margin-left: 10px;
+                ul.footList1{ 
+                    margin-left: -95px;
                     margin-top: 30px;
                 }
-                h4.footSub{ 
-                    padding-top: 50px;
-                    margin-left: -50px;
+                h1.footHead1{
+                    font-size: 16px; 
+                    width: 300px;
                 }
-                span.email_span{
-                    color: white;  
-                   margin-left: 30px;
-                   font-size: 16px;
-                   text-align: left;  
-                   font-style: italic; 
-                   animation-name: email; 
-                   text-decoration: underline;
-                   animation-duration: 5s;  
-                } 
-                .footerForm{
-                    border-bottom: 1px solid white;
-                    width: 200px;
-                    margin-top: 0px; 
-                    margin-left: 45px;
+                    li.footLIstitem1{
+                    font-size: 13px;  
+                    margin-top: 10px; 
+                    }
+                    ul.footList2{
+                    margin-left: -95px;
+                    margin-top: 10px;
                 }
-                
-                @keyframes email{
-                    from{opacity: 0;}
-                    to{opacity: 1;}
+                ul.footList3{
+                    margin-left: -95px;
+                    margin-top: 10px;
                 }
-                input[type="email"]{
-                    background-color: #23BDB8  ;
-                    border: none  ;
-                    border-color: transparent  ;
-                }  
-                input[type="email"]::placeholder{
-                    color: white;
-                }
-                span.icon__span{
-                    color:white;
-                    animation: email;  
-                    animation-duration: 5s; 
-                    margin-top: -35px; 
-                    margin-left: 85px;
-                    position: absolute;
-                }
-                span.icon__span:hover{
-                    transform: translateX(15px);
-                    transition: 1s;
-                    cursor: pointer;
-                }
-                .icons__footer{
-                    margin-left: 45px; 
-                    animation: icons;
-                    animation-duration: 1s; 
-                    position: absolute;
-                    margin-top: 35px;
-                 }
-                
-                 @keyframes icons{
-                    from{opacity: 0;}
-                    to{opacity: 1;}
-                }
-                 span.icon__span2{
-                    color:white; 
-                     
-                }
-                span.icon__span2:hover{
-                    color: rgb(211, 208, 208);
-                    cursor: pointer;
-                } 
+                .icons__footer{     
+                    padding-right: 30px;
+                padding-bottom: 20px;
+                    }  
                 p.pricopyright{
                     padding: 15px 0;
                     text-align: left;
-                    margin-left: 20px;
-                    font-size: 12px;
-                    transform: scale(1.1,1);
-                    max-width: 100%;
+                    margin-left:45px;
+                    font-size: 12px; 
                 }
-                 p.priprivacy__terms{
-                    padding: 15px 0;
-                    margin-left: 0px;
-                    font-size: 12px;
-                    transform: scale(1.1,1);
+                    p.priprivacy__terms{
+                    padding:  0;
+                    margin-left: -10px;
+                    font-size: 12px; 
                 }
-                p.priprivacy:hover{
-                    text-decoration: underline;
-                    cursor: pointer;
+                 
                 }
-                span.minus{
-                    transform: rotate(90deg);
-                }
-                 }
-                 @media only screen and (max-width:280px){
-  
-                    .foot1{ 
-                        height: 150px; 
+                @media only screen and (max-width:321px) and (min-width:282px){ 
+        
+                    img.footerLogo2{ 
+                        width: 50px; 
+                        margin-left: -100px;   
                     }
-                    .foot2{ 
-                        height: 700px; 
+                    p.footerParaCons{
+                         width: 260px;
+                        margin-left: -70px;
+                        margin-top: 20px; 
+                        font-size: 14px;
                     }
-                    h1.footerLogo{ 
-                        padding-top: 50px;
-                        padding-left: 0px;
-                        font-size: 20px;
-                    }
-                    ul.footList1{
-                        list-style: none;
-                        margin-left: 10px;
-                        margin-top: 50px;
-                        
-                    }
-                    h1.footHead1{
-                        font-size: 15px;
-                        color: white;
-                        text-align: left;  
-                    }
-                     li.footLIstitem1{
-                        font-size: 12px;
-                        color: white;
-                        text-align: left;
-                        margin-top: 10px; 
-                        width: 200px;
-                     }
-                     ul.footList2{
-                        list-style: none;
-                        margin-left: 10px;
-                        margin-top: 50px;
-                    }
-                    ul.footList3{
-                        list-style: none;
-                        margin-left: 10px;
+                    ul.footList1{ 
+                        margin-left: -100px;
                         margin-top: 30px;
                     }
-                    h4.footSub{ 
-                        padding-top: 50px;
-                        margin-left: -50px;
+                    h1.footHead1{
+                        font-size: 16px; 
+                        width: 300px;
                     }
-                    span.email_span{
-                        color: white;  
-                       margin-left: 30px;
-                       font-size: 16px;
-                       text-align: left;  
-                       font-style: italic; 
-                       animation-name: email; 
-                       text-decoration: underline;
-                       animation-duration: 5s;  
-                    } 
-                    .footerForm{
-                        border-bottom: 1px solid white;
-                        width: 200px;
-                        margin-top: 0px; 
-                        margin-left: 45px;
+                        li.footLIstitem1{
+                        font-size: 13px;  
+                        margin-top: 10px; 
+                        }
+                        ul.footList2{
+                        margin-left: -100px;
+                        margin-top: 10px;
                     }
-                    
-                    @keyframes email{
-                        from{opacity: 0;}
-                        to{opacity: 1;}
+                    ul.footList3{
+                        margin-left: -100px;
+                        margin-top: 10px;
                     }
-                    input[type="email"]{
-                        background-color: #23BDB8  ;
-                        border: none  ;
-                        border-color: transparent  ;
-                    }  
-                    input[type="email"]::placeholder{
-                        color: white;
-                    }
-                    span.icon__span{
-                        color:white;
-                        animation: email;  
-                        animation-duration: 5s; 
-                        margin-top: -35px; 
-                        margin-left: 85px;
-                        position: absolute;
-                    }
-                    span.icon__span:hover{
-                        transform: translateX(15px);
-                        transition: 1s;
-                        cursor: pointer;
-                    }
-                    .icons__footer{
-                        margin-left: 45px; 
-                        animation: icons;
-                        animation-duration: 1s; 
-                        position: absolute;
-                        margin-top: 35px;
-                     }
-                    
-                     @keyframes icons{
-                        from{opacity: 0;}
-                        to{opacity: 1;}
-                    }
-                     span.icon__span2{
-                        color:white; 
-                         
-                    }
-                    span.icon__span2:hover{
-                        color: rgb(211, 208, 208);
-                        cursor: pointer;
-                    } 
+                    .icons__footer{     
+                        padding-right: 155px;
+                    padding-bottom: 20px;
+                        }  
                     p.pricopyright{
                         padding: 15px 0;
                         text-align: left;
-                        margin-left: 25px;
-                        font-size: 10px;
-                        transform: scale(1.1,1);
-                        max-width: 100%;
+                        margin-left:45px;
+                        font-size: 10px; 
                     }
-                     p.priprivacy__terms{
+                        p.priprivacy__terms{
+                        padding:  0;
+                        margin-left: 0px;
+                        font-size: 10px; 
+                    }
+                     
+                     
+                    }    
+                @media only screen and (max-width:281px)  { 
+        
+                    img.footerLogo2{ 
+                        width: 50px; 
+                        margin-left: -140px;   
+                    }
+                    p.footerParaCons{
+                         width: 220px;
+                        margin-left: -70px;
+                        margin-top: 20px; 
+                        font-size: 14px;
+                    }
+                    ul.footList1{ 
+                        margin-left: -100px;
+                        margin-top: 30px;
+                    }
+                    h1.footHead1{
+                        font-size: 16px; 
+                        width: 300px;
+                    }
+                        li.footLIstitem1{
+                        font-size: 13px;  
+                        margin-top: 10px; 
+                        }
+                        ul.footList2{
+                        margin-left: -100px;
+                        margin-top: 10px;
+                    }
+                    ul.footList3{
+                        margin-left: -100px;
+                        margin-top: 10px;
+                    }
+                    .icons__footer{     
+                        padding-right: 155px;
+                    padding-bottom: 20px;
+                        }  
+                    p.pricopyright{
                         padding: 15px 0;
-                        margin-left: -30px;
-                        font-size: 10px;
-                        transform: scale(1.1,1);
+                        text-align: left;
+                        margin-left:25px;
+                        font-size: 10px; 
                     }
-                    p.priprivacy:hover{
-                        text-decoration: underline;
-                        cursor: pointer;
+                        p.priprivacy__terms{
+                        padding:  0;
+                        margin-left: -40px;
+                        font-size: 10px; 
                     }
-                    span.minus{
-                        transform: rotate(90deg);
+                     
                     }
-                     }
+                                                             
+                          
+                                              
+                                                         
+                      

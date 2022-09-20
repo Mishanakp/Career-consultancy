@@ -44,6 +44,9 @@ function Home() {
   useEffect(() =>{
     Aos.init({});
 },[]);
+React.useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
 const settings = {
   dots:false,

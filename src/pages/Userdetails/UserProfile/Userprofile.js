@@ -80,7 +80,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Myprofile from './Profile';
+
 
 function TabPanels(props) {
   const { children, value, index, ...other } = props;
@@ -497,7 +497,7 @@ export default function VerticalTabs() {
    </div>
       </TabPanels>
       <TabPanels value={value} index={1}>
-     <Viewprofile/>
+     
       </TabPanels>
       <TabPanels value={value} index={2}>
       <div className='pass'>
@@ -844,7 +844,7 @@ export default function VerticalTabs() {
           <Typography style={{fontSize:'18px',color:'#23BDB8'}}><PersonIcon className='icon' style={{color:'#23BDB8',fontSize:'25px'}} />MY PROFILE</Typography>
         </AccordionSummary >
         <AccordionDetails>
-       <Myprofile/>
+      
         </AccordionDetails>
       </Accordion>
       <Accordion >

@@ -1,4 +1,5 @@
-/*****************SECTION ONE***************/
+/************************************SECTION ONE***********************************/
+/**********************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -60,16 +61,16 @@
 
 @media only screen and (max-width:1921px) and (min-width:1601px) {
     .para-one {
-        transform: translate(357px,-198px);
+        transform: translate(357px,-249px);
         width: 83%;
         font-size: 15px;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        width: 41%!important;
-        transform: translate(145px,148px)!important;
+        width: 34%!important;
+        transform: translate(215px,148px)!important;
     }
     #mishanathirdd.uk-card-title {
-        transform: translate(485px,-240px)!important;
+        transform: translate(485px,-265px)!important;
     }
 }
 
@@ -81,8 +82,8 @@
         transform: translate(300px,-217px)!important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        width: 42%!important;
-        transform: translate(136px,149px)!important;
+        width: 32%!important;
+        transform: translate(209px,161px)!important;
     }
 }
 
@@ -94,8 +95,8 @@
         transform: translate(276px,-259px)!important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        width: 46%!important;
-        transform: translate(100px,111px)!important;
+        width: 34%!important;
+        transform: translate(200px,151px)!important;
     }
 }
 
@@ -109,7 +110,7 @@
     }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
     .para-one {
         transform: translate(58px,-239px);
       }
@@ -122,39 +123,36 @@
       }
 }
 
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281) {
+    .para-one {
+        transform: translate(58px,-239px);
+      }
+      #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 43%!important;
+        transform: translate(90px,148px) !important;
+      }
+      #mishanathirdd.uk-card-title {
+        transform: translate(156px,-242px) !important;
+      }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1201px) {
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translate(64px,181px)!important;
+        transform: translate(64px,181px) !important;
     }
     .para-one {
         transform: translate(58px,-223px);
     }
     #mishanathirdd.uk-card-title {
-        transform: translate(134px,-225px)!important;
+        transform: translate(134px,-225px) !important;
     }
 }
 
-@media only screen and (max-width:1292px) and (min-width:1201) {
-    #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translateX(-50px) !important;
-    }
-    #mishanathirdd.uk-card-title {
-        margin-top: -40px !important;
-    }
+
+@media only screen and (max-width:1200px) and (min-width:1025px) {
+
 }
-@media only screen and (max-width:1200px) and (min-width:1009px) {}
-@media only screen and (max-width:960px) and (min-width:901px) {}
-@media only screen and (max-width:889px) and (min-width:672px) {}
-@media only screen and (max-width:640px) and (min-width:600px) {}
-
-
-
-
-
-/*--------  RESPONSIVE SECTION --------*/
-
- /*Laptop view  */
- @media screen and (max-width:1024px) and (min-width:767px){
+@media screen and (max-width:1024px) and (min-width:1009px){
     #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2 {
        margin-left: 100px !important;
     }
@@ -165,7 +163,7 @@
     }
     #mishanathirdd.uk-card-title {
        width: 70% !important;
-       transform: translate(-78px,-166px) !important;
+       transform: translate(-78px,-140px) !important;
        font-size: 30px!important;
        color: #0E314C!important;
     }
@@ -176,39 +174,44 @@
     
 }
 
-/*  Tab view  */
-@media screen and (max-width:769px) {
+@media only screen and (max-width:1008px) and (min-width:961px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:770px) {}
+@media only screen and (max-width:769px) and (min-width:673px) {
     .para-one {
         width: 120% !important;
-        transform: translate(-300px,-200px) !important;
+        transform: translate(-300px,-250px) !important;
         font-size: 13px!important;
         line-height: 1.7!important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
         padding-top: 90px !important;
         width: 50% !important;
-        transform: translate(21px,158px)!important;
+        transform: translate(21px,115px)!important;
     }
     #mishanathirdd.uk-card-title {
         width: 100% !important;
-        transform: translate(-274px,-199px) !important;
+        transform: translate(-274px,-250px) !important;
     }
     
 }
-
-
-/*  Mobile view  Large */
-@media screen and (max-width:426px) {
+@media only screen and (max-width:672px) and (min-width:641px) {}
+@media only screen and (max-width:640px) and (min-width:601px) {}
+@media only screen and (max-width:600px) and (min-width:596px) {}
+@media only screen and (max-width:595px) and (min-width:541px) {}
+@media only screen and (max-width:540px) and (min-width:481px) {}
+@media only screen and (max-width:580px) and (min-width:427px) {}
+@media only screen and (max-width:426px) and (min-width:415px) {
     #mishanathirdd.uk-card-title {
-        transform: translate(-644px,-295px) !important;
+        transform: translate(-644px,-315px) !important;
     }
     .para-one {
-        transform: translate(-660px,-304px) !important;
+        transform: translate(-659px,-320px) !important;
         width: 106% !important;
         font-size: 14px!important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translate(9px,314px) !important;
+        transform: translate(18px,380px) !important;
         width: 96% !important;
     }
 }
@@ -219,13 +222,13 @@
 @media screen and (max-width:376px) {
     .para-one {
         width: 118% !important;
-        transform: translate(-675px,-268px) !important;
+        transform: translate(-675px,-310px) !important;
     }
     #mishanathirdd.uk-card-title {
-        transform: translate(-651px,-271px) !important;
+        transform: translate(-651px,-310px) !important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translate(2px,346px) !important;
+        transform: translate(5px,371px) !important;
         width: 103% !important;
     }
 }
@@ -236,16 +239,16 @@
 /*  Mobile view  Small  */
 @media screen and (max-width:321px) {
     #mishanathirdd.uk-card-title {
-        transform: translate(-663px,-237px) !important;
+        transform: translate(-662px,-265px) !important;
         width: 109% !important;
     }
     .para-one {
         width: 123% !important;
-        transform: translate(-679px,-239px) !important;
+        transform: translate(-680px,-270px) !important;
     }
     #mishanafirstt.uk-card-media-left.uk-cover-container {
         width: 101% !important;
-        transform: translate(2px,381px) !important;
+        transform: translate(8px,381px) !important;
     }
 }
 
@@ -253,7 +256,8 @@
 
 
 
-/********************SECTION SECOND*********************/
+/****************************************SECTION SECOND****************************************/
+/**********************************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .mishsectionportion .uk-card-default {
@@ -275,7 +279,7 @@
       color: #0E314C;
       padding-top: 50px;
       font-size: 35px;
-      transform: translate(180px,-260px);
+      transform: translate(180px,-150px);
       width: 50% !important ;
       font-family: 'Poppins', sans-serif;
       font-weight: 650;
@@ -328,7 +332,9 @@
             margin-left: 74px;
             transform: translateY(-193px);
         }
-        
+        .uk-card-title2 {
+            transform: translate(248px,-204px);
+        }
 }
 
 @media only screen and (max-width:1440px) and (min-width:1367px) {
@@ -343,55 +349,63 @@
       #mishanafirstt.uk-card-media-left.uk-cover-container {
             width: 43%!important;
             transform: translate(84px,100px)!important;
+      } 
+      .uk-card-title2 {
+        transform: translate(208px,-265px) !important;
       }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
       .para-two {
-            margin-left: 62px;
+            margin-left: 56px !important;
+            width: 88% !important;
       }
       .uk-card-media-left.uk-cover-container2 {
             transform: translate(717px,-600px);
         }
         .uk-card-title2 {
-            transform: translate(266px,-260px);
+            transform: translate(238px,-260px);
         }
 }
 
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281) {
       .para-two {
-            margin-left: 21px;
-            transform: translateY(-257px);
+            margin-left: 11px !important;
       }
       .uk-card-title2 {
-            margin-left: 29px;
-      }
+        transform: translate(238px,-260px) !important;
+    }
 }
-@media only screen and (max-width:1292px) and (min-width:1201) {}
-@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:1280px) and (min-width:1201px) {
+    .para-two {
+          margin-left: 21px;
+          transform: translateY(-257px);
+    }
+    .uk-card-title2 {
+          margin-left: 29px;
+    }
+}
+@media only screen and (max-width:1200px) and (min-width:1025px) {}
+@media only screen and (max-width:1008px) and (min-width:961px) {}
 @media only screen and (max-width:960px) and (min-width:901px) {}
 @media only screen and (max-width:889px) and (min-width:672px) {}
 @media only screen and (max-width:640px) and (min-width:600px) {}
 
 
-
-
-/*--------  RESPONSIVE SECTION --------*/
-
 /*------   Laptop view  ------*/
 @media screen and (max-width:1024px) and (min-width:767px){
       .uk-card-title2 {
-            margin-left: -130px !important;
+            margin-left: 65px !important;
             font-size: 30px;
             width: 80% !important;
-            
+            transform: translateY(-200px);
       }
       .para-two {
             width: 110%;
-            transform: translate(-55px,-250px);
+            transform: translate(-55px,-200px);
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(560px,-550px);
+            transform: translate(560px,-500px);
             width: 91% !important;
       }
 }
@@ -402,16 +416,18 @@
 @media screen and (max-width:769px) {
       .uk-card-title2 {
             width: 100% !important;
-            margin-left: -155px !important;
+            margin-left: 16px !important;
+            transform: translateY(-350px) !important;
       }
       .para-two {
             line-height: 1.7 !important;
             width: 120% !important;
-            margin-left: -10px;
+            margin-left: -73px;
             font-size: 13px;
+            transform: translateY(-350px) !important;
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(415px,-474px) !important;
+            transform: translate(415px,-600px) !important;
             width: 90% !important;
       }
 }
@@ -422,14 +438,14 @@
       .para-two {
           width: 106% !important;
           font-size: 14px;
-          transform: translate(-53px, -199px) !important;
+          transform: translate(10px, -199px) !important;
       }
       .uk-card-title2 {
             margin-left: -180px !important;
             transform: translate(180px,-199px) !important;
       }
       .uk-card-media-left.uk-cover-container2 {
-            transform: translate(9px,-200px) !important;
+            transform: translate(21px,-200px) !important;
       }
 }
 
@@ -437,15 +453,15 @@
 /*-------  Mobile view  Medium  ------*/
 @media screen and (max-width:376px) {
       .para-two {
-            width: 117% !important;
-            transform: translate(-72px, -199px) !important;
+        width: 113% !important;
+        transform: translate(-2px, -199px) !important;
       }
       .uk-card-title2 {
             margin-left: -177px !important;
       }
       .uk-card-media-left.uk-cover-container2 {
             width: 111% !important;
-            transform: translate(-12px,-200px) !important;
+            transform: translate(-20px,-200px) !important;
       }
 }
 
@@ -454,6 +470,7 @@
 @media screen and (max-width:321px) {
       .para-two {
             width: 120% !important;
+            transform: translate(-9px, -199px) !important;
       }
       .uk-card-title2 {
             width: 88% !important;
@@ -468,7 +485,9 @@
 
 
 
-/*******************SECTION THIRD*********************/
+/******************************************SECTION THIRD***************************************/
+/**********************************************************************************************/
+
 .homeCard{
     transform: translateY(-550px) !important;
     margin-top: -10px;
@@ -487,15 +506,18 @@ h1.cardMainHead{
     
 }
 .card1,.card2,.card3,.card4{
-    max-width: 250px;
+    max-width: 280px !important;
     height: 360px !important;
     
 }
+.card1{
+    margin-left: -30px;
+}
 .card2{
-    margin-left: -15px;
+    margin-left: -35px;
 }
 .card3{
-    margin-left: -30px;
+    margin-left: -37px;
 }
 .card4{
     margin-left: -40px;
@@ -507,7 +529,7 @@ h1.cardMainHead{
     padding-top: 25px !important;
 }
 .card2head {
-    padding-right: 70px !important;
+    padding-right: 95px !important;
     padding-top: 30px;
     width: 140% !important;
 }
@@ -586,15 +608,15 @@ h1.cardMainHead {
 }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
 h1.cardMainHead {
     margin-left: 11px;
 }
 .cards1 {
-    margin-left: 107px;
+    margin-left: 100px !important;
 }
 }
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281px) {
 .cards1 {
     margin-left: 84px;
 }
@@ -602,8 +624,9 @@ h1.cardMainHead {
     margin-left: 10px;
 }
 }
-@media only screen and (max-width:1292px) and (min-width:1201) {}
-@media only screen and (max-width:1200px) and (min-width:1009px) {}
+@media only screen and (max-width:1280px) and (min-width:1201) {}
+@media only screen and (max-width:1200px) and (min-width:1025px){}
+@media only screen and (max-width:1008px) and (min-width:961px) {}
 @media only screen and (max-width:960px) and (min-width:901px) {}
 @media only screen and (max-width:889px) and (min-width:672px) {}
 @media only screen and (max-width:640px) and (min-width:600px) {}
@@ -616,8 +639,8 @@ h1.cardMainHead {
 /*------- RESPONSIVE OF LAP  ------*/
 @media screen and (max-width:1024px) and (min-width:767px){
 .cards1 {
-    padding-right: 70px;
-    margin-left: 120px;
+    padding-right: 80px;
+    margin-left: 127px !important;
  }
  h1.cardMainHead {
     padding-right: 7px !important;
@@ -650,7 +673,7 @@ h1.cardMainHead {
 }  
 .cards1 {
     padding-right: 1px;
-    margin-left: 90px;
+    margin-left: 88px !important;
 }  
 .card1,.card2,.card3,.card4{
     max-width: 270px;
@@ -686,7 +709,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
     .cards1 {
         padding-top: 20px !important;
-        margin-left: 77px;
+        margin-left: 77px !important;
     }
     .card2 {
        margin-top: 50px;
@@ -703,12 +726,12 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     
     h1.cardMainHead {
         font-size: 30px;
-        margin-left: -7px;
+        margin-left: -7px !important;
         width: 400px;
     }
     .cards1 {
         padding-right: 60px !important;
-        margin-left: 61px;
+        margin-left: 61px !important;
     }
     p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4 {
         padding-right: 30px;
@@ -720,7 +743,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 @media only screen and (max-width:321px){
     .cards1 {
         width: 100%;
-        margin-left: 30px;
+        margin-left: 30px !important;
     }
     h1.cardMainHead {
         width: 351px;
@@ -732,7 +755,8 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 
 
 
-/******************SECTION FOUR*****************/
+/********************************************SECTION FOUR***************************************/
+/***********************************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .css-1sir9cm-MuiPaper-root {
@@ -798,25 +822,29 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
     .gridsection {
         width: 95%;
-        margin-left: 38px;
+        margin-left: 36px;
         word-break: break-all;
     }
 }
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281) {
+    .gridsection {
+        margin-left: 25px !important;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:1201px) {
     .gridsection {
         width: 97%;
         margin-left: 18px;
     }
 }
-@media only screen and (max-width:1292px) and (min-width:1201) {
-    .gridsection {
-        margin-left: 25px !important;
-    }
+
+@media only screen and (max-width:1200px) and (min-width:1025px) {
+    
 }
-@media only screen and (max-width:1200px) and (min-width:1009px) {
+@media only screen and (max-width:1008px) and (min-width:961px) {
     
 }
 @media only screen and (max-width:960px) and (min-width:901px) {}
@@ -836,20 +864,23 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         margin-left: -46px !important;
     }
     .gridpara1, .gridpara2, .gridpara3  {
-        width: 75% !important;
+        width: 72% !important;
         word-break: break-all;
     }
+    .gridpara1 {
+        margin-left: 80px !important;
+    }
     .gridhead2 {
-        margin-left: -120px !important;
+        margin-left: -167px !important;
     }
     .gridpara2 {
-        margin-left: -30px !important;
+        margin-left: -22px !important;
     }
     .gridhead3 {
-        margin-left: -300px !important;
+        margin-left: -350px !important;
     }
     .gridpara3 {
-        margin-left: -120px !important;
+        margin-left: -125px !important;
     }
 }
 
@@ -867,32 +898,32 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         width: 98% !important;
     }
     .gridhead1 {
-        transform: translateX(-180px);
+        transform: translateX(-140px);
         width: 200% !important;
     }
     .gridhead2 {
-        transform: translateX(45px);
+        transform: translateX(129px);
         width: 200% !important;
     }
     .gridhead3 {
         margin-left: 0px !important;
-        transform: translateX(-20px);
+        transform: translateX(15px);
         width: 200% !important;
     }
     .gridpara1 {
-        width: 150% !important;
-        transform: translateX(-150px);
+        width: 130% !important;
+        transform: translateX(-109px);
      
     }
     .gridpara2 {
         margin-left: 10px !important;
-        width: 150% !important;
-        transform: translateX(-50px);
+        width: 130% !important;
+        transform: translateX(15px);
     }
     .gridpara3 {
-        margin-left: -130px !important;
+        margin-left: -60px !important;
         transform: translateX(140px);
-        width: 150% !important;
+        width: 130% !important;
     }
 }
 
@@ -907,22 +938,24 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         padding-right: 296px !important;
     }
     .gridpara1 {
-        width: 100% !important;
+        width: 92% !important;
+        transform: translateX(-78px);
     }
     .gridhead2 {
+        margin-top: 10px !important;
         padding-right: 300px;
-        margin-left: -172px; 
+        margin-left: -217px; 
     }
     .gridpara2 {
-        width: 100% !important;
-        transform: translateX(-110px);
+        width: 92% !important;
+        transform: translateX(-33px);
     }
     .gridhead3 {
-        padding-right: 517px !important; 
+        padding-right: 505px !important; 
     }
     .gridpara3 {
-        width: 100% !important;
-        transform: translateX(30px);
+        width: 92% !important;
+        transform: translateX(38px);
     }
  }
 
@@ -933,25 +966,25 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 
     }
     .gridhead1 {
-        transform: translateX(-123px);
+        transform: translateX(-81px) !important;
     }
     .gridpara1 {
         width: 120% !important;
-        padding-right: 20px;
+        padding-right: 62px !important;
     }
     .gridhead2 {
-        transform: translateX(101px);
+        transform: translateX(183px) !important;
         width: 203% !important;
     }
     .gridpara2 {
-        width: 115% !important;
+        width: 101% !important;
     }
     .gridhead3 {
         width: 254% !important;
-        transform: translateX(-34px);
+        transform: translateX(-11px) !important;
     }
     .gridpara3 {
-        width: 115% !important;
+        width: 101% !important;
     }
  }
 
@@ -969,21 +1002,21 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
     .gridpara1 {
         width: 146% !important;
-        transform: translateX(-155px);
+        transform: translateX(-84px) !important;
     }
     .gridhead2 {
         width: 256% !important;
         transform: translateX(102px);
     }
     .gridpara2 {
-        width: 135% !important;
+        width: 115% !important;
     }
     .gridhead3 {
         width: 346% !important;
         transform: translateX(-49px);
     }
     .gridpara3 {
-        width: 136% !important;
+        width: 113% !important;
     }
 }
 
@@ -1063,18 +1096,20 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
   }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
   .section5 {
-    transform: translate(10px, -237px);
+    transform: translate(-5px, -237px) !important;
   }
 }
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281) {}
+@media only screen and (max-width:1280px) and (min-width:1201px) {
   .section5 {
     transform: translate(10px, -266px);
   }
 }
-@media only screen and (max-width:1292px) and (min-width:1201) {}
-@media only screen and (max-width:1200px) and (min-width:1009px) {}
+
+@media only screen and (max-width:1200px) and (min-width:1025px) {}
+@media only screen and (max-width:1008px) and (min-width:961px) {}
 @media only screen and (max-width:960px) and (min-width:901px) {}
 @media only screen and (max-width:889px) and (min-width:672px) {}
 @media only screen and (max-width:640px) and (min-width:600px) {}
@@ -1087,7 +1122,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         overflow-x: hidden !important;
        }
       .section5 {
-        padding-right: 50px;
+        padding-right: 35px !important;
       }
 }
 
@@ -1095,7 +1130,7 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
    /*-------- RESPONSIVE OF TAB --------*/
 @media only screen and (max-width:769px){
           .section5 {
-            margin-left: 22px !important;
+            margin-left: 10px !important;
           }
           .section5para {
             margin-left: -14px !important;
@@ -1108,6 +1143,10 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
 
 /*---------RESPONSIVE OF MOBILE LARGE----------*/
 @media only screen and (max-width:426px){
+         .section5 {
+            margin-left: 20px !important;
+            margin-bottom: -190px !important;
+         }
          .section5head {
             width: 85%;
             transform: translateX(2px);
@@ -1135,11 +1174,17 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
         .button1 {
             margin-left: 10px;
         }
+        .section5 {
+            margin-left: 25px !important;
+        }
  }
 
 
 /*--------RESPONSIVE OF MOBILE SMALL---------*/ 
 @media only screen and (max-width:321px){
+    .section5 {
+        margin-left: 23px !important;
+    }
     .section5head {
       width: 109%;
       margin-left: -46px;
