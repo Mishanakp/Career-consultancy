@@ -2554,7 +2554,7 @@ font-size: 30px;
     margin-left: -15px !important;
   }
 }
-
+ 
 
 
 /**************userprofile***********************/
@@ -2698,40 +2698,56 @@ margin-right: 40px!important;
   .editprofile{
     transform: translateX(-30px);
   }
+  .about{
+    margin-top: 40px;
+  }
 
 }
   
   @media screen and (max-width:1025px){
+    .boxprofile{
+      margin:-16px;
+    }
     
       .profileimage img{
           transform: translate(30px,60px);
           width: 25%!important;
       }
       .additioncamera{
-          transform: translate(65px,-105px)!important;
+          transform: translate(72px,-55px)!important;
       }
-      .userdetail h2{
+      .userdetail {
           font-size: 26px;
-          margin-left: -10px;
       }
       .userdetail h3{
           font-size: 20px;
-          margin-left: -10px;
       }
       .userdetail{
-          margin-top: 70px;
+          margin-top: 0px;
       }
       .email ul li{
-          margin-right: 10px!important;
-          margin-bottom: 7px;
-      }
+        display: block;
 
+          margin-right: 0px!important;
+          margin-bottom: 20px;
+      }
+      .about{
+        margin-top: 30px;
+      }
+.editicon{
+  width: 40%;
+  transform: translate(-90px,10px);
+}
     
   }
   @media screen and (max-width:769px){
+    .editicon{
+      width: 90%;
+      transform: translate(-30px,20px);
+    }
       
       .additioncamera{
-          transform: translate(75px,-105px);
+          transform: translate(65px,-85px)!important;
       }
       .email ul li{
           display: block;
@@ -2741,14 +2757,19 @@ margin-right: 40px!important;
           margin-top: 3px;
       }
       .about{
-          margin-top: 2px;
+          margin-top: 0px;
       }
       .about p3{
           word-break: break-all;
       }
+      
   }
  
   @media screen and (max-width:426px) {
+    .editicon{
+      width: 100%;
+      transform:translate(-60px,26px); ;
+    }
       .profileimage img{
           transform: translate(88px,60px);
           width: 55%!important;
@@ -2760,10 +2781,10 @@ margin-right: 40px!important;
           margin-left: 10px;
       }
       .about{
-          margin: 40px;
-      }
+       margin: 45px;
+          }
       .additioncamera{
-          transform: translate(62px,-95px)!important;
+          transform: translate(65px,-45px)!important;
       }
   }
   @media screen and (max-width:376px){
@@ -2771,8 +2792,13 @@ margin-right: 40px!important;
           transform: translate(80px,60px);
       }
       .additioncamera{
-          transform: translate(42px,-105px)!important;
+          transform: translate(52px,-105px)!important;
       }
+      .about{
+        margin-left: 10px;
+        margin-right: 51px;
+        margin-bottom: 30px;
+          }
   }
   @media screen and (max-width:321px){
       .profileimage img{

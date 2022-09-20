@@ -8,8 +8,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
-import EditIcon from '@mui/icons-material/Edit';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import penicon from '../../../Assets/userprofile/penicon.png'
@@ -37,7 +35,7 @@ function Myprofile() {
     <div className='boxprofile'>
      
      <Box sx={{ flexGrow: 1 }} >
-      <Grid container spacing={4}>
+      <Grid container spacing={0}>
 <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
   <div className="headerportion1">
   <div className="profileimage">
@@ -56,7 +54,7 @@ function Myprofile() {
 <h3>Fresher</h3>
   </div>
 </Grid>
-<Grid item xl={7} lg={7} md={7} sm={7} xs={12}>
+<Grid item xl={7} lg={7} md={6} sm={7} xs={11}>
   <div className="email">
     <ul>
       <li>
@@ -79,7 +77,7 @@ function Myprofile() {
 <p3> 5 years of experience as a Salesman. Motivated, personable business professional with a talent for quickly identifying and resolving problems. Very flexible, versatile, and results-oriented with the ability to build productive relationships.</p3>
 </div>
 </Grid>
-<Grid item xl={1} lg={1} md={1} sm={1}>
+<Grid item xl={1} lg={1} md={2} sm={1} xs={1}>
 <div className="editprofile">
 <img src={penicon} className="editicon" alt=""   onClick={handleOpen} />
     <Modal
