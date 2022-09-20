@@ -11,10 +11,30 @@ import './Booksession.css';
 import SignUp from '../../../Authentication/SignUp/SingUp';
 
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 
 function Booksession() {
-    
+
+  const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
+
+  const [open2, setOpen2] = React.useState(false);
+  const handleOpen2 = () => setOpen2(true);
+  const handleClose2 = () => setOpen2(false);
+
+
   const [value, setValue] = React.useState(dayjs());
   // const [date, setDate] = React.useState(dayjs());
 
@@ -226,9 +246,26 @@ function Booksession() {
 </div>
     <br/>
     <Link to="/SignUp" >
-    <button className="booksessionpagebutton">   
+    <button className="booksessionpagebutton" onClick={handleOpen2}>   
         <span style={{color:'white'}}>Book Now</span>
-    </button></Link>
+    </button></Link> 
+    {/* <Modal
+  open={open2}
+  onClose={handleClose2}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='bookmodalupdatehead'>
+     Consultant name: Pooja Roy
+     <br/>
+     Booking date: 03/10/2022
+     <br/>
+     Booking Time: 2.00 PM
+    </Typography>
+    <button className="booksessionpagebutton" >Book Now</button>
+  </Box>
+</Modal> */}
     <br/><br/><br/>  
 </Grid>
 
