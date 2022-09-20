@@ -1,7 +1,13 @@
 import React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import './Userprofile.css'
 import EventIcon from '@mui/icons-material/Event';
@@ -9,6 +15,7 @@ import LockIcon from '@mui/icons-material/Lock';
 import PersonIcon from '@mui/icons-material/Person';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import LogoutIcon from '@mui/icons-material/Logout';
+import swal from 'sweetalert';
 
 import {Grid} from '@mui/material'
 import session from '../../../Assets/userprofile/session.jpg'
@@ -52,7 +59,8 @@ import ListItemButton from '@mui/material/ListItemButton';
 import {  ListItemIcon} from '@mui/material'
 import { useState, useEffect  } from 'react';
 
-
+import Modal from '@mui/material/Modal';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
@@ -123,12 +131,30 @@ export default function VerticalTabs() {
 
   //*****************************mysession code ************************ //
   const [sessionvalue, setSessionvalue] = useState('sessiontrue');
-  let [value1session,setValue1session]=useState(false)
+  let [value1session,setValue1session]=useState(true)
   const handleChangesession = (event) => {
     setSessionvalue(event.target.value);
   };
 
-
+  const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: '#23BDB8',
+      color: theme.palette.common.white,
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontSize: 14,
+    },
+  }));
+  
+  const StyledTableRow = styled(TableRow)(({ theme }) => ({
+    '&:nth-of-type(odd)': {
+      backgroundColor: "#F5FFFA",
+    },
+    // hide last border
+    '&:last-child td, &:last-child th': {
+      border: 0,
+    },
+  }));
    //*****************************delete code ************************ //
   const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
@@ -260,8 +286,21 @@ export default function VerticalTabs() {
       const handleClosepass = () => {
         setOpenpass(false);
       };
-    
-
+     
+  const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
+  const [open3, setOpen3] = React.useState(false);
+  const handleOpen3 = () => setOpen3(true);
+  const handleClose3 = () => setOpen3(false);
   return (
     <div className='userpro'>
     <Box className='box'
@@ -279,9 +318,9 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor:'divider' , bgcolor: 'background.paper' ,
         "& button":{color:"#4a6f8a !important"},
-        "& button:focus":{color:"#23BDB8 !important",backgroundColor:'#F5FFFA !important'},
-        "& button:active":{color:"#23BDB8 !important",backgroundColor:'#F5FFFA !important'}, 
-        "& button.Mui-selected":{color:"#23BDB8 !important",backgroundColor:'#F5FFFA !important'},}}
+        "& button:focus":{color:"#23BDB8 !important"},
+        "& button:active":{color:"#23BDB8 !important"}, 
+        "& button.Mui-selected":{color:"#23BDB8 !important"},}}
         
 
       >
@@ -313,52 +352,48 @@ export default function VerticalTabs() {
       
      </RadioGroup>
    </FormControl></div>{value1session?   
- (sessionvalue === 'sessiontrue')?  <div className='session1'>
- <Grid container>
-   <Grid lg={2.7}> </Grid>
-   <Grid xl={7}> 
-   <div className='navsession'>
-   
-   <h6 className='sessionhead3'><EventIcon/>Upcoming Sessions</h6>
-   </div>
-   <div className='sessionwrap1'>
-  <div><CelebrationIcon className="svg_icons" style={{color:'#23BDB8'}} />
-  <h2 className='sessionhead2'>Session Booked!</h2> 
-  <div className='sessiontable'>
-  <table class="uk-table">
- 
- 
- <tbody className='table'>
-     <tr>
-         <td><span className='tdleft'>Consultant</span></td>
-         <td><h6 className='tdright'>Puja Roy</h6></td>
-         
-     </tr>
-     <tr>
-     <td><span className='tdleft'>Date</span></td>
-         <td><h6 className='tdright'>24 Septemper 2022</h6></td>
-     </tr>
-     <tr>
-     <td><span className='tdleft'>Time</span></td>
-         <td><h6 className='tdright'>11 00</h6></td>
-     </tr>
-     <tr>
-     <td><span className='tdleft'>Duration</span></td>
-         <td><h6 className='tdright'>Deep dive(1 hour)</h6></td>
-     </tr>
- </tbody>
+ (sessionvalue === 'sessiontrue')?<div className="session2"><div className='sessionwrap3'>
+  <h2 className='sessionhead2'>Session booked!</h2>
+  <Grid container>
+  <Grid xl={1} lg={1}></Grid>
+    <Grid xl={4} lg={4}>
+      <img src={session} alt="" />
+    </Grid>
+    <Grid xl={6} lg=
+    {6}>
+   <div className='tablesess'>
+    <table class="uk-table">
+
+
+<tbody className='table'>
+    <tr>
+        <td><span className='tdleft'>Consultant</span></td>
+        <td><h6 className='tdright'>Puja Roy</h6></td>
+        
+    </tr>
+    <tr>
+    <td><span className='tdleft'>Date</span></td>
+        <td><h6 className='tdright'>24 Septemper 2022</h6></td>
+    </tr>
+    <tr>
+    <td><span className='tdleft'>Time</span></td>
+        <td><h6 className='tdright'>11 00</h6></td>
+    </tr>
+    <tr>
+    <td><span className='tdleft'>Duration</span></td>
+        <td><h6 className='tdright'>Deep dive(1 hour)</h6></td>
+    </tr>
+</tbody>
 </table>
-  </div>
- 
-  </div>
-<button className='resessionbutton'><Link to="/rescheduleappoinment"  className='sessionbuttonlink'>Reshedule Session</Link></button>
-     </div></Grid>
-   
-   <Grid xl={2.5}> </Grid>
+</div>
 
-   </Grid>
-
-</div>:  <div className='session1'>
+  
+      </Grid>
+      <Grid xl={1} lg={1}></Grid>
+      <Grid xl={12} lg={12}><button className='resessionbutton'><Link to="/rescheduleappoinment"  className='sessionbuttonlink'>Reshedule Session</Link></button> </Grid>
+  </Grid>
+  </div>
+ </div> :  <div className='session1'>
  <Grid container>
    <Grid lg={2.7}> </Grid>
    <Grid xl={7}> 
@@ -414,7 +449,6 @@ export default function VerticalTabs() {
    </Grid>
 
 </div>
-
  
 
  : 
@@ -429,7 +463,7 @@ export default function VerticalTabs() {
  </div>
  </Grid>
    <Grid xl={5} lg={5} md={5} sm={12}>
-   <div className='imgsession'> <img className='imgpassword' src={session} alt="" /></div>
+   <div className='imgsession'> <img className='imgpassword'  alt="" /></div>
    </Grid> 
    <Grid xl={12} lg={12} md={12} sm={12}>
    <button className='sessionbutton' onClick={<Booksession/>}>  <Link to="/booksession"  className='sessionbuttonlink'>BOOK SESSION</Link></button>
@@ -575,26 +609,19 @@ export default function VerticalTabs() {
       </TabPanels>
       <TabPanels value={value} index={3}>
       <div className='delete1'>
-       <Dialog
-          open={open1delete}
-          TransitionComponent={Transition}
-          keepMounted
-          onClose={handleClose1delete}
-          aria-describedby="alert-dialog-slide-description"
-          id='diadlogbox'
-        >
-          <DialogTitle>{"Sing in"}</DialogTitle>
-          <DialogContent>
-            <DialogContentText id="alert-dialog-slide-description">
-          Password Updated Successfully
-            </DialogContentText>
-          </DialogContent>
-          <DialogActions>
-          <Link to="/userprofile" >
-            <Button onClick={handleClose1delete} style={{color:' #23BDB8 '}}>Ok</Button>
-             </Link>
-          </DialogActions>
-        </Dialog>
+      <Modal
+  open={open3}
+  onClose={handleClose3}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+     Updated successfully!!!
+    </Typography>
+    <CheckCircleOutlineIcon  className='checkIconUser'/>
+  </Box>
+</Modal>
                 <div className='deletewrap'>
                 <Grid container className='delete'>
             
@@ -621,34 +648,10 @@ export default function VerticalTabs() {
     
                    </div>
                    <button className='deletebutton' onClick={handleClickOpendelete}>Continue</button>
-                   <BootstrapDialog
-        onClose={handleClosedelete}
-        aria-labelledby="customized-dialog-title"
-        open={opendelete}
-        className="dialog1"
+                   
+      
         
-      >
-        <BootstrapDialogTitle onClose={handleClosedelete} className="delete2head">
-        < DeleteIcon /> Delete Account
-        </BootstrapDialogTitle>
-        <DialogContent dividers>
-        <Typography gutterBottom className='delete2text'>
-           <HighlightOffIcon style={{color:' #23BDB8 '}}/> Log you out on all devices
-          </Typography>
-          <Typography gutterBottom className='delete2text'>
-           <HighlightOffIcon style={{color:' #23BDB8 '}}/> you won't be able to access the account info or past reservations
-          </Typography>
-          <Typography gutterBottom className='delete2text'>
-           <HighlightOffIcon style={{color:' #23BDB8 '}}/> The profile and listings assossiated with this  account will disappear
-          </Typography>
-        </DialogContent>
-        <DialogActions>
-          <div className='deletebuttons'>
-          <button className='deletebutton1' onClick={handleClosedelete}>Cancel</button>
-        <button className='deletebutton2' onClick={handleClosedelete}>Delete</button>
-        </div>
-        </DialogActions>
-      </BootstrapDialog>
+       
                     </Grid>
                     <Grid xl={5} sm={12} md={5} lg={5}>
             <div className='deletimage'>
@@ -665,6 +668,16 @@ export default function VerticalTabs() {
       </Grid>
       </Grid>
     </Box>
+
+
+
+
+
+
+
+
+
+
     <div className='mobiletab'>
    
             <div className="view">
@@ -700,52 +713,48 @@ export default function VerticalTabs() {
       
      </RadioGroup>
    </FormControl></div>{value1session?   
- (sessionvalue === 'sessiontrue')?  <div className='session1'>
- <Grid container>
-   <Grid lg={2.7}> </Grid>
-   <Grid xl={7}> 
-   <div className='navsession'>
-   
-   <h6 className='sessionhead3'><EventIcon/>Upcoming Sessions</h6>
-   </div>
-   <div className='sessionwrap1'>
-  <div><CelebrationIcon className="svg_icons" style={{color:'#23BDB8'}} />
-  <h2 className='sessionhead2'>Session Booked!</h2> 
-  <div className='sessiontable'>
-  <table class="uk-table">
- 
- 
- <tbody className='table'>
-     <tr>
-         <td><span className='tdleft'>Consultant</span></td>
-         <td><h6 className='tdright'>Puja Roy</h6></td>
-         
-     </tr>
-     <tr>
-     <td><span className='tdleft'>Date</span></td>
-         <td><h6 className='tdright'>24 Septemper 2022</h6></td>
-     </tr>
-     <tr>
-     <td><span className='tdleft'>Time</span></td>
-         <td><h6 className='tdright'>11 00</h6></td>
-     </tr>
-     <tr>
-     <td><span className='tdleft'>Duration</span></td>
-         <td><h6 className='tdright'>Deep dive(1 hour)</h6></td>
-     </tr>
- </tbody>
+ (sessionvalue === 'sessiontrue')? 
+<div className="session2"><div className='sessionwrap3'>
+  <h2 className='sessionhead2'>Session booked!</h2>
+  <Grid container>
+  <Grid xl={1} md={1} sm={12}></Grid>
+    <Grid xl={4} md={4} sm={12}>
+      <img src={session} className="sessionimage2"alt="" />
+    </Grid>
+    <Grid xl={6} md={6} sm={12}>
+   <div className='tablesess'>
+    <table class="uk-table">
+
+
+<tbody className='table'>
+    <tr>
+        <td><span className='tdleft'>Consultant</span></td>
+        <td><h6 className='tdright'>Puja Roy</h6></td>
+        
+    </tr>
+    <tr>
+    <td><span className='tdleft'>Date</span></td>
+        <td><h6 className='tdright'>24 Septemper 2022</h6></td>
+    </tr>
+    <tr>
+    <td><span className='tdleft'>Time</span></td>
+        <td><h6 className='tdright'>11 00</h6></td>
+    </tr>
+    <tr>
+    <td><span className='tdleft'>Duration</span></td>
+        <td><h6 className='tdright'>Deep dive(1 hour)</h6></td>
+    </tr>
+</tbody>
 </table>
-  </div>
- 
-  </div>
-<button className='resessionbutton'><Link to="/rescheduleappoinment"  className='sessionbuttonlink'>Reshedule Session</Link></button>
-     </div></Grid>
-   
-   <Grid xl={2.5}> </Grid>
+</div>
 
-   </Grid>
-
-</div>:  <div className='session1'>
+  
+      </Grid>
+      <Grid xl={1} md={1} sm={12}></Grid>
+      <Grid xl={12} md={12} sm={12}><button className='resessionbutton'><Link to="/rescheduleappoinment"  className='sessionbuttonlink'>Reshedule Session</Link></button> </Grid>
+  </Grid>
+  </div>
+ </div> :  <div className='session1'>
  <Grid container>
    <Grid lg={2.7}> </Grid>
    <Grid xl={7}> 
@@ -800,31 +809,7 @@ export default function VerticalTabs() {
 
    </Grid>
 
-</div>
-
-
- : 
- (sessionvalue === 'sessiontrue')?<div className='session' >
- 
- <div className='sessionwrap' id="sessionwrap">
-  <Grid container>
-  <Grid xl={7} lg={7} md={7} sm={12}><div className='sessioncontent'>
- 
-  <h1 className='sessionhead1'>You have 0 upcoming sessions</h1>
-  
- </div>
- </Grid>
-   <Grid xl={5} lg={5} md={5} sm={12}>
-   <div className='imgsession'> <img className='imgpassword' src={session} alt="" /></div>
-   </Grid> 
-   <Grid xl={12} lg={12} md={12} sm={12}>
-   <button className='sessionbutton' onClick={<Booksession/>}>  <Link to="/booksession"  className='sessionbuttonlink'>BOOK SESSION</Link></button>
-   </Grid>
-  </Grid>
-    </div>
-   
-
- </div>:<div className='session' >
+</div>:<div className='session' >
 
  <div className='sessionwrap' id="sessionwrap">
   <Grid container>
@@ -877,14 +862,14 @@ export default function VerticalTabs() {
 
      
 {Object.keys(formErrors).length === 0 && isSubmit ? (
-<div>
+<div className='diol'>
 <Dialog
   open={openpass}
   TransitionComponent={Transitionpass}
   keepMounted
   onClose={handleClosepass}
   aria-describedby="alert-dialog-slide-description"
- 
+
 >
  
   <DialogContent>
@@ -1059,7 +1044,13 @@ export default function VerticalTabs() {
         <DialogActions>
           <div className='deletebuttons'>
           <button className='deletebutton1' onClick={handleClosedelete}>Cancel</button>
-        <button className='deletebutton2' onClick={handleClosedelete}>Delete</button>
+        <button className='deletebutton2' onClick={()=>{swal({
+      text: "Account does not exist any more ",
+      type:"success",
+     
+    }).then(function() {
+      window.location = "/";
+  });}}>confirm</button>
         </div>
         </DialogActions>
       </BootstrapDialog>
