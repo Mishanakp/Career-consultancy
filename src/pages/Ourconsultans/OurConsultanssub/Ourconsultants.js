@@ -1,44 +1,49 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import './Ourconsultants.css'
+import TextField from '@mui/material/TextField';
+import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
+import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Unstable_Grid2';
-import './Ourconsultants.css';
-//import { ThemeProvider, createTheme } from '@mui/material/styles';
-import TextField from '@mui/material/TextField';
-import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
-import Viewprofile from '../Viewprofile/Viewprofile';
-import Booksession from '../Booksession/Booksession';
+import { Link } from 'react-router-dom';
+
 
 const filterOptions = createFilterOptions({
   matchFrom: 'start',
   stringify: (option) => option.title,
 });
 
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
+  boxShadow:'none',
   color: theme.palette.text.secondary,
 }));
-
-
 
 
 export default function  Ourconsultants()  {
   return (
     
-<div>
+<div >
 
-      <h2 className='title'>Career Counsellors</h2>
+
 
 <Box sx={{ flexGrow: 1 }}>
-<Grid container spacing={0} columns={16}>
-      <Grid lg={16} md={16} sx={12} container spacing={10} className='filter'>
+<Grid container spacing={0}>
+<Grid xl={.8} lg={0.75} md={1} sm={3.5} xs={.1} ></Grid>
+<Grid xl={11} lg={11} md={10.5} sm={8} xs={11} >
+<h2 className='title'>Career Counsellors</h2>
+<br/>
+</Grid>
+
+<Grid xl={0.7} lg={0.65} md={1} sm={1.2} xs={2.5} ></Grid>
+      <Grid xl={11} lg={11} md={11} sm={10.8} xs={9} container spacing={0} className='filter'>
       <Autocomplete
-       className='catfilter'
+            className='filterofconsultants'
             id="filter-demo"
             options={top100Films}
             getOptionLabel={(option) => option.title}
@@ -46,8 +51,9 @@ export default function  Ourconsultants()  {
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Search for a consultant" />}
           />
+          &nbsp;     &nbsp;     &nbsp; 
           <Autocomplete
-          className='catfilter'
+            className='filterofconsultants'
             id="filter-demo"
             options={category}
             getOptionLabel={(option) => option.title}
@@ -56,57 +62,42 @@ export default function  Ourconsultants()  {
             renderInput={(params) => <TextField {...params} label="Search for a category" />}
           />
       </Grid>
-      <br/><br/><br/><br/>
-
-<Grid lg={3.5} sx={4} container spacing={0} className='cardsha' id='firstcard'>
-        <Grid xs={12} md={5} lg={3.5}>
-          <Item className='bg' id='imageitem'>
-          <img  className='counselorimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+      <br/><br/><br/><br/><br/><br/>
+      <Grid xl={3} lg={.7} md={1}  sm={.7} xs={1.5} className='margincard' ></Grid>
+      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={16} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12} md={12}sm={10} >
-            <Item className='bg'id='liitem'>
-              <Box
-                id="category-a"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                
-              </Box>
-              <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }} className='counsellorli'>
-                <p className='nameand'><b><span className='name'>Puja Roy</span> </b></p>
-              
-                <p id='list'className='nameand'>Masters in Business Administration</p>
-                <p className='nameand'>Exp:3 years</p>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
               </Box>
             </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
           </Grid>
-         
-        </Grid>
-        <Grid
-          xs={12}
-          container
-          justifyContent="space-between"
-          alignItems="center"
-          flexDirection={{ xs: 'column', sm: 'row' }}
-          sx={{ fontSize: '12px' }}
+ 
+        <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
 
-        >
-          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' ><span className='available'> Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
-          </Grid>
-          
-          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
-            <Grid>
-              <Item className='bg'>
-              <Link to="/Viewprofile">
-              <button className="counselorcardbutton" >
-                <span>View Profile</span>
-                </button></Link>
-              </Item>
-            </Grid>
-            <Grid>
-              <Item className='bg'>
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
               <Link to="/Booksession">
               <span className='bookbutton'>
               <button className="counselorcardbutton">
@@ -114,335 +105,245 @@ export default function  Ourconsultants()  {
                 </button>
               </span>
                 </Link>
-              </Item>
-            </Grid>
-           
-          </Grid>
-        </Grid>
-      </Grid>
-
-
-
-
-      <Grid xl={12} lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5} xl={4}>
-          <Item className='bg'>
-          <img  className='counselorimg' src='https://instantglamour.com/wp-content/uploads/photo-gallery/IMG_2002-pp-b.jpg' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={12} md={7} lg={8} xl={8} spacing={4}>
-          <Grid xs={6} lg={12}>
-            <Item className='bg' id='liitem'>
-              <Box
-                id="category-a"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                
-              </Box>
-              <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' ><b><span className='name'>Pranav Bhatia</span></b></p>
-                <p className='nameand' id='list'>PGD in Hotel Management</p>
-                <p className='nameand'>Exp:2 years</p>
+      </Grid>
+      <Grid xl={1.5} lg={.2} md={0.5}  sm={0.3} xs={1.5}className='margincard'></Grid>
+      <Grid xl={1.5} lg={.5} md={.5}  sm={.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+          </Item>
+        </Grid>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
               </Box>
             </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
           </Grid>
-         
-        </Grid>
-        <Grid
-          xs={12}
-          container
-          justifyContent="space-between"
-          alignItems="center"
-          flexDirection={{ xs: 'column', sm: 'row' }}
-          sx={{ fontSize: '12px' }}
+ 
+        <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
 
-        >
-          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg'><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
-          </Grid>
-          
-          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
-            <Grid>
-              <Item className='bg'>
-              <Link to="/Viewprofile">
-              <button className="counselorcardbutton" >
-                <span>View Profile</span>
-                </button></Link>
-              </Item>
-            </Grid>
-            <Grid>
-              <Item className='bg'>
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
               <Link to="/Booksession">
               <span className='bookbutton'>
               <button className="counselorcardbutton">
-                Book Session
+             Book Session
                 </button>
-                </span>
+              </span>
                 </Link>
-              </Item>
-            </Grid>
-           
-          </Grid>
-        </Grid>
-      </Grid>
-
-
-
-      
-      <Grid lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5}>
-          <Item className='bg'>
-          <img  className='counselorimg' src='https://content.thriveglobal.com/wp-content/uploads/2019/09/Devi-Pic-Passport-Size.jpg' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={12} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12}>
-            <Item className='bg' id='liitem'>
-              <Box
-                id="category-a"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                
-              </Box>
-              <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' ><b><span className='name'>Jeena Albert</span></b></p>
-                <p className='nameand' id='list'>PG Diploma in Management</p>
-                <p className='nameand'>Exp:5 years</p>
+      </Grid>
+      <Grid xl={0} lg={0.1} md={0.5}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={0} lg={0.1} md={.5}  sm={0.2} xs={0}className='margincard'></Grid>
+      <Grid xl={3} lg={.6} md={1}  sm={0.1} xs={1.5}className='margincard'></Grid>
+      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+          </Item>
+        </Grid>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
               </Box>
             </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
           </Grid>
-         
-        </Grid>
-        <Grid
-          xs={12}
-          container
-          justifyContent="space-between"
-          alignItems="center"
-          flexDirection={{ xs: 'column', sm: 'row' }}
-          sx={{ fontSize: '12px' }}
+ 
+        <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
 
-        >
-          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' ><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
-          </Grid>
-          
-          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
-            <Grid>
-              <Item className='bg'>
-              <Link to="/Viewprofile">
-              <button className="counselorcardbutton" >
-                <span>View Profile</span>
-                </button></Link>
-              </Item>
-            </Grid>
-            <Grid>
-              <Item className='bg'>
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
               <Link to="/Booksession">
               <span className='bookbutton'>
               <button className="counselorcardbutton">
-               Book Session
+             Book Session
                 </button>
-                </span>
+              </span>
                 </Link>
-              </Item>
-            </Grid>
-           
-          </Grid>
+          </Item>
         </Grid>
       </Grid>
 
-
-      <Grid lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5} >
-          <Item className='bg'>
-          <img  className='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0qdR75o88kuYWDiL8vNqR_pmo33eay6W2Tg&usqp=CAU' alt='counselor1'/>
+      <Grid xl={0} lg={0} md={0.2}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={0} lg={0} md={0.1} sm={.3} xs={0}className='margincard'></Grid>
+      <Grid xl={3} lg={.7} md={0}  sm={.7} xs={1.5}className='margincard'></Grid>
+      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={12} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12}   id='paddingchange'>
-            <Item className='bg'id='liitem'>
-              <Box
-                id="category-a"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                
-              </Box>
-              <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' > <b><span className='name'>Leena Joseph</span></b></p>
-                <p className='nameand' id='list'>PG Diploma in Digital Marketing</p>
-                <p className='nameand' >Exp:6 years</p>
+
+          <Grid lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
               </Box>
             </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
           </Grid>
-         
-        </Grid>
-        <Grid
-          xs={12}
-          container
-          justifyContent="space-between"
-          alignItems="center"
-          flexDirection={{ xs: 'column', sm: 'row' }}
-          sx={{ fontSize: '12px' }}
+ 
+        <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
 
-        >
-          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg'><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
-          </Grid>
-          
-          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
-            <Grid>
-              <Item className='bg'>
-              <Link to="/Viewprofile">
-              <button className="counselorcardbutton" >
-                <span>View Profile</span>
-                </button></Link>
-              </Item>
-            </Grid>
-            <Grid>
-              <Item className='bg'>
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
               <Link to="/Booksession">
               <span className='bookbutton'>
               <button className="counselorcardbutton">
-                Book Session
+             Book Session
                 </button>
-                </span>
+              </span>
                 </Link>
-              </Item>
-            </Grid>
-           
-          </Grid>
+          </Item>
         </Grid>
       </Grid>
 
-
-
-
-      <Grid lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5}>
-          <Item className='bg'>
-          <img  className='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d0DWK26lmj7VA0IxuwaoJR42XXMQ8JUcDg&usqp=CAU' alt='counselor1'/>
+      <Grid xl={0} lg={0.52} md={1}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={3} lg={.23} md={1} xs={1.5} sm={.3}className='margincard'></Grid>
+      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2.5} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={7} sm={6} md={6} lg={4.5} xl={12}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={12} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12}>
-            <Item className='bg'id='liitem'>
-              <Box
-                id="category-a"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                
-              </Box>
-              <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand' ><b><span className='name'>Adam Joan</span></b></p>
-                <p className='nameand' id='list'>MTech in Mechanical Engineering</p>
-                <p className='nameand'>Exp: 4 years</p>
+
+          <Grid xs={12} lg={12} md={12}sm={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
               </Box>
             </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
           </Grid>
-         
-        </Grid>
-        <Grid
-          xs={12}
-          container
-          justifyContent="space-between"
-          alignItems="center"
-          flexDirection={{ xs: 'column', sm: 'row' }}
-          sx={{ fontSize: '12px' }}
+ 
+          <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
 
-        >
-          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg' ><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
-          </Grid>
-          
-          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
-            <Grid>
-              <Item className='bg'>
-              <Link to="/Viewprofile">
-              <button className="counselorcardbutton" >
-                <span>View Profile</span>
-                </button></Link>
-              </Item>
-            </Grid>
-            <Grid>
-              <Item className='bg'>
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
               <Link to="/Booksession">
               <span className='bookbutton'>
               <button className="counselorcardbutton">
-                Book Session
+             Book Session
                 </button>
-                </span>
+              </span>
                 </Link>
-              </Item>
-            </Grid>
-           
-          </Grid>
+          </Item>
         </Grid>
       </Grid>
 
-
-
-
-      <Grid lg={3.5}  container spacing={0} className='cardsha'>
-        <Grid xs={12} md={5} lg={3.5}>
-          <Item className='bg'>
-          <img  className='counselorimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpriOvQqYcu8Qn1wMaYF4ckk96VMwl8DVQww&usqp=CAU' alt='counselor1'/>
+      <Grid xl={1.5} lg={0.4} md={0.5}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={1.5} lg={.4} md={.5} xs={1.5} sm={.3}className='margincard'></Grid>
+      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2.5} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={7} sm={6} md={6} lg={4.5} xl={12}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
-        <Grid container xs={12} md={7} lg={8} spacing={4}>
-          <Grid xs={6} lg={12}>
-            <Item className='bg' id='liitem'>
-              <Box
-                id="category-a"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                
-              </Box>
-              <Box component="ul" aria-labelledby="category-a" sx={{ pl: 2 }}>
-                <p className='nameand'><b><span className='name'>Oscar Rafy</span></b></p>
-                <p className='nameand' id='list'>M.ED in Mathematics</p>
-                <p className='nameand'>Exp:8 years</p>
+
+          <Grid  lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
               </Box>
             </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
           </Grid>
-         
-        </Grid>
-        <Grid
-          xs={12}
-          container
-          justifyContent="space-between"
-          alignItems="center"
-          flexDirection={{ xs: 'column', sm: 'row' }}
-          sx={{ fontSize: '12px' }}
+ 
+          <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
 
-        >
-          <Grid sx={{ order: { xs: 2, sm: 1 } }}>
-            <Item className='bg'><span className='available'>Next availabe at: 12/5/2022 1:00 PM</span></Item><br/>
-          </Grid>
-          
-          <Grid xs={12} md={12} lg={12} xl={12} container columnSpacing={10.5} sx={{ order: { xs: 1, sm: 2 } }}  className='buttoncolumn'>
-            <Grid>
-              <Item className='bg'>
-              <Link to="/Viewprofile">
-              <button className="counselorcardbutton" >
-                <span>View Profile</span>
-                </button></Link>
-              </Item>
-            </Grid>
-            <Grid>
-              <Item className='bg'>
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
               <Link to="/Booksession">
               <span className='bookbutton'>
               <button className="counselorcardbutton">
-                Book Session
+             Book Session
                 </button>
-                </span>
+              </span>
                 </Link>
-              </Item>
-            </Grid>
-           
-          </Grid>
+          </Item>
         </Grid>
       </Grid>
+
 
 
 
@@ -450,10 +351,10 @@ export default function  Ourconsultants()  {
       </Grid>
     </Box>
 
+
     </div>
   );
 }
-
 
 
 
@@ -478,4 +379,3 @@ const category = [
   { title:"Education"},
   { title:"Aviation"}
 ];
-

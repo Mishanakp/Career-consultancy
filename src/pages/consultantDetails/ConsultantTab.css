@@ -308,6 +308,9 @@
    }  
  }
  @media only screen and (max-width:1600px) and (min-width:1537px){
+    .ConsultantdetBox{
+        height: 850px !important; 
+     }
    .consultantTab{
       width: 350px;  
       
@@ -348,7 +351,7 @@
    }
    .ConsultantTabPanel1,.ConsultantTabPanel2,.ConsultantTabPanel3,.ConsultantTabPanel4{ 
        width:1250px ;
-      height: 750px;
+      height: 850px;
       max-width:100%;
       max-height: 100%;
     }
@@ -398,7 +401,9 @@
  }
 
  @media only screen and (max-width:1536px)  {
-    
+    .ConsultantdetBox{
+        height: 850px !important; 
+     }
    .consultantTab{
       width: 250px;   
    }
@@ -438,7 +443,7 @@
    }
    .ConsultantTabPanel1,.ConsultantTabPanel2,.ConsultantTabPanel3,.ConsultantTabPanel4{ 
        width:1290px ;
-      height: 750px;
+      height: 850px;
       max-width:100%;
       max-height: 100%;
     }
@@ -617,7 +622,7 @@
    }
    .ConsultantTabPanel1,.ConsultantTabPanel2,.ConsultantTabPanel3,.ConsultantTabPanel4{ 
        width:1290px ;
-      height: 750px;
+      height: 850px;
       max-width:100%;
       max-height: 100%;
     }
@@ -705,7 +710,7 @@
    }
    .ConsultantTabPanel1,.ConsultantTabPanel2,.ConsultantTabPanel3,.ConsultantTabPanel4{ 
        width:1290px ;
-      height: 750px;
+      height: 850px;
       max-width:100%;
       max-height: 100%;
     }
@@ -3806,7 +3811,7 @@ button.consultantAccordHead5{
 
 }
 .historyheading{
-  transform: translate(260px,100px);
+  transform: translate(-350px,100px);
 
 }
 }
@@ -3818,13 +3823,13 @@ button.consultantAccordHead5{
 }
 @media screen and (max-width: 1025px){
   .historyheading{
-    transform: translate(85px,100px);
+    transform: translate(-250px,100px);
 
     }
 }
 @media screen and (max-width: 769px){
   .historyheading{
-    transform: translate(65px,100px);
+    transform: translate(-100px,100px);
 
   }
 }
@@ -3834,19 +3839,19 @@ button.consultantAccordHead5{
 
   }
   .historyheading {
-    transform: translate(40px,100px);
+    transform: translate(0px,100px);
 
   }
 }
 @media screen and (max-width: 376px){
   .historyheading{
-    transform: translate(30px,100px);
+    transform: translate(10px,100px);
 
   }
 }
 @media screen and (max-width: 321px){
   .historyheading{
-    transform: translate(30px,100px);
+    transform: translate(10px,100px);
 
   }
 }

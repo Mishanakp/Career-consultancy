@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.bannerimg {
+    margin-top: 90px !important;
+    width: 100% !important;
+    height: 450px !important;
+    
+}
+.bannerdiv {
+    position: relative !important;
+    margin-top: -240px !important;
+    width: 480px !important;
+    margin-left: 400px !important;
+}
+.bannercontent h1
+ {
+    font-size: 50px !important;
+    color: #0E314C !important;
+    font-family: 'Poppins', sans-serif;
+} 
+
+
+/*************** RESPONSIVE SECTION *****************/
+@media only screen and (max-width: 1025px) {
+    .bannerdiv {
+        margin-left: 268px !important;
+        margin-top: -220px !important;
+    }
+    .bannerimg {
+        height: 400px !important;
+        margin-top: 140px !important;
+    }
+} 
+@media only screen and (max-width: 769px) {
+    .bannerdiv {
+        margin-left: 140px !important;
+        margin-top: -220px !important;
+    }
+    .bannerimg {
+        height: 400px !important;
+        margin-top: 80px !important;
+    }
+} 
+@media only screen and (max-width: 426px) {
+    .bannerdiv {
+        margin-left: 69px !important;
+        margin-top: -220px !important;
+        width: 280px !important;
+    }
+    .bannerimg {
+        height: 400px !important;
+        margin-top: 80px !important;
+    }
+    .bannerdiv h1{
+        font-size: 22px !important;
+        
+    }
+} 
+@media only screen and (max-width: 376px) {
+    .bannerdiv {
+        margin-left: 65px !important;
+        margin-top: -220px !important;
+        width: 240px !important;
+    }
+    .bannerimg {
+        height: 400px !important;
+        margin-top: 80px !important;
+    }
+    .bannerdiv h1{
+        font-size: 20px !important;
+        
+    }
+} 
+@media only screen and (max-width: 321px) {
+    .bannerdiv {
+        margin-left: 58px !important;
+        margin-top: -220px !important;
+        width: 200px !important;
+    }
+    .bannerimg {
+        height: 400px !important;
+        margin-top: 80px !important;
+    }
+    .bannerdiv h1{
+        font-size: 18px !important;
+        
+    }
+} 
+
+/******************************  BREAKING POINTS **************************/
