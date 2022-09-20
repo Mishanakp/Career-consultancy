@@ -2563,7 +2563,7 @@ font-size: 30px;
     margin-left: -15px !important;
   }
 }
-
+ 
 
 
 /**************userprofile***********************/
@@ -2728,10 +2728,16 @@ margin-right: 40px!important;
   .editprofile{
     transform: translateX(-30px);
   }
+  .about{
+    margin-top: 40px;
+  }
 
 }
   
   @media screen and (max-width:1025px){
+    .boxprofile{
+      margin:-16px;
+    }
     
       .profileimage img{
           transform: translate(30px,60px);
@@ -2740,13 +2746,11 @@ margin-right: 40px!important;
       .additioncamera{
           transform: translate(-28px,30px)!important;
       }
-      .userdetail h2{
+      .userdetail {
           font-size: 26px;
-          margin-left: -10px;
       }
       .userdetail h3{
           font-size: 20px;
-          margin-left: -10px;
       }
       .userdetail{
           margin-top: -20px;
@@ -2759,8 +2763,17 @@ margin-right: 40px!important;
         transform: translateX(-90px)translateY(20px);
       }
 
+         
+      }
+      .about{
+        margin-top: 30px;
+      }
+.editicon{
+  width: 40%;
+  transform: translate(-90px,10px);
+}
     
-  }
+  
   @media screen and (max-width:769px){
     .headerportion1{
       margin-left: -15px;
@@ -2778,7 +2791,7 @@ margin-right: 40px!important;
           margin-left: -20px;
       }
       .about{
-          margin-top: 2px;
+          margin-top: 0px;
       }
       .about p3{
           word-break: break-all;
@@ -2804,6 +2817,10 @@ margin-right: 40px!important;
   }
  
   @media screen and (max-width:426px) {
+    .editicon{
+      width: 100%;
+      transform:translate(-60px,26px); ;
+    }
       .profileimage img{
           transform: translate(88px,60px);
           width: 55%!important;
@@ -2865,6 +2882,11 @@ margin-right: 40px!important;
       .modalupdatehead{
         font-size: 14px !important; 
       }
+      .about{
+        margin-left: 10px;
+        margin-right: 51px;
+        margin-bottom: 30px;
+          }
   }
   @media screen and (max-width:321px){
       .profileimage img{

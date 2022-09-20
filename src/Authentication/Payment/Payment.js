@@ -33,11 +33,11 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Divider } from '@mui/material';
-import googlepay from '../../Assets/payment/gpay.png'
+import googlepay from '../../Assets/payment/google.png'
 import payt from '../../Assets/payment/paytm.png'
 import amazonepay from '../../Assets/payment/amazon.png'
 import qrcodesymbol from '../../Assets/payment/qrcode.png';
-
+import phonepay from '../../Assets/payment/phonepay.png'
 
 
 
@@ -161,13 +161,33 @@ function Payment() {
       <Grid container spacing={2}>
         <Grid item xs={12} >
         <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
-        <p className='rqscan'> Scan</p>
+        <p className='rqscan'> Scan and Pay with any BHIM UPI app</p>
         </Grid>
         <Grid item xs={12} >
-     <img src='https://cdn.razorpay.com/wallet-sq/phonepe.png' width="24px" className='qricon'/>
-     <img src={googlepay} width="50px" className='qricon'/>
-     <img src={payt} width="40px" className='qricon'/>
-     <img src={amazonepay} width="50px" className='qricon'/>
+
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid xs={3}>
+        <img src={phonepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>phonepay</p>
+        </Grid>
+        <Grid xs={3}>
+        <img src={googlepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>googlepay</p>
+        </Grid>
+        <Grid xs={3}>
+        <img src={payt} width="45px" />
+        <p>paytm</p>
+        </Grid>
+        <Grid xs={3}>
+        <img src={amazonepay} width="45px" />
+        <p>Amazon</p>
+        </Grid>
+      </Grid>
+    </Box>
+    
+    <br/>
+    <br/>
         </Grid>
        
         <Grid item xs={12} >
@@ -506,10 +526,142 @@ function Payment() {
         <AccordionDetails id='accordiondetails769'>
           <Typography>
                  {/************************QRCODE******************************/}
-                 
+                 <div className='paymentqr'>
+<Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} >
+        <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
+        <p className='rqscan'> Scan and Pay with any BHIM UPI app</p>
+        </Grid>
+        <Grid item xs={12} >
+
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2} >
+        <Grid xs={3} className='qrleftside1'>
+        <img src={phonepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>phonepay</p>
+        </Grid>
+        <Grid xs={3} className='qrleftside2'>
+        <img src={googlepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>googlepay</p>
+        </Grid>
+        <Grid xs={3} className='qrrightside1'>
+        <img src={payt} width="45px" />
+        <p>paytm</p>
+        </Grid>
+        <Grid xs={3} className='qrrightside2'>
+        <img src={amazonepay} width="45px" />
+        <p>Amazon</p>
+        </Grid>
+      </Grid>
+    </Box>
+    
+    <br/>
+    <br/>
+        </Grid>
+       
+        <Grid item xs={12} >
+
+       <div className='qralign'>
+       <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+       
+                       
+                        <label for="formFile" className='consLabel'>Upload screenshot</label>
+                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
+                       
+                       
+                       
+                                
+                                <Button         
+             variant="contained" 
+         className='qrbutton'
+     
+         >
+           Upload</Button>    
+
+
+                    </form> 
+
+
+          </div>
+
+
+
+            {/************************QRCODE******************************/}
+        </Grid>
+</Grid>
+      
+    </Box>
+</div>
                          {/************************QRCODE******************************/}
 
+                         <div className='paymentqr360'>
+<Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} >
+        <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
+        <p className='rqscan'> Scan and Pay with any BHIM UPI app</p>
+        </Grid>
+        <Grid item xs={12} >
 
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2} >
+        <Grid xs={6} className='qrleftside1'>
+        <img src={phonepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>phonepay</p>
+        </Grid>
+        <Grid xs={6} className='qrleftside2'>
+        <img src={googlepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>googlepay</p>
+        </Grid>
+        <Grid xs={6} className='qrrightside1'>
+        <img src={payt} width="45px" />
+        <p>paytm</p>
+        </Grid>
+        <Grid xs={6} className='qrrightside2'>
+        <img src={amazonepay} width="45px" />
+        <p>Amazon</p>
+        </Grid>
+      </Grid>
+    </Box>
+    
+    <br/>
+    <br/>
+        </Grid>
+       
+        <Grid item xs={12} >
+
+       <div className='qralign'>
+       <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+       
+                       
+                        <label for="formFile" className='consLabel'>Upload screenshot</label>
+                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
+                       
+                       
+                       
+                                
+                                <Button         
+             variant="contained" 
+         className='qrbutton'
+     
+         >
+           Upload</Button>    
+
+
+                    </form> 
+
+
+          </div>
+
+
+
+            {/************************QRCODE******************************/}
+        </Grid>
+</Grid>
+      
+    </Box>
+</div>
 
 
           </Typography>

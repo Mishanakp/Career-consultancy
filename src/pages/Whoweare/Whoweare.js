@@ -1,6 +1,3 @@
-
-
-import animation from '../../Assets/about/animation.gif';
 import cartoon from '../../Assets/about/cartoon.jpeg';
 import React,{useEffect} from 'react'
 import {Grid} from '@mui/material';
@@ -27,7 +24,7 @@ function Whoweare() {
     <div>
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid id="mishanafirstsection">
     <div class="uk-card-media-left uk-cover-container" id="mishanafirstt">
-    <img className='vdo' src={animation}  loop muted playsinline uk-video="autoplay: inview"></img>
+    <img className='vdo' src="https://img.freepik.com/free-vector/business-idea-concept-with-people_52683-28609.jpg?size=626&ext=jpg&ga=GA1.2.531248554.1663503756"  loop muted playsinline uk-video="autoplay: inview"></img>
         <canvas width="300" height="100"></canvas>
     </div>
     <div>
