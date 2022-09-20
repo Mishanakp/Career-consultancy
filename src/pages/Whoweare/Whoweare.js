@@ -1,6 +1,3 @@
-
-
-import animation from '../../Assets/about/animation.gif';
 import cartoon from '../../Assets/about/cartoon.jpeg';
 import React,{useEffect} from 'react'
 import {Grid} from '@mui/material';
@@ -12,6 +9,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { experimentalStyled as styled } from '@mui/material/styles';
+import {Link} from 'react-router-dom';
 
 import './Whoweare.css';
 
@@ -19,11 +17,14 @@ import './Whoweare.css';
 
 
 function Whoweare() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid id="mishanafirstsection">
     <div class="uk-card-media-left uk-cover-container" id="mishanafirstt">
-    <img className='vdo' src={animation}  loop muted playsinline uk-video="autoplay: inview"></img>
+    <img className='vdo' src="https://img.freepik.com/free-vector/business-idea-concept-with-people_52683-28609.jpg?size=626&ext=jpg&ga=GA1.2.531248554.1663503756"  loop muted playsinline uk-video="autoplay: inview"></img>
         <canvas width="300" height="100"></canvas>
     </div>
     <div>
@@ -210,7 +211,7 @@ function Whoweare() {
    
    <span> <h3 className='section5head'>Have any question about us?</h3>
        <p className='section5para'>Don't hesitate to contact us</p>
-       <button class="button1">CONTACT US </button>
+       <Link to="/contact"><button class="button1">CONTACT US </button></Link>
    </span>
   
    </div>

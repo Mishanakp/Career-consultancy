@@ -3,8 +3,18 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+img.profileImageuser{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 50px;
+  border-color: #23BDB8 !important;
+  border: 2px solid;
+  z-index: -1;
+}
 .userpro{
-  margin-top: 100px;
+  margin-top: 90px;
+ 
 }
 *{
   margin: 0;
@@ -23,16 +33,22 @@ body{
 }
 
 .tab1{
-  align-self: flex-start !important;
+
+ 
+align-self: flex-start !important;
   margin-top: 150px !important;
   color:#4A6F8A !important;
   font-size: 14px !important;
   font-weight: 650 !important;
   font-family: 'Poppins', sans-serif !important;
+
+
+
 }
 .tab2{
- 
+
   align-self: flex-start !important;
+
   color:#4A6F8A !important;
   font-size: 14px !important;
   text-align: left !important;
@@ -52,8 +68,8 @@ body{
 
 }
 .tab4c{
+
   align-self: flex-start !important;
- 
   color:#4A6F8A !important;
   font-size: 14px !important;
   text-align: left !important;
@@ -61,6 +77,7 @@ body{
   font-family: 'Poppins', sans-serif !important;
 }
 .tab5{
+  align-self: flex-start !important;
 margin-left: 20px;
  border: none;
  background-color: white;
@@ -88,7 +105,9 @@ color:aliceblue
 }
 
 
-
+.diol{
+  width:400px
+}
 
 
 
@@ -256,10 +275,14 @@ padding-right: 10px;
 
 
 }
+
 .session1{
   margin-top: -40px;
   margin-left: -60px;
   
+}
+.sessionwrap3{
+  padding-top: 40px !important;
 }
 .resessionbutton{
   margin-top: 10px;
@@ -268,7 +291,7 @@ padding-right: 10px;
      -moz-appearance: none;
           appearance: none;
   background: #23BDB8;
-  padding: 1em 1.2em;
+  padding: .5em 1em;
   border: none;
   color: white;
   font-size: 1.2em;
@@ -284,7 +307,7 @@ padding-right: 10px;
   color:#0e314C;
   text-align: left;
   align-items: left;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 .tdleft{
   font-size: 14px;
@@ -301,19 +324,37 @@ padding-right: 10px;
   margin-top: 40px;
 }
 .sessiontable{
-  margin-left: 210px;
-  margin-top: 30px;
+  margin-left: 70px !important ;
+  margin-top: 0px;
+
+}
+.tablesess{
+  margin-left: 150px;
 }
 .table{
   text-align: left;
+  margin-left: 100px;
 }
-
+.session2{
+  background-color:white  ;
+  box-shadow: 5px 10px 18px #888888;
+  width:900px;
+  margin-left: 180px;
+}
 
 
 /****** delete account style *************/
 
+.updateModal{
+  display: flex;
+  border: none !important;
+}
+.modalupdatehead{
+  margin-left: 50px !important;
+  color: #23BDB8;
+}
 .deletecontent{
-  margin-top: -10px;
+  margin-top: -80px;
   margin-left: -50px;
 }
 .labelradio{
@@ -337,7 +378,7 @@ margin-top: 60px ;
 .deletimage{
   margin-left: -50px;
   height: 200px;
-  margin-top: -50px;
+  margin-top: -100px;
 }
 .deletehead{
   font-weight: 650;
@@ -604,13 +645,13 @@ margin-top: 10px !important;
   margin-top: 100px;
  }
  .deletecontent{
-  margin-top: -10px;
+  margin-top: -100px;
   margin-left: 0px !important;
 }
 .deletimage{
   margin-left: -150px;
   height: 200px;
-  margin-top: -50px;
+  margin-top: -120px;
 }
 .deletebutton {
 
@@ -771,7 +812,12 @@ margin-top: 10px !important;
 
 
 @media screen and (max-width: 1025px){
-
+  .session2{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    width:900px;
+    margin-left: 45px;
+  }
 .accord{
   height:90px
 }
@@ -1140,6 +1186,18 @@ height: 30px;
 
 
 @media screen and (max-width: 769px){
+  .sessionimage2{
+width:400px
+  }
+  .session2{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    width:700px;
+    margin-left: 18px;
+  }
+  .tablesess{
+    margin-left: 190px;
+  }
   .mobiletab{
     display: block !important;
   
@@ -1162,7 +1220,7 @@ height: 30px;
     margin-left: 100px;
    }
    .sessiontable{
-    margin-left: 100px;
+    margin-left: 80px !important;
    }
    .pass{
     margin-top: 10px;
@@ -1223,6 +1281,7 @@ margin-left: 25px !important;
   margin-left: 60px;
 
   }
+ 
   .session{
     margin-top: 0px;
   }
@@ -1249,7 +1308,7 @@ margin-left: 25px !important;
     font-size: 1.2em;
     cursor: pointer;
     outline: none;
-    overflow: hidden;
+    
    border-radius: 5px;
    margin-bottom: 30px;
   }
@@ -1273,7 +1332,7 @@ margin-left: 25px !important;
   .imgsession{
     margin-left: 0px; 
   }
-  
+
   .sessionhead4{
     width:650px;
     margin-left: 55px;
@@ -1294,7 +1353,7 @@ margin-left: 25px !important;
 /************672 tab view****************************/
 
 @media screen and (max-width:674px) {
-  
+ 
   .sessionhead3{
     margin-left: 300px!important;
    }.session1{
@@ -1318,9 +1377,7 @@ margin-left: 25px !important;
    
      margin-left: 2px
    }
-   .diolog1{
-    overflow: hidden;
-   }
+
    
   .passwrap{
     background-color:white  ;
@@ -1460,9 +1517,8 @@ margin-left: 25px !important;
    
      margin-left: 2px
    }
-   .diolog1{
-    overflow: hidden;
-   }
+  
+   
    
   .passwrap{
     background-color:white  ;
@@ -1631,9 +1687,7 @@ margin-left: 25px !important;
    
      margin-left: 2px
    }
-   .diolog1{
-    overflow: hidden;
-   }
+  s
    .session1{
      margin-left: 25px;
      
@@ -1775,6 +1829,29 @@ font-size: 30px;
 
 
 @media screen and (max-width: 426px) {
+  .tdright{
+    margin-left: 50px;
+  }
+  .session2{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    width:390px;
+    margin-left: 5px;
+  }
+  .tablesess{
+    margin-left: 50px;
+  }
+  .consaltant_table{
+    margin-top: 50px;
+    overflow-x: scroll !important;
+}
+.resessionbutton{
+  margin-left: 100px;
+}
+.consaltant_table{
+  margin-top: 50px;
+  overflow-x: scroll !important;
+}
   .delete2text{
     font-size: 10px !important;
   }
@@ -2120,10 +2197,22 @@ font-size: 30px;
 
 
 @media screen and (max-width: 376px){
+  .session2{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    width:350px;
+    margin-left: -5px;
+  }
+  .tablesess{
+    margin-left: 35px;
+  }
   .session1{
     margin-left: -8px;
     
  
+  }
+  .resessionbutton{
+    margin-left: 80px;
   }
   .radio{
     padding-top:10px !important;
@@ -2325,6 +2414,23 @@ font-size: 30px;
 
 
 @media screen and (max-width: 323px){
+  .session2{
+    background-color:white  ;
+    box-shadow: 5px 10px 18px #888888;
+    width:300px;
+    margin-left: -5px;
+  }
+  .tablesess{
+    margin-left: 35px;
+  }
+  .session1{
+    margin-left: -8px;
+    
+ 
+  }
+  .resessionbutton{
+    margin-left: 60px;
+  }
   .tablesessionhead2{
     font-size: 14px;
     
@@ -2546,7 +2652,7 @@ font-size: 30px;
     margin-left: -15px !important;
   }
 }
-
+ 
 
 
 /**************userprofile***********************/
@@ -2563,17 +2669,16 @@ font-size: 30px;
      
   }
  
-  /* .inputs{
-      width: 400px;
-  } */
+
   .profileimage img{
       transform: translate(55px,60px);
   }
   .userdetail{
       margin-top: 30px;
   }
-  .addition{
-      transform: translate(75px,-50px)!important;
+  .additioncamera{
+      transform: translate(-40px,50px)!important;
+      width: 40px !important;
   }
   .userdetail h2{
       text-align: left;
@@ -2584,7 +2689,6 @@ font-size: 30px;
       color: #4A6F8A;
       font-family: 'Poppins', sans-serif;
       text-align: center;
-      margin-left: -97px; 
   }
   .userdetail h2{
       font-size: 35px;
@@ -2592,11 +2696,10 @@ font-size: 30px;
       color: #4A6F8A;
       font-family: 'Poppins', sans-serif;
       text-align: center;
-      margin-left: -95px;
   }
   .email ul li{
       display: inline-grid;
-      margin-right: 30px!important;
+      margin-right: 34px!important;
   }
   .email p2{
       font-size: 20px;
@@ -2608,9 +2711,50 @@ font-size: 30px;
   margin-left: -32px;
   margin-top: 40px
   }
-  .localphone{
-      margin-left: -27px;
+  
+  .editicon{
+    width: 100%;
+
   }
+  
+  .editabout{
+    margin-left: 100px !important;
+    width: 470px!important;
+  }
+  .editbox{
+    width: 470px!important;
+    margin-left: 100px !important; 
+  }
+   .userModalEdit{
+    width: 800px !important;
+    border: none !important;
+   }
+  .userdetailsedit{
+    text-align: left!important; 
+  }
+.userdetailsedit p2{
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #4A6F8A;
+ margin-left: 100px;
+}
+  .editprofile{
+    transform: translateX(-90px);
+  }
+  .updateModal{
+    display: flex;
+    border: none !important;
+  }
+  .modalupdatehead{
+    margin-left: 50px !important;
+    color: #23BDB8;
+  }
+ .checkIconUser{
+  margin-left: 10px; 
+  margin-top: 3px;
+  width: 50px !important;
+  color: #23BDB8;
+ } 
   .about h2{
       font-size: 20px;
       font-family: 'Poppins', sans-serif;
@@ -2626,71 +2770,178 @@ font-size: 30px;
       line-height: 34px;
       color: #4A6F8A;
   }
+  .buttonedit {
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #23BDB8;
+    padding: 1em ;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: -30px;
+  }
+  .buttonedit span {
+    position: relative;
+    pointer-events: none;
+  }
+  .buttonedit::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #43E794, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .buttonedit:hover::before {
+    --size: 400px;
+  }
+  .editbutton{
+    text-align: center;
+  }
+}
+@media screen and (max-width:1440px){
+  .email ul li{
+margin-right: 40px!important;
+  }
+  .editprofile{
+    transform: translateX(-30px);
+  }
+  .about{
+    margin-top: 40px;
+  }
+
 }
   
   @media screen and (max-width:1025px){
+    .boxprofile{
+      margin:-16px;
+    }
     
       .profileimage img{
           transform: translate(30px,60px);
           width: 25%!important;
       }
       .additioncamera{
-          transform: translate(65px,-105px)!important;
+          transform: translate(-28px,30px)!important;
       }
-      .userdetail h2{
+      .userdetail {
           font-size: 26px;
-          margin-left: -10px;
       }
       .userdetail h3{
           font-size: 20px;
-          margin-left: -10px;
       }
       .userdetail{
-          margin-top: 70px;
+          margin-top: -20px;
       }
       .email ul li{
-          padding-right: 11px;
+          margin-right: 10px!important;
+          margin-bottom: 7px;
       }
-      .email{
-          margin-left: -50px;
+      .editprofile{
+        transform: translateX(-90px)translateY(20px);
       }
-  }
+
+         
+      }
+      .about{
+        margin-top: 30px;
+      }
+.editicon{
+  width: 40%;
+  transform: translate(-90px,10px);
+}
+    
+  
   @media screen and (max-width:769px){
+    .headerportion1{
+      margin-left: -15px;
+    }
       
       .additioncamera{
-          transform: translate(75px,-105px);
+        transform: translate(-32px,40px)!important;
       }
       .email ul li{
           display: block;
-          padding-bottom: 25px;
+          margin-bottom: 25px;
       }
       .userdetail{
-          margin-top: 3px;
+          margin-top: -10px;
+          margin-left: -20px;
       }
       .about{
-          margin-top: 2px;
+          margin-top: 0px;
       }
       .about p3{
           word-break: break-all;
       }
+      .editprofile{
+        transform: translateX(-90px)translateY(30px);
+        width: 50px;
+      }
+      .userModalEdit{
+        width: 600px !important; 
+       }
+       .editbox{
+        width: 450px!important;
+        margin-left: 10px !important; 
+      }
+      .editabout{
+        margin-left:10px !important;
+        width: 450px!important;
+      }
+      .userdetailsedit p2{ 
+       margin-left: 10px;
+      }
   }
  
   @media screen and (max-width:426px) {
+    .editicon{
+      width: 100%;
+      transform:translate(-60px,26px); ;
+    }
       .profileimage img{
           transform: translate(88px,60px);
           width: 55%!important;
       }
       .userdetail{
           margin-top: 30px;
+          margin-left: -80px ;
       }
       .email{
           margin-left: 10px;
       }
       .about{
-          margin: 40px;
+          margin: 40px; 
       }
+       
       .additioncamera{
-          transform: translate(62px,-95px)!important;
+          transform:  translate(-32px,40px)!important;
+         
+      }
+      .userModalEdit{
+        width: 350px !important; 
+       }
+       .editbox{
+        width: 250px!important;
+        margin-left: -15px !important; 
+      }
+      .editabout{
+        margin-left:-15px !important;
+        width: 250px!important;
+      }
+      .userdetailsedit p2{ 
+       margin-left: -15px;
       }
   }
   @media screen and (max-width:376px){
@@ -2698,8 +2949,33 @@ font-size: 30px;
           transform: translate(80px,60px);
       }
       .additioncamera{
-          transform: translate(42px,-105px)!important;
+          transform: translate(-32px,40px)!important;
       }
+      .userModalEdit{
+        width: 320px !important; 
+       }
+       .editbox{
+        width: 220px!important;
+        margin-left: -15px !important; 
+      }
+      .editabout{
+        margin-left:-15px !important;
+        width: 220px!important;
+      }
+      .userdetailsedit p2{ 
+       margin-left: -15px;
+      }
+      .updateModal{
+        width: 300px !important;
+      }
+      .modalupdatehead{
+        font-size: 14px !important; 
+      }
+      .about{
+        margin-left: 10px;
+        margin-right: 51px;
+        margin-bottom: 30px;
+          }
   }
   @media screen and (max-width:321px){
       .profileimage img{
@@ -2707,6 +2983,26 @@ font-size: 30px;
           width: 65%!important;
       }
       .additioncamera{
-          transform: translate(47px,-105px)!important;
+          transform:translate(-32px,40px)!important;
+      }
+      .userModalEdit{
+        width: 270px !important; 
+       }
+       .editbox{
+        width: 200px!important;
+        margin-left: -26px !important; 
+      }
+      .editabout{
+        margin-left:-26px !important;
+        width: 200px!important;
+      }
+      .userdetailsedit p2{ 
+       margin-left: -26px;
+      }
+      .updateModal{
+        width: 250px !important;
+      }
+      .modalupdatehead{
+        font-size: 13px !important; 
       }
   }

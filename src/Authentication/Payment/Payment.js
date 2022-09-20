@@ -33,15 +33,12 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Divider } from '@mui/material';
+import googlepay from '../../Assets/payment/google.png'
+import payt from '../../Assets/payment/paytm.png'
+import amazonepay from '../../Assets/payment/amazon.png'
+import qrcodesymbol from '../../Assets/payment/qrcode.png';
+import phonepay from '../../Assets/payment/phonepay.png'
 
-
-
-import IconButton from '@mui/material/IconButton';
-import PhotoCamera from '@mui/icons-material/PhotoCamera';
-
-
-
-import { green, pink } from '@mui/material/colors';
 
 
 
@@ -145,7 +142,7 @@ function Payment() {
         className="verticaltabpayment"
       >
 
-        <Tab  className="paymentverticaltab1" icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"className='iconpayment'><path  fill="#23BDB8" d="M0 8v-3c0-1.105.895-2 2-2h20c1.104 0 2 .895 2 2v3h-24zm24 3v8c0 1.104-.896 2-2 2h-20c-1.105 0-2-.896-2-2v-8h24zm-15 6h-6v1h6v-1zm3-2h-9v1h9v-1zm9 0h-3v1h3v-1z"></path></svg>} iconPosition="start" label="QR Code" {...a11yPropspaymentvalue(0)}   sx={{ display: "flex", justifyContent: "flex-start" }}/>
+        <Tab  className="paymentverticaltab1" icon={<img src={qrcodesymbol} width="24px" height="24px"/>} iconPosition="start" label="QR Code" {...a11yPropspaymentvalue(0)}   sx={{ display: "flex", justifyContent: "flex-start" }}/>
         <Divider/>
         <Tab className="paymentverticaltab2" icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path  fill="#23BDB8" d="M0 8v-3c0-1.105.895-2 2-2h20c1.104 0 2 .895 2 2v3h-24zm24 3v8c0 1.104-.896 2-2 2h-20c-1.105 0-2-.896-2-2v-8h24zm-15 6h-6v1h6v-1zm3-2h-9v1h9v-1zm9 0h-3v1h3v-1z"></path></svg>} iconPosition="start" label="Credit/Debit card" {...a11yPropspaymentvalue(2)}   sx={{ display: "flex", justifyContent: "flex-start" }} />
         <Divider/>
@@ -162,25 +159,49 @@ function Payment() {
         <div className='paymentqr'>
 <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item xs={5} >
+        <Grid item xs={12} >
         <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
-        <p className='rqscan'> Scan</p>
+        <p className='rqscan'> Scan and Pay with any BHIM UPI app</p>
         </Grid>
-        <Grid item xs={7}>
-        <img className='qrimag2' src="https://img.freepik.com/free-vector/flat-man-with-mobile-phone-scanning-qr-code-online-payment-internet-shopping-characters-standing-near-big-smartphone-with-qr-symbol-device-screen-using-scanner-id-app-pay_88138-815.jpg?size=626&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
+        <Grid item xs={12} >
+
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid xs={3}>
+        <img src={phonepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>phonepay</p>
         </Grid>
-        <Grid item xs={6} ></Grid>
-        <Grid item xs={6} >
+        <Grid xs={3}>
+        <img src={googlepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>googlepay</p>
+        </Grid>
+        <Grid xs={3}>
+        <img src={payt} width="45px" />
+        <p>paytm</p>
+        </Grid>
+        <Grid xs={3}>
+        <img src={amazonepay} width="45px" />
+        <p>Amazon</p>
+        </Grid>
+      </Grid>
+    </Box>
+    
+    <br/>
+    <br/>
+        </Grid>
+       
+        <Grid item xs={12} >
+
        <div className='qralign'>
-
-                                <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
-                
-                                <div class="col-8">
+       <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+       
+                       
+                        <label for="formFile" className='consLabel'>Upload screenshot</label>
                             <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
-                      </div>
-                                    <br/>
-                                    <br/>
-
+                       
+                       
+                       
+                                
                                 <Button         
              variant="contained" 
          className='qrbutton'
@@ -188,17 +209,11 @@ function Payment() {
          >
            Upload</Button>    
 
+
                     </form> 
 
 
-                    
-
-
-       
-     
-
-
- </div>
+          </div>
 
 
 
@@ -511,10 +526,142 @@ function Payment() {
         <AccordionDetails id='accordiondetails769'>
           <Typography>
                  {/************************QRCODE******************************/}
-                 
+                 <div className='paymentqr'>
+<Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} >
+        <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
+        <p className='rqscan'> Scan and Pay with any BHIM UPI app</p>
+        </Grid>
+        <Grid item xs={12} >
+
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2} >
+        <Grid xs={3} className='qrleftside1'>
+        <img src={phonepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>phonepay</p>
+        </Grid>
+        <Grid xs={3} className='qrleftside2'>
+        <img src={googlepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>googlepay</p>
+        </Grid>
+        <Grid xs={3} className='qrrightside1'>
+        <img src={payt} width="45px" />
+        <p>paytm</p>
+        </Grid>
+        <Grid xs={3} className='qrrightside2'>
+        <img src={amazonepay} width="45px" />
+        <p>Amazon</p>
+        </Grid>
+      </Grid>
+    </Box>
+    
+    <br/>
+    <br/>
+        </Grid>
+       
+        <Grid item xs={12} >
+
+       <div className='qralign'>
+       <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+       
+                       
+                        <label for="formFile" className='consLabel'>Upload screenshot</label>
+                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
+                       
+                       
+                       
+                                
+                                <Button         
+             variant="contained" 
+         className='qrbutton'
+     
+         >
+           Upload</Button>    
+
+
+                    </form> 
+
+
+          </div>
+
+
+
+            {/************************QRCODE******************************/}
+        </Grid>
+</Grid>
+      
+    </Box>
+</div>
                          {/************************QRCODE******************************/}
 
+                         <div className='paymentqr360'>
+<Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} >
+        <img className='qrimage1' src="https://img.freepik.com/premium-vector/qr-code-black-color-isolated-background-mobile-payment-identity-city-transport-rental-ui_111651-755.jpg?size=338&ext=jpg&ga=GA1.2.1405503288.1661585887"></img>
+        <p className='rqscan'> Scan and Pay with any BHIM UPI app</p>
+        </Grid>
+        <Grid item xs={12} >
 
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2} >
+        <Grid xs={6} className='qrleftside1'>
+        <img src={phonepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>phonepay</p>
+        </Grid>
+        <Grid xs={6} className='qrleftside2'>
+        <img src={googlepay} width="30px" className='googlepay'/>
+        <p className='googlepay1'>googlepay</p>
+        </Grid>
+        <Grid xs={6} className='qrrightside1'>
+        <img src={payt} width="45px" />
+        <p>paytm</p>
+        </Grid>
+        <Grid xs={6} className='qrrightside2'>
+        <img src={amazonepay} width="45px" />
+        <p>Amazon</p>
+        </Grid>
+      </Grid>
+    </Box>
+    
+    <br/>
+    <br/>
+        </Grid>
+       
+        <Grid item xs={12} >
+
+       <div className='qralign'>
+       <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
+       
+                       
+                        <label for="formFile" className='consLabel'>Upload screenshot</label>
+                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
+                       
+                       
+                       
+                                
+                                <Button         
+             variant="contained" 
+         className='qrbutton'
+     
+         >
+           Upload</Button>    
+
+
+                    </form> 
+
+
+          </div>
+
+
+
+            {/************************QRCODE******************************/}
+        </Grid>
+</Grid>
+      
+    </Box>
+</div>
 
 
           </Typography>

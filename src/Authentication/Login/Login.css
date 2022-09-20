@@ -12,7 +12,7 @@ body{
 
 .login{display: block;
   text-align: left;
-  padding-top: 150px !important;
+  padding-top: 200px !important;
   padding-bottom: 110px;
   padding-left: 120px;
   padding-right: 120px;
@@ -45,8 +45,10 @@ padding-bottom: 1px;}
 #use{margin-top: 20px;}
 
 .buttonloginuser{background-color:#23BDB8 !important;
-  width: 410px !important;
+  width: 400px !important;
   height: 56px;
+  color: #F5FFFA !important;
+  border: none !important;
   font-family: 'Poppins', sans-serif;
   margin-top: 30px !important;
   font-weight: 600;
@@ -76,20 +78,16 @@ padding-top: 15px;
 }
 
 /**************************alertbox*****************************/
-#consultantbutton{background-color: #23BDB8;
-  color: #F5FFFA;}
-  #alert-dialog-description{
-    width: 250px;
-    color:  #0E314C;;
-  }
-  #alert-dialog-title{color: #23BDB8;}
-  
+.requiredlo{color:gray;
+  font-size: .9rem;
+
+}
 /**************************1920********************************/
 @media screen and (max-width:1920px) and (min-width:1601px){
   .login{display: block;
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 110px;
+    padding-top: 350px !important;
+    padding-bottom: 250px;
     padding-left: 250px !important;
     padding-right: 250px !important;
   }
@@ -99,8 +97,8 @@ padding-top: 15px;
 @media screen and (max-width:1600px) and (min-width:1537px){
   .login{display: block;
     text-align: left;
-    padding-top: 200px !important;
-    padding-bottom: 110px;
+    padding-top: 250px !important;
+    padding-bottom: 180px;
     padding-left: 180px !important;
     padding-right: 180px !important;
   }
@@ -169,12 +167,12 @@ padding-top: 15px;
 }
 
 /**************************1024********************************/
-@media only screen and (max-width:1024px) and (min-width:961px){
+@media only screen and (max-width:1024px) and (min-width:1010px){
 
   .cardpadding{padding-left: 70px;}
   .login{
     text-align: left;
-    padding-top: 200px !important;
+    padding-top: 250px !important;
     padding-bottom: 60px !important;
     padding-left: 50px !important;
     padding-right:50px !important;
@@ -193,12 +191,33 @@ padding-top: 15px;
 }
 /**************************1008********************************/
 
+@media only screen and (max-width:1009px) and (min-width:961px){
+  .cardpadding{padding-left :70px !important;}
+  .login{
+    text-align: left;
+    padding-top: 230px !important;
+    padding-bottom: 60px !important;
+    padding-left: 50px !important;
+    padding-right:50px !important;
+    
+  }
+  .buttonloginuser {
+    background-color: #23BDB8 !important;
+    width: 280px !important;
+    
+}
+  /*text field width*/
+  .textfieldloginuser{width: 280px !important;  }
+  .loginimg {
+    height: 600px !important;
+}
+}
 /**************************960********************************/
 @media only screen and (max-width:960px) and (min-width:914px){  
   .cardpadding{padding-left :70px !important;}
   .login{
     text-align: left;
-    padding-top: 200px !important;
+    padding-top: 170px !important;
     padding-bottom: 60px !important;
     padding-left: 50px !important;
     padding-right:50px !important;
@@ -314,7 +333,7 @@ width: 668px;
   text-align: left !important;
   font-weight: 500;
   font-size: 1.2rem;
-  padding-left: 90px !important;
+  padding-left: 75px !important;
   padding-top: 1px;
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
@@ -326,7 +345,12 @@ padding-bottom: 1px;}
   width: 400px !important;
   
 }
-
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 80px !important;
+}
  
 
 }
@@ -371,7 +395,7 @@ width: 668px;
   text-align: left !important;
   font-weight: 500;
   font-size: 1.2rem;
-  padding-left: 50px !important;
+  padding-left: 40px !important;
   padding-top: 1px;
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
@@ -382,6 +406,12 @@ padding-bottom: 1px;}
   background-color: #23BDB8 !important;
   width: 380px !important;
   
+}
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 40px !important;
 }
   
 }
@@ -426,7 +456,7 @@ width: 668px;
   text-align: left !important;
   font-weight: 500;
   font-size: 1.2rem;
-  padding-left: 50px !important;
+  padding-left: 30px !important;
   padding-top: 1px;
   padding-bottom: 2px;
   font-family: 'Poppins', sans-serif !important;
@@ -437,6 +467,12 @@ padding-bottom: 1px;}
   background-color: #23BDB8 !important;
   width: 360px !important;
   
+}
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 30px !important;
 }
   
 
@@ -494,6 +530,13 @@ padding-bottom: 1px;}
   width: 350px !important;
   
 }
+
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 30px !important;
+}
   
 }
 /*******************************540**********************************************/
@@ -526,7 +569,12 @@ padding-bottom: 1px;}
     background-color: #F5FFFA !important;
     box-shadow: 5px 10px 18px #888888 !important;
   }
-
+  .requiredlo {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 10px !important;
+  }
 }
 /******************************480**********************************************/
 @media screen and (max-width:480px) and (min-width:427px){
@@ -558,7 +606,12 @@ padding-bottom: 1px;}
     background-color: #F5FFFA !important;
     box-shadow: 5px 10px 18px #888888 !important;
   }
-
+  .requiredlo {
+    color: gray;
+    font-size: .9rem;
+    text-align: left;
+    padding-left: 0px !important;
+  }
 }
 /******************************425**********************************************/
 @media screen and (max-width:426px) and (min-width:416px){
@@ -595,7 +648,12 @@ padding-bottom: 1px;}
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
 }
-
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 0px !important;
+}
 }
 
 /******************************414**********************************************/
@@ -634,6 +692,13 @@ padding-bottom: 1px;}
     font-size: 1rem !important;
 }
 
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 20px !important;
+}
+
 }
 /******************************393**********************************************/
 @media screen and (max-width:394px) and (min-width:377px){
@@ -670,7 +735,12 @@ padding-bottom: 1px;}
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
 }
-
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
 
 }
 /******************************375**********************************************/
@@ -708,7 +778,12 @@ padding-bottom: 1px;}
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
 }
-
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
 }
 /******************************360**********************************************/
 @media screen and (max-width:361px) and (min-width:322px){
@@ -745,7 +820,24 @@ padding-bottom: 1px;}
     font-family: 'Poppins', sans-serif;
     font-size: 1rem !important;
 }
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 10px !important;
+}
 
+
+.username {
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 1px;
+  padding-left: 10px !important;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 1px;
+}
 }
 
 /******************************320**********************************************/
@@ -786,6 +878,25 @@ padding-bottom: 1px;}
 /**************************alertbox*****************************/
 #alert-dialog-description{
   width: 200px !important;
+}
+
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 20px !important;
+}
+
+
+.username {
+  text-align: left !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 1px;
+  padding-left: 20px !important;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 1px;
 }
 
 }
@@ -840,4 +951,12 @@ padding-bottom: 1px;}
   width: 200px !important;
 }
 
+.requiredlo {
+  color: gray;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 50px !important;
 }
+
+}
+

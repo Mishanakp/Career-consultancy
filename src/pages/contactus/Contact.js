@@ -17,7 +17,9 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 function Contact() {
-  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
    return (
     <div>
@@ -68,16 +70,20 @@ function Contact() {
 <div className="icons">
   <ul>
     <li>
-<FacebookIcon sx={{color:'darkblue'}}/>
+{/* <FacebookIcon sx={{color:'darkblue'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/220/220200.png?w=740&t=st=1663504404~exp=1663505004~hmac=e11ebc62bf151a1a53439fd05598cb311e24c38e332fd8cded9bcbface286e3b" alt="" />
 </li>
 <li>
-<TwitterIcon sx={{color:'lightblue'}}/>
+{/* <TwitterIcon sx={{color:'lightblue'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/889/889147.png?w=740&t=st=1663504464~exp=1663505064~hmac=d1aa446f12f3fd006430ca827df1df52d5346a6ab4807bcda3d97451382dcbb5"></img>
 </li>
 <li>
-<InstagramIcon sx={{color:'rgb(233, 89, 80)'}}/>
+{/* <InstagramIcon sx={{color:'rgb(233, 89, 80)'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/174/174855.png?w=740&t=st=1663504258~exp=1663504858~hmac=23ed646cc4bb3f0ce99dbfa2d04b69473f987f0114b782aa937217acdfaedc61"></img>
 </li>
 <li>
-<LinkedInIcon sx={{color:'#0a66c2'}}/>
+{/* <LinkedInIcon sx={{color:'#0a66c2'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/124/124011.png?w=740&t=st=1663504011~exp=1663504611~hmac=0927381a84bd58398014967c186fcdf1367c92f8375ec4229582b404f61f954e"></img>
 </li>
 </ul>
 </div>
@@ -120,7 +126,7 @@ function Contact() {
         />
         </Box>
         <br/>
-        <button class="button1"><span>Send Message</span> </button>
+        <button class="buttoncontact"><span>Send Message</span> </button>
 </div>
 </Grid>
 
@@ -287,16 +293,23 @@ function Contact() {
 <div className="icons">
   <ul>
     <li>
-<FacebookIcon sx={{color:'darkblue'}}/>
+{/* <FacebookIcon sx={{color:'darkblue'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/220/220200.png?w=740&t=st=1663504404~exp=1663505004~hmac=e11ebc62bf151a1a53439fd05598cb311e24c38e332fd8cded9bcbface286e3b" alt="" />
 </li>
 <li>
-<TwitterIcon sx={{color:'lightblue'}}/>
+{/* <TwitterIcon sx={{color:'lightblue'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/889/889147.png?w=740&t=st=1663504464~exp=1663505064~hmac=d1aa446f12f3fd006430ca827df1df52d5346a6ab4807bcda3d97451382dcbb5"></img>
+
 </li>
 <li>
-<InstagramIcon sx={{color:'rgb(233, 89, 80)'}}/>
+{/* <InstagramIcon sx={{color:'rgb(233, 89, 80)'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/174/174855.png?w=740&t=st=1663504258~exp=1663504858~hmac=23ed646cc4bb3f0ce99dbfa2d04b69473f987f0114b782aa937217acdfaedc61"></img>
+
 </li>
 <li>
-<LinkedInIcon sx={{color:'#0a66c2'}}/>
+{/* <LinkedInIcon sx={{color:'#0a66c2'}}/> */}
+<img className='contactFaceIcon' src="https://cdn-icons-png.flaticon.com/512/124/124011.png?w=740&t=st=1663504011~exp=1663504611~hmac=0927381a84bd58398014967c186fcdf1367c92f8375ec4229582b404f61f954e"></img>
+
 </li>
 </ul>
 </div>
@@ -342,7 +355,7 @@ function Contact() {
         />
         </Box>
         <br/>
-        <button class="button1"><span>Send Message</span> </button>
+        <button class="buttoncontact"><span>Send Message</span> </button>
 </div>
 
 </Grid>

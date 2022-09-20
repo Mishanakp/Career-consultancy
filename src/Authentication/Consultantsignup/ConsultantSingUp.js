@@ -20,7 +20,9 @@ import LockIcon from '@mui/icons-material/Lock';
 import './ConsultantSingUp.css'
 
 import Checkbox from '@mui/material/Checkbox';
-
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import IconButton from '@mui/material/IconButton';
 
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -29,7 +31,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 function  ConsultantSingUp() {
-    const initialValues = { username: "", email: "", password: "",password2: ""};
+    const initialValues = { username: "", email: "", password: "",password2: "",showPassword: false};
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -45,7 +47,16 @@ function  ConsultantSingUp() {
       setIsSubmit(true);
     };
   {/**************************** */}
-
+  const handleClickShowPassword = () => {
+    setFormValues({
+      ...formValues,
+      showPassword: !formValues.showPassword,
+    });
+  };
+  
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
 
 {/************************ */}
 
@@ -130,7 +141,7 @@ function  ConsultantSingUp() {
           aria-describedby="alert-dialog-slide-description"
           id='diadlogbox'
         >
-          <DialogTitle>{"Sing in"}</DialogTitle>
+          <DialogTitle style={{color:'#23BDB8'}}>{"Sing in"}</DialogTitle>
           <DialogContent>
             <DialogContentText id="alert-dialog-slide-description">
             successfully signed in 
@@ -138,7 +149,7 @@ function  ConsultantSingUp() {
           </DialogContent>
           <DialogActions>
           <Link to="/userprofile" >
-            <Button onClick={handleClose} style={{color:' #23BDB8 '}}>Ok</Button>
+            <Button onClick={handleClose} style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Ok</Button>
              </Link>
           </DialogActions>
         </Dialog>
@@ -206,7 +217,8 @@ function  ConsultantSingUp() {
                <p className='required'>{formErrors.email}</p>
                 {/*********password************/}
   
-               <TextField  type="password"
+               <TextField  
+               //type="password"
             name="password"
             placeholder="Password"
             className='textfieldconsultsingup'
@@ -214,13 +226,32 @@ function  ConsultantSingUp() {
            
             value={formValues.password}
             onChange={handleChange}
+            // InputProps={{
+            //   startAdornment: (
+            //     <InputAdornment position="start">
+            //       <LockIcon style={{color:' #23BDB8 '}}/>
+            //     </InputAdornment>
+            //   ),
+            // }}
+
+            type={formValues.showPassword ? 'text' : 'password'}
             InputProps={{
-              startAdornment: (
-                <InputAdornment position="start">
-                  <LockIcon style={{color:' #23BDB8 '}}/>
-                </InputAdornment>
-              ),
-            }}
+            startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+          endAdornment:(<InputAdornment position="end">
+            <IconButton
+                    aria-label="toggle password visibility"
+                    onClick={handleClickShowPassword}
+                    onMouseDown={handleMouseDownPassword}
+                    edge="end"
+                    style={{color:' #23BDB8 '}}
+                  >
+                    {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                  </IconButton>
+          </InputAdornment>),
+              
+                 
+        }}
+             
             variant="outlined" 
             />
             <p className='required'>{formErrors.password}</p>
@@ -228,20 +259,39 @@ function  ConsultantSingUp() {
           
                         {/*******confirmpassword**************/}
 
-               <TextField  type="password"
+               <TextField  
+              //  type="password"
             name="password2"
             className='textfieldconsultsingup'
 
             placeholder="Confirm Password"
             value={formValues.password2}
             onChange={handleChange}
+            // InputProps={{
+            //   startAdornment: (
+            //     <InputAdornment position="start">
+            //       <LockIcon style={{color:' #23BDB8 '}}/>
+            //     </InputAdornment>
+            //   ),
+            // }}
+
+            type={formValues.showPassword ? 'text' : 'password'}
             InputProps={{
-              startAdornment: (
-                <InputAdornment position="start">
-                  <LockIcon style={{color:' #23BDB8 '}}/>
-                </InputAdornment>
-              ),
-            }}
+            startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+          endAdornment:(<InputAdornment position="end">
+            <IconButton
+                    aria-label="toggle password visibility"
+                    onClick={handleClickShowPassword}
+                    onMouseDown={handleMouseDownPassword}
+                    edge="end"
+                    style={{color:' #23BDB8 '}}
+                  >
+                    {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                  </IconButton>
+          </InputAdornment>),
+              
+                 
+        }}
             variant="outlined" 
             />
                <p className='required'>{formErrors.password2}</p>
