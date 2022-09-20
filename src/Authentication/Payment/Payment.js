@@ -35,7 +35,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Divider } from '@mui/material';
 import googlepay from '../../Assets/payment/google.png'
 import payt from '../../Assets/payment/paytm.png'
-import amazonepay from '../../Assets/payment/Amazon.png'
+import amazonepay from '../../Assets/payment/amazon.png'
 import qrcodesymbol from '../../Assets/payment/qrcode.png';
 import phonepay from '../../Assets/payment/phonepay.png'
 

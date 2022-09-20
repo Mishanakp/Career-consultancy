@@ -124,41 +124,35 @@
 }
 
 @media only screen and (max-width:1292px) and (min-width:1281) {
-    #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translateX(-50px) !important;
-    }
-    #mishanathirdd.uk-card-title {
-        margin-top: -40px !important;
-    }
+    .para-one {
+        transform: translate(58px,-239px);
+      }
+      #mishanafirstt.uk-card-media-left.uk-cover-container {
+        width: 43%!important;
+        transform: translate(90px,148px) !important;
+      }
+      #mishanathirdd.uk-card-title {
+        transform: translate(156px,-242px) !important;
+      }
 }
 
 @media only screen and (max-width:1280px) and (min-width:1201px) {
     #mishanafirstt.uk-card-media-left.uk-cover-container {
-        transform: translate(64px,181px)!important;
+        transform: translate(64px,181px) !important;
     }
     .para-one {
         transform: translate(58px,-223px);
     }
     #mishanathirdd.uk-card-title {
-        transform: translate(134px,-225px)!important;
+        transform: translate(134px,-225px) !important;
     }
 }
 
 
-@media only screen and (max-width:1200px) and (min-width:1025px) {}
-@media only screen and (max-width:1008px) and (min-width:961px) {}
-@media only screen and (max-width:960px) and (min-width:901px) {}
-@media only screen and (max-width:889px) and (min-width:672px) {}
-@media only screen and (max-width:640px) and (min-width:600px) {}
+@media only screen and (max-width:1200px) and (min-width:1025px) {
 
-
-
-
-
-/*--------  RESPONSIVE SECTION --------*/
-
- /*Laptop view  */
- @media screen and (max-width:1024px) and (min-width:767px){
+}
+@media screen and (max-width:1024px) and (min-width:1009px){
     #mishanafirstsection.uk-card.uk-card-default.uk-grid-collapse.uk-child-width-1-2 {
        margin-left: 100px !important;
     }
@@ -180,8 +174,10 @@
     
 }
 
-/*  Tab view  */
-@media screen and (max-width:769px) {
+@media only screen and (max-width:1008px) and (min-width:961px) {}
+@media only screen and (max-width:960px) and (min-width:901px) {}
+@media only screen and (max-width:889px) and (min-width:770px) {}
+@media only screen and (max-width:769px) and (min-width:673px) {
     .para-one {
         width: 120% !important;
         transform: translate(-300px,-250px) !important;
@@ -199,10 +195,13 @@
     }
     
 }
-
-
-/*  Mobile view  Large */
-@media screen and (max-width:426px) {
+@media only screen and (max-width:672px) and (min-width:641px) {}
+@media only screen and (max-width:640px) and (min-width:601px) {}
+@media only screen and (max-width:600px) and (min-width:596px) {}
+@media only screen and (max-width:595px) and (min-width:541px) {}
+@media only screen and (max-width:540px) and (min-width:481px) {}
+@media only screen and (max-width:580px) and (min-width:427px) {}
+@media only screen and (max-width:426px) and (min-width:415px) {
     #mishanathirdd.uk-card-title {
         transform: translate(-644px,-315px) !important;
     }
@@ -373,7 +372,9 @@
       .para-two {
             margin-left: 11px !important;
       }
-
+      .uk-card-title2 {
+        transform: translate(238px,-260px) !important;
+    }
 }
 @media only screen and (max-width:1280px) and (min-width:1201px) {
     .para-two {
@@ -821,25 +822,29 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
     }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
     .gridsection {
         width: 95%;
         margin-left: 36px;
         word-break: break-all;
     }
 }
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281) {
+    .gridsection {
+        margin-left: 25px !important;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:1201px) {
     .gridsection {
         width: 97%;
         margin-left: 18px;
     }
 }
-@media only screen and (max-width:1292px) and (min-width:1201) {
-    .gridsection {
-        margin-left: 25px !important;
-    }
+
+@media only screen and (max-width:1200px) and (min-width:1025px) {
+    
 }
-@media only screen and (max-width:1200px) and (min-width:1009px) {
+@media only screen and (max-width:1008px) and (min-width:961px) {
     
 }
 @media only screen and (max-width:960px) and (min-width:901px) {}
@@ -1091,18 +1096,20 @@ p.cardPara1,p.cardPara2,p.cardPara3,p.cardPara4{
   }
 }
 
-@media only screen and (max-width:1366px) and (min-width:1281px) {
+@media only screen and (max-width:1366px) and (min-width:1293px) {
   .section5 {
     transform: translate(-5px, -237px) !important;
   }
 }
-@media only screen and (max-width:1280px) and (min-width:1026px) {
+@media only screen and (max-width:1292px) and (min-width:1281) {}
+@media only screen and (max-width:1280px) and (min-width:1201px) {
   .section5 {
     transform: translate(10px, -266px);
   }
 }
-@media only screen and (max-width:1292px) and (min-width:1201) {}
-@media only screen and (max-width:1200px) and (min-width:1009px) {}
+
+@media only screen and (max-width:1200px) and (min-width:1025px) {}
+@media only screen and (max-width:1008px) and (min-width:961px) {}
 @media only screen and (max-width:960px) and (min-width:901px) {}
 @media only screen and (max-width:889px) and (min-width:672px) {}
 @media only screen and (max-width:640px) and (min-width:600px) {}
