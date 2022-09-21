@@ -15,7 +15,6 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material'; 
 import treeImage from '../../Assets/homeImages/treegreen.jpeg'   
 import quotes from '../../Assets/homeImages/quotes1.jpeg'
- 
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -40,12 +39,12 @@ function SamplePrevArrow(props) {
 }
 
 function Home() {
-
+  
   useEffect(() =>{
     Aos.init({});
 },[]);
 React.useEffect(() => {
-  window.scrollTo(0, 0);
+  window.scrollTo(0, 0); 
 }, []);
 
 const settings = {
