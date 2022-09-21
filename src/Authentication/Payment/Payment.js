@@ -35,7 +35,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { AlertTitle, alertTitleClasses, Divider } from '@mui/material';
 import googlepay from '../../Assets/payment/google.png'
 import payt from '../../Assets/payment/paytm.png'
-import amazonepay from '../../Assets/payment/am.png'
+// import amazonepay from '../../Assets/payment/am.png'
 import qrcodesymbol from '../../Assets/payment/qrcode.png';
 import phonepay from '../../Assets/payment/phonepay.png'
 import Alert from '@mui/material/Alert';
@@ -228,7 +228,7 @@ const [message, setMessage] = React.useState('');
         <p>paytm</p>
         </Grid>
         <Grid xs={3}>
-        <img src={amazonepay} width="45px" />
+        {/* <img src={amazonepay} width="45px" /> */}
         <p>Amazon</p>
         </Grid>
       </Grid>
@@ -619,7 +619,7 @@ const [message, setMessage] = React.useState('');
         <p>paytm</p>
         </Grid>
         <Grid xs={3} className='qrrightside2'>
-        <img src={amazonepay} width="45px" />
+        {/* <img src={amazonepay} width="45px" /> */}
         <p>Amazon</p>
         </Grid>
       </Grid>
@@ -688,7 +688,7 @@ const [message, setMessage] = React.useState('');
         <p>paytm</p>
         </Grid>
         <Grid xs={6} className='qrrightside2'>
-        <img src={amazonepay} width="45px" />
+        {/* <img src={amazonepay} width="45px" /> */}
         <p>Amazon</p>
         </Grid>
       </Grid>
