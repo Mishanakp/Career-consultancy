@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-    overflow-x: hidden;
+overflow-x: hidden;
     background-color: #F0F0F0;
     
   }
@@ -24,6 +24,7 @@ body{
 
  
   
+
 
 
 
@@ -3304,7 +3305,7 @@ img.qrimag2{
   margin-left: 0px  !important;
   background-color:   #23BDB8 !important;
   font-size: 1.1rem !important;
-  transform: translate(20px,-2px) !important;
+transform: translate(20px,0px);
   
 }
 .qrpadding{padding-left: 50px;}
@@ -3314,6 +3315,14 @@ font-weight: 600;
 
 }
 .qralign{margin-left: 50px;}
+
+
+.colleft{text-align: left;}
+.colright{text-align: right;}
+.qricon{margin-right: 20px;}
+
+.googlepay{transform: translateY(8px);}
+.googlepay1{transform: translateY(16px);}
 
 .inputfile:focus + label {
   /* keyboard navigation */
@@ -3332,22 +3341,20 @@ font-weight: 600;
   position: absolute;
   z-index: -1;
 }
-.consLabel{
-color: white;
-font-size: 1.1rem;
-font-weight: 600;
-border-radius: 4px;
+
+.consLabel {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
   background-color: #23BDB8;
   border: 1px solid transparent;
-  padding:10px 5px;
-  margin-left: -85px !important;
-}
-.colleft{text-align: left;}
-.colright{text-align: right;}
-.qricon{margin-right: 20px;}
+  padding: 10px 5px;
+  margin-left:-20px !important;
 
-.googlepay{transform: translateY(8px);}
-.googlepay1{transform: translateY(16px);}
+}
+
+
 
 /**************************1366********************************/
 @media screen and (max-width:1367px) and (min-width:1298px){
