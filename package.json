@@ -1,4 +1,7 @@
-{
+{"engines" : { 
+  "npm" : "8.15.0",
+  "node" : "16.17.0"
+},
   "name": "careerconsultant",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +33,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
