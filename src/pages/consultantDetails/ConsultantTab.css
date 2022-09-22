@@ -4021,7 +4021,108 @@ button.consultantAccordHead5{
 
 
 
+      /*----------------------------Profile------------------------------*/
+      
+        .adminimageuploadicon{color:#23BDB8 !important;
+       
+        }
+        
+            .adminiconphone,  .adminiconmail{color: white !important;
+                  background-color: #23BDB8 !important;
+                  border-radius: 50% !important;
+                  height: 37px !important;
+                  padding: 10px !important;
+                  width: 40px !important;
+          } 
+        
+          
+      /*-------------------------------------------------------------------------*/
+      li{list-style-type: none !important;}
+      .adminprofileimgn{height: 250px;width: 250px;
+          border-radius: 50%;
+          margin-top: -150px;
+      }
+      
+      .admintop{background:   linear-gradient(to right, #23BDB8, #8ee7ba);
+          height: 180px;margin-left: -23px !important;
+          margin-right: -23px !important;
+      }
+      .adminulnamen{
+          font-size: 22px;
+          margin-left: -30px;
+      }
+      
+      .adminaboutcounsellor{text-align: justify !important;
+          margin-top: -110px !important;
+         color: #4A6F8A !important;
+         font-family: 'Poppins', sans-serif !important;
+      }
 
+      .adminsublistq{padding: 10px !important;
+          margin-left: 30px !important;
+      }
+      .adminguide{font-size: 0.7em;}
+      .adminiconimgn{min-height: 10px !important;min-width: 10px !important;}
+      #adminiconimg{height: 40px !important;padding-right: 10px !important;}
+      
+      .adminviewsha li{color: #4A6F8A;
+          display: inline-grid !important;
+          padding-right: 20px !important;
+      }
+      .adminviewsha p2{
+          font-size: 14px;
+          font-family: 'Poppins', sans-serif;
+          color: #0e314c !important;
+      }
+      .adminviewsha{
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 10px
+      }
+      .adminulnamen{color:  #0e314c !important;}
+      
+      
+
+      /*------------------------responsive 768------------------------------*/
+      @media only screen and (max-width: 769px)and (min-width:427px) {
+
+         .adminaboutcounsellor{margin-top: -20px !important;}
+       
+              
+      }
+      /*------------------------responsive 425------------------------------*/
+      @media only screen and (max-width: 426px)and (min-width:377px) {
+
+ 
+         .adminaboutcounsellor{margin-top: -10px !important;
+          }
+      }
+      /*------------------------responsive 375------------------------------*/
+      @media only screen and (max-width: 376px)and (min-width:322px) {
+
+        .adminimageuploadicon{margin-left: -40px !important;}
+         .adminaboutcounsellor{margin-top: -10px !important;
+          }
+      }
+      
+      /*------------------------responsive 320------------------------------*/
+      @media only screen and (max-width: 321px){
+        .uploadprofilecam{margin-left: -40px !important;}
+         .adminaboutcounsellor{margin-top: -20px !important;
+          }
+      }
+      
+      /*------------------------responsive 1920------------------------------*/
+      @media only screen and (max-width: 1921px)and (min-width:1602px){
+        
+         .admintop{
+              margin-top: -20px !important;
+          }
+      }
+ .profileeditmodal{width: 700px !important;
+        border:none !important;
+}
+      
 
 
 

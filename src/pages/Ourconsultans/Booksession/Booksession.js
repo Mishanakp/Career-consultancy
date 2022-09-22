@@ -13,7 +13,7 @@ import SignUp from '../../../Authentication/SignUp/SingUp';
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+
 
 
 function Booksession() {
@@ -30,13 +30,11 @@ function Booksession() {
     p: 4,
   };
 
-  const [open2, setOpen2] = React.useState(false);
-  const handleOpen2 = () => setOpen2(true);
-  const handleClose2 = () => setOpen2(false);
-
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   const [value, setValue] = React.useState(dayjs());
-  // const [date, setDate] = React.useState(dayjs());
 
   return (
     <div className='backgrounddiv'>
@@ -244,27 +242,36 @@ function Booksession() {
 
 </div>
     <br/>
-    <Link to="/SignUp" >
-    <button className="booksessionpagebutton" onClick={handleOpen2}>   
+    {/* <Link to="/SignUp" ></Link>  */}
+    <button className="booksessionpagebutton" onClick={handleOpen}>   
         <span style={{color:'white'}}>Book Now</span>
-    </button></Link> 
-    {/* <Modal
-  open={open2}
-  onClose={handleClose2}
+    </button>
+    
+      <Modal
+  open={open}
+  onClose={handleClose}
   aria-labelledby="modal-modal-title"
   aria-describedby="modal-modal-description"
 >
-  <Box sx={style} className="updateModal">
+  <Box sx={style} className="updatebookingModal">
     <Typography id="modal-modal-title" variant="h6" component="h2" className='bookmodalupdatehead'>
      Consultant name: Pooja Roy
-     <br/>
+     <br/> <br/> 
      Booking date: 03/10/2022
-     <br/>
+     <br/> <br/> 
      Booking Time: 2.00 PM
     </Typography>
-    <button className="booksessionpagebutton" >Book Now</button>
+    <br/> <br/>
+    &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;
+    <Link to="./Booksession.js" >
+    <span style={{color:'red'}}>Cancel</span>
+    </Link>
+   &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;
+    <Link to="/SignUp" >
+    <span sx={{color:'#23BDB8',fontSize:'122px'}} >Confirm</span>
+    </Link>
   </Box>
-</Modal> */}
+</Modal>  
     <br/><br/><br/>  
 </Grid>
 

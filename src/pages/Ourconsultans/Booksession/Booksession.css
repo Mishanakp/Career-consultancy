@@ -19,16 +19,14 @@ body{
 .selecttime{margin-left: -230px;}
 
 
-.updateModal{
-  display: flex;
+.updatebookingModal{
+
   border: none !important;
 }
 .bookmodalupdatehead{
   margin-left: 50px !important;
-  color: #23BDB8;
 }
 
-/*----------------------------button------------------------------*/
 
 
     .booksessionpagebutton {
