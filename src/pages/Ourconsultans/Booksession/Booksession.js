@@ -269,7 +269,7 @@ function Booksession() {
             <br/><br/> 
             {/* <Link to="/Booksession"><Button  >Back</Button></Link> */}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Link to="/login"><Button  className="booksessionpagebutton">Confirm</Button></Link>
+            <Link to="/payment"><Button  className="booksessionpagebutton">Confirm</Button></Link>
             
             </Typography>
           </Box>
