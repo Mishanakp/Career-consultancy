@@ -31,7 +31,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 function  ConsultantSingUp() {
-    const initialValues = { username: "", email: "", password: "",password2: "",showPassword: false};
+    const initialValues = { username: "", email: "", password: "",password2: "",showPassword: false,showPassword1: false};
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -51,6 +51,13 @@ function  ConsultantSingUp() {
     setFormValues({
       ...formValues,
       showPassword: !formValues.showPassword,
+    });
+  };
+
+  const handleClickShowPassword1 = () => {
+    setFormValues({
+      ...formValues,
+      showPassword1: !formValues.showPassword1,
     });
   };
   
@@ -277,18 +284,18 @@ React.useEffect(() => {
             //   ),
             // }}
 
-            type={formValues.showPassword ? 'text' : 'password'}
+            type={formValues.showPassword1 ? 'text' : 'password'}
             InputProps={{
             startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
           endAdornment:(<InputAdornment position="end">
             <IconButton
                     aria-label="toggle password visibility"
-                    onClick={handleClickShowPassword}
+                    onClick={handleClickShowPassword1}
                     onMouseDown={handleMouseDownPassword}
                     edge="end"
                     style={{color:' #23BDB8 '}}
                   >
-                    {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                    {formValues.showPassword1 ? <VisibilityOff /> : <Visibility />}
                   </IconButton>
           </InputAdornment>),
               

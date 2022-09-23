@@ -14,9 +14,51 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import swal from 'sweetalert';
 
 function Contact() {
+
+  const [message, setMessage] = React.useState('');
+
+  const handleChangeb = event => {
+    setMessage(event.target.value);
+  };
+
+
+  
+
+
+  const handleClick = event => {
+    event.preventDefault();
+
+
+
+ if (message.trim().length !== 0) {
+     console.log('input value is NOT empty');
+ 
+    swal({
+   
+      text: " message send sucessfully",
+     type:"success",
+      icon: "success",
+       
+     
+
+    }).then(function() {
+      window.location = "/";
+  });
+    
+      
+     } else {
+     console.log('input value is empty');
+     swal({
+      text: "please filled the field",
+      icon: "error",
+      dangerMode: true,
+     
+    });
+    } 
+  }; 
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -108,11 +150,11 @@ function Contact() {
       noValidate
       autoComplete="off"
     >
-      <TextField className="labels" type="text" name="firstname" placeholder="First Name"  variant="outlined" />
-      <TextField className="labels" type="text" name="lastname" placeholder="Last Name"  variant="outlined" />
+      <TextField className="labels" type="text" name="firstname" placeholder="First Name"  variant="outlined"onChange={handleChangeb}/>
+      <TextField className="labels" type="text" name="lastname" placeholder="Last Name"  variant="outlined" onChange={handleChangeb}/>
       <br/>
-      <TextField className="labels" type="text" name="email" placeholder="Email"  variant="outlined" />
-      <TextField className="labels" type="text" name="phonenumber" placeholder="Phone Number"  variant="outlined" />
+      <TextField className="labels" type="text" name="email" placeholder="Email"  variant="outlined" onChange={handleChangeb}/>
+      <TextField className="labels" type="text" name="phonenumber" placeholder="Phone Number"  variant="outlined" onChange={handleChangeb}/>
 
 </Box>
 <br/>
@@ -126,7 +168,7 @@ function Contact() {
         />
         </Box>
         <br/>
-        <button class="buttoncontact"><span>Send Message</span> </button>
+        <button class="buttoncontact" onClick={handleClick}><span>Send Message</span> </button>
 </div>
 </Grid>
 
@@ -190,11 +232,11 @@ function Contact() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography style={{fontSize:'17px',color:'white'}}>4. Once I have submitted my application how will I be informed regarding the interview?</Typography>
+          <Typography style={{fontSize:'17px',color:'white'}}>4. What is the strongest evidence for the treatment of depression with clinical psychology?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          After your application is received and scrutinized, you will receive a confirmation mail from our executives. If your candidature is confirmed, an email will be sent shortly to your registered email address detailing the date, time and venue of the drive.          </Typography>
+          Studies on CBT and a combination of medication and psychological therapy show that it is an effective treatment for a wide range of mental illnesses, including depression, anxiety disorders, bipolar disorder, eating disorders and schizophrenia.      </Typography>
         </AccordionDetails>
       </Accordion>
 
