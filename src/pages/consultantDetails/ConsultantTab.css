@@ -4087,7 +4087,8 @@ button.consultantAccordHead5{
       @media only screen and (max-width: 769px)and (min-width:427px) {
 
          .adminaboutcounsellor{margin-top: -20px !important;}
-       
+         .profileeditmodal{width: 500px !important;
+           }
               
       }
       /*------------------------responsive 425------------------------------*/

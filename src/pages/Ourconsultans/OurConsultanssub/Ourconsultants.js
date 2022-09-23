@@ -360,22 +360,23 @@ export default function  Ourconsultants()  {
 
 // Filter
 const top100Films = [
-  { title: 'Puja Roy'},
-  { title: 'Pranav Bhatia', year: 1972 },
+  { title: 'Adam Joan', year: 1957 },
   { title: 'Jeena Albert', year: 1974 },
   { title: 'Leena Joseph', year: 2008 },
-  { title: 'Adam Joan', year: 1957 },
-  { title: "Oscar Rafy", year: 1993 }
+  { title: "Oscar Rafy", year: 1993 },
+  { title: 'Puja Roy'},
+  { title: 'Pranav Bhatia', year: 1972 },
 ];
 
 const category = [
-  { title: 'Business'},
   { title: 'Arts', year: 1972 },
+  { title:"Aviation"},
+  { title: 'Business'},
+  { title:"Education"},
+  { title: "Law enforcement"},
+  { title: "Media", year: 1993 },
+  { title: 'Medical', year: 1957 },
   { title: 'Service industries', year: 1974 },
   { title: 'Technology', year: 2008 },
-  { title: 'Medical', year: 1957 },
-  { title: "Media", year: 1993 },
-  { title: "Low enforcement"},
-  { title:"Education"},
-  { title:"Aviation"}
+
 ];

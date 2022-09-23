@@ -1030,6 +1030,7 @@ export default function ConsultantVerticalTabs() {
                         aria-describedby="modal-modal-description"
                       
                       >
+                        
                         <Box sx={style} className='profileeditmodal'>
                           <Typography id="modal-modal-title" variant="h6" component="h2">
                           <li>

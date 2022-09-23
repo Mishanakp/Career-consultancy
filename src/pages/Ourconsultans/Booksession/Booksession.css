@@ -30,20 +30,25 @@ body{
 
 
     .booksessionpagebutton {
-        position: relative;
-        background: #23BDB8;
+        background: #23BDB8 !important;
         border: none;
-        color: white;
+        color: white !important;
         font-size: 1em;
         cursor: pointer;
         outline: none;
         overflow: hidden;
-        border-radius: 100px;
+        border-radius: 100px !important;
         height: 40px;
         width: 130px;
       }
-      
-    
+
+      .confirmModal{
+        border: none !important;
+      }
+      .modalconfirm{
+        margin-left: 50px !important;
+      }      
+    .textboxtime :hover{cursor: pointer !important;}
   
 
 
@@ -161,7 +166,9 @@ body{
   .selecttime{margin-left: -250px !important;}
   .dateselection{margin-left: -20px !important;}
 
-
+  .textboxtime{border:none !important;
+    width: 90px !important;
+  }
 }
 /*------------------------responsive 1600------------------------------*/
 @media only screen and (max-width: 1601px)and (min-width:1534px) {
@@ -206,13 +213,29 @@ body{
 }
 
 /*------------------------responsive 1536------------------------------*/
-@media only screen and (max-width: 1537px) and (min-width:1442px){
+@media only screen and (max-width: 1537px) and (min-width:1502px){
   .timeslider{
     width: 380px !important;
 }
-.textboxtime{border:2px solid #c5c1c1 !important;
+.textboxtime{
     width: 11ch !important;
 }
+}
+/*------------------------responsive 1536------------------------------*/
+@media only screen and (max-width: 1501px) and (min-width:1442px){
+  .timeslider{
+    width: 380px !important;
+}
+.textboxtime{
+    width: 11ch !important;
+}
+.dateselection{margin-left: 10px !important;width: 100px !important;}
+.timeslider{margin-left: 0px !important;}
+.dateitem{
+  margin-left: 140px !important;
+}
+.selecttime{margin-left: -350px !important;}
+.booksessionpagebutton {margin-left: -110px !important;}
 }
 
 /*------------------------responsive 960------------------------------*/
