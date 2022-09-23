@@ -159,7 +159,7 @@ export default function VerticalTabs() {
 
   //*****************************mysession code ************************ //
   const [sessionvalue, setSessionvalue] = useState('sessiontrue');
-  let [value1session,setValue1session]=useState(true)
+  let [value1session,setValue1session]=useState(false)
   const handleChangesession = (event) => {
     setSessionvalue(event.target.value);
   };
@@ -244,13 +244,14 @@ export default function VerticalTabs() {
   const handleClosedelete = () => {
     setOpendelete(false);
   };
-    const handleClickShowPassword = () => {
+    
+  const handleClickShowPassword = () => {
     setFormValues({
       ...formValues,
       showPassword: !formValues.showPassword,
     });
   };
-
+  
   const handleMouseDownPassword = (event) => {
     event.preventDefault();
   };

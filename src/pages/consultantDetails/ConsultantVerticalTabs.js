@@ -18,7 +18,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails'; 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import {Link} from 'react-router-dom'
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -269,7 +269,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -278,7 +278,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -287,7 +287,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -296,7 +296,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -306,7 +306,7 @@ export default function ConsultantVerticalTabs() {
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell  className='textappoin' align="left">11 00
                </StyledTableCell>
-            <StyledTableCell align="right"><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -315,7 +315,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
          
             </StyledTableRow>
             <StyledTableRow >
@@ -324,7 +324,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             
@@ -602,7 +602,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -611,7 +611,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -620,7 +620,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -629,7 +629,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -639,7 +639,7 @@ export default function ConsultantVerticalTabs() {
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell  className='textappoin' align="left">11 00
                </StyledTableCell>
-            <StyledTableCell align="right"><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -648,7 +648,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
          
             </StyledTableRow>
             <StyledTableRow >
@@ -657,7 +657,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             
