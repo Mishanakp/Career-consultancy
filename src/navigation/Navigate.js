@@ -8,6 +8,7 @@ import Payment from '../Authentication/Payment/Payment';
 import SignUp from "../Authentication/SignUp/SingUp";
 
 
+
 import Login  from '../Authentication/Login/Login';
 import Whoweare from '../pages/Whoweare/Whoweare';
 import Ourconsultants from '../pages/Ourconsultans/OurConsultanssub/Ourconsultants';
@@ -42,6 +43,7 @@ import ConsultantSingUp from "../Authentication/Consultantsignup/ConsultantSingU
 
 
 
+
 export default function Navigate() {
     return (
         <Router>
@@ -49,9 +51,10 @@ export default function Navigate() {
             <div><Header/></div>
                 <Routes>
                     <Route exact path="/" element={<Home />}></Route>
-                
+                   
                     <Route path="/Payment" element={<Payment/>}></Route>
                      <Route path="/login" element={<Login/>}></Route>   
+                  
                   
                     <Route path="/signup" element={<SignUp />}></Route>
                     <Route path="/consultantLogin" element={<ConsultantLogin />}></Route> 

@@ -77,7 +77,9 @@ const handleMouseDownPassword2 = (event) => {
 
 
 
-
+React.useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
 
 

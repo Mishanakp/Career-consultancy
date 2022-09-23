@@ -32,17 +32,19 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Divider } from '@mui/material';
+import { AlertTitle, alertTitleClasses, Divider } from '@mui/material';
 import googlepay from '../../Assets/payment/google.png'
 import payt from '../../Assets/payment/paytm.png'
-import amazonepay from '../../Assets/payment/amazon.png'
+ import amazonepay from '../../Assets/payment/am.png'
 import qrcodesymbol from '../../Assets/payment/qrcode.png';
 import phonepay from '../../Assets/payment/phonepay.png'
+import Alert from '@mui/material/Alert';
+import IconButton from '@mui/material/IconButton';
+import Collapse from '@mui/material/Collapse';
 
+import CloseIcon from '@mui/icons-material/Close';
 
-
-
-
+import swal from 'sweetalert';
 
 
 
@@ -51,6 +53,7 @@ import phonepay from '../../Assets/payment/phonepay.png'
 function PaymentTabPanel(props) {
   
   const { children, value, index, ...other } = props;
+
 
   return (
     <div
@@ -84,8 +87,8 @@ function a11yPropspaymentvalue(index) {
 
 
 function Payment() {
-
- 
+  
+  const [open, setOpen] = React.useState(true);
   const [paymentvalue, paymentsetValue] = React.useState(0);
   const [value, setValue] = React.useState(dayjs());
 
@@ -110,9 +113,54 @@ function Payment() {
     setExpanded(isExpanded ? panel : false);
   };
 {/*************************************************/}
+const [message, setMessage] = React.useState('');
+
+  const handleChangeb = event => {
+    setMessage(event.target.value);
+  };
 
 
+  
+
+
+  const handleClick = event => {
+    event.preventDefault();
+
+
+
+ if (message.trim().length !== 0) {
+     console.log('input value is NOT empty');
+ 
+    swal({
+   
+      text: "screenshot upload sucessfully",
+     type:"success",
+      icon: "success",
+       
+     
+
+    }).then(function() {
+      window.location = "/userprofile";
+  });
+    
+      
+     } else {
+     console.log('input value is empty');
+     swal({
+      text: "please upload screenshot",
+      icon: "error",
+      dangerMode: true,
+     
+    });
+    } 
+  }; 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+{/*********************************** */}
   return (<div>
+    
     <div className='paymentlapview'>
     <div className='paymerntgid'>
     <div className='paymentcard'>
@@ -196,21 +244,42 @@ function Payment() {
        <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
        
                        
-                        <label for="formFile" className='consLabel'>Upload screenshot</label>
-                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
+       <label for="formFile" className='consLabel'>Upload screenshot</label>
+                            <input type="file" class="form-control" name="images" id="formFile" className='inputfile'   
+        onChange={handleChangeb}/>
                        
                        
-                       
-                                
-                                <Button         
+        
+                              
+              
+
+
+
+
+
+
+ 
+                         {/* <Button         
              variant="contained" 
          className='qrbutton'
+         onClick={handleClick}
      
          >
+           Upload</Button>    */}
+          
+
+
+
+                 <Button         
+             variant="contained" 
+         className='qrbutton'
+         onClick={handleClick}
+         >
            Upload</Button>    
+       </form>
+       
 
 
-                    </form> 
 
 
           </div>
@@ -566,7 +635,7 @@ function Payment() {
        <form action="uploadmultiple" enctype="multipart/form-data" method="POST">
        
                        
-                        <label for="formFile" className='consLabel'>Upload screenshot</label>
+       <label for="formFile" className='consLabel'>Upload screenshot</label>
                             <input type="file" class="form-control" name="images" id="formFile" className='inputfile'/>
                        
                        
@@ -575,7 +644,7 @@ function Payment() {
                                 <Button         
              variant="contained" 
          className='qrbutton'
-     
+         onClick={handleClick}
          >
            Upload</Button>    
 
@@ -644,7 +713,7 @@ function Payment() {
                                 <Button         
              variant="contained" 
          className='qrbutton'
-     
+         onClick={handleClick}
          >
            Upload</Button>    
 
