@@ -159,7 +159,7 @@ export default function VerticalTabs() {
 
   //*****************************mysession code ************************ //
   const [sessionvalue, setSessionvalue] = useState('sessiontrue');
-  let [value1session,setValue1session]=useState(true)
+  let [value1session,setValue1session]=useState(false)
   const handleChangesession = (event) => {
     setSessionvalue(event.target.value);
   };
@@ -245,6 +245,17 @@ export default function VerticalTabs() {
     setOpendelete(false);
   };
    
+    
+  // const handleClickShowPassword = () => {
+  //   setFormValues({
+  //     ...formValues,
+  //     showPassword: !formValues.showPassword,
+  //   });
+  // };
+  
+  // const handleMouseDownPassword = (event) => {
+  //   event.preventDefault();
+  // };
   const Transitionpass = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
   });
