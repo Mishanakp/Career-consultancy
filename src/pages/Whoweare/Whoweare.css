@@ -1002,7 +1002,7 @@ h1.cardMainHead{
 }
 .card1,.card2,.card3,.card4{
     max-width: 280px !important;
-    height: 360px !important;
+    height: 380px !important;
     
 }
 .card1{
@@ -1828,14 +1828,14 @@ h1.cardMainHead {
 }
 @media only screen and (max-width:321px) and (min-width:281px) {
     h1.cardMainHead {
-        margin-left: 36px;
+        margin-left: 46px;
         width: 65% !important;
     }
     .homeCard {
         transform: translateY(-240px) !important;
     }
     .cards1 {
-        margin-left: 17px!important;
+        margin-left: 40px!important;
     }
     .card2 {
         margin-top: 50px;
@@ -2019,27 +2019,31 @@ h1.cardMainHead {
 
 @media only screen and (max-width:1200px) and (min-width:1025px) {
     .gridsection {
-        width: 95%;
-        margin-left: -10px !important;
+        width: 97%;
+        margin-left: 18px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:1009px){
+    .gridsection {
+        width: 97%;
+        margin-left: 18px;
     }
 }
 @media only screen and (max-width:1008px) and (min-width:961px) {
-    
-}
-@media only screen and (max-width:960px) and (min-width:901px) {}
-@media only screen and (max-width:889px) and (min-width:672px) {}
-@media only screen and (max-width:640px) and (min-width:600px) {}
-
-
-
-
-
-/*--------------- RESPONSIVE SECTION----------------*/
-
-   /*------- RESPONSIVE OF LAP  ------*/
-   @media screen and (max-width:1024px) and (min-width:767px){
     .gridsection {
-        width: 125% !important;
+        width: 97%;
+        margin-left: 18px;
+    }
+}
+@media only screen and (max-width:960px) and (min-width:901px) {
+    .gridsection {
+        width: 97%;
+        margin-left: 18px;
+    }
+}
+@media only screen and (max-width:889px) and (min-width:770px) {
+    .gridsection {
+        width: 170% !important;
         margin-left: -46px !important;
     }
     .gridpara1, .gridpara2, .gridpara3  {
@@ -2062,31 +2066,52 @@ h1.cardMainHead {
         margin-left: -125px !important;
     }
 }
-
-
-
-/*-------- RESPONSIVE OF TAB --------*/
-@media only screen and (max-width:769px){
-
+@media only screen and (max-width:769px) and (min-width:673px) {
+    .gridsection {
+        width: 170% !important;
+        margin-left: -46px !important;
+    }
+    .gridpara1, .gridpara2, .gridpara3  {
+        width: 72% !important;
+        word-break: break-all;
+    }
+    .gridpara1 {
+        margin-left: 80px !important;
+    }
+    .gridhead2 {
+        margin-left: -167px !important;
+    }
+    .gridpara2 {
+        margin-left: -22px !important;
+    }
+    .gridhead3 {
+        margin-left: -350px !important;
+    }
+    .gridpara3 {
+        margin-left: -125px !important;
+    }
+}
+@media only screen and (max-width:672px) and (min-width:641px) {
     .css-1sir9cm-MuiPaper-root {
         transform: translateX(57px) !important;
     }
     .gridsection {
-        margin-left: 52px !important;
+        margin-left: 73px !important;
         box-shadow: none !important;
-        width: 98% !important;
+        width: 96% !important;
+        word-break: break-all;
     }
     .gridhead1 {
-        transform: translateX(-140px);
+        transform: translateX(-156px);
         width: 200% !important;
     }
     .gridhead2 {
-        transform: translateX(129px);
+        transform: translateX(-53px);
         width: 200% !important;
     }
     .gridhead3 {
         margin-left: 0px !important;
-        transform: translateX(15px);
+        transform: translateX(2px);
         width: 200% !important;
     }
     .gridpara1 {
@@ -2097,113 +2122,470 @@ h1.cardMainHead {
     .gridpara2 {
         margin-left: 10px !important;
         width: 130% !important;
-        transform: translateX(15px);
+        transform: translateX(-8px);
     }
     .gridpara3 {
-        margin-left: -60px !important;
+        margin-left: -82px !important;
         transform: translateX(140px);
         width: 130% !important;
     }
 }
-
-
- /*---------RESPONSIVE OF MOBILE LARGE----------*/
- @media only screen and (max-width:426px){
+@media only screen and (max-width:640px) and (min-width:601px) {
+    .css-1sir9cm-MuiPaper-root {
+        transform: translateX(57px) !important;
+    }
+    .gridsection {
+        margin-left: 71px !important;
+        box-shadow: none !important;
+        width: 98% !important;
+        word-break: break-all;
+    }
+    .gridhead1 {
+        transform: translateX(-156px);
+        width: 200% !important;
+    }
+    .gridhead2 {
+        transform: translateX(-56px);
+        width: 200% !important;
+    }
+    .gridhead3 {
+        margin-left: 0px !important;
+        transform: translateX(-11px);
+        width: 200% !important;
+    }
+    .gridpara1 {
+        width: 130% !important;
+        transform: translateX(-109px);
+     
+    }
+    .gridpara2 {
+        margin-left: 2px !important;
+        width: 130% !important;
+        transform: translateX(-8px);
+    }
+    .gridpara3 {
+        margin-left: -98px !important;
+        transform: translateX(140px);
+        width: 130% !important;
+    }
+}
+@media only screen and (max-width:600px) and (min-width:596px) {
+    .gridsection {
+        margin-left: 71px !important;
+        box-shadow: none !important;
+        width: 98% !important;
+        word-break: break-all;
+    }
+    .gridhead1 {
+        transform: translateX(-153px);
+        width: 200% !important;
+    }
+    .gridhead2 {
+        transform: translateX(-53px);
+        width: 200% !important;
+    }
+    .gridhead3 {
+        margin-left: 0px !important;
+        transform: translateX(-5px);
+        width: 200% !important;
+    }
+    .gridpara1 {
+        width: 130% !important;
+        transform: translateX(-109px);
+     
+    }
+    .gridpara2 {
+        margin-left: 2px !important;
+        width: 130% !important;
+        transform: translateX(-8px);
+    }
+    .gridpara3 {
+        margin-left: -98px !important;
+        transform: translateX(140px);
+        width: 130% !important;
+    }
+}
+@media only screen and (max-width:595px) and (min-width:541px) {
     .gridsection {
         margin-left: 53px !important;
         width: 94% !important;
     }
     .gridhead1 {
-        padding-right: 296px !important;
+        padding-right: 135px !important;
     }
     .gridpara1 {
         width: 92% !important;
-        transform: translateX(-78px);
+        transform: translateX(-68px);
     }
     .gridhead2 {
         margin-top: 10px !important;
-        padding-right: 300px;
-        margin-left: -217px; 
+        padding-right: -89px;
+        margin-left: -84px; 
     }
     .gridpara2 {
         width: 92% !important;
-        transform: translateX(-33px);
+        transform: translateX(-31px);
     }
     .gridhead3 {
-        padding-right: 505px !important; 
+        padding-right: 5px !important; 
     }
     .gridpara3 {
         width: 92% !important;
-        transform: translateX(38px);
+        transform: translateX(6px);
     }
- }
-
- /*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
- @media only screen and (max-width:376px){
+}
+@media only screen and (max-width:540px) and (min-width:481px) {
     .gridsection {
-        width: 84% !important;
-
+        margin-left: 53px !important;
+        width: 94% !important;
     }
     .gridhead1 {
-        transform: translateX(-81px) !important;
+        padding-right: 135px !important;
     }
     .gridpara1 {
-        width: 120% !important;
-        padding-right: 62px !important;
+        width: 92% !important;
+        transform: translateX(-68px);
     }
     .gridhead2 {
-        transform: translateX(183px) !important;
-        width: 203% !important;
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -84px; 
     }
     .gridpara2 {
-        width: 101% !important;
+        width: 92% !important;
+        transform: translateX(-31px);
     }
     .gridhead3 {
-        width: 254% !important;
-        transform: translateX(-11px) !important;
+        padding-right: 5px !important; 
     }
     .gridpara3 {
-        width: 101% !important;
+        width: 92% !important;
+        transform: translateX(6px);
     }
- }
-
-
-/*--------RESPONSIVE OF MOBILE SMALL---------*/ 
-@media only screen and (max-width:321px){
+}
+@media only screen and (max-width:480px) and (min-width:427px) {
     .gridsection {
-        width: 72% !important;
+        margin-left: 46px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 124px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -75px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:426px) and (min-width:415px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 43px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 124px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -75px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:414px) and (min-width:413px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 43px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 115px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -66px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -68px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:412px) and (min-width:394px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 43px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 115px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -66px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -68px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:393px) and (min-width:391px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 41px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 115px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -66px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -68px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:390px) and (min-width:377px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 40px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 115px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -66px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -68px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:376px) and (min-width:361px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 40px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 90px !important;
+        margin-left: -66px; 
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -66px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -68px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:362px) and (min-width:322px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 40px !important;
+        width: 94% !important;
+    }
+    .gridhead1 {
+        padding-right: 90px !important;
+        margin-left: -66px; 
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -66px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -68px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media only screen and (max-width:321px) and (min-width:281px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 40px !important;
+        width: 94% !important;
         word-break: break-all;
-        margin-top: -75px;
     }
     .gridhead1 {
-        width: 259% !important; 
-        transform: translateX(-125px);
+        padding-right: 59px !important;
+        margin-left: 8px !important;
     }
     .gridpara1 {
-        width: 146% !important;
-        transform: translateX(-84px) !important;
+        width: 92% !important;
+        transform: translateX(-68px);
     }
     .gridhead2 {
-        width: 256% !important;
-        transform: translateX(102px);
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -55px; 
     }
     .gridpara2 {
-        width: 115% !important;
+        width: 92% !important;
+        transform: translateX(-31px);
     }
     .gridhead3 {
-        width: 346% !important;
-        transform: translateX(-49px);
+        padding-right: -6px !important; 
+        margin-left: -55px !important;
     }
     .gridpara3 {
-        width: 113% !important;
+        width: 92% !important;
+        transform: translateX(6px);
+    }
+}
+@media screen and (max-width:280px) {
+    .gridsection {
+        margin-top: 240px !important;
+        margin-left: 40px !important;
+        width: 77%!important;
+        word-break: break-all;
+    }
+    .gridhead1 {
+        padding-right: 36px !important;
+        margin-left: -13px !important;
+    }
+    .gridpara1 {
+        width: 92% !important;
+        transform: translateX(-68px);
+    }
+    .gridhead2 {
+        margin-top: 10px !important;
+        padding-right: -89px;
+        margin-left: -55px; 
+    }
+    .gridpara2 {
+        width: 92% !important;
+        transform: translateX(-31px);
+    }
+    .gridhead3 {
+        padding-right: -6px !important; 
+        margin-left: -55px !important;
+    }
+    .gridpara3 {
+        width: 92% !important;
+        transform: translateX(6px);
     }
 }
 
 
 
 
+ 
 
-/****************SECTION FIVE*************/
+
+/******************************************* SECTION FIVE ******************************************/
+/***************************************************************************************************/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .section5 {
@@ -2227,7 +2609,7 @@ h1.cardMainHead {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-.button1 {
+.buttonabout {
     position: relative;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -2242,7 +2624,7 @@ h1.cardMainHead {
     overflow: hidden;
     border-radius: 100px;
   }
-  .button1 span {
+  .buttonabout span {
     position: relative;
     pointer-events: none;
   }
@@ -2280,7 +2662,11 @@ h1.cardMainHead {
     transform: translate(-5px, -237px) !important;
   }
 }
-@media only screen and (max-width:1292px) and (min-width:1281) {}
+@media only screen and (max-width:1292px) and (min-width:1281) {
+    .section5 {
+        transform: translate(-5px, -237px) !important;
+      }
+}
 @media only screen and (max-width:1280px) and (min-width:1201px) {
   .section5 {
     transform: translate(10px, -266px);
@@ -2288,328 +2674,221 @@ h1.cardMainHead {
 }
 
 @media only screen and (max-width:1200px) and (min-width:1025px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-    }
-    .cards1 {
-        margin-left: 52px !important;
-    } 
-    .card4 {
-        margin-left: -15px !important;
-    }
-    .card3 {
-        margin-left: -20px !important;
-    }
-    .card2 {
-        margin-left: -25px !important;
-    }
-}
-@media screen and (max-width:1024px) and (min-width:1009px){
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 190px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-}
-@media only screen and (max-width:1008px) and (min-width:961px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 190px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-}
-@media only screen and (max-width:960px) and (min-width:901px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 173px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-}
-@media only screen and (max-width:889px) and (min-width:770px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 150px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-}
-@media only screen and (max-width:769px) and (min-width:673px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 115px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-}
-@media only screen and (max-width:672px) and (min-width:641px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 100px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-    .card1,.card2,.card3,.card4{
-        max-width: 250px !important;
-        height: 360px !important;
-        
-    }
-    .cardContent1,.cardContent2,.cardContent3,.cardContent4 {
-        margin-left: -18px;
-    }
-    .card1head,.card2head,.card3head,.card4head {
-        margin-left: 10px;
-    }
-}
-@media only screen and (max-width:640px) and (min-width:601px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 90px !important;
-    }
-    
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -36px !important;
-    }
-    .card1,.card2,.card3,.card4{
-        max-width: 250px !important;
-        height: 360px !important;
-        
-    }
-    .cardContent1,.cardContent2,.cardContent3,.cardContent4 {
-        margin-left: -18px;
-    }
-    .card1head,.card2head,.card3head,.card4head {
-        margin-left: 10px;
-    }
-}
-@media only screen and (max-width:600px) and (min-width:596px) {
-    h1.cardMainHead {
-        margin-left: 11px;
-        
-    }
-    .cards1 {
-        margin-left: 66px !important;
-    }
-    .card2 {
-        margin-left: -20px !important;
-    }
-    .card3 {
-        margin-top: 50px;
-        margin-left: -30px !important;
-    }
-    
-    .card4 {
-        margin-top: 50px;
-        margin-left: -20px !important;
-    }
-    .card1,.card2,.card3,.card4{
-        max-width: 250px !important;
-        height: 360px !important;
-        
-    }
-    .cardContent1,.cardContent2,.cardContent3,.cardContent4 {
-        margin-left: -18px;
-    }
-    .card1head,.card2head,.card3head,.card4head {
-        margin-left: 10px;
-    }
-}
-@media only screen and (max-width:595px) and (min-width:541px) {
-    
-}
-@media only screen and (max-width:540px) and (min-width:481px) {
-   
-}
-@media only screen and (max-width:480px) and (min-width:427px) {
-   
-}
-@media only screen and (max-width:426px) and (min-width:415px) {
-   
-}
-@media only screen and (max-width:414px) and (min-width:413px) {
-  
-}
-@media only screen and (max-width:412px) and (min-width:394px) {
-
-}
-@media only screen and (max-width:393px) and (min-width:391px) {
-   
-}
-@media only screen and (max-width:390px) and (min-width:377px) {
-  
-}
-@media only screen and (max-width:376px) and (min-width:361px) {
-    
-}
-@media only screen and (max-width:362px) and (min-width:322px) {
-
-}
-@media only screen and (max-width:321px) and (min-width:281px) {
-
-}
-@media screen and (max-width:280px) {
-    
-}
-/*--------------- RESPONSIVE SECTION----------------*/
-
-   /*------- RESPONSIVE OF LAP  ------*/
-   @media screen and (max-width:1024px) and (min-width:767px){
-    body{
-        overflow-x: hidden !important;
-       }
-      .section5 {
-        padding-right: 35px !important;
+    .section5 {
+        transform: translate(-5px, -237px) !important;
       }
 }
-
-
-   /*-------- RESPONSIVE OF TAB --------*/
-@media only screen and (max-width:769px){
-          .section5 {
-            margin-left: 10px !important;
-          }
-          .section5para {
-            margin-left: -14px !important;
-          }
-          .button1 {
-            margin-left: -9px!important;
-          }
-}
-
-
-/*---------RESPONSIVE OF MOBILE LARGE----------*/
-@media only screen and (max-width:426px){
-         .section5 {
-            margin-left: 20px !important;
-            margin-bottom: -190px !important;
-         }
-         .section5head {
-            width: 85%;
-            transform: translateX(2px);
-         }
-         .section5para {
-            width: 102%;
-            transform: translateX(-19px);
-         }
-         .button1 {
-            margin-left: -57px!important;
-         }
-}
-
-
- /*--------RESPONSIVE OF MOBILE MEDIUM---------*/   
- @media only screen and (max-width:376px){
-        .section5head {
-            width: 99%;
-            margin-left: -31px;
-        }
-        .section5para {
-            width: 125%;
-            transform: translateX(-62px);
-        }
-        .button1 {
-            margin-left: 10px;
-        }
-        .section5 {
-            margin-left: 25px !important;
-        }
- }
-
-
-/*--------RESPONSIVE OF MOBILE SMALL---------*/ 
-@media only screen and (max-width:321px){
+@media screen and (max-width:1024px) and (min-width:1009px){
     .section5 {
-        margin-left: 23px !important;
-    }
-    .section5head {
-      width: 109%;
-      margin-left: -46px;
-    }
-    .section5para {
-        width: 166%;
-        transform: translateX(-120px);
-    }
-    .button1 {
-      width: 73%;
-        margin-left: -63px!important;
-    }
+        transform: translate(10px, -237px) !important;
+      }
 }
+@media only screen and (max-width:1008px) and (min-width:961px) {
+    .section5 {
+        transform: translate(15px, -237px) !important;
+      }
+}
+@media only screen and (max-width:960px) and (min-width:901px) {
+    .section5 {
+        transform: translate(15px, -237px) !important;
+      }
+}
+@media only screen and (max-width:889px) and (min-width:770px) {
+    .section5 {
+        transform: translate(25px, -237px) !important;
+      }
+}
+@media only screen and (max-width:769px) and (min-width:673px) {
+    .section5 {
+        transform: translate(17px, -237px) !important;
+      }
+}
+@media only screen and (max-width:672px) and (min-width:641px) {
+    .section5 {
+        transform: translate(-7px, -237px) !important;
+      }
+}
+@media only screen and (max-width:640px) and (min-width:601px) {
+    .section5 {
+        transform: translate(-7px, -237px) !important;
+      }
+}
+@media only screen and (max-width:600px) and (min-width:596px) {
+    .section5 {
+        transform: translate(-7px, -237px) !important;
+      }
+}
+@media only screen and (max-width:595px) and (min-width:541px) {
+    .section5 {
+        transform: translate(-7px, -237px) !important;
+      }
+}
+@media only screen and (max-width:540px) and (min-width:481px) {
+    .section5 {
+        transform: translate(-7px, -237px) !important;
+      }
+}
+@media only screen and (max-width:480px) and (min-width:427px) {
+    .section5 {
+        transform: translate(-7px, -237px) !important;
+      }
+}
+@media only screen and (max-width:426px) and (min-width:415px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-31px);
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+
+}
+@media only screen and (max-width:414px) and (min-width:413px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-31px);
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media only screen and (max-width:412px) and (min-width:394px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-31px);
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media only screen and (max-width:393px) and (min-width:391px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-31px);
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media only screen and (max-width:390px) and (min-width:377px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-31px);
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media only screen and (max-width:376px) and (min-width:363px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-75px) !important;
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media only screen and (max-width:362px) and (min-width:322px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(2px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-30px) !important;
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media only screen and (max-width:321px) and (min-width:281px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 90%;
+        transform: translateX(-13px);
+     }
+     .section5para {
+        width: 102%;
+        transform: translateX(-33px) !important;
+     }
+     .buttonabout {
+        margin-left: -57px!important;
+     }
+}
+@media screen and (max-width:280px) {
+    .section5 {
+        margin-left: 20px !important;
+        margin-bottom: -190px !important;
+     }
+     .section5head {
+        width: 85%;
+        transform: translateX(-25px);
+     }
+     .section5para {
+        width: 70%;
+        transform: translateX(0px) !important;
+     }
+     .button1 {
+        margin-left: -97px!important;
+     }
+}
+
+
+
 
 
