@@ -4094,28 +4094,37 @@ button.consultantAccordHead5{
       /*------------------------responsive 425------------------------------*/
       @media only screen and (max-width: 426px)and (min-width:377px) {
 
- 
+        .sublistq{margin-left: 25PX !important;
+            padding-bottom: 15PX !important;
+        }
          .adminaboutcounsellor{margin-top: -10px !important;
           }
+          .adminediticon{margin-left: -50px !important;}
       }
       /*------------------------responsive 375------------------------------*/
       @media only screen and (max-width: 376px)and (min-width:322px) {
-
-        .adminimageuploadicon{margin-left: -40px !important;}
+        .sublistq{margin-left: 40PX !important;
+            padding-bottom: 15PX !important;
+        }
+        .adminimageuploadicon{margin-left: -20px !important;}
          .adminaboutcounsellor{margin-top: -10px !important;
           }
+          .adminediticon{margin-left: -80px !important;}
       }
       
       /*------------------------responsive 320------------------------------*/
       @media only screen and (max-width: 321px){
-        .uploadprofilecam{margin-left: -40px !important;}
+        .adminimageuploadicon{margin-left: -40px !important;}
          .adminaboutcounsellor{margin-top: -20px !important;
           }
+          .sublistq{margin-left: 30PX !important;
+            padding-bottom: 15PX !important;
+        }
       }
       
       /*------------------------responsive 1920------------------------------*/
       @media only screen and (max-width: 1921px)and (min-width:1602px){
-        
+        .adminimageuploadicon{margin-left: 140px !important;}
          .admintop{
               margin-top: -20px !important;
           }
