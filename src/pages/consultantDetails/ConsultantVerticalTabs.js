@@ -18,7 +18,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails'; 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import {Link} from 'react-router-dom'
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -30,7 +30,29 @@ import Paper from '@mui/material/Paper';
  
 
 
+import CameraAltIcon from '@mui/icons-material/CameraAlt';
+//import penicon from '../../../Assets/userprofile/penicon.png';
+import EmailIcon from '@mui/icons-material/Email';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import AddLocationIcon from '@mui/icons-material/AddLocation';
+import Modal from '@mui/material/Modal';
+import TextField from '@mui/material/TextField';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import { useState } from 'react';
+import PhotoCamera from '@mui/icons-material/PhotoCamera';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import CreateIcon from '@mui/icons-material/Create';
+
+
+
+
 function ConsultantTabPanel(props) {
+
+
+ 
+
   
   const { children, value, index, ...other } = props;
 
@@ -108,6 +130,22 @@ export default function ConsultantVerticalTabs() {
     p: 4,
   };
  
+
+  const [data,setData]=useState();
+  console.log(data)
+  
+  
+  const [openprofile, setOpenprofile] = React.useState(false);
+  const handleOpen = () => setOpenprofile(true);
+  const handleClose = () => setOpenprofile(false);
+  const [open2, setOpen2] = React.useState(false);
+  const handleOpen2 = () => setOpen2(true);
+  const handleClose2 = () => setOpen2(false);
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpenprofile = () => setOpen(true);
+  const handleCloseprofile = () => setOpen(false);
+
 
   return (
     
@@ -269,7 +307,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -278,7 +316,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -287,7 +325,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -296,7 +334,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -306,7 +344,7 @@ export default function ConsultantVerticalTabs() {
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell  className='textappoin' align="left">11 00
                </StyledTableCell>
-            <StyledTableCell align="right"><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -315,7 +353,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
          
             </StyledTableRow>
             <StyledTableRow >
@@ -324,7 +362,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invite</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             
@@ -449,15 +487,152 @@ export default function ConsultantVerticalTabs() {
     </Grid>
     </Box>
      </div>
-
-
-
-       
+ 
       </ConsultantTabPanel>
-      <ConsultantTabPanel  className="ConsultantTabPanel4" value={Consultantvalue} index={3}>
-      rh 
+
+
+
+
+{/*-----------------------------Profile-------------------------------------------------*/}
+
+  <ConsultantTabPanel  className="ConsultantTabPanel4" value={Consultantvalue} index={3}>
+
+
+      <Box sx={{ flexGrow: 1 }} >
+      <Grid  container spacing={2}>
+          <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+            <div className='admintop'>
+            </div>
+          </Grid>
+        <Grid item  xl={.5} lg={.05}>
+          <Stack direction="row" alignItems="center" spacing={0}>  
+            <IconButton className='adminimageuploadicon' aria-label="upload picture" component="label">
+              <input hidden accept="image/*" type="file" />
+              <PhotoCamera />
+            </IconButton>
+          </Stack>
+        </Grid>
+        <Grid item  xl={3} lg={3} md={3} sm={11.8} xs={11.5}>  
+          <img className='adminprofileimgn' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+            <br/>
+            <ul className='adminulnamen'>
+          <p ><b>PUJA ROY</b></p>
+                <p className='adminguide'>Career Guide</p></ul>
+        </Grid>
+
+
+    <Grid item xl={7.8} lg={7.8} md={8.8} sm={11} xs={10}>
+        <div className='adminviewsha'>
+          <ul>
+            <li>
+          <p2 ><EmailIcon className='adminiconmail' alt="edu" id='iconimg'/>&nbsp; QUALIFICATION</p2>
+          <li className='sublistq'>Masters in Business Administration</li>
+      </li>
+      <li>
+        <p2 >< EmailIcon className='adminiconmail'  />&nbsp; EMAIL</p2>
+        <li className='sublistq'>poojaroy@gmail.com</li>
+        </li>
+        <li>
+        <p2 > <LocalPhoneIcon className='adminiconphone'   /> &nbsp;PHONE</p2>
+        <li className='sublistq'>&nbsp;9747365632</li>
+        </li>
+       
+        </ul>
+      </div>
+      <br/>
+    </Grid>
+
+    <Grid item xl={.2} lg={.2} md={.2} sm={.2} xs={2}>
+
+          
+          <Button onClick={handleOpenprofile}><CreateIcon style={{color:'#23BDB8'}}  className='adminediticon'/> </Button>
+                <Modal
+                        open={open}
+                        onClose={handleCloseprofile}
+                        aria-labelledby="modal-modal-title"
+                        aria-describedby="modal-modal-description"
+                      
+                      >
+                        <Box sx={style} className='profileeditmodal'>
+                          <Typography id="modal-modal-title" variant="h6" component="h2">
+                          <li>
+                          <p2>Qualification</p2><br/>
+                          <TextField className="editbox" type="text" name="Qualification" placeholder="Qualification "  variant="outlined" />
+                          </li>
+                          <br/>
+                          <li>
+                          <p2>Email</p2><br/>
+                          <TextField className="editbox" type="text" name="Email" placeholder="Email"  variant="outlined" />
+                          </li>
+                          <br/>
+                          <li>
+                          <p2>Contact Number</p2><br/>
+                    <TextField className="editbox" type="text" name="Contact Number" placeholder="Contact Number"  variant="outlined" />        </li>
+                      <br/>
+                        <li>
+                      <p2>About</p2>
+                          <Box className="messagebox" component="form" sx={{
+                        '& .MuiTextField-root': { m: 0, width:'300px',},}}noValidate autoComplete="off">
+                      <TextField
+                        className="editabout"
+                          label="About"
+                          placeholder="About"
+                          multiline
+                          rows={4}
+                        />
+                        </Box>
+                        </li>
+                          </Typography>
+                          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                          <br/>
+                     <div className='editbutton'>
+                        <button class="buttonedit" onClick={handleOpen2}><span>Save Changes</span> </button>
+                            <Modal
+                              open={open2}
+                              onClose={handleClose2}
+                              aria-labelledby="modal-modal-title"
+                              aria-describedby="modal-modal-description"
+                            >
+                            <Box sx={style} className="updateModal">
+                              <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+                              Updated successfully!!!
+                              
+                              <CheckCircleOutlineIcon  className='checkIconUser'/>
+                              
+                              <br/>
+                              <Link to="/consultantdetails"><Button style={{backgroundColor:'#d64242',color:'#F5FFFA'}}>Okay</Button></Link>
+                              </Typography>
+                            </Box>
+                          </Modal>
+                      </div>
+                    </Typography>
+                  </Box>
+                </Modal>
+            
+
+    </Grid>
+         
+<Grid item xl={3.9} lg={3.9} md={3.6} sm={0.7} xs={0.85} ></Grid>
+          <Grid item xl={7} lg={7} md={7.7} sm={10.8} xs={10.3} className='adminaboutcounsellor'>
+          <h3 style={{color:'#0e314c'}}><b>About</b></h3>
+                <p >
+              Have been conducting career guidance workshops in 30 schools in Mumbai, Pune, 
+                Panchgani, Nasik and Goa for the past 5 years Have engaged with approx. 3,000 students both 
+                collectively in groups as well as individually for various programs Deep knowledge of various
+                 career options available and the course details Handled more than 5000
+                 career queries on email over the last 5 years Commerce Graduate and an MBA in Finance from IIM Indore.</p>
+                 </Grid>
+
+      </Grid>
+      </Box>
+
+         
       </ConsultantTabPanel>
        
+
+
+
+
      </Box> 
     </div>
            <div className='dupConsultant'>
@@ -602,7 +777,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -611,7 +786,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -620,7 +795,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>22-august-2022 </StyledTableCell>
               <StyledTableCell align="left" className='textappoin'>02 00 </StyledTableCell>
-            <StyledTableCell align="right" className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right" className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -629,7 +804,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-September-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11 00 </StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -639,7 +814,7 @@ export default function ConsultantVerticalTabs() {
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell  className='textappoin' align="left">11 00
                </StyledTableCell>
-            <StyledTableCell align="right"><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             <StyledTableRow >
@@ -648,7 +823,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>9-july-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>11  00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
          
             </StyledTableRow>
             <StyledTableRow >
@@ -657,7 +832,7 @@ export default function ConsultantVerticalTabs() {
               </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>12-august-2022 </StyledTableCell>
               <StyledTableCell align="left"  className='textappoin'>02 00</StyledTableCell>
-            <StyledTableCell align="right"  className='textappoin'><button className='buttonconsult'>Invitation</button></StyledTableCell>
+            <StyledTableCell align="right"  className='textappoin'><Link to="/faq"><button className='buttonconsult'>Invite</button></Link></StyledTableCell>
               
             </StyledTableRow>
             
@@ -800,10 +975,138 @@ export default function ConsultantVerticalTabs() {
         >
           <Typography className='consultantAccordHead4'><AccountCircleIcon className='consultantAccordIcon4' /> Profile</Typography>
         </AccordionSummary>
+
+
+
         <AccordionDetails className='consultantAccordDet4'>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Box sx={{ flexGrow: 1 }} >
+     <Grid  container spacing={2}>
+          <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+            <div className='admintop'>
+            </div>
+          </Grid>
+          <Grid item  xl={.05} lg={.05}md={0.05}sm={4} xs={1.5}></Grid>
+        <Grid item  xl={.05} lg={.05}md={.05}sm={.1}>
+          <Stack direction="row" alignItems="center" spacing={0}>  
+            <IconButton className='adminimageuploadicon' aria-label="upload picture" component="label">
+              <input hidden accept="image/*" type="file" />
+              <PhotoCamera />
+            </IconButton>
+          </Stack>
+        </Grid>
+        <Grid item  xl={3} lg={3} md={2.8} sm={4} xs={12}>  
+          <img className='adminprofileimgn' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+            <br/>
+            <ul className='adminulnamen'>
+          <p ><b>PUJA ROY</b></p>
+                <p className='adminguide'>Career Guide</p></ul>
+        </Grid>
+
+
+    <Grid item xl={7.8} lg={7.8} md={8} sm={10.8} xs={10.5}>
+        <div className='adminviewsha'>
+          <ul>
+            <li>
+          <p2 ><EmailIcon className='adminiconmail' alt="edu" id='iconimg'/> QUALIFICATION</p2>
+          <li className='sublistq'>Masters in Business Administration</li>
+      </li>
+      <li>
+        <p2 >< EmailIcon className='adminiconmail'  /> EMAIL</p2>
+        <li className='sublistq'>poojaroy@gmail.com</li>
+        </li>
+        <li>
+        <p2 > <LocalPhoneIcon className='adminiconphone'   /> &nbsp;PHONE</p2>
+        <li className='sublistq'>&nbsp;9747365632</li>
+        </li>
+        </ul>
+      </div>
+      <br/>
+    </Grid>
+
+    <Grid item xl={.2} lg={.2} md={.1} sm={.8} xs={1.2}>
+
+          
+          <Button onClick={handleOpenprofile} ><CreateIcon style={{color:'#23BDB8'}} className='adminediticon'/> </Button>
+                <Modal
+                        open={open}
+                        onClose={handleCloseprofile}
+                        aria-labelledby="modal-modal-title"
+                        aria-describedby="modal-modal-description"
+                      
+                      >
+                        
+                        <Box sx={style} className='profileeditmodal'>
+                          <Typography id="modal-modal-title" variant="h6" component="h2">
+                          <li>
+                          <p2>Qualification</p2><br/>
+                          <TextField className="editbox" type="text" name="Qualification" placeholder="Qualification "  variant="outlined" />
+                          </li>
+                          <br/>
+                          <li>
+                          <p2>Email</p2><br/>
+                          <TextField className="editbox" type="text" name="Email" placeholder="Email"  variant="outlined" />
+                          </li>
+                          <br/>
+                          <li>
+                          <p2>Contact Number</p2><br/>
+                    <TextField className="editbox" type="text" name="Contact Number" placeholder="Contact Number"  variant="outlined" />        </li>
+                      <br/>
+                        <li>
+                      <p2>About</p2>
+                          <Box className="messagebox" component="form" sx={{
+                        '& .MuiTextField-root': { m: 0, width:'300px',},}}noValidate autoComplete="off">
+                      <TextField
+                        className="editabout"
+                          label="About"
+                          placeholder="About"
+                          multiline
+                          rows={4}
+                        />
+                        </Box>
+                        </li>
+                          </Typography>
+                          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                          <br/>
+                     <div className='editbutton'>
+                        <button class="buttonedit" onClick={handleOpen2}><span>Save Changes</span> </button>
+                            <Modal
+                              open={open2}
+                              onClose={handleClose2}
+                              aria-labelledby="modal-modal-title"
+                              aria-describedby="modal-modal-description"
+                            >
+                            <Box sx={style} className="updateModal">
+                              <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+                              Updated successfully!!!
+                              
+                              <CheckCircleOutlineIcon  className='checkIconUser'/>
+                             
+                              {/* <Link to="/consultantdetails"><Button style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Okay</Button></Link> */}
+                              </Typography>
+                            </Box>
+                          </Modal>
+                      </div>
+                    </Typography>
+                  </Box>
+                </Modal>
+            
+
+    </Grid>
+         
+<Grid item xl={3.7} lg={3.9} md={3.6} sm={.7} xs={1} ></Grid>
+          <Grid item xl={7} lg={7} md={7.7} sm={10.6} xs={10} className='adminaboutcounsellor'>
+          <h3 style={{color:'#0e314c'}}><b>About</b></h3>
+                <p >
+              Have been conducting career guidance workshops in 30 schools in Mumbai, Pune, 
+                Panchgani, Nasik and Goa for the past 5 years Have engaged with approx. 3,000 students both 
+                collectively in groups as well as individually for various programs Deep knowledge of various
+                 career options available and the course details Handled more than 5000
+                 career queries on email over the last 5 years Commerce Graduate and an MBA in Finance from IIM Indore.</p>
+                 </Grid>
+
+      </Grid>
+      </Box>
           </Typography>
         </AccordionDetails>
       </Accordion>

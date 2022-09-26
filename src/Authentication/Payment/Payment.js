@@ -35,7 +35,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { AlertTitle, alertTitleClasses, Divider } from '@mui/material';
 import googlepay from '../../Assets/payment/google.png'
 import payt from '../../Assets/payment/paytm.png'
-import amazonepay from '../../Assets/payment/amazon.png'
+ import amazonepay from '../../Assets/payment/am.png'
 import qrcodesymbol from '../../Assets/payment/qrcode.png';
 import phonepay from '../../Assets/payment/phonepay.png'
 import Alert from '@mui/material/Alert';
@@ -221,7 +221,7 @@ const [message, setMessage] = React.useState('');
         </Grid>
         <Grid xs={3}>
         <img src={googlepay} width="30px" className='googlepay'/>
-        <p className='googlepay1'>googlepay</p>
+        <p className='googlepay1'>Gpay</p>
         </Grid>
         <Grid xs={3}>
         <img src={payt} width="45px" />
