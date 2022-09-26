@@ -482,7 +482,7 @@ export default function VerticalTabs() {
  </div>
  </Grid>
    <Grid xl={5} lg={5} md={5} sm={12}>
-   <div className='imgsession'> <img className='imgpassword'  alt="" /></div>
+   <div className='imgsession'> <img className='imgpassword' src={session} alt="" /></div>
    </Grid> 
    <Grid xl={12} lg={12} md={12} sm={12}>
    <button className='sessionbutton' onClick={<Booksession/>}>  <Link to="/booksession"  className='sessionbuttonlink'>BOOK SESSION</Link></button>
