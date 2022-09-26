@@ -364,8 +364,8 @@ const top100Films = [
   { title: 'Jeena Albert', year: 1974 },
   { title: 'Leena Joseph', year: 2008 },
   { title: "Oscar Rafy", year: 1993 },
-  { title: 'Puja Roy'},
   { title: 'Pranav Bhatia', year: 1972 },
+  { title: 'Puja Roy'},
 ];
 
 const category = [

@@ -44,6 +44,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import CreateIcon from '@mui/icons-material/Create';
+import { Link } from 'react-router-dom';
 
 
 
@@ -503,7 +504,7 @@ export default function ConsultantVerticalTabs() {
             <div className='admintop'>
             </div>
           </Grid>
-        <Grid item  xl={.05} lg={.05}>
+        <Grid item  xl={.5} lg={.05}>
           <Stack direction="row" alignItems="center" spacing={0}>  
             <IconButton className='adminimageuploadicon' aria-label="upload picture" component="label">
               <input hidden accept="image/*" type="file" />
@@ -520,7 +521,7 @@ export default function ConsultantVerticalTabs() {
         </Grid>
 
 
-    <Grid item xl={7.8} lg={7.8} md={8.8} sm={11} xs={11}>
+    <Grid item xl={7.8} lg={7.8} md={8.8} sm={11} xs={10}>
         <div className='adminviewsha'>
           <ul>
             <li>
@@ -541,10 +542,10 @@ export default function ConsultantVerticalTabs() {
       <br/>
     </Grid>
 
-    <Grid item xl={.2} lg={.2} md={.2} sm={.2} xs={.2}>
+    <Grid item xl={.2} lg={.2} md={.2} sm={.2} xs={2}>
 
           
-          <Button onClick={handleOpenprofile}><CreateIcon style={{color:'#23BDB8'}} /> </Button>
+          <Button onClick={handleOpenprofile}><CreateIcon style={{color:'#23BDB8'}}  className='adminediticon'/> </Button>
                 <Modal
                         open={open}
                         onClose={handleCloseprofile}
@@ -595,8 +596,12 @@ export default function ConsultantVerticalTabs() {
                             <Box sx={style} className="updateModal">
                               <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
                               Updated successfully!!!
-                              </Typography>
+                              
                               <CheckCircleOutlineIcon  className='checkIconUser'/>
+                              
+                              <br/>
+                              <Link to="/consultantdetails"><Button style={{backgroundColor:'#d64242',color:'#F5FFFA'}}>Okay</Button></Link>
+                              </Typography>
                             </Box>
                           </Modal>
                       </div>
@@ -607,7 +612,7 @@ export default function ConsultantVerticalTabs() {
 
     </Grid>
          
-<Grid item xl={3.7} lg={3.9} md={3.6} sm={0.7} xs={0.85} ></Grid>
+<Grid item xl={3.9} lg={3.9} md={3.6} sm={0.7} xs={0.85} ></Grid>
           <Grid item xl={7} lg={7} md={7.7} sm={10.8} xs={10.3} className='adminaboutcounsellor'>
           <h3 style={{color:'#0e314c'}}><b>About</b></h3>
                 <p >
@@ -1022,7 +1027,7 @@ export default function ConsultantVerticalTabs() {
     <Grid item xl={.2} lg={.2} md={.1} sm={.8} xs={1.2}>
 
           
-          <Button onClick={handleOpenprofile} ><CreateIcon style={{color:'#23BDB8'}} /> </Button>
+          <Button onClick={handleOpenprofile} ><CreateIcon style={{color:'#23BDB8'}} className='adminediticon'/> </Button>
                 <Modal
                         open={open}
                         onClose={handleCloseprofile}
@@ -1074,8 +1079,11 @@ export default function ConsultantVerticalTabs() {
                             <Box sx={style} className="updateModal">
                               <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
                               Updated successfully!!!
-                              </Typography>
+                              
                               <CheckCircleOutlineIcon  className='checkIconUser'/>
+                             
+                              {/* <Link to="/consultantdetails"><Button style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Okay</Button></Link> */}
+                              </Typography>
                             </Box>
                           </Modal>
                       </div>

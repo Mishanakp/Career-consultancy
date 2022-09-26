@@ -221,7 +221,7 @@ const [message, setMessage] = React.useState('');
         </Grid>
         <Grid xs={3}>
         <img src={googlepay} width="30px" className='googlepay'/>
-        <p className='googlepay1'>googlepay</p>
+        <p className='googlepay1'>Gpay</p>
         </Grid>
         <Grid xs={3}>
         <img src={payt} width="45px" />

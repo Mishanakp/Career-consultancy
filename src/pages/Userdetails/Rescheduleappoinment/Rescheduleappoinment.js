@@ -23,7 +23,7 @@ function Rescheduleappoinment() {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 400,
-    bgcolor: 'background.paper',
+        bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
@@ -136,7 +136,7 @@ function Rescheduleappoinment() {
         </Grid>
         <Grid item  lg={5} md={5} sm={6}>
 
-        <div uk-slideshow="animation: push" >
+        <div uk-slideshow="animation: none" >
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
 
@@ -328,6 +328,7 @@ function Rescheduleappoinment() {
 >
   <Box sx={style} className="updateModal">
     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+   
      Updated successfully!!!
     </Typography>
     <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#23BDB8'}}/>
@@ -450,7 +451,7 @@ function Rescheduleappoinment() {
         <Grid item xs={2}></Grid>
         <Grid item  xs={10}>
 
-        <div uk-slideshow="animation: push" >
+        <div uk-slideshow="animation: none" >
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
 
@@ -629,6 +630,7 @@ function Rescheduleappoinment() {
 >
   <Box sx={style} className="updateModal">
     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+   
      Updated successfully!!!
     </Typography>
     <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#23BDB8'}}/>
@@ -789,7 +791,7 @@ function Rescheduleappoinment() {
         
         <Grid item  xs={12}>
 
-        <div uk-slideshow="animation: push" >
+        <div uk-slideshow="animation: none" >
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
 
@@ -965,10 +967,17 @@ function Rescheduleappoinment() {
 >
   <Box sx={style} className="updateModal">
     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+     
+    <p className='name'>Consultant name:pooja</p>
+
+    <p className='name'>Booking Date:30/9/2022 </p>
+    <p className='name'>Booking Time:12:00PM </p>
      Updated successfully!!!
-    </Typography>
+   
     <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#23BDB8'}}/>
     <Link to="/userprofile"><Button style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Okay</Button></Link>
+  
+    </Typography>
   </Box>
 </Modal>
                 
@@ -995,11 +1004,12 @@ function Rescheduleappoinment() {
   <Box sx={style2} className="updateModal">
     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead1'>
      Cancel Rescheduleappoinment
-    </Typography>
     <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#d64242'}}/>
  
     <Link to="/userprofile"><Button style={{backgroundColor:'#d64242',color:'#F5FFFA'}}>Okay</Button></Link>
-  </Box>
+    </Typography>
+
+</Box>
 </Modal>
                 </Grid>
          {/*********************** */}

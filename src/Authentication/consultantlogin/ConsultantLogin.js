@@ -48,9 +48,9 @@ class ConsultantLogin extends Component{
     };
   
     signIn = () => {
-      if (this.state.username === "johndoe@email.com" && this.state.password === "password") {
+      if (this.state.username === "samdoe@email.com" && this.state.password === "password") {
        
-        window.open("/userProfile", "_self");
+        window.open("/consultantdetails", "_self");
         
       } else {
         this.setState({
