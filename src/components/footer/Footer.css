@@ -7,7 +7,8 @@
     padding-left: 100px
 }
 img.footerLogo2{ 
-    width: 80px;    
+    width: 220px;   
+    margin-left: -50px; 
 }
 p.footerParaCons{
     max-width: 280px;
@@ -124,12 +125,20 @@ span.terms:hover{
     h1.footHead1{ 
         width: 300px;
     }
+    img.footerLogo2{ 
+        width: 180px;   
+     margin-left: -50px;   
+    } 
  }
  @media only screen and (max-width:1280px) and (min-width:1201px){
     p.priprivacy__terms{
         padding: 15px 0;
         margin-left: 500px; 
     }
+    img.footerLogo2{ 
+        width: 180px;   
+     margin-left: 0px;   
+    } 
  }
  @media only screen and (max-width:1200px) and (min-width:1025px){
  
@@ -137,8 +146,8 @@ span.terms:hover{
     padding-left: 50px
 }
 img.footerLogo2{ 
-    width: 80px; 
-    margin-left: 30px;   
+    width: 180px;   
+ margin-left: 0px;   
 } 
 h1.footHead1{ 
     width: 300px;
@@ -160,8 +169,8 @@ p.priprivacy__terms{
     padding-left: 50px
 }
 img.footerLogo2{ 
-    width: 80px; 
-    margin-left: 30px;   
+    width: 200px;   
+    margin-left: 40px;   
 } 
 h1.footHead1{ 
     width: 300px;
@@ -184,8 +193,8 @@ p.priprivacy__terms{
         padding-left: 50px
     }
     img.footerLogo2{ 
-        width: 80px; 
-        margin-left: 30px;   
+        width: 180px;   
+         margin-left: 40px;     
     } 
     h1.footHead1{ 
         width: 300px;
@@ -215,8 +224,8 @@ p.priprivacy__terms{
             padding-left: 50px
         }
         img.footerLogo2{ 
-            width: 70px; 
-            margin-left: 30px;   
+            width: 180px;   
+         margin-left: 50px;    
         } 
         h1.footHead1{ 
             width: 300px;
@@ -251,8 +260,8 @@ p.priprivacy__terms{
                     padding-left: 50px
                 }
                 img.footerLogo2{ 
-                    width: 70px; 
-                    margin-left: 30px;   
+                    width: 200px;   
+                    margin-left: 20px;  
                 } 
                 h1.footHead1{ 
                     width: 300px;
@@ -288,8 +297,8 @@ p.priprivacy__terms{
                 padding-left: 50px
             }
             img.footerLogo2{ 
-                width: 70px; 
-                margin-left: 0px;   
+                width: 200px;   
+                margin-left: 0px;    
             } 
             h1.footHead1{ 
                 width: 300px;
@@ -333,8 +342,8 @@ p.footerParaCons{
     padding-left: 50px
 }
 img.footerLogo2{ 
-    width: 70px; 
-    margin-left: 0px;   
+    width: 200px;   
+    margin-left: 20px;    
 } 
 img.footericonimage{
     width: 20px !important;
@@ -384,8 +393,8 @@ ul.footList3{
         padding-top: 50px;  
     }
     img.footerLogo2{ 
-        width: 100px; 
-        margin-left: -100px;   
+        width: 200px;   
+        margin-left: -100px;    
     }
     p.footerParaCons{
         min-width: 480px;
@@ -449,8 +458,8 @@ ul.footList3{
     padding-top: 50px;  
 }
 img.footerLogo2{ 
-    width: 80px; 
-    margin-left: -110px;   
+    width: 200px;   
+            margin-left: -100px;  
 }
 p.footerParaCons{
     min-width: 420px;
@@ -500,8 +509,8 @@ p.pricopyright{
         padding-top: 50px;  
     }
     img.footerLogo2{ 
-        width: 70px; 
-        margin-left: -110px;   
+        width: 200px;   
+        margin-left: -100px;   
     }
     p.footerParaCons{
         min-width: 360px;
@@ -549,8 +558,8 @@ p.pricopyright{
     @media only screen and (max-width:426px) and (min-width:395px){ 
         
         img.footerLogo2{ 
-            width: 60px; 
-            margin-left: -110px;   
+            width: 200px;   
+            margin-left: -100px;   
         }
         p.footerParaCons{
             min-width: 360px;
@@ -598,8 +607,8 @@ p.pricopyright{
         @media only screen and (max-width:394px) and (min-width:362px){ 
         
             img.footerLogo2{ 
-                width: 60px; 
-                margin-left: -110px;   
+                width: 200px;   
+                margin-left: -100px; 
             }
             p.footerParaCons{
                 min-width: 325px;
@@ -647,8 +656,8 @@ p.pricopyright{
             @media only screen and (max-width:361px) and (min-width:322px){ 
         
                 img.footerLogo2{ 
-                    width: 60px; 
-                    margin-left: -110px;   
+                    width: 200px;   
+                    margin-left: -100px;   
                 }
                 p.footerParaCons{
                     min-width: 300px;
@@ -696,8 +705,8 @@ p.pricopyright{
                 @media only screen and (max-width:321px) and (min-width:282px){ 
         
                     img.footerLogo2{ 
-                        width: 50px; 
-                        margin-left: -100px;   
+                        width: 200px;   
+                        margin-left: -100px;    
                     }
                     p.footerParaCons{
                          width: 260px;

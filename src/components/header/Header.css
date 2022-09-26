@@ -4,8 +4,9 @@ body{
 }
 
 img.logoCareer{
-   width: 70px;
+   width: 170px;
    margin-top: -10px;
+   margin-left: -50px;
 }
 
 /* Navbar */
@@ -26,7 +27,7 @@ img.logoCareer{
 }
 .TextfieldSearchbar{
    width: 300px !important;    
-  margin-top: -5px;
+  margin-top: -5px; 
 } 
  
 .pribut1{
@@ -41,7 +42,8 @@ span.searchicon{
  }
  input[type="search"]{
     border-color: #4a6f8a !important;
-    padding-right: 50px;
+    padding-right: 50px; 
+   
  }
  input[type="search"]::placeholder{
     padding-left: 50px;
@@ -418,9 +420,9 @@ span.searchicon{
  }
  @media only screen and (max-width:768px){
    img.logoCareer{
-      width: 60px;
-      margin-top: -10px;
-      margin-left: -100px; 
+      width: 110px;
+      margin-top: 0px;
+      margin-left: -50px; 
    }
    button.open__button{
       margin-left: -20px; 
@@ -723,8 +725,9 @@ span.searchicon{
       margin-left: 0px !important;
    }
    img.logoCareer{ 
-      margin-top: 5px;
+      margin-top: -20px;
       margin-left: 20px; 
+      min-width: 180px !important ;
    }
     button.open__button{
         margin-left: 200px;  
@@ -858,9 +861,9 @@ span.searchicon{
         margin-top: -2px;
     }
     img.logoCareer{
-      min-width: 40px;
-      margin-top:-5px;
+      margin-top: -20px;
       margin-left: 20px; 
+      min-width: 180px !important ;
    }
     .off__canvas{   
         width: 80%;    
@@ -891,9 +894,9 @@ span.searchicon{
       margin-top: -2px;
   }
   img.logoCareer{
-    min-width: 40px;
-    margin-top:-5px;
-    margin-left: 20px; 
+   margin-top: -20px;
+   margin-left: 10px; 
+   min-width: 150px !important ;
  }
     .off__canvas{   
         width: 100%;    

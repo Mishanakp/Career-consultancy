@@ -13,14 +13,16 @@ import Grid from '@mui/material/Grid';
 import { MdClose } from "react-icons/md"
 import { FiMenu } from "react-icons/fi" 
 import {Link} from 'react-router-dom'  
-import careerLogo from '../../Assets/homeImages/logocareer.jpg'
+import careerLogo from '../../Assets/homeImages/company logo.png'
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
 import { TextField} from '@mui/material';
 import { IconButton } from '@mui/material';
 import {InputAdornment }from "@mui/material"; 
 
-const filter = createFilterOptions(); 
 
+ 
+const filter = createFilterOptions(); 
+ 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -194,6 +196,7 @@ function Header() {
     setNavbarOpen(!navbarOpen)
   }
   const [value, setValue] = React.useState(null);
+ 
   return (
   
     
@@ -212,7 +215,7 @@ function Header() {
                       cursor:'pointer'
                     }}  >
                         <item>
-                         <img src={careerLogo} alt="" className='logoCareer'/>
+                        <Link to="/" exact  ><img src={careerLogo} alt="" className='logoCareer'/></Link>
                         </item>
                     </Grid>
                  
@@ -290,19 +293,21 @@ className='TextfieldSearchbar'
       freeSolo
       renderInput={(params) => (
         <TextField  
-        sx={{
-          
-          
+        
+        sx={{ 
           "& .MuiInputBase-root": {
               height: 45,
               border:'1px solid #4a6f8a',
               borderLeft:'none',
               borderRadius:'0 5px 5px 0',  
               
-          }
+          },
+          
+          
       }}
+    
       InputProps={{
-        disableUnderline: true,  
+        disableUnderline: true,   
         
       }}
       variant="standard"
@@ -314,7 +319,7 @@ className='TextfieldSearchbar'
     </Search>
           </item>
           </Grid2>
-          <Grid1 item lg={7} className="buttons1" >
+          <Grid1 item lg={7} className="buttons1"  >
             <item>
             <Link to="/" exact  ><Button1 className='pribut1  active'  >Home </Button1></Link> 
             <Link to="/whoweare"    > <Button1 className='pribut1'>Who we are</Button1></Link>
@@ -445,8 +450,7 @@ className='TextfieldSearchbar2'
               height: 45,   
               borderBottom:'1px solid #4a6f8a',
               borderLeft:'none',
-              borderRadius:'0 5px 5px 0',  
-
+              borderRadius:'0 5px 5px 0',   
               
           }
       }}
@@ -498,8 +502,7 @@ const top100Films = [
   { title: 'Arts'  },
   { title: 'Aviation' },
   { title: 'Business' },
-  { title: 'Education'  },
-  { title: '12 Angry Men' },
+  { title: 'Education'  }, 
   { title: "Low enforcement"  },
   { title: 'Media' },
   { title: 'Medical' },
