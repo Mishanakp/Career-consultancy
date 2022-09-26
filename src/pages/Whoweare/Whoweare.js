@@ -22,6 +22,8 @@ function Whoweare() {
   }, []);
   return (
     <div>
+
+      {/* **************************************  first section ********************************** */}
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid id="mishanafirstsection">
     <div class="uk-card-media-left uk-cover-container" id="mishanafirstt">
     <img className='vdo' src="https://img.freepik.com/free-vector/business-idea-concept-with-people_52683-28609.jpg?size=626&ext=jpg&ga=GA1.2.531248554.1663503756"  loop muted playsinline uk-video="autoplay: inview"></img>
@@ -41,6 +43,7 @@ function Whoweare() {
 </div>
 
 
+{/* ***************************************** second section *************************************** */}
 
 <div className='mishsectionportion'> 
      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid id="mishanasecondsection">
@@ -64,6 +67,8 @@ function Whoweare() {
 
 
 
+{/* ***************************************** Third section ************************************** */}
+
 <div className='homeCard'>
          <h1 className='cardMainHead'>WHAT MAKE US SPECIAL</h1>
          {/* ............................... */}
@@ -82,7 +87,7 @@ function Whoweare() {
           <Typography variant="body2" >
           <h3 className='card1head'>Highly Qualified Team</h3>
           <p  className='cardPara1'>
-          We have a highly qualified team to help our customers to meet their expectations and requirments.
+          We have a highly qualified team to help our customers to meet their expectations and requirments.We are providing highly safe and secure .
           </p>
           </Typography>
         </CardContent>
@@ -102,7 +107,7 @@ function Whoweare() {
           <Typography variant="body2"  >
           <h3 className='card2head'>Technology Consultation</h3>
           <p  className='cardPara2'>
-          We are providing technology consultation for choosing the right technology for a particular requirment.
+          We are providing technology consultation for choosing the right technology for a particular requirment.We are providing highly safe and secure .
           </p>
           </Typography>
         </CardContent>
@@ -126,7 +131,7 @@ function Whoweare() {
       <CardContent className='cardContent3'>
         <Typography variant="body2">
         <h3 className='card3head'>Customer Support</h3>
-        <p  className='cardPara3'>We are providing dedicated and easily accessible 24/7 customer support to all clients.
+        <p  className='cardPara3'>We are providing dedicated and easily accessible 24/7 customer support to all clients.We are providing highly safe and secure products to all our client
         </p>
         </Typography>
       </CardContent>
@@ -151,7 +156,7 @@ function Whoweare() {
       <CardContent className='cardContent4'>
         <Typography variant="body2">
         <h3 className='card4head'>Safe and Secure</h3>
-        <p  className='cardPara4'>We are providing highly safe and secure products to all our clients
+        <p  className='cardPara4'>We are providing highly safe and secure products to all our clients.We are providing highly safe and secure products to all our clients.
         </p>
         </Typography>
       </CardContent>
@@ -170,6 +175,8 @@ function Whoweare() {
     </div>
 
 
+
+{/* ***********************************************  fourth section  *************************************** */}
 
     <div className='gridsection'>
     <Box sx={{ flexGrow: 1 }}>
@@ -206,9 +213,9 @@ function Whoweare() {
     </div>
      
 
+{/* ********************************************** fivth section ************************************** */}
 
     <div className="section5">
-   
    <span> <h3 className='section5head'>Have any question about us?</h3>
        <p className='section5para'>Don't hesitate to contact us</p>
        <Link to="/contact"><button class="button1">CONTACT US </button></Link>
