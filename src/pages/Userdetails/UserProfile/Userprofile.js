@@ -159,7 +159,7 @@ export default function VerticalTabs() {
 
   //*****************************mysession code ************************ //
   const [sessionvalue, setSessionvalue] = useState('sessiontrue');
-  let [value1session,setValue1session]=useState(true)
+  let [value1session,setValue1session]=useState(false)
   const handleChangesession = (event) => {
     setSessionvalue(event.target.value);
   };
@@ -244,22 +244,24 @@ export default function VerticalTabs() {
   const handleClosedelete = () => {
     setOpendelete(false);
   };
-    const handleClickShowPassword = () => {
-    setFormValues({
-      ...formValues,
-      showPassword: !formValues.showPassword,
-    });
-  };
-
-  const handleMouseDownPassword = (event) => {
-    event.preventDefault();
-  };
+   
+    
+  // const handleClickShowPassword = () => {
+  //   setFormValues({
+  //     ...formValues,
+  //     showPassword: !formValues.showPassword,
+  //   });
+  // };
+  
+  // const handleMouseDownPassword = (event) => {
+  //   event.preventDefault();
+  // };
   const Transitionpass = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
   });
   const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
   
-      const initialValues = { oldpassword:"", password: "",password2: "", showPassword: false,};
+      const initialValues = { oldpassword:"", password: "",password2: "", showPassword: false,showPassword1: false,showPassword2: false};
       const [formValues, setFormValues] = useState(initialValues);
       const [formErrors, setFormErrors] = useState({});
       const [isSubmit, setIsSubmit] = useState(false);
@@ -319,6 +321,37 @@ export default function VerticalTabs() {
   const [open3, setOpen3] = React.useState(false);
   const handleOpen3 = () => setOpen3(true);
   const handleClose3 = () => setOpen3(false);
+
+
+
+  {/**************eye************** */}
+const handleClickShowPassword = () => {
+  setFormValues({
+    ...formValues,
+    showPassword: !formValues.showPassword,
+  });
+};
+
+
+const handleClickShowPassword1 = () => {
+  setFormValues({
+    ...formValues,
+    showPassword1: !formValues.showPassword1,
+  });
+};
+
+
+const handleClickShowPassword2 = () => {
+  setFormValues({
+    ...formValues,
+    showPassword2: !formValues.showPassword2,
+  });
+};
+
+const handleMouseDownPassword = (event) => {
+  event.preventDefault();
+};
+
   return (
     <div className='userpro'>
     <Box className='box'
@@ -668,7 +701,8 @@ export default function VerticalTabs() {
     
        <p className='required1'>{formErrors.email}</p>
         {/*********password************/}
-        <TextField  className='password' type="password"
+        <TextField  className='password'
+        //  type="password"
     name="oldpassword"
    
     placeholder="Old Password"
@@ -676,45 +710,115 @@ export default function VerticalTabs() {
     value={formValues.oldpassword}
     onChange={handleChangepass}
   
-    InputProps={{
-      startAdornment: (
-        <InputAdornment position="start">
-          <LockIcon style={{color:' #23BDB8 '}}/>
-        </InputAdornment>
-      ),
-    }}></TextField>
+    // InputProps={{
+    //   startAdornment: (
+    //     <InputAdornment position="start">
+    //       <LockIcon style={{color:' #23BDB8 '}}/>
+    //     </InputAdornment>
+    //   ),
+    // }}
+
+
+    type={formValues.showPassword ? 'text' : 'password'}
+          InputProps={{
+          startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+        endAdornment:(<InputAdornment position="end">
+          <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  edge="end"
+                  style={{color:' #23BDB8 '}}
+                >
+                  {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+        </InputAdornment>),
+            
+               
+      }}
+    
+    
+    >
+
+
+
+
+
+
+    </TextField>
      <p className='required1'>{formErrors.oldpassword}</p>
-       <TextField className='password'  type="password"
+       <TextField className='password'  
+      //  type="password"
     name="password"
     placeholder=" New Password"
   
     value={formValues.password}
     onChange={handleChangepass}
+    // InputProps={{
+    //   startAdornment: (
+    //     <InputAdornment position="start">
+    //       <LockIcon style={{color:' #23BDB8 '}}/>
+    //     </InputAdornment>
+    //   ),
+    // }}
+
+
+
+    type={formValues.showPassword1 ? 'text' : 'password'}
     InputProps={{
-      startAdornment: (
-        <InputAdornment position="start">
-          <LockIcon style={{color:' #23BDB8 '}}/>
-        </InputAdornment>
-      ),
-    }}
+    startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+  endAdornment:(<InputAdornment position="end">
+    <IconButton
+            aria-label="toggle password visibility"
+            onClick={handleClickShowPassword1}
+            onMouseDown={handleMouseDownPassword}
+            edge="end"
+            style={{color:' #23BDB8 '}}
+          >
+            {formValues.showPassword1 ? <VisibilityOff /> : <Visibility />}
+          </IconButton>
+  </InputAdornment>),
+      
+         
+}}
     variant="outlined"
     />
     <p className='required1'>{formErrors.password}</p>
                 {/*******confirmpassword**************/}
-       <TextField className='password'  type="password"
+       <TextField className='password'  
+      //  type="password"
     name="password2"
   
     placeholder="Confirm Password"
     value={formValues.password2}
     onChange={handleChangepass}
-    InputProps={{
-      startAdornment: (
-        <InputAdornment position="start">
-          <LockIcon style={{color:' #23BDB8 '}}/>
-        </InputAdornment>
+    // InputProps={{
+    //   startAdornment: (
+    //     <InputAdornment position="start">
+    //       <LockIcon style={{color:' #23BDB8 '}}/>
+    //     </InputAdornment>
         
-      ),
-    }}
+    //   ),
+    // }}
+
+    type={formValues.showPassword2 ? 'text' : 'password'}
+    InputProps={{
+    startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
+  endAdornment:(<InputAdornment position="end">
+    <IconButton
+            aria-label="toggle password visibility"
+            onClick={handleClickShowPassword2}
+            onMouseDown={handleMouseDownPassword}
+            edge="end"
+            style={{color:' #23BDB8 '}}
+          >
+            {formValues.showPassword2 ? <VisibilityOff /> : <Visibility />}
+          </IconButton>
+  </InputAdornment>),
+      
+         
+}}
+
    
     variant="outlined"
     />

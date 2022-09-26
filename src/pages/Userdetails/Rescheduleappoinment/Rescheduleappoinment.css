@@ -6,6 +6,8 @@ body{
   background-image: linear-gradient(to right, #23BDB8, #8EE7BA);
  
 }
+.textboxtime :hover{cursor: pointer !important;}
+
 .reschedulemain425,.reschedulemain280{display: none;}
 .reschedulemain{padding-top: 200px;
 padding-left: 250px;
@@ -37,7 +39,12 @@ em{
   margin-left: 50px !important;
   color: #d64242	;
 }
+.name{
+  font-size: 1rem !important;
+  color: #0E314C;
 
+}
+/**************/
 
 .contenthead1{
   color: #0E314C;
