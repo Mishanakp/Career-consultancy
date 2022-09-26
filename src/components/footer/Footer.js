@@ -2,7 +2,7 @@ import React, { useState }   from 'react'
 import   './Footer.css'
 import {Grid} from '@mui/material'
 import {Link} from 'react-router-dom'
-import careerLogo from '../../Assets/homeImages/careerLogo2.png'
+import careerLogo from '../../Assets/homeImages/company logo.png'
 
 function Footer() {  
 

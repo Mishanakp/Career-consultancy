@@ -13,8 +13,16 @@ import Grid from '@mui/material/Grid';
 import { MdClose } from "react-icons/md"
 import { FiMenu } from "react-icons/fi" 
 import {Link} from 'react-router-dom'  
-import careerLogo from '../../Assets/homeImages/logocareer.jpg'
+import careerLogo from '../../Assets/homeImages/company logo.png'
+import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
+import { TextField} from '@mui/material';
+import { IconButton } from '@mui/material';
+import {InputAdornment }from "@mui/material"; 
 
+
+ 
+const filter = createFilterOptions(); 
+ 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -43,7 +51,7 @@ const Search = styled('div')(({ theme }) => ({
   }, 
 }));
 
-const SearchIconWrapper = styled('div')(({ theme }) => ({
+const SearchIconWrapper = styled('div')(({ theme }) => ({ 
   padding: theme.spacing(0, 1),
   height: '100%',
   position: 'absolute',
@@ -54,7 +62,9 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
   color:' #4a6f8a',
   backgroundColor:' white', 
   border :'1px solid #4a6f8a',
+  borderRight:'none',
   borderRadius:'5px 0 0 5px', 
+  marginLeft:'-38px',
   [theme.breakpoints.down('sm')]:{
     paddingLeft:'10px',
     borderRadius:'0',
@@ -174,9 +184,9 @@ const Grid2 = styled(Grid)(({theme})=>({
   marginLeft:'20px',
   
 }))
+ 
 
-
-function Header() {
+function Header() { 
   const [navbarOpen, setNavbarOpen] = useState(false);
   const closeMenu = () => {
     setNavbarOpen(false)
@@ -185,9 +195,10 @@ function Header() {
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen)
   }
-
+  const [value, setValue] = React.useState(null);
+ 
   return (
-
+  
     
     <>
      <div  className='navbar'>
@@ -204,7 +215,7 @@ function Header() {
                       cursor:'pointer'
                     }}  >
                         <item>
-                         <img src={careerLogo} alt="" className='logoCareer'/>
+                        <Link to="/" exact  ><img src={careerLogo} alt="" className='logoCareer'/></Link>
                         </item>
                     </Grid>
                  
@@ -213,7 +224,7 @@ function Header() {
             
           
         
-              <Search className='search' >
+              {/* <Search className='search' >
             <SearchIconWrapper className='searchIcon'>
               <SearchIcon />
             </SearchIconWrapper>
@@ -223,10 +234,92 @@ function Header() {
              className='searchbar'
             />
              
-          </Search>
+          </Search> */}
+<Search className='search' >
+<SearchIconWrapper className='searchIcon'>
+              <SearchIcon />
+            </SearchIconWrapper>
+<Autocomplete  
+className='TextfieldSearchbar' 
+      value={value} 
+      onChange={(event, newValue) => {
+        if (typeof newValue === 'string') {
+          setValue({
+            title: newValue,
+          });
+        } else if (newValue && newValue.inputValue) {
+          // Create a new value from the user input
+          setValue({
+            title: newValue.inputValue,
+          });
+        } else {
+          setValue(newValue);
+        }
+      }}
+      filterOptions={(options, params) => {
+        const filtered = filter(options, params);
+
+        const { inputValue } = params;
+        // Suggest the creation of a new value
+        const isExisting = options.some((option) => inputValue === option.title);
+        if (inputValue !== '' && !isExisting) {
+          filtered.push({
+            inputValue,
+            title: `Add "${inputValue}"`,
+          });
+        }
+
+        return filtered;
+      }}
+      selectOnFocus
+      clearOnBlur
+      handleHomeEndKeys
+      id="free-solo-with-text-demo" 
+      options={top100Films}
+      getOptionLabel={(option) => {
+        // Value selected with enter, right from the input
+        if (typeof option === 'string') {
+          return option;
+        }
+        // Add "xxx" option created dynamically
+        if (option.inputValue) {
+          return option.inputValue;
+        }
+        // Regular option
+        return option.title;
+      }}
+      renderOption={(props, option) => <li {...props}>{option.title}</li>}
+      sx={{ width: 300 }}
+      freeSolo
+      renderInput={(params) => (
+        <TextField  
+        
+        sx={{ 
+          "& .MuiInputBase-root": {
+              height: 45,
+              border:'1px solid #4a6f8a',
+              borderLeft:'none',
+              borderRadius:'0 5px 5px 0',  
+              
+          },
+          
+          
+      }}
+    
+      InputProps={{
+        disableUnderline: true,   
+        
+      }}
+      variant="standard"
+        {...params}
+        placeholder="Search…" 
+      />
+      )}
+    />
+    </Search>
           </item>
           </Grid2>
-          <Grid1 item lg={7} className="buttons1" >
+          <Grid1 item lg={7} className="buttons1"  >
             <item>
             <Link to="/" exact  ><Button1 className='pribut1  active'  >Home </Button1></Link> 
             <Link to="/whoweare"    > <Button1 className='pribut1'>Who we are</Button1></Link>
@@ -280,7 +373,7 @@ function Header() {
    
     <ul className='listNav'>
           <li className='listItemNav'> 
-          <Search className='search2' >
+          {/* <Search className='search2' >
             <SearchIconWrapper className='searchIcon2'>
               <SearchIcon />
             </SearchIconWrapper>
@@ -290,7 +383,88 @@ function Header() {
              className="searchBar2"
             />
              
-          </Search>
+          </Search> */}
+
+<Search className='search2' >
+<SearchIconWrapper className='searchIcon2'>
+              <SearchIcon />
+            </SearchIconWrapper>
+<Autocomplete  
+className='TextfieldSearchbar2' 
+      value={value} 
+      onChange={(event, newValue) => {
+        if (typeof newValue === 'string') {
+          setValue({
+            title: newValue,
+          });
+        } else if (newValue && newValue.inputValue) {
+          // Create a new value from the user input
+          setValue({
+            title: newValue.inputValue,
+          });
+        } else {
+          setValue(newValue);
+        }
+      }}
+      filterOptions={(options, params) => {
+        const filtered = filter(options, params);
+
+        const { inputValue } = params;
+        // Suggest the creation of a new value
+        const isExisting = options.some((option) => inputValue === option.title);
+        if (inputValue !== '' && !isExisting) {
+          filtered.push({
+            inputValue,
+            title: `Add "${inputValue}"`,
+          });
+        }
+
+        return filtered;
+      }}
+      selectOnFocus
+      clearOnBlur
+      handleHomeEndKeys
+      id="free-solo-with-text-demo" 
+      options={top100Films}
+      getOptionLabel={(option) => {
+        // Value selected with enter, right from the input
+        if (typeof option === 'string') {
+          return option;
+        }
+        // Add "xxx" option created dynamically
+        if (option.inputValue) {
+          return option.inputValue;
+        }
+        // Regular option
+        return option.title;
+      }}
+      renderOption={(props, option) => <li {...props}>{option.title}</li>}
+      sx={{ width: 300 }}
+      freeSolo
+      renderInput={(params) => (
+        <TextField  
+        sx={{
+          
+          
+          "& .MuiInputBase-root": {
+              height: 45,   
+              borderBottom:'1px solid #4a6f8a',
+              borderLeft:'none',
+              borderRadius:'0 5px 5px 0',   
+              
+          }
+      }}
+      InputProps={{
+        disableUnderline: true,  
+        
+      }}
+      variant="standard"
+        {...params}
+        placeholder="Search…" 
+      />
+      )}
+    />
+    </Search>
         </li> 
            <hr className='lineNav'></hr>
             <li className='listItemNav'><Link to="/home"> <span uk-icon="home" className='whiteClr' ></span> &nbsp;&nbsp; <span className='whiteClr'>HOME </span> <span uk-icon="chevron-double-right" className='iconNavHome whiteClr'></span></Link> </li>  
@@ -323,3 +497,15 @@ function Header() {
 }
 
 export default Header
+
+const top100Films = [
+  { title: 'Arts'  },
+  { title: 'Aviation' },
+  { title: 'Business' },
+  { title: 'Education'  }, 
+  { title: "Low enforcement"  },
+  { title: 'Media' },
+  { title: 'Medical' },
+  { title: "Service industries"  },
+  { title: 'Technologies' },
+];

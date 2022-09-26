@@ -41,7 +41,7 @@ export default function  Ourconsultants()  {
 </Grid>
 
 <Grid xl={0.7} lg={0.65} md={1} sm={1.2} xs={2.5} ></Grid>
-      <Grid xl={11} lg={11} md={11} sm={10.8} xs={9} container spacing={0} className='filter'>
+      <Grid xl={11.3} lg={11} md={11} sm={10.8} xs={9} container spacing={0} className='filter'>
       <Autocomplete
             className='filterofconsultants'
             id="filter-demo"
@@ -63,10 +63,56 @@ export default function  Ourconsultants()  {
           />
       </Grid>
       <br/><br/><br/><br/><br/><br/>
-      <Grid xl={3} lg={.7} md={1}  sm={.7} xs={1.5} className='margincard' ></Grid>
-      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xl={.7} lg={.7} md={1}  sm={.7} xs={1.5} className='margincard' ></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
       <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
-        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={4.5}>
+          <Item >
+          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
+          </Item>
+        </Grid>
+
+          <Grid xl={12} lg={12} md={12}sm={12} xs={12}>
+            <Item >
+             
+              <Box >
+                <p ><b><span className='name'>Puja Roy</span> </b></p>
+                <p >Masters in Business Administration</p>
+                <p >Exp:3 years</p>
+              </Box>
+            </Item>
+            <Item  >
+              <span > Next availabe at: 12/5/2022 1:00 PM</span>
+            </Item>
+          </Grid>
+ 
+        <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
+          <Item >
+
+                <Link to="/Viewprofile">
+                <button className="counselorcardbutton" >
+                  <span>View Profile</span>
+                  </button></Link>
+          </Item>
+        </Grid>
+        <Grid xl={4} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
+          <Item  >
+              <Link to="/Booksession">
+              <span className='bookbutton'>
+              <button className="counselorcardbutton">
+             Book Session
+                </button>
+              </span>
+                </Link>
+          </Item>
+        </Grid>
+      </Grid>
+      <Grid xl={.4} lg={.2} md={0.5}  sm={0.3} xs={1.5}className='margincard'></Grid>
+      <Grid xl={.4} lg={.5} md={.5}  sm={.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={4.5}>
           <Item >
           <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
@@ -95,7 +141,7 @@ export default function  Ourconsultants()  {
                   </button></Link>
           </Item>
         </Grid>
-        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={4} lg={4} md={3.6} xs={0} sm={0}></Grid>
         <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
           <Item  >
               <Link to="/Booksession">
@@ -108,11 +154,12 @@ export default function  Ourconsultants()  {
           </Item>
         </Grid>
       </Grid>
-      <Grid xl={1.5} lg={.2} md={0.5}  sm={0.3} xs={1.5}className='margincard'></Grid>
-      <Grid xl={1.5} lg={.5} md={.5}  sm={.2} xs={1.5}className='margincard'></Grid>
-      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xl={0.2} lg={0.1} md={0.5}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={0.4} lg={0.1} md={.5}  sm={0.2} xs={0}className='margincard'></Grid>
+      <Grid xl={.2} lg={.6} md={1}  sm={0.1} xs={1.5}className='margincard'></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
       <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
-        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={4.5}>
           <Item >
           <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
@@ -141,7 +188,7 @@ export default function  Ourconsultants()  {
                   </button></Link>
           </Item>
         </Grid>
-        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={4} lg={4} md={3.6} xs={0} sm={0}></Grid>
         <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
           <Item  >
               <Link to="/Booksession">
@@ -154,12 +201,13 @@ export default function  Ourconsultants()  {
           </Item>
         </Grid>
       </Grid>
-      <Grid xl={0} lg={0.1} md={0.5}  sm={0.2} xs={1.5}className='margincard'></Grid>
-      <Grid xl={0} lg={0.1} md={.5}  sm={0.2} xs={0}className='margincard'></Grid>
-      <Grid xl={3} lg={.6} md={1}  sm={0.1} xs={1.5}className='margincard'></Grid>
-      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+
+      <Grid xl={0.4} lg={0} md={0.2}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={0.3} lg={0} md={0.1} sm={.3} xs={0}className='margincard'></Grid>
+      <Grid xl={.1} lg={.7} md={0}  sm={.7} xs={1.5}className='margincard'></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
       <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
-        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
+        <Grid xs={8} sm={6} md={6} lg={4.5} xl={4.5}>
           <Item >
           <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
@@ -188,7 +236,7 @@ export default function  Ourconsultants()  {
                   </button></Link>
           </Item>
         </Grid>
-        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={4} lg={4} md={3.6} xs={0} sm={0}></Grid>
         <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
           <Item  >
               <Link to="/Booksession">
@@ -202,59 +250,11 @@ export default function  Ourconsultants()  {
         </Grid>
       </Grid>
 
-      <Grid xl={0} lg={0} md={0.2}  sm={0.2} xs={1.5}className='margincard'></Grid>
-      <Grid xl={0} lg={0} md={0.1} sm={.3} xs={0}className='margincard'></Grid>
-      <Grid xl={3} lg={.7} md={0}  sm={.7} xs={1.5}className='margincard'></Grid>
-      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
-      <Grid xs={2} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
-        <Grid xs={8} sm={6} md={6} lg={4.5} xl={12}>
-          <Item >
-          <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
-          </Item>
-        </Grid>
-
-          <Grid lg={12} md={12}sm={12} xs={12}>
-            <Item >
-             
-              <Box >
-                <p ><b><span className='name'>Puja Roy</span> </b></p>
-                <p >Masters in Business Administration</p>
-                <p >Exp:3 years</p>
-              </Box>
-            </Item>
-            <Item  >
-              <span > Next availabe at: 12/5/2022 1:00 PM</span>
-            </Item>
-          </Grid>
- 
-        <Grid xl={3} lg={3} md={4}  sm={12} xs={12}>
-          <Item >
-
-                <Link to="/Viewprofile">
-                <button className="counselorcardbutton" >
-                  <span>View Profile</span>
-                  </button></Link>
-          </Item>
-        </Grid>
-        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
-        <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
-          <Item  >
-              <Link to="/Booksession">
-              <span className='bookbutton'>
-              <button className="counselorcardbutton">
-             Book Session
-                </button>
-              </span>
-                </Link>
-          </Item>
-        </Grid>
-      </Grid>
-
-      <Grid xl={0} lg={0.52} md={1}  sm={0.2} xs={1.5}className='margincard'></Grid>
-      <Grid xl={3} lg={.23} md={1} xs={1.5} sm={.3}className='margincard'></Grid>
-      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xl={0.9} lg={0.52} md={1}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={.7} lg={.23} md={1} xs={1.5} sm={.3}className='margincard'></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
       <Grid xs={2.5} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
-        <Grid xs={7} sm={6} md={6} lg={4.5} xl={12}>
+        <Grid xs={7} sm={6} md={6} lg={4.5} xl={4.5}>
           <Item >
           <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
@@ -283,7 +283,7 @@ export default function  Ourconsultants()  {
                   </button></Link>
           </Item>
         </Grid>
-        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={4} lg={4} md={3.6} xs={0} sm={0}></Grid>
         <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
           <Item  >
               <Link to="/Booksession">
@@ -297,17 +297,17 @@ export default function  Ourconsultants()  {
         </Grid>
       </Grid>
 
-      <Grid xl={1.5} lg={0.4} md={0.5}  sm={0.2} xs={1.5}className='margincard'></Grid>
-      <Grid xl={1.5} lg={.4} md={.5} xs={1.5} sm={.3}className='margincard'></Grid>
-      <Grid xl={3.5} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
+      <Grid xl={.3} lg={0.4} md={0.5}  sm={0.2} xs={1.5}className='margincard'></Grid>
+      <Grid xl={.5} lg={.4} md={.5} xs={1.5} sm={.3}className='margincard'></Grid>
+      <Grid xl={2} lg={3} md={4.5} sm={3.2} xs={9} container spacing={0} className='counselorlistcard' >
       <Grid xs={2.5} sm={2.7} md={2.8} lg={3.6} xl={3.6}></Grid>
-        <Grid xs={7} sm={6} md={6} lg={4.5} xl={12}>
+        <Grid xs={7} sm={6} md={6} lg={4.5} xl={4.5}>
           <Item >
           <img  className='counselorcardimg' src='https://www.felicity.care/assets/images/homepage-slides/zoha-slide.webp' alt='counselor1'/>
           </Item>
         </Grid>
 
-          <Grid  lg={12} md={12}sm={12} xs={12}>
+          <Grid  lg={12} md={12}sm={12} xs={12} xl={12}>
             <Item >
              
               <Box >
@@ -330,7 +330,7 @@ export default function  Ourconsultants()  {
                   </button></Link>
           </Item>
         </Grid>
-        <Grid xl={3} lg={4} md={3.6} xs={0} sm={0}></Grid>
+        <Grid xl={4} lg={4} md={3.6} xs={0} sm={0}></Grid>
         <Grid xl={3} lg={3} md={3} xs={12} sm={12} >    
           <Item  >
               <Link to="/Booksession">
@@ -360,22 +360,23 @@ export default function  Ourconsultants()  {
 
 // Filter
 const top100Films = [
-  { title: 'Puja Roy'},
-  { title: 'Pranav Bhatia', year: 1972 },
+  { title: 'Adam Joan', year: 1957 },
   { title: 'Jeena Albert', year: 1974 },
   { title: 'Leena Joseph', year: 2008 },
-  { title: 'Adam Joan', year: 1957 },
-  { title: "Oscar Rafy", year: 1993 }
+  { title: "Oscar Rafy", year: 1993 },
+  { title: 'Pranav Bhatia', year: 1972 },
+  { title: 'Puja Roy'},
 ];
 
 const category = [
-  { title: 'Business'},
   { title: 'Arts', year: 1972 },
+  { title:"Aviation"},
+  { title: 'Business'},
+  { title:"Education"},
+  { title: "Law enforcement"},
+  { title: "Media", year: 1993 },
+  { title: 'Medical', year: 1957 },
   { title: 'Service industries', year: 1974 },
   { title: 'Technology', year: 2008 },
-  { title: 'Medical', year: 1957 },
-  { title: "Media", year: 1993 },
-  { title: "Low enforcement"},
-  { title:"Education"},
-  { title:"Aviation"}
+
 ];

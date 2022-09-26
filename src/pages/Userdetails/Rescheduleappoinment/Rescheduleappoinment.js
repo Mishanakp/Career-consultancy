@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import './Rescheduleappoinment.css'
-
+import { Link } from 'react-router-dom';
 import TextareaAutosize from '@mui/material/TextareaAutosize'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
@@ -10,17 +10,58 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
+import Modal from '@mui/material/Modal';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import Typography from '@mui/material/Typography';
 
 
 function Rescheduleappoinment() {
+
+  const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+        bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
+
+
+  const style2 = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 450,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
+
+  
     const [age, setAge] = React.useState('');
  
-
+    const [open2, setOpen2] = React.useState(false);
+    const handleOpen2 = () => setOpen2(true);
+    const handleClose2 = () => setOpen2(false);
 
   const handleChange = (event) => {
     setAge(event.target.value);
   };
+
+  const [open21, setOpen21] = React.useState(false);
+    const handleOpen21 = () =>setOpen21(true);
+    const handleClose21 = () => setOpen21(false);
   
+
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    
   return (
     <div>
         <div className='backgroundresherdule'>
@@ -70,37 +111,12 @@ function Rescheduleappoinment() {
          <Grid item lg={2} md={2} sm={1}></Grid>
          {/*********************** */}
 
-         <Grid item lg={2} md={2} sm={1}></Grid>
-       
-       <Grid item  lg={3} md={3} sm={4}>
-       <p className='date2'>Reschedule Reason</p>
-        </Grid>
-        <Grid item  lg={5} md={5} sm={6}>
-        <FormControl sx={{ m: 1, minWidth: 200 }} >
-        <Select
-          value={age}
-          onChange={handleChange}
-          displayEmpty
-          inputProps={{ 'aria-label': 'Without label' }}
-          id='select'
-   
-        >
-          <MenuItem value="">
-          <em >None</em>
-          </MenuItem>
-          <MenuItem value={10}>Health issue</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
-        </Select>
         
-      </FormControl>
-        </Grid>
-        <Grid item lg={2} md={2} sm={1}></Grid>
         {/********************************** */}
         <Grid item lg={2} md={2} sm={1}></Grid>
        
        <Grid item  lg={3} md={3} sm={4}>
-       <p className='date2'>Explanation</p>
+       <p className='date2'>Reason</p>
         </Grid>
         <Grid item  lg={5} md={5} sm={6}>
         <TextareaAutosize
@@ -120,7 +136,7 @@ function Rescheduleappoinment() {
         </Grid>
         <Grid item  lg={5} md={5} sm={6}>
 
-        <div uk-slideshow="animation: push" >
+        <div uk-slideshow="animation: none" >
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
 
@@ -297,19 +313,54 @@ function Rescheduleappoinment() {
               className="buttonresh"
              
               
+              onClick={handleOpen2}
               
           
               >
                 Reschedule Appointment</Button>
+
+
+                <Modal
+  open={open2}
+  onClose={handleClose2}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+   
+     Updated successfully!!!
+    </Typography>
+    <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#23BDB8'}}/>
+    <Link to="/userprofile"><Button style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Okay</Button></Link>
+  </Box>
+</Modal>
                 <Button
               variant="contained"
               className="buttonresh1"
              
-              
+              onClick={handleOpen21}
               
           
               >
                 Cancel Reschedule Request</Button>
+
+
+                <Modal
+  open={open21}
+  onClose={handleClose21}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style2} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead1'>
+     Cancel Rescheduleappoinment
+    </Typography>
+    <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#d64242'}}/>
+ 
+    <Link to="/userprofile"><Button style={{backgroundColor:'#d64242',color:'#F5FFFA'}}>Okay</Button></Link>
+  </Box>
+</Modal>
 
        </Grid>
         
@@ -373,38 +424,12 @@ function Rescheduleappoinment() {
          <Grid item xs={.5} sm={.5}></Grid>
          {/*********************** */}
 
-         <Grid item xs={.5} sm={.5}></Grid>
-       
-       <Grid item  xs={11.5} sm={11.5}>
-       <p className='date2'>Reschedule Reason</p>
-        </Grid>
-        <Grid item xs={4} sm={4}></Grid>
-        <Grid item  xs={6} sm={6}>
-        <FormControl sx={{ m: 1,  }} className='select'>
-        <Select
-          value={age}
-          onChange={handleChange}
-          displayEmpty
-          inputProps={{ 'aria-label': 'Without label' }}
-          className='select'
-        >
-          <MenuItem value="">
-          <em >None</em>
-
-          </MenuItem>
-          <MenuItem value={10}>Health issue</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
-        </Select>
         
-      </FormControl>
-        </Grid>
-        <Grid item xs={2} sm={2}></Grid>
         {/********************************** */}
         <Grid item xs={.5} sm={.5}></Grid>
        
         <Grid item  xs={11.5} sm={11.5}>
-       <p className='date2'>Explanation</p>
+       <p className='date2'>Reson</p>
         </Grid>
         <Grid item xs={4} sm={4}></Grid>
         <Grid item  xs={6}>
@@ -426,7 +451,7 @@ function Rescheduleappoinment() {
         <Grid item xs={2}></Grid>
         <Grid item  xs={10}>
 
-        <div uk-slideshow="animation: push" >
+        <div uk-slideshow="animation: none" >
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
 
@@ -505,7 +530,7 @@ function Rescheduleappoinment() {
         <TextField
           id="outlined-read-only-input"
          
-          defaultValue="9:00 AM"
+          defaultValue="1:30 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -513,7 +538,7 @@ function Rescheduleappoinment() {
            <TextField
           id="outlined-read-only-input"
          
-          defaultValue="9.30 AM"
+          defaultValue="2.00 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -528,7 +553,7 @@ function Rescheduleappoinment() {
            <TextField
           id="outlined-read-only-input"
          
-          defaultValue="10.30 PM"
+          defaultValue="2.30 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -538,7 +563,7 @@ function Rescheduleappoinment() {
 <TextField
           id="outlined-read-only-input"
          
-          defaultValue="11.00 AM"
+          defaultValue="3.00 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -546,7 +571,7 @@ function Rescheduleappoinment() {
             <TextField
               disabled
               id="outlined-disabled"
-              defaultValue="11.00 AM"
+              defaultValue="3.30 PM"
             /></span> 
 
 <br/>
@@ -590,10 +615,28 @@ function Rescheduleappoinment() {
               className="buttonresh"
              
               
+              onClick={handleOpen2}
               
           
               >
                 Reschedule Appointment</Button>
+
+
+                <Modal
+  open={open2}
+  onClose={handleClose2}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+   
+     Updated successfully!!!
+    </Typography>
+    <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#23BDB8'}}/>
+    <Link to="/userprofile"><Button style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Okay</Button></Link>
+  </Box>
+</Modal>
                 
 
        </Grid>
@@ -602,11 +645,28 @@ function Rescheduleappoinment() {
               variant="contained"
               className="buttonresh1"
              
-              
+              onClick={handleOpen21}
               
           
               >
                 Cancel Reschedule Request</Button>
+                              <Modal
+  open={open21}
+  onClose={handleClose21}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style2} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead1'>
+     Cancel Rescheduleappoinment
+    </Typography>
+    <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#d64242'}}/>
+ 
+    <Link to="/userprofile"><Button style={{backgroundColor:'#d64242',color:'#F5FFFA'}}>Okay</Button></Link>
+  </Box>
+</Modal>
+
+                
                 </Grid>
          {/*********************** */}
    <Grid item lg={12} md={12} sm={12}>
@@ -731,7 +791,7 @@ function Rescheduleappoinment() {
         
         <Grid item  xs={12}>
 
-        <div uk-slideshow="animation: push" >
+        <div uk-slideshow="animation: none" >
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
 
@@ -810,7 +870,7 @@ function Rescheduleappoinment() {
         <TextField
           id="outlined-read-only-input"
          
-          defaultValue="9:00 AM"
+          defaultValue="1:30 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -818,7 +878,7 @@ function Rescheduleappoinment() {
            <TextField
           id="outlined-read-only-input"
          
-          defaultValue="9.30 AM"
+          defaultValue="2.00 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -833,7 +893,7 @@ function Rescheduleappoinment() {
            <TextField
           id="outlined-read-only-input"
          
-          defaultValue="10.30 PM"
+          defaultValue="2.30 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -843,7 +903,7 @@ function Rescheduleappoinment() {
 <TextField
           id="outlined-read-only-input"
          
-          defaultValue="11.00 AM"
+          defaultValue="3.00 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -851,14 +911,14 @@ function Rescheduleappoinment() {
             <TextField
               disabled
               id="outlined-disabled"
-              defaultValue="11.00 AM"
+              defaultValue="3.30 AM"
             /></span> 
 
 <br/>
 <TextField
           id="outlined-read-only-input"
          
-          defaultValue="11.30 PM"
+          defaultValue="4.00 PM"
           InputProps={{
             readOnly: true,
           }}
@@ -866,7 +926,7 @@ function Rescheduleappoinment() {
             <TextField
               disabled
               id="outlined-disabled"
-              defaultValue="12.00 AM"
+              defaultValue="4.30 PM"
             /></span> 
 
 <br/>
@@ -894,11 +954,32 @@ function Rescheduleappoinment() {
               variant="contained"
               className="buttonresh"
              
-              
+              onClick={handleOpen2}
               
           
               >
                 Reschedule Appointment</Button>
+                <Modal
+  open={open2}
+  onClose={handleClose2}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead'>
+     
+    <p className='name'>Consultant name:pooja</p>
+
+    <p className='name'>Booking Date:30/9/2022 </p>
+    <p className='name'>Booking Time:12:00PM </p>
+     Updated successfully!!!
+   
+    <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#23BDB8'}}/>
+    <Link to="/userprofile"><Button style={{backgroundColor:'#23BDB8',color:'#F5FFFA'}}>Okay</Button></Link>
+  
+    </Typography>
+  </Box>
+</Modal>
                 
 
        </Grid>
@@ -907,11 +988,29 @@ function Rescheduleappoinment() {
               variant="contained"
               className="buttonresh1"
              
-              
+              onClick={handleOpen21}
               
           
               >
                 Cancel Reschedule Request</Button>
+
+
+                <Modal
+  open={open21}
+  onClose={handleClose21}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style2} className="updateModal">
+    <Typography id="modal-modal-title" variant="h6" component="h2" className='modalupdatehead1'>
+     Cancel Rescheduleappoinment
+    <CheckCircleOutlineIcon  className='checkIconUser' sx={{color:'#d64242'}}/>
+ 
+    <Link to="/userprofile"><Button style={{backgroundColor:'#d64242',color:'#F5FFFA'}}>Okay</Button></Link>
+    </Typography>
+
+</Box>
+</Modal>
                 </Grid>
          {/*********************** */}
    <Grid item lg={12} md={12} sm={12}>

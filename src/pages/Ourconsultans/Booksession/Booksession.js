@@ -8,12 +8,14 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import './Booksession.css';
 //import { CalendarPicker } from '@mui/x-date-pickers/CalendarPicker';
-import SignUp from '../../../Authentication/SignUp/SingUp';
+//import SignUp from '../../../Authentication/SignUp/SingUp';
 
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import Button from '@mui/material/Button';
+
+
 
 
 function Booksession() {
@@ -28,15 +30,14 @@ function Booksession() {
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
+    height:300,
   };
 
-  const [open2, setOpen2] = React.useState(false);
-  const handleOpen2 = () => setOpen2(true);
-  const handleClose2 = () => setOpen2(false);
-
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   const [value, setValue] = React.useState(dayjs());
-  // const [date, setDate] = React.useState(dayjs());
 
   return (
     <div className='backgrounddiv'>
@@ -244,31 +245,37 @@ function Booksession() {
 
 </div>
     <br/>
-    <Link to="/SignUp" >
-    <button className="booksessionpagebutton" onClick={handleOpen2}>   
-        <span style={{color:'white'}}>Book Now</span>
-    </button></Link> 
-    {/* <Modal
-  open={open2}
-  onClose={handleClose2}
-  aria-labelledby="modal-modal-title"
-  aria-describedby="modal-modal-description"
->
-  <Box sx={style} className="updateModal">
-    <Typography id="modal-modal-title" variant="h6" component="h2" className='bookmodalupdatehead'>
-     Consultant name: Pooja Roy
-     <br/>
-     Booking date: 03/10/2022
-     <br/>
-     Booking Time: 2.00 PM
-    </Typography>
-    <button className="booksessionpagebutton" >Book Now</button>
-  </Box>
-</Modal> */}
-    <br/><br/><br/>  
-</Grid>
+       <Button
+              variant="contained"
+              className="booksessionpagebutton"
+              onClick={handleOpen} > Book Now</Button>
 
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
 
+          <Box sx={style} className="confirmModal">
+            <Typography id="modal-modal-title" variant="h6" component="h2" className='modalconfirm'>
+            <br/>
+            Consultant name: &nbsp;Pooja Roy
+            <br/>
+            Booking date:&nbsp; 03/10/2022
+            <br/> 
+            Booking Time: &nbsp;2.00 PM
+            
+            <br/><br/> 
+            {/* <Link to="/Booksession"><Button  >Back</Button></Link> */}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Link to="/payment"><Button  className="booksessionpagebutton">Confirm</Button></Link>
+            
+            </Typography>
+          </Box>
+        </Modal>
+        <br/><br/><br/>  
+        </Grid>
 
 
 

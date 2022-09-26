@@ -32,7 +32,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 function  SingUp() {
-  const initialValues = { username: "", email: "", password: "",password2: "",showPassword: false};
+  const initialValues = { username: "", email: "", password: "",password2: "",showPassword: false,showPassword: false,};
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
@@ -54,6 +54,7 @@ const handleClickShowPassword = () => {
   setFormValues({
     ...formValues,
     showPassword: !formValues.showPassword,
+    
   });
 };
 
@@ -65,7 +66,7 @@ const handleMouseDownPassword = (event) => {
 const handleClickShowPassword2 = () => {
   setFormValues({
     ...formValues,
-    showPassword: !formValues.showPassword,
+    showPassword2: !formValues.showPassword2,
   });
 };
 
@@ -76,7 +77,9 @@ const handleMouseDownPassword2 = (event) => {
 
 
 
-
+React.useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
 
 
@@ -290,7 +293,7 @@ const handleMouseDownPassword2 = (event) => {
             //   ),
             // }}
 
-            type={formValues.showPassword ? 'text' : 'password'}
+            type={formValues.showPassword2 ? 'text' : 'password'}
             InputProps={{
             startAdornment:(<InputAdornment position="start"> <LockIcon style={{color:' #23BDB8 '}}/></InputAdornment>),
           endAdornment:(<InputAdornment position="end">
@@ -301,7 +304,7 @@ const handleMouseDownPassword2 = (event) => {
                     edge="end"
                     style={{color:' #23BDB8 '}}
                   > 
-                    {formValues.showPassword ? <VisibilityOff /> : <Visibility />}
+                    {formValues.showPassword2 ? <VisibilityOff /> : <Visibility />}
                   </IconButton>
           </InputAdornment>),
               

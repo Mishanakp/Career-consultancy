@@ -40,12 +40,12 @@ function SamplePrevArrow(props) {
 }
 
 function Home() {
-
+  
   useEffect(() =>{
     Aos.init({});
 },[]);
 React.useEffect(() => {
-  window.scrollTo(0, 0);
+  window.scrollTo(0, 0); 
 }, []);
 
 const settings = {
