@@ -211,7 +211,7 @@ p.priprivacy__terms{
     }    
         
         }
-        @media only screen and (max-width:912px) and (min-width:769px){
+        @media only screen and (max-width:912px) and (min-width:821px){
         p.footerParaCons{
             width: 180px;
             margin-left: 50px;
@@ -247,6 +247,42 @@ p.priprivacy__terms{
         }
             
             }
+            @media only screen and (max-width:820px) and (min-width:769px){
+                p.footerParaCons{
+                    width: 180px;
+                    margin-left: 50px;
+                    margin-top: 20px;
+                    text-align: justify; 
+                    color: #4a6f8a;
+                    font-size: 14px;
+                }
+                .footerContainer{ 
+                    padding-left: 50px
+                }
+                img.footerLogo2{ 
+                    width: 180px;   
+                 margin-left: 50px;    
+                } 
+                h1.footHead1{ 
+                    width: 300px;
+                    font-size: 17px;
+                }
+                    li.footLIstitem1{
+                    font-size: 13px;  
+                    width: 150px;
+                    }
+                    
+                p.priprivacy__terms{
+                    padding: 15px 0;
+                    margin-left: 150px; 
+                    font-size: 13px; 
+                }    
+                p.pricopyright{ 
+                    margin-left: 40px;
+                    font-size: 13px; 
+                }
+                    
+                    }
             @media only screen and (max-width:768px) and (min-width:674px){
                 p.footerParaCons{
                     width: 180px;
